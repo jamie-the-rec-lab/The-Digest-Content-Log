@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TheRecLab Weekly Digest — 4 Nov 2026</title>
+<meta name="description" content="I got sick of hunting for all my fav recruiting content, so I built a bunch of agents that find it all for me and save it into my 'recruiting brain'. Check out this week's version to stay up to date with the latest.">
+<meta property="og:title" content="TheRecLab Weekly Digest">
+<meta property="og:description" content="I got sick of hunting for all my fav recruiting content, so I built a bunch of agents that find it all for me and save it into my 'recruiting brain'. Check out this week's version to stay up to date with the latest.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.thereclab.ai/digest">
+<meta property="og:image" content="https://www.thereclab.ai/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TheRecLab Weekly Digest">
+<meta name="twitter:description" content="I got sick of hunting for all my fav recruiting content, so I built a bunch of agents that find it all for me and save it into my 'recruiting brain'. Check out this week's version to stay up to date with the latest.">
+<meta name="twitter:image" content="https://www.thereclab.ai/assets/og-image.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=4">
+<link rel="icon" type="image/png" sizes="256x256" href="/favicon.png?v=4">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=4">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#efe9df;color:#33302b;line-height:1.6;margin:0}
+  .digest{max-width:820px;margin:0 auto 44px;background:#fbfaf7;border-radius:18px;box-shadow:0 12px 44px rgba(60,48,30,0.16);padding:56px 56px 52px}
+  header{border-bottom:2px solid #1a1a1a;padding-bottom:14px;margin-bottom:24px}
+  .htop{display:flex;justify-content:space-between;align-items:baseline;gap:16px}
+  .kicker{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:30px;font-weight:700;color:#1a1a1a;letter-spacing:-.5px;line-height:1.1;margin:0}
+  .date{color:#9a8f80;font-size:13px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;flex-shrink:0}
+  .subtitle{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-style:italic;font-size:14px;color:#8a7f70;margin:16px 0 0;line-height:1.5}
+  .subtitle a{color:inherit;text-decoration:none}
+  .subtitle a:hover{color:#b3411f;text-decoration:underline;text-underline-offset:2px}
+  .summary{margin-bottom:30px}
+  .summary h2{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-style:italic;font-size:16px;color:#8a7f70;margin:0 0 4px;font-weight:400}
+  .summary h2 strong{color:#1a1a1a;font-style:normal}
+  .summary ul{margin:0;padding-left:0;list-style:none}
+  .summary li{display:flex;gap:14px;align-items:flex-start;font-size:14.5px;color:#5c544a;line-height:1.5;border-top:1px solid #eee5d8;padding-top:12px;margin-bottom:12px;cursor:pointer}
+  .summary li::before{content:none}
+  .summary li:last-child{margin-bottom:0}
+  .summary .theme{font-size:13px;color:#8a7f70;margin:0 0 16px;font-style:italic;line-height:1.5}
+  .summary .brief-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#1a1a1a;margin:0 0 6px}
+  .summary .brief-text{font-size:14px;color:#4a453d;margin:0 0 20px;line-height:1.55}
+  .summary h2.sh{font-style:normal;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#b3411f;margin:0 0 12px}
+  .summary .pick{flex:0 0 88px;white-space:nowrap;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:#b3411f}
+  .summary .body a{color:#1a1a1a;font-weight:700;text-decoration:none;display:block}
+  .summary .body .why{display:block;margin-top:3px;color:#5c544a;font-weight:400}
+  .summary li:hover .body a{color:#b3411f;text-decoration:underline;text-underline-offset:2px}
+  section{margin-bottom:16px}
+  details{margin:32px 0 0}
+  summary.sec{font-family:-apple-system,sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#f3ede2;font-weight:600;background:#242b38;border-radius:10px;padding:10px 16px;display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none;user-select:none}
+  summary.sec::-webkit-details-marker{display:none}
+  summary.sec .lbl{flex:1}
+  .cnt{font-family:-apple-system,sans-serif;font-size:11px;font-weight:600;letter-spacing:.02em;color:#9aa2b1}
+  .chev{color:#9aa2b1;font-size:15px;line-height:1;transition:transform .15s ease;transform:rotate(90deg)}
+  details[open] .chev{transform:rotate(-90deg)}
+  .sbody{padding-top:16px}
+  .item{padding:0 0 18px;margin-bottom:18px;border-bottom:1px solid #e7e1d6}
+  .item.last{border-bottom:none;margin-bottom:0}
+  .chead{display:flex;justify-content:space-between;gap:14px;align-items:baseline}
+  .src{font-family:-apple-system,sans-serif;font-size:12px;font-weight:700;letter-spacing:.02em;color:#b3411f;flex:1}
+  .src .brand{color:#9a8f80;font-weight:400}
+  a.ttl{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:19px;font-weight:700;color:#1a1a1a;line-height:1.25;text-decoration:none;display:block;margin-top:3px}
+  a.ttl:hover{color:#b3411f;text-decoration:underline;text-underline-offset:2px}
+  .cdate{color:#b0a695;font-size:12px;white-space:nowrap;flex-shrink:0}
+  .guest{color:#8a7f70;font-size:13.5px;font-style:italic;margin:5px 0 0}
+  .pts{margin:10px 0 0;padding-left:0;list-style:none;color:#4a453d;font-size:14px}
+  .pts li{margin-bottom:6px;line-height:1.5;padding-left:16px;position:relative}
+  .pts li::before{content:"•";position:absolute;left:2px;top:0;color:#b3411f;font-size:15px;line-height:1.35}
+  .pts li:last-child{margin-bottom:0}
+  .vgroup-title{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:19px;font-weight:700;color:#1a1a1a;line-height:1.25;margin-top:3px}
+  .pts a{color:#4a453d;text-decoration:none}
+  .pts a .rt{color:#1a1a1a;font-weight:700}
+  .pts a:hover .rt{color:#b3411f;text-decoration:underline;text-underline-offset:2px}
+  .empty{color:#9a8f80;font-size:13.5px;font-style:italic;padding:2px 0 4px}
+  .foot{color:#b0a695;font-size:12px;border-top:2px solid #1a1a1a;padding-top:16px;margin-top:30px;line-height:1.55}
+  .signup{border:1px solid #e7e1d6;background:#fff;border-radius:14px;padding:22px 24px;margin:0 auto 44px;max-width:820px}
+  .signup h3{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:17px;font-weight:700;color:#1a1a1a;margin:0 0 4px}
+  .signup .intro{color:#5c544a;font-size:14px;margin:0}
+  .signup form{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+  .signup input[type=email]{flex:1;min-width:200px;font:inherit;font-size:14px;padding:10px 12px;border:1px solid #d9d2c6;border-radius:8px;color:#33302b;background:#fbfaf7}
+  .signup input[type=email]:focus{outline:none;border-color:#b3411f}
+  .signup button{font:inherit;font-size:14px;font-weight:700;color:#fff;background:#b3411f;border:none;border-radius:8px;padding:10px 18px;cursor:pointer}
+  .signup button:hover{background:#93341a}
+  .signup button:disabled{opacity:.6;cursor:default}
+  .signup .msg{font-size:13px;margin:10px 0 0;min-height:1em}
+  .signup .msg.ok{color:#3f7d3f}
+  .signup .msg.err{color:#b3411f}
+  .signup .note{color:#9a8f80;font-size:12px;margin:8px 0 0}
+  .topsub{margin:20px 0 0;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .topsub form{display:flex;gap:8px;flex:1;min-width:240px}
+  .topsub input[type=email]{flex:1;min-width:0;font:inherit;font-size:13px;padding:7px 10px;border:1px solid #d9d2c6;border-radius:8px;color:#33302b;background:#fff}
+  .topsub input[type=email]:focus{outline:none;border-color:#b3411f}
+  .topsub button{font:inherit;font-size:13px;font-weight:700;color:#fff;background:#b3411f;border:none;border-radius:8px;padding:7px 14px;cursor:pointer}
+  .topsub button:hover{background:#93341a}
+  .topsub button:disabled{opacity:.6;cursor:default}
+  .topsub .msg{flex-basis:100%;font-size:12.5px;margin:2px 0 0;min-height:0}
+  .topsub .msg.ok{color:#3f7d3f}
+  .topsub .msg.err{color:#b3411f}
+  .foot .sources-link{color:#b3411f;font-weight:600;cursor:pointer;text-decoration:none}
+  .foot .sources-link:hover{text-decoration:underline;text-underline-offset:2px}
+  .signoff{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:22px}
+  .signoff-img{width:68px;height:68px;border-radius:18px;object-fit:cover;object-position:center top;flex:none;display:block}
+  .signoff-name{font-size:15px;font-weight:700;color:#1a1a1a;line-height:1.35;margin-bottom:4px}
+  .signoff-role{font-size:13px;color:#8a7f70;line-height:1.35;margin-bottom:4px}
+  .signoff-link{font-size:13.5px;font-weight:700;color:#b3411f;text-decoration:none;line-height:1.35}
+  .signoff-link:hover{text-decoration:underline;text-underline-offset:2px}
+  .overlay{position:fixed;inset:0;background:rgba(26,26,26,.55);display:none;align-items:flex-start;justify-content:center;padding:40px 16px;z-index:50;overflow:auto}
+  .overlay.open{display:flex}
+  .noscroll{overflow:hidden}
+  .overlay-card{background:#fbfaf7;border-radius:16px;max-width:640px;width:100%;padding:28px 30px 30px;position:relative;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+  .overlay-card h3{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:20px;font-weight:700;color:#1a1a1a;margin:0 0 4px}
+  .overlay-card .osub{color:#8a7f70;font-size:13.5px;margin:0 0 18px}
+  .overlay-close{position:absolute;top:14px;right:16px;background:none;border:none;font-size:24px;line-height:1;color:#9a8f80;cursor:pointer;padding:4px}
+  .overlay-close:hover{color:#b3411f}
+  .src-group{margin:0 0 18px}
+  .src-group h4{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a99e8d;font-weight:700;margin:0 0 8px}
+  .src-group ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px 0}
+  .src-group li{font-size:14px}
+  .src-group a{color:#33302b;text-decoration:none}
+  .src-group a:hover{color:#b3411f;text-decoration:underline;text-underline-offset:2px}
+  .src-group li:not(:last-child)::after{content:"|";margin:0 12px;color:#cfc7b8}
+  .src-brand{color:#a99e8d;font-size:12.5px}
+  .page{position:relative;max-width:820px;margin:0 auto;padding-top:48px}
+  .backlink{position:absolute;top:48px;left:0;transform:translateX(-100%);margin-left:-60px;display:inline-block;font-family:-apple-system,sans-serif;font-size:13px;font-weight:600;letter-spacing:.01em;color:#242b38;text-decoration:none;white-space:nowrap}
+  .backlink:hover{color:#b3411f;text-decoration:underline;text-underline-offset:3px}
+  @media(max-width:1340px){.page{padding-top:0}.backlink{position:static;transform:none;margin:32px 0 12px 6px}}
+  @media(max-width:600px){.summary li{flex-direction:column;gap:3px;align-items:flex-start}.summary .pick{flex-basis:auto}.htop{flex-direction:column;align-items:flex-start;gap:8px}body{background:#fbfaf7}.digest{background:none;box-shadow:none;border-radius:0;padding:36px 20px 30px;margin:0}.kicker{font-size:23px}header{padding-bottom:12px;margin-bottom:20px}.date{font-size:11px}.backlink{margin:16px 0 6px 20px}a.ttl{font-size:17px}.cdate{font-size:11px}.signup{border-radius:0;border-left:none;border-right:none;margin:0}}
+</style>
+</head>
+<body>
+<div class="page">
+  <a class="backlink" href="https://thereclab.ai">Go back to TheRecLab</a>
+  <div class="digest">
+  <header>
+    <div class="htop">
+      <h1 class="kicker">TheRecLab Weekly Digest</h1>
+      <div class="date">Version 8 (4th November 2026)</div>
+    </div>
+    <p class="subtitle">A weekly digest of high quality recruiting content, sources carefully selected by <a href="https://www.linkedin.com/in/jamiejaylyons/" target="_blank" rel="noopener">Jamie Jay Lyons</a></p>
+    <!-- TOP SIGNUP: keep this block as-is on every weekly rebuild. Shares /api/subscribe (Resend). -->
+    <div class="topsub">
+      <form class="subform" novalidate>
+        <input type="email" placeholder="Enter your email to subscribe and receive the digest in your inbox weekly" autocomplete="email" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="msg" role="status" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <div class="summary">
+    <p class="brief-label">This week in the world of recruiting</p>
+    <p class="brief-text">UK vacancies have fallen to their lowest outside the pandemic since 2014, and REC finds UK employers&#x27; permanent hiring intentions edging down. Talent engineering is the argument of the week, from a Zapier talent engineer&#x27;s case for buying over building to Data Driven Recruiter asking whether the job is real. Pin and Teamtailor ship AI that acts on candidates for you, while Dayforce is buying AI interviewing firm Ribbon AI. And in the world of AI, a Figma product manager runs his day from shared AI skills, and Kevin Roose had a council of Claude agents review his book.</p>
+    <h2 class="sh">Standout content from this week</h2>
+    <ul>
+      <li><span class="pick">Podcast</span><span class="body"><a href="https://www.youtube.com/watch?v=xY2OLbPRskw" target="_blank" rel="noopener">Building the Talent Machine, Talent Engineering Hard Truths (Dan McCarthy)</a><span class="why">Zapier&#x27;s senior talent engineer will not rebuild tools like Juicebox, Metaview or Pin, and asks who will maintain any tool before it gets built. Run that check before your team starts its next automation project.</span></span></li>
+      <li><span class="pick">Newsletter</span><span class="body"><a href="https://taunboxed.substack.com/p/how-good-are-your-recruiters-at-spotting" target="_blank" rel="noopener">TA Unboxed, How good are your recruiters at spotting talent?</a><span class="why">Add one date-stamped Standout flag at CV review and screening, then measure how often each recruiter flagged the eventual hire before the first interview. It turns gut feel about talent spotting into a number.</span></span></li>
+      <li><span class="pick">Report</span><span class="body"><a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026" target="_blank" rel="noopener">ONS Labour market overview, UK: October 2026</a><span class="why">UK vacancies fell to 691,000 in July to September 2026, the lowest outside the pandemic since 2014 and down 37,000 on the year, a UK number worth quoting in your next workforce planning conversation.</span></span></li>
+      <li><span class="pick">Launch</span><span class="body"><a href="https://www.pin.com/blog/autopilot/" target="_blank" rel="noopener">Pin, Autopilot</a><span class="why">Once a candidate replies, Pin&#x27;s Autopilot answers their questions and books the interview, and it checks with you on Slack when it does not know an answer. Teams can start on drafts they review before letting it run alone.</span></span></li>
+      <li><span class="pick">AI pick</span><span class="body"><a href="https://www.youtube.com/watch?v=ztt8irafLMQ" target="_blank" rel="noopener">How I AI, The AI chief of staff that this Figma PM uses all day (Ezra Mechaber)</a><span class="why">Figma keeps 60 to 70 product managers roughly in sync with one shared set of AI skills, a setup a TA ops team could copy for its own prompts and workflows.</span></span></li>
+    </ul>
+  </div>
+
+  <section>
+    <details open>
+    <summary class="sec"><span class="lbl">Recruiting Podcasts</span><span class="cnt">5</span><span class="chev" aria-hidden="true">›</span></summary>
+    <div class="sbody">
+    <article class="item">
+      <div class="chead"><span class="src">PromptMates Live</span><span class="cdate">2 Nov 2026</span></div>
+      <a class="ttl" href="https://www.youtube.com/watch?v=wI-TYLIO9ic" target="_blank" rel="noopener">How to Automate Hiring Launches (Claude + Slack)</a>
+      <div class="guest">Emily Paik · Senior People Operations Manager @ Kit</div>
+      <ul class="pts"><li>At Kit, opening a role used to mean the same 30 minutes of manual busywork every time, so Emily Paik replaced it with a single Slack command.</li><li>Paik&#x27;s Slack form offers three options in Ashby: create a new opening, link the job to an opening pre-created for headcount planning with finance, or create the job only.</li><li>Every new role at Kit gets a Slack channel named by rule: engineering roles carry the squad name and contract roles get a contract prefix.</li></ul>
+    </article>
+    <article class="item">
+      <div class="chead"><span class="src">Brainfood</span><span class="cdate">30 Oct 2026</span></div>
+      <a class="ttl" href="https://www.youtube.com/watch?v=l7ulRFqNU3U" target="_blank" rel="noopener">How to Use Claude for Talent Acquisition</a>
+      <ul class="pts"><li>Adriano Herdman gives Claude the intake call transcript and job spec, connected to Clay, and gets back six profiles across three tiers for hiring manager calibration.</li><li>Herdman says his intake calibration skill in Claude cut time to alignment with hiring managers from 24 hours to as little as 10 minutes.</li><li>One panellist says Exa&#x27;s free plan is enough to source up to about 50 to 100 profiles a day when connected to Claude.</li></ul>
+    </article>
+    <article class="item">
+      <div class="chead"><span class="src">Recruiting Future</span><span class="cdate">30 Oct 2026</span></div>
+      <a class="ttl" href="https://www.youtube.com/watch?v=B17AWzJYUW0" target="_blank" rel="noopener">Six Predictions For AI In HR</a>
+      <div class="guest">Vic Akosile · Head of AI Transformation and People Strategy @ Cloudflare</div>
+      <ul class="pts"><li>Vic Akosile judges AI on several dimensions of value beyond time saved, including scale, quality and risk mitigation.</li><li>Akosile&#x27;s most controversial prediction is that staff will hide their AI use, because doing more work with AI just earns them more work.</li><li>With candidate AI and employer AI now talking to each other, Akosile expects a small live project during the interview to become the default way to assess capability.</li></ul>
+    </article>
+    <article class="item">
+      <div class="chead"><span class="src">Building the Talent Machine</span><span class="cdate">29 Oct 2026</span></div>
+      <a class="ttl" href="https://www.youtube.com/watch?v=xY2OLbPRskw" target="_blank" rel="noopener">Talent Engineering Hard Truths</a>
+      <div class="guest">Dan McCarthy · Senior Talent Engineer @ Zapier</div>
+      <ul class="pts"><li>Zapier talent engineer Dan McCarthy will not rebuild enterprise tools such as Juicebox, Metaview or Pin, because he says he would not build them better.</li><li>Before building any recruiting tool, McCarthy asks who the stakeholders are, who will maintain it and what the security risks are.</li><li>McCarthy&#x27;s goal for automation is more time with people: 90 minutes with every candidate before offer, instead of 30.</li></ul>
+    </article>
+    <article class="item last">
+      <div class="chead"><span class="src">Offer Accepted <span class="brand">by Ashby</span></span><span class="cdate">20 Oct 2026</span></div>
+      <a class="ttl" href="https://www.youtube.com/watch?v=N500zEoKH7M" target="_blank" rel="noopener">Halving Attrition With a Connected Career Framework</a>
+      <div class="guest">Nic Weatherhead · Global Vice President of People @ The Stepstone Group</div>
+      <ul class="pts"><li>Stepstone&#x27;s career framework describes every role by scope, knowledge, autonomy and complexity, and it was piloted on the recruitment team first.</li><li>Where someone turned out to be in a smaller role than expected, Stepstone did not change their pay and built them a pathway to the right level instead.</li><li>Nic Weatherhead says AI agents change what autonomy means in a role, with less supervising of people and more verifying of information.</li></ul>
+    </article>
+  </div>
+    </details>
+  </section>
+
+  <section>
+    <details open>
+    <summary class="sec"><span class="lbl">Recruiting Newsletters</span><span class="cnt">5</span><span class="chev" aria-hidden="true">›</span></summary>
+    <div class="sbody">
+    <article class="item">
+      <div class="chead"><span class="src">Data Driven Recruiter</span><span class="cdate">4 Nov 2026</span></div>
+      <a class="ttl" href="https://www.lukeeaton.com" target="_blank" rel="noopener">Is Talent Engineering Bullshit?</a>
+      <ul class="pts"><li>Metaview has split TA into three seats, with Talent Engineers covering AI, automation and building alongside Talent Partners and Talent Ops.</li><li>Pave did not class Talent Engineer as an established new job, grouping it with Marketing Engineer and Legal Engineer as a re-designed role.</li><li>The author&#x27;s test for whether a talent engineer is still a recruiter: will they own any reqs and be accountable for hiring them?</li></ul>
+    </article>
+    <article class="item">
+      <div class="chead"><span class="src">PromptMates Newsletter</span><span class="cdate">3 Nov 2026</span></div>
+      <a class="ttl" href="https://promptmates.beehiiv.com/p/why-anthropic-hiring-leader-dropped-coding-tests" target="_blank" rel="noopener">Why an Anthropic hiring leader dropped coding tests</a>
+      <ul class="pts"><li>Felix Rieseberg, a hiring manager at Anthropic, says that this month he laid the traditional coding interview to rest.</li><li>30% of EU job ads now show a salary range, up from 2% in 2022, according to Revelio Labs figures cited in the issue.</li><li>In vendor research from iCIMS and Kyle &amp; Co. covering 500 leaders, the average organisation puts only about half its purchased AI into production.</li></ul>
+    </article>
+    <article class="item">
+      <div class="chead"><span class="src">Full Stack Recruiter</span><span class="cdate">2 Nov 2026</span></div>
+      <a class="ttl" href="https://newsletter.fullstackrecruiter.net/p/recruiting-outreach-dead-links" target="_blank" rel="noopener">Every Dead Link in Your Outreach Is a Candidate You Paid For and Lost</a>
+      <ul class="pts"><li>Over 12 months, 232 people clicked one agency&#x27;s outreach links to jobs that no longer existed: 14% of the 1,657 people contacted.</li><li>After that agency redirected its dead job links, 31 people ended up in its ATS, 13 became active candidates and 2 were hired.</li><li>Pew found that a quarter of web pages from 2013 to 2023 were no longer accessible by October 2023.</li></ul>
+    </article>
+    <article class="item">
+      <div class="chead"><span class="src">Ashby Community</span><span class="cdate">30 Oct 2026</span></div>
+      <a class="ttl" href="https://try.ashbyhq.com/talent-trends-newsletter/" target="_blank" rel="noopener">Your Talent Insights from Ashby This Month</a>
+      <ul class="pts"><li>Inbound applications made up more than half of hires at Ashby customers by Q1 2026, at 54.3% in EMEA and 51.9% in AMER.</li><li>Across Ashby customers, only 28% of inbound hires receive the top quality of hire score, compared with 36% of referral hires.</li><li>From July 2027, California&#x27;s No Robo Bosses Act stops employers relying solely on AI to discipline or fire someone, so a person must check its output.</li></ul>
+    </article>
+    <article class="item last">
+      <div class="chead"><span class="src">TA Unboxed</span><span class="cdate">30 Oct 2026</span></div>
+      <a class="ttl" href="https://taunboxed.substack.com/p/how-good-are-your-recruiters-at-spotting" target="_blank" rel="noopener">How good are your recruiters at spotting talent?</a>
+      <ul class="pts"><li>TA Unboxed proposes an Early Talent Recognition Rate: how often a recruiter flagged the eventual hire as Standout before the first interview.</li><li>In the issue&#x27;s worked example, two recruiters both spot 75% of eventual hires, but the one using half as many Standout flags gives the stronger signal.</li><li>Date-stamp every Standout flag and record the stage, so nobody can reach offer stage and claim they knew the candidate was brilliant all along.</li></ul>
+    </article>
+  </div>
+    </details>
+  </section>
+
+  <section>
+    <details open>
+    <summary class="sec"><span class="lbl">Recruiting reports, product updates, and more</span><span class="cnt">4</span><span class="chev" aria-hidden="true">›</span></summary>
+    <div class="sbody">
+    <article class="item">
+      <div class="chead"><span class="src">ONS &middot; report</span><span class="cdate">20 Oct 2026</span></div>
+      <a class="ttl" href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026" target="_blank" rel="noopener">Labour market overview, UK: October 2026</a>
+      <ul class="pts"><li>UK vacancies fell to 691,000 in July to September 2026, the lowest outside the Covid period since July to September 2014.</li><li>UK payrolled employees fell by 111,000 (0.4%) between August 2025 and August 2026, according to ONS.</li><li>UK regular pay growth excluding bonuses was 3.7% in June to August 2026, with private sector regular pay growth at 3.0%.</li></ul>
+    </article>
+    <article class="item">
+      <div class="chead"><span class="src">REC &middot; report</span><span class="cdate">29 Sep 2026</span></div>
+      <a class="ttl" href="https://www.onrec.com/node/129117" target="_blank" rel="noopener">JobsOutlook, June to August 2026</a>
+      <ul class="pts"><li>In REC&#x27;s survey of 704 UK employers, economic confidence rose eight points to a net balance of -39% in June to August 2026.</li><li>UK employers&#x27; confidence in making hiring and investment decisions improved by six points to a net balance of -8%.</li><li>Short-term permanent hiring intentions among UK employers edged down one point to a net balance of +8%.</li></ul>
+    </article>
+    <article class="item">
+      <div class="chead"><span class="src">Pin &middot; launch</span><span class="cdate">23 Oct 2026</span></div>
+      <a class="ttl" href="https://www.pin.com/blog/autopilot/" target="_blank" rel="noopener">Autopilot</a>
+      <ul class="pts"><li>Pin&#x27;s Autopilot takes over the conversation once a candidate replies, answering questions, booking interviews and updating pipeline stages.</li><li>Teams can start with Autopilot drafts they review, or let it answer, book and follow up on its own, set team-wide or per job.</li><li>When Autopilot does not know an answer, Pin says it checks with the recruiter on Slack instead of guessing.</li></ul>
+    </article>
+    <article class="item last">
+      <div class="chead"><span class="src">Teamtailor &middot; launch</span><span class="cdate">29 Sep 2026</span></div>
+      <a class="ttl" href="https://www.teamtailor.com/en/productnews/smart-action-just-tell-ai-what-to-do/" target="_blank" rel="noopener">Smart action</a>
+      <ul class="pts"><li>Teamtailor&#x27;s Smart action lets a recruiter describe a task in plain language, then AI applies it to every candidate who enters that stage.</li><li>Smart action only uses what a recruiter on the job would see, such as the CV and application answers, and leaves the record unchanged when information is missing.</li><li>Before a Smart action prompt is saved, a Verify check warns if the request could lead to biased decisions.</li></ul>
+    </article>
+  </div>
+    </details>
+  </section>
+
+  <section>
+    <details open>
+    <summary class="sec"><span class="lbl">AI &amp; Tech Picks</span><span class="cnt">3</span><span class="chev" aria-hidden="true">›</span></summary>
+    <div class="sbody">
+    <article class="item">
+      <div class="chead"><span class="src">AI &amp; I <span class="brand">by Every</span></span><span class="cdate">4 Nov 2026</span></div>
+      <a class="ttl" href="https://www.youtube.com/watch?v=IOp5N4GxE6E" target="_blank" rel="noopener">The Inside Story of the 50 Who Built Modern AI</a>
+      <div class="guest">Kevin Roose · Co-host @ Machine Gods</div>
+      <ul class="pts"><li>Kevin Roose had a council of Claude agents with personas, such as an AI sceptic and an AI historian, review each chapter draft of his book.</li><li>Roose says his agent council caught a couple of factual errors that he and his human editors had missed.</li><li>Roose keeps &#x27;weightlifting&#x27; tasks, where the struggle is part of the benefit, and hands other work such as company paperwork to AI.</li></ul>
+    </article>
+    <article class="item">
+      <div class="chead"><span class="src">How I AI <span class="brand">by Lenny&rsquo;s Podcast</span></span><span class="cdate">2 Nov 2026</span></div>
+      <a class="ttl" href="https://www.youtube.com/watch?v=ztt8irafLMQ" target="_blank" rel="noopener">The AI chief of staff that this Figma PM uses all day</a>
+      <div class="guest">Ezra Mechaber · Growth Product Manager @ Figma</div>
+      <ul class="pts"><li>Figma keeps its 60 to 70 product managers roughly in sync with one shared, automatically updated set of AI skills.</li><li>Ezra Mechaber runs a &#x27;what&#x27;s up&#x27; skill about six times a day, pulling Slack and project context into a priority list.</li><li>When an AI assistant starts looping, Mechaber assumes the conversation&#x27;s context is poisoned and simply starts a new conversation.</li></ul>
+    </article>
+    <article class="item last">
+      <div class="chead"><span class="src">Dayforce &middot; news</span><span class="cdate">23 Oct 2026</span></div>
+      <a class="ttl" href="https://betakit.com/?p=411302" target="_blank" rel="noopener">Dayforce agrees to acquire Ribbon AI</a>
+      <ul class="pts"><li>Dayforce has agreed to acquire Toronto-based Ribbon AI, and neither the purchase price nor the closing date was disclosed.</li><li>Ribbon runs voice and video AI interviews around the clock, with questions and scoring rubrics generated from the job description.</li><li>Once the deal completes, Ribbon&#x27;s technology will be built natively into Dayforce&#x27;s new Agentic Recruiting experience.</li></ul>
+    </article>
+  </div>
+    </details>
+  </section>
+
+  <p class="foot">While sources are carefully selected by Jamie Jay Lyons, descriptions are generated by Claude. Please feel free to give me feedback or highlight any sources you think we should add. <a class="sources-link" id="sources-open" role="button" tabindex="0">View the full list of sources</a></p>
+  <div class="signoff">
+    <img src="https://thereclab.ai/images/founder-jamie.jpg" width="68" height="68" alt="Jamie Jay Lyons" class="signoff-img">
+    <div>
+      <div class="signoff-name">Jamie Jay Lyons</div>
+      <div class="signoff-role">Founder &amp; AI Talent Ops @ TheRecLab</div>
+      <a class="signoff-link" href="https://www.linkedin.com/in/jamiejaylyons/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="14" height="14" fill="#b3411f" aria-hidden="true" style="vertical-align:-2px;margin-right:6px"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>Message me on LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+  <!-- SIGNUP FORM: keep this block and its script as-is on every weekly rebuild. Posts to /api/subscribe (Resend). -->
+  <div class="signup">
+    <h3>Get the digest in your inbox</h3>
+    <p class="intro">One email a week with the best of recruiting, no hunting required.</p>
+    <form id="signup-form" class="subform" novalidate>
+      <input type="email" id="signup-email" name="email" placeholder="Enter your email to subscribe and receive the digest in your inbox weekly" autocomplete="email" required aria-label="Email address">
+      <button type="submit" id="signup-btn">Subscribe</button>
+    </form>
+    <p class="msg" id="signup-msg" role="status" aria-live="polite"></p>
+  </div>
+</div>
+  <!-- SOURCES OVERLAY: keep this block and its wiring as-is on every weekly rebuild. -->
+  <div class="overlay" id="sources-overlay" aria-hidden="true">
+    <div class="overlay-card" role="dialog" aria-modal="true" aria-label="Full list of sources">
+      <button class="overlay-close" id="sources-close" aria-label="Close">&times;</button>
+      <h3>Our sources</h3>
+      <p class="osub">The recurring shows, newsletters and research this digest draws from.</p>
+      <div class="src-group">
+        <h4>Recruiting podcasts</h4>
+        <ul>
+          <li><a href="https://www.youtube.com/@10x_Recruiting_pod" target="_blank" rel="noopener">10x Recruiting</a> <span class="src-brand">by Metaview</span></li>
+          <li><a href="https://www.youtube.com/channel/UCNJ1ECjprHORfyAbE5qyqcg" target="_blank" rel="noopener">Brainfood</a></li>
+          <li><a href="https://www.youtube.com/playlist?list=PLrd3ZPgPqLzmHvhgRKY0IH_5-1TuiDLDM" target="_blank" rel="noopener">Offer Accepted</a> <span class="src-brand">by Ashby</span></li>
+          <li><a href="https://www.youtube.com/user/mattalder1" target="_blank" rel="noopener">Recruiting Future</a></li>
+          <li><a href="https://www.youtube.com/@buildingthetalentmachine" target="_blank" rel="noopener">Building the Talent Machine</a></li>
+          <li><a href="https://www.youtube.com/playlist?list=PLGaFEEU4PKYwIQnkoGFLf3goOyeSudypy" target="_blank" rel="noopener">Recruiting Roadshow</a> <span class="src-brand">by Greenhouse</span></li>
+          <li><a href="https://www.youtube.com/@thedebriefTApodcast" target="_blank" rel="noopener">The Debrief</a></li>
+          <li><a href="https://www.youtube.com/channel/UCBK-L-lWoLkSZw93S3f5VhQ" target="_blank" rel="noopener">PromptMates Live</a></li>
+        </ul>
+      </div>
+      <div class="src-group">
+        <h4>AI &amp; tech podcasts</h4>
+        <ul>
+          <li><a href="https://www.youtube.com/@LennysPodcast" target="_blank" rel="noopener">Lenny's Podcast</a></li>
+          <li><a href="https://www.youtube.com/@howiaipodcast" target="_blank" rel="noopener">How I AI</a> <span class="src-brand">by Lenny’s Podcast</span></li>
+          <li><a href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" target="_blank" rel="noopener">AI &amp; I</a> <span class="src-brand">by Every</span></li>
+        </ul>
+      </div>
+      <div class="src-group">
+        <h4>Recruiting newsletters</h4>
+        <ul>
+          <li><a href="https://newsletter.fullstackrecruiter.net" target="_blank" rel="noopener">Full Stack Recruiter</a></li>
+          <li><a href="https://taunboxed.substack.com" target="_blank" rel="noopener">TA Unboxed</a></li>
+          <li><a href="https://promptmates.beehiiv.com" target="_blank" rel="noopener">PromptMates Newsletter</a></li>
+          <li><a href="https://www.lukeeaton.com" target="_blank" rel="noopener">Data Driven Recruiter</a></li>
+          <li><a href="https://recops.substack.com" target="_blank" rel="noopener">RecOps Roundup</a></li>
+          <li><a href="https://remadebyleandro.substack.com" target="_blank" rel="noopener">Remade.md</a></li>
+          <li><a href="https://try.ashbyhq.com/talent-trends-newsletter/" target="_blank" rel="noopener">Ashby Community</a></li>
+        </ul>
+      </div>
+      <div class="src-group">
+        <h4>Recruiting reports, product updates, and more</h4>
+        <ul>
+          <li><a href="https://www.rec.uk.com" target="_blank" rel="noopener">REC / KPMG</a></li>
+          <li><a href="https://www.cipd.org" target="_blank" rel="noopener">CIPD</a></li>
+          <li><a href="https://www.apsco.org" target="_blank" rel="noopener">APSCo</a></li>
+          <li><a href="https://ise.org.uk" target="_blank" rel="noopener">ISE</a></li>
+          <li><a href="https://www.ons.gov.uk" target="_blank" rel="noopener">ONS</a></li>
+          <li><a href="https://www.hays.co.uk" target="_blank" rel="noopener">Hays</a></li>
+          <li><a href="https://www.robertwalters.co.uk" target="_blank" rel="noopener">Robert Walters</a></li>
+          <li><a href="https://www.reed.co.uk" target="_blank" rel="noopener">Reed</a></li>
+          <li><a href="https://www.ashbyhq.com/talent-trends-report" target="_blank" rel="noopener">Ashby</a></li>
+          <li><a href="https://www.gem.com" target="_blank" rel="noopener">Gem</a></li>
+          <li><a href="https://www.greenhouse.com" target="_blank" rel="noopener">Greenhouse</a></li>
+          <li><a href="https://business.linkedin.com/talent-solutions" target="_blank" rel="noopener">LinkedIn Talent Solutions</a></li>
+          <li><a href="https://www.icims.com" target="_blank" rel="noopener">iCIMS</a></li>
+          <li><a href="https://www.employinc.com" target="_blank" rel="noopener">Employ</a></li>
+          <li><a href="https://www.shrm.org" target="_blank" rel="noopener">SHRM</a></li>
+          <li><a href="https://www.kornferry.com" target="_blank" rel="noopener">Korn Ferry</a></li>
+          <li><a href="https://joshbersin.com" target="_blank" rel="noopener">Josh Bersin</a></li>
+          <li><a href="https://www.deloitte.com/insights" target="_blank" rel="noopener">Deloitte</a></li>
+          <li><a href="https://www.mercer.com" target="_blank" rel="noopener">Mercer</a></li>
+          <li><a href="https://www.hirevue.com" target="_blank" rel="noopener">HireVue</a></li>
+          <li><a href="https://www.phenom.com" target="_blank" rel="noopener">Phenom</a></li>
+          <li><a href="https://www.metaview.ai" target="_blank" rel="noopener">Metaview</a></li>
+          <li><a href="https://www.bullhorn.com" target="_blank" rel="noopener">Bullhorn</a></li>
+          <li><a href="https://www.naceweb.org" target="_blank" rel="noopener">NACE</a></li>
+          <li><a href="https://www.manpowergroup.com" target="_blank" rel="noopener">ManpowerGroup</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- WELCOME OVERLAY: shown after a new signup. -->
+  <div class="overlay" id="welcome-overlay" aria-hidden="true">
+    <div class="overlay-card" role="dialog" aria-modal="true" aria-label="Subscription confirmed" style="max-width:470px;padding:34px 36px 28px">
+      <button class="overlay-close" id="welcome-close" aria-label="Close">&times;</button>
+      <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#b3411f;font-weight:700;margin-bottom:10px">Subscribed</div>
+      <h3 style="font-size:29px;font-weight:700;color:#1a1a1a;letter-spacing:-.5px;line-height:1.05;margin:0 0 14px">You're in.</h3>
+      <div style="border-top:2px solid #1a1a1a;padding-top:16px">
+        <p style="font-size:15px;color:#33302b;line-height:1.55;margin:0 0 12px">Every week, the sharpest recruiting content will land in your inbox, in a single email so you don't have to go hunting for it.</p>
+        <p style="font-size:14px;color:#4a453d;line-height:1.55;margin:0 0 14px">We've just sent over a welcome email. As it's our first one to you, give it a quick check that it hasn't landed in spam or promotions, and drag it to your main inbox so you never miss out on the industry's latest.</p>
+        <p style="font-size:15px;color:#1a1a1a;line-height:1.55;margin:0;font-weight:700">Welcome to the weekly digest.</p>
+      </div>
+      <div style="margin-top:24px;text-align:right">
+        <button type="button" id="welcome-done" style="font:inherit;font-size:14px;font-weight:700;color:#fff;background:#b3411f;border:none;border-radius:8px;padding:10px 20px;cursor:pointer">Done</button>
+      </div>
+    </div>
+  </div>
+<script>
+(function(){
+  var re=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  function wire(form){
+    var email=form.querySelector('input[type=email]');
+    var btn=form.querySelector('button');
+    var msg=form.parentNode.querySelector('.msg');
+    function show(text,ok){if(msg){msg.textContent=text;msg.className='msg '+(ok?'ok':'err');}}
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      var val=(email.value||'').trim();
+      if(!re.test(val)){show('Please enter a valid email address.',false);return;}
+      var prev=btn.textContent;btn.disabled=true;btn.textContent='Subscribing...';show('',true);
+      fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:val})})
+        .then(function(r){return r.json().then(function(d){return {ok:r.ok,d:d};});})
+        .then(function(res){
+          if(res.ok&&res.d&&res.d.ok){form.reset();if(res.d.welcome){show('',true);openWelcome();}else{show(res.d.message||'Thanks, you are on the weekly list!',true);}}
+          else{show((res.d&&res.d.error)||'Something went wrong. Please try again.',false);}
+        })
+        .catch(function(){show('Something went wrong. Please try again.',false);})
+        .finally(function(){btn.disabled=false;btn.textContent=prev;});
+    });
+  }
+  var forms=document.querySelectorAll('form.subform');
+  var topInput=document.querySelector('.topsub input[type=email]');
+  if(topInput){var longPh=topInput.getAttribute('placeholder');var shortPh='Enter your email to subscribe';var setPh=function(){topInput.setAttribute('placeholder',window.innerWidth<=600?shortPh:longPh);};setPh();window.addEventListener('resize',setPh);}
+  for(var i=0;i<forms.length;i++)wire(forms[i]);
+  var ov=document.getElementById('sources-overlay');
+  var openBtn=document.getElementById('sources-open');
+  var closeBtn=document.getElementById('sources-close');
+  function openOv(){if(ov){ov.classList.add('open');ov.setAttribute('aria-hidden','false');document.documentElement.classList.add('noscroll');}}
+  function closeOv(){if(ov){ov.classList.remove('open');ov.setAttribute('aria-hidden','true');document.documentElement.classList.remove('noscroll');}}
+  if(openBtn){openBtn.addEventListener('click',openOv);openBtn.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();openOv();}});}
+  if(closeBtn)closeBtn.addEventListener('click',closeOv);
+  if(ov)ov.addEventListener('click',function(e){if(e.target===ov)closeOv();});
+  var wov=document.getElementById('welcome-overlay');
+  function openWelcome(){if(wov){wov.classList.add('open');wov.setAttribute('aria-hidden','false');document.documentElement.classList.add('noscroll');}}
+  function closeWelcome(){if(wov){wov.classList.remove('open');wov.setAttribute('aria-hidden','true');document.documentElement.classList.remove('noscroll');}}
+  var wClose=document.getElementById('welcome-close');var wDone=document.getElementById('welcome-done');
+  if(wClose)wClose.addEventListener('click',closeWelcome);
+  if(wDone)wDone.addEventListener('click',closeWelcome);
+  if(wov)wov.addEventListener('click',function(e){if(e.target===wov)closeWelcome();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeOv();closeWelcome();}});
+})();
+</script>
+</body>
+</html>

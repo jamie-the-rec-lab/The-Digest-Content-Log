@@ -61,3 +61,9 @@
 {"at": "2026-11-04T19:19:42", "kind": "index", "collection": "reports", "items": 84, "missing": 0, "blocks": 2, "warnings": []}
 {"at": "2026-11-04T19:19:42", "kind": "index", "collection": "news", "items": 12, "missing": 0, "blocks": 1, "warnings": []}
 {"at": "2026-11-04T19:24:57", "kind": "index", "collection": "podcasts", "items": 753, "missing": 0, "blocks": 165, "warnings": []}
+{"at": "2026-11-04T19:28:07", "kind": "index", "collection": "podcasts", "items": 753, "missing": 0, "blocks": 165, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "tech", "items": 244, "missing": 0, "blocks": 84, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "newsletters", "items": 79, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "reports", "items": 84, "missing": 0, "blocks": 2, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "news", "items": 12, "missing": 0, "blocks": 1, "warnings": []}
