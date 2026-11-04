@@ -1,3 +1,35 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Rob Snyder, author of The Power of Pull and The Physics of Startups newsletter, who says he has advised more than 50 startups from zero to $1 million ARR  ·  **Show:** Lenny's Podcast, 25 Oct 2026
+**Tags:** startups, go-to-market, product strategy, user research, founder stories, growth
+
+**When to use this:** You are selling a new service or tool and prospects keep saying it is interesting but nobody buys, or you are structuring a first discovery call.
+
+**Big idea:** Rob Snyder argues that product-market fit is not a property of a company but of a person who has a project they are stuck on, and that your job is to find that person rather than to convince people to want your product.
+
+**Frameworks & plays:**
+- Fill in the PULL template for a named person, not a company. Project is what is on their to-do list, Unavoidable is why it must happen now, List of options is what they have considered, and Limitations is why those options are not good enough. Snyder says "You need all four at once."
+- Test the unavoidable element. His worked example is an AI notetaker for financial advisers, where advisers could go to jail if they do not take notes and put them in their CRM. Insurance agents had the same project but no obligation to log notes, so the pull was missing.
+- Run discovery in a set order. Open by asking "why did you take the call with me today?", repeat their answer back as the agenda and get a thumbs up, then ask "do you mind if I ask you a few questions to better understand your context?" Keep the invite to 30 minutes.
+- Show the prospect a two-slide check. Slide one reads back what you heard (they are trying to do X now because of Y, and the options they considered fall short) and asks if that is roughly right. Slide two outlines how you could help. Then look for a pull-shaped action such as "how do we get started?".
+- Throw the Hail Mary when the call is lukewarm: ask whether anything on their list they would pay you to do right now. An applicant tracking system startup selling to governments got a job description task that became their first customer.
+- Price from the buyer's alternatives. In his pharma example, a market research consultant costing roughly $50,000 a year set the bound for what to charge.
+
+**Data & benchmarks:**
+- Cold LinkedIn outreach, Snyder's own targets: add 100 to 150 people a week, expect 30 to 40% to accept and 30 to 50% of those to reply.
+- After five calls where everyone leans back and you learn nothing, change the hypothesis.
+
+**Tools & prompts:**
+- Snyder says AI personalisation of cold messages has not worked for him because it tells people something they already know.
+
+**Contrarian take:**
+- Snyder says design partners "give a bunch of feedback and never buy from you", because people with a real project want the work done rather than to help build.
+
+**Steal this (do tomorrow):**
+- Pick your next target client contact and write one sentence for each of Project, Unavoidable, List of options and Limitations. If you cannot fill one, ask it on the call.
+- Next time a hiring manager or client is lukewarm, ask whether there is anything on their list they would pay you to take off their plate right now.
+<!--/SUMMARY-->
+
 # An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)
 
 - **Podcast:** Lenny's Podcast

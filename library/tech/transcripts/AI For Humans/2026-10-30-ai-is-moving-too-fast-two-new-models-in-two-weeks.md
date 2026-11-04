@@ -1,3 +1,33 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Kevin Pereira and Gavin Purcell, AI For Humans  ·  **Show:** AI For Humans, 30 Oct 2026
+**Tags:** ai, ai product, ai coding, machine learning, product strategy, general
+
+**When to use this:** You are deciding which tier of AI model to use for a task, or how much weight to give a vendor's benchmark claims for a model you cannot yet try.
+
+**Big idea:** New frontier models are arriving every couple of weeks, and the hosts argue that the more useful skill is knowing what each tier is good at and not trusting benchmarks for models the public cannot use.
+
+**Frameworks & plays:**
+- Match the tier to the job. Gavin Purcell describes OpenAI's current line as Astra at the top, Saul second at roughly Opus level, Terra at roughly Sonnet level and Luna at roughly Haiku level.
+- Use the mid-tier model for fast, tool-driven work and a stronger model for the thinking. Kevin Pereira found Terra "very fast for computer use" but, when it did not understand a creative direction, told it to ask the top model, which came back with how to build it.
+- Use cheap models for breadth. Gavin's suggestion is to ask for 50 fonts and 50 interactive treatments, pick 10 favourites, then ask for a merge of those, and he adds a variant of picking version 73 out of a hundred versions of a graphic.
+- Wait to judge a model until it is generally available. Gavin says a column of benchmarks claiming something is "10% better" has "proven again and again and again not to be the practical use cases".
+
+**Data & benchmarks:**
+- Google previewed its second frontier model in two weeks. The hosts say Gemini 4 Carbon was available only to a group working on cyber defence, so they could not test it.
+- The hosts report Google's earnings call said AI search may be taking money from normal search, though Gavin hedges with "maybe".
+
+**Tools & prompts:**
+- GPT-6.1 Terra for computer use, tested by Kevin Pereira inside Blender.
+- Genie 4, Google's interactive world model, described from trusted-user demos only.
+
+**Contrarian take:**
+- Gavin Purcell argues that rushed or gated announcements make it harder to know whether a model is better in practice, so the wait is the point.
+
+**Steal this (do tomorrow):**
+- When you next try an AI tool on a recruiting task, run it three ways: a cheap model for twenty drafts, then pick your favourites and ask a stronger model to merge them.
+<!--/SUMMARY-->
+
 # AI Is Moving Too Fast. Two New Models In Two Weeks?!
 
 - **Podcast:** AI For Humans

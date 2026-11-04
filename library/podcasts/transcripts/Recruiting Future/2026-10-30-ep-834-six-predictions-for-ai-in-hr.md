@@ -9,11 +9,11 @@
 
 **Frameworks & plays:**
 - Treat internal AI as products with an owner. Kohli says Cloudflare now manages agents built by people who have since left, so he expects HR to need a leader for internal AI and product development who understands evaluation, product judgement and how to codify process logic from people's heads.
-- Value AI on six dimensions, not only time saved: efficiency, scale, quality, experience, risk mitigation, and then financial impact. He compares it to HRIS spend, where nobody asks for the ROI of the platform.
+- Value AI on six dimensions, not only time saved: efficiency, scale, quality, experience, risk mitigation, and then financial impact. He compares it to HRIS spend, where nobody asks "What is the ROI of our Workday platform?"
 - Expect hidden AI use. His reasoning is that more output earns more work, so staff may not disclose what AI does for them. He suggests measuring attention load as well as output load.
 - Plan work before headcount. Describe the job to be done, then decide between people and agents, remembering that an agent still needs someone to build and maintain it.
 - Assess judgment live. Give candidates a small project in the moment, because candidate AI and employer AI are now talking to each other. He admits he does not know it is the best option.
-- Build the three skills to become an internal product leader: distil process into documentation (the happy path and the exceptions), know what assistants, automations and agents are each good for, and develop product judgement about user experience and where data lives.
+- Build the three skills to become an internal product leader: distil process into documentation ("the happy path, the exceptions"), know what assistants, automations and agents are each good for, and develop product judgement about user experience and where data lives.
 
 **Data & benchmarks:**
 - He states no measured data. The predictions are his, and the line "let's see by this time next year if I'm right" shows he treats them as hypotheses.

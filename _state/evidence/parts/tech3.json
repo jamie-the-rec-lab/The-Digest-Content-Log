@@ -1,0 +1,202 @@
+{
+ "run_date": "2026-11-04",
+ "items": [
+  {
+   "path": "library/tech/transcripts/AI For Humans/2026-10-20-ai-fact-checks-elons-flying-roadster.md",
+   "show": "AI For Humans",
+   "title": "AI Fact-Checks Elon's Flying Roadster",
+   "date": "2026-10-20",
+   "url": "https://www.youtube.com/watch?v=sUKNBqZ4rvI",
+   "guest_line": "none",
+   "vendor_flag": "The show states the hosts are AI-generated characters. All Tesla figures are the show's reading of Tesla's livestream, not independently verified here.",
+   "reader_fit": "Low. A UK recruiter gets only a transferable method for stress-testing a vendor demo and reading pre-payment terms, nothing recruiting-specific.",
+   "points": [
+    {
+     "claim": "Check whether a vendor's own numbers agree with each other before believing a demo.",
+     "evidence": "Screen said 4,700 kg of suction; Tesla's stated pull of up to 2G would imply a 2,350 kg car; an engineer said just under 1,700 kg",
+     "quote": "Tesla says the fans pull up to 2G. The screen said 4700. If that's 2G, the car weighs 2350. Their engineer said under 1700.",
+     "timecode": "3:55"
+    },
+    {
+     "claim": "Headline performance was not independently timed, and the recorded run differed from the claim.",
+     "evidence": "Tesla showed 0.81 seconds; a recorded run said one second flat",
+     "quote": "Nobody outside Tesla timed it.",
+     "timecode": "3:55"
+    },
+    {
+     "claim": "Pre-order terms: money down for a product with no price and no guaranteed date.",
+     "evidence": "$5,000 on a card, $45,000 by wire within ten days, or a quarter million up front; first $5,000 fully refundable; contract says delivery date cannot be guaranteed",
+     "quote": "Five grand on a card, 45 more by wire in ten days, or a quarter million up front for the thruster trim.",
+     "timecode": "4:44"
+    },
+    {
+     "claim": "The show's proposed buyer protections: escrow, interest on lateness, neutral on-camera test, then sell.",
+     "evidence": "Escrow deposits; pay interest every year late; neutral tester on camera; thrusters off public roads until a regulator signs off",
+     "quote": "Show, then sell.",
+     "timecode": "8:31"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/AI For Humans/2026-10-23-ai-just-broke-the-internet-for-real-this-time.md",
+   "show": "AI For Humans",
+   "title": "AI Just Broke The Internet. For Real This Time.",
+   "date": "2026-10-23",
+   "url": "https://www.youtube.com/watch?v=-XIgyMsZZxY",
+   "guest_line": "none (hosts Kevin Pereira and Gavin Purcell)",
+   "vendor_flag": "Gavin Purcell says Fal is not a sponsor but gave him credits, so his praise of the Fal-hosted video models is not fully neutral. Exploit-attempt figures are relayed second-hand from Cloudflare's CEO. Product names are ASR-garbled in places.",
+   "reader_fit": "Low to moderate. Useful context on agent access risk and AI video cost, but nothing recruiting-specific; a UK recruiter would use it only as general AI-awareness background.",
+   "points": [
+    {
+     "claim": "Once a vulnerability is public, exploit attempts scale from thousands to over a million within hours because agents pile on.",
+     "evidence": "Cloudflare's Matthew Prince as relayed by a host: thousands of attempts, tens of thousands within 45 minutes of the announcement, hundreds of thousands within 2 hours, supposedly over a million",
+     "quote": "That jumped to tens of thousands in the 45 minutes post announcement. And then hundreds of thousands within 2 hours, and supposedly now well over a million.",
+     "timecode": "8:37"
+    },
+    {
+     "claim": "Banks reportedly see people's personal AI agents acting in accounts as unauthorised.",
+     "evidence": "Axios report, sourced to a bunch of banks, as described by Gavin Purcell; the hosts say banks are unsure the use cases are approved by users",
+     "quote": "AI agents are unauthorized using bank software and this was from a bunch of banks",
+     "timecode": "15:07"
+    },
+    {
+     "claim": "A Chinese-origin video model, Wan 3, was claimed to cost about a fifth of Seedance 2.5 on Fal, with somewhat less realistic output.",
+     "evidence": "About a fifth of the price; Seedance 2.5 judged more realistic in a single identically-prompted text-to-video test",
+     "quote": "the Waon video is not bad and there's a little level of like it's getting something interesting and for a fifth the price, that is a big deal, right?",
+     "timecode": "39:25"
+    },
+    {
+     "claim": "Claude Duet is pitched as a separate, proactive work agent; the hosts are cautious about trust and token spend.",
+     "evidence": "Dedicated app, waitlist, not rolled out to everybody; proactivity is the pitched differentiator",
+     "quote": "I think the differentiator as they're pitching it is the proactivity of it.",
+     "timecode": "41:52"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/AI For Humans/2026-10-30-ai-is-moving-too-fast-two-new-models-in-two-weeks.md",
+   "show": "AI For Humans",
+   "title": "AI Is Moving Too Fast. Two New Models In Two Weeks?!",
+   "date": "2026-10-30",
+   "url": "https://www.youtube.com/watch?v=6101Q0dQQIk",
+   "guest_line": "none (hosts Kevin Pereira and Gavin Purcell)",
+   "vendor_flag": "No guest. Model names are fictional-seeming future products as spoken in the transcript and ASR spellings vary (Carbon, Argon, Terra, Kadamari). Kevin Pereira built the demo himself with the model he is reviewing.",
+   "reader_fit": "Low. General AI-model landscape for a UK recruiter; the only practical angle is how to use cheaper model tiers and why to treat benchmark claims for gated models with caution.",
+   "points": [
+    {
+     "claim": "OpenAI's GPT-6.1 line is tiered like Anthropic's, with Terra as the mid-tier.",
+     "evidence": "Astra top, Saul second (Opus-level), Terra (Sonnet-level), Luna lowest (Haiku-level)",
+     "quote": "Terra is kind of their sonnet level and then there's Luna which is very much like the haiku lowest level.",
+     "timecode": "19:32"
+    },
+    {
+     "claim": "The mid-tier model was fast at computer use but struggled to follow a creative brief, so a bigger model had to rewrite the brief.",
+     "evidence": "Kevin Pereira's Katamari-style demo built via Blender; Terra described as very fast for computer use",
+     "quote": "just go ask it how to fix it and Astra came back and was like oh you should build it in this way",
+     "timecode": "20:32"
+    },
+    {
+     "claim": "Cheap intelligence lets you generate many variants and then select and merge, instead of perfecting one.",
+     "evidence": "Example: 50 fonts and 50 interactive treatments, pick 10, merge into one; or a hundred versions of a graphic and pick version 73",
+     "quote": "here are 50 fonts and 50 different like interactive ways that these graphics could play out. I picked these 10 as my favorite. Now merge those into one.",
+     "timecode": "23:48"
+    },
+    {
+     "claim": "Benchmark claims for a model most people cannot use are weak evidence.",
+     "evidence": "Gemini 4 Carbon was only available to a cyber-defence group at the time; Gavin Purcell argues for waiting until a model is widely available before judging it",
+     "quote": "you should wait to talk about your models until they are in the hands of everybody",
+     "timecode": "10:31"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/Lenny's Podcast/2026-10-25-an-86-minute-guide-to-finding-pmf-rob-snyder-author-the-power-of-pull.md",
+   "show": "Lenny's Podcast",
+   "title": "An 86-minute guide to finding PMF",
+   "date": "2026-10-25",
+   "url": "https://www.youtube.com/watch?v=19qrLchbQEc",
+   "guest_line": "Rob Snyder · Author of The Power of Pull, writer of The Physics of Startups",
+   "vendor_flag": "Rob Snyder is promoting his own book and newsletter and the 50-startups claim is his own. The episode carries WorkOS and DX sponsor reads, which are not editorial. No third-party product is praised by its vendor.",
+   "reader_fit": "Moderate. A UK recruiter selling a service or building an internal TA product gets a practical discovery-call structure and LinkedIn outreach benchmarks, plus an applicant tracking system example; the rest is founder-focused.",
+   "points": [
+    {
+     "claim": "Real pull needs all four of Project, Unavoidable, List of options and Limitations at once.",
+     "evidence": "Jump (AI notetaker for financial advisers): advisers must put notes in a CRM or could go to jail; generic notetakers were not CRM-integrated or clearly SEC-compliant. Insurance agents lacked the Unavoidable element",
+     "quote": "You need all four at once.",
+     "timecode": "13:28"
+    },
+    {
+     "claim": "Cold LinkedIn outreach targets: about 100 to 150 connection requests a week, with acceptance and reply rates to check against.",
+     "evidence": "Rob's typical targets: 30 to 40% accept; of those 30 to 50% reply; he aims for two to three customer conversations a day",
+     "quote": "like 30 to 40% of them should accept your connection request and then of them 30 to 50 should% should reply",
+     "timecode": "39:26"
+    },
+    {
+     "claim": "AI personalisation in first-touch outreach has not worked for him at this stage.",
+     "evidence": "Says it tells people something they already know and reads like Claude wrote it; the message only needs to be interesting enough to get a call",
+     "quote": "I uh have not seen AI personalization work at this stage.",
+     "timecode": "38:21"
+    },
+    {
+     "claim": "When a prospect is lukewarm, ask the Hail Mary question: is there anything on your to-do list you would pay me to do right now?",
+     "evidence": "An applicant tracking system startup selling to governments: the buyer answered with a job description task that became their first contract",
+     "quote": "yeah, what I'd actually pay you to solve is this like job description thing right now. And that became their first contract.",
+     "timecode": "30:00"
+    },
+    {
+     "claim": "Avoid design partners: they give feedback but do not buy.",
+     "evidence": "Rob says he has yet to see design partners help; real buyers want the job done, not to help build",
+     "quote": "they give a bunch of feedback and never buy from you",
+     "timecode": "32:07"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/Lenny's Podcast/2026-11-01-a-ugc-masterclass-from-the-22-year-old-who-built-wispr-flows-growth-machine-hect.md",
+   "show": "Lenny's Podcast",
+   "title": "A UGC masterclass from the 22-year-old who built Wispr Flow's growth machine",
+   "date": "2026-11-01",
+   "url": "https://www.youtube.com/watch?v=KzS5Qs7vSMg",
+   "guest_line": "Hector Serrano · Head of Content @ Wispr Flow",
+   "vendor_flag": "Hector Serrano works for Wispr Flow and praises its growth programme and the Tribe tool he uses; revenue growth of 30x and the $2 billion valuation come from the host and episode description, not verified. Creator earnings of $13,000 a month are his own claim. Episode carries WorkOS and DX sponsor reads.",
+   "reader_fit": "Moderate to high. Hiring signals for social-first roles, manual DM sourcing numbers, and a retainer-plus-commission structure transfer directly to UK agency or in-house recruiters sourcing creators or building an employer brand.",
+   "points": [
+    {
+     "claim": "Pair a quota-based retainer with uncapped commission so new creators stay long enough to break out.",
+     "evidence": "Example: 25 videos for $1,500 if the quota is hit; top-ups depend on commission earned; best creators earn about $13,000 a month (his claim)",
+     "quote": "we're going to pay you $1,500 as long as you hit that quota of videos",
+     "timecode": "14:03"
+    },
+    {
+     "claim": "Source creators by targeted, manual DMs off-platform: roughly 150 to 250 a week for five or six good ones.",
+     "evidence": "150 to 250 DMs over a week yielded five or six good creators; he prefers manual outreach to mass software; also asks good creators for referrals via their follows",
+     "quote": "from those 150 to 250 DMs, you're probably going to get like five or six really good creators.",
+     "timecode": "33:15"
+    },
+    {
+     "claim": "For a social-first hire, the screen is simple: has the candidate grown an account to around 10,000 followers, and are they hard-working and a good fit.",
+     "evidence": "Minimum follower floor of 10,000 to 15,000; Instagram a stronger signal than TikTok; he and a colleague had very different CVs (2.5 GPA vs 4.0)",
+     "quote": "has this person grown an account, even if it's like 10,000 followers?",
+     "timecode": "21:02"
+    },
+    {
+     "claim": "Posting a salary and requirements that are too high attracts the wrong people for this kind of role.",
+     "evidence": "Example of 250k or 200k base with generous equity as the mistake; he and a colleague joined as interns",
+     "quote": "you're going to end up attracting the wrong type of people",
+     "timecode": "1:00:05"
+    },
+    {
+     "claim": "He hires through his own social channels: his videographer and creators came from Instagram stories.",
+     "evidence": "Videographer found via an Instagram story posted in May, flown to San Francisco on three days' notice",
+     "quote": "I hired them from my Instagram stories.",
+     "timecode": "1:14:44"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "AI For Humans transcripts are ASR with unnamed speakers; product names (Waon/Wan, SeaDance/Seedance, Kaedim/Fal, Kadamari/Katamari) are garbled and were normalised only in claims, never in quotes.",
+  "Episode 2026-10-20 is a scripted debate by AI-generated characters; Tesla figures are the show's own and not independently verified.",
+  "Revenue growth of 30x and the $2bn valuation for Wispr Flow come from the host and description, not evidence in the transcript beyond the host's remark; creator earnings of $13,000 a month are Serrano's own claim."
+ ]
+}

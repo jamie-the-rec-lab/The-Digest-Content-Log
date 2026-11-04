@@ -10,12 +10,12 @@
 **Frameworks & plays:**
 - Empty out first. Graver said to spend a day or two dumping everything you know onto a page by hand or by voice, because you only get one chance to be yourself before you open AI.
 - Give the AI two documents, a 'who I am as a writer' document with your inspirations and what you aspire to, and a document on what you are working on. Then ask whether the idea and the person have anything to do with each other, and who the audience is, which platforms they use and what questions they care about.
-- Build a virtual focus group of about eight people, including a negative one you wish you had not invited, and use it for feedback on an idea. Graver said none of this is AI writing for you.
+- Build a virtual focus group of about eight people, including, in his words, "the guy you really wish you hadn't invited" because he is negative, and use it for feedback on an idea. Graver said none of this is AI writing for you.
 - Run a loop of three phases. Ideation produces a script, production covers preparing, making and editing, and marketing reaches the audience. He suggested marketing should test a proxy trailer before the thing exists to see if tickets would sell.
 - Set up a deliberately unpleasant morning check-in agent that holds you to what you said you were working on, so a new idea at night does not derail the current project.
 
 **Data & benchmarks:**
-- Graver cited Kevin Kelly's 1,000 true fans theory, 1,000 people paying $10 a month, as a model for creators, and said nobody has yet set it up for people in his field.
+- Graver cited Kevin Kelly's thousand true fans theory, a thousand people paying $10 a month, as a model for creators, and said nobody has yet set it up for people in his field.
 
 **Tools & prompts:**
 - Claude, used as his main workspace with custom skills acting as readers over his shoulder. He also uses ChatGPT, which he called a film school student that has read every guide, and NotebookLM audio overviews.

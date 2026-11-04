@@ -325,13 +325,22 @@ File: `transcripts/10x Recruiting/2025-03-06-introducing-the-10x-recruiting-podc
 
 ## Brainfood (160 episodes)
 
-### 2026-10-30 — [Brainfood Live On Air   Ep415   How to Use Claude for Talent Acquisition](https://www.youtube.com/watch?v=l7ulRFqNU3U)
+### 2026-10-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=l7ulRFqNU3U)
+Panel on turning repeat recruiter prompts into reusable Claude skills: a Clay-powered intake calibration play, an Exa sourcing connector, scheduled tasks, plus a four-level AI adoption scale and a 162-person survey.
+Company: Move (Adriano Herdman, co-founder, promotes own skills marketplace) and Alla Pavlov (trainer)
+Tags: claude code, context engineering, recruiter workflow, hiring manager alignment, building ai tools, ai upskilling, ai agents, outbound sourcing
 File: `transcripts/Brainfood/2026-10-30-brainfood-live-on-air-ep415-how-to-use-claude-for-talent-acquisition.md`
 
-### 2026-10-28 — [Brainfood Live On Air  - Ep416 - The Next Generation of Background Screening](https://www.youtube.com/watch?v=azW3Oa6smDo)
+### 2026-10-28 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=azW3Oa6smDo)
+Fama CEO Ben Mones pitches policy-based, agent-run social media screening (Fama Lens) and argues identity checks have moved to the top of the funnel; all outcome figures are his own vendor claims.
+Company: Fama (Ben Mones, CEO; Fama Lens, vendor pitching own product)
+Tags: rec tech, ai agents, ai governance, ai bias, deepfake candidates, candidate fraud, reference checks, talent market data
 File: `transcripts/Brainfood/2026-10-28-brainfood-live-on-air-ep416-the-next-generation-of-background-screening.md`
 
-### 2026-10-23 — [Brainfood Live On Air   Ep414   New Series  How AI is Changing My Job  as A Software Engineer](https://www.youtube.com/watch?v=GgQJ1ZwITfA)
+### 2026-10-23 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=GgQJ1ZwITfA)
+Hung Lee hosts three practising engineers on how AI changed software engineering work: specify design choices or the agent flips a coin, judgement beats syntax, and junior hiring is the open problem.
+Company: Brainfood (panel: Andrew Lawson of Monzo, Josh, fractional CTO, Simon Hammond; host Hung Lee)
+Tags: engineering hiring, ai coding tools, human-ai collaboration, early career talent, ai upskilling, talent market data, skills-based hiring
 File: `transcripts/Brainfood/2026-10-23-brainfood-live-on-air-ep414-new-series-how-ai-is-changing-my-job-as-a-software-e.md`
 
 ### 2026-10-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=IMYZm_tSsi8)
@@ -1278,7 +1287,10 @@ File: `transcripts/Brainfood/2024-01-05-brainfood-live-on-air-ep239-forecasting-
 
 ## Building the Talent Machine (52 episodes)
 
-### 2026-10-29 — [Episode 047: Talent Engineering Hard Truths w/ Brandon Jeffs & Dan McCarthy](https://www.youtube.com/watch?v=xY2OLbPRskw)
+### 2026-10-29 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=xY2OLbPRskw)
+Zapier talent engineer Dan McCarthy on what the role is: the key skill is knowing what not to build, mostly buy enterprise software, check stakeholders and maintenance first, and spend saved time on candidates.
+Company: Zapier (Dan McCarthy, Senior Talent Engineer; host Brandon Jeffs)
+Tags: recruiting operations, building ai tools, rec tech, recruiter career growth, ai upskilling, ta leadership, recruiter productivity, human-ai collaboration
 File: `transcripts/Building the Talent Machine/2026-10-29-episode-047-talent-engineering-hard-truths-w-brandon-jeffs-dan-mccarthy.md`
 
 ### 2026-09-01 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=R4uBXvhE9LE)
@@ -1589,7 +1601,10 @@ File: `transcripts/Building the Talent Machine/2025-08-08-pilot-building-the-tal
 
 ## Offer Accepted (87 episodes)
 
-### 2026-10-20 — [Halving Attrition With a Connected Career Framework with Nic Weatherhead, The Stepstone Group](https://www.youtube.com/watch?v=N500zEoKH7M)
+### 2026-10-20 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=N500zEoKH7M)
+Stepstone's people lead built a scope, knowledge, autonomy and complexity career framework from roles first, piloted it in recruiting, and says attrition in one area more than halved (self-reported, multi-factor); AI agents force scope and autonomy to be redefined.
+Company: The Stepstone Group (Nic Weatherhead; show: Offer Accepted, sponsor Ashby)
+Tags: retention, internal mobility, quality of hire, human-ai collaboration, ta leadership, stakeholder management, interview design, onboarding
 File: `transcripts/Offer Accepted/2026-10-20-halving-attrition-with-a-connected-career-framework-with-nic-weatherhead-the-ste.md`
 
 ### 2026-10-06 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=6fjVWhs3EXk)
@@ -2102,21 +2117,36 @@ Company: Growth by Design
 Tags: stakeholder management, recruiting metrics, ta leadership, hiring manager alignment, market mapping, talent density
 File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-service-providers-to-trusted-advisors-with-adam.md`
 
-###  — [Hiring for AI Skills Beyond Prompting with Maksym Dziarmaga, Loop Earplugs]()
+###  — [<!--SUMMARY-->]()
+Loop Earplugs sets a required AI level (Zapier's 2 capable, 3 adaptive, 4 transformative) at intake, checks it at screen, hiring manager interview and an AI-permitted business case, and finds 63% of feedback forms never mention AI.
+Company: Loop Earplugs (Maksym Dziarmaga; show: Offer Accepted, sponsor Ashby)
+Tags: ai upskilling, interview design, skills-based hiring, hiring manager alignment, candidate calibration, ai governance, quality of hire, recruiting enablement
 File: `transcripts/Offer Accepted/0000-hiring-for-ai-skills-beyond-prompting-with-maksym-dziarmaga-loop-earplugs.md`
 
 ## PromptMates (66 episodes)
 
-### 2026-11-02 — [How to Automate Hiring Launches (Claude + Slack)](https://www.youtube.com/watch?v=wI-TYLIO9ic)
+### 2026-11-02 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=wI-TYLIO9ic)
+A one-person recruiting and people-ops lead built a /newrole Slack command with Claude that creates the Ashby job and opening, names and populates the Slack channel, invites stakeholders and pins hiring manager resources.
+Company: Kit (Emily Paik, Senior People Operations Manager; tools: Slack, Ashby, Notion, Replit, Claude)
+Tags: building ai tools, claude code, recruiter workflow, recruiting operations, hiring manager alignment, stakeholder management, recruiting enablement, ai job descriptions, recruiter productivity
 File: `transcripts/PromptMates/2026-11-02-how-to-automate-hiring-launches-claude-slack.md`
 
-### 2026-10-29 — [Build an AI Chief of Staff with Claude and Obsidian](https://www.youtube.com/watch?v=KK334ebIreE)
-File: `transcripts/PromptMates/2026-10-29-build-an-ai-chief-of-staff-with-claude-and-obsidian.md`
-
-### 2026-10-29 — [AI for People Operations](https://www.youtube.com/watch?v=NoPWOBVtFZA)
+### 2026-10-29 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=NoPWOBVtFZA)
+Leapsome's people lead shows HRIS-based vibe coding (feedback network analysis, 28% to almost 40% cross-team links), an MCP-built competency tool and an in-house case-study platform scoring AI fluency; guest works for the HRIS vendor and a Juicebox sponsor demo is included.
+Company: Leapsome (Jessica Zwaan; show: PromptMates, sponsor Juicebox)
+Tags: building ai tools, ai upskilling, take-home assessments, interview design, recruiting operations, talent density, recruiting enablement, ai sourcing
 File: `transcripts/PromptMates/2026-10-29-ai-for-people-operations.md`
 
-### 2026-10-21 — [Talent Engineering: Sourcing Frameworks](https://www.youtube.com/watch?v=U2uF9S58uFM)
+### 2026-10-29 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=KK334ebIreE)
+A TA leader shows her Claude and Obsidian "chief of staff": small single-job agents that each check only what changed since their last run, triaged three times a day by an orchestrator that takes only reversible actions.
+Company: Formation Bio (Emily Gransky, VP of Talent; tools: Claude, Obsidian, Greenhouse)
+Tags: building ai tools, claude code, ai agents, recruiter productivity, recruiter workflow, context engineering, human-ai collaboration, ta leadership
+File: `transcripts/PromptMates/2026-10-29-build-an-ai-chief-of-staff-with-claude-and-obsidian.md`
+
+### 2026-10-21 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=U2uF9S58uFM)
+Two talent engineers share AI sourcing frameworks: a signals, enrichment, classification, evaluation and talent-pool flywheel (ElevenLabs design hiring, 8 to 35 in a year) and a parallel-agent Claude Cowork plugin for recruiter enablement; first 12 minutes is a Stitch sponsor pitch.
+Company: ElevenLabs (Bence Gedai) and Wizard (Bryan Hong); show: PromptMates, sponsor Stitch
+Tags: ai sourcing, building ai tools, claude code, talent pools, outbound sourcing, talent mapping, recruiter workflow, rec tech
 File: `transcripts/PromptMates/2026-10-21-talent-engineering-sourcing-frameworks.md`
 
 ### 2026-10-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=wp_c3DlpZ7o)
@@ -2493,16 +2523,28 @@ File: `transcripts/PromptMates/2025-08-26-finding-hidden-talent-with-sdi-scout.m
 
 ## Recruiting Future (305 episodes)
 
-### 2026-11-03 — [Ep 835: How AI Is Reshaping Work And Hiring](https://www.youtube.com/watch?v=ho8pVkZJA24)
+### 2026-11-03 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=ho8pVkZJA24)
+Four Unleash Paris interviews, mostly from HR tech vendors: a SmartRecruiters executive predicts the standalone TA function dissolves, the Hibob CEO describes agents on org charts, Glimpse pitches game-based assessment, and Mervyn Dinnin says the human versus AI debate is missing.
+Company: Unleash Paris roundup (SmartRecruiters, Hibob, Glimpse, Mervyn Dinnin)
+Tags: ai strategy, ta leadership, internal mobility, headcount planning, human-ai collaboration, rec tech, skills-based hiring, talent intelligence
 File: `transcripts/Recruiting Future/2026-11-03-ep-835-how-ai-is-reshaping-work-and-hiring.md`
 
-### 2026-10-30 — [Ep 834: Six Predictions For AI In HR](https://www.youtube.com/watch?v=B17AWzJYUW0)
+### 2026-10-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=B17AWzJYUW0)
+Cloudflare's Vik Kohli gives six 2027 predictions: HR builds its own agents, appoints an internal AI product lead, judges AI on six value dimensions, sees hidden AI use, plans work before headcount, and assesses judgment with live work samples.
+Company: Cloudflare (Vik Kohli)
+Tags: building ai tools, ai governance, ai strategy, headcount planning, capacity planning, recruiting metrics, work trials, skills-based hiring, ta leadership, human-ai collaboration
 File: `transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md`
 
-### 2026-10-26 — [Ep 833: Deciding What Not To Automate In Hiring](https://www.youtube.com/watch?v=XOoGEMQHDCQ)
+### 2026-10-26 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=XOoGEMQHDCQ)
+Rob Devlin argues human-in-the-loop is not human agency, offers six lenses (humane, efficacious, distributed, viable, adaptive, steerable) for deciding what not to automate, and suggests starting with a single problem such as intake calls.
+Company: Devlin Talent (Rob Devlin)
+Tags: human-ai collaboration, ai governance, recruiting operations, hiring manager alignment, candidate experience, candidate communication, ta leadership, recruiter productivity, building ai tools
 File: `transcripts/Recruiting Future/2026-10-26-ep-833-deciding-what-not-to-automate-in-hiring.md`
 
-### 2026-10-22 — [Round Up September 2026](https://www.youtube.com/watch?v=9YK2J4mFaoo)
+### 2026-10-22 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=9YK2J4mFaoo)
+Matt Alder and Ashby's Jim Miller review four September episodes: how to frame AI pilots around redeployed time, a cohort-based hiring process, candidate fraud (Ashby's 16% flag figure), and agent-to-agent recruiting.
+Company: Recruiting Future (host Matt Alder; co-host Jim Miller, Ashby)
+Tags: early career talent, candidate fraud, candidate ai tools, ai agents, talent density, ai screening, recruiting operations, ta leadership, ai strategy
 File: `transcripts/Recruiting Future/2026-10-22-round-up-september-2026.md`
 
 ### 2026-10-15 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=NPDEV68W1BY)
@@ -2511,14 +2553,17 @@ Company: AI Performance Lab
 Tags: ai upskilling, ta leadership, recruiting enablement, human-ai collaboration, ai strategy, recruiter training, early career talent
 File: `transcripts/Recruiting Future/2026-10-15-ep-832-the-human-side-of-ai-readiness.md`
 
-### 2026-10-14 — [Recruiting Future Round Up Live](https://www.youtube.com/watch?v=VWUqUyb5440)
-File: `transcripts/Recruiting Future/2026-10-14-recruiting-future-round-up-live.md`
-
 ### 2026-10-14 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=_9WDe9q8BKM)
 Adecco Group UK and Ireland president JC Townend says redundancies are now annual and smaller, only about 20% are attributed to AI, and the case for redeploying staff over fire and rehire has strengthened because perfectly trained external candidates no longer exist.
 Company: Adecco Group
 Tags: internal mobility, headcount planning, skills-based hiring, talent market data, ta leadership, recruiter career growth, retention
 File: `transcripts/Recruiting Future/2026-10-14-ep-831-the-talent-employers-are-throwing-away.md`
+
+### 2026-10-14 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=VWUqUyb5440)
+Matt Alder and Ashby's Jim Miller review four September episodes: how to frame AI pilots around redeployed time, a cohort-based hiring process, candidate fraud (Ashby's 16% flag figure), and agent-to-agent recruiting.
+Company: Recruiting Future (host Matt Alder; co-host Jim Miller, Ashby)
+Tags: early career talent, candidate fraud, candidate ai tools, ai agents, talent density, ai screening, recruiting operations, ta leadership, ai strategy
+File: `transcripts/Recruiting Future/2026-10-14-recruiting-future-round-up-live.md`
 
 ### 2026-10-09 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=D5I0FYYildI)
 McLean & Company's Jennifer Rozon explains why AI anxiety stops teams experimenting, what leaders should do about it, cognitive debt, and why entry-level roles should be redesigned around the work AI creates rather than cut.

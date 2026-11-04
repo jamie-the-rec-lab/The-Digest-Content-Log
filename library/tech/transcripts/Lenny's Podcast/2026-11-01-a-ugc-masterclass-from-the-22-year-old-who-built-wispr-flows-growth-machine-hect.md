@@ -1,3 +1,37 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Hector Serrano, Head of Content at Wispr Flow, who runs its paid creator programme and hires through his own social following  ·  **Show:** Lenny's Podcast, 01 Nov 2026
+**Tags:** growth, go-to-market, hiring, team building, startups, careers
+
+**When to use this:** You need to hire or source people whose value is social and creative skill rather than a conventional CV, or you want a model for paying freelancers on performance.
+
+**Big idea:** Hector Serrano argues that a small, well-paid, loosely briefed group of creators beats a handful of briefed freelancers, and that the best social hires are found on social platforms by looking at what they have grown rather than at grades or schools.
+
+**Frameworks & plays:**
+- Combine a retainer with uncapped commission. Serrano's "smart retainer" example is 25 videos for $1,500 as long as the quota is hit, with a top-up depending on commission earned, so new creators are paid while they learn and later move to pure commission.
+- Source manually, in volume, and off the platform. He sends roughly 150 to 250 targeted DMs over a week, gets five or six really good creators, and says "I think for outreach it's still better to do it manually." He starts by searching Instagram keywords such as "UGC creators" plus a niche, then browses the follows of creators he likes.
+- Start small and fill gaps. He began with about five creators, added five or six every few weeks, and chooses creators who speak to a different audience or message instead of more of the same.
+- Keep briefs light. He says a 10-page guideline removes the creative aspect, and one of the best ads came from a creator with a keyboard on a rainy roof.
+- Onboard like a sales close. Ask about them first, then walk through a short slide deck, and pay out every 7 days "to keep your creators motivated".
+- Screen social-first hires on a simple rule: "has this person grown an account, even if it's like 10,000 followers?" He treats Instagram as a stronger signal than TikTok and says CV signals such as grades or school will not find the right marketer.
+- Advertise in the right places. He says posting a very high salary and heavy requirements attracts the wrong people, and that every person on his team was found through his own Instagram stories.
+
+**Data & benchmarks:**
+- Wispr Flow runs about 50 creators and launches 500 to 600 ads a month, per Serrano.
+- Tribe showed $300,000 paid out to creators, which he says drives inbound applications of 1,000 to 1,500 a week, of whom he accepts one to three.
+- Serrano says his best creators earn about $13,000 a month; this is his own claim. The 30x revenue growth is the host's figure and is not verified in the episode.
+
+**Tools & prompts:**
+- Tribe, a creator and ad-payout platform, is used to run the programme. Serrano works at the company that uses it, so treat his praise as first-party.
+
+**Contrarian take:**
+- Serrano says "the best marketers are allergic to AI" in the sense that finished creative should stay human-made, since mistakes in AI assets blow back on brands.
+
+**Steal this (do tomorrow):**
+- Rewrite one social-first job advert to ask for evidence of an audience they built, not a degree, and set the salary to the realistic band.
+- Send 20 hand-written DMs to people whose content you actually like and measure replies before scaling.
+<!--/SUMMARY-->
+
 # A UGC masterclass from the 22-year-old who built Wispr Flow’s growth machine | Hector Serrano
 
 - **Podcast:** Lenny's Podcast

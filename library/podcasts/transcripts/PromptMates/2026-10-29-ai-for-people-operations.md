@@ -17,7 +17,7 @@
 
 **Data & benchmarks:**
 - She says wireframe to live use with candidates took about 3 months, versus a quarter or longer to test a wireframe before, with an engineer on the team.
-- On talent density she cites SaaS ARR per head of 300,000 to 400,000 dollars as historically healthy and some firms now at 6 to 7 million dollars. She gave no source.
+- On talent density she cites SaaS ARR per head of between 300 and 400,000 dollars as historically healthy and some firms now at 6 to 7 million dollars. She gave no source.
 - Juicebox (the session sponsor) says its demo found a pool of about 1,700 profiles with an estimated 450 to 850 above the bar. That is a vendor demo, not a result.
 
 **Tools & prompts:**

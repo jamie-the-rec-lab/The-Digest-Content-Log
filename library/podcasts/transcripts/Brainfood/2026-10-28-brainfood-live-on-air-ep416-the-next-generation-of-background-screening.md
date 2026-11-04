@@ -16,7 +16,7 @@
 - Mones draws a line on AI use. He would not look at a candidate's private AI chats, but could imagine reviewing public GitHub commits to show AI skill. Hung would want the "how" (did they test the first answer) without the content.
 
 **Data & benchmarks:**
-- Mones claims Lens gives a 98% reduction in review time, average decisional rates falling from 14% to 1.5%, and one customer screening almost 10,000 people a year saving $450,000 on labour. These are his figures for one unnamed customer, not independently reported.
+- Mones claims Lens gives a 98% reduction in review time, average decisional rates falling from 14% to one and a half percent, and one customer screening almost 10,000 people a year saving $450,000 on labour. These are his figures for one unnamed customer, not independently reported.
 - Mones puts Lens at 50 to 60% gross margin against 80 to low 90% for typical software, sold as a small extra fee per check on a product where about 90% of revenue is usage based. General release is 15 November.
 - Hung's informal poll of about 100 people on how they run checks gave 39% point solution, a quarter no checks at all and 13% ATS native, with the remainder manual.
 - Mones says 50% of the workforce is Gen Z and millennial, rising to 70% by 2028, without citing a source.

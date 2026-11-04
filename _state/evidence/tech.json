@@ -1,100 +1,565 @@
 {
-  "section": "AI & Tech Picks",
-  "files": [
+ "run_date": "2026-11-04",
+ "items": [
+  {
+   "path": "library/tech/transcripts/AI & I/2026-10-21-how-to-actually-keep-your-company-ahead-of-ai.md",
+   "show": "AI & I",
+   "title": "How to Actually Keep Your Company Ahead of AI",
+   "date": "2026-10-21",
+   "url": "https://www.youtube.com/watch?v=LZbjIE2LeTQ",
+   "guest_line": "Natalia Quintero · Head of enterprise AI adoption @ Every (host), with Dan Shipper and Every's frontier team",
+   "vendor_flag": "Yes. Every staff describe Every's own plugins (Compound Writing), internal products (checks, Minga) and promote an Every subscription; Gemini Audio segment is a paid sponsor read.",
+   "reader_fit": "Low to medium: a UK recruiting team lead could borrow the small-experiment-team model and the AI spend dashboard idea, but nothing is recruiting specific.",
+   "points": [
     {
-      "path": "library/tech/transcripts/AI & I/2026-09-02-how-a-professional-writer-writes-with-ai.md",
-      "qualifies": "yes",
-      "qualifies_reason": "About AI (writing with ChatGPT/Claude/Codex, context engineering, a released AI plugin) throughout the transcript, not just the marketing copy.",
-      "title": "How a Professional Writer Writes With AI",
-      "date": "2026-09-02",
-      "guest": "Katie Parrott, staff writer at Every",
-      "points": [
-        {
-          "claim": "A laid-off writer used a basic consumer ChatGPT subscription as a substitute for a paid career coach.",
-          "evidence": "$20/month ChatGPT Plus vs a career coach she estimated at ~$150/hour",
-          "quote": "I can't afford like $150 an hour... but I can sign up for a $20 a month ChatGPT subscription.",
-          "timecode": "2:56"
-        },
-        {
-          "claim": "She built a reusable 'context project' per client (audience, pain points, differentiators) that made every subsequent AI output faster and more on-brand.",
-          "evidence": "One Claude/ChatGPT project per freelance client and per column",
-          "quote": "I had a project for every freelance client. I had a project for every column that I worked on.",
-          "timecode": "13:16"
-        },
-        {
-          "claim": "She released a free, public writing workflow plugin ('Compound Writing') that codifies brainstorm-draft-edit steps for AI-assisted writing.",
-          "evidence": "Plugin published on Every's GitHub, forked from the 'Compound Engineering' plugin",
-          "quote": "Oh, it's on the GitHub. You can get it now if you're on the ever GitHub.",
-          "timecode": "36:01"
-        },
-        {
-          "claim": "She turned named writers' craft principles (Vonnegut, Hitchcock, Sorkin, Sedaris) into reusable AI editing 'skills' that review a draft from that lens.",
-          "evidence": "Named AI editing skills: Vonnegut, Hitchcock, Sorkin, Sedaris",
-          "quote": "I just turned that into a skill in the plugin.",
-          "timecode": "39:33"
-        },
-        {
-          "claim": "She uses an AI agent (Codex) for admin 'computer errands' outside writing, e.g. finding and booking a doctor's appointment.",
-          "evidence": "Codex used to find and book a primary care physician appointment",
-          "quote": "I could simply tell Codex to go find primary care physicians near me that take my insurance.",
-          "timecode": "23:56"
-        }
-      ],
-      "recruiter_translation": "A recruiter could build one reusable 'context project' in ChatGPT or Claude per client or role (company facts, tone-of-voice notes, past ad examples) and reuse it every time, instead of re-explaining context each session, to draft consistent job ads, LinkedIn posts and outreach faster — the same low-lift setup Katie used for her freelance clients.",
-      "vendor_flag": "no (guest built and gave away a free plugin; not selling a commercial product)",
-      "angle": "Gives a concrete, copyable 'build the context once, reuse it forever' tactic for writing job ads and candidate outreach faster, plus named evidence (cost, tool names) a recruiter could quote to a stakeholder."
+     "claim": "A frontier team separates keeping up with AI from getting work done.",
+     "evidence": "Team running for a couple of months at Every",
+     "quote": "you get this nice separation of concerns where you're both keeping up with what's going on on the frontier and you're actually getting your work done",
+     "timecode": "0:00"
     },
     {
-      "path": "library/tech/transcripts/How I AI/2026-09-02-7-grok-bot-agents-i-use-every-day.md",
-      "qualifies": "yes",
-      "qualifies_reason": "Entirely about AI agent tools (Grok Bot), how they're set up and what they do day to day.",
-      "title": "7 Grok Bot agents I use every day",
-      "date": "2026-09-02",
-      "guest": "not stated (host of How I AI podcast; name not given in transcript)",
-      "points": [
-        {
-          "claim": "Grok Bot is a no-code multi-agent platform where bots connect to work tools (Gmail, Calendar, Drive, Slack) via a simple OAuth flow, no setup screen needed most of the time.",
-          "evidence": "OAuth-based plugin connectors; multiple accounts per plugin supported",
-          "quote": "you'll rarely have to actually explicitly go into the Grockbot screen and set up plugins... you go through a really easy ooth flow",
-          "timecode": "4:58"
-        },
-        {
-          "claim": "Her 'Chief' bot sweeps six inboxes, calendars and multiple Slack workspaces every hour and only surfaces what actually needs a response.",
-          "evidence": "Hourly sweep of 6 inboxes/calendars/Slacks, running 6am-9pm",
-          "quote": "it's going to ping me and be very high signal about what I need to pay attention to.",
-          "timecode": "8:25"
-        },
-        {
-          "claim": "A support bot ('Holly Helpdesk') handling customer replies produced unprompted five-star reviews from customers who did not know they were talking to a bot.",
-          "evidence": "Multiple unsolicited reviews after moving support bot to Grok Bot",
-          "quote": "I have gotten multiple people asking to leave reviews about our support being so good and I've not heard that before.",
-          "timecode": "23:39"
-        },
-        {
-          "claim": "Bots can be trained to reply in the owner's own voice from past emails, though the host noted the underlying model wrote too clipped at first and had to be corrected.",
-          "evidence": "Voice-matching from historical email samples",
-          "quote": "go through my emails and really pull out my voice",
-          "timecode": "9:50"
-        },
-        {
-          "claim": "Grok Bot lets you share a working bot's instructions and schedule with teammates via a bot-template feature, so a working setup isn't limited to one person.",
-          "evidence": "\"Share a bot template\" feature released the week of recording",
-          "quote": "released a share a bot template feature in the past week where you can share your bot with your team",
-          "timecode": "6:17"
-        }
-      ],
-      "recruiter_translation": "A recruiter could set up a comparable no-code agent (Grok Bot, or a similarly simple assistant connected to Gmail/Calendar) to sweep inboxes hourly and flag only candidate replies or scheduling conflicts, rather than manually checking multiple inboxes all day — the same low-lift setup the host used for her 'Chief' bot, with no coding required.",
-      "vendor_flag": "no (host is an independent user/reviewer of Grok Bot, not its maker)",
-      "angle": "A working, named example of a no-code inbox-triage and support agent with a concrete before/after result (unprompted 5-star reviews) recruiters could point to when pitching automating candidate comms triage."
+     "claim": "Pair fast, sloppy experimenters with architects who make survivors maintainable, and expect most experiments to be dropped.",
+     "evidence": "Pirates and architects roles",
+     "quote": "Most of that stuff gets thrown out and some of it ends up getting pushed into the rest of the team to see if the rest of the team likes it.",
+     "timecode": "2:53"
     },
     {
-      "path": "library/tech/transcripts/Lenny's Podcast/2026-08-30-ais-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openais-product-le.md",
-      "qualifies": "no",
-      "qualifies_reason": "Nominally about AI, but the transcript is almost entirely OpenAI product-management philosophy, internal culture and career reflection with no concrete hiring/talent angle and no tactic or number a recruiter could act on or quote; this is the generic AI thought-leadership the reader profile says to skip.",
-      "title": "AI's third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI's product lead)",
-      "date": "2026-08-30",
-      "note": "Not extracted per subject-gate rule (borderline items should be dropped, and this section is a bonus not an obligation). The closest usable content -- named ChatGPT features 'Sites' and '/visualize' -- is a minor aside inside a broader PM-craft conversation and doesn't carry a standalone recruiter tactic worth building a point around.",
-      "points": []
+     "claim": "Every built a usage dashboard that tracks AI token spend per person and sorts it into work categories the person approves.",
+     "evidence": "Token count, dollar value, breakdown by person",
+     "quote": "categorizes at a high level what you spent those tokens on and then runs it by you for approval",
+     "timecode": "15:13"
+    },
+    {
+     "claim": "Success for a frontier team is integration into the wider organisation, not the number of experiments.",
+     "evidence": "'100 experiments' example",
+     "quote": "If you do a 100 experiments and don't let it land and don't integrate it, it doesn't work.",
+     "timecode": "41:27"
     }
-  ]
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/AI & I/2026-10-29-can-you-use-ai-to-make-good-art-with-fred-graver.md",
+   "show": "AI & I",
+   "title": "Can You Use AI To Make Good Art? With Fred Graver",
+   "date": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=lE-a6pNmTso",
+   "guest_line": "Fred Graver · Four-time Emmy-winning writer and producer, founder of AI Writer's Studio",
+   "vendor_flag": "Partly. Graver sells his own newsletter and teaching and offers a pitch-deck skill via Every; the Every hosts promote Every's Compound Writing and Compound Engineering plugins. Nothing here is independent evidence that they work.",
+   "reader_fit": "Low to medium: the 'who I am' and audience documents and the check-in agent transfer to recruiter personal branding and outreach, but the episode is about screenwriting.",
+   "points": [
+    {
+     "claim": "Dump what you know onto a page by hand before opening AI.",
+     "evidence": "A day or two of unaided thinking",
+     "quote": "Spend a day or two dumping everything you know about what you're going to do onto a page, right? Do it by hand. Do it by whisper.",
+     "timecode": "26:39"
+    },
+    {
+     "claim": "Create a personal 'who I am' document and a document on the current project, then ask whether the idea and the person fit and who the audience is.",
+     "evidence": "Two documents plus audience questions",
+     "quote": "You should create a who I am as a writer document.",
+     "timecode": "13:24"
+    },
+    {
+     "claim": "Test marketing before the product exists using a proxy trailer.",
+     "evidence": "Trailers rewritten roughly hour by hour based on ticket intent",
+     "quote": "let's create a proxy trailer for that let's see if we can sell tickets to that even though it doesn't exist yet",
+     "timecode": "23:22"
+    },
+    {
+     "claim": "He runs an agent that checks him each morning and holds him to his stated plan.",
+     "evidence": "Claude agent configured as unpleasant",
+     "quote": "I have a Claude agent that is my morning check-in.",
+     "timecode": "45:02"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/AI & I/2026-11-04-the-inside-story-of-the-50-who-built-modern-ai-with-kevin-roose.md",
+   "show": "AI & I",
+   "title": "The Inside Story of the 50 Who Built Modern AI With Kevin Roose",
+   "date": "2026-11-04",
+   "url": "https://www.youtube.com/watch?v=IOp5N4GxE6E",
+   "guest_line": "Kevin Roose · Author of The AGI Chronicles and co-host of Machine Gods (with Casey Newton)",
+   "vendor_flag": "No product vendor. Roose is promoting his own book and show, and the Every hosts promote an Every subscription.",
+   "reader_fit": "Low: mostly the history of AGI and journalism. Two small items transfer to recruiters, the council-of-agents review and the weightlifting versus forklifting test for which tasks to automate.",
+   "points": [
+    {
+     "claim": "A council of persona agents reviewed each chapter draft and a master editor agent synthesised their notes.",
+     "evidence": "Claude Code swarm, personas such as AI sceptic and AI historian",
+     "quote": "I had a a council of clauds that would review chapters.",
+     "timecode": "24:32"
+    },
+    {
+     "claim": "The council caught factual errors that human editors missed.",
+     "evidence": "A couple of factual errors",
+     "quote": "It did catch a couple of factual errors uh that I had not caught and my human editors had not caught.",
+     "timecode": "26:06"
+    },
+    {
+     "claim": "Weightlifting tasks are those where the struggle is the benefit, so do not automate them.",
+     "evidence": "Parenting kept, company paperwork handed over",
+     "quote": "Weightlifting tasks are tasks in my mind where the struggle is part of the benefit",
+     "timecode": "42:52"
+    },
+    {
+     "claim": "Reading the interviewee's papers first and showing seriousness helped him get detail from a secretive industry.",
+     "evidence": "About 150 interviews, mostly on background",
+     "quote": "just being really sincere and doing the reading like reading the researchers papers before I went to talk to them",
+     "timecode": "12:56"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/Lenny's Podcast/2026-10-18-inside-the-black-box-of-ai-how-ai-models-actually-think-emmanuel-ameisen-anthrop.md",
+   "show": "Lenny's Podcast",
+   "title": "Inside the black box of AI: How AI models actually think",
+   "date": "2026-10-18",
+   "url": "https://www.youtube.com/watch?v=JHo-aiePjoM",
+   "guest_line": "Emmanuel Ameisen · Interpretability researcher @ Anthropic",
+   "vendor_flag": "Yes. The guest is an Anthropic employee describing Anthropic's model, says Claude now writes most of his code, and the host defends Anthropic against criticism. Sponsor reads for WorkOS and DX are paid ads.",
+   "reader_fit": "Low: research on model internals. The practical takeaways are mental models, that reliability thresholds decide when a tool becomes useful and that treating a model as an actor playing a role predicts its behaviour better than treating it as a program.",
+   "points": [
+    {
+     "claim": "A tool becomes useful for a task when its error rate drops below that task's threshold, which explains sudden-looking jumps.",
+     "evidence": "90 percent versus 50 percent of 'medium words' right",
+     "quote": "if you're at 50%, it's it's like you're it's actually wasting my time",
+     "timecode": "30:54"
+    },
+    {
+     "claim": "Models formulate plans in their internal results before producing words, such as choosing a rhyme word ahead.",
+     "evidence": "Poetry example, rabbit",
+     "quote": "models will like in their intermediate results sometimes formulate a plan",
+     "timecode": "15:26"
+    },
+    {
+     "claim": "A model went haywire because it was trained on mislabelled answers.",
+     "evidence": "Correct answer 12, rewarded answer 36",
+     "quote": "it had been trained by accident on similar questions where the answer was incorrectly marked as 36",
+     "timecode": "37:27"
+    },
+    {
+     "claim": "The anthropomorphic frame predicts model behaviour better than treating it as a program.",
+     "evidence": "Dialogue formatting, role-play, task rewards",
+     "quote": "mimicking a human is really close and is much closer than a program",
+     "timecode": "46:56"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/How I AI/2026-10-19-claude-code-for-creators-ai-editing-is-here.md",
+   "show": "How I AI",
+   "title": "Claude Code for creators: AI editing is here",
+   "date": "2026-10-19",
+   "url": "https://www.youtube.com/watch?v=UF08V1XIUmw",
+   "guest_line": "Brooke Lacey · TikTok creator and app builder @ Zosha",
+   "vendor_flag": "Guest promotes her own free app Zosha (renamed from Jayla) in the demo video and in the close; the sponsor reads (Firecrawl, Auros) are ads, not content. Follower count conflicts: host says over 200,000, description says more than 290,000.",
+   "reader_fit": "Partly. A UK in-house or agency recruiter making short-form employer-brand or outreach video could copy the one-take, text-file cut list approach, but it is a creator workflow, not a recruiting one, and needs a Mac, Claude Code and terminal comfort.",
+   "points": [
+    {
+     "claim": "Claude Code edits the raw phone video using ordinary local tools, with nothing uploaded",
+     "evidence": "FFmpeg, Whisper, Python; file stays on the computer",
+     "quote": "FFmpeg, Whisper, Python, like it didn't upload the video anywhere.",
+     "timecode": "7:37"
+    },
+    {
+     "claim": "The edit chain places each cut using word timings from Whisper, then tracks the face and assigns a shot size",
+     "evidence": "5 minute take, 15 seconds to run, eight cuts, wide/mid/close (Claude's own on-screen readout)",
+     "quote": "Word timing from Whisper sharpens each edge because neither alone can place a cut cleanly.",
+     "timecode": "11:06"
+    },
+    {
+     "claim": "The whole edit is a text file, so other lengths and formats can be regenerated from the same footage",
+     "evidence": "Each row has start, end, shot size, label; 30 and 60 second and landscape versions",
+     "quote": "a shot size, a label. That file is the whole edit.",
+     "timecode": "12:56"
+    },
+    {
+     "claim": "Brooke had to teach Claude her hook delivery and cadence before it cut the way she wanted",
+     "evidence": "Pointed Claude at a laugh in her opening line as the hook",
+     "quote": "I had to tell Claude, did you hear the cadence in my voice? Because that is how a hook works for me.",
+     "timecode": "22:19"
+    },
+    {
+     "claim": "Comments on past videos are mined for new script ideas",
+     "evidence": "Videos downloaded to Google Drive, comments read from logged-in TikTok; posts about once a week",
+     "quote": "read the comments and use those comments to um put together new content ideas based on what they said",
+     "timecode": "18:18"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/How I AI/2026-10-21-i-tested-claude-duet-is-it-worth-switching-from-grok-bot.md",
+   "show": "How I AI",
+   "title": "I tested Claude Duet. Is it worth switching from Grok Bot?",
+   "date": "2026-10-21",
+   "url": "https://www.youtube.com/watch?v=HYb5w4PfPZM",
+   "guest_line": "none (host-only review, Claire Vo)",
+   "vendor_flag": "Host-only review from early test flight access. Host says she uses Codex daily and prefers other agents; she also runs ChatPRD (named as the launch video test). No vendor guest, but one reviewer's opinion on a beta product.",
+   "reader_fit": "Low. A consumer and SMB personal agent review; useful only as a checklist for judging any AI assistant a recruiter might adopt (does it nudge you, how slow is it, can the team share it).",
+   "points": [
+    {
+     "claim": "To displace an existing agent, a new one has to be exceptional, not just good",
+     "evidence": "Host reports personal agent fatigue",
+     "quote": "to compete for being my number one personal agent, you have to be not good, not great. You have to be exceptional.",
+     "timecode": "0:00"
+    },
+    {
+     "claim": "A proactive agent that never nudges you gets forgotten",
+     "evidence": "One setup and a few tasks, then no further prompts",
+     "quote": "once I set up Duet a couple days ago and did a first couple tasks, it never pushed or bothered me to do anything ever again.",
+     "timecode": "5:11"
+    },
+    {
+     "claim": "Latency kills synchronous use; parallel tasks were forgotten",
+     "evidence": "10 plus minutes per thread",
+     "quote": "10 plus minutes to finish those threads",
+     "timecode": "8:38"
+    },
+    {
+     "claim": "No sharing means it stays out of a small team's stack",
+     "evidence": "Host has about five humans she works with regularly",
+     "quote": "Duet right now is clearly a agent for single player use.",
+     "timecode": "13:27"
+    },
+    {
+     "claim": "Polish is high relative to a rival launch",
+     "evidence": "Host's comparison, subjective",
+     "quote": "approximately 100 times more polished than Dots was when it came out",
+     "timecode": "14:42"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/How I AI/2026-10-26-how-reddits-designers-build-ultra-realistic-prototypes-with-figma-cursor.md",
+   "show": "How I AI",
+   "title": "How Reddit's designers build ultra-realistic prototypes with Figma + Cursor",
+   "date": "2026-10-26",
+   "url": "https://www.youtube.com/watch?v=zF-J3rMbzZw",
+   "guest_line": "Blair Metcalf · Principal UX Engineer @ Reddit",
+   "vendor_flag": "Guest built the internal tool he demonstrates (Reddit Proto) and is the employer's own spokesperson; adoption figures are his claims about his own team. He closes with a Reddit recruiting plug.",
+   "reader_fit": "Low to moderate. Not recruiting content; the practical takeaways for a UK TA or TA-ops lead are the idea of a guarded sandbox that lets non-engineers build, and using real data and a written handoff document instead of mock-ups.",
+   "points": [
+    {
+     "claim": "Prototype with real signed-in data instead of mocked screens so leadership finds it relevant",
+     "evidence": "Designers mocking in Figma lose leadership; real data lets reviewers 'put it through the paces'",
+     "quote": "if you make one of these real-world prototypes with real data, they'll put it through the paces of like some new feature",
+     "timecode": "8:17"
+    },
+    {
+     "claim": "A design annotation becomes a code edit by sending it to Cursor",
+     "evidence": "Annotation written in the prototype, 'send to Cursor', then 'apply annotations'",
+     "quote": "I just said send a cursor, and it writes a file, and then I just tell Cursor apply annotations",
+     "timecode": "9:28"
+    },
+    {
+     "claim": "Adoption was broad, and the best prototypers were not the obvious people",
+     "evidence": "100% adoption in UX and product, over 150 people, about 700 prototypes",
+     "quote": "we have 100% adoption in UX and product",
+     "timecode": "12:52"
+    },
+    {
+     "claim": "A generated PRD is the handoff from prototype to engineering",
+     "evidence": "Figma MCP produces a feature capsule and PRD with user goal and acceptance criteria",
+     "quote": "the perfect handoff. It has all the context.",
+     "timecode": "21:24"
+    },
+    {
+     "claim": "When the AI goes off track, step back and get vaguer rather than more specific",
+     "evidence": "Takes a day, describes the thing broadly outside the project, then brings it back",
+     "quote": "what I do is I take a day and then I get more vague",
+     "timecode": "27:44"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/How I AI/2026-10-28-i-tested-4-ai-agents-on-9-real-tasks-heres-who-won.md",
+   "show": "How I AI",
+   "title": "I tested 4 AI agents on 9 real tasks. Here's who won.",
+   "date": "2026-10-28",
+   "url": "https://www.youtube.com/watch?v=hnCoQ5wB-GU",
+   "guest_line": "none (host-only benchmark, Claire Vo)",
+   "vendor_flag": "Host admits scoring was live and not blind, different operator agents ran different products, and she does not know how the final scores were calculated. She runs ChatPRD (used for the launch video task). Sponsor reads (WorkOS, Firecrawl) are ads. Scores are one person's single run, not a rigorous benchmark.",
+   "reader_fit": "Low to moderate. Consumer agent results are not recruiting specific, but the method (one-line human prompts, same tool access, time and score each task) is reusable by a TA team comparing AI tools.",
+   "points": [
+    {
+     "claim": "Two of the four agents completed only seven of nine tasks",
+     "evidence": "Muse and Claude Duet completed seven of nine; Dot and Grockbot completed all nine",
+     "quote": "Muse and Claude could only get seven of the nine tasks done.",
+     "timecode": "7:17"
+    },
+    {
+     "claim": "The scoring was not blind and the host did not know the formula",
+     "evidence": "Final scores Grockbot 93%, Claude Duet 79%",
+     "quote": "I don't actually know how these scores work, but Claude told me it's true.",
+     "timecode": "29:57"
+    },
+    {
+     "claim": "Claude Duet was the most cautious on permissions",
+     "evidence": "Four permission requests versus one for each other agent",
+     "quote": "it asked four times for permission where all the other ones only asked once",
+     "timecode": "8:28"
+    },
+    {
+     "claim": "Check every agent has the same connectors and skills before comparing",
+     "evidence": "Used Codex with browser use to audit access",
+     "quote": "I had Codeex use browser use to check that all my agents were connected to roughly the same stuff and had access to the same skills.",
+     "timecode": "3:28"
+    },
+    {
+     "claim": "Write short human prompts, not engineered ones",
+     "evidence": "One line per task, in the host's own voice",
+     "quote": "keep it in my voice. Do exactly what I would do.",
+     "timecode": "4:09"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/How I AI/2026-11-02-the-ai-chief-of-staff-that-this-figma-pm-uses-all-day.md",
+   "show": "How I AI",
+   "title": "The AI chief of staff that this Figma PM uses all day",
+   "date": "2026-11-02",
+   "url": "https://www.youtube.com/watch?v=ztt8irafLMQ",
+   "guest_line": "Ezra Mechaber · Growth Product Manager @ Figma",
+   "vendor_flag": "Guest is a Figma employee praising Figma's own MCP and FigJam tooling and closes with a Figma hiring pitch. He admits there is no telemetry and no benchmark against vanilla Codex. AutoXP win is an anecdote with no figure given. Sponsor reads (Optimizely, Jira Product Discovery) are ads. Surname spelled McCabe in the ASR transcript, Mechaber in the description.",
+   "reader_fit": "Moderate. The shared repo of skills with an agent file, memory and update hook is a model a TA ops team could copy, and the daily 'what's up' digest and bug bash patterns transfer to recruiting ops. The experiment automation is growth specific.",
+   "points": [
+    {
+     "claim": "A PM's chief of staff is a plain repo of skills with a behaviour file and an update hook",
+     "evidence": "agent.md, skills, command hooks, 60 to 70 PMs kept in sync",
+     "quote": "keep our 60 to 70 PM kind of roughly in sync",
+     "timecode": "10:56"
+    },
+    {
+     "claim": "A daily digest skill pulls Slack and project context into a priority list",
+     "evidence": "Run about six times a day",
+     "quote": "I run this skill what's up like six times a day.",
+     "timecode": "8:17"
+    },
+    {
+     "claim": "An agent runs through bug bash scripts held in FigJam and found edge cases a human missed",
+     "evidence": "Thousand emojis in a text box broke it; 'a' versus 'an' before team names",
+     "quote": "if you put a thousand emojis in a text box, it would break",
+     "timecode": "20:11"
+    },
+    {
+     "claim": "An automated growth PM drafts, builds and launches experiments with one human review before launch",
+     "evidence": "Five live concurrent experiments; reviews data science, hypotheses, copy and code at once",
+     "quote": "the only time you're allowed to look is before you launch the experiment",
+     "timecode": "25:06"
+    },
+    {
+     "claim": "When the AI loops, assume the context is poisoned and start a new conversation",
+     "evidence": "Host-agreed tip; Codex remote sandbox bug example",
+     "quote": "so start a new conversation and just move on with your life",
+     "timecode": "40:10"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/AI For Humans/2026-10-20-ai-fact-checks-elons-flying-roadster.md",
+   "show": "AI For Humans",
+   "title": "AI Fact-Checks Elon's Flying Roadster",
+   "date": "2026-10-20",
+   "url": "https://www.youtube.com/watch?v=sUKNBqZ4rvI",
+   "guest_line": "none",
+   "vendor_flag": "The show states the hosts are AI-generated characters. All Tesla figures are the show's reading of Tesla's livestream, not independently verified here.",
+   "reader_fit": "Low. A UK recruiter gets only a transferable method for stress-testing a vendor demo and reading pre-payment terms, nothing recruiting-specific.",
+   "points": [
+    {
+     "claim": "Check whether a vendor's own numbers agree with each other before believing a demo.",
+     "evidence": "Screen said 4,700 kg of suction; Tesla's stated pull of up to 2G would imply a 2,350 kg car; an engineer said just under 1,700 kg",
+     "quote": "Tesla says the fans pull up to 2G. The screen said 4700. If that's 2G, the car weighs 2350. Their engineer said under 1700.",
+     "timecode": "3:55"
+    },
+    {
+     "claim": "Headline performance was not independently timed, and the recorded run differed from the claim.",
+     "evidence": "Tesla showed 0.81 seconds; a recorded run said one second flat",
+     "quote": "Nobody outside Tesla timed it.",
+     "timecode": "3:55"
+    },
+    {
+     "claim": "Pre-order terms: money down for a product with no price and no guaranteed date.",
+     "evidence": "$5,000 on a card, $45,000 by wire within ten days, or a quarter million up front; first $5,000 fully refundable; contract says delivery date cannot be guaranteed",
+     "quote": "Five grand on a card, 45 more by wire in ten days, or a quarter million up front for the thruster trim.",
+     "timecode": "4:44"
+    },
+    {
+     "claim": "The show's proposed buyer protections: escrow, interest on lateness, neutral on-camera test, then sell.",
+     "evidence": "Escrow deposits; pay interest every year late; neutral tester on camera; thrusters off public roads until a regulator signs off",
+     "quote": "Show, then sell.",
+     "timecode": "8:31"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/AI For Humans/2026-10-23-ai-just-broke-the-internet-for-real-this-time.md",
+   "show": "AI For Humans",
+   "title": "AI Just Broke The Internet. For Real This Time.",
+   "date": "2026-10-23",
+   "url": "https://www.youtube.com/watch?v=-XIgyMsZZxY",
+   "guest_line": "none (hosts Kevin Pereira and Gavin Purcell)",
+   "vendor_flag": "Gavin Purcell says Fal is not a sponsor but gave him credits, so his praise of the Fal-hosted video models is not fully neutral. Exploit-attempt figures are relayed second-hand from Cloudflare's CEO. Product names are ASR-garbled in places.",
+   "reader_fit": "Low to moderate. Useful context on agent access risk and AI video cost, but nothing recruiting-specific; a UK recruiter would use it only as general AI-awareness background.",
+   "points": [
+    {
+     "claim": "Once a vulnerability is public, exploit attempts scale from thousands to over a million within hours because agents pile on.",
+     "evidence": "Cloudflare's Matthew Prince as relayed by a host: thousands of attempts, tens of thousands within 45 minutes of the announcement, hundreds of thousands within 2 hours, supposedly over a million",
+     "quote": "That jumped to tens of thousands in the 45 minutes post announcement. And then hundreds of thousands within 2 hours, and supposedly now well over a million.",
+     "timecode": "8:37"
+    },
+    {
+     "claim": "Banks reportedly see people's personal AI agents acting in accounts as unauthorised.",
+     "evidence": "Axios report, sourced to a bunch of banks, as described by Gavin Purcell; the hosts say banks are unsure the use cases are approved by users",
+     "quote": "AI agents are unauthorized using bank software and this was from a bunch of banks",
+     "timecode": "15:07"
+    },
+    {
+     "claim": "A Chinese-origin video model, Wan 3, was claimed to cost about a fifth of Seedance 2.5 on Fal, with somewhat less realistic output.",
+     "evidence": "About a fifth of the price; Seedance 2.5 judged more realistic in a single identically-prompted text-to-video test",
+     "quote": "the Waon video is not bad and there's a little level of like it's getting something interesting and for a fifth the price, that is a big deal, right?",
+     "timecode": "39:25"
+    },
+    {
+     "claim": "Claude Duet is pitched as a separate, proactive work agent; the hosts are cautious about trust and token spend.",
+     "evidence": "Dedicated app, waitlist, not rolled out to everybody; proactivity is the pitched differentiator",
+     "quote": "I think the differentiator as they're pitching it is the proactivity of it.",
+     "timecode": "41:52"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/AI For Humans/2026-10-30-ai-is-moving-too-fast-two-new-models-in-two-weeks.md",
+   "show": "AI For Humans",
+   "title": "AI Is Moving Too Fast. Two New Models In Two Weeks?!",
+   "date": "2026-10-30",
+   "url": "https://www.youtube.com/watch?v=6101Q0dQQIk",
+   "guest_line": "none (hosts Kevin Pereira and Gavin Purcell)",
+   "vendor_flag": "No guest. Model names are fictional-seeming future products as spoken in the transcript and ASR spellings vary (Carbon, Argon, Terra, Kadamari). Kevin Pereira built the demo himself with the model he is reviewing.",
+   "reader_fit": "Low. General AI-model landscape for a UK recruiter; the only practical angle is how to use cheaper model tiers and why to treat benchmark claims for gated models with caution.",
+   "points": [
+    {
+     "claim": "OpenAI's GPT-6.1 line is tiered like Anthropic's, with Terra as the mid-tier.",
+     "evidence": "Astra top, Saul second (Opus-level), Terra (Sonnet-level), Luna lowest (Haiku-level)",
+     "quote": "Terra is kind of their sonnet level and then there's Luna which is very much like the haiku lowest level.",
+     "timecode": "19:32"
+    },
+    {
+     "claim": "The mid-tier model was fast at computer use but struggled to follow a creative brief, so a bigger model had to rewrite the brief.",
+     "evidence": "Kevin Pereira's Katamari-style demo built via Blender; Terra described as very fast for computer use",
+     "quote": "just go ask it how to fix it and Astra came back and was like oh you should build it in this way",
+     "timecode": "20:32"
+    },
+    {
+     "claim": "Cheap intelligence lets you generate many variants and then select and merge, instead of perfecting one.",
+     "evidence": "Example: 50 fonts and 50 interactive treatments, pick 10, merge into one; or a hundred versions of a graphic and pick version 73",
+     "quote": "here are 50 fonts and 50 different like interactive ways that these graphics could play out. I picked these 10 as my favorite. Now merge those into one.",
+     "timecode": "23:48"
+    },
+    {
+     "claim": "Benchmark claims for a model most people cannot use are weak evidence.",
+     "evidence": "Gemini 4 Carbon was only available to a cyber-defence group at the time; Gavin Purcell argues for waiting until a model is widely available before judging it",
+     "quote": "you should wait to talk about your models until they are in the hands of everybody",
+     "timecode": "10:31"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/Lenny's Podcast/2026-10-25-an-86-minute-guide-to-finding-pmf-rob-snyder-author-the-power-of-pull.md",
+   "show": "Lenny's Podcast",
+   "title": "An 86-minute guide to finding PMF",
+   "date": "2026-10-25",
+   "url": "https://www.youtube.com/watch?v=19qrLchbQEc",
+   "guest_line": "Rob Snyder · Author of The Power of Pull, writer of The Physics of Startups",
+   "vendor_flag": "Rob Snyder is promoting his own book and newsletter and the 50-startups claim is his own. The episode carries WorkOS and DX sponsor reads, which are not editorial. No third-party product is praised by its vendor.",
+   "reader_fit": "Moderate. A UK recruiter selling a service or building an internal TA product gets a practical discovery-call structure and LinkedIn outreach benchmarks, plus an applicant tracking system example; the rest is founder-focused.",
+   "points": [
+    {
+     "claim": "Real pull needs all four of Project, Unavoidable, List of options and Limitations at once.",
+     "evidence": "Jump (AI notetaker for financial advisers): advisers must put notes in a CRM or could go to jail; generic notetakers were not CRM-integrated or clearly SEC-compliant. Insurance agents lacked the Unavoidable element",
+     "quote": "You need all four at once.",
+     "timecode": "13:28"
+    },
+    {
+     "claim": "Cold LinkedIn outreach targets: about 100 to 150 connection requests a week, with acceptance and reply rates to check against.",
+     "evidence": "Rob's typical targets: 30 to 40% accept; of those 30 to 50% reply; he aims for two to three customer conversations a day",
+     "quote": "like 30 to 40% of them should accept your connection request and then of them 30 to 50 should% should reply",
+     "timecode": "39:26"
+    },
+    {
+     "claim": "AI personalisation in first-touch outreach has not worked for him at this stage.",
+     "evidence": "Says it tells people something they already know and reads like Claude wrote it; the message only needs to be interesting enough to get a call",
+     "quote": "I uh have not seen AI personalization work at this stage.",
+     "timecode": "38:21"
+    },
+    {
+     "claim": "When a prospect is lukewarm, ask the Hail Mary question: is there anything on your to-do list you would pay me to do right now?",
+     "evidence": "An applicant tracking system startup selling to governments: the buyer answered with a job description task that became their first contract",
+     "quote": "yeah, what I'd actually pay you to solve is this like job description thing right now. And that became their first contract.",
+     "timecode": "30:00"
+    },
+    {
+     "claim": "Avoid design partners: they give feedback but do not buy.",
+     "evidence": "Rob says he has yet to see design partners help; real buyers want the job done, not to help build",
+     "quote": "they give a bunch of feedback and never buy from you",
+     "timecode": "32:07"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/Lenny's Podcast/2026-11-01-a-ugc-masterclass-from-the-22-year-old-who-built-wispr-flows-growth-machine-hect.md",
+   "show": "Lenny's Podcast",
+   "title": "A UGC masterclass from the 22-year-old who built Wispr Flow's growth machine",
+   "date": "2026-11-01",
+   "url": "https://www.youtube.com/watch?v=KzS5Qs7vSMg",
+   "guest_line": "Hector Serrano · Head of Content @ Wispr Flow",
+   "vendor_flag": "Hector Serrano works for Wispr Flow and praises its growth programme and the Tribe tool he uses; revenue growth of 30x and the $2 billion valuation come from the host and episode description, not verified. Creator earnings of $13,000 a month are his own claim. Episode carries WorkOS and DX sponsor reads.",
+   "reader_fit": "Moderate to high. Hiring signals for social-first roles, manual DM sourcing numbers, and a retainer-plus-commission structure transfer directly to UK agency or in-house recruiters sourcing creators or building an employer brand.",
+   "points": [
+    {
+     "claim": "Pair a quota-based retainer with uncapped commission so new creators stay long enough to break out.",
+     "evidence": "Example: 25 videos for $1,500 if the quota is hit; top-ups depend on commission earned; best creators earn about $13,000 a month (his claim)",
+     "quote": "we're going to pay you $1,500 as long as you hit that quota of videos",
+     "timecode": "14:03"
+    },
+    {
+     "claim": "Source creators by targeted, manual DMs off-platform: roughly 150 to 250 a week for five or six good ones.",
+     "evidence": "150 to 250 DMs over a week yielded five or six good creators; he prefers manual outreach to mass software; also asks good creators for referrals via their follows",
+     "quote": "from those 150 to 250 DMs, you're probably going to get like five or six really good creators.",
+     "timecode": "33:15"
+    },
+    {
+     "claim": "For a social-first hire, the screen is simple: has the candidate grown an account to around 10,000 followers, and are they hard-working and a good fit.",
+     "evidence": "Minimum follower floor of 10,000 to 15,000; Instagram a stronger signal than TikTok; he and a colleague had very different CVs (2.5 GPA vs 4.0)",
+     "quote": "has this person grown an account, even if it's like 10,000 followers?",
+     "timecode": "21:02"
+    },
+    {
+     "claim": "Posting a salary and requirements that are too high attracts the wrong people for this kind of role.",
+     "evidence": "Example of 250k or 200k base with generous equity as the mistake; he and a colleague joined as interns",
+     "quote": "you're going to end up attracting the wrong type of people",
+     "timecode": "1:00:05"
+    },
+    {
+     "claim": "He hires through his own social channels: his videographer and creators came from Instagram stories.",
+     "evidence": "Videographer found via an Instagram story posted in May, flown to San Francisco on three days' notice",
+     "quote": "I hired them from my Instagram stories.",
+     "timecode": "1:14:44"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Ameisen episode: transcript is ASR and garbles a few names (e.g. 'neuripedia.org', 'Jev', 'Claw'); the recommended interpretability site URL is unverified.",
+  "Roose episode: transcript line 'wrote 400 150 pages' is garbled, so the book length was not used.",
+  "AI & I 21 Oct: the transcript uses 'Ariel' and 'Chang'/'Jack Cheng' inconsistently; surnames of the frontier team taken only where heard or in the description links.",
+  "No date gaps: all four dates come from the file headers.",
+  "tech2: All five files had a Date header and filename date consistent; no date gaps.",
+  "tech2 2026-10-19: follower count conflicts (host says over 200,000, description says more than 290,000); neither used as a fact.",
+  "tech2 2026-11-02: guest surname spelled McCabe in ASR transcript, Mechaber in description; AutoXP 'huge win' has no figure in the transcript.",
+  "tech2 2026-10-21 and 2026-10-28: host-only; products (Claude Duet, Grockbot, Dot, Muse) named as spoken in captions, ASR spellings may differ; host surname Vo taken from the 2026-11-02 transcript where she introduces herself.",
+  "tech2: transcripts include ad reads (Firecrawl, Auros, WorkOS, Optimizely, Jira Product Discovery); ignored as sources.",
+  "AI For Humans transcripts are ASR with unnamed speakers; product names (Waon/Wan, SeaDance/Seedance, Kaedim/Fal, Kadamari/Katamari) are garbled and were normalised only in claims, never in quotes.",
+  "Episode 2026-10-20 is a scripted debate by AI-generated characters; Tesla figures are the show's own and not independently verified.",
+  "Revenue growth of 30x and the $2bn valuation for Wispr Flow come from the host and description, not evidence in the transcript beyond the host's remark; creator earnings of $13,000 a month are Serrano's own claim."
+ ]
 }

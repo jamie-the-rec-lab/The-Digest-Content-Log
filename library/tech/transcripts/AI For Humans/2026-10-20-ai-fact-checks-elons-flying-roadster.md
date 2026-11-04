@@ -1,3 +1,28 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** The AI-generated characters Moore, Murph and GRAY, AI For Humans (a scripted debate, not a human interview)  ·  **Show:** AI For Humans, 20 Oct 2026
+**Tags:** general, ai, pricing, product strategy, startups, go-to-market
+
+**When to use this:** A vendor is showing you an impressive live demo and you need a quick method for testing whether the claims behind it hold up, or you are weighing a deposit that ties up money before delivery.
+
+**Big idea:** Two AI-generated debaters and a neutral referee conclude that Tesla's flying Roadster stunt is real engineering, but that the company's own figures do not agree with each other and the pre-order terms put all the risk on the buyer.
+
+**Frameworks & plays:**
+- Test a demo by checking whether the vendor's own figures agree with each other. The referee character, GRAY, does this on the Roadster: the on-screen suction figure of 4,700 kg, the stated pull of up to 2G and an engineer's weight of under 1,700 kg cannot all be true, because 2G would imply a 2,350 kg car.
+- Ask who outside the vendor measured the headline result. The show points out that Tesla showed 0.81 seconds for 0 to 60 while a recorded run said one second flat, and that no timer was on screen.
+- Separate "late" from "fake". One host argues that late is not the same as fake, and the other counters with the calendar: promised for 2020, then 21, 22, 23, 24, 25, 25 again, then 2028, which the show summarises as "Nine dates, zero cars."
+- Read the money terms as a separate question from the technology. The deposit was $5,000 on a card with $45,000 more by wire within ten days, or a quarter million up front, for a car with no price set.
+- Apply GRAY's four conditions before paying: escrow the deposits, pay interest for every year it is late, let a neutral tester time it on camera, and keep the dangerous feature off public roads until a regulator signs off. GRAY's summary is "Show, then sell."
+
+**Data & benchmarks:**
+- All figures below are the show's reading of Tesla's livestream, delivered by AI-generated characters, and were not independently checked.
+- Tesla's own numbers, as quoted: at most 2.2 seconds of full thrust per fill, and a refill of six to seven hours today with a target of 30 minutes.
+
+**Steal this (do tomorrow):**
+- Before the next vendor demo of an AI sourcing or screening tool, write down the three headline numbers they will quote and ask where each was measured, by whom, and whether they are consistent with each other.
+- If a vendor wants prepayment, ask whether the money is refundable or held in escrow and what happens if the delivery date slips.
+<!--/SUMMARY-->
+
 # AI Fact-Checks Elon's Flying Roadster
 
 - **Podcast:** AI For Humans

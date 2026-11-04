@@ -8,11 +8,11 @@
 **Big idea:** Human in the loop can leave a recruiter as a mere validator, so employers should decide deliberately where human agency (judgment, context, business knowledge) adds value and keep those steps human, starting from a single problem rather than a product.
 
 **Frameworks & plays:**
-- Interrogate the process before adding AI. Devlin says AI works best on written down, well-defined processes, so ask how each step feels to the recruiter, the hiring manager and the candidate and simplify first.
+- Interrogate the process before adding AI. Devlin warns that a recruiter who only approves AI output becomes "a validator rather than a decision maker". He says AI works best on written down, well-defined processes, so ask how each step feels to the recruiter, the hiring manager and the candidate and simplify first.
 - Use the intake call as a low-risk first project. Schedule it from the ATS workflow, record and transcribe the call, run the transcript through a prompt that checks whether everything was covered and flags anything that should not have been said, then push structured notes into the ATS.
 - Test every automation against his six lenses: is it humane, is it efficacious, is it distributed (who gets the value), is it viable (is the organisation ready), is it adaptive, and is it steerable. He described this as a framework he is still developing.
 - Ask who gets the gain. His example is a hypothetical 30% productivity improvement: if the answer is only headcount savings, he does not think that is the right route, and a vendor pitch that ignores what to do with the hours back is short-sighted.
-- Name the human moments in each of four stages: intake, sourcing and application, assessment, and offer and onboarding. Examples he gave were a good-luck call before an interview, a feedback call afterwards, and getting arms around a candidate before day one.
+- Name the human moments in each of four stages: intake, sourcing and application, assessment, and offer and onboarding. Examples he gave were a call along the lines of "Hey Rob, good luck tomorrow" before an interview, a feedback call afterwards, and getting arms around a candidate before day one.
 - Do not leave "be more human" vague. He warns that recruiters may just be handed more requisitions, so say what the conversation is and how you will know it happens, and ask your recruiters where they can differentiate, because "the recruiters they have the answer".
 - Consider building small solutions yourself within your own IT infrastructure with IT and security involved, rather than spending hundreds of thousands of dollars on new technology.
 

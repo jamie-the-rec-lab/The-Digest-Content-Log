@@ -3,8 +3,6 @@
 Each entry: date, title (links to source), one-line summary, topic tags, and file path.
 Use this to find relevant items before opening the full document.
 
-## Newsletters (0 episodes)
-
 ## Podcasts (1 episodes)
 
 ### 2026-06-04 — [The AI Recruiter: Why Talent Teams Need to Start Building Their Own Tools](https://www.youtube.com/watch?v=pRIEn50SY3U)

@@ -1,3 +1,33 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Kevin Pereira and Gavin Purcell, AI For Humans  ·  **Show:** AI For Humans, 23 Oct 2026
+**Tags:** ai, ai agents, ai product, future of work, engineering, general
+
+**When to use this:** You want a plain-English account of how AI changed the speed of cyber attacks and why AI agents acting inside customer accounts worry institutions, for a client conversation or workshop on AI risk.
+
+**Big idea:** The hosts argue that AI tools now let attackers and defenders move far faster than the old patch-then-exploit cycle, so organisations and individuals can no longer wait months to catch up.
+
+**Frameworks & plays:**
+- Assume the window between a vulnerability being rumoured and being exploited has collapsed. Kevin Pereira describes the old pattern, where a flaw was confirmed, patched and only then exploited, and says that in an agentic world "if there's even a whiff or a rumor of a vulnerability, people turn their agentic machine onto that piece of software."
+- Do not give an agent direct access to money. The hosts open with "please, dear lord, do not connect your agents directly to your bank accounts, just for the time being."
+- Expect institutions to catch up on agent access. Gavin Purcell relays an Axios story saying banks see some AI agents acting in accounts without clear user approval, and argues institutions "no longer have a three to six-month window to catch up."
+- Judge a model on price per usable shot, not just on looks. Gavin compared Wan 3 and Seedance 2.5 with identical prompts, found Seedance more realistic, and said Wan 3 was about a fifth of the price, which adds up quickly on long-form work because you throw away a share of shots.
+
+**Data & benchmarks:**
+- Exploit attempts after the PHP flaw went public, as relayed by Kevin Pereira from Cloudflare's CEO Matthew Prince: thousands, then tens of thousands within 45 minutes of the announcement, hundreds of thousands within 2 hours, and supposedly over a million.
+- Wan 3 was described as about a fifth the cost of Seedance 2.5 on the Fal platform.
+
+**Tools & prompts:**
+- Claude Duet is described as a separate app, still on a waitlist, aimed at work tasks and carrying over a user's Claude skills and connectors. The hosts worry about an agent going rogue and about token spend on proactive behaviour.
+- Vendor note: Gavin says Fal is not a sponsor but has given him credits.
+
+**Contrarian take:**
+- Gavin Purcell argues that slowing AI down publicly would not slow it inside AI companies, and says he wants cybersecurity professionals to have the most advanced models.
+
+**Steal this (do tomorrow):**
+- List every system where an AI assistant or agent could log in on your behalf, including anything that touches candidate data, and confirm in writing who has authorised that access.
+<!--/SUMMARY-->
+
 # AI Just Broke The Internet. For Real This Time.
 
 - **Podcast:** AI For Humans

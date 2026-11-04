@@ -5,13 +5,22 @@ Use this to find relevant items before opening the full document.
 
 ## AI & I (42 episodes)
 
-### 2026-11-04 — [The Inside Story of the 50 Who Built Modern AI With Kevin Roose](https://www.youtube.com/watch?v=IOp5N4GxE6E)
+### 2026-11-04 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=IOp5N4GxE6E)
+Kevin Roose on how he wrote The AGI Chronicles, using a council of Claude agents to review chapters and NotebookLM for research, and sorting tasks into weightlifting and forklifting.
+Company: Kevin Roose (The AGI Chronicles, Machine Gods; AI & I)
+Tags: ai, ai agents, future of work, productivity, careers, general
 File: `transcripts/AI & I/2026-11-04-the-inside-story-of-the-50-who-built-modern-ai-with-kevin-roose.md`
 
-### 2026-10-29 — [Can You Use AI To Make Good Art? — With Fred Graver](https://www.youtube.com/watch?v=lE-a6pNmTso)
+### 2026-10-29 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=lE-a6pNmTso)
+Fred Graver explains why a writer should empty their own ideas onto a page before opening AI, how he runs a writers' room of Claude agents, and why AI cannot supply a point of view.
+Company: AI Writer's Studio (Fred Graver; AI & I)
+Tags: ai, ai product, ai agents, future of work, productivity, careers
 File: `transcripts/AI & I/2026-10-29-can-you-use-ai-to-make-good-art-with-fred-graver.md`
 
-### 2026-10-21 — [How to Actually Keep Your Company Ahead of AI](https://www.youtube.com/watch?v=LZbjIE2LeTQ)
+### 2026-10-21 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=LZbjIE2LeTQ)
+Natalia Quintero interviews Every's seven-person frontier team on how a small group tests each new AI model and only pushes proven experiments to the rest of the company.
+Company: Every (Natalia Quintero, Dan Shipper, frontier team; AI & I)
+Tags: ai, ai agents, ai product, management, team building, future of work, productivity
 File: `transcripts/AI & I/2026-10-21-how-to-actually-keep-your-company-ahead-of-ai.md`
 
 ### 2026-10-14 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=RbUHf4HeBzo)
@@ -250,13 +259,22 @@ File: `transcripts/AI & I/2026-01-07-ai-in-2026-reid-hoffmans-predictions-on-age
 
 ## AI For Humans (62 episodes)
 
-### 2026-10-30 — [AI Is Moving Too Fast. Two New Models In Two Weeks?!](https://www.youtube.com/watch?v=6101Q0dQQIk)
+### 2026-10-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=6101Q0dQQIk)
+Weekly AI news show covering Google's gated Gemini 4 Carbon preview, Genie 4, OpenAI's cheaper GPT-6.1 Terra and what a cheaper model is good and bad at.
+Company: AI For Humans (hosts Kevin Pereira, Gavin Purcell; Google Gemini, OpenAI GPT-6.1 Terra)
+Tags: ai, ai product, ai coding, machine learning, product strategy, general
 File: `transcripts/AI For Humans/2026-10-30-ai-is-moving-too-fast-two-new-models-in-two-weeks.md`
 
-### 2026-10-23 — [AI Just Broke The Internet. For Real This Time.](https://www.youtube.com/watch?v=-XIgyMsZZxY)
+### 2026-10-23 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=-XIgyMsZZxY)
+Weekly AI news show: the PHP vulnerability scramble and exploit-attempt surge, banks flagging unauthorised AI agents, a Wan 3 vs Seedance price gap, and Claude Duet's proactive agent pitch.
+Company: AI For Humans (hosts Kevin Pereira, Gavin Purcell; Cloudflare, Claude Duet, Fal)
+Tags: ai, ai agents, ai product, future of work, engineering, general
 File: `transcripts/AI For Humans/2026-10-23-ai-just-broke-the-internet-for-real-this-time.md`
 
-### 2026-10-20 — [AI Fact-Checks Elon's Flying Roadster](https://www.youtube.com/watch?v=sUKNBqZ4rvI)
+### 2026-10-20 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=sUKNBqZ4rvI)
+Scripted AI-host debate on Tesla's Roadster stunt, checking whether Tesla's own figures agree and what the deposit terms really promise.
+Company: Tesla Roadster launch (AI-generated hosts Moore, Murph, GRAY / AI For Humans)
+Tags: general, ai, pricing, product strategy, startups, go-to-market
 File: `transcripts/AI For Humans/2026-10-20-ai-fact-checks-elons-flying-roadster.md`
 
 ### 2026-10-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=-OzVqLQVvgw)
@@ -615,19 +633,34 @@ File: `transcripts/AI For Humans/2026-01-09-the-ai-robot-uprising-has-begun-and-
 
 ## How I AI (80 episodes)
 
-### 2026-11-02 — [The AI chief of staff that this Figma PM uses all day](https://www.youtube.com/watch?v=ztt8irafLMQ)
+### 2026-11-02 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=ztt8irafLMQ)
+Figma growth PM Ezra Mechaber shares PM OS, a 31 skill shared repo for roughly 60 to 70 PMs, plus agent bug bashes in Codex and an automated experiment runner with five live tests; no usage data or benchmarks given.
+Company: Figma (Ezra Mechaber, PM OS)
+Tags: ai, ai agents, ai coding, product management, productivity, team building, growth
 File: `transcripts/How I AI/2026-11-02-the-ai-chief-of-staff-that-this-figma-pm-uses-all-day.md`
 
-### 2026-10-28 — [I tested 4 AI agents on 9 real tasks. Here’s who won.](https://www.youtube.com/watch?v=hnCoQ5wB-GU)
+### 2026-10-28 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=hnCoQ5wB-GU)
+Claire Vo runs a non-blind, single-run benchmark of four personal AI agents on nine tasks; Grockbot scores 93% and Claude Duet 79%, with Muse fastest on four tasks and Duet asking for permission four times against one.
+Company: How I AI (host Claire Vo; agents Grockbot, Dot, Muse, Claude Duet)
+Tags: ai, ai agents, ai product, productivity, future of work
 File: `transcripts/How I AI/2026-10-28-i-tested-4-ai-agents-on-9-real-tasks-heres-who-won.md`
 
-### 2026-10-26 — [How Reddit’s designers build ultra-realistic prototypes with Figma + Cursor](https://www.youtube.com/watch?v=zF-J3rMbzZw)
+### 2026-10-26 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=zF-J3rMbzZw)
+Reddit's Blair Metcalf shows Reddit Proto, a Cursor and Figma MCP harness letting designers and PMs build prototypes on real data, with a generated PRD as the engineering handoff; claims 100% UX and product adoption.
+Company: Reddit (Blair Metcalf, Reddit Proto)
+Tags: ai, ai coding, product design, product management, engineering, scaling
 File: `transcripts/How I AI/2026-10-26-how-reddits-designers-build-ultra-realistic-prototypes-with-figma-cursor.md`
 
-### 2026-10-21 — [I tested Claude Duet. Is it worth switching from Grok Bot?](https://www.youtube.com/watch?v=HYb5w4PfPZM)
+### 2026-10-21 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=HYb5w4PfPZM)
+Host Claire Vo reviews Anthropic's Claude Duet phone agent: very polished, but not proactive enough, slow (10 plus minutes per thread) and single-player, so it fell out of her stack.
+Company: Anthropic (Claude Duet, host Claire Vo)
+Tags: ai, ai agents, ai product, product design, productivity
 File: `transcripts/How I AI/2026-10-21-i-tested-claude-duet-is-it-worth-switching-from-grok-bot.md`
 
-### 2026-10-19 — [Claude Code for creators: AI editing is here](https://www.youtube.com/watch?v=UF08V1XIUmw)
+### 2026-10-19 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=UF08V1XIUmw)
+Claude Code chains FFmpeg and Whisper to cut a raw phone take into a captioned short in about 15 seconds, with the cut list kept as a text file, and mines TikTok comments for scripts.
+Company: Brooke Lacey, Zosha (host Claire Vo)
+Tags: ai, ai coding, productivity, growth, careers
 File: `transcripts/How I AI/2026-10-19-claude-code-for-creators-ai-editing-is-here.md`
 
 ### 2026-10-14 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=dChiPsd0uF4)
@@ -1082,13 +1115,22 @@ File: `transcripts/How I AI/2026-01-05-zapiers-ceo-shares-his-personal-ai-stack-
 
 ## Lenny's Podcast (60 episodes)
 
-### 2026-11-01 — [A UGC masterclass from the 22-year-old who built Wispr Flow’s growth machine | Hector Serrano](https://www.youtube.com/watch?v=KzS5Qs7vSMg)
+### 2026-11-01 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=KzS5Qs7vSMg)
+Wispr Flow's head of content on running a performance-paid creator programme with Tribe, sourcing creators by manual DMs, and hiring young talent for social skills over CV signals.
+Company: Wispr Flow (Hector Serrano; Tribe)
+Tags: growth, go-to-market, hiring, team building, startups, careers
 File: `transcripts/Lenny's Podcast/2026-11-01-a-ugc-masterclass-from-the-22-year-old-who-built-wispr-flows-growth-machine-hect.md`
 
-### 2026-10-25 — [An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)](https://www.youtube.com/watch?v=19qrLchbQEc)
+### 2026-10-25 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=19qrLchbQEc)
+Rob Snyder's PULL framework (Project, Unavoidable, List of options, Limitations) for finding product-market fit, plus cold outreach benchmarks, the Hail Mary question and why he avoids design partners.
+Company: The Power of Pull / The Physics of Startups (Rob Snyder)
+Tags: startups, go-to-market, product strategy, user research, founder stories, growth
 File: `transcripts/Lenny's Podcast/2026-10-25-an-86-minute-guide-to-finding-pmf-rob-snyder-author-the-power-of-pull.md`
 
-### 2026-10-18 — [Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)](https://www.youtube.com/watch?v=JHo-aiePjoM)
+### 2026-10-18 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=JHo-aiePjoM)
+Anthropic interpretability researcher Emmanuel Ameisen explains how models plan ahead, why capability jumps are smooth progress crossing task thresholds, and why anthropomorphic framing is useful.
+Company: Anthropic (Emmanuel Ameisen; Lenny's Podcast)
+Tags: ai, machine learning, ai product, engineering, future of work, general
 File: `transcripts/Lenny's Podcast/2026-10-18-inside-the-black-box-of-ai-how-ai-models-actually-think-emmanuel-ameisen-anthrop.md`
 
 ### 2026-10-11 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=3I6QYkccd3o)
