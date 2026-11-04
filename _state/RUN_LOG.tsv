@@ -465,3 +465,11 @@
 2026-11-04	1	state files	DECISION: truncating last-run state files was denied by the permission classifier, so I moved the stale 2026-10-17 run-events.jsonl, run-report.json and publish-report.json to _to_delete/ (prefixed 2026-10-17-) and created fresh empty ones instead.	noted	yes
 2026-11-04	0	dry run	DRY RUN: cloud first run, triggered as a dry run. SAVE goes to branch claude/laughing-maxwell-sbcy5w, not main. Edition dated Wed 4 Nov 2026 as Version 8 (v8 built 17 Oct never went live). Stale run-report/publish-report treated as absent and cleared.	decision	yes
 2026-11-04	1	check_summaries	6 of 29 new summary blocks flagged (figures in a different spoken form, generic plays, one unsupported 0.81s claim); fixed from the transcripts by a helper, rerun clean. 25 older blocks still flag (pre-existing).	decision	yes
+2026-11-04	2	selection	Recruiting Future: chose Ep 834 (30 Oct) over Ep 835 (3 Nov), as 835 is mostly vendor guests selling HR tech; 835 is now ineligible under never-go-backwards.	decision	yes
+2026-11-04	2	selection	RecOps Roundup left out: 29 Oct issue mostly a vendor event, 22 Oct lead story an image with no text.	decision	yes
+2026-11-04	2	selection	Bullhorn/SIA left out: page 403 to fetches, figures only from search excerpts and two sources disagree (108 vs 100).	decision	yes
+2026-11-04	2	selection	Launches: Pin Autopilot and Teamtailor Smart action kept (tier A); iCIMS Hiring Agent in Teams dropped to keep two launch slots; Metaview 4 Nov update not saved so not used.	decision	yes
+2026-11-04	2	selection	AI & Tech: AI & I (Kevin Roose) and How I AI (Figma PM) picked; Lenny's 1 Nov failed the subject gate; AI For Humans dropped for low reader fit. AI news: Dayforce to acquire Ribbon AI (23 Oct, two sources).	decision	yes
+2026-11-04	2	edition	Version 8 (4th November 2026): one catch-up edition from three missed weeks, best of the pool rather than a double edition. 17 Oct v8 build items were never logged so were eligible.	decision	yes
+2026-11-04	2	titles	Removed 'Issue 84' from the DDR title because the sender used Issue 84 on two different issues.	decision	yes
+2026-11-04	2	fact-check model	Fact-check run on Opus, the strongest model offered to helpers in this session, in a separate helper that did not write the copy.	decision	yes

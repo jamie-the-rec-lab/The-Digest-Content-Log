@@ -1,72 +1,43 @@
-[
- {
-  "phase": 2,
-  "source": "selection",
-  "what": "Podcasts: one per show, newest-first rule applied with reader fit. Chose PromptMates 15 Oct (Clay) over 16 Oct (Luma Claude Code build, needs engineer-level skill); Recruiting Future ep831 (14 Oct) over ep832 (guest sells AI workshops, thinner); Brainfood ep413. Skipped PromptMates 4 Oct hiring-brief clip (not newer than featured 4 Oct), Brainfood ep412, RF 829/830. Older items from these shows are now ineligible under never-go-backwards.",
-  "severity": "decision",
-  "resolved": "yes"
+{
+ "date": "2026-11-04",
+ "phase": 2,
+ "dry_run": true,
+ "edition": "Version 8 (4th November 2026)",
+ "build_file": "digest/builds/2026-11-04.html",
+ "counts": {
+  "Recruiting Podcasts": 5,
+  "Recruiting Newsletters": 5,
+  "Recruiting reports, product updates, and more": 4,
+  "AI & Tech Picks": 3
  },
- {
-  "phase": 2,
-  "source": "selection",
-  "what": "Newsletters: picked 4. TA Unboxed 9 Oct (one to watch, concrete steps) over 16 Oct Fluid Clock (concept, nothing to act on). RecOps 8 Oct (tool evaluation questions) over 15 Oct (abstract four problem types plus vendor lists). DDR 14 Oct over 8 Oct. PromptMates NL 13 Oct.",
-  "severity": "decision",
-  "resolved": "yes"
+ "decisions": [
+  "Edition numbered v8 (version.txt says 7; the 17 Oct v8 build never went live). Window 9 Sep to 4 Nov 2026.",
+  "Newer-than-featured rule applied per source against featured-log.tsv (last entries 7 Oct); 17 Oct build items treated as never featured.",
+  "Recruiting Future: skipped Ep 835 (3 Nov, Unleash vendor interviews, reader fit limited) for Ep 834 Six Predictions (30 Oct, Cloudflare practitioner). Ep 835 now cannot run later.",
+  "Recruiting Future 22 Oct 'Round Up September' treated as duplicate of 14 Oct live round-up; neither used (both older than Ep 834).",
+  "Offer Accepted Loop Earplugs episode (0000 file, undated) ineligible; used 20 Oct Stepstone episode.",
+  "PromptMates: newest episode used (2 Nov Kit hiring launches); Chief of Staff (29 Oct) and two others left out, one per show.",
+  "Brainfood: newest (30 Oct Claude for TA) used; not eligible for podcast standout. Guest line omitted (multi-guest, names uncertain in captions).",
+  "RecOps Roundup left out this week: 29 Oct issue is mainly a vendor (Sync2Hire) event write-up and 22 Oct lead story was an image only.",
+  "Data Driven Recruiter: newest issue (4 Nov, talent engineering) used; 'Issue 84 -' prefix stripped (two issues share number 84).",
+  "Bullhorn/SIA indicator (20 Oct) left out: page 403, full analysis members-only, figures from search excerpts with an index conflict (108 vs 100); cannot confirm free access or verify.",
+  "Launches: Pin Autopilot and Teamtailor Smart action (both tier A). iCIMS Hiring Agent (tier B) dropped as two tier A launches fill the two slots; Metaview November update not used (not saved, extension of existing product).",
+  "Dayforce/Ribbon AI placed in AI & Tech Picks as a news item per the run report, but described in the recruiting part of the preview because its subject is recruiting.",
+  "Tech picks: AI & I (Roose, 4 Nov) and How I AI (Figma PM, 2 Nov) used. Lenny's 1 Nov UGC episode dropped at the subject gate (growth/marketing by title, borderline). AI For Humans 30 Oct dropped (general model chatter, low reader fit).",
+  "Standouts: Podcast Building the Talent Machine (McCarthy), Newsletter TA Unboxed, Report ONS, Launch Pin Autopilot, AI pick How I AI.",
+  "No curve-ball reports, events or essays available this week; section 3 is two reports plus two launches.",
+  "check_duplicates flags (Ashby Community monthly title, ONS monthly title) are formulaic recurring titles of new editions, accepted."
+ ],
+ "checks": {
+  "template_diff": "identical",
+  "quick_checks": "pass",
+  "check_duplicates": "3 formulaic flags, accepted",
+  "final_check": "clean",
+  "run_check_pre": "clean",
+  "publish_check": "clean"
  },
- {
-  "phase": 2,
-  "source": "selection",
-  "what": "Reports: ISE excluded (members-only/paid, figures only from press), Bullhorn 6 Oct superseded by 13 Oct, kept Bullhorn 13 Oct, REC, iCIMS as partial/free summaries linked to free pages. Bullhorn flagged by check_duplicates as formulaic repeat of weekly series; fine.",
-  "severity": "decision",
-  "resolved": "yes"
- },
- {
-  "phase": 2,
-  "source": "selection",
-  "what": "Launches: only Workday Talent Acquisition Agent (tier B, only material release, single article in section 3). Metaview-Workday integration and Juicebox Smarter Sequences left out (integration / no detail). Workday is also the week's AI news item, so it is not duplicated in section 4; section 4 has no news item.",
-  "severity": "decision",
-  "resolved": "yes"
- },
- {
-  "phase": 2,
-  "source": "selection",
-  "what": "AI & Tech Picks: Lenny's Woodward (11 Oct) and AI & I Dots (7 Oct; 14 Oct investor episode fails subject gate so fell back to the newer-than-featured 7 Oct item). Dropped How I AI Muse episodes and AI For Humans (general model reviews / entertainment, second-hand claims, little reader use). Standout AI pick: Lenny's.",
-  "severity": "decision",
-  "resolved": "yes"
- },
- {
-  "phase": 2,
-  "source": "edition",
-  "what": "Edition line Version 8 (17th October 2026) and title date 17 Oct 2026, run date per coordinator decision. Old build 2026-10-07.html moved to _to_delete/ per PUBLISH step 1; published copy untouched.",
-  "severity": "decision",
-  "resolved": "yes"
- },
- {
-  "phase": 2,
-  "source": "links",
-  "what": "Gmail thread links unavailable (Gmail search denied in this session), so newsletter links in the build copy are public archive URLs. Step 6 public swap is then a no-op for these.",
-  "severity": "degraded",
-  "resolved": "no"
- },
- {
-  "phase": 2,
-  "source": "standouts",
-  "what": "Standouts: Podcast Clay, Newsletter DDR 82, Report REC, Launch Workday, AI pick Lenny's. Brainfood not used for podcast standout.",
-  "severity": "decision",
-  "resolved": "yes"
- },
- {
-  "phase": 2,
-  "source": "checks",
-  "what": "publish_check clean, final_check clean, run_check --pre clean, check_duplicates 5 formulaic-title flags (Bullhorn weekly x3, REC monthly, iCIMS monthly) all reviewed and fine; no dashes in body, no placeholders. Featured log 110 rows with 12 v7 rows intact; version.txt 7; nothing published or logged.",
-  "severity": "decision",
-  "resolved": "yes"
- },
- {
-  "phase": 2,
-  "source": "factcheck round 1 fixes",
-  "what": "Fixed 6 mismatches from source: DDR bullet 3 (removed 'UK', named Student Recruitment Survey 2026, Fabric 38.5% of candidates across 19,368 interviews, 'cheating detection software'); Recruiting Future bullet 1 (20% are shares of surveyed clients citing each reason, not UK and Ireland scoped); RecOps bullet 2 (onboarding point credited to Jason Miller); iCIMS bullet 2 (37 days, steady in the mid 30s all year); Workday bullet 3 ('no customer results were found'). Standouts and preview do not repeat these claims. final_check and publish_check clean.",
-  "severity": "decision",
-  "resolved": "yes"
- }
-]
+ "not_done": [
+  "Fact-check (step 5) pending: input in _state/factcheck-input.json",
+  "Steps 6-8 not run (dry run)"
+ ]
+}
