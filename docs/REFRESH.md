@@ -222,7 +222,9 @@ Then rebuild the index and confirm it is clean.
 ## Collection 2: newsletters
 
 For each sender in `config/sources.yaml`, search Gmail for messages from the last 14
-days. The run is weekly, so 7 days would do, but the extra week costs nothing
+days. If the entry has a `search` line, use that query instead of a plain
+`from:` on the sender: some senders also send promotional email, and the
+`search` line is what keeps only the real issues (Gem is the first). The run is weekly, so 7 days would do, but the extra week costs nothing
 and covers a missed run. Anything already saved is skipped. Skip welcome and confirmation emails, keep only real issues.
 
 For anything not already in the library, pull the full thread. The result is

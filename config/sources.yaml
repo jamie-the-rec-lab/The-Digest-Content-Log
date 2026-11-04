@@ -126,6 +126,17 @@ newsletters:
       sender: fullstackrecruiter@substack.com
       subscribe: https://newsletter.fullstackrecruiter.net/subscribe
 
+    # Added 4 Nov 2026 at Jamie's request. hello@gem.com also sends webinar and
+    # promo emails ("Jenn from Gem" and so on); only the monthly issue arrives as
+    # "Gem Newsletter", so the search filters on that name too. Its "View in
+    # browser" link is a personal tracking link tied to Jamie's subscription:
+    # never publish it. No public sign-up page exists, so the blog stands in.
+    - name: Gem Newsletter
+      sender: hello@gem.com
+      search: 'from:hello@gem.com from:"Gem Newsletter"'
+      subscribe: https://www.gem.com/blog
+      public_archive: none
+
     - name: PromptMates Newsletter
       sender: news@mail.promptmates.ai
       subscribe: https://promptmates.beehiiv.com/subscribe
