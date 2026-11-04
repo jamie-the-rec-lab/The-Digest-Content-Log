@@ -67,14 +67,29 @@ that gets cut off is rerun rather than abandoned.
 Saves any episode not already saved, with a timecoded transcript. Run it again
 and it only picks up what is new, so it is safe to rerun until it stops saving.
 
+**Where it gets things (since 4 Nov 2026).** The episode list comes from the
+show's official YouTube RSS feed (a `/videos` URL reads the Videos tab only, so
+no Shorts; a `/streams` URL reads the Live tab). The transcript comes from
+TranscriptAPI. Nothing talks to YouTube's video or caption servers, which
+bot-check cloud machines. Each episode ends in one of:
+
+- `saved` / `skip` / `teaser`: as before
+- `upcoming`: a scheduled live stream that has not aired. Normal, not logged as a problem
+- `pending`: released in the last 12 hours with no captions yet. Captions often
+  lag a new upload; it is picked up next week and noted, not counted as a failure
+- `failed`: TranscriptAPI had nothing (no captions, or a service error). A
+  recorded gap, retried next week
+- `gone`: private or removed. Not retried
+
 - destination is relative to `library/` and must be `<collection>/transcripts`
   for one of the six known collections: `podcasts`, `tech`, `newsletters`,
   `reports`, `news`, `adhoc`. So `tech/transcripts`. Defaults to
   `podcasts/transcripts`
 - cutoff is a date like `20240101`, only for the shows that carry one
-- scan limit is how many of the newest episodes to look at, default 10. A weekly
-  run should never have more than that. There is a hard ceiling of 50
-- `--backfill` opts in to scanning past the ceiling, including `all`
+- scan limit is how many of the newest episodes to look at, default 10. The feed
+  only ever shows the newest 15, so that is the ceiling
+- `--backfill` is accepted but cannot go past 15 in the cloud: a deeper backfill
+  needs a different source and is a deliberate job
 
 **The destination is validated, and a bad one stops the run.** Anything that is
 not `<collection>/transcripts` is refused: the script exits non-zero, writes no
@@ -85,8 +100,8 @@ event to `_state/run-events.jsonl` so the health report sees it. This is the
 because it only walks the six collections, and three episodes went missing from
 that week's digest. Passing a bare show name now fails loudly instead.
 
-**The scan limit is capped at 50.** A request above the ceiling, or `all`, is
-clamped to 50 unless `--backfill` is passed, and the clamp is recorded to
+**The scan limit is capped at 15** (the feed's own length). A request above it,
+`all` or `--backfill` is clamped to 15, and the clamp is recorded to
 `_state/run-events.jsonl` as `scan_limit_clamped`. Escalating past the ceiling
 is a deliberate backfill job, run by hand and on purpose, never part of a
 weekly run. On 3 September 2026 a weekly run escalated to 50 and then 100 and

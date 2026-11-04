@@ -212,6 +212,24 @@ def build(project, today):
                              "severity": "decision", "resolved": "yes"})
         elif e.get("outcome") == "listed_empty":
             zero_from_events.append(src)
+        if e.get("failed"):
+            # Added 4 Nov 2026 (cloud fetcher). Episodes TranscriptAPI could not
+            # return. Not lost: they are retried next week, inside the 8 week window.
+            fails = [x for x in events if x.get("kind") == "transcript_failed" and x.get("source") == src]
+            gone = [x for x in fails if x.get("permanent")]
+            problems.append({"phase": 1, "source": src,
+                             "what": "%d episode(s) had no transcript from TranscriptAPI%s, retried next week: %s"
+                                     % (e.get("failed"), (" (%d unavailable for good)" % len(gone)) if gone else "",
+                                        "; ".join(x.get("title", "")[:50] for x in fails[:3])),
+                             "severity": "degraded", "resolved": "no"})
+        if e.get("pending"):
+            # Released in the last day and captions not ready yet. Normal, not a fault.
+            pend = [x for x in events if x.get("kind") == "captions_pending" and x.get("source") == src]
+            problems.append({"phase": 1, "source": src,
+                             "what": "%d new episode(s) released in the last day had no captions yet, "
+                                     "picked up next week: %s" % (e.get("pending"),
+                                     "; ".join(x.get("title", "")[:50] for x in pend[:3])),
+                             "severity": "decision", "resolved": "yes"})
         if e.get("hit_limit"):
             problems.append({"phase": 1, "source": src,
                              "what": "every listed episode was new, there may be more past the scan limit",

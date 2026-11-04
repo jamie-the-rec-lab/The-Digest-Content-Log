@@ -191,22 +191,23 @@ missing item Jamie can add is a far better outcome than a stalled run.
 
 ---
 
-## yt-dlp is missing, or `yt-dlp` is not a recognised command
+## A show's transcripts fail, or every show fails
 
-**Symptom:** the refresh fails immediately with "No such file or directory:
-yt-dlp", or every source reports a listing failure.
+Since 4 Nov 2026 transcripts come from TranscriptAPI, not yt-dlp.
 
-**Cause:** the machine does not keep installed packages between runs, and when
-pip does install yt-dlp the executable lands in `~/.local/bin`, which is not on
-PATH. So `pip install` succeeds and `yt-dlp` still fails.
-
-**Fix:** already handled. `fetch_transcripts.py` resolves yt-dlp at import time
-in three steps: the `yt-dlp` command, then `python3 -m yt_dlp`, then install and
-retry the module. If all three fail it stops the run with a FATAL message rather
-than reporting every source as broken.
-
-**Do not** replace `YTDLP` with a bare `"yt-dlp"` string anywhere. That is the
-bug this exists to prevent.
+- **One episode `failed` with `no_captions`:** YouTube has no captions for it.
+  Retried next week; if it keeps failing, it is a gap.
+- **Every episode fails with HTTP 401 or 403:** the TranscriptAPI key is missing
+  or wrong in the environment's network secrets. Jamie fixes it in the
+  environment settings; it cannot be fixed from inside the run.
+- **HTTP 402 or a quota message:** the TranscriptAPI plan has run out. Tell Jamie.
+- **Every feed fails to list:** check the environment's network access allows
+  www.youtube.com.
+- **A show lists 0 episodes:** its URL in `sources.yaml` must be the
+  `/channel/<UC id>/videos` form. An `@handle` has no feed.
+- **A whole show's back catalogue is re-saved as new:** its library folder name
+  no longer matches the show name, so nothing is recognised. On 4 Nov 2026 the
+  Drive zip had turned `Lenny's Podcast` into `Lenny_s Podcast`.
 
 ## "Sign in to confirm you're not a bot"
 

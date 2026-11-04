@@ -8,6 +8,11 @@
 # it. If a line tells you to do something, it belongs in REFRESH.md,
 # SELECTION.md or STYLE.md instead.
 #
+# YouTube URLs must be the /channel/<UC id>/videos, /playlist?list=<id> or
+# /user/<name>/videos form. The fetcher turns them into the channel's RSS feed,
+# and an @handle has no feed address. A channel's id is in the feed link on its
+# page (feeds/videos.xml?channel_id=UC...).
+#
 # TO ADD A PODCAST, copy this and fill it in:
 #   - name: Show Name              # the folder name, and how it is remembered
 #     display: Shown As            # only if readers should see a different name
@@ -33,7 +38,7 @@ podcasts:
 
   shows:
     - name: 10x Recruiting
-      url: [ 'https://www.youtube.com/@10x_Recruiting_pod/videos' ]
+      url: [ 'https://www.youtube.com/channel/UCHfRbbgKomdVkNNw_arjqGA/videos' ]
       brand: by Metaview
 
     - name: Brainfood
@@ -41,7 +46,7 @@ podcasts:
       cutoff: '20240101'
 
     - name: Building the Talent Machine
-      url: [ 'https://www.youtube.com/@buildingthetalentmachine/videos' ]
+      url: [ 'https://www.youtube.com/channel/UCOQUyOwQ0E0tVGSQQXjFRIw/videos' ]
       cutoff: '20240101'
 
     - name: Offer Accepted
@@ -63,7 +68,7 @@ podcasts:
       brand: by Greenhouse
 
     - name: The Debrief
-      url: [ 'https://www.youtube.com/@thedebriefTApodcast/videos' ]
+      url: [ 'https://www.youtube.com/channel/UCBVx8mcvimBh7cybRUiQ0MA/videos' ]
       format: panel
 
 
@@ -83,19 +88,19 @@ tech:
       cutoff: '20260101'
 
     - name: How I AI
-      url: [ 'https://www.youtube.com/@howiaipodcast/videos' ]
+      url: [ 'https://www.youtube.com/channel/UCRYY7IEbkHLH_ScJCu9eWDQ/videos' ]
       brand: by Lenny's Podcast
       host: Claire Vo
       cutoff: '20260101'
 
     - name: Lenny's Podcast
-      url: [ 'https://www.youtube.com/@LennysPodcast/videos' ]
+      url: [ 'https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA/videos' ]
       cutoff: '20260101'
 
     # Added 4 Sep 2026. A weekly AI news and culture show. Graded as tech, on the
     # same Section 4 subject gate as the other three, with no extra bar.
     - name: AI For Humans
-      url: [ 'https://www.youtube.com/@AIForHumansShow/videos' ]
+      url: [ 'https://www.youtube.com/channel/UCghJTNTO9kcDeUFXMuSDGLQ/videos' ]
       cutoff: '20260101'
 
 
