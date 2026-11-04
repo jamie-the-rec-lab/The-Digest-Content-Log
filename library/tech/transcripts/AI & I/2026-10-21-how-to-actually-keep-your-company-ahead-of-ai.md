@@ -10,8 +10,8 @@
 **Frameworks & plays:**
 - Separate keeping up from getting work done. Dan Shipper said every person otherwise faces the dilemma of doing their work or staying current with AI, and that a frontier team gives a separation of concerns. Every's team had run for a couple of months at the time of recording.
 - Staff the team with two types. Quintero described pirates, who try a billion things in a couple of days and are a little sloppy, and architects, who compress the mess into something maintainable before it goes to the wider team. Most experiments are thrown out and only some are pushed to colleagues.
-- Track what experimentation costs. Ariel Shipper showed a usage dashboard built from a skill that harvests token use across every tool on a person's computer, shows spend per person, and sorts sessions into work categories that the person approves, so the team can judge whether the spend was worth it.
-- Measure integration, not volume. Kieran Klaassen said a frontier team that dumps 100 experiments in a channel without landing any has failed, and that its job is to make sure some stick and people understand them.
+- Track what experimentation costs. Ariel (listed in the episode links as Arielle Shipper) showed a usage dashboard built from a skill that harvests token use across every tool on a person's computer, shows spend per person, and sorts sessions into work categories that the person approves, so the team can judge whether the spend was worth it.
+- Measure integration, not volume. Kieran said a frontier team that dumps 100 experiments in a channel without landing any has failed, and that its job is to make sure some stick and people understand them.
 - Mike Taylor, who calls himself head of evals, turns subjective vibe checks into numbers by helping colleagues build personal benchmarks, defined as a small set of your own real work saved so models can be rerun on it.
 
 **Data & benchmarks:**

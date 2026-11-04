@@ -1,6 +1,6 @@
 <!--SUMMARY-->
 ## Actionable summary
-**Guest:** Kevin Roose, former New York Times technology writer, author of The AGI Chronicles and co-host of the Machine Gods podcast with Casey Newton, interviewed by Natalia Quintero of Every. He is promoting his book and new show  ·  **Show:** AI & I, 04 Nov 2026
+**Guest:** Kevin Roose, former New York Times technology writer, author of The AGI Chronicles and co-host of the Machine Gods podcast with Casey Newton, interviewed by Natalia Quintero of Every. He is promoting his book and new show  ·  **Show:** AI & I, 4 Nov 2026
 **Tags:** ai, ai agents, future of work, productivity, careers, general
 
 **When to use this:** you are deciding which of your own tasks to hand to AI and which to keep doing yourself, or you want AI to review your drafts.

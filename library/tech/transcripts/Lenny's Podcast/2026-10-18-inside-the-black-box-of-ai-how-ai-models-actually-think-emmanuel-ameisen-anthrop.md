@@ -1,6 +1,6 @@
 <!--SUMMARY-->
 ## Actionable summary
-**Guest:** Emmanuel Ameisen, interpretability researcher at Anthropic who studies the inside of Claude, interviewed by Lenny Rachitsky. He works for the company that makes Claude, and he and the host speak warmly of Anthropic's safety record  ·  **Show:** Lenny's Podcast, 18 Oct 2026
+**Guest:** Emmanuel Ameisen, interpretability researcher at Anthropic who studies the inside of Claude, interviewed by Lenny. He works for the company that makes Claude, and he and the host speak warmly of Anthropic's safety record  ·  **Show:** Lenny's Podcast, 18 Oct 2026
 **Tags:** ai, machine learning, ai product, engineering, future of work, general
 
 **When to use this:** you need an accurate mental model of what large language models do, for example to judge when an AI tool is reliable enough to use on a task.
@@ -18,10 +18,10 @@
 - The 80 to 99 percent figures are his description of his own experience of Claude writing his code, not a measured benchmark.
 
 **Tools & prompts:**
-- Neuronpedia was recommended by Ameisen, as a site hosting open models for interpretability experiments (the URL was given as neuripedia.org and the host said to check it). Claude is the product he works on.
+- Ameisen pointed newcomers to an open-source site that hosts models for interpretability experiments, which he gave as neuripedia.org; the host said the URL might not be right, so check it before relying on it.
 
 **Contrarian take:**
-- Ameisen said both 'model as entity' and 'model as tool' are wrong, but that anthropomorphising is a useful frame. This is his opinion and the host referred to criticism of Anthropic for it.
+- Ameisen said both 'model as entity' and 'model as tool' are wrong, but that anthropomorphising is a useful frame. This is his opinion, not an established finding.
 
 **Steal this (do tomorrow):**
 - Before rolling an AI tool into screening or outreach, run it on 20 of your own real examples and record how often you must correct it, then compare with the reliability you need for that task.

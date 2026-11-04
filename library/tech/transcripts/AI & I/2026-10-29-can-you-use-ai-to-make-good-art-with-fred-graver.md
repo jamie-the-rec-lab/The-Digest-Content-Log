@@ -19,7 +19,7 @@
 
 **Tools & prompts:**
 - Claude, used as his main workspace with custom skills acting as readers over his shoulder. He also uses ChatGPT, which he called a film school student that has read every guide, and NotebookLM audio overviews.
-- A pitch deck skill taught at Barcelona School of Art and Design that will not let a student start a step until the previous one is done, using the Kenn Adams story framework.
+- A pitch deck skill taught at Barcelona School of Art and Design that will not let a student start a step until the previous one is done, using the Ken Adams story framework.
 
 **Contrarian take:**
 - Graver said asking AI what you should say gives you the mean, and that 'some people just don't have it'.
