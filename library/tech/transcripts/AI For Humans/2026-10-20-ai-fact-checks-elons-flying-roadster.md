@@ -9,14 +9,14 @@
 
 **Frameworks & plays:**
 - Test a demo by checking whether the vendor's own figures agree with each other. The referee character, GRAY, does this on the Roadster: the on-screen suction figure of 4,700 kg, the stated pull of up to 2G and an engineer's weight of under 1,700 kg cannot all be true, because 2G would imply a 2,350 kg car.
-- Ask who outside the vendor measured the headline result. The show points out that Tesla showed 0.81 seconds for 0 to 60 while a recorded run said one second flat, and that no timer was on screen.
+- Ask who outside the vendor measured the headline result. On the two weights, GRAY says "Nobody outside Tesla has checked either", so treat both as unverified.
 - Separate "late" from "fake". One host argues that late is not the same as fake, and the other counters with the calendar: promised for 2020, then 21, 22, 23, 24, 25, 25 again, then 2028, which the show summarises as "Nine dates, zero cars."
-- Read the money terms as a separate question from the technology. The deposit was $5,000 on a card with $45,000 more by wire within ten days, or a quarter million up front, for a car with no price set.
+- Read the money terms as a separate question from the technology. The deposit was five grand on a card with 45 more by wire within ten days, or a quarter million up front, for a car with no price set.
 - Apply GRAY's four conditions before paying: escrow the deposits, pay interest for every year it is late, let a neutral tester time it on camera, and keep the dangerous feature off public roads until a regulator signs off. GRAY's summary is "Show, then sell."
 
 **Data & benchmarks:**
 - All figures below are the show's reading of Tesla's livestream, delivered by AI-generated characters, and were not independently checked.
-- Tesla's own numbers, as quoted: at most 2.2 seconds of full thrust per fill, and a refill of six to seven hours today with a target of 30 minutes.
+- Tesla's own numbers, as quoted: at most about two seconds of full thrust per fill, and a refill of six to seven hours today with a target of 30 minutes.
 
 **Steal this (do tomorrow):**
 - Before the next vendor demo of an AI sourcing or screening tool, write down the three headline numbers they will quote and ask where each was measured, by whom, and whether they are consistent with each other.
