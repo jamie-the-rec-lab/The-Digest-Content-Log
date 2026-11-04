@@ -11,6 +11,14 @@ Company: Ashby
 Tags: product launch, ai agents, scheduling, integrations, ats, human-ai collaboration
 File: `transcripts/Ashby/2026-09-09-one-london-product-keynote.md`
 
+## Dayforce (1 episodes)
+
+### 2026-10-23 (BetaKit: agreement announced on a Friday, 23 Oct; the other outlets published 26 Oct) — [Dayforce agrees to acquire Ribbon AI to add voice and video AI interviewing to Agentic Recruiting](https://betakit.com/?p=411302)
+Dayforce agreed to acquire Ribbon AI (announced 23 Oct 2026), adding 24/7 voice and video AI interviewing, sourcing and outreach to its Agentic Recruiting product; terms and closing date undisclosed, Ribbon's million-plus interviews are company-reported
+Company: Dayforce
+Tags: acquisition, ai interviewing, ai agents, ai sourcing, ai screening, market news, global
+File: `transcripts/Dayforce/2026-10-23-acquires-ribbon-ai.md`
+
 ## Fortune (1 episodes)
 
 ### 2026-09-30 — [LinkedIn CEO says job seekers are sending 30% more applications than pre-pandemic, and it is harder to "know who can actually do the job"](https://fortune.com/2026/09/30/linkedin-ceo-dan-shapero-says-job-seekers-sending-out-30-more-applications-pre-pandemic-harder-know-who-can-do-job)
@@ -57,6 +65,22 @@ Company: OpenAI
 Tags: model release, ai agents, ai governance, automation, crm, ats, human-ai collaboration
 File: `transcripts/OpenAI/2026-09-03-gpt-6-astra-launch.md`
 
+## Pin (1 episodes)
+
+### 2026-10-23 (from the page's structured data) — [Pin launches Autopilot, an AI recruiting assistant that takes over once a candidate replies](https://www.pin.com/blog/autopilot/)
+Pin launched Autopilot (23 Oct 2026), an AI assistant that takes over once a candidate replies, answering questions, booking interviews and updating pipeline stages, with draft-review or autonomous modes and a Slack check when unsure; pricing and plans not stated
+Company: Pin
+Tags: product launch, ai agents, automation, scheduling, crm, candidate experience, human-ai collaboration
+File: `transcripts/Pin/2026-10-23-autopilot.md`
+
+## Teamtailor (1 episodes)
+
+### 2026-09-29 — [Teamtailor introduces Smart action, an AI stage trigger driven by plain-language instructions](https://www.teamtailor.com/en/productnews/smart-action-just-tell-ai-what-to-do/)
+Teamtailor introduced Smart action (29 Sep 2026), a stage trigger where plain-language prompts make AI add comments, tags, custom fields or to-dos per candidate, with a bias-warning prompt check and an audit log
+Company: Teamtailor
+Tags: product launch, ai agents, automation, ats, ai transparency, human-ai collaboration
+File: `transcripts/Teamtailor/2026-09-29-smart-action.md`
+
 ## Workday (1 episodes)
 
 ### 2026-10-13 — [Workday launches Autopilot Agents, including a Talent Acquisition Agent, at Workday Rising 2026](https://newsroom.workday.com/2026-10-13-Workday-Launches-Autopilot-Agents-That-Get-Real-Work-Done-Across-HR,-Finance,-and-IT)
@@ -64,3 +88,11 @@ Workday launched Autopilot Agents at Workday Rising (13 Oct 2026), including a T
 Company: Workday
 Tags: product launch, ai agents, automation, human-ai collaboration, integrations, global
 File: `transcripts/Workday/2026-10-13-autopilot-agents-talent-acquisition-agent.md`
+
+## iCIMS (1 episodes)
+
+### 2026-10-20 — [iCIMS launches the iCIMS Hiring Agent in Microsoft Teams as part of its 2026 Fall Release](https://www.icims.com/company/newsroom/fallrelease2026/)
+iCIMS announced the iCIMS Hiring Agent (20 Oct 2026), an agentic AI in Microsoft Teams that routes hiring tasks, prompts next-best actions and syncs with the ATS, with recruiters making final calls; rollout from 26 Oct 2026
+Company: iCIMS
+Tags: product launch, ai agents, ats, automation, human-ai collaboration, global
+File: `transcripts/iCIMS/2026-10-20-hiring-agent-fall-release.md`

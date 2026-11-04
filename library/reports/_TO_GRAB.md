@@ -32,3 +32,10 @@ line once it has been captured full.
 - REC/2026-10-10-report-on-jobs-october-2026.md and Bullhorn weekly indicator (weeks ending 26 Sep and 3 Oct): public headline figures only, full data is subscription or members-only.
 - Indeed Hiring Lab UK, UK Labour Market Snapshot (September and October 2026): not retried this run (it failed twice before with "Too many redirects"); a search found no October edition. Left for next week.
 
+
+## Flagged 2026-11-04
+
+- ONS/2026-10-20-labour-market-overview-uk-october-2026.md - public bulletin, headline sections only via page extract; re-read for full text if wanted (ons.gov.uk bulletin uklabourmarket/october2026).
+- REC/2026-09-29-jobsoutlook-september-2026.md - press release only (Onrec republish); full JobsOutlook on rec.uk.com not read.
+- Bullhorn/2026-10-20-staffing-industry-indicator-week-ending-october-10.md - SIA page 403 to bots; search excerpts only, members-only analysis.
+- Indeed Hiring Lab UK snapshot September/October 2026: no October edition found by search; still uncaptured.

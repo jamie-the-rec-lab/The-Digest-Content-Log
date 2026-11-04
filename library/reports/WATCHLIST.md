@@ -32,6 +32,7 @@ library; update it when a newer one is ingested.
 | WEF | Future of Jobs | biennial | 2023 |
 | Deloitte | State of GenAI / adjacent | ad hoc | — |
 | REC / KPMG | UK Report on Jobs | monthly | 2026-10 (September data) |
+| REC | JobsOutlook | quarterly | 2026-09 (published 2026-09-29, 704 employers) |
 | CIPD | Labour Market Outlook | quarterly (Feb/May/Aug/Nov) | 2026-08 |
 | CIPD | Resourcing & Talent Planning Survey | annual | — (2024 public; grab newest) |
 | ISE | Student Recruitment Survey | annual | 2026-10 (partial, members-only) |
@@ -39,8 +40,8 @@ library; update it when a newer one is ingested.
 | Robert Walters | UK Salary Survey | annual | 2026 |
 | APSCo | Technology Sector Report / Recruitment Index | quarterly + monthly | 2026 Q2 |
 | Mercer | Global Talent Trends | annual | 2026 |
-| ONS | Labour market overview, UK | monthly | 2026-09 |
+| ONS | Labour market overview, UK | monthly | 2026-10 (published 2026-10-20) |
 | Indeed Hiring Lab | UK Labour Market Snapshot | monthly | 2026-08 |
-| Bullhorn | Staffing Industry Indicator (SIA) | weekly | 2026-10 (week ending 3 Oct) |
+| Bullhorn | Staffing Industry Indicator (SIA) | weekly | 2026-10 (week ending 10 Oct, published 2026-10-20) |
 
 Add new recurring sources here as they are discovered.

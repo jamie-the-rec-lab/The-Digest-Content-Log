@@ -111,7 +111,13 @@ Company: Ashby
 Tags: applications per hire, hiring volume, funnel conversion, employer branding, by function, us data, trends / predictions
 File: `transcripts/Ashby/2023-05-30-applications-per-job.md`
 
-## Bullhorn (6 episodes)
+## Bullhorn (7 episodes)
+
+### 2026-10-20 — [Staffing Industry Indicator, week ending October 10, 2026](https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-october-20-2026)
+US staffing hours up 11% YoY for the week ending October 10 (index 108, +0.6% WoW); Industrial +17%, Commercial +12%, Professional +9%, IT +6%, Office/Clerical -7%, average weekly hours 35.5 (partial, public excerpts only)
+Company: Bullhorn
+Tags: hiring volume, us data, product data study, by industry, trends / predictions
+File: `transcripts/Bullhorn/2026-10-20-staffing-industry-indicator-week-ending-october-10.md`
 
 ### 2026-10-13 — [Staffing Industry Indicator, week ending October 3, 2026](https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-october-13-2026)
 US staffing hours up 11% YoY for the week ending October 3 (index 108, +1.5% WoW, year-to-date highs for total, Commercial and Professional); Industrial +17%, IT +8%, Office/Clerical -7% (partial, public table only).
@@ -413,7 +419,13 @@ Company: NACE
 Tags: early career talent, ai adoption, skills-based hiring, hiring volume, candidate fraud, quality of hire, survey, us data, trends / predictions
 File: `transcripts/NACE/2026-04-27-job-outlook-2026-spring-update.md`
 
-## ONS (1 episodes)
+## ONS (2 episodes)
+
+### 2026-10-20 — [Labour market overview, UK: October 2026](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026)
+UK vacancies fall to 691,000 (July-September, lowest outside the pandemic since 2014), unemployment 4.7%, employment rate 75.3%, regular pay growth 3.7%, payrolled employees down 111,000 YoY (partial, headline sections)
+Company: ONS
+Tags: hiring volume, uk data, compensation benchmarks, workforce planning, trends / predictions
+File: `transcripts/ONS/2026-10-20-labour-market-overview-uk-october-2026.md`
 
 ### 2026-09-15 — [Labour market overview, UK: September 2026](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/september2026)
 UK vacancies fall to 702,000, lowest since 2014 outside the pandemic; unemployment at 4.9%, payrolled employees down 145,000 YoY, regular pay growth 3.5%
@@ -445,13 +457,19 @@ Company: PwC
 Tags: attrition & retention, ai adoption, skills-based hiring, compensation benchmarks, workforce planning, global data, survey
 File: `transcripts/PwC/2024-06-25-global-workforce-hopes-and-fears-2024.md`
 
-## REC (4 episodes)
+## REC (5 episodes)
 
 ### 2026-10-10 — [KPMG and REC, UK Report on Jobs October 2026 (September data)](https://kpmg.com/uk/en/media/press-releases/2026/10/kpmg-and-rec-uk-report-on-jobs-october-2026.html)
 KPMG/REC UK Report on Jobs for September data (about 400 agencies, press release only): permanent placements rose for a second month, strongest in four years, temp billings growth slowest in five months, permanent candidate supply weakest since September 2023.
 Company: REC
 Tags: hiring volume, uk data, compensation benchmarks, by industry, trends / predictions, survey
 File: `transcripts/REC/2026-10-10-report-on-jobs-october-2026.md`
+
+### 2026-09-29 — [REC JobsOutlook, June to August 2026](https://www.onrec.com/node/129117)
+REC JobsOutlook (Whitestone, 704 UK employers, Jun-Aug 2026): economic confidence -39 net (up 8), short-term permanent hiring intentions +8, medium-term +6, temp +2/+5; Midlands leads medium-term at +12 (partial, press release only)
+Company: REC
+Tags: hiring volume, uk data, survey, trends / predictions, by industry
+File: `transcripts/REC/2026-09-29-jobsoutlook-september-2026.md`
 
 ### 2026-09-07 — [<!--SUMMARY-->](https://kpmg.com/uk/en/media/press-releases/2026/09/kpmg-and-rec-uk-report-on-jobs-september-2026.html)
 UK permanent placements rise for the first time since 2022 while temp billings and starting salary growth accelerate, but vacancies fall for a 34th consecutive month

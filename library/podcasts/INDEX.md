@@ -323,7 +323,16 @@ Company: Metaview
 Tags: ta leadership, ai strategy
 File: `transcripts/10x Recruiting/2025-03-06-introducing-the-10x-recruiting-podcast.md`
 
-## Brainfood (157 episodes)
+## Brainfood (160 episodes)
+
+### 2026-10-30 — [Brainfood Live On Air   Ep415   How to Use Claude for Talent Acquisition](https://www.youtube.com/watch?v=l7ulRFqNU3U)
+File: `transcripts/Brainfood/2026-10-30-brainfood-live-on-air-ep415-how-to-use-claude-for-talent-acquisition.md`
+
+### 2026-10-28 — [Brainfood Live On Air  - Ep416 - The Next Generation of Background Screening](https://www.youtube.com/watch?v=azW3Oa6smDo)
+File: `transcripts/Brainfood/2026-10-28-brainfood-live-on-air-ep416-the-next-generation-of-background-screening.md`
+
+### 2026-10-23 — [Brainfood Live On Air   Ep414   New Series  How AI is Changing My Job  as A Software Engineer](https://www.youtube.com/watch?v=GgQJ1ZwITfA)
+File: `transcripts/Brainfood/2026-10-23-brainfood-live-on-air-ep414-new-series-how-ai-is-changing-my-job-as-a-software-e.md`
 
 ### 2026-10-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=IMYZm_tSsi8)
 Hung Lee and a panel of SOSU 2026 attendees debate whether sourcing survives AI, with Metaview's Fillmore autonomous sourcer demoed by a sponsor employee and the panel concluding that manual searching is automated while talent intelligence, relationships and building skills remain.
@@ -1267,7 +1276,10 @@ Company: Brainfood
 Tags: ai strategy, talent market data, rec tech, staffing and agencies, regional hiring, global hiring, recruiting operations, talent intelligence
 File: `transcripts/Brainfood/2024-01-05-brainfood-live-on-air-ep239-forecasting-2024-in-recruitment-part-one.md`
 
-## Building the Talent Machine (51 episodes)
+## Building the Talent Machine (52 episodes)
+
+### 2026-10-29 — [Episode 047: Talent Engineering Hard Truths w/ Brandon Jeffs & Dan McCarthy](https://www.youtube.com/watch?v=xY2OLbPRskw)
+File: `transcripts/Building the Talent Machine/2026-10-29-episode-047-talent-engineering-hard-truths-w-brandon-jeffs-dan-mccarthy.md`
 
 ### 2026-09-01 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=R4uBXvhE9LE)
 Most AI recruiting tool pricing is currently subsidised by frontier AI labs token costs, so weigh build versus buy on scale, compliance exposure and vendor liability buffer rather than demo appeal.
@@ -1575,7 +1587,10 @@ Company: Eric Friedman
 Tags: startup hiring, executive search, reference checks, quality of hire, ta leadership, employer storytelling, rec tech, ai strategy
 File: `transcripts/Building the Talent Machine/2025-08-08-pilot-building-the-talent-machine-w-eric-friedman.md`
 
-## Offer Accepted (85 episodes)
+## Offer Accepted (87 episodes)
+
+### 2026-10-20 — [Halving Attrition With a Connected Career Framework with Nic Weatherhead, The Stepstone Group](https://www.youtube.com/watch?v=N500zEoKH7M)
+File: `transcripts/Offer Accepted/2026-10-20-halving-attrition-with-a-connected-career-framework-with-nic-weatherhead-the-ste.md`
 
 ### 2026-10-06 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=6fjVWhs3EXk)
 Mike Clapson (VP Sales, Ashby, a vendor) on cutting an AE interview process from five rounds to three: remove rounds that add no unique signal, a two stage demo role play, scenario questions and shadow calibration; results are self reported.
@@ -2087,7 +2102,22 @@ Company: Growth by Design
 Tags: stakeholder management, recruiting metrics, ta leadership, hiring manager alignment, market mapping, talent density
 File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-service-providers-to-trusted-advisors-with-adam.md`
 
-## PromptMates (62 episodes)
+###  — [Hiring for AI Skills Beyond Prompting with Maksym Dziarmaga, Loop Earplugs]()
+File: `transcripts/Offer Accepted/0000-hiring-for-ai-skills-beyond-prompting-with-maksym-dziarmaga-loop-earplugs.md`
+
+## PromptMates (66 episodes)
+
+### 2026-11-02 — [How to Automate Hiring Launches (Claude + Slack)](https://www.youtube.com/watch?v=wI-TYLIO9ic)
+File: `transcripts/PromptMates/2026-11-02-how-to-automate-hiring-launches-claude-slack.md`
+
+### 2026-10-29 — [Build an AI Chief of Staff with Claude and Obsidian](https://www.youtube.com/watch?v=KK334ebIreE)
+File: `transcripts/PromptMates/2026-10-29-build-an-ai-chief-of-staff-with-claude-and-obsidian.md`
+
+### 2026-10-29 — [AI for People Operations](https://www.youtube.com/watch?v=NoPWOBVtFZA)
+File: `transcripts/PromptMates/2026-10-29-ai-for-people-operations.md`
+
+### 2026-10-21 — [Talent Engineering: Sourcing Frameworks](https://www.youtube.com/watch?v=U2uF9S58uFM)
+File: `transcripts/PromptMates/2026-10-21-talent-engineering-sourcing-frameworks.md`
 
 ### 2026-10-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=wp_c3DlpZ7o)
 A recruiting operations lead at Luma builds a /chase Slack command with Claude Code that pulls Ashby, Metaview and Slack data to find why a role's pipeline is stuck and what to do about each candidate.
@@ -2461,13 +2491,28 @@ Company: SDI Scout
 Tags: building ai tools, custom gpts, ai sourcing, ai market research, sourcing, talent mapping, recruiter workflow, talent intelligence
 File: `transcripts/PromptMates/2025-08-26-finding-hidden-talent-with-sdi-scout.md`
 
-## Recruiting Future (300 episodes)
+## Recruiting Future (305 episodes)
+
+### 2026-11-03 — [Ep 835: How AI Is Reshaping Work And Hiring](https://www.youtube.com/watch?v=ho8pVkZJA24)
+File: `transcripts/Recruiting Future/2026-11-03-ep-835-how-ai-is-reshaping-work-and-hiring.md`
+
+### 2026-10-30 — [Ep 834: Six Predictions For AI In HR](https://www.youtube.com/watch?v=B17AWzJYUW0)
+File: `transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md`
+
+### 2026-10-26 — [Ep 833: Deciding What Not To Automate In Hiring](https://www.youtube.com/watch?v=XOoGEMQHDCQ)
+File: `transcripts/Recruiting Future/2026-10-26-ep-833-deciding-what-not-to-automate-in-hiring.md`
+
+### 2026-10-22 — [Round Up September 2026](https://www.youtube.com/watch?v=9YK2J4mFaoo)
+File: `transcripts/Recruiting Future/2026-10-22-round-up-september-2026.md`
 
 ### 2026-10-15 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=NPDEV68W1BY)
 AI Performance Lab founder Michael Housman argues AI readiness is a mindset and skills problem, execution beats strategy decks, talent leaders should lead it, and recommends an hour a day of AI play time and human-in-the-loop to start.
 Company: AI Performance Lab
 Tags: ai upskilling, ta leadership, recruiting enablement, human-ai collaboration, ai strategy, recruiter training, early career talent
 File: `transcripts/Recruiting Future/2026-10-15-ep-832-the-human-side-of-ai-readiness.md`
+
+### 2026-10-14 — [Recruiting Future Round Up Live](https://www.youtube.com/watch?v=VWUqUyb5440)
+File: `transcripts/Recruiting Future/2026-10-14-recruiting-future-round-up-live.md`
 
 ### 2026-10-14 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=_9WDe9q8BKM)
 Adecco Group UK and Ireland president JC Townend says redundancies are now annual and smaller, only about 20% are attributed to AI, and the case for redeploying staff over fire and rehire has strengthened because perfectly trained external candidates no longer exist.

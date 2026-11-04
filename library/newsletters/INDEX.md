@@ -3,7 +3,13 @@
 Each entry: date, title (links to source), one-line summary, topic tags, and file path.
 Use this to find relevant items before opening the full document.
 
-## Ashby Community (3 episodes)
+## Ashby Community (4 episodes)
+
+### 2026-10-30 — [Your Talent Insights from Ashby This Month]()
+Ashby October newsletter: Audit Logs, scheduled Custom Agents, Slack feedback reminders and offer packet templates; inbound now over half of hires (54.3% EMEA, 51.9% AMER) but referrals score higher on quality (4.0 vs 3.8); Anthropic junior hiring data, California No Robo Bosses Act, iHire fraud and ghost job figures.
+Company: Ashby
+Tags: rec tech, talent market data, quality of hire, inbound recruiting, ai agents, recruiting operations, candidate fraud, ai bias, recruiter workflow
+File: `transcripts/Ashby Community/2026-10-30-your-talent-insights-from-ashby-this-month.md`
 
 ### 2026-09-24 — [Your Talent Insights from Ashby This Month]()
 Ashby September roundup: WhatsApp texting in Ashby (Ashby says 91% of customers use its AI daily), a 70,000-applicant AI interview study (12% more offers, 4x faster, 78% chose AI), hidden AI prompts in resumes, and Ashby One London session highlights on quality of hire and the EU AI Act.
@@ -23,7 +29,25 @@ Company: Ashby
 Tags: rec tech, recruiting operations, ai interviewing, ai interview notes, talent intelligence, talent market data, recruiting metrics, recruiting enablement, ai agents, context engineering
 File: `transcripts/Ashby Community/2026-08-03-your-talent-insights-from-ashby-this-month.md`
 
-## Data Driven Recruiter (6 episodes)
+## Data Driven Recruiter (9 episodes)
+
+### 2026-11-04 — [Issue 84 - Is Talent Engineering Bullshit?]()
+Issue 84 (4 Nov): whether Talent Engineer is a real role or a rebrand; Metaview's Partners/Ops/Engineers split, Pave's Hot Jobs Index placing it in the re-designed roles bucket, and a test (own reqs or not) for whether you are still a recruiter.
+Company: Data Driven Recruiter
+Tags: building ai tools, recruiting operations, recruiter career growth, rec tech, recruiter workflow, ta leadership, recruiting enablement, talent market data, ai agents
+File: `transcripts/Data Driven Recruiter/2026-11-04-ddr84-is-talent-engineering-bullshit.md`
+
+### 2026-10-28 — [Issue 84 - Recruitment is the Front Line of Cyber Crime]()
+Issue 84 (28 Oct): fake-recruiter malware scams (ClickFake Interview, 184 fake job sites per Sekoia) and fake candidates (Gartner: 6% admit interview fraud); FBI job scam losses $70m (2023) to $363m (2025); checklist and candidate safety doc for recruiters.
+Company: Data Driven Recruiter
+Tags: candidate fraud, deepfake candidates, candidate experience, candidate communication, employer branding, recruiting operations, talent market data, reference checks
+File: `transcripts/Data Driven Recruiter/2026-10-28-issue-84-recruitment-is-the-front-line-of-cyber-crime.md`
+
+### 2026-10-21 — [Issue 83 - Is Forward Deployed Engineering Bullshit?]()
+Issue 83: Forward Deployed Engineer demand is real (Bloomberry: ads up 1,165% in 2025, median base $173,816) but about 40% of FDE ads are really sales or internal-tools roles; eight intake questions and six screen questions to tell a real FDE from a solutions engineer.
+Company: Data Driven Recruiter
+Tags: engineering hiring, job advertising, talent market data, candidate calibration, hiring manager alignment, structured interviewing, interview design, stakeholder management, rec tech
+File: `transcripts/Data Driven Recruiter/2026-10-21-ddr83-are-recruiters-ruining-forward-deployed-engineering.md`
 
 ### 2026-10-14 — [Issue 82 - Is Your Candidate Cheating, Or Just Good With AI??]()
 Luke Eaton on whether AI use in interviews is cheating or fluency: cites survey figures (92% of employers suspected or caught misconduct, Fabric flagged 38.5% of 19,368 AI-run interviews while selling detection software) and proposes a disclosure-based line plus an eight-step AI-positive interview with one AI-open stage (Ashby sponsored the issue).
@@ -61,7 +85,19 @@ Company: Data Driven Recruiter
 Tags: candidate experience, candidate communication, ai screening, ai interviewing, rec tech, recruiter productivity, high-volume hiring, ai strategy
 File: `transcripts/Data Driven Recruiter/2026-07-01-ddr77-are-we-enshitifying-recruitment.md`
 
-## Full Stack Recruiter (4 episodes)
+## Full Stack Recruiter (6 episodes)
+
+### 2026-11-02 — [Every Dead Link in Your Outreach Is a Candidate You Paid For and Lost]()
+Dead job links in outreach: one agency's 1,657 messages produced 232 clicks (14%) on filled roles, 31 reached the ATS and 2 were hired after a redirect page; promotes the author's own free tool Shorthop.
+Company: Full Stack Recruiter
+Tags: outbound sourcing, candidate experience, candidate communication, recruiting metrics, building ai tools, recruiter workflow, sourcing, rec tech, recruitment marketing
+File: `transcripts/Full Stack Recruiter/2026-11-02-every-dead-link-in-your-outreach-is-a-candidate-you-paid-for-and-lost.md`
+
+### 2026-10-24 — [My AI Agents Got It Wrong. Recruiters Do This Too.]()
+Why a written handover note and human checkpoints matter before building AI agent chains: a genealogy agent chain silently chose the wrong date, a bought agent team widened location after 31 messages, plus EU AI Act delay to 2 Dec 2027 and Hermes, Dots and Grok Bot setups.
+Company: Full Stack Recruiter
+Tags: ai agents, building ai tools, context engineering, ai bias, recruiter workflow, prompt engineering, ai sourcing, recruiting operations, ai strategy
+File: `transcripts/Full Stack Recruiter/2026-10-24-my-ai-agents-got-it-wrong-recruiters-do-this-too.md`
 
 ### 2026-09-29 — [Candidate Quality Complaints Usually Measure the Interviewer]()
 Why hiring manager 'the quality isn't there' feedback often measures the rater (62% of rating variance in one study), with a six blind profile calibration packet run in week one and week three, and structured interview validity of .42.
@@ -87,7 +123,25 @@ Company: Full Stack Recruiter
 Tags: recruitment marketing, employer branding, employer storytelling, recruiter workflow, building ai tools, prompt engineering, recruiter productivity
 File: `transcripts/Full Stack Recruiter/2026-07-14-the-linkedin-posts-you-remember-are-lying-to-you.md`
 
-## PromptMates Newsletter (18 episodes)
+## PromptMates Newsletter (21 episodes)
+
+### 2026-11-03 — [Why an Anthropic hiring leader dropped coding tests]()
+Anthropic's Felix Rieseberg dropped the coding interview (hunger beats tenure); Revelio: 30% of EU job ads show pay vs 2% in 2022; iCIMS: about half of purchased hiring AI reaches production; Kit's one-command Slack to Ashby role launch build (Juicebox sponsored).
+Company: PromptMates Newsletter
+Tags: ai coding tools, interview design, take-home assessments, skills-based hiring, early career talent, engineering hiring, compensation, building ai tools, ai agents, talent market data
+File: `transcripts/PromptMates Newsletter/2026-11-03-why-an-anthropic-hiring-leader-dropped-coding-tests.md`
+
+### 2026-10-27 — [Only 18 of 80 recruiting tasks are human]()
+RecFest barbell idea: of about 80 recruiting tasks 30 are automatable, 32 hybrid, 18 uniquely human; Checkr: 40% of US hiring managers interviewed someone using a fake identity; Outreach Drafter build, Zapier monthly build day, Leapsome People team benchmark (Juicebox sponsored).
+Company: PromptMates Newsletter
+Tags: ai agents, recruiter workflow, recruiter productivity, candidate fraud, capacity planning, early career talent, ta leadership, building ai tools, ai upskilling, ai strategy
+File: `transcripts/PromptMates Newsletter/2026-10-27-only-18-of-80-recruiting-tasks-are-human.md`
+
+### 2026-10-20 — [Anthropic cut junior tech hiring from 27% to 9%]()
+Anthropic workforce study: junior share of technical hires fell from 27% to 9%, agent hours six times human hours, commits per engineer 5x; free Claude skill automating offer accepted to day one; Spain's AEPD on AI screening audits (Metaview fillmore sponsored).
+Company: PromptMates Newsletter
+Tags: ai agents, claude code, onboarding, ai bias, scorecards, early career talent, recruiting operations, ai strategy, talent market data, recruiter workflow
+File: `transcripts/PromptMates Newsletter/2026-10-20-anthropic-cut-junior-tech-hiring-from-27-to-9.md`
 
 ### 2026-10-13 — [Stop Automating Recruiting Steps That Shouldn't Exist]()
 Big idea: before automating a recruiting step, ask whether it should exist at all (credit to Bonnie Dilber), plus Luma's five-step Metaview and Ashby closing brief delivered by Slack, Lovable's headcount planning app lesson, role intake as a recruiter's moat, and Microsoft agent identities, Gemini connected apps and SAP's TechWolf acquisition (Juicebox sponsored).
@@ -197,7 +251,19 @@ Company: PromptMates
 Tags: ai agents, building ai tools, claude code, recruiter workflow, ai bias, outbound sourcing, ai screening, context engineering, candidate fraud, deepfake candidates
 File: `transcripts/PromptMates Newsletter/2026-06-16-rebuilding-your-talent-team-around-ai.md`
 
-## RecOps Collective (14 episodes)
+## RecOps Collective (16 episodes)
+
+### 2026-10-29 — [Week of October 26th, 2026]()
+RecOps Roundup for 26 Oct: Jeremy Lyons announces a live vendor burn down of Sync2Hire (17 Nov), a hiring collaboration layer alongside the ATS, plus article links, vendor updates (Ashby, Brighthire, candidate.fyi, GoodTime), events and RecOps jobs.
+Company: RecOps Collective
+Tags: recruiting operations, rec tech, stakeholder management, recruiting enablement, recruiter workflow, ai agents, candidate fraud, ai strategy
+File: `transcripts/RecOps Collective/2026-10-29-week-of-october-26th-2026.md`
+
+### 2026-10-22 — [Week of October 19th, 2026]()
+RecOps Roundup for 19 Oct (no lead essay, an image instead): article links, vendor updates (Ashby, Findem, GoodTime, Greenhouse, PageUp, Poetry, TeamTailor ISO 42001), events and RecOps job listings.
+Company: RecOps Collective
+Tags: recruiting operations, rec tech, recruiter workflow, ai agents, candidate fraud, talent market data, ai bias, recruiting enablement
+File: `transcripts/RecOps Collective/2026-10-22-week-of-october-19th-2026.md`
 
 ### 2026-10-15 — [Week of October 12th, 2026]()
 RecOps Roundup for 12 Oct: four types of problems in TA and RecOps (money, time, knowledge, people) and how each can masquerade as another, plus article links, a long vendor update list (Ashby, Metaview-Workday, Findem, Humanly acquiring CareerArc, SmartRecruiters), events and RecOps job listings.
@@ -297,7 +363,25 @@ Company: Remade.md
 Tags: ai agents, ai sourcing, context engineering, building ai tools, ai upskilling, ai strategy, recruiting operations, talent intelligence, recruiter workflow
 File: `transcripts/Remade.md/2026-07-20-stop-tokenmaxxing-start-roi-maxxing.md`
 
-## TA Unboxed (18 episodes)
+## TA Unboxed (21 episodes)
+
+### 2026-10-30 — [How good are your recruiters at spotting talent?]()
+Part 2 of One to Watch: a Standout flag field in the ATS and an Early Talent Recognition Rate (illustrative 28 of 40 = 70%) to measure how early recruiters and hiring managers identify the eventual hire; Metaview fillmore sponsored.
+Company: TA Unboxed
+Tags: recruiting metrics, quality of hire, candidate calibration, scorecards, hiring manager alignment, recruiter productivity, recruiting operations, stakeholder management
+File: `transcripts/TA Unboxed/2026-10-30-how-good-are-your-recruiters-at-spotting-talent.md`
+
+### 2026-10-27 — [Candidate fraud: I think we're looking at it the wrong way.]()
+Darren Bush splits candidate fraud into three categories (presentation/authenticity, misrepresentation/capability, fraud and exploitation/intent) and argues detecting deception is not the same as proving malicious intent (Pinpoint sponsored).
+Company: TA Unboxed
+Tags: candidate fraud, deepfake candidates, interview cheating, skills-based hiring, reference checks, recruiting operations, ai screening, ta leadership
+File: `transcripts/TA Unboxed/2026-10-27-candidate-fraud-i-think-we-re-looking-at-it-the-wrong-way.md`
+
+### 2026-10-23 — [How to see what's going wrong with your hiring funnel]()
+Fluid Clock part two: pilot a per-job time clock on five to ten roles, define start and stop events per stage, three ways to measure a stage, agree pace with the hiring manager at kickoff, and handle pauses; Metaview fillmore sponsored.
+Company: TA Unboxed
+Tags: recruiting metrics, hiring manager alignment, stakeholder management, recruiting operations, capacity planning, candidate experience, candidate communication, recruiter workflow
+File: `transcripts/TA Unboxed/2026-10-23-how-to-see-what-s-going-wrong-with-your-hiring-funnel.md`
 
 ### 2026-10-16 — [This could change how we report on hiring forever.]()
 Darren Bush introduces the 'Fluid Clock', a circular hiring-stage diagram whose sections expand when a stage overruns its agreed SLA for that role, coloured green, amber, red or grey, as a reporting alternative to linear funnels and a single time-to-fill number (Metaview sponsored the issue).

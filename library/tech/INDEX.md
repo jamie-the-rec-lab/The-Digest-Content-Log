@@ -3,7 +3,16 @@
 Each entry: date, title (links to source), one-line summary, topic tags, and file path.
 Use this to find relevant items before opening the full document.
 
-## AI & I (39 episodes)
+## AI & I (42 episodes)
+
+### 2026-11-04 — [The Inside Story of the 50 Who Built Modern AI With Kevin Roose](https://www.youtube.com/watch?v=IOp5N4GxE6E)
+File: `transcripts/AI & I/2026-11-04-the-inside-story-of-the-50-who-built-modern-ai-with-kevin-roose.md`
+
+### 2026-10-29 — [Can You Use AI To Make Good Art? — With Fred Graver](https://www.youtube.com/watch?v=lE-a6pNmTso)
+File: `transcripts/AI & I/2026-10-29-can-you-use-ai-to-make-good-art-with-fred-graver.md`
+
+### 2026-10-21 — [How to Actually Keep Your Company Ahead of AI](https://www.youtube.com/watch?v=LZbjIE2LeTQ)
+File: `transcripts/AI & I/2026-10-21-how-to-actually-keep-your-company-ahead-of-ai.md`
 
 ### 2026-10-14 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=RbUHf4HeBzo)
 Factorial Capital's Matt Hartman, first investor in Hugging Face, explains backing technical founders because their first idea rarely sticks, hunting what is "newly technically possible", and what vibe coding Ghost Pepper taught him about maintenance; Dan Shipper opens with Every's tests of Google's Gemini 4 Argon and Meta's Muse Wonder.
@@ -239,7 +248,16 @@ Company: AI & I
 Tags: ai, ai agents
 File: `transcripts/AI & I/2026-01-07-ai-in-2026-reid-hoffmans-predictions-on-agents-work-and-creation.md`
 
-## AI For Humans (59 episodes)
+## AI For Humans (62 episodes)
+
+### 2026-10-30 — [AI Is Moving Too Fast. Two New Models In Two Weeks?!](https://www.youtube.com/watch?v=6101Q0dQQIk)
+File: `transcripts/AI For Humans/2026-10-30-ai-is-moving-too-fast-two-new-models-in-two-weeks.md`
+
+### 2026-10-23 — [AI Just Broke The Internet. For Real This Time.](https://www.youtube.com/watch?v=-XIgyMsZZxY)
+File: `transcripts/AI For Humans/2026-10-23-ai-just-broke-the-internet-for-real-this-time.md`
+
+### 2026-10-20 — [AI Fact-Checks Elon's Flying Roadster](https://www.youtube.com/watch?v=sUKNBqZ4rvI)
+File: `transcripts/AI For Humans/2026-10-20-ai-fact-checks-elons-flying-roadster.md`
 
 ### 2026-10-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=-OzVqLQVvgw)
 Kevin Pereira and Gavin Purcell give hands-on first impressions of Google's Gemini 4 Argon and Meta's Muse Wonder against Claude Opus 5.5, plus gaming-industry AI moves, Claude Motion, Mirelo SFX 2.0, an open-source QuickBooks clone and an AI phone agent's call with Delta.
@@ -595,7 +613,22 @@ Company: AI For Humans
 Tags: ai, ai agents, ai coding
 File: `transcripts/AI For Humans/2026-01-09-the-ai-robot-uprising-has-begun-and-its-weirder-than-you-think.md`
 
-## How I AI (75 episodes)
+## How I AI (80 episodes)
+
+### 2026-11-02 — [The AI chief of staff that this Figma PM uses all day](https://www.youtube.com/watch?v=ztt8irafLMQ)
+File: `transcripts/How I AI/2026-11-02-the-ai-chief-of-staff-that-this-figma-pm-uses-all-day.md`
+
+### 2026-10-28 — [I tested 4 AI agents on 9 real tasks. Here’s who won.](https://www.youtube.com/watch?v=hnCoQ5wB-GU)
+File: `transcripts/How I AI/2026-10-28-i-tested-4-ai-agents-on-9-real-tasks-heres-who-won.md`
+
+### 2026-10-26 — [How Reddit’s designers build ultra-realistic prototypes with Figma + Cursor](https://www.youtube.com/watch?v=zF-J3rMbzZw)
+File: `transcripts/How I AI/2026-10-26-how-reddits-designers-build-ultra-realistic-prototypes-with-figma-cursor.md`
+
+### 2026-10-21 — [I tested Claude Duet. Is it worth switching from Grok Bot?](https://www.youtube.com/watch?v=HYb5w4PfPZM)
+File: `transcripts/How I AI/2026-10-21-i-tested-claude-duet-is-it-worth-switching-from-grok-bot.md`
+
+### 2026-10-19 — [Claude Code for creators: AI editing is here](https://www.youtube.com/watch?v=UF08V1XIUmw)
+File: `transcripts/How I AI/2026-10-19-claude-code-for-creators-ai-editing-is-here.md`
 
 ### 2026-10-14 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=dChiPsd0uF4)
 Claire Vo's first-look test of Meta's Muse Wonder models on her roughly 20-task How I AI bench: strongest on agentic work and as a voice assistant, serviceable on back-end coding, weak on front-end design, SVG and short-form video.
@@ -1047,7 +1080,16 @@ Company: Wade Foster
 Tags: ai, ai agents, startups, founder stories, hiring
 File: `transcripts/How I AI/2026-01-05-zapiers-ceo-shares-his-personal-ai-stack-wade-foster.md`
 
-## Lenny's Podcast (57 episodes)
+## Lenny's Podcast (60 episodes)
+
+### 2026-11-01 — [A UGC masterclass from the 22-year-old who built Wispr Flow’s growth machine | Hector Serrano](https://www.youtube.com/watch?v=KzS5Qs7vSMg)
+File: `transcripts/Lenny's Podcast/2026-11-01-a-ugc-masterclass-from-the-22-year-old-who-built-wispr-flows-growth-machine-hect.md`
+
+### 2026-10-25 — [An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)](https://www.youtube.com/watch?v=19qrLchbQEc)
+File: `transcripts/Lenny's Podcast/2026-10-25-an-86-minute-guide-to-finding-pmf-rob-snyder-author-the-power-of-pull.md`
+
+### 2026-10-18 — [Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)](https://www.youtube.com/watch?v=JHo-aiePjoM)
+File: `transcripts/Lenny's Podcast/2026-10-18-inside-the-black-box-of-ai-how-ai-models-actually-think-emmanuel-ameisen-anthrop.md`
 
 ### 2026-10-11 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=3I6QYkccd3o)
 Google Labs and Gemini app head Josh Woodward explains how to run a labs team: track "almost possible" capabilities, judge early product-market fit by people's eyes, let teams call time on ideas, and hire for unlearning rate, explosive endurance and trust building.
