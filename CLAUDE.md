@@ -52,9 +52,11 @@ transcripts. The fact-check runs on the strongest model available.
 - **The weekly run never touches Resend and never emails anyone but Jamie.**
   Sending the newsletter is a separate step that only happens in a session
   Jamie starts and approves (see "Sending the newsletter" below). The Resend
-  connector may be attached to the scheduled task: being able to send is not
-  permission to send. The weekly run never calls any Resend tool, for any
-  reason, including to "check" or "draft" something.
+  connector may be attached to the scheduled task, and its tools are set to
+  need Jamie's approval: being able to send is not permission to send. The
+  weekly run never calls any Resend tool, for any reason, including to "check"
+  or "draft" something. If one is ever waiting for approval during a weekly
+  run, something has gone wrong: log it and say so first in the report.
 - **Never invent a number, title, date, guest or company.** A recorded gap is fine.
 - **Nothing is proposed with an unresolved fact-check mismatch.**
 - **Never use a browser.** Fetching pages and feeds is fine and expected; driving
@@ -128,6 +130,10 @@ no longer needed. Remove unwanted files with `git rm`.
 
 This is not part of the weekly run. When Jamie, in a session, asks for the test
 or the send, use Resend and follow `docs/SEND_NEWSLETTER.md` exactly:
+
+Each Resend tool asks Jamie to approve it before it runs. That is expected in
+a send session: approving the tool call is not the same as the green light for
+the broadcast, which he gives separately in his own words.
 
 1. **Test first.** On his green light, build the email from the live page
    (`scripts/build_email.py`) and send the test to his own inboxes only.
