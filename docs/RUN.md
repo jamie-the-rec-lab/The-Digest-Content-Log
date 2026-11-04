@@ -4,8 +4,9 @@ This is the map of the weekly digest job. Read this to understand what happens
 and in what order. Every detail lives in a separate document, listed against the
 step that uses it.
 
-The job runs unattended every Wednesday. It never sends email. It publishes the
-website and tells Jamie it is ready for review.
+The job runs unattended every Wednesday, in a Claude Code cloud session. It never
+sends email and never goes live by itself: it proposes the edition as a preview
+and tells Jamie it is ready for review. His merge puts it live.
 
 ## Why this exists
 
@@ -36,9 +37,9 @@ earn its place.
 1. **Refresh the library.** Pull in the week's new podcasts, newsletters, reports
    and tech episodes. Save them, summarise them, write down what was found.
 2. **Build and publish the digest.** Pick the best new items, write the copy,
-   fact-check it, put it live on thereclab.ai/digest.
-3. **Report back.** Send a health check to Slack so Jamie knows what happened and
-   can review the live page.
+   fact-check it, propose it as a preview of thereclab.ai/digest.
+3. **Save and report back.** Push the week's record to GitHub, then send a health
+   check to Slack so Jamie knows what happened and can review the preview.
 
 Each phase writes a small file when it finishes. The next phase reads that file.
 That way, if something goes wrong halfway through, the work already done is not
@@ -103,13 +104,16 @@ In order:
 5. **Run the checks.** No leftover placeholders, no dashes, correct headings, and
    between one and four sections, because empty ones are dropped rather than
    left showing a heading with nothing under it.
-6. **Publish.** Swap the newsletter links to public ones, commit to the site, live
-   in a couple of minutes. The edition line on the page reads
+6. **Propose.** Swap the newsletter links to public ones, push to the site's
+   `digest-review` branch and open a pull request. Vercel builds a preview in a
+   couple of minutes; Jamie's merge puts it live. The edition line on the page reads
    `Version <N> (<Wednesday date>)`, using the Wednesday the job runs, written out
    in full, e.g. `26th August 2026`. The 8 week freshness window and the date in
    the page title both end on that same Wednesday.
 7. **Record it.** Bump the edition number, log every item featured so it never
-   appears again, save a permanent copy of exactly what went live.
+   appears again, save a permanent copy of exactly what was proposed. Next week's
+   run checks whether it was merged and undoes the record if not (`PUBLISH.md`
+   step 0).
 
 ---
 
@@ -194,22 +198,22 @@ mean starting again.
 
 ## Before you start
 
-Carried over from the old instruction, and easy to lose.
+**The machine.** Each run is a fresh cloud machine with this repo cloned. The
+environment's setup script installs the Python packages the scripts need, so
+nothing needs installing by hand. Only what is pushed to GitHub survives the run,
+which is why saving is a phase of its own (`CLAUDE.md`).
 
-**The shell.** Put the local bin on the path first, and check the fetcher is
-installed:
+**Secrets.** API keys (TranscriptAPI, Gemini) live in the environment's network
+secrets. They are added to requests automatically; no script reads or prints
+them.
 
-```
-export PATH="$HOME/.local/bin:$PATH"
-python3 -c "import yt_dlp, curl_cffi" 2>/dev/null || pip install -q --break-system-packages "yt-dlp[default,curl-cffi]"
-```
+**Connectors.** Slack (the report), Gmail (newsletters in, the email report out)
+and GitHub (the site repo) are attached to the scheduled task.
 
-The `curl-cffi` add-on lets the fetcher present itself as Chrome. Without it
-YouTube blocks caption downloads (HTTP 429) and every episode looks caption-less.
-The workspace starts fresh each run, so this line is needed every time.
-
-**Each shell call is capped at roughly 45 seconds.** Split long jobs into steps
-and rerun anything that gets cut off. Every fetch is safe to rerun.
+**YouTube.** Never fetch from YouTube's video or caption servers directly: cloud
+addresses are bot-checked. Episode lists come from each channel's public RSS
+feed, transcripts from TranscriptAPI, and Gemini is the fallback. See
+`REFRESH.md`.
 
 **Tools that need loading first.** WebSearch and WebFetch are not available until
 they are loaded. Load them before the reports discovery and the AI news scan.
@@ -217,10 +221,6 @@ they are loaded. Load them before the reports discovery and the AI news scan.
 **Scanned PDFs.** A report PDF with almost no extractable text is an image. It
 needs `pdftoppm -r 150 -png` then `tesseract`, run inside the helper, never in
 the main job.
-
-**Two filesystems.** The library sits on a mounted drive, the container has its
-own. A file written in one is not visible in the other, and every file check
-across the mount is slow. Do the work where the files are.
 
 ## Rules that apply throughout
 
@@ -281,7 +281,6 @@ Podcast Project/
     run-report.json  publish-report.json   overwritten weekly
     RUN_LOG.tsv                            every problem, appended forever
 
-  _to_delete/       where unwanted files go, because nothing here deletes
 ```
 
 Every collection has the same shape, so anything true of one is true of the

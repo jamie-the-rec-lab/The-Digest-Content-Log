@@ -6,9 +6,14 @@
 
 site:
   repo: jamie-the-rec-lab/thereclab-site
-  branch: main
+  branch: main                 # live. The job never pushes here; Jamie merges.
+  review_branch: digest-review # the job pushes each edition here and opens a PR
   page: digest/index.html
   live_url: https://thereclab.ai/digest
+  # Vercel's preview of the review branch. Replace with https://review.thereclab.ai/digest
+  # once that domain is assigned to the digest-review branch in Vercel.
+  review_url: https://thereclab-site-git-digest-review-the-rec-lab-s-projects.vercel.app/digest
+  vercel_project: thereclab-site
 
 slack:
   dm: U0B5GMDT8AG

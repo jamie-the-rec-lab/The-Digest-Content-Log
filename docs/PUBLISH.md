@@ -5,6 +5,41 @@ Phase 2, after the items are picked (`SELECTION.md`) and written (`STYLE.md`).
 Never hand-write the HTML or the CSS. The look lives in the template and is
 reused exactly.
 
+**How an edition goes live (since November 2026).** The job never goes live by
+itself. It pushes the edition to the `digest-review` branch of the site repo and
+opens a pull request to `main`. Vercel builds a preview of the whole site from
+that branch, which Jamie reads at the review address in `config/config.yaml`.
+**Merging the pull request is what puts it live.** This replaces the old direct
+commit to `main`, which an automated safety check blocked on 17 October.
+
+---
+
+## 0. Reconcile last week's review (start of every run)
+
+Last week's edition may or may not have been merged. The record has to match
+what readers actually saw, so check before building anything.
+
+Read `_state/pending-review.json`. If it does not exist, there is nothing to
+reconcile. Otherwise it names last week's pull request, version and featured
+rows. Look the pull request up in the site repo:
+
+- **Merged.** It went live. Keep the version number, the featured rows and its
+  file in `digest/published/` exactly as they are. Delete
+  `_state/pending-review.json`.
+- **Closed without merging.** Jamie decided against it. Remove its rows from
+  `digest/featured-log.tsv` so those items are eligible again, set
+  `digest/version.txt` back to the version that is actually live, and move its
+  file in `digest/published/` to `digest/published/not-published/`. Log the
+  decision. Delete `_state/pending-review.json`.
+- **Still open.** Nobody has looked at it yet. Treat it exactly like "closed
+  without merging", because this week's edition replaces it on the
+  `digest-review` branch, then close the old pull request with a one-line
+  comment saying it was superseded. Log it.
+
+If the pull request cannot be found, or its state cannot be read, **stop the
+build** (the featured log may be wrong) and report it. This is one of the three
+hard stops.
+
 ---
 
 ## 1. Check the template
@@ -20,14 +55,12 @@ Then clear out last week's build, which has no job left now, and copy the
 template to this edition's build file:
 
 ```
-mkdir -p _to_delete
-mv digest/builds/*.html _to_delete/ 2>/dev/null || true
+git rm -q digest/builds/*.html 2>/dev/null || true
 cp digest/template.html digest/builds/<YYYY-MM-DD>.html
 ```
 
-**Move it, never delete it.** Nothing in this job deletes a file, because deleting
-needs Jamie to approve a prompt he will not see at 8am. `_to_delete/` is where
-unwanted files go, and he empties it himself.
+Removing it is safe: git history keeps every earlier build. (On the laptop this
+was a move to `_to_delete/`; that folder is no longer used.)
 
 Never touch `digest/published/`, which keeps every edition forever.
 
@@ -267,44 +300,51 @@ Do not commit until this is clean.
 
 ---
 
-## 7. Publish
+## 7. Propose it for review
 
-Overwriting the live page needs its current blob sha. Do NOT fetch the file
-itself to get it: that returns all 49KB for a value about forty characters long.
-List the folder instead and ask only for the fields you need.
+1. In a clone of the site repo, reset the `digest-review` branch to the latest
+   `main`, so the preview shows this edition on top of the current live site and
+   nothing else:
 
-```
-get_file_contents  path: "digest/"  fields: ["name", "sha"]
-```
+   ```
+   git fetch origin main
+   git checkout -B digest-review origin/main
+   ```
 
-That comes back as a single line. Then commit the public copy over
-`digest/index.html`, on the main branch, with that sha and the message:
+2. Copy the public copy over `digest/index.html`. Change nothing else.
+3. Commit with the message `digest: Version <N> - <Wednesday date>` and push the
+   branch. The push may need `--force-with-lease`, because the branch is rebuilt
+   from `main` each week; that is the one place a branch is ever rewritten, and
+   only this branch.
+4. Open a pull request from `digest-review` to `main`, titled the same as the
+   commit. In the body: the edition line, the review address from
+   `config/config.yaml`, the section counts, and the fact-check result.
+5. **Confirm the preview built.** Wait for the Vercel deployment of that commit
+   and check the review address shows this week's version number. A push that
+   succeeded is not the same as a preview that built. If it has not built after
+   ten minutes, say so in the health report rather than claiming it is ready.
 
-```
-digest: publish Version <N> - <Wednesday date>
-```
+Record the pull request number and link, and the review address, in
+`_state/publish-report.json`.
 
-Vercel redeploys automatically. Live at thereclab.ai/digest within a couple of
-minutes.
+**Never merge the pull request, and never push to `main` of the site repo.**
+Jamie's merge is the green light.
 
-**Then confirm it is actually live.** Fetch thereclab.ai/digest and check the
-edition line shows this week's version number. A commit that succeeded is not
-the same as a page that deployed. The health report says the edition is live, so
-that needs to be true.
-
-Only the current week stays live. There is no rolling archive on the site, and
-no last-week page.
-
-**Do not touch `api/subscribe.js`.** That is the signup function. This job only
-ever writes `digest/index.html`.
+**Do not touch `api/subscribe.js`** or anything else in the site repo. This job
+only ever changes `digest/index.html`.
 
 ---
 
 ## 8. Record it, in the same breath
 
-These three go together with the publish. Treat them as one action, not as
-tidying up afterwards. If publishing succeeds and this does not, the site is
-live but the memory is wrong, and next week will repeat items.
+These go together with opening the pull request. Treat them as one action, not
+as tidying up afterwards. The record is written now, as if the edition will go
+live, and step 0 next week corrects it if Jamie did not merge.
+
+0. **Write `_state/pending-review.json`**: the pull request number and link, the
+   version number, the Wednesday date, and every featured-log row added below.
+   This is what lets next week's step 0 undo the record if the edition never
+   went live.
 
 1. **Write the new version number** to `digest/version.txt`.
 2. **Log every item featured** in `digest/featured-log.tsv`, one row each:
@@ -341,7 +381,10 @@ bullet changed.
 1. Edit the dated build file, not the live page and not the template.
 2. Rerun the quick checks. If the change touches a fact, a number or a tool
    name, rerun the fact-check on that item too.
-3. Remake the public copy and commit it over `digest/index.html`.
+3. Remake the public copy. If the pull request is still open, push it to the
+   `digest-review` branch, and the preview updates. If it is already merged,
+   reset `digest-review` from `main`, push the fix there, and open a new pull
+   request titled `digest: edit Version <N>`.
 4. **Keep the same version number.** An edit is a correction, not a new edition.
 5. **Overwrite this week's file in `digest/published/`** so the archive matches what is
    actually live. Same filename, same version.
@@ -357,8 +400,10 @@ stays eligible for a future week.
 If a bad edition goes live and needs pulling:
 
 1. Take the previous edition from `digest/published/`.
-2. Commit it over `digest/index.html`. The site is back within a couple of
-   minutes.
+2. Put it on the `digest-review` branch over `digest/index.html` and open a pull
+   request titled `digest: roll back to Version <N-1>`. Jamie merges it, and the
+   site is back within a couple of minutes. (Jamie can also roll back instantly
+   from the Vercel dashboard by promoting the previous deployment.)
 3. Remove this week's rows from the featured log, so nothing is burned.
 4. Leave the version file alone and fix the edition properly before republishing.
 
@@ -369,13 +414,15 @@ possible at all.
 
 ## 11. No email, ever
 
-This job publishes the website and stops. It never sends the newsletter, and it
-never creates a broadcast.
+This job proposes the website edition and stops. It never sends the newsletter,
+and it never creates a broadcast.
 
-What happens next is human-gated, with two separate approvals:
+What happens next is human-gated:
 
-1. The job Slacks Jamie that the edition is live.
-2. Jamie reads the live page and asks for any edits.
+1. The job Slacks Jamie that the edition is ready for review, with the review
+   address and the pull request link.
+2. Jamie reads the preview, asks for any edits, and merges the pull request to
+   put it live.
 3. On his green light, a **test email** goes to his own two inboxes only, so he
    sees the real thing in a real client.
 4. Jamie reads the test, asks for any final edits, and gives a **second** green
