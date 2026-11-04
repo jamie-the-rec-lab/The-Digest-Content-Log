@@ -2530,8 +2530,8 @@ Tags: ai strategy, ta leadership, internal mobility, headcount planning, human-a
 File: `transcripts/Recruiting Future/2026-11-03-ep-835-how-ai-is-reshaping-work-and-hiring.md`
 
 ### 2026-10-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=B17AWzJYUW0)
-Cloudflare's Vik Kohli gives six 2027 predictions: HR builds its own agents, appoints an internal AI product lead, judges AI on six value dimensions, sees hidden AI use, plans work before headcount, and assesses judgment with live work samples.
-Company: Cloudflare (Vik Kohli)
+Cloudflare's Vic Akosile gives six 2027 predictions: HR builds its own agents, appoints an internal AI product lead, judges AI on six value dimensions, sees hidden AI use, plans work before headcount, and assesses judgment with live work samples.
+Company: Cloudflare (Vic Akosile)
 Tags: building ai tools, ai governance, ai strategy, headcount planning, capacity planning, recruiting metrics, work trials, skills-based hiring, ta leadership, human-ai collaboration
 File: `transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md`
 

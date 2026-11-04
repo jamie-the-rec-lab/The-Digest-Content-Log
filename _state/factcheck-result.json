@@ -1,18 +1,55 @@
 {
- "date": "2026-10-17",
- "round": 2,
- "verdict": "pass",
- "mismatches": [],
- "unverifiable": [],
- "notes": [
-  "Round 2: diffed the visible text of the build against round 1. Only the 5 items marked changed_round2 changed (6 lines fixed). Preview, standouts, labels and guest lines are unchanged.",
-  "Recruiting Future bullet 1 now matches the 6:12 transcript: about 20% of client companies cite AI, digital or automation and 20% cite a skills mismatch, with no UK and Ireland scope.",
-  "DDR bullet 3 now matches the source: names the ISE Student Recruitment Survey 2026, 92% up from 85% (dropping 'last year' is still accurate), Fabric 38.5% of candidates across 19,368 AI run interviews, sells cheating detection software.",
-  "RecOps bullet 2 now credits the onboarding point to Jason Miller, matching the source.",
-  "iCIMS bullet 2 matches the source: 18% below baseline, 29 applicants per opening, lowest of the year, retail time to fill 37 days, steady in the mid 30s all year.",
-  "Workday bullet 3 matches the source: 'no customer results were found'.",
-  "Edition line 'Version 8 (17th October 2026)' and title date '17 Oct 2026' still correct. The only dash is the permitted em dash in the head title. No banned words or tics.",
-  "Cosmetic only, not factual: 'Jason Miller's' uses a straight apostrophe while the rest of the page uses curly ones (’).",
-  "Round 1 verifications still stand (Clay title, Woodward title, Luke Eaton, Brainfood items from the library summary)."
- ]
+  "date": "2026-11-04",
+  "model": "claude-opus-5-5",
+  "round": 1,
+  "result": "mismatches",
+  "mismatches": [
+    {
+      "item": "Recruiting Future, Six Predictions For AI In HR (guest line)",
+      "line": "Vik Kohli · Head of AI Transformation and People Strategy @ Cloudflare",
+      "source_says": "Episode description in the library file: \"My guest is Vic Akosile, Head of AI Transformation and People Strategy at Cloudflare\". The live episode page https://recruitingfuture.com/2026/10/ep-834-six-predictions-for-ai-in-hr/ says the same: \"My guest is Vic Akosile, Head of AI Transformation and People Strategy at Cloudflare\". 'Vik Kohli' appears only in the auto captions (ASR) and the summary built from them.",
+      "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md (Episode description); https://recruitingfuture.com/2026/10/ep-834-six-predictions-for-ai-in-hr/",
+      "fix": "Vic Akosile · Head of AI Transformation and People Strategy @ Cloudflare"
+    },
+    {
+      "item": "Recruiting Future, Six Predictions For AI In HR (bullet 1)",
+      "line": "Vik Kohli judges AI on several dimensions of value, such as scale, quality and risk mitigation, rather than on time saved alone.",
+      "source_says": "Guest name per the episode description and the live episode page is \"Vic Akosile\". The content is supported: \"there are six or seven different dimensions of value ... One is efficiency, which is just time. Two is scale ... Three is quality ... risk mitigation\".",
+      "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md",
+      "fix": "Vic Akosile judges AI on several dimensions of value, such as scale, quality and risk mitigation, rather than on time saved alone."
+    },
+    {
+      "item": "Recruiting Future, Six Predictions For AI In HR (bullet 2)",
+      "line": "Kohli's most controversial prediction is that staff will hide their AI use, because doing more work with AI just earns them more work.",
+      "source_says": "Guest surname per the episode description and the live page is \"Akosile\". The content is supported: \"this is probably my my most controversial one ... sometimes the reward for work well done is more work\".",
+      "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md",
+      "fix": "Akosile's most controversial prediction is that staff will hide their AI use, because doing more work with AI just earns them more work."
+    },
+    {
+      "item": "Recruiting Future, Six Predictions For AI In HR (bullet 3)",
+      "line": "With candidate AI and employer AI now talking to each other, Kohli expects a small live project during the interview to become the default way to assess capability.",
+      "source_says": "Guest surname per the episode description and the live page is \"Akosile\". The content is supported: \"candidates AI are talking to employers AI ... Give them a project in the moment. The project is small, but at least finding ways to assess capabilities live will be a natural default.\"",
+      "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md",
+      "fix": "With candidate AI and employer AI now talking to each other, Akosile expects a small live project during the interview to become the default way to assess capability."
+    },
+    {
+      "item": "Offer Accepted, Halving Attrition With a Connected Career Framework (bullet 2)",
+      "line": "Where someone sat in a bigger or smaller role than expected, Stepstone left their pay unchanged and built a pathway to the right level instead.",
+      "source_says": "\"There were a couple of corner cases where we realized that maybe the person was in a bigger role ... and so we could either adjust on that or there were occasions where people were in a role that was maybe smaller than we thought it was. And we had a really clear philosophy that we wouldn't change compensation that we would build a pathway for team members in terms of getting to to the right level for them.\" For people in a bigger role the source says Stepstone 'could adjust', so it does not say their pay was left unchanged. The pay-unchanged-plus-pathway point is tied to the smaller-role case.",
+      "source_path_or_url": "library/podcasts/transcripts/Offer Accepted/2026-10-20-halving-attrition-with-a-connected-career-framework-with-nic-weatherhead-the-ste.md (~16:02)",
+      "fix": "Where someone turned out to be in a smaller role than expected, Stepstone did not change their pay and built them a pathway to the right level instead."
+    }
+  ],
+  "style_flags": [
+    "Brainfood bullet 3 'One panellist says Exa's free plan...': this is close to the vague attribution STYLE.md bans. The speaker is Alla (introduced as 'Alla Pavlov', also called 'Alla Pavlova' in the ASR captions). Consider naming her, e.g. 'Recruiter Alla Pavlov says...', if the spelling is acceptable. Otherwise leave it as it is, since the spelling is uncertain.",
+    "Recruiting Future bullet 1 '... rather than on time saved alone': this leans towards the banned 'not X, but Y' seesaw. It mirrors the source's own framing ('much more than time saved'), so this is a soft flag only.",
+    "AI & I guest line 'Kevin Roose · Co-host @ Machine Gods': STYLE.md says guest lines come from the episode description only. The description calls him 'Tech journalist Kevin Roose' and lists Machine Gods as a link, without giving a role. 'host of Machine Gods with Casey Newton' is supported only by the transcript (0:36). The facts are accurate, but the guest line is not sourced from the description.",
+    "Em dash found only in <title> ('TheRecLab Weekly Digest — 4 Nov 2026'), which STYLE.md permits. No em or en dash in the body. No banned words or tics found. scripts/final_check.py reports clean."
+  ],
+  "unverifiable": [
+    "Brainfood guest names come from the ASR captions only, because the written description names no panellists. 'Adriano' is the guest's own spoken self-introduction and the host also says 'Adriana'. The surname 'Herdman' is heard once ('Adriana Herdman'). The 24 hours to 10 minutes figure is self-reported by the speaker, and the bullet frames it as 'Herdman says'.",
+    "Newsletter links are Gmail permalinks (thread IDs match _state/evidence/newsletters.json for each issue) and could not be opened. The bullets were checked against the saved library files, which are condensed extracts with verbatim quotes.",
+    "Ashby Community has no public archive. Its figures are Ashby customer data from a vendor newsletter, and the bullets attribute them to Ashby customers."
+  ],
+  "checked_ok_notes": "All 17 item dates match their source files and live pages. The ONS, REC, Pin, Teamtailor and Dayforce figures and claims were re-checked against the live URLs: the ONS wording is 'Outside of the coronavirus (COVID-19) pandemic period, the last time there were 691,000 or fewer vacancies was in July to September 2014'; the Dayforce/Ribbon voice and video, around-the-clock and rubric details are confirmed by iTWire. The preview names only topics covered by items. Every item and standout link points at its own source."
 }
