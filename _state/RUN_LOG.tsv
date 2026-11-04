@@ -475,3 +475,16 @@
 2026-11-04	2	fact-check model	Fact-check run on Opus, the strongest model offered to helpers in this session, in a separate helper that did not write the copy.	decision	yes
 2026-11-04	2	factcheck round 1	5 mismatches in 2 items, fixed from source: Recruiting Future ep 834 guest is Vic Akosile (Cloudflare) per the episode page, not the caption spelling Kohli (guest line and 3 bullets; library summary and TSV line corrected too); Offer Accepted bullet 2 now says pay unchanged applied to smaller roles only. Also reworded a soft not-X-but-Y bullet.	decision	yes
 2026-11-04	2	public links	DDR issue archive link (beehiiv /p/ddr84-is-talent-engineering-bullshit, from the email) returned 404 to the link check and 403 to curl; issue sent today so the web post may not be live. Used the DDR subscribe page (lukeeaton.com) on the public copy, as v5 and v7 did. LinkedIn footer link returns 999 (LinkedIn bot refusal), expected and accepted.	decision	yes
+2026-11-04	1	PromptMates	Grok Bot for Recruiters (UyOLQ6KKXs4): TranscriptAPI had no captions; recorded gap, retried next week	degraded	no
+2026-11-04	1	Offer Accepted	Hiring for AI Skills Beyond Prompting (Loop Earplugs) still has no date (0000 file from the laptop run); invisible to selection until the date is recovered	degraded	no
+2026-11-04	1	Remade.md	Gmail search returned no issues since 8 Oct	noted	no
+2026-11-04	1	Reports	All three new reports partial (ONS page extract, REC press release via Onrec, Bullhorn/SIA 403 so figures from search excerpts); WebSearch is US-centred so UK discovery was thin	degraded	yes
+2026-11-04	1	Launch sweep	Lever 401, SmartRecruiters 403, Workable JS-only; search-only vendors (hackajob, Nova, Screenloop) found nothing dated in window	degraded	no
+2026-11-04	1	Launches/news	Saved launch and news pages are fetch-tool extracts marked partial, not verbatim full text; GlobeNewswire 403	degraded	no
+2026-11-04	1	Newsletters	RecOps 22 Oct lead story was an image, no text captured	noted	no
+2026-11-04	1	Recruiting Future	22 Oct 'Round Up September' is a re-recording of the 14 Oct live round-up; treat as one item	decision	yes
+2026-11-04	1	Summaries	Phase 1 helpers wrote TSV lines to per-batch part files; coordinator merged them in one pass to keep one writer per shared TSV	decision	yes
+2026-11-04	2	Site push	First push of digest-review went up identical to main because the edition file was not staged; corrected with a second commit (cc4ea20) before the PR was opened	noted	yes
+2026-11-04	2	health_report.py	Script still assumes direct publishing ('live for your review', Cowork chat) and has no review/PR fields; message line patched by hand this run	degraded	no
+2026-11-04	1	PromptMates	1 episode(s) had no transcript from TranscriptAPI, retried next week: Grok Bot for Recruiters	degraded	no
+2026-11-04	3	report	DRY RUN health report sent to Slack DM and to jamie@thereclab.ai via Gmail, with review link and PR #6. Review line patched by hand because health_report.py predates the review-PR flow.	decision	yes
