@@ -54,7 +54,13 @@ _state/publish-report.json  written by Phase 2
   "version": 3,
   "edition_date": "26th August 2026",
   "url": "https://thereclab.ai/digest",
-  "published": true,
+  "proposed": true,                 # PR opened on digest-review and preview built
+  "review_url": "https://...vercel.app/digest",   # the preview to read
+  "pr_url": "https://github.com/jamie-the-rec-lab/thereclab-site/pull/N",
+  "preview_built": true,
+  "awaiting_previous": null | {"version": 7, "pr_url": "..."},  # last week's still open
+  "dry_run": false,
+  "published": true,                # legacy (Cowork era): went straight live
   "fact_check": "pass" | "corrected 2" | "failed",
   "checks_passed": true,
   "template_restored": false,
@@ -272,12 +278,22 @@ def build(project, today):
                          f"scan limit. Rerun it with a bigger limit.")
     for p in stale:
         needs.append(f"Handover file problem: {p['source']} {p['what']}.")
-    if not pub.get("published", False):
+    # Since 4 Nov 2026 an edition is proposed (PR + preview), not published.
+    proposed = pub.get("proposed", pub.get("published", False))
+    waiting = pub.get("awaiting_previous")
+    if waiting:
+        needs.append("Last week's edition (Version %s) is still waiting for your review, so no "
+                     "new edition was built this week: %s" % (waiting.get("version", "?"),
+                                                              waiting.get("pr_url", "")))
+    elif proposed and pub.get("preview_built") is False:
+        needs.append("The pull request is open but the preview had not built when the run "
+                     "finished. Check the pull request before reviewing.")
+    if not proposed and not waiting:
         why = pub.get("blocked_by")
         if why:
-            needs.append("The edition did not publish. " + str(why))
+            needs.append("The edition was not proposed for review. " + str(why))
         else:
-            needs.append("The edition did not publish.")
+            needs.append("The edition was not proposed for review.")
         nxt = pub.get("ready_to_publish")
         if isinstance(nxt, dict):
             needs.append("It is built and ready though: " + str(nxt.get("public_copy","")) +
@@ -322,19 +338,22 @@ def build(project, today):
     needs = [n for n in needs if n not in decisions]
     status = "⚠️ Needs attention" if needs else "✅ Healthy"
     version = pub.get("version", "?")
-    L.append("**WEEKLY DIGEST HEALTH CHECK**")
+    L.append(("**DRY RUN: " if pub.get("dry_run") else "**") + "WEEKLY DIGEST HEALTH CHECK**")
     L.append(f"**Status:** {status}")
     L.append(f"**Edition:** Version {version} ({pub.get('edition_date','?')})")
-    L.append(f"**Link:** {pub.get('url','https://thereclab.ai/digest')}")
-    if pub.get("published", False):
-        L.append("**Review & send:** New edition is live for your review. Reply in your "
-                 "Cowork chat with any edits or a green light and I'll email it to the "
-                 "subscriber list. Nothing goes out until you approve.")
+    if waiting:
+        L.append(f"**Review:** Version {waiting.get('version','?')} is still waiting for you, "
+                 f"so nothing new was built this week: {waiting.get('pr_url','')}")
+    elif proposed:
+        L.append(f"**Preview:** {pub.get('review_url', pub.get('url', ''))}")
+        L.append(f"**Pull request:** {pub.get('pr_url', '?')}")
+        L.append("**Review & send:** Ready for your review. NOT live yet. Ask for any edits "
+                 "in a Claude session; merge the pull request to put it live. Nothing is "
+                 "emailed until you approve the test, separately.")
     else:
-        L.append("**Review & send:** NOTHING TO REVIEW YET. This edition was built but "
-                 "did NOT go live, so the link above still shows the previous edition. "
-                 "Nothing has been emailed and nothing can be, until it publishes. "
-                 "See Needs attention below.")
+        L.append(f"**Live page:** {pub.get('url','https://thereclab.ai/digest')} (unchanged)")
+        L.append("**Review & send:** NOTHING TO REVIEW. This edition was not proposed, so the "
+                 "live page still shows the previous edition. See Needs attention below.")
     L.append("")
     L.append("**New library items this run**")
     L.append(f"- **Podcasts:** {counts_line(collections.get('podcasts', {}))}")
@@ -437,7 +456,7 @@ def plain(msg):
     out = []
     for line in msg.split("\n"):
         line = line.replace("**", "")
-        if line.startswith("# ") or line == "WEEKLY DIGEST HEALTH CHECK":
+        if line.startswith("# ") or line.endswith("WEEKLY DIGEST HEALTH CHECK"):
             continue
         out.append(line)
     return "\n".join(out).strip()
@@ -458,7 +477,8 @@ if __name__ == "__main__":
         status = "OK" if "Healthy" in msg.split("\n")[1] else "NEEDS ATTENTION"
         version = msg.split("Version ")[1].split(" ")[0] if "Version " in msg else "?"
         print(f"To: {EMAIL_TO}")
-        print(f"Subject: Digest health check, Version {version}, {status}")
+        dry = "DRY RUN: " if msg.startswith("**DRY RUN") else ""
+        print(f"Subject: {dry}Digest health check, Version {version}, {status}")
         print()
         print(plain(msg))
     else:

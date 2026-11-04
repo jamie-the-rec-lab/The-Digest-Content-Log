@@ -1601,6 +1601,12 @@ File: `transcripts/Building the Talent Machine/2025-08-08-pilot-building-the-tal
 
 ## Offer Accepted (87 episodes)
 
+### 2026-11-03 — [<!--SUMMARY-->]()
+Loop Earplugs sets a required AI level (Zapier's 2 capable, 3 adaptive, 4 transformative) at intake, checks it at screen, hiring manager interview and an AI-permitted business case, and finds 63% of feedback forms never mention AI.
+Company: Loop Earplugs (Maksym Dziarmaga; show: Offer Accepted, sponsor Ashby)
+Tags: ai upskilling, interview design, skills-based hiring, hiring manager alignment, candidate calibration, ai governance, quality of hire, recruiting enablement
+File: `transcripts/Offer Accepted/2026-11-03-hiring-for-ai-skills-beyond-prompting-with-maksym-dziarmaga-loop-earplugs.md`
+
 ### 2026-10-20 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=N500zEoKH7M)
 Stepstone's people lead built a scope, knowledge, autonomy and complexity career framework from roles first, piloted it in recruiting, and says attrition in one area more than halved (self-reported, multi-factor); AI agents force scope and autonomy to be redefined.
 Company: The Stepstone Group (Nic Weatherhead; show: Offer Accepted, sponsor Ashby)
@@ -2116,12 +2122,6 @@ Growth by Design's Adam Ward explains four attributes that turn a recruiting tea
 Company: Growth by Design
 Tags: stakeholder management, recruiting metrics, ta leadership, hiring manager alignment, market mapping, talent density
 File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-service-providers-to-trusted-advisors-with-adam.md`
-
-###  — [<!--SUMMARY-->]()
-Loop Earplugs sets a required AI level (Zapier's 2 capable, 3 adaptive, 4 transformative) at intake, checks it at screen, hiring manager interview and an AI-permitted business case, and finds 63% of feedback forms never mention AI.
-Company: Loop Earplugs (Maksym Dziarmaga; show: Offer Accepted, sponsor Ashby)
-Tags: ai upskilling, interview design, skills-based hiring, hiring manager alignment, candidate calibration, ai governance, quality of hire, recruiting enablement
-File: `transcripts/Offer Accepted/0000-hiring-for-ai-skills-beyond-prompting-with-maksym-dziarmaga-loop-earplugs.md`
 
 ## PromptMates (66 episodes)
 

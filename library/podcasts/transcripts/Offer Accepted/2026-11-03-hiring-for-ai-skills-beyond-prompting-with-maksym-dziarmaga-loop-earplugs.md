@@ -1,6 +1,6 @@
 <!--SUMMARY-->
 ## Actionable summary
-**Guest:** Maksym Dziarmaga, who runs TA operations and enablement and still recruits at Loop Earplugs (the transcript spells his first name "Maxim"), and who has built AI capability checks into a startup's whole hiring funnel.  ·  **Show:** Offer Accepted, date not stated in the source
+**Guest:** Maksym Dziarmaga, who runs TA operations and enablement and still recruits at Loop Earplugs (the transcript spells his first name "Maxim"), and who has built AI capability checks into a startup's whole hiring funnel.  ·  **Show:** Offer Accepted, 3 Nov 2026
 **Tags:** ai upskilling, interview design, skills-based hiring, hiring manager alignment, candidate calibration, ai governance, quality of hire, recruiting enablement
 
 **When to use this:** you have been told to hire for AI fluency but have no scale, no agreed interview question and no way to keep interviewers consistent.
@@ -35,7 +35,7 @@
 
 - **Podcast:** Offer Accepted
 - **Channel:** 
-- **Date:** 
+- **Date:** 2026-11-03
 - **Duration:** 
 - **URL:** 
 - **Fetched:** 2026-11-04

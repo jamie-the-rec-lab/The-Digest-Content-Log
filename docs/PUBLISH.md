@@ -315,10 +315,17 @@ Do not commit until this is clean.
    ```
 
 2. Copy the public copy over `digest/index.html`. Change nothing else.
-3. Commit with the message `digest: Version <N> - <Wednesday date>` and push the
+3. **Check the change is really there before committing.** Run
+   `git add digest/index.html && git diff --cached --stat origin/main` and
+   confirm it lists `digest/index.html` and nothing else. If it lists nothing,
+   the file was not copied or not staged: fix it before going on. (The first
+   cloud run pushed a branch identical to `main` and only caught it afterwards.)
+   Then commit with the message `digest: Version <N> - <Wednesday date>` and push the
    branch. The push may need `--force-with-lease`, because the branch is rebuilt
    from `main` each week; that is the one place a branch is ever rewritten, and
-   only this branch.
+   only this branch. After pushing, confirm the remote branch differs from
+   `main`: `git diff --stat origin/main origin/digest-review` must show
+   `digest/index.html`.
 4. Open a pull request from `digest-review` to `main`, titled the same as the
    commit. In the body: the edition line, the review address from
    `config/config.yaml`, the section counts, and the fact-check result.
