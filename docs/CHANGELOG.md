@@ -11,6 +11,7 @@ Format: date, what changed, why.
 
 ## 2026-11-04
 
+- 2026-11-04, `CLAUDE.md`: Resend tools are set to need Jamie's approval in the connector settings, a second gate on top of the rule. A Resend approval prompt during a weekly run is treated as a fault and reported. In send sessions, approving a tool call is not the broadcast green light.
 - 2026-11-04, `CLAUDE.md`: the "never touch Resend" rule now applies to the weekly run only, and a new "Sending the newsletter" section covers the human-gated send (test, then a second green light for the broadcast). Why: every session reads CLAUDE.md, so the old wording would have stopped Jamie's own send sessions. Jamie keeps the Resend connector on the scheduled task by choice, so the rule, not a missing connector, is what stops the weekly run sending.
 - 2026-11-04, edition date is now the Monday after the Sunday run (Jamie's call), in the edition line and page title. The 8 week window still ends on the run date. Changed in `CLAUDE.md`, `PUBLISH.md` step 3 and `RUN.md`. Not applied to Version 8 (PR #6, dated 4th November).
 - 2026-11-04, run day moved to Sunday 14:20 UK (Jamie's call). `CLAUDE.md` says to read every "Wednesday" in the docs as the run date; `config.yaml` records the day and time.
