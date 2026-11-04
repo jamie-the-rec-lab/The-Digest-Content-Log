@@ -1,3 +1,35 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Emily Gransky, VP of Talent at Formation Bio (an AI-native pharma company), who leads four recruiters and one ops person  ·  **Show:** PromptMates, 29 Oct 2026
+**Tags:** building ai tools, claude code, ai agents, recruiter productivity, recruiter workflow, context engineering, human-ai collaboration, ta leadership
+
+**When to use this:** you are buried in Slack, email, calendar and ATS notifications and want to build a personal AI "chief of staff" that surfaces only what needs you today.
+
+**Big idea:** Gransky argues that a team of small agents, each with one job and each reading only what has changed since its last run, is more reliable and far cheaper than one big agent asked to read everything, with an orchestrator acting like a manager who decides what reaches the human.
+
+**Frameworks & plays:**
+- Use a "watermark" so every agent looks only at what is new. Each agent reads the timestamp of its last run, fetches only items since then, filters out the unimportant, hands over a bucket of what matters, and then stamps itself so the next run starts from that point. She said she "just asked Claude to do a watermark".
+- Break the job into single-purpose sub-agents. Hers are a comms fetch for Slack and Gmail, a signal router that decides whether a change relates to a person, a project or both, one agent that enriches people, one that enriches projects, one that reconciles actions, and a synthesizer that writes the briefing.
+- Keep the orchestrator as a decider, not a fetcher. She does not make it go and get anything; it takes the sub-agents' inputs and judges what matters now.
+- Triage into three bands. Of roughly 60 signals a day, she said three need her that day, four are worth watching, and the rest are handled quietly but still captured in Obsidian, so a task that is not urgent now can be resurfaced in three days when it is.
+- Restrict the system to reversible actions. It only updates Obsidian and never sends emails or Slack messages, and she said she would not yet trust it to "reject that candidate or tell this person that they need to do this".
+- Build the smallest version first. When she kept making one skill bigger it broke; the single "just tell me what changed in my email" agent "never breaks", and if email fails she only has to debug one sub-agent.
+
+**Data & benchmarks (all self-reported):**
+- Her first attempt to read everything took about half an hour and "a gazillion tokens", and the context window was too big to pull signal from noise.
+- The chief of staff now runs three times a day, with the dashboard refreshed at 6:30 a.m., noon and 4:00 p.m., covering about 20 items per run.
+- She said it saves her an hour a day, though "more than anything saves me my sanity". This figure is her own estimate.
+
+**Tools & prompts:**
+- Claude builds and runs the agents, and Obsidian is the single source of truth and the only thing the system writes to.
+- Inputs include Slack, Gmail, calendar, Google Docs meeting agendas (checked for changes and new comments), and Greenhouse for new scorecards and offers.
+- The output is an HTML dashboard showing a "state of my world" brief, meetings linked to their docs and Zoom, tasks (marking one done writes back to Obsidian), projects with on track or at risk status, and people.
+
+**Steal this (do tomorrow):**
+- Pick one channel, such as your inbox, and ask Claude for a small agent that reports only what changed since it last ran and records its own run time.
+- Write down the actions your agent may take and allow only the ones you could undo, so nothing is sent or rejected without you.
+<!--/SUMMARY-->
+
 # Build an AI Chief of Staff with Claude and Obsidian
 
 - **Podcast:** PromptMates

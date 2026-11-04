@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Fred Graver, four-time Emmy-winning filmmaker and former writer, TV executive and Microsoft conversation designer, who now runs a Substack called AI Writer Studio and teaches a course in Barcelona. Interviewed by Natalia Quintero of Every, whose own plugins he praises  ·  **Show:** AI & I, 29 Oct 2026
+**Tags:** ai, ai product, ai agents, future of work, productivity, careers
+
+**When to use this:** you want AI to sharpen your own work, such as content or outreach, instead of producing average output.
+
+**Big idea:** AI can help with ideation, production and reaching an audience, but it cannot give you something to say, so you must put your own point of view on the page before you open the tool.
+
+**Frameworks & plays:**
+- Empty out first. Graver said to spend a day or two dumping everything you know onto a page by hand or by voice, because you only get one chance to be yourself before you open AI.
+- Give the AI two documents, a 'who I am as a writer' document with your inspirations and what you aspire to, and a document on what you are working on. Then ask whether the idea and the person have anything to do with each other, and who the audience is, which platforms they use and what questions they care about.
+- Build a virtual focus group of about eight people, including a negative one you wish you had not invited, and use it for feedback on an idea. Graver said none of this is AI writing for you.
+- Run a loop of three phases. Ideation produces a script, production covers preparing, making and editing, and marketing reaches the audience. He suggested marketing should test a proxy trailer before the thing exists to see if tickets would sell.
+- Set up a deliberately unpleasant morning check-in agent that holds you to what you said you were working on, so a new idea at night does not derail the current project.
+
+**Data & benchmarks:**
+- Graver cited Kevin Kelly's 1,000 true fans theory, 1,000 people paying $10 a month, as a model for creators, and said nobody has yet set it up for people in his field.
+
+**Tools & prompts:**
+- Claude, used as his main workspace with custom skills acting as readers over his shoulder. He also uses ChatGPT, which he called a film school student that has read every guide, and NotebookLM audio overviews.
+- A pitch deck skill taught at Barcelona School of Art and Design that will not let a student start a step until the previous one is done, using the Kenn Adams story framework.
+
+**Contrarian take:**
+- Graver said asking AI what you should say gives you the mean, and that 'some people just don't have it'.
+
+**Steal this (do tomorrow):**
+- Write a one-page 'who I am as a recruiter' document and a one-page description of your ideal candidate audience before you ask AI for any outreach copy.
+- Ask an AI to play a sceptical hiring manager, an engaged candidate and a disengaged candidate, and read your job advert aloud to all three.
+<!--/SUMMARY-->
+
 # Can You Use AI To Make Good Art? — With Fred Graver
 
 - **Podcast:** AI & I

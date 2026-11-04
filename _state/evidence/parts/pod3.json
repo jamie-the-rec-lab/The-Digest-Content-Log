@@ -1,0 +1,161 @@
+{
+ "run_date": "2026-11-04",
+ "items": [
+  {
+   "path": "library/podcasts/transcripts/PromptMates/2026-10-29-build-an-ai-chief-of-staff-with-claude-and-obsidian.md",
+   "show": "PromptMates",
+   "title": "Build an AI Chief of Staff with Claude and Obsidian",
+   "date": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=KK334ebIreE",
+   "guest_line": "Emily Gransky · VP of Talent @ Formation Bio",
+   "vendor_flag": "None. Practitioner showing her own build; no product being sold. Time saving (\"an hour a day\") is self-reported.",
+   "reader_fit": "Yes for in-house recruiters or TA leads comfortable with Claude: a concrete, copyable pattern (watermark plus single-job agents plus reversible-only actions). Needs Obsidian/Claude setup; agencies could adapt it to their inbox and CRM.",
+   "points": [
+    {
+     "claim": "Each agent checks only what changed since its last run (a watermark), which cut a half-hour, token-heavy first attempt down to something runnable three times a day.",
+     "evidence": "Watermark; first attempt about half an hour; runs 3x a day (6:30 a.m., noon, 4:00 p.m.)",
+     "quote": "I use something called a watermark, and I just asked Claude to do a watermark, meaning I only wanted to go look for things that have changed since the last time it ran.",
+     "timecode": "2:36"
+    },
+    {
+     "claim": "The first all-in-one version was too slow and too big for the model to find signal.",
+     "evidence": "about half an hour and a gazillion tokens",
+     "quote": "it would take about a half an hour and a gazillion tokens to like go through and read everything",
+     "timecode": "2:36"
+    },
+    {
+     "claim": "The orchestrator triages roughly 60 daily signals into act today, watch, and quietly captured.",
+     "evidence": "60 signals; 3 need you today; 4 keep an eye on",
+     "quote": "of these 60 signals, three of them need you today",
+     "timecode": "4:25"
+    },
+    {
+     "claim": "The system only takes reversible actions and never sends messages or rejects candidates.",
+     "evidence": "Updates Obsidian only; no Slack or email sending",
+     "quote": "I wouldn't trust it yet to look across everything and be like, let's reject that candidate or tell this person that they need to do this.",
+     "timecode": "6:04"
+    },
+    {
+     "claim": "The smallest single-purpose agent is stable and easy to debug.",
+     "evidence": "Comms Fetch agent (Gmail only)",
+     "quote": "Now, that never breaks.",
+     "timecode": "7:14"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/PromptMates/2026-11-02-how-to-automate-hiring-launches-claude-slack.md",
+   "show": "PromptMates",
+   "title": "How to Automate Hiring Launches (Claude + Slack)",
+   "date": "2026-11-02",
+   "url": "https://www.youtube.com/watch?v=wI-TYLIO9ic",
+   "guest_line": "Emily Paik · Senior People Operations Manager @ Kit",
+   "vendor_flag": "None. Practitioner build; Ashby is her ATS, not a product she sells, and Replit/Claude are build tools. Host not named in the captions.",
+   "reader_fit": "Yes for in-house recruiters or recruiting ops on Slack plus an ATS with an API (Ashby here): a copyable launch workflow and naming convention. Needs some build help; Claude wrote the code. Agency relevance is lower.",
+   "points": [
+    {
+     "claim": "Role launch was a repeated manual 30 minutes across three tools and could take days to go live.",
+     "evidence": "30 minutes of manual busywork per role",
+     "quote": "every time we opened a role, it was the same monotonous 30 minutes of manual busywork",
+     "timecode": "0:00"
+    },
+    {
+     "claim": "The ATS step offers three paths to match headcount planning: new opening, link to an existing pre-created opening, or job only.",
+     "evidence": "Ashby openings pre-created in bulk for finance",
+     "quote": "sometimes we bulk pre-create openings in Ashby ahead of time so that we can reference it with our finance team",
+     "timecode": "2:03"
+    },
+    {
+     "claim": "Channel naming is generated in code with role-type rules.",
+     "evidence": "Engineering gets squad name; contract roles get a contract prefix; quarter from server date matched to fiscal year",
+     "quote": "Contract roles get a contract prefix so they're immediately distinguishable in the Slack sidebar.",
+     "timecode": "3:10"
+    },
+    {
+     "claim": "The stack is small: Node.js with Slack Bolt on Replit, calling Ashby's REST API.",
+     "evidence": "Replit always-on server; Ashby API key in Replit secrets; job create, opening create, opening add job",
+     "quote": "Replit is hosting this as an always-on server running 24/7 waiting for Slack with the Ashby API key stored securely in Replit secrets.",
+     "timecode": "5:07"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/Recruiting Future/2026-10-14-recruiting-future-round-up-live.md",
+   "show": "Recruiting Future",
+   "title": "Recruiting Future Round Up Live",
+   "date": "2026-10-14",
+   "url": "https://www.youtube.com/watch?v=VWUqUyb5440",
+   "guest_line": "Jim Miller · VP of People and Talent @ Ashby (co-host); host Matt Alder",
+   "vendor_flag": "Miller works for Ashby, an ATS vendor, and promotes Ashby's fraud-signal feature (he says \"we sell it\"); the 16% figure comes from Ashby's own system. Episode 827 guest is from Jack and Jill, discussed by the hosts.",
+   "reader_fit": "Mixed but useful for in-house TA: the isolate-the-time pilot framing and the cohort process are practical for a UK in-house team; agencies get less. Much of it is a recap of other episodes.",
+   "points": [
+    {
+     "claim": "Prove AI ROI by isolating and redeploying saved time, not spreading small savings.",
+     "evidence": "20 workers x 2 hours a week; remove one 40-hour week",
+     "quote": "if you can isolate one person and take them out of that group, that's the 40-hour work week, you repurpose that person somewhere else",
+     "timecode": "12:36"
+    },
+    {
+     "claim": "A cohort process builds the pool before interviews.",
+     "evidence": "Cohorts built before any interview",
+     "quote": "we build cohorts of candidates before anyone gets put into an interview",
+     "timecode": "13:42"
+    },
+    {
+     "claim": "Vendor-reported fraud rate in software engineering applications.",
+     "evidence": "16% of software engineering applications flagged (Ashby's own system, last quarter)",
+     "quote": "16% of applications for software engineering roles we deemed fraudulent using our own system",
+     "timecode": "17:02"
+    },
+    {
+     "claim": "Review the full applicant pool after a closing date rather than first-come.",
+     "evidence": "100% review; first 10% unlikely to hold the best candidate",
+     "quote": "we will review 100% of the applications after the closing date",
+     "timecode": "32:11"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/Recruiting Future/2026-10-22-round-up-september-2026.md",
+   "show": "Recruiting Future",
+   "title": "Round Up September 2026",
+   "date": "2026-10-22",
+   "url": "https://www.youtube.com/watch?v=9YK2J4mFaoo",
+   "guest_line": "Jim Miller · VP of People and Talent @ Ashby (co-host); host Matt Alder",
+   "vendor_flag": "Miller works for Ashby, an ATS vendor, and promotes Ashby's fraud-signal feature (he says \"we sell it\"); the 16% figure comes from Ashby's own system. Episode 827 guest is from Jack and Jill, discussed by the hosts. This file is a recording of the same live conversation as the 14 Oct file; content is near-identical (duplicate).",
+   "reader_fit": "Mixed but useful for in-house TA: the isolate-the-time pilot framing and the cohort process are practical for a UK in-house team; agencies get less. Much of it is a recap of other episodes.",
+   "points": [
+    {
+     "claim": "Prove AI ROI by isolating and redeploying saved time, not spreading small savings.",
+     "evidence": "20 workers x 2 hours a week; remove one 40-hour week",
+     "quote": "If you can isolate one person and take them out of that group, that's the 40-hour work week",
+     "timecode": "12:54"
+    },
+    {
+     "claim": "A cohort process builds the pool before interviews.",
+     "evidence": "Cohorts built before any interview",
+     "quote": "we build cohorts of candidates before anyone gets put into an interview",
+     "timecode": "14:00"
+    },
+    {
+     "claim": "Vendor-reported fraud rate in software engineering applications.",
+     "evidence": "16% of software engineering applications flagged (Ashby's own system, last quarter)",
+     "quote": "16% of applications for software engineering roles we deemed fraudulent using our own system",
+     "timecode": "17:20"
+    },
+    {
+     "claim": "Review the full applicant pool after a closing date rather than first-come.",
+     "evidence": "100% review; first 10% unlikely to hold the best candidate",
+     "quote": "we will review 100% of the applications after the closing date",
+     "timecode": "32:29"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Recruiting Future/2026-10-22-round-up-september-2026.md duplicates the 14 Oct live round-up (same conversation with Jim Miller); consider dropping one from selection.",
+  "Round-ups: speaker names are not in captions; Matt Alder (host) and Jim Miller attributed from the description and context. Episodes 823, 824, 825, 827 are discussed secondhand, so guest claims are the hosts' paraphrase.",
+  "PromptMates clips: the PromptMates host/interviewer is not named in captions.",
+  "Ashby 16% fraud figure is the speaker's recollection of an internal analysis, not independently verified."
+ ]
+}

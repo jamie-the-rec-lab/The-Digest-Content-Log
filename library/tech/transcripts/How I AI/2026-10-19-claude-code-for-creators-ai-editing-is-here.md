@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Brooke Lacey, TikTok creator with 25 years in tech and builder of the free AI-learning app Zosha, worth hearing for a concrete non-engineer video workflow  ·  **Show:** How I AI, 19 Oct 2026
+**Tags:** ai, ai coding, productivity, growth, careers
+
+**When to use this:** You want short vertical videos (employer brand clips, outreach videos, job explainers) from one raw talking-head recording without paying an editor or spending hours in a timeline tool.
+
+**Big idea:** Claude Code can run a short-form edit as a chain of ordinary local tools and store the cut list as a text file, so the edit becomes something you regenerate in seconds rather than a project you build by hand.
+
+**Frameworks & plays:**
+- Film one continuous phone take, move it to your computer and ask Claude Code to edit it. Brooke says it used "FFmpeg, Whisper, Python" and uploaded nothing.
+- The chain Claude reported for a five minute take, which ran in about 15 seconds, was silence detection to find speech, Whisper word timings to place each cut just after a word ends, face tracking so the crop follows the speaker, then eight cuts each tagged wide, mid or close.
+- Keep the cut list as a plain text file with a start, end, shot size and label on each row. Brooke's point is "That file is the whole edit", so the same command can produce 30 second, 60 second and landscape versions from the same footage.
+- Captions run one word at a time, white with a black outline, each held until the next word arrives. In the demo that was 57 words, with audio and video 0 milliseconds apart at 30 frames per second.
+- Teach the tool your style by pointing at specifics. Brooke told Claude to listen for the laugh in her opening line because "that is how a hook works for me".
+- Mine comments for scripts. She downloaded her videos to Google Drive, had Claude read the comments on a logged-in TikTok session, and asked for new content ideas from the pairing. She says TikTok cannot be scraped by an AI, so the logged-in session is her workaround.
+- Know the craft first. Brooke says she could "orchestrate Claude the way that I would actually do it" because she had been editing short form for years.
+
+**Data & benchmarks:**
+- The figures in the demo (five minutes in, 15 seconds to run, eight cuts, 441 frames) are Claude's own on-screen readout read aloud, not an independent measurement.
+- Brooke now posts about once a week and says reposts of older content keep her audience engaged.
+
+**Tools & prompts:**
+- Claude Code in the terminal, FFmpeg, Whisper, Python, Google Drive for video storage, and Claude in Chrome for reading comments.
+
+**Steal this (do tomorrow):**
+- Record one five minute take on a role or team and ask Claude Code to produce a cut list text file before it renders anything, so you can review and tweak it.
+- Write down your own editing rules (cut right after the word ends, rotate wide, mid and close, caption style) and give them as instructions.
+- Export the comments from your best performing recruiter post and ask Claude for three follow-up scripts.
+<!--/SUMMARY-->
+
 # Claude Code for creators: AI editing is here
 
 - **Podcast:** How I AI

@@ -1,3 +1,37 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Matt Alder, Recruiting Future, reviewing four September 2026 episodes with co-host Jim Miller, VP of People and Talent at Ashby (an ATS vendor)  ·  **Show:** Recruiting Future, 22 Oct 2026
+**Tags:** early career talent, candidate fraud, candidate ai tools, ai agents, talent density, ai screening, recruiting operations, ta leadership, ai strategy
+
+**When to use this:** you need to judge AI pilots honestly, design a fairer high-quality hiring process, or understand where candidate fraud and agent-to-agent recruiting are heading.
+
+**Big idea:** Miller's thread is that AI should be used to change the hiring process and to free named people for different work, not just to speed up the old process, and that human collaboration and judgment stay the scarce thing.
+
+**Frameworks & plays:**
+- Frame an AI pilot around isolated time. Miller's combine harvester analogy is that if 20 workers each save 2 hours a week, the work simply fills the time and there is no ROI, but if you remove one person's 40-hour week from the group and redeploy them, you can show a real return.
+- Build a cohort before anyone is interviewed. Miller described sourcing candidates before the job goes live, sending outreach on the day it posts, setting a closing date, and putting referrals and internal candidates in the same pool.
+- Review the whole pool after the closing date. His reasoning is that if you review only the first 10% of applicants, the best candidate is unlikely to be in it. He tells candidates the application, not the CV, is the tiebreaker.
+- Screen in passes without stack ranking. The first pass removes the unqualified, the second goes from long list to short list, and the hiring manager then moves a set number forward, for example three times the number of hires needed in the pool.
+- Release interview times to the whole cohort at once, so everyone interviews within 24 hours and the hiring manager gets a choice among candidates above the bar instead of asking to see a few more.
+- Write narrative job descriptions with deep transparency, including "why you should not apply", and use evergreen roles based on a time-to-fill calculation for roles you hire constantly.
+- Tell applicants what must come from a human and what AI may help with. Ashby has experimented with application forms using subtext and nested questions to separate considered applications from agents "throw[ing] as much mud at the wall as possible".
+
+**Data & benchmarks:**
+- Miller said Ashby's own analysis last quarter flagged 16% of applications for software engineering roles as potential to high potential fraud, meaning the person was not who they said they were. This is the vendor's own system and his recollection ("I think").
+- He said that if you spend 25% more time on application review this year than last year, that is a problem to solve. This was a hypothetical.
+
+**Tools & prompts:**
+- Ashby shows fraud signals line by line to the recruiter reviewing the resume, with no stack ranking, and a secondary ID check can follow. Miller contrasted this with Proof's approach of ID verification up front, which he said can create a barrier for candidates.
+- Alder described Jack and Jill as a closed agent-to-agent system in which every registrant gets a 20-minute AI call and a second agent helps employers find people.
+
+**Contrarian take:**
+- Miller said some AI layoffs are "mislabeling": companies were resetting wages after the 2021 and early 2022 inflation and using AI as the excuse. This is his opinion, not data.
+
+**Steal this (do tomorrow):**
+- Before your next AI pilot, write down which named person or hours will be redeployed and what they will do instead.
+- Separate fraud signalling from rejection: show recruiters the risk signals first and run any ID check later, so a genuine candidate is not lost at the door.
+<!--/SUMMARY-->
+
 # Round Up September 2026
 
 - **Podcast:** Recruiting Future

@@ -1,3 +1,35 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Claire Vo, product leader and host of How I AI, running her own personal agent comparison  ·  **Show:** How I AI, 28 Oct 2026
+**Tags:** ai, ai agents, ai product, productivity, future of work
+
+**When to use this:** You are comparing several AI assistants for yourself or a team and want a lightweight, repeatable way to test them on real tasks.
+
+**Big idea:** Claire Vo argues there is no single best personal agent, so pick by job, and that tool access, speed and how an agent presents its work matter as much as model quality.
+
+**Frameworks & plays:**
+- Build the task list from the agents themselves. She asked each agent for its top 10 tasks, then kept the nine most common across them, including a Slack reply, a Sentry bug fix, inbox triage, a thumbnail and shoe shopping.
+- Equalise access first. She had Codex use browser use to check each agent had roughly the same connectors and skills, and she says she forgot Muse's missing business connectors, which cost it two tasks.
+- Use one line prompts in your own voice rather than "AI prompting" with a paragraph.
+- Record time per task and permission requests as well as quality. Muse was fastest on four of nine tasks, and Claude Duet asked for permission four times against once for each of the others.
+- Have a stronger model grade code fixes. Claude Opus graded the bug fixes, and Claire notes Duet found a second bug and Grockbot "loosened validation" instead of fixing the problem.
+- Judge presentation. Claire preferred the agent that returned her to-dos as a formatted document with check marks.
+
+**Data & benchmarks:**
+- Final scores quoted: Grockbot 93%, Claude Duet 79%, with Dot closer to Duet than to Muse. These come from Claude scoring her spoken comments, so treat them as her opinion, not a standard.
+- Claude (computer use) ran Dot, and Codex ran the other three, so the operator was not constant.
+
+**Tools & prompts:**
+- Codex computer use as the operator, Figma MCP for thumbnails, Dropbox for raw video, Opus to grade fixes.
+
+**Contrarian take:**
+- Claire says the two agents that coded best, from OpenAI and Anthropic, are not the ones she would use to code. She would use the underlying coding tools and models instead.
+
+**Steal this (do tomorrow):**
+- Write a run sheet of five of your own recurring tasks with one line prompts and use it to test every new tool.
+- Confirm each tool has the same integrations before you compare them.
+<!--/SUMMARY-->
+
 # I tested 4 AI agents on 9 real tasks. Here’s who won.
 
 - **Podcast:** How I AI

@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Emily Paik, Senior People Operations Manager at Kit, who runs recruiting and people operations as a team of one and built this with Claude as her coding partner  ·  **Show:** PromptMates, 2 Nov 2026
+**Tags:** building ai tools, claude code, recruiter workflow, recruiting operations, hiring manager alignment, stakeholder management, recruiting enablement, ai job descriptions, recruiter productivity
+
+**When to use this:** opening a role means the same manual setup across your ATS, Slack and a resource library every time, and hiring managers are waiting days for it to be live.
+
+**Big idea:** Paik argues you should automate the one bottleneck that slows you down, inside the tool your people already live in, rather than trying to automate everything at once. Her bottleneck was getting a role opened and the hiring manager briefed.
+
+**Frameworks & plays:**
+- Replace the manual launch with one Slack slash command. Typing /newrole opens a modal asking only for title, department, team and squad, location, employment type and hiring manager. She kept it "intentionally minimal, just enough to drive everything downstream".
+- Mirror how your ATS and planning process really work. The modal can create a new Ashby opening (the default), link the new job to an existing opening, or create only the job. The link option exists because Kit pre-creates openings in bulk for headcount planning with finance, so it avoids duplicates.
+- Standardise Slack channel names in code. Names follow hiring, then the role name, then the current quarter and year. Engineering roles get the squad name added automatically, contract roles get a contract prefix, and the quarter is calculated from the server date to match the fiscal year, which keeps archived channels searchable.
+- Have the bot do the onboarding you used to forget. It invites the stakeholders (herself and the chosen hiring manager) and pins the hiring manager Notion hub, a Claude project that grades job descriptions, and a second Claude project that builds an interview plan and questions.
+- Pre-fill a Claude prompt with the role details so the hiring manager can paste it and get a first-draft job description. The Claude project behind it holds the brand voice, the standard JD template and career growth frameworks.
+- Ship early and iterate. She advises shipping as soon as it is useful and then removing the next friction point.
+
+**Data & benchmarks (self-reported):**
+- Before the build, every role opening was "the same monotonous 30 minutes of manual busywork" across three tools, and sometimes it took days before the role was actually open. No after-time was given.
+
+**Tools & prompts:**
+- Node.js with Slack's Bolt framework handles the slash command and modal.
+- Replit hosts it as an always-on server, with the Ashby API key held in Replit secrets.
+- Ashby's REST API is called for job create, opening create and opening add job. Claude suggested Replit, wrote the code and checked the API calls against Ashby's documentation.
+- To replicate it you need Slack admin access, MCP or API access to your ATS, and something to build with.
+
+**Steal this (do tomorrow):**
+- Time one role launch and list every manual step, then pick the single slowest step to automate first.
+- Put the hiring manager's resources (briefing hub, JD template, interview plan) in one pinned place created at the moment the role opens.
+<!--/SUMMARY-->
+
 # How to Automate Hiring Launches (Claude + Slack)
 
 - **Podcast:** PromptMates

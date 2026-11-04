@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Claire Vo, product leader and host, giving a first-hand review of an early access product  ·  **Show:** How I AI, 21 Oct 2026
+**Tags:** ai, ai agents, ai product, product design, productivity
+
+**When to use this:** You are choosing or rolling out a personal AI agent for yourself or a small team and want a short list of things to test before committing.
+
+**Big idea:** Claire Vo argues that for personal agents, beautiful design and a strong model are not enough, because an agent must also be fast, proactive and shareable to win a place in a crowded stack.
+
+**Frameworks & plays:**
+- Judge an agent on re-engagement as well as output. Claire says that after setup and a first few tasks the agent "never pushed or bothered me to do anything ever again", so she stopped going back. She also says a three point morning briefing is not enough of a reason to return.
+- Test latency on real jobs. Claire says the agent took "10 plus minutes" per thread, and because it was quiet she forgot the tasks were running. She argues a slow colleague gets ignored even if faster ones do "like 10% worse of a job".
+- Test whether work can be closed in one sitting. She asked for Warriors tickets while travelling to dinner, forgot about it, and the loop never closed.
+- Check what carries over from your desktop setup. Her local skills for launch videos did not transfer, so she would need to push them as plugins.
+- Check the multiplayer question early. She works with about five humans regularly and says an agent she cannot share with them is unlikely to enter her working stack.
+
+**Data & benchmarks:**
+- Claire calls the product "approximately 100 times more polished" than a rival's launch version. That is her opinion, not a measured figure.
+
+**Tools & prompts:**
+- Her test tasks were inbox and Slack triage, a sales pipeline review, a sales deck in Google Docs started from the phone, a launch video, and finding event tickets. The deck was acceptable, triage priorities were off and the video failed.
+
+**Contrarian take:**
+- Claire says elegant, subtle and non-annoying design is a growth problem, because "I need you to be a little bit more annoying" to avoid being forgotten.
+
+**Steal this (do tomorrow):**
+- Before adopting any AI assistant, run three of your own real tasks and time them end to end.
+- Ask whether the whole team can use it, not just you.
+- Note after one week whether the tool ever pulled you back in without you opening it.
+<!--/SUMMARY-->
+
 # I tested Claude Duet. Is it worth switching from Grok Bot?
 
 - **Podcast:** How I AI

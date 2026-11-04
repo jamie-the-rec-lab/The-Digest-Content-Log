@@ -1,3 +1,37 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Ezra Mechaber, growth product manager at Figma, who turned his personal Claude Code setup into a shared 31 skill "PM OS" used across the product team  ·  **Show:** How I AI, 2 Nov 2026
+**Tags:** ai, ai agents, ai coding, product management, productivity, team building, growth
+
+**When to use this:** You want to roll AI out to a whole function (PMs, recruiters, ops) with a shared, versioned set of skills rather than everyone improvising alone.
+
+**Big idea:** Start from the jobs you do badly or skip, encode them as shared skills in one repo, and let a small group hack it down to what is genuinely useful, a goal Ezra describes as being "lazy in the right places".
+
+**Frameworks & plays:**
+- Structure the repo simply. Ezra describes an agent file that tells the AI how to behave, skills that say when to fire, a memory file, and command hooks including a check on boot for a new version "to keep our 60 to 70 PM kind of roughly in sync".
+- Give each user a private workspace. It is technically two git repos, a parent everyone downloads and a sub repo for private write-backs.
+- Build it with a small team. Three people fired off as many pull requests as possible, ended up with a "Cambrian explosion" of skills, then a company offsite where every PM installed and roasted it. He now removes skills that models no longer need.
+- Run a "what's up" skill roughly six times a day to pull Slack threads, owed replies and outstanding decisions into one list.
+- Add org lookup skills (who owns this area, who is my designer or engineering manager) so docs add the right reviewers automatically.
+- Bug bash with an agent. Keep a FigJam page with the test account, path and actions, run the agent through it on two accounts, and have it write findings back. In the last month it found that a thousand emojis in a text box broke the field, and a grammar slip of "a" versus "an" before a team name.
+- Automate experiments. Slack triggers three automations (data science, UX writing, engineering), with one human review before launch and a webhook that triggers analysis when the test ends.
+
+**Data & benchmarks:**
+- 31 skills, 60 to 70 PMs, about 2,000 people at the company, and about five live concurrent experiments from the automated growth PM. Ezra says it "found a huge win on its very first experiment" but gives no figure.
+- He archives roughly 10 Slack channels a day and had no usage telemetry, partly so people would not feel watched.
+
+**Tools & prompts:**
+- Claude Code then Codex (browser use, scheduled desk booking), Cursor automations, FigJam and the Figma MCP, a small fast model for real-time writing checks.
+
+**Contrarian take:**
+- Ezra says he tried and failed to build a benchmark and is "curious how this performs relative to like totally vanilla Codex", and that he now removes skills as models improve. The value of the repo is unproven.
+
+**Steal this (do tomorrow):**
+- List the three jobs you routinely skip or do badly, such as looping in stakeholders or meeting notes, and write one skill for the first.
+- Create a shared repo with a behaviour file and a "what's up" skill for your team.
+- When an AI loops, open a new conversation rather than arguing with the poisoned one.
+<!--/SUMMARY-->
+
 # The AI chief of staff that this Figma PM uses all day
 
 - **Podcast:** How I AI

@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Blair Metcalf, principal UX engineer at Reddit and builder of Reddit Proto, its in-house prototyping harness  ·  **Show:** How I AI, 26 Oct 2026
+**Tags:** ai, ai coding, product design, product management, engineering, scaling
+
+**When to use this:** You want non-engineers (designers, PMs, TA or ops colleagues) to build realistic working prototypes without risking production code, or you need a cleaner handoff from idea to engineering.
+
+**Big idea:** Give non-engineers a guarded vibe-coding harness built on your design system and real data, so many ideas can be built and reviewed cheaply before engineering time is spent on one.
+
+**Frameworks & plays:**
+- Hide the Git complexity. Reddit built a desktop app that clones the repo and starts a new project, so a designer never decides about branches or running locally.
+- Prototype with real data. Blair says mock-ups in Figma make leadership say the idea is not relevant to them, whereas a prototype signed in to real Reddit data lets leaders test it, for example live search type-aheads.
+- Turn feedback into edits. A designer writes an annotation on a component in the prototype, sends it to Cursor and runs "apply annotations", and the annotation carries the code location and the request.
+- Let the builder constrain the demo. Features can be toggled, navigation switched off ("some stakeholders click too much"), and device, theme and persona changed.
+- Hand off with a PRD. A Figma link goes through a Figma MCP into a "feature capsule" and a generated PRD with user goal and acceptance criteria. Blair calls it "the perfect handoff".
+- Build a design system MCP by mapping first. Reddit mapped every token and component across Figma, iOS and the prototype repo, then submitted PRs, took CI and engineer feedback and refined it: "try, fail, iterate".
+- Publish internally by default. Prototypes deploy to an internal host (described as like an internal Vercel) and are shared by URL in Slack.
+
+**Data & benchmarks:**
+- Blair reports 100% adoption across UX and product, over 150 people and about 700 prototypes. These are his own figures.
+- He says a visual designer and an animator were among the best prototypers, because they direct well and are not afraid to fail.
+
+**Tools & prompts:**
+- Cursor, Figma MCP, Code Connect, an internal design system MCP, Kubernetes hosting.
+- When stuck, Blair does not shout. He takes a day, then describes the whole goal broadly outside the project "like a movie director", and brings it back in.
+
+**Steal this (do tomorrow):**
+- Pick one internal recruiting tool idea and prototype it on real, safe sample data rather than a mock-up.
+- Write the PRD before the build handoff, with the user goal and acceptance criteria.
+<!--/SUMMARY-->
+
 # How Reddit’s designers build ultra-realistic prototypes with Figma + Cursor
 
 - **Podcast:** How I AI

@@ -1,3 +1,31 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Natalia Quintero (Every's head of enterprise AI adoption) interviewing Dan Shipper and Every's frontier team about how they test new AI models. Every sells the tools and subscription discussed, so this is a vendor describing its own practice  ·  **Show:** AI & I, 21 Oct 2026
+**Tags:** ai, ai agents, ai product, management, team building, future of work, productivity
+
+**When to use this:** you want one small group to keep up with new AI models and tools without the rest of the team being distracted from their day jobs.
+
+**Big idea:** A small dedicated frontier team that runs many experiments and passes on only the ones that stick lets everyone else do their work without fearing they are missing the latest AI change.
+
+**Frameworks & plays:**
+- Separate keeping up from getting work done. Dan Shipper said every person otherwise faces the dilemma of doing their work or staying current with AI, and that a frontier team gives a separation of concerns. Every's team had run for a couple of months at the time of recording.
+- Staff the team with two types. Quintero described pirates, who try a billion things in a couple of days and are a little sloppy, and architects, who compress the mess into something maintainable before it goes to the wider team. Most experiments are thrown out and only some are pushed to colleagues.
+- Track what experimentation costs. Ariel Shipper showed a usage dashboard built from a skill that harvests token use across every tool on a person's computer, shows spend per person, and sorts sessions into work categories that the person approves, so the team can judge whether the spend was worth it.
+- Measure integration, not volume. Kieran Klaassen said a frontier team that dumps 100 experiments in a channel without landing any has failed, and that its job is to make sure some stick and people understand them.
+- Mike Taylor, who calls himself head of evals, turns subjective vibe checks into numbers by helping colleagues build personal benchmarks, defined as a small set of your own real work saved so models can be rerun on it.
+
+**Data & benchmarks:**
+- No cost, adoption or time-saving figures were given. The only numbers are team size (seven) and that the team had run for a couple of months.
+
+**Tools & prompts:**
+- Claude Opus, used by Mike Taylor to pull a video narrative together from his Slack messages and meeting notes, with sources linked back to each sentence.
+- Compound Writing plugin, which Katie Parrott said uses a voice guide and a style file and is adding an audience file so it can review a draft for audience fit. It is an Every product.
+
+**Steal this (do tomorrow):**
+- Ask each person on your team to hand over one real task as a saved test, then rerun it whenever a new model arrives and record whether the result is better.
+- If you pilot AI in your recruiting team, name one person to try new tools and have them show colleagues only the two or three that worked.
+<!--/SUMMARY-->
+
 # How to Actually Keep Your Company Ahead of AI
 
 - **Podcast:** AI & I

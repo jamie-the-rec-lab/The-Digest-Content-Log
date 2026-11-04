@@ -1,0 +1,222 @@
+{
+  "run_date": "2026-11-04",
+  "items": [
+    {
+      "path": "library/tech/transcripts/How I AI/2026-10-19-claude-code-for-creators-ai-editing-is-here.md",
+      "show": "How I AI",
+      "title": "Claude Code for creators: AI editing is here",
+      "date": "2026-10-19",
+      "url": "https://www.youtube.com/watch?v=UF08V1XIUmw",
+      "guest_line": "Brooke Lacey · TikTok creator and app builder @ Zosha",
+      "vendor_flag": "Guest promotes her own free app Zosha (renamed from Jayla) in the demo video and in the close; the sponsor reads (Firecrawl, Auros) are ads, not content. Follower count conflicts: host says over 200,000, description says more than 290,000.",
+      "reader_fit": "Partly. A UK in-house or agency recruiter making short-form employer-brand or outreach video could copy the one-take, text-file cut list approach, but it is a creator workflow, not a recruiting one, and needs a Mac, Claude Code and terminal comfort.",
+      "points": [
+        {
+          "claim": "Claude Code edits the raw phone video using ordinary local tools, with nothing uploaded",
+          "evidence": "FFmpeg, Whisper, Python; file stays on the computer",
+          "quote": "FFmpeg, Whisper, Python, like it didn't upload the video anywhere.",
+          "timecode": "7:37"
+        },
+        {
+          "claim": "The edit chain places each cut using word timings from Whisper, then tracks the face and assigns a shot size",
+          "evidence": "5 minute take, 15 seconds to run, eight cuts, wide/mid/close (Claude's own on-screen readout)",
+          "quote": "Word timing from Whisper sharpens each edge because neither alone can place a cut cleanly.",
+          "timecode": "11:06"
+        },
+        {
+          "claim": "The whole edit is a text file, so other lengths and formats can be regenerated from the same footage",
+          "evidence": "Each row has start, end, shot size, label; 30 and 60 second and landscape versions",
+          "quote": "a shot size, a label. That file is the whole edit.",
+          "timecode": "12:56"
+        },
+        {
+          "claim": "Brooke had to teach Claude her hook delivery and cadence before it cut the way she wanted",
+          "evidence": "Pointed Claude at a laugh in her opening line as the hook",
+          "quote": "I had to tell Claude, did you hear the cadence in my voice? Because that is how a hook works for me.",
+          "timecode": "22:19"
+        },
+        {
+          "claim": "Comments on past videos are mined for new script ideas",
+          "evidence": "Videos downloaded to Google Drive, comments read from logged-in TikTok; posts about once a week",
+          "quote": "read the comments and use those comments to um put together new content ideas based on what they said",
+          "timecode": "18:18"
+        }
+      ]
+    },
+    {
+      "path": "library/tech/transcripts/How I AI/2026-10-21-i-tested-claude-duet-is-it-worth-switching-from-grok-bot.md",
+      "show": "How I AI",
+      "title": "I tested Claude Duet. Is it worth switching from Grok Bot?",
+      "date": "2026-10-21",
+      "url": "https://www.youtube.com/watch?v=HYb5w4PfPZM",
+      "guest_line": "none (host-only review, Claire Vo)",
+      "vendor_flag": "Host-only review from early test flight access. Host says she uses Codex daily and prefers other agents; she also runs ChatPRD (named as the launch video test). No vendor guest, but one reviewer's opinion on a beta product.",
+      "reader_fit": "Low. A consumer and SMB personal agent review; useful only as a checklist for judging any AI assistant a recruiter might adopt (does it nudge you, how slow is it, can the team share it).",
+      "points": [
+        {
+          "claim": "To displace an existing agent, a new one has to be exceptional, not just good",
+          "evidence": "Host reports personal agent fatigue",
+          "quote": "to compete for being my number one personal agent, you have to be not good, not great. You have to be exceptional.",
+          "timecode": "0:00"
+        },
+        {
+          "claim": "A proactive agent that never nudges you gets forgotten",
+          "evidence": "One setup and a few tasks, then no further prompts",
+          "quote": "once I set up Duet a couple days ago and did a first couple tasks, it never pushed or bothered me to do anything ever again.",
+          "timecode": "5:11"
+        },
+        {
+          "claim": "Latency kills synchronous use; parallel tasks were forgotten",
+          "evidence": "10 plus minutes per thread",
+          "quote": "10 plus minutes to finish those threads",
+          "timecode": "8:38"
+        },
+        {
+          "claim": "No sharing means it stays out of a small team's stack",
+          "evidence": "Host has about five humans she works with regularly",
+          "quote": "Duet right now is clearly a agent for single player use.",
+          "timecode": "13:27"
+        },
+        {
+          "claim": "Polish is high relative to a rival launch",
+          "evidence": "Host's comparison, subjective",
+          "quote": "approximately 100 times more polished than Dots was when it came out",
+          "timecode": "14:42"
+        }
+      ]
+    },
+    {
+      "path": "library/tech/transcripts/How I AI/2026-10-26-how-reddits-designers-build-ultra-realistic-prototypes-with-figma-cursor.md",
+      "show": "How I AI",
+      "title": "How Reddit's designers build ultra-realistic prototypes with Figma + Cursor",
+      "date": "2026-10-26",
+      "url": "https://www.youtube.com/watch?v=zF-J3rMbzZw",
+      "guest_line": "Blair Metcalf · Principal UX Engineer @ Reddit",
+      "vendor_flag": "Guest built the internal tool he demonstrates (Reddit Proto) and is the employer's own spokesperson; adoption figures are his claims about his own team. He closes with a Reddit recruiting plug.",
+      "reader_fit": "Low to moderate. Not recruiting content; the practical takeaways for a UK TA or TA-ops lead are the idea of a guarded sandbox that lets non-engineers build, and using real data and a written handoff document instead of mock-ups.",
+      "points": [
+        {
+          "claim": "Prototype with real signed-in data instead of mocked screens so leadership finds it relevant",
+          "evidence": "Designers mocking in Figma lose leadership; real data lets reviewers 'put it through the paces'",
+          "quote": "if you make one of these real-world prototypes with real data, they'll put it through the paces of like some new feature",
+          "timecode": "8:17"
+        },
+        {
+          "claim": "A design annotation becomes a code edit by sending it to Cursor",
+          "evidence": "Annotation written in the prototype, 'send to Cursor', then 'apply annotations'",
+          "quote": "I just said send a cursor, and it writes a file, and then I just tell Cursor apply annotations",
+          "timecode": "9:28"
+        },
+        {
+          "claim": "Adoption was broad, and the best prototypers were not the obvious people",
+          "evidence": "100% adoption in UX and product, over 150 people, about 700 prototypes",
+          "quote": "we have 100% adoption in UX and product",
+          "timecode": "12:52"
+        },
+        {
+          "claim": "A generated PRD is the handoff from prototype to engineering",
+          "evidence": "Figma MCP produces a feature capsule and PRD with user goal and acceptance criteria",
+          "quote": "the perfect handoff. It has all the context.",
+          "timecode": "21:24"
+        },
+        {
+          "claim": "When the AI goes off track, step back and get vaguer rather than more specific",
+          "evidence": "Takes a day, describes the thing broadly outside the project, then brings it back",
+          "quote": "what I do is I take a day and then I get more vague",
+          "timecode": "27:44"
+        }
+      ]
+    },
+    {
+      "path": "library/tech/transcripts/How I AI/2026-10-28-i-tested-4-ai-agents-on-9-real-tasks-heres-who-won.md",
+      "show": "How I AI",
+      "title": "I tested 4 AI agents on 9 real tasks. Here's who won.",
+      "date": "2026-10-28",
+      "url": "https://www.youtube.com/watch?v=hnCoQ5wB-GU",
+      "guest_line": "none (host-only benchmark, Claire Vo)",
+      "vendor_flag": "Host admits scoring was live and not blind, different operator agents ran different products, and she does not know how the final scores were calculated. She runs ChatPRD (used for the launch video task). Sponsor reads (WorkOS, Firecrawl) are ads. Scores are one person's single run, not a rigorous benchmark.",
+      "reader_fit": "Low to moderate. Consumer agent results are not recruiting specific, but the method (one-line human prompts, same tool access, time and score each task) is reusable by a TA team comparing AI tools.",
+      "points": [
+        {
+          "claim": "Two of the four agents completed only seven of nine tasks",
+          "evidence": "Muse and Claude Duet completed seven of nine; Dot and Grockbot completed all nine",
+          "quote": "Muse and Claude could only get seven of the nine tasks done.",
+          "timecode": "7:17"
+        },
+        {
+          "claim": "The scoring was not blind and the host did not know the formula",
+          "evidence": "Final scores Grockbot 93%, Claude Duet 79%",
+          "quote": "I don't actually know how these scores work, but Claude told me it's true.",
+          "timecode": "29:57"
+        },
+        {
+          "claim": "Claude Duet was the most cautious on permissions",
+          "evidence": "Four permission requests versus one for each other agent",
+          "quote": "it asked four times for permission where all the other ones only asked once",
+          "timecode": "8:28"
+        },
+        {
+          "claim": "Check every agent has the same connectors and skills before comparing",
+          "evidence": "Used Codex with browser use to audit access",
+          "quote": "I had Codeex use browser use to check that all my agents were connected to roughly the same stuff and had access to the same skills.",
+          "timecode": "3:28"
+        },
+        {
+          "claim": "Write short human prompts, not engineered ones",
+          "evidence": "One line per task, in the host's own voice",
+          "quote": "keep it in my voice. Do exactly what I would do.",
+          "timecode": "4:09"
+        }
+      ]
+    },
+    {
+      "path": "library/tech/transcripts/How I AI/2026-11-02-the-ai-chief-of-staff-that-this-figma-pm-uses-all-day.md",
+      "show": "How I AI",
+      "title": "The AI chief of staff that this Figma PM uses all day",
+      "date": "2026-11-02",
+      "url": "https://www.youtube.com/watch?v=ztt8irafLMQ",
+      "guest_line": "Ezra Mechaber · Growth Product Manager @ Figma",
+      "vendor_flag": "Guest is a Figma employee praising Figma's own MCP and FigJam tooling and closes with a Figma hiring pitch. He admits there is no telemetry and no benchmark against vanilla Codex. AutoXP win is an anecdote with no figure given. Sponsor reads (Optimizely, Jira Product Discovery) are ads. Surname spelled McCabe in the ASR transcript, Mechaber in the description.",
+      "reader_fit": "Moderate. The shared repo of skills with an agent file, memory and update hook is a model a TA ops team could copy, and the daily 'what's up' digest and bug bash patterns transfer to recruiting ops. The experiment automation is growth specific.",
+      "points": [
+        {
+          "claim": "A PM's chief of staff is a plain repo of skills with a behaviour file and an update hook",
+          "evidence": "agent.md, skills, command hooks, 60 to 70 PMs kept in sync",
+          "quote": "keep our 60 to 70 PM kind of roughly in sync",
+          "timecode": "10:56"
+        },
+        {
+          "claim": "A daily digest skill pulls Slack and project context into a priority list",
+          "evidence": "Run about six times a day",
+          "quote": "I run this skill what's up like six times a day.",
+          "timecode": "8:17"
+        },
+        {
+          "claim": "An agent runs through bug bash scripts held in FigJam and found edge cases a human missed",
+          "evidence": "Thousand emojis in a text box broke it; 'a' versus 'an' before team names",
+          "quote": "if you put a thousand emojis in a text box, it would break",
+          "timecode": "20:11"
+        },
+        {
+          "claim": "An automated growth PM drafts, builds and launches experiments with one human review before launch",
+          "evidence": "Five live concurrent experiments; reviews data science, hypotheses, copy and code at once",
+          "quote": "the only time you're allowed to look is before you launch the experiment",
+          "timecode": "25:06"
+        },
+        {
+          "claim": "When the AI loops, assume the context is poisoned and start a new conversation",
+          "evidence": "Host-agreed tip; Codex remote sandbox bug example",
+          "quote": "so start a new conversation and just move on with your life",
+          "timecode": "40:10"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "tech2: All five files had a Date header and filename date consistent; no date gaps.",
+    "tech2 2026-10-19: follower count conflicts (host says over 200,000, description says more than 290,000); neither used as a fact.",
+    "tech2 2026-11-02: guest surname spelled McCabe in ASR transcript, Mechaber in description; AutoXP 'huge win' has no figure in the transcript.",
+    "tech2 2026-10-21 and 2026-10-28: host-only; products (Claude Duet, Grockbot, Dot, Muse) named as spoken in captions, ASR spellings may differ; host surname Vo taken from the 2026-11-02 transcript where she introduces herself.",
+    "tech2: transcripts include ad reads (Firecrawl, Auros, WorkOS, Optimizely, Jira Product Discovery); ignored as sources."
+  ]
+}

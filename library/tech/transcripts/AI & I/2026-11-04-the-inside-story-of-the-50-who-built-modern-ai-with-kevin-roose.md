@@ -1,3 +1,30 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Kevin Roose, former New York Times technology writer, author of The AGI Chronicles and co-host of the Machine Gods podcast with Casey Newton, interviewed by Natalia Quintero of Every. He is promoting his book and new show  ·  **Show:** AI & I, 04 Nov 2026
+**Tags:** ai, ai agents, future of work, productivity, careers, general
+
+**When to use this:** you are deciding which of your own tasks to hand to AI and which to keep doing yourself, or you want AI to review your drafts.
+
+**Big idea:** Use AI as a forklift for heavy, low-value lifting and keep doing the tasks where the struggle is the benefit, and use several agents with different personas to review work you have written yourself.
+
+**Frameworks & plays:**
+- Build a council of reviewers. Roose set up Claude Code to run a swarm of agents, each with a persona such as an AI sceptic, an AI historian and a storytelling craftsperson, then had a master editor agent synthesise their feedback on each chapter draft.
+- Check the value of that council. He said it caught a couple of factual errors that neither he nor his human editors had caught, but he still needed human editors for coaching and motivation.
+- Use NotebookLM as a research library. He dumped his research material into notebooks and asked it questions such as who told him a particular story or which three people to contact about an event.
+- Sort tasks into weightlifting and forklifting. If the struggle is the benefit, do it yourself. If you are only moving something heavy from A to B, hand it over. He keeps parenting as weightlifting and hands over the paperwork and insurance documents of starting a company.
+- To get secretive people to talk, he offered speaking on background, read each researcher's papers first and cited their earlier work, and found that interviews snowballed after the first 25 to 50.
+
+**Data & benchmarks:**
+- Roose said he interviewed about 150 people for the book and wrote it in a year. These are his own figures.
+
+**Tools & prompts:**
+- Claude Code with a persona swarm and a master editor agent, NotebookLM for research, and local models for transcription and summarisation. He writes in Google Docs.
+
+**Steal this (do tomorrow):**
+- For the next tough call, such as a hiring manager brief or a rejection email, ask AI to review it from three named personas and then synthesise the feedback.
+- List your recurring recruiting tasks and mark each as weightlifting (candidate conversations you learn from) or forklifting (scheduling, admin) before you automate anything.
+<!--/SUMMARY-->
+
 # The Inside Story of the 50 Who Built Modern AI With Kevin Roose
 
 - **Podcast:** AI & I

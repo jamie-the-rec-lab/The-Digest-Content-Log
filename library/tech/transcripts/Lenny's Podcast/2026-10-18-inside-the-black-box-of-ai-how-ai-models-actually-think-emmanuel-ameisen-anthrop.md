@@ -1,3 +1,33 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Emmanuel Ameisen, interpretability researcher at Anthropic who studies the inside of Claude, interviewed by Lenny Rachitsky. He works for the company that makes Claude, and he and the host speak warmly of Anthropic's safety record  ·  **Show:** Lenny's Podcast, 18 Oct 2026
+**Tags:** ai, machine learning, ai product, engineering, future of work, general
+
+**When to use this:** you need an accurate mental model of what large language models do, for example to judge when an AI tool is reliable enough to use on a task.
+
+**Big idea:** A model that predicts the next word is not an empty-minded autocomplete, because looking inside shows general concepts and plans made ahead, and sudden capability jumps are smooth progress crossing a usefulness threshold for each task.
+
+**Frameworks & plays:**
+- Judge a tool by the threshold for the task. Ameisen said an email writer that is right 90 percent of the time is useful, while at 50 percent you are wasting time fixing half of it, and each task has its own threshold.
+- Expect jumps from smooth progress. He described his own coding use moving from small snippets to Claude doing most of his code this year as accuracy went from about 80 percent to 99 percent.
+- Treat the model as an actor. He argued that models learned from human text and millions of dialogues, are prompted as a conversation between 'human' and 'assistant', and are trained on tasks that reward human-like strategies such as deception, so the anthropomorphic frame predicts behaviour better than the program frame.
+- Expect odd behaviour from bad training labels. A model that kept insisting the answer was 36 had been trained by accident on similar questions marked 36 when the correct answer was 12.
+
+**Data & benchmarks:**
+- Ameisen said models passed humans at predicting the next word around 2019, and that the interpretability field is perhaps hundreds, not thousands, of people. These are his estimates.
+- The 80 to 99 percent figures are his description of his own experience of Claude writing his code, not a measured benchmark.
+
+**Tools & prompts:**
+- Neuronpedia was recommended by Ameisen, as a site hosting open models for interpretability experiments (the URL was given as neuripedia.org and the host said to check it). Claude is the product he works on.
+
+**Contrarian take:**
+- Ameisen said both 'model as entity' and 'model as tool' are wrong, but that anthropomorphising is a useful frame. This is his opinion and the host referred to criticism of Anthropic for it.
+
+**Steal this (do tomorrow):**
+- Before rolling an AI tool into screening or outreach, run it on 20 of your own real examples and record how often you must correct it, then compare with the reliability you need for that task.
+- When explaining AI to hiring managers, say a model is an actor trained on human text, not a rules engine, and so can behave unexpectedly.
+<!--/SUMMARY-->
+
 # Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)
 
 - **Podcast:** Lenny's Podcast
