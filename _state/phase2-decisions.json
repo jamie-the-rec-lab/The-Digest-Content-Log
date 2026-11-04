@@ -1,0 +1,43 @@
+{
+ "date": "2026-11-04",
+ "phase": 2,
+ "dry_run": true,
+ "edition": "Version 8 (4th November 2026)",
+ "build_file": "digest/builds/2026-11-04.html",
+ "counts": {
+  "Recruiting Podcasts": 5,
+  "Recruiting Newsletters": 5,
+  "Recruiting reports, product updates, and more": 4,
+  "AI & Tech Picks": 3
+ },
+ "decisions": [
+  "Edition numbered v8 (version.txt says 7; the 17 Oct v8 build never went live). Window 9 Sep to 4 Nov 2026.",
+  "Newer-than-featured rule applied per source against featured-log.tsv (last entries 7 Oct); 17 Oct build items treated as never featured.",
+  "Recruiting Future: skipped Ep 835 (3 Nov, Unleash vendor interviews, reader fit limited) for Ep 834 Six Predictions (30 Oct, Cloudflare practitioner). Ep 835 now cannot run later.",
+  "Recruiting Future 22 Oct 'Round Up September' treated as duplicate of 14 Oct live round-up; neither used (both older than Ep 834).",
+  "Offer Accepted Loop Earplugs episode (0000 file, undated) ineligible; used 20 Oct Stepstone episode.",
+  "PromptMates: newest episode used (2 Nov Kit hiring launches); Chief of Staff (29 Oct) and two others left out, one per show.",
+  "Brainfood: newest (30 Oct Claude for TA) used; not eligible for podcast standout. Guest line omitted (multi-guest, names uncertain in captions).",
+  "RecOps Roundup left out this week: 29 Oct issue is mainly a vendor (Sync2Hire) event write-up and 22 Oct lead story was an image only.",
+  "Data Driven Recruiter: newest issue (4 Nov, talent engineering) used; 'Issue 84 -' prefix stripped (two issues share number 84).",
+  "Bullhorn/SIA indicator (20 Oct) left out: page 403, full analysis members-only, figures from search excerpts with an index conflict (108 vs 100); cannot confirm free access or verify.",
+  "Launches: Pin Autopilot and Teamtailor Smart action (both tier A). iCIMS Hiring Agent (tier B) dropped as two tier A launches fill the two slots; Metaview November update not used (not saved, extension of existing product).",
+  "Dayforce/Ribbon AI placed in AI & Tech Picks as a news item per the run report, but described in the recruiting part of the preview because its subject is recruiting.",
+  "Tech picks: AI & I (Roose, 4 Nov) and How I AI (Figma PM, 2 Nov) used. Lenny's 1 Nov UGC episode dropped at the subject gate (growth/marketing by title, borderline). AI For Humans 30 Oct dropped (general model chatter, low reader fit).",
+  "Standouts: Podcast Building the Talent Machine (McCarthy), Newsletter TA Unboxed, Report ONS, Launch Pin Autopilot, AI pick How I AI.",
+  "No curve-ball reports, events or essays available this week; section 3 is two reports plus two launches.",
+  "check_duplicates flags (Ashby Community monthly title, ONS monthly title) are formulaic recurring titles of new editions, accepted."
+ ],
+ "checks": {
+  "template_diff": "identical",
+  "quick_checks": "pass",
+  "check_duplicates": "3 formulaic flags, accepted",
+  "final_check": "clean",
+  "run_check_pre": "clean",
+  "publish_check": "clean"
+ },
+ "not_done": [
+  "Fact-check (step 5) pending: input in _state/factcheck-input.json",
+  "Steps 6-8 not run (dry run)"
+ ]
+}

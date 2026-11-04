@@ -1,0 +1,56 @@
+# How Lovable's Recruiting Team Vibe Codes Their AI Kickoff Tool
+
+- **Podcast:** PromptMates
+- **Channel:** PromptMates
+- **Date:** 2026-07-28
+- **Duration:** 8:14
+- **URL:** https://www.youtube.com/watch?v=hShcrckBfxM
+- **Fetched:** 2026-09-03
+
+## Episode description
+
+How Lovable's Recruiting Team Vibe Codes Their AI Kickoff Tool
+
+Ever wondered how you'd actually build a recruiter kickoff tool without a product team? Lovable's own recruiting team did exactly that, and it's now generating job ads, D&I-optimized language, and interview panel briefs in minutes.
+
+📌 Timestamps
+0:00 - What Higher Flow does
+4:04 - Running a kickoff call
+4:18 - Granola to brief in 5 minutes
+6:21 - Connecting to your ATS
+7:01 - Prompting tips for building your own
+
+Glauco Leal, Recruiting at Lovable, the AI platform that lets anyone build software with plain English.
+
+This clip is from the PromptMates Live Show, where talent and people leaders share what they're actually building with AI.
+
+🔗 Join the PromptMates community: https://www.promptmates.ai/community
+📧 Weekly newsletter: https://www.promptmates.ai/newsletter
+🎙️ Catch the next live show: https://luma.com/promptmateslive
+
+#AIRecruiting #TalentAcquisition #Lovable
+
+## Transcript
+
+Each paragraph starts with a timecode linking to that moment on YouTube.
+
+**[0:00](https://www.youtube.com/watch?v=hShcrckBfxM&t=0s)** So, let's just start with what I'm going to be calling here like higher flow, which is nothing but our own version of a kickoff tool. Whenever we're building something here in Lovable, we do tend to guide ourselves to one main question, which is which pain point are we trying to solve? So, it's not that you have to be a product manager, so to speak, to build or to write code as a recruiter, sourcer, whatever, but you need to have very clear intentionality on what exactly you're trying to tackle. Otherwise, it might as well become noise, especially when it's like so easy to build these days. So, what we were trying to do here is just to make sure that when we're kicking off a role, we're making this as easy as possible, as consistent as possible across multiple different ads, and at the very same time be very, very easy to communicate with the interview panel, so they have clear expectations on what the Nita says on each step of the way, but also what's going to be the expectation for the candidate, like where is the bar, sort of mindset. So, first screen.
+
+**[0:57](https://www.youtube.com/watch?v=hShcrckBfxM&t=57s)** Very first thing that you see as soon as you open it. It's quite nice. Every time you refresh the page, there's a new motivation message, a new call to action, very personable. And then here in this interface, we have the possibility to create a new kickoff, to view kickoffs that you already have created, or set up templates by job families, and even to look at metrics. If you just want to casually go to your hiring manager and be like, "Hey, look, just by using this, we're actually saving time. We're being more effective." But, for example, let's look into a template that, by the way, this is also fake data just for the sake of this exercise. But, let's go with AI engineer, right? So, if look, in the very first screen, what you're going to see is you can paste the raw kickoff notes that you have, or whatever information that you have about the role that you're trying to hire. You put the role title, or who is the hiring manager, if it's remote or not, and then you can even choose the writing tone.
+
+**[1:49](https://www.youtube.com/watch?v=hShcrckBfxM&t=109s)** And then as soon as you choose the writing tone, you click to move to the next stage, what it's basically going to do is that it is going to sort like generate a skeleton of the job ad, which already saves you so much time. But, the nicest thing about that that we have built is that you also have a way to look into DNI indicators on how you're making this ad more inclusive to people, more clear to people. And this goes into different tangents, right? Like gender inclusivity, LGBT community, accessibility, neuro-divergent friendly. And you can even choose the tone. And just by clicking a button, everything is rewritten without you know your original input, which is super super powerful and a huge time saver, right? And if you move even further to the next stage, you already have an ideal candidate profile, which again helps to set the bar. And you can customize, you can delete, you can add more details and so on and so forth. And this could become like a document that you could share broadly after the kickoff. So, everyone is aligned and everyone knows what exactly you're looking for. Then, when you're looking into the real panel, you can also step in here names. Again, all of this is fake data
+
+**[3:00](https://www.youtube.com/watch?v=hShcrckBfxM&t=180s)** just for the sake of the exercise, but you can put the name of the person if it's a hiring manager sitting here, if it's a technical interview, yada yada yada. And then, you can generate the briefs, which the main intent, as I said, is just to make sure that the panel knows exactly what they need to be assessing. And the more complex the business is, the more lack of clarity people actually might have on what we're trying to solve by that hire. So, this is when this actually comes and becomes very handy. You can export as a PDF, you can have a role overview assessment focus, suggested questions as well if there's no specific guideline, what good looks like, and also feedback expectations, so it can be more clear.
+
+**[3:37](https://www.youtube.com/watch?v=hShcrckBfxM&t=217s)** And you can also generate the emails. Like this tool does not send emails by design. We have decided not to connect this to to emails, but you can just copy and paste the message in here to whoever's part of the panel. So, everything's like super clear. And you even have like this other step you sort of like a summary of what you have built so far. You can export this as a PDF. So, super easy, clean, and straight to the point as well. >> Hugo, talk to me a little bit about how you use it. Like, are you sitting down with the hiring manager at like a kickoff call? Like, do you bring this in with that? Or do you kind of is that is that like V1 and then you take what you learned in the in the kickoff call and then run it through again? Like, walk us through how you actually put it to work.
+
+**[4:19](https://www.youtube.com/watch?v=hShcrckBfxM&t=259s)** >> So, currently, the way that we're doing this, we have a couple of questions. We jump to the kickoff call and then we collect some insights. And then, just based on those insights, which by the way, we're also using Granola for non-interviews. So, general meetings are fine because it's not any sensitive candidate data. So, we're using Granola, we're taking all that output, which takes like a couple of seconds to generate. We copy and paste that. Boom. In 5 minutes maximum, we already have the entire uh sort of like step-by-step on what needs to be done and what needs to be assessed. We agree on that, and then we start sourcing. We get back with candidates, and so and so forth. So, this is the current state. The ideal state, like where we're moving towards, is more in a sense that our feedback is going to be less about taking inputs on spot and then sourcing, but rather receiving inputs beforehand and then already bringing candidates in market data. But, that's a separate thing that we are working from a strategic perspective, from an AI agentic perspective, and it's not something that I can go too much in depth right now.
+
+**[5:18](https://www.youtube.com/watch?v=hShcrckBfxM&t=318s)** >> I appreciate that. It actually I mean, I'm a big proponent of like never using the word intake. I hate intake meeting. I mean, I I think it makes us feel like we're we're we're taking orders or something like So, I purposely use like kickoff. What you're doing is you're enabling your recruiting team to walk into a meeting with a hiring manager and basically say like, "Here's what I'm bringing to the table. Here's the way I understand your search. Now, let's have a fine-tuning discussion as opposed to like, 'Hey, Mr. Mrs. Manager, give me your order and and run to the kitchen and bring it back to you. >> Exactly. Exactly. It's more about putting the recruiter in the driver's seat and really being a strategic partner and not like someone that's taking orders or just giving a service.
+
+**[5:55](https://www.youtube.com/watch?v=hShcrckBfxM&t=355s)** And I have been to business in my career that have had this mindset that the recruitment should be like a service provider, but that's not how we actually add value, right? But then when you have tools like this that helps you to action very quickly and get back to your stakeholder with very clear actionable points, it changes a lot the narrative. >> Yeah, and I mean, treat me like a service provider, but you don't tip me afterwards. So like you can't have >> >> That's a different mistake. >> I can see a few people asking if it links like your other tools, like the the ATS or if it's a standalone tool. So maybe we do we do that one. >> Yeah. Um so for quick thanks, lovable does have the possibility for you to connect with Ashby, for example, if there is a connector for this. There is a lot of other connectors that you guys can explore in order to build this tools that you want with even more depth. It's not built into the stool, but we also have one that I have built for our team to use. It also uses an AI agent. We have like daily insights on how the market's changing, how we need to act, where we need to source, what we need to pay attention to. So that's something that you can definitely build with
+
+**[7:01](https://www.youtube.com/watch?v=hShcrckBfxM&t=421s)** lovable today. >> Gorka, maybe you could tell a little bit about like any tips for building this, like where I think a ton of people have vibe coded something on the kickoff, not quite as in-depth as this, but like when you're when you're building something like this, any advice on on the prompting and the vibe coding to get something for kickoff that's kind of production ready? >> Of course. Of course. I would say the easiest way for you to build something that's going to add value is just map out your recruitment process, understand the pain points, and try to understand what this tool is exactly trying to solve. There is a very nice way on lovable itself that you can actually build this without even using credits.
+
+**[7:35](https://www.youtube.com/watch?v=hShcrckBfxM&t=455s)** And by the way, quick disclaimer, shameless plug in here. Every day you have a new free credits at lovable, so there is no excuse not to build and try stuff. But there's an option available that instead of you just typing and sending your prompt, you can actually plan instead of building. So if you plan, you can actually review and make changes before you actually approve and then the platform builds what you want. So it can reason with it, you can make changes to it. What's the end goal? And obviously you don't need to build something so in depth every time that you write code, but it's a good indication of how you can actually this type of output as well.
+

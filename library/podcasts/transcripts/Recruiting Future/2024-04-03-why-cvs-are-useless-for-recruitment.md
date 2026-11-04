@@ -1,0 +1,52 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Matt Alder, host of Recruiting Future, answering questions from Jeff Dewing in a short takeaway clip cut from a longer video interview.  ·  **Show:** Recruiting Future, 03 Apr 2024
+**Tags:** skills-based hiring, structured interviewing, interview design, quality of hire, staffing and agencies, take-home assessments
+
+**When to use this:** You are a manager who hires rarely, defaults to a CV and an interview, and wants to make a hire who will still be right in three years.
+
+**Big idea:** A CV plus an unstructured interview tells you almost nothing about future performance, so for a long-term hire you should predict performance and someone's potential to learn rather than match their past experience.
+
+**Frameworks and plays:**
+- Recognise the default trap: people who rarely recruit fall back on how they themselves were hired and import bias about what "good looks like".
+- Lean on the occupational psychology finding that a CV and an unstructured interview predict little, partly because performance is context-dependent, not just a property of the person.
+- Start from a blank sheet and ask what will actually predict performance and what biases you are bringing, rather than looking for someone who did the same job before or copying the profile of a past star hire.
+- Hire for the ability to learn, because the shelf life of even technical skills is now very short, so ask what you want the person doing in three years and what evidence shows they can adapt to it.
+
+**Contrarian take:**
+- Matt argues the commission-and-target structure of agency recruiting drives short-term sales behaviour, and cites the CV line "I can work individually or as part of a team", now all written by ChatGPT and all identical, as proof CVs reveal nothing; he uses his own career, failing one role then thriving in the next, to show past experience does not travel across context.
+
+**Steal this (do tomorrow):**
+- On your next hire, write down what the person must be doing in three years and look for evidence of learning ability rather than a like-for-like CV match.
+- Replace the unstructured chat with structured, performance-predictive questions and name the biases about "good" you might be carrying in.
+<!--/SUMMARY-->
+
+# Why CVs Are Useless For Recruitment
+
+- **Podcast:** Recruiting Future
+- **Channel:** Matt Alder
+- **Date:** 2024-04-03
+- **Duration:** 7:14
+- **URL:** https://www.youtube.com/watch?v=ctoBSG9E7zc
+- **Fetched:** 2026-06-29
+
+## Episode description
+
+This is a 10-minute takeaway taken from a longer video interview I did with @jeffdewing4457 . We talk about why someone's potential to learn new skills is a much more reliable predictor of success when hiring than their CV will ever be.
+
+## Transcript
+
+Each paragraph starts with a timecode linking to that moment on YouTube.
+
+**[0:14](https://www.youtube.com/watch?v=ctoBSG9E7zc&t=14s)** I'm very much into understanding Behavior Behavior drives everything and when you look at the industry as a whole um and certainly big pockets of the industry recruiters are employing staff for doing the things they do and typically the Foundation of that process is commission and therefore a recruiter that is reliant on earning commission is going to behave in a way that says I need to create a placement because that's how I get to put food on the table and there are some horror stories out there one of which I've experienced in my sort of 15 20 years but you know an example and of course I'm looking at the worst here and I'm not suggesting it's the basis and it's the it's the norm but you people are placing people and be being paid the fees that's been agreed whatever and then sort of three or four months later they may be reapo muching those people to say I've got another placement for you and that's the bad behavior of the industry and that's where you know the good agencies are having to fight a reputation that is whether we like it or not quite common so what do you feel about you know the industry structure that is causing the behaviors and creating an influence of the behaviors that that we're talking
+
+**[1:26](https://www.youtube.com/watch?v=ctoBSG9E7zc&t=86s)** about yeah I mean I think there there there's a lot to that um and I could you know give you examples of of of of of how the industry is trying to Stamp Out bad behavior and all those kind of things but fundamentally it comes to down down to one thing if you're talking about um you know the kind of type of recruitment agencies that that you're talking about um it's a sales job um they're employing salese um you know to make a sale it's a bit of a strange sales job because you know you have to find someone with a vacancy you have to find a candidate it's kind of a two-way two-way thing and sell to both of those But ultimately it's a sales job um the key skills that they look for when they recruit consultants for those types of agencies are sales skills it's also very shortterm you know they're going from month to month to quarter to quarter and it encourages that behavior but also encourages that sort of short-term that short-term thinking and and and that I think drives a lot of of what we're we're talking about which is why over the last sort of 10 years or so certainly in the in the bigger companies they've taken more and more recruitment inhouse to take that part out of it and focus on what's really going on we want
+
+**[2:40](https://www.youtube.com/watch?v=ctoBSG9E7zc&t=160s)** the right people for the right roles who are going to stay because we all work for the same company we want them to we want them to stay so um I think it's it's it's that that that is the issue with it is that it's a it's a short-term thinking sales role that's very commissioned and Target driven and that you know that that's the foundation for for everything you've described so when you look at companies that are going through a traditional route of recruitment whether they're doing it inh house or going for an agency um and they then bring some candidates into the business and they start you know reviewing as you said a little while ago the word document CV that says I can work individually or as part of a team you know the the scripted element of every CV yeah yeah all written by chat GPT these days as well so yeah all the same what are we getting wrong what are the fundamentals that employers are perhaps missing getting wrong or need to adapt so I think that one of the biggest issues is when people think about recruitment they're going to recruit someone especially if they've not recruited someone for their team before it's not something that they do all of the time people tend to think back to
+
+**[3:51](https://www.youtube.com/watch?v=ctoBSG9E7zc&t=231s)** how they were recruited so well I had a CV I had an interview I had all these kind of I had all these things um and then people also bring a lot of a lot of bias to that process in terms of what they think what they think good looks like um and and that's just true across the board across the world that's how people think about recruitment now if you take a St step back and look at some of the science that has been done behind this the you know in the in the psychology in the psychology occupational psychology World um you know using a CV and an interview in an unstructured way to recruit someone tells you absolutely nothing in fact their their past experience doesn't tell you much about how they'll perform in your company because there's a whole thing about context as well so you know I look back at my career I had one job where I was just not the right fit for that job and I you know hands up I was terrible at it and I left before I got fired um but then I went on in my next job I was very successful I remember bumping into my old boss um and um her saying to me it's like you've got a job you're managing people she was just confused by the whole thing and it was like well no I wasn't um it wasn't that
+
+**[4:59](https://www.youtube.com/watch?v=ctoBSG9E7zc&t=299s)** I'm a bad person or I didn't have any skills I was just in the wrong job and you weren't the right manager for me um even though my CV told you otherwise so um I think it's the it's almost kind of like you have to start with this kind of blank piece of paper and say actually you know what is it that's going to predict performance what biases are we are we bringing to the to the to the process um and then I think there's the chance of making um you know making better hires and also just understanding that someone's potential to learn um is is perhaps a bigger thing than some of the skills they have I mean certainly what we've seen in the last five years and I think it's been accelerated by the pandemic is um a lot of the skills that people use in Jobs go out of date very quickly so um you know the shelf life of even some of the technical skills is is very very short so if you're employing someone for the long term and if you're running a small business that's what you want to do you don't want to keep recruiting you don't want to have to lose um key people it's their ability obviously their ability to you know to to fit in the context of that of that business but also their ability to learn
+
+**[6:06](https://www.youtube.com/watch?v=ctoBSG9E7zc&t=366s)** uh you know to learn new skills and and then grow within that business and I think sometimes people just look at someone's past experience it's like have they done this job before are they going to arrive on day one with all of the everything that I need their CV says they they will um you know we'll employ them because we want that we want that sort of quick fix and you know I can I can understand that but if you want someone's going to stay for the long term you have to think about what would they be doing if I want them to stay for 3 years what are they going to be doing in three years time and what evidence can I find that they're going to be able to you know adapt and do that so it's just a different way of of thinking about it and I think it is difficult with recruitment because all of us have been through a recruitment process to get a job um and you know if you don't do it all the time then you're just going to go back to what's you know what what you went through or maybe you've hired an absolute Superstar employee and it's like well they work for them so we'll just look for the same we'll just look for the same again
+

@@ -1,0 +1,155 @@
+{
+ "run_date": "2026-11-04",
+ "items": [
+  {
+   "path": "library/tech/transcripts/AI & I/2026-10-21-how-to-actually-keep-your-company-ahead-of-ai.md",
+   "show": "AI & I",
+   "title": "How to Actually Keep Your Company Ahead of AI",
+   "date": "2026-10-21",
+   "url": "https://www.youtube.com/watch?v=LZbjIE2LeTQ",
+   "guest_line": "Natalia Quintero \u00b7 Head of enterprise AI adoption @ Every (host), with Dan Shipper and Every's frontier team",
+   "vendor_flag": "Yes. Every staff describe Every's own plugins (Compound Writing), internal products (checks, Minga) and promote an Every subscription; Gemini Audio segment is a paid sponsor read.",
+   "reader_fit": "Low to medium: a UK recruiting team lead could borrow the small-experiment-team model and the AI spend dashboard idea, but nothing is recruiting specific.",
+   "points": [
+    {
+     "claim": "A frontier team separates keeping up with AI from getting work done.",
+     "evidence": "Team running for a couple of months at Every",
+     "quote": "you get this nice separation of concerns where you're both keeping up with what's going on on the frontier and you're actually getting your work done",
+     "timecode": "0:00"
+    },
+    {
+     "claim": "Pair fast, sloppy experimenters with architects who make survivors maintainable, and expect most experiments to be dropped.",
+     "evidence": "Pirates and architects roles",
+     "quote": "Most of that stuff gets thrown out and some of it ends up getting pushed into the rest of the team to see if the rest of the team likes it.",
+     "timecode": "2:53"
+    },
+    {
+     "claim": "Every built a usage dashboard that tracks AI token spend per person and sorts it into work categories the person approves.",
+     "evidence": "Token count, dollar value, breakdown by person",
+     "quote": "categorizes at a high level what you spent those tokens on and then runs it by you for approval",
+     "timecode": "15:13"
+    },
+    {
+     "claim": "Success for a frontier team is integration into the wider organisation, not the number of experiments.",
+     "evidence": "'100 experiments' example",
+     "quote": "If you do a 100 experiments and don't let it land and don't integrate it, it doesn't work.",
+     "timecode": "41:27"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/AI & I/2026-10-29-can-you-use-ai-to-make-good-art-with-fred-graver.md",
+   "show": "AI & I",
+   "title": "Can You Use AI To Make Good Art? With Fred Graver",
+   "date": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=lE-a6pNmTso",
+   "guest_line": "Fred Graver \u00b7 Four-time Emmy-winning writer and producer, founder of AI Writer's Studio",
+   "vendor_flag": "Partly. Graver sells his own newsletter and teaching and offers a pitch-deck skill via Every; the Every hosts promote Every's Compound Writing and Compound Engineering plugins. Nothing here is independent evidence that they work.",
+   "reader_fit": "Low to medium: the 'who I am' and audience documents and the check-in agent transfer to recruiter personal branding and outreach, but the episode is about screenwriting.",
+   "points": [
+    {
+     "claim": "Dump what you know onto a page by hand before opening AI.",
+     "evidence": "A day or two of unaided thinking",
+     "quote": "Spend a day or two dumping everything you know about what you're going to do onto a page, right? Do it by hand. Do it by whisper.",
+     "timecode": "26:39"
+    },
+    {
+     "claim": "Create a personal 'who I am' document and a document on the current project, then ask whether the idea and the person fit and who the audience is.",
+     "evidence": "Two documents plus audience questions",
+     "quote": "You should create a who I am as a writer document.",
+     "timecode": "13:24"
+    },
+    {
+     "claim": "Test marketing before the product exists using a proxy trailer.",
+     "evidence": "Trailers rewritten roughly hour by hour based on ticket intent",
+     "quote": "let's create a proxy trailer for that let's see if we can sell tickets to that even though it doesn't exist yet",
+     "timecode": "23:22"
+    },
+    {
+     "claim": "He runs an agent that checks him each morning and holds him to his stated plan.",
+     "evidence": "Claude agent configured as unpleasant",
+     "quote": "I have a Claude agent that is my morning check-in.",
+     "timecode": "45:02"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/AI & I/2026-11-04-the-inside-story-of-the-50-who-built-modern-ai-with-kevin-roose.md",
+   "show": "AI & I",
+   "title": "The Inside Story of the 50 Who Built Modern AI With Kevin Roose",
+   "date": "2026-11-04",
+   "url": "https://www.youtube.com/watch?v=IOp5N4GxE6E",
+   "guest_line": "Kevin Roose \u00b7 Author of The AGI Chronicles and co-host of Machine Gods (with Casey Newton)",
+   "vendor_flag": "No product vendor. Roose is promoting his own book and show, and the Every hosts promote an Every subscription.",
+   "reader_fit": "Low: mostly the history of AGI and journalism. Two small items transfer to recruiters, the council-of-agents review and the weightlifting versus forklifting test for which tasks to automate.",
+   "points": [
+    {
+     "claim": "A council of persona agents reviewed each chapter draft and a master editor agent synthesised their notes.",
+     "evidence": "Claude Code swarm, personas such as AI sceptic and AI historian",
+     "quote": "I had a a council of clauds that would review chapters.",
+     "timecode": "24:32"
+    },
+    {
+     "claim": "The council caught factual errors that human editors missed.",
+     "evidence": "A couple of factual errors",
+     "quote": "It did catch a couple of factual errors uh that I had not caught and my human editors had not caught.",
+     "timecode": "26:06"
+    },
+    {
+     "claim": "Weightlifting tasks are those where the struggle is the benefit, so do not automate them.",
+     "evidence": "Parenting kept, company paperwork handed over",
+     "quote": "Weightlifting tasks are tasks in my mind where the struggle is part of the benefit",
+     "timecode": "42:52"
+    },
+    {
+     "claim": "Reading the interviewee's papers first and showing seriousness helped him get detail from a secretive industry.",
+     "evidence": "About 150 interviews, mostly on background",
+     "quote": "just being really sincere and doing the reading like reading the researchers papers before I went to talk to them",
+     "timecode": "12:56"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/Lenny's Podcast/2026-10-18-inside-the-black-box-of-ai-how-ai-models-actually-think-emmanuel-ameisen-anthrop.md",
+   "show": "Lenny's Podcast",
+   "title": "Inside the black box of AI: How AI models actually think",
+   "date": "2026-10-18",
+   "url": "https://www.youtube.com/watch?v=JHo-aiePjoM",
+   "guest_line": "Emmanuel Ameisen \u00b7 Interpretability researcher @ Anthropic",
+   "vendor_flag": "Yes. The guest is an Anthropic employee describing Anthropic's model, says Claude now writes most of his code, and the host defends Anthropic against criticism. Sponsor reads for WorkOS and DX are paid ads.",
+   "reader_fit": "Low: research on model internals. The practical takeaways are mental models, that reliability thresholds decide when a tool becomes useful and that treating a model as an actor playing a role predicts its behaviour better than treating it as a program.",
+   "points": [
+    {
+     "claim": "A tool becomes useful for a task when its error rate drops below that task's threshold, which explains sudden-looking jumps.",
+     "evidence": "90 percent versus 50 percent of 'medium words' right",
+     "quote": "if you're at 50%, it's it's like you're it's actually wasting my time",
+     "timecode": "30:54"
+    },
+    {
+     "claim": "Models formulate plans in their internal results before producing words, such as choosing a rhyme word ahead.",
+     "evidence": "Poetry example, rabbit",
+     "quote": "models will like in their intermediate results sometimes formulate a plan",
+     "timecode": "15:26"
+    },
+    {
+     "claim": "A model went haywire because it was trained on mislabelled answers.",
+     "evidence": "Correct answer 12, rewarded answer 36",
+     "quote": "it had been trained by accident on similar questions where the answer was incorrectly marked as 36",
+     "timecode": "37:27"
+    },
+    {
+     "claim": "The anthropomorphic frame predicts model behaviour better than treating it as a program.",
+     "evidence": "Dialogue formatting, role-play, task rewards",
+     "quote": "mimicking a human is really close and is much closer than a program",
+     "timecode": "46:56"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Ameisen episode: transcript is ASR and garbles a few names (e.g. 'neuripedia.org', 'Jev', 'Claw'); the recommended interpretability site URL is unverified.",
+  "Roose episode: transcript line 'wrote 400 150 pages' is garbled, so the book length was not used.",
+  "AI & I 21 Oct: the transcript uses 'Ariel' and 'Chang'/'Jack Cheng' inconsistently; surnames of the frontier team taken only where heard or in the description links.",
+  "No date gaps: all four dates come from the file headers."
+ ]
+}

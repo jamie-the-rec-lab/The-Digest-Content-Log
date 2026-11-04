@@ -1,0 +1,161 @@
+{
+ "run_date": "2026-11-04",
+ "items": [
+  {
+   "path": "library/reports/transcripts/ONS/2026-10-20-labour-market-overview-uk-october-2026.md",
+   "publisher": "ONS",
+   "title": "Labour market overview, UK: October 2026",
+   "date_published": "2026-10-20",
+   "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026",
+   "extraction": "partial",
+   "market": "UK",
+   "method_sample": "Labour Force Survey (81,193 individuals Apr-Jun 2026), HMRC PAYE RTI, Vacancy Survey",
+   "points": [
+    {
+     "claim": "UK vacancies fell to their lowest outside the pandemic since 2014",
+     "evidence": "691,000 for July to September 2026, down 21,000 (2.9%) on April to June, down 37,000 (5.1%) on the year",
+     "quote": "691,000 or fewer vacancies outside the COVID-19 period last seen July to September 2014 (686,000)",
+     "market": "UK"
+    },
+    {
+     "claim": "Unemployment fell and employment rose even as vacancies fell",
+     "evidence": "unemployment 4.7%, employment rate 75.3% (June to August 2026)",
+     "quote": "The UK unemployment rate ... was estimated at 4.7% in June to August 2026",
+     "market": "UK"
+    },
+    {
+     "claim": "Payrolled employees still falling year on year",
+     "evidence": "down 111,000 (0.4%) Aug 2025 to Aug 2026; Sept flash 30.3 million, down 66,000 on year",
+     "quote": "down 111,000 (0.4%)",
+     "market": "UK"
+    },
+    {
+     "claim": "Pay growth steady at 3.7%",
+     "evidence": "regular pay 3.7%, total 3.7% (from 3.9%); private sector 3.0%",
+     "quote": "Regular pay growth (excluding bonuses): 3.7%",
+     "market": "UK"
+    }
+   ]
+  },
+  {
+   "path": "library/reports/transcripts/REC/2026-09-29-jobsoutlook-september-2026.md",
+   "publisher": "REC",
+   "title": "REC JobsOutlook, June to August 2026",
+   "date_published": "2026-09-29",
+   "url": "https://www.onrec.com/node/129117",
+   "extraction": "partial",
+   "market": "UK",
+   "method_sample": "Whitestone Insight survey of 704 UK employers, 15 June-18 Aug 2026, weighted by region, industry, sector",
+   "points": [
+    {
+     "claim": "Employer economic confidence improves but stays deeply negative",
+     "evidence": "net -39%, up 8 points",
+     "quote": "Economic confidence rose by eight percentage points to a net balance of -39% in the June-August 2026 period.",
+     "market": "UK"
+    },
+    {
+     "claim": "Hiring and investment confidence up",
+     "evidence": "-8% net, up 6 points",
+     "quote": "Confidence in making hiring and investment decisions improved by six points to -8%.",
+     "market": "UK"
+    },
+    {
+     "claim": "Permanent hiring intentions edge down",
+     "evidence": "short-term +8%, medium-term +6%",
+     "quote": "Short-term permanent hiring intentions edged down one point to a net balance of +8%.",
+     "market": "UK"
+    },
+    {
+     "claim": "Temp intentions flat to lower; North and Midlands lead",
+     "evidence": "temp short-term +2%, medium-term +5%; North +11%, Midlands +10%",
+     "quote": "The short-term net balance fell one point to +2%, while the medium-term balance remained at +5%.",
+     "market": "UK"
+    }
+   ]
+  },
+  {
+   "path": "library/reports/transcripts/Bullhorn/2026-10-20-staffing-industry-indicator-week-ending-october-10.md",
+   "publisher": "Bullhorn (with SIA)",
+   "title": "SIA | Bullhorn Staffing Indicator, week ending October 10, 2026",
+   "date_published": "2026-10-20",
+   "url": "https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-october-20-2026",
+   "extraction": "partial",
+   "market": "US",
+   "method_sample": "Weekly hours worked by temps across US staffing firms using Bullhorn, benchmarked to BLS",
+   "points": [
+    {
+     "claim": "US staffing hours at a year-to-date high",
+     "evidence": "index 108, up 11% YoY, +0.6% WoW",
+     "quote": "US Staffing hours were up 11% compared to a year ago and up 0.6% on a week-over-week sequential basis",
+     "market": "US"
+    },
+    {
+     "claim": "Commercial staffing up",
+     "evidence": "index 89, +12% YoY",
+     "quote": "Commercial hours were up 12% compared to a year ago",
+     "market": "US"
+    },
+    {
+     "claim": "Professional staffing up",
+     "evidence": "index 125, +9% YoY",
+     "quote": "Professional hours were up 9% compared to a year ago",
+     "market": "US"
+    },
+    {
+     "claim": "Average hours per worker",
+     "evidence": "35.5 vs 35.1 a year earlier",
+     "quote": "The average weekly hours worked per worker was 35.5 hours during the week ending October 10th",
+     "market": "US"
+    }
+   ]
+  }
+ ],
+ "to_grab": [
+  {
+   "name": "ONS Labour market overview Oct 2026 (full text)",
+   "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026",
+   "reason": "read via page extract only"
+  },
+  {
+   "name": "REC JobsOutlook full tables",
+   "url": "https://www.rec.uk.com",
+   "reason": "press release republish only"
+  },
+  {
+   "name": "SIA Bullhorn Indicator 20 Oct",
+   "url": "https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-october-20-2026",
+   "reason": "HTTP 403 to bots; members-only analysis"
+  },
+  {
+   "name": "Indeed Hiring Lab UK snapshot Sept/Oct 2026",
+   "url": "https://hiringlab.indeed.com/uk/",
+   "reason": "no Oct edition found; Sept previously failed with redirects"
+  }
+ ],
+ "rejected": [
+  {
+   "title": "Totaljobs UK jobs market October 2026 (21 Oct)",
+   "why": "commentary reusing ONS data plus a small employer survey; not primary, methodology thin"
+  },
+  {
+   "title": "Greenhouse 2026 AI in Hiring Report",
+   "why": "published Feb 2026, outside window"
+  },
+  {
+   "title": "Brook Street Employment Outlook Q3 2026",
+   "why": "registration-gated, no date or method visible; not verifiable"
+  },
+  {
+   "title": "Resume/SEO stats roundups (resumegenius, voxbooster, selectsoftwarereviews)",
+   "why": "aggregator listicles"
+  }
+ ],
+ "gaps": [
+  "Searches (WebSearch is US-only) found no new CIPD, ISE, Korn Ferry, Ashby, Gem or LinkedIn reports dated in window beyond those already held",
+  "Bullhorn week ending 17 Oct (due ~27 Oct) not found",
+  "KPMG/REC Report on Jobs November edition not yet published (expected ~9 Nov)",
+  "CIPD Labour Market Outlook autumn edition not found",
+  "Bullhorn index value conflict (108 SIA vs 100 Bullhorn summary); SIA used",
+  "Source pages for ONS and REC were read via summarised fetch, not verbatim full text"
+ ]
+}

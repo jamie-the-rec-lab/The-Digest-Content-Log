@@ -1,0 +1,705 @@
+Workforce
+Report
+Our data and insights support
+your recruiting success.
+
+
+September 2026 – Spotlight on the AI skills race
+         ●   September 2026 Workforce Report                                                             2
+
+
+
+
+The big picture
+
+Last month, demand was accelerating on         TOP FINDINGS
+both sides of the Atlantic, and the labor
+market answered with strain instead of
+                                                                   U.S. employer demand stabilized
+speed. Demand has now turned, and the
+                                                                   in August, with an increase of only
+strain has not gone anywhere.
+                                                                   1% in job openings month-over-
+In the U.S., job openings are no longer                            month while hiring declined.
+
+surging ahead of hiring capacity, growth is
+decelerating and hiring is slowing even
+faster. The gap between the two has not
+closed. It is widening, just from a cooler
+                                                                   EMEA hiring dropped 20%
+starting point.
+                                               20%                 month over month as application
+                                                                   rates dropped 7%.
+EMEA is shifting faster. Openings,
+applications and hires all declined this
+month, with hires posting the sharpest
+single-month drop either region has seen
+all year. Some of that is likely seasonal
+                                                                   61% of candidates have sought
+timing, but the size of the move is worth
+                                                                   out GenAI skills to enhance their
+watching closely into next month
+                                                                   opportunities in the job market.
+regardless of the cause.
+
+This month, the spotlight turns to the AI
+skills race. As organizations engage in the
+race toward AI, this report looks at what
+skills will be needed to win and how the
+market is responding.
+                                               ICIMS Insights Workforce Reports monitor
+                                               monthly labor market activity based on hundreds
+                                               of millions of applicants and millions of users.
+                                               Organizations can use this data as a measuring
+                                               stick to anticipate and adapt to ever-changing
+                                               workforce dynamics.
+             ●   September 2026 Workforce Report                                                                                         3
+
+
+
+
+The U.S. gap between openings and hires
+maintains its grip
+U. S. PL ATFORM I NDI CA TORS | Job openings, applications and hires | August 2025–August 2026
+ YoY
+
+
+
+
+                                                                                                                      Job openings
+ MoM
+
+
+
+
+                                                                                                                      Applications
+                                                                                                                      Hires
+
+
+
+
+ICIMS INSIGHTS QUICK TAKE: The gap between hires and openings widened only by a little,
+but recruiting teams are likely still feeling the heat from a hot summer.
+
+
+
+  MARKET UPDATE
+
+August continued a pattern that has been building since June.       The hiring drop this month points away from a sourcing
+Job openings finished 13% above the August 2025 baseline.           problem and toward a conversion one. With applications slowly
+This is still elevated, but the pace of growth is slowing. Month-   improving month-over-month and job openings surging, the
+over-month growth for job openings fell from 7% in June to          constraint is not candidate volume. Rather, it is what happens
+4% in July to just 1% in August. Three consecutive months of        once a candidate is in the pipeline. Recruiting teams should
+deceleration is worth watching closely. It could be normal          audit screen-to-interview and interview-to-offer conversion
+pacing after a hiring surge or an early signal that demand is       before defaulting to a top-of-funnel fix that this month's data
+turning.                                                            does not support.
+
+Hires ended the month at a 2% increase above the August
+                                                                       STRATEGY
+2025 baseline and posted their first back-to-back monthly
+decline of the year, down 1% month-over-month in August
+after a 3% drop in July. The gap between hiring and openings        Find out whether hires are declining because job requisitions
+held steady but is still significant enough to cause pressure on    are stalling or because they are being pulled. Those are different
+recruiting teams trying to stay ahead.                              problems with different owners. A stalled job requisition is a
+                                                                    recruiting process issue. A pulled requisition is a finance and
+Applications remained 1% below the August 2025 baseline but
+                                                                    headcount issue. Pull every requisition closed without a hire in
+are on their third consecutive month of gains after the sharp
+                                                                    August and code each one by reason before assuming it is a
+decline in May. The recovery is promising, but it has not closed
+                                                                    funnel problem.
+the gap enough. Growth in openings (+13% year-over-year) are
+now running roughly 11 points ahead of growth hires (+2%
+year-over-year), a wider gap than July's, because hiring kept
+slipping even as openings only slowed down.
+           ●   September 2026 Workforce Report                                                                             4
+
+
+
+
+More openings in the U.S., longer time to fill
+The gap between hirings and openings is affecting time to fill as it slowly increases to
+an average of 40 days over the last two months.
+
+
+U. S. T IM E TO FIL L AN D APPLICAN T S PER OPEN ING | August 2025–August 2026
+
+
+
+
+        ”
+                                                                                   Time to fill   Applicants per opening
+
+
+
+
+               “This is what a constrained talent market looks like.
+               Demand is rising, supply is flat and the only lever left is how
+               well you execute inside your own process. With only 30
+               candidates per role, every breakdown in your process is
+               costing you real hires.”
+
+
+
+                                                                    TRENT COTTON
+                                                               Head of Talent Insights,
+                                                                                 ICIMS
+              ●   September 2026 Workforce Report                                                                                         5
+
+
+
+
+ EMEA's heat wave just cooled off.
+ EME A PL AT FORM IN DICAT ORS | Job openings, applications and hires | August 2025–August 2026
+ YoY
+ MoM
+
+
+
+
+                                                                                                                        Job openings
+                                                                                                                        Applications
+                                                                                                                        Hires
+
+
+
+
+ICIMS INSIGHTS QUICK TAKE: All three EMEA metrics cooled in August, and hires posted the sharpest
+single-month drop this year.
+
+
+
+  MARKET UPDATE                                                            STRATEGY
+
+Job openings in EMEA finished August at 21% above the August            Confirm the seasonality before you act on the hires
+2025 baseline, but growth has turned negative for two straight          number. Pull August 2025's month-over-month change for
+months, down 3% month-over-month in July and 5% in August               the same three metrics. If last August also showed a sharp
+after peaking in March.                                                 hires dip, then this is a pattern, not news, and the story
+                                                                        should be about the underlying trend line rather than the
+Hires tell the sharper story. After a steep drop in May with a slight
+                                                                        August number itself. If last August was flat, the drop is real
+rebound in June and July, hires fell 20 points in a single month,
+                                                                        and deserves more attention than any single U.S. finding
+the largest one-month move in either region this year, pulling the
+                                                                        this cycle.
+cumulative figure down to just 1% above baseline. Worth noting
+before reading too much into it: August is peak vacation season         Treat this as a demand signal, not a funnel signal. The
+across much of EMEA, and hiring approvals and start dates               metrics point to fewer active searches and lower urgency
+typically slow region-wide, regardless of demand. This may be a         from hiring managers rather than a broken pipeline. Before
+seasonal pause landing on top of a real slowdown, not a                 recommending a recruiting fix, check open requisition
+standalone signal.                                                      counts and hiring manager engagement, not funnel
+                                                                        conversion rates.
+Applications ended the month at 3% above the August 2025
+baseline, continuing a slide that started in June: down 3% month-
+over-month in June, flat in July and down 7% in August. That is
+the opposite direction from the U.S., where applications have
+posted three consecutive monthly gains. In EMEA, candidate
+engagement is fading at the same time employers are pulling
+back, rather than offsetting it.
+           ●   September 2026 Workforce Report                                                                             6
+
+
+
+
+When the EMEA pool shrinks, speed wins
+Fewer applicants per opening in EMEA and five straight months of decline means less room for
+a slow process. The advantage goes to companies that prioritize their top roles and move fast.
+
+EME A TI ME T O FI LL A ND APPLI CANT S PER OPENI NG | Augu st 2025–Augu st 2026
+
+
+
+
+                                                                                   Time to fill   Applicants per opening
+
+
+
+
+               “When the pool was bigger, a slow process cost you good
+               candidates. Now, it costs you the offer entirely. Months of
+               consecutive decline in EMEA means it is worth checking
+               whether your process has sped up to match or stayed the
+               same while the market moved.”
+                                                                                                  ”
+                                                                    TRENT COTTON
+                                                               Head of Talent Insights,
+                                                                                 ICIMS
+         ●   September 2026 Workforce Report                                                 7
+
+
+
+
+                                                                          ”
+      REPORT FOCUS
+
+
+
+
+The AI skills race
+                                                       “I’ll admit, I thought skills-based
+Skills-based hiring is having a moment,
+especially as organizations rethink how they           hiring was hype. This data
+
+evaluate candidates for an AI-upgraded                 changed my mind.
+workforce.                                             Workers are outpacing
+This report draws on two data partners to              employer training. Job postings
+understand what that shift looks like.                 are outpacing both. That is the
+• Lightcast's job postings and skills data shows       market talking, and I trust what
+  where and how fast AI requirements are               the numbers are telling us. This
+  spreading across occupations and industries.         is a topic every practitioner
+• ICIMS commissioned a survey in August 2026           should have a plan for today.
+  of 1,000 U.S. adults to understand how they are
+                                                       The pressure for organizations
+  responding to the AI skills race. We found
+                                                       to win the AI race will only
+  candidates are building AI skills largely on their
+                                                       intensify the need for an
+  own.
+                                                       AI-ready workforce plan."
+Together, the two data sets tell a story. Lightcast
+shows what employers are asking for. Our survey
+shows whether workers can meet the ask and                                TRENT COTTON
+who is being left out as the bar rises.                                   Head of
+                                                                          Talent Insights
+This month's spotlight covers four threads: which                         ICIMS
+occupations are already saturated by AI
+requirements, how industry adoption diverges
+by region, how skill requirements reshuffle once
+AI enters a posting and how workers are building
+AI skills largely on their own.
+               ●   September 2026 Workforce Report                                                                                  8
+
+
+
+
+    Six job titles every market is fighting over
+    AI requirements have saturated a small set of engineering roles.
+    The more interesting story is in the jobs nobody calls AI jobs.
+
+    THE COMMON CORE: The top six occupations across regions that require AI skills most often
+
+
+
+
+                                                                                                                  US
+                                                                                                                  UK
+                                                                                                                  France
+                                                                                                                  The Middle East
+
+
+
+
+Source: Copyright 2024 Lightcast
+
+
+
+AI-related job postings account for only a small share of          “Data Scientist” is the exception in this group. Between 69%
+overall hiring demand: 4% of job postings in the U.S., 2.7% in     and 79% of Data Scientist job postings ask for an AI skill,
+the U.K. and 1.2% in France.                                       depending on the region. That leaves somewhere between
+                                                                   20 - 30% of job postings for Data Scientists with no AI
+AI hiring demand is concentrated rather than distributed as
+                                                                   requirement at all. This is one job family that still has a
+you look at job titles. A small group has become almost entirely
+                                                                   direct impact in multiple functional areas within an
+AI-defined, while the broader market absorbs AI requirements a
+                                                                   organization and is not entirely dependent upon AI skills to
+few percentage points at a time.
+                                                                   be successful.
+Six occupations had the highest share of postings requiring AI
+                                                                   The engineering roles beside it offer no such room. Nearly
+skills across all four regions
+                                                                   every posting in those titles already carries the AI skill
+•    Generative AI engineer                                        requirement, so there is no group of qualified candidates
+•    Natural language processing engineer                          sitting outside it waiting to be found. AI skills are becoming
+•    Machine learning engineer                                     routine for engineering roles.
+•    Artificial intelligence engineer
+•    Deep learning engineer
+•    Data scientist
+
+Employers hiring for these titles compete for the same
+candidates in every market, increasing the difficulty of these
+types of searches.
+                             ●   September 2026 Workforce Report                                                                      9
+
+
+
+
+ Where AI requirements go beyond
+ the core occupations
+ The interesting signal sits below the top six, in the occupations that appear in only one or two regions’
+ top 10 occupations with an AI skill requirement. These are the roles no one would call "AI jobs".
+
+ AI SKIL LS REQUI REMENT B Y OCCU PATI ON (REGI ON)
+       SKILL PENE TRAT ION
+
+
+
+
+Source: Copyright 2024 Lightcast
+
+Technology brand ambassador ranks #8 in France (60% AI skills        Robotics software engineer ranks #8 in both the U.S. and
+penetration) and the Middle East (59%) for occupations that          the U.K., at 85% and 79% AI skills penetration, respectively,
+require AI skills. It appears in neither the U.S. or U.K.’s top 10   for occupations that require AI skills. It appears in neither
+occupations with this skill requirement. This role is defined as     other market’s (France and Middle East) top 10 occupations
+representing and demonstrating a technology brand to promote         with this skill requirement. This role is defined as building
+brand awareness and sales in its market. That is a customer-         software for the operation and development of robots,
+facing sales and marketing job with no engineering component.        typically in manufacturing or transportation.
+
+UX designer ranks #10 in France at 50% AI skills penetration, so     Transportation security officer ranks #10 in the U.S. at 67%
+half of all French UX postings now carry this skill requirement.     AI skills penetration for occupations that require this skill.
+This role is responsible for improving a product's usability,        The role is defined as monitoring passengers and screening
+accessibility and interaction, drawing on traditional human-         luggage or freight for weapons or dangerous materials. At
+computer interaction design. The new ask is to design for AI         3,532 AI-related postings out of 5,287, it carries the largest
+behavior rather than build it.                                       volume of any role in this group.
+
+Computational biologist appears in both European markets
+(U.K. and France) and neither the U.S. or Middle East for the top
+occupations that require AI skills, ranking #10 in the U.K. at 70%
+AI skills penetration and #9 in France at 54%. This role
+uses biological data to build models of biological systems with
+computational and mathematical methods. The postings now
+name AI modeling skills explicitly.
+          ●   September 2026 Workforce Report                                                                                   10
+
+
+
+
+A deeper look at AI skill saturation:
+regionally and by sector
+ REGIONAL VIEW                                               SECTOR VIEW
+
+We looked at four regional data sets (U.S., U.K., France     For each industry, we compared the top 30 skills employers
+and the Middle East) to better understand which              ask for across all postings against the top 30 skills they ask for
+industries are driving AI skill saturation globally.         when the posting is specifically AI-related. The categories are:
+
+Finance leads in three of the four regions (U.S., U.K. and   •   Newly prominent: outside the overall top 30 skills before
+Middle East) with the highest share of roles requiring AI        but now appears only when the posting is AI-related
+skills, with the U.K. being the highest. That tracks with    •   Rising: already on the top 30 skills list and climbed more
+where the work sits: risk and credit decisions, fraud            than five places when the posting is AI-related
+detection, customer service and back-office operations       •   Stable/core: held within five places of where it was for
+are document-heavy and pattern-driven, which exactly             both overall postings and AI-related postings
+the kind of work today's AI tools handle best. That gave     •   Reweighted downward: stayed in the top 30 skills but fell
+the sector an early head start on adoption.                      more than five places when the posting is AI-related. This
+                                                                 is a drop in relative priority, not lost value
+Manufacturing came in second in those same three
+regions as companies look to automation and AI to            Healthcare changed most. It has the largest share of
+increase operational efficiency. The U.S. and the Middle     Newly Prominent skills and the smallest Stable/Core, so
+East show higher concentrations than their counterparts.     less than a third of its AI-related skill profile is work employers
+France is the exception to both patterns, with               were already asking for. Manufacturing changed least,
+manufacturing leading there and finance sitting second.      holding the largest amount of Stable/Core skills of the three
+                                                             industries. Finance sits between them, with Rising skills
+                                                             sitting at 12% to 14% everywhere, so the movement is not
+                                                             gradual promotion of existing skills. It is new skills arriving.
+
+                                                             Healthcare also had the lowest AI hiring rate of the
+                                                             three sectors.
+
+
+
+
+                                                                  Newly prominent                    Rising
+
+                                                                  Reweighted downward                Stable/core
+            ●   September 2026 Workforce Report                                                                                         11
+
+
+
+
+The workforce is not waiting for an AI training
+program. They are learning on their own.
+
+
+  INSIGHT
+                                                                     Give self-directed learning somewhere to be declared and
+According to our survey of 1,000 job seekers, just under half        assessed. One skills-based screening question will surface more
+the U.S. adults (47%) has taken steps to build AI skills in the      capability than a keyword filter.
+past six months. Last year that number was 41%. Another 21%
+                                                                     Separate day-one skills from 90-day skills. Sort every AI
+have not started but plan to. The demand is real and climbing.
+                                                                     requirement into two groups: what a candidate must know
+The more revealing number is where the learning comes from.
+                                                                     on day one and what they can learn in the first 90 days. Most
+Self-teaching for AI skills rose from 22% to 30% in a single         belong in the second group, because these skills do not stay
+year. Employer-provided training for AI held at roughly one          current for long. Thirty-two percent of adults expect an AI skill to
+in six, moving from 19% to 17%,. Side by side, the two numbers       lose its value within a year, and another 33% are not sure how
+say one thing: people are building AI skills faster on their own     long it will last. A requirement that names a specific tool goes
+than employers are helping them do it. Among those actually          stale when the tool does. One that measures how quickly
+working full- or part-time, the gap is sharper. Thirty-four          someone learns a new tool holds up. Moving requirements into
+percent taught themselves versus 24% who received                    the 90-day group widens the pipeline and lowers time to fill.
+employer-provided training.
+                                                                     Treat AI training as a recruiting offer. Most companies file
+That gap already shows up in hiring. Forty-five percent of job       AI training under retention. It attracts talent, too. Forty-two
+seekers say they see GenAI skills listed as a requirement in         percent say a company offering AI training would be more
+postings for roles they would consider, whether frequently           attractive than a similar employer that did not, 28% would favor
+or occasionally.                                                     the company outright and another 14% would even accept lower
+                                                                     pay for it. That is a compensation lever most talent teams are not
+Confidence rose anyway. Three in five (60%) feel ready to            pricing. Employers already running AI training should say so in
+adapt to AI at work, up from 54% a year ago, and the share           the posting itself, rather than leave it for a benefits page a
+who feel unprepared fell from 20% to 14%. People closed that         candidate only reaches after deciding to apply.
+gap largely on their own time. Sixty-four percent spent none
+of their own money doing it.
+
+The risk sits with the group that is not moving. Thirty-two
+percent of job seekers have not built AI skills and do not                47% have built AI skills in the past six
+                                                                              months, up from 41% in 2025
+plan to. Twenty-six percent of job seekers say they have not
+
+
+                                                                          30% taught themselves, up from 22%.
+considered how AI will affect their job at all. Across either
+figure, this is a large share of job seekers who are not
+engaging with this shift at all.
+
+
+  STRATEGY                                                                17%            received formal training from an
+                                                                                         employer, down from 19%.
+
+Give credit for self-teaching. Almost a third of U.S. adults
+(30%) are building AI skills entirely on their own, without               45% see GenAI skills listed as a requirement
+                                                                              in postings they would consider
+employer help. Fifty-one percent say they currently have
+GenAI skills or are actively building them, and 57% say they are
+at least somewhat confident they could meet an AI
+requirement today. Most screening still looks for a certification,
+                                                                          60% feel ready to adapt to AI at work,
+                                                                              up from 54% last year
+
+a job title or a named platform, and a free course finished on a
+Sunday afternoon leaves no trace in any of those fields.
+                                                                          32% have not built AI skills and do not plan to
+               ●   September 2026 Workforce Report                                                                             12
+
+
+
+
+The biggest AI skill most workers have
+is familiarity
+
+
+
+
+Source: ICIMS survey of 1,000 U.S. adults
+
+
+
+
+According to our survey of 1,000 U.S. job seekers, working      Put the three findings together and you get a funnel.
+adults are seeing AI show up in hiring at a real clip. Fifty-   Exposure to AI requirements is broad. Confidence is real
+five percent of job seekers say GenAI skills appear in          but shallow. And the skill behind that confidence is almost
+postings they would consider at least occasionally: 21%         entirely one generalist tool, not the specialized skills
+frequently, 34% occasionally. Only 15% say they never see it.   (prompt engineering, model development, AI governance)
+                                                                that actually define the AI roles employers are hiring for.
+Confidence looks like it has kept pace. Two-thirds of
+                                                                Workers have learned to use the tool. Most have not yet
+workers (67%) say they are at least somewhat confident
+                                                                built the skills one level deeper, the ones that would make
+they could meet an AI requirement today. On the
+                                                                them competitive for those roles.
+surface, that reads as a workforce that is caught up.
+                                                                For HR and talent teams, the fix is not more generic AI
+It has not. That 67% splits nearly two to one toward the soft
+                                                                training. Screening should separate exposure from actual
+end: 42% are "somewhat confident, with basic exposure,"
+                                                                skill: a generalist "AI confidence" self-rating in an ATS or
+versus 25% who say they are "very confident" and already
+                                                                interview means little if the role needs prompt
+have the skills. Most of that confidence is exposure, not
+                                                                engineering, model development or AI governance
+mastery. It is familiarity with AI at work, not a skill an
+                                                                specifically. Training budgets should move past the entry-
+employer could actually verify.
+                                                                level tool skill almost everyone already has and start
+The skills data confirms it. When asked what AI skills they     building the specialized skills that are still scarce, since
+have or are building, workers point to one thing. Sixty-one     those are the ones that will actually widen your qualified
+percent report proficiency with a GenAI tool like               candidate pool. And the 27% with no AI skill at all deserves
+ChatGPT, Copilot, or Gemini. Every other skill sits two to      a distinct plan, not a slower version of the same training
+three times smaller: data analysis with AI tools (30%),         track, because they are a different population with a
+prompt engineering (18%), AI ethics or governance (17%)         different starting point.
+and machine learning or model development (17%). More
+than a quarter of workers (27%) report none of these skills
+at all, even after removing everyone who is not currently
+working.
+             ●   September 2026 Workforce Report                                                                                     13
+
+
+
+
+ICIMS library
+Some of our recent content to help your talent strategy.
+
+
+
+  RECOMMENDED READING
+
+
+
+
+Legal Buy-in Cheat Sheet                        New frontline hiring research            Hiring platform showdown
+Learn how to prepare clearer                    Why high-volume employers are            We put real candidates through
+answers, evaluate AI tools responsibly          turning to AI, skills-based hiring and   hiring experiences and captured
+and build a stronger case for legal             better screening to improve quality      their reactions in real-time.
+approval. Click here.                           of hire. Click here.                     Click here.
+
+
+
+
+  SIGNAL PODCAST
+
+
+                                  How EchoStar Won a                                                 Enterprise Value,
+                                  Candidate Experience                                               AI & High Volume Hiring
+                                  Award in 2 Years                                                   ICIMS CEO unpacks what
+                                  For EchoStar, home to brands                                       enterprise value really
+                                  like DISH, Boost Mobile and                                        means, how AI is reshaping
+                                  Sling TV, the answer wasn't                                        hiring and why high-
+                                  simply adding more                                                 volume frontline hiring is a
+                                  technology. It was recruiting                                      board-level business issue,
+                                  optimization. Watch here.                                          not just a recruiting metric.
+                                                                                                     Watch here.
+
+
+
+
+   UPCOMING EVENTS
+
+
+                                  Frontline hiring webinar                                           AI Power Labs
+                                  Join Ben Eubanks of                                                These in market events help
+                                  Lighthouse Research &                                              you separate hype from data
+                                  Advisory and Trent Cotton,                                         about AI adoption. This is a
+                                  ICIMS’ head of talent insights,                                    “train the trainer” event for
+                                  as they unpack the data.                                           leaders who want to tackle AI
+                                  Register here.                                                     in TA. Register here.
+       ●   September 2026 Workforce Report                                                           14
+
+
+
+
+FROM INSIGHTS TO IMPACT
+                                                        Now is the time to diagnose and treat
+                                                        bottlenecks before the pressure becomes
+
+Tailored                                      FOR THE   too much for your recruiting teams.
+
+                                              Talent    Leveraging the data in your ATS is the
+
+takeaways                                    Leaders    right move. One of the most effective
+                                                        reports to use for identifying bottlenecks
+                                                        is a report that tracks the average
+Whether you lead people,                                number of days a candidate spends in
+run operations or shape strategy,                       each stage. This single report can help
+                                                        you zero in on where you can increase
+you can use these insights to
+                                                        efficiency and fast track top talent
+align teams, reduce friction and                        through your process.
+
+move faster on your goals.
+
+
+                                                        Recruiting teams remain under intense
+                                                        pressure. Support for your recruiting
+                                                        organization should come from your
+                                              FOR THE
+                                                        ability to help align the organizational
+                                             CHROs      workforce plan.
+
+                                                        Examine which departments are hiring
+                                                        to fill a role and which are posting only to
+                                                        change their minds later in the process.
+
+                                                        This simple fix will not only help your
+                                                        recruiting team's efficiency but also
+                                                        protect your candidate experience.
+
+
+
+
+                                                        Ask where the hardest-to-fill roles sit in
+                                                        your growth plan, and whether hiring
+                                                        timelines account for that. A role that
+                                              FOR THE
+                                                        structurally takes longer to fill needs to
+                                              CXOs      be planned for, not just chased faster.
+
+                                                        Help your leaders understand the value in
+                                                        moving quickly on top talent. As the
+                                                        candidate pool continues to shrink, the
+                                                        need for speed increases.
+     ●   September 2026 Workforce Report                            15
+
+
+
+
+Want more great insights?
+
+
+The New Reality of Frontline Hiring 2026 Report
+
+
+Frontline roles are the backbone of our workforce, but hiring for
+them continues to be challenging. New research shows 62% of
+high-volume and frontline employers say they do not want more
+applicants. See what leading high-volume employers are doing
+differently and why it is working in The New Reality of Frontline
+Hiring in 2026.
+
+
+ICIMS State of the CHRO Report
+
+
+The role of HR has never been more strategic. Learn how 1,000
+CHROs and chief people officers are navigating the shift and how
+500 CIOs see HR navigating TA tech in the ICIMS State of the
+CHRO Report.
+
+
+
+
+The Definitive Guide to AI Adoption in Talent Acquisition
+
+
+69% of companies are using AI to hire. Only 18% use it throughout
+the recruiting process. Find out where your team stands. Get the
+full Definitive Guide to AI Adoption in Talent Acquisition.
+       ●   September 2026 Workforce Report                                    16
+
+
+
+
+About ICIMS
+ICIMS is the talent acquisition platform built to help organizations
+hire at enterprise scale. Powered by billions of hiring interactions and
+more than 25 years of expertise, ICIMS combines trusted AI with
+end-to-end hiring technology to help recruiting teams hire smarter,
+faster and with greater confidence across corporate, high-volume
+and frontline roles.
+
+
+
+
+Workforce data is vital
+to driving business forward.
+ICIMS Insights provides data that is:
+•   Current
+•   Cross-industry
+•   Dual-focused on employer and
+    job seeker intentions and activity
+
+
+Data derived from:
+
+             3.1M+                           691M+
+             global platform                 candidate
+             users                           profiles
+
+
+             ~243M                           5M+
+             applications                    hires
+                                                               Data
+                                                               Breakthrough
+                                                               Awards:
+Visit icims.com to learn more.                                 2026 Overall
+                                                               Data Science
+                                                               Solution of
+                                                               the Year
+

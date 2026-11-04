@@ -1,0 +1,32 @@
+# ============================================================================
+# CONFIG: where things get published and who gets told.
+# Separate from sources.yaml because this changes for completely different
+# reasons, and much less often.
+# ============================================================================
+
+site:
+  repo: jamie-the-rec-lab/thereclab-site
+  branch: main                 # live. The job never pushes here; Jamie merges.
+  review_branch: digest-review # the job pushes each edition here and opens a PR
+  page: digest/index.html
+  live_url: https://thereclab.ai/digest
+  # Vercel's preview of the review branch. Replace with https://review.thereclab.ai/digest
+  # once that domain is assigned to the digest-review branch in Vercel.
+  review_url: https://thereclab-site-git-digest-review-the-rec-lab-s-projects.vercel.app/digest
+  vercel_project: thereclab-site
+
+slack:
+  dm: U0B5GMDT8AG
+
+schedule:
+  day: Sunday          # since Nov 2026; was Wednesday
+  time: "14:20"        # UK time
+
+digest:
+  template: digest/template.html
+  template_backup: digest/template.backup.html
+  build_files: digest/builds/
+  published_archive: digest/published/
+  featured_log: digest/featured-log.tsv
+  version_file: digest/version.txt
+  freshness_weeks: 8

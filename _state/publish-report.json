@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-04",
+ "dry_run": true,
+ "version": 8,
+ "edition_date": "5th November 2026",
+ "url": "https://thereclab-site-git-digest-review-the-rec-lab-s-projects.vercel.app/digest",
+ "review_url": "https://thereclab-site-git-digest-review-the-rec-lab-s-projects.vercel.app/digest",
+ "pr_number": 6,
+ "pr_url": "https://github.com/jamie-the-rec-lab/thereclab-site/pull/6",
+ "site_commit": "cc4ea208d312d4461d319e4a0e695f55f79ddb72",
+ "preview_built": true,
+ "published": true,
+ "proposed_not_live": true,
+ "fact_check": "corrected 5",
+ "checks_passed": true,
+ "template_restored": false,
+ "launches": [
+  "Pin",
+  "Teamtailor"
+ ],
+ "ai_news": "Dayforce agrees to acquire Ribbon AI",
+ "sections": {
+  "Recruiting Podcasts": 5,
+  "Recruiting Newsletters": 5,
+  "Recruiting reports, product updates, and more": 4,
+  "AI & Tech Picks": 3
+ },
+ "archive": "digest/published/2026-11-04-v8.html",
+ "problems": [
+  {
+   "phase": 2,
+   "source": "Site push",
+   "what": "First push of digest-review went up identical to main because the edition file was not staged; corrected with a second commit (cc4ea20) before the PR was opened",
+   "severity": "noted",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "health_report.py",
+   "what": "Script still assumes direct publishing ('live for your review', Cowork chat) and has no review/PR fields; message line patched by hand this run",
+   "severity": "degraded",
+   "resolved": "no"
+  }
+ ],
+ "merged": true,
+ "live": true,
+ "merged_by": "Jamie, via a Claude session",
+ "merge_commit": "12363f8"
+}

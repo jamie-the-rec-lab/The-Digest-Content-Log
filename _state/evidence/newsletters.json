@@ -1,0 +1,524 @@
+{
+ "run_date": "2026-11-04",
+ "items": [
+  {
+   "path": "Ashby Community/2026-10-30-your-talent-insights-from-ashby-this-month.md",
+   "newsletter": "Ashby Community",
+   "title": "Your Talent Insights from Ashby This Month",
+   "date": "2026-10-30",
+   "thread_id": "1a18ce494c6f2c0c",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a18ce494c6f2c0c",
+   "public_url": "none",
+   "sponsor_flag": "vendor newsletter (Ashby own product promotion; partner list is vendor listings)",
+   "points": [
+    {
+     "claim": "Inbound now accounts for over half of hires, but referrals score higher on quality",
+     "evidence": "54.3% EMEA, 51.9% AMER (Q1 2026); top score 28% inbound vs 36% referrals; QoH 3.8 vs 4.0 vs 3.9 sourced",
+     "quote": "by Q1 2026 they accounted for more than half of all hires (54.3% in EMEA, 51.9% in AMER). However, across all Ashby customers, only 28% of inbound hires receive the top score, compared with 36% of referrals.",
+     "market": "EMEA/AMER (Ashby customers only; vendor data)"
+    },
+    {
+     "claim": "Anthropic junior share of technical hiring fell sharply",
+     "evidence": "junior share of technical teams 21% to 14%; junior hires 27% to 9%",
+     "quote": "Junior hires have dropped even faster, from 27% to 9% of technical hiring.",
+     "market": "US (Anthropic)"
+    },
+    {
+     "claim": "California No Robo Bosses Act requires human review of AI discipline/firing decisions",
+     "evidence": "applies from July 2027",
+     "quote": "From July 2027, a person has to check the AI's output.",
+     "market": "US-California"
+    },
+    {
+     "claim": "Fake applicants and ghost jobs are a trust gap (iHire 2026, secondary citation)",
+     "evidence": "19.2% employers named fake applicants a top challenge; 23.6% received at least one; 39.3% seekers cite ghost jobs; 41.2% met a scam job",
+     "quote": "Nearly 1 in 5 employers (19.2%) named fake or fraudulent applicants as a top recruiting challenge, and 23.6% received at least one in the past year.",
+     "market": "US"
+    },
+    {
+     "claim": "Ashby shipped Audit Logs and scheduled Custom Agents (vendor self-promotion)",
+     "evidence": "Audit Logs Enterprise; Custom Agents scheduling in public beta, free during beta",
+     "quote": "Run Custom Agents on a recurring schedule",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "Data Driven Recruiter/2026-10-21-ddr83-are-recruiters-ruining-forward-deployed-engineering.md",
+   "newsletter": "Data Driven Recruiter",
+   "title": "Issue 83 - Is Forward Deployed Engineering Bullshit?",
+   "date": "2026-10-21",
+   "thread_id": "1a15e1f7d08acfe3",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15e1f7d08acfe3",
+   "public_url": "https://data-driven-recruiter.beehiiv.com/p/ddr83-are-recruiters-ruining-forward-deployed-engineering",
+   "sponsor_flag": "joke sponsor (Title Inflation Ltd), not a real product",
+   "points": [
+    {
+     "claim": "FDE job ad volume surged (Bloomberry, secondary)",
+     "evidence": "postings up 1,165% YoY in 2025; median base $173,816; Indeed up 729% YoY by April 2026",
+     "quote": "Bloomberry analysed 1,000 FDE job ads and found postings up 1,165% year on year in 2025, with a median base salary of $173,816.",
+     "market": "global/US"
+    },
+    {
+     "claim": "About 40% of FDE ads are not real FDE roles (Bloomberry)",
+     "evidence": "60% Builder FDE, 30% Sales Engineer+, 10% Internal Tools Builder",
+     "quote": "So 60% of the time, it's an FDE",
+     "market": "global"
+    },
+    {
+     "claim": "FDE supply is far smaller than listings (Gartner via Channel Dive; author flags squishy maths)",
+     "evidence": "about 2,000 active FDEs vs 5,000+ Indeed listings in April",
+     "quote": "Gartner's Mukul Saha told Channel Dive there are roughly 2,000 active FDEs",
+     "market": "US"
+    },
+    {
+     "claim": "Hyperscaler investment in FDE orgs",
+     "evidence": "AWS $1bn, Google Cloud $750m (unattributed in email)",
+     "quote": "AWS has put $1bn into a new FDE organisation, and Google Cloud has committed $750m.",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "Data Driven Recruiter/2026-10-28-issue-84-recruitment-is-the-front-line-of-cyber-crime.md",
+   "newsletter": "Data Driven Recruiter",
+   "title": "Issue 84 - Recruitment is the Front Line of Cyber Crime",
+   "date": "2026-10-28",
+   "thread_id": "1a1826275f8364e4",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1826275f8364e4",
+   "public_url": "https://data-driven-recruiter.beehiiv.com/p/issue-84-recruitment-is-the-front-line-of-cyber-crime",
+   "sponsor_flag": "joke sponsor (DriverFix Pro), not a real product",
+   "points": [
+    {
+     "claim": "Fake-recruiter malware scam run by Lazarus Group (Sekoia)",
+     "evidence": "184 fake job sites; named ClickFake Interview",
+     "quote": "Sekoia linked it to North Korea's Lazarus Group and found 184 fake job sites running it.",
+     "market": "global"
+    },
+    {
+     "claim": "Job scam losses rising (FBI, Action Fraud)",
+     "evidence": "$70m in 2023 to $363m in 2025 (FBI); Action Fraud reports more than doubled 2022-2024",
+     "quote": "Job scam losses reported to the FBI went from $70m in 2023 to $363m in 2025.",
+     "market": "US/UK"
+    },
+    {
+     "claim": "Candidate-side interview fraud (Gartner; Palo Alto Networks)",
+     "evidence": "6% of 3,000 candidates admitted fraud; deepfake candidate in about 70 minutes",
+     "quote": "Gartner surveyed 3,000 candidates and 6% admitted to interview fraud",
+     "market": "global"
+    },
+    {
+     "claim": "Practical defence: publish your real recruiters and give candidates a safety doc",
+     "evidence": "one-page doc; ID check before offer and day one",
+     "quote": "Publish your real recruiters.",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "Data Driven Recruiter/2026-11-04-ddr84-is-talent-engineering-bullshit.md",
+   "newsletter": "Data Driven Recruiter",
+   "title": "Issue 84 - Is Talent Engineering Bullshit?",
+   "date": "2026-11-04",
+   "thread_id": "1a1a66f6495736c1",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1a66f6495736c1",
+   "public_url": "https://data-driven-recruiter.beehiiv.com/p/ddr84-is-talent-engineering-bullshit",
+   "sponsor_flag": "none",
+   "points": [
+    {
+     "claim": "Metaview splits TA into three seats incl. Talent Engineers",
+     "evidence": "Talent Partners, Talent Ops, Talent Engineers",
+     "quote": "Metaview split TA into three seats: Talent Partners (relationships and closing), Talent Ops (process, data, compliance) and Talent Engineers (AI, automation, building).",
+     "market": "global"
+    },
+    {
+     "claim": "Pave: Talent Engineer not yet an established emerging job",
+     "evidence": "placed in re-designed roles bucket with Marketing Engineer and Legal Engineer",
+     "quote": "Talent Engineer landed in the third bucket with Marketing Engineer and Legal Engineer, the “re-designed roles”.",
+     "market": "global"
+    },
+    {
+     "claim": "a16z runs a Talent Engineer Fellowship",
+     "evidence": "eight-week cohort",
+     "quote": "a16z launched a Talent Engineer Fellowship, an eight-week cohort",
+     "market": "US"
+    },
+    {
+     "claim": "Author's ownership test for being a recruiter",
+     "evidence": "owns reqs and accountable for hiring them",
+     "quote": "Will I own any reqs?",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "Full Stack Recruiter/2026-10-24-my-ai-agents-got-it-wrong-recruiters-do-this-too.md",
+   "newsletter": "Full Stack Recruiter",
+   "title": "My AI Agents Got It Wrong. Recruiters Do This Too.",
+   "date": "2026-10-24",
+   "thread_id": "1a16e78d1b846b3d",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a16e78d1b846b3d",
+   "public_url": "https://newsletter.fullstackrecruiter.net/p/ai-agents-recruiters-handover-note",
+   "sponsor_flag": "none (paywalled bonus mentioned)",
+   "points": [
+    {
+     "claim": "Chained agents compound errors; human checkpoints reset the chain (author arithmetic)",
+     "evidence": "9/10 per step over five steps = about 59%",
+     "quote": "five steps in a row get the whole thing right about 59% of the time",
+     "market": "global"
+    },
+    {
+     "claim": "Anecdote: bought agent team silently widened location (single unverified story)",
+     "evidence": "31 messages sent",
+     "quote": "She caught it after 31 messages had gone out.",
+     "market": "global"
+    },
+    {
+     "claim": "EU AI Act high-risk recruitment deadline delayed",
+     "evidence": "now 2 December 2027",
+     "quote": "the deadline for high-risk recruitment and hiring tools has officially been delayed to December 2, 2027.",
+     "market": "EU"
+    },
+    {
+     "claim": "Tool availability claims (author-stated)",
+     "evidence": "OpenAI Dots launched end Sept 2026; Grok Bot public beta since Aug 2026; Hermes Agent MIT Feb 2026",
+     "quote": "Dots launched inside ChatGPT at the end of September 2026.",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "Full Stack Recruiter/2026-11-02-every-dead-link-in-your-outreach-is-a-candidate-you-paid-for-and-lost.md",
+   "newsletter": "Full Stack Recruiter",
+   "title": "Every Dead Link in Your Outreach Is a Candidate You Paid For and Lost",
+   "date": "2026-11-02",
+   "thread_id": "1a19b0dfe3f998ad",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a19b0dfe3f998ad",
+   "public_url": "https://newsletter.fullstackrecruiter.net/p/recruiting-outreach-dead-links",
+   "sponsor_flag": "author promotes own tool Shorthop (self-promotion); single-source anecdote from a friend",
+   "points": [
+    {
+     "claim": "Dead-link clicks in one agency's outreach",
+     "evidence": "232 clicks = 14% of 1,657 contacted over 12 months",
+     "quote": "232 people clicked a link to a job that no longer existed.",
+     "market": "global"
+    },
+    {
+     "claim": "Redirect recovered some candidates (friend's own numbers, author unverified)",
+     "evidence": "31 into ATS, 13 active, 2 hired",
+     "quote": "31 people ended up in his ATS. 13 of them became active candidates in processes over the year and 2 were hired.",
+     "market": "global"
+    },
+    {
+     "claim": "Web link rot context (Pew 2024)",
+     "evidence": "a quarter of pages from 2013-2023 gone by Oct 2023; 8% of 2023 pages gone same year",
+     "quote": "A quarter of them were no longer accessible by October 2023.",
+     "market": "global"
+    },
+    {
+     "claim": "Author admits missing data for his own claim",
+     "evidence": "no data for 99%",
+     "quote": "I don’t have data for 99%.",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "PromptMates Newsletter/2026-10-20-anthropic-cut-junior-tech-hiring-from-27-to-9.md",
+   "newsletter": "PromptMates Newsletter",
+   "title": "Anthropic cut junior tech hiring from 27% to 9%",
+   "date": "2026-10-20",
+   "thread_id": "1a1599f68a2ebb2d",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1599f68a2ebb2d",
+   "public_url": "https://promptmates.beehiiv.com/p/anthropic-cut-junior-tech-hiring",
+   "sponsor_flag": "Metaview fillmore (sponsored; vendor claims 49% response rates unverified)",
+   "points": [
+    {
+     "claim": "Anthropic junior technical hiring share fell (company self-report; newsletter cautions extreme adoption)",
+     "evidence": "27% to 9%",
+     "quote": "The junior share of technical hires fell from 27% to 9%, even as the company grew.",
+     "market": "US (Anthropic)"
+    },
+    {
+     "claim": "Agent hours exceed human hours at Anthropic",
+     "evidence": "six times by August",
+     "quote": "By August, agents directed by employees logged six times as many hours as their human handlers.",
+     "market": "US (Anthropic)"
+    },
+    {
+     "claim": "Output per engineer up",
+     "evidence": "commits per engineer 5x vs six months earlier",
+     "quote": "Code commits per engineer were 5x their rate of six months earlier.",
+     "market": "US (Anthropic)"
+    },
+    {
+     "claim": "Scorecard comments on creative AI use rose",
+     "evidence": "tripled technical, quadrupled non-technical, 2024-2026",
+     "quote": "tripled for technical roles and quadrupled for non-technical roles between 2024 and 2026",
+     "market": "US (Anthropic)"
+    }
+   ]
+  },
+  {
+   "path": "PromptMates Newsletter/2026-10-27-only-18-of-80-recruiting-tasks-are-human.md",
+   "newsletter": "PromptMates Newsletter",
+   "title": "Only 18 of 80 recruiting tasks are human",
+   "date": "2026-10-27",
+   "thread_id": "1a17de5b55c5c1cc",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a17de5b55c5c1cc",
+   "public_url": "https://promptmates.beehiiv.com/p/only-18-of-80-recruiting-tasks-are-human",
+   "sponsor_flag": "Juicebox (sponsored; 800M+ profiles, 3x replies are vendor claims)",
+   "points": [
+    {
+     "claim": "SocialTalent task map of recruiting work (via Glen Cathey RecFest recap)",
+     "evidence": "about 80 tasks: 30 automatable, 32 hybrid, 18 uniquely human",
+     "quote": "His team mapped about 80 recruiting tasks: 30 fully automatable, 32 hybrid and 18 uniquely human.",
+     "market": "US"
+    },
+    {
+     "claim": "Fake identity interviews (Checkr survey, secondary)",
+     "evidence": "40% of US hiring managers",
+     "quote": "In a survey by background-check provider Checkr, 40% of US hiring managers said they had interviewed someone using a fake identity.",
+     "market": "US"
+    },
+    {
+     "claim": "Zapier talent team build day (secondary, LinkedIn post)",
+     "evidence": "75% prep time cut for exec interview prep agent",
+     "quote": "an executive interview prep agent that cut her prep time by 75%",
+     "market": "US"
+    },
+    {
+     "claim": "Recruiter role framing",
+     "evidence": "automation owns the middle",
+     "quote": "Automation owns the middle. The talent advisor owns both ends.",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "PromptMates Newsletter/2026-11-03-why-an-anthropic-hiring-leader-dropped-coding-tests.md",
+   "newsletter": "PromptMates Newsletter",
+   "title": "Why an Anthropic hiring leader dropped coding tests",
+   "date": "2026-11-03",
+   "thread_id": "1a1a1b869bf5c2c2",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1a1b869bf5c2c2",
+   "public_url": "https://promptmates.beehiiv.com/p/why-anthropic-hiring-leader-dropped-coding-tests",
+   "sponsor_flag": "Juicebox (sponsored; vendor claims unverified)",
+   "points": [
+    {
+     "claim": "Anthropic hiring manager retired the traditional coding interview",
+     "evidence": "Felix Rieseberg, Anthropic",
+     "quote": "This month, I laid the traditional coding interview to rest",
+     "market": "US"
+    },
+    {
+     "claim": "EU pay transparency adoption (Revelio Labs, secondary)",
+     "evidence": "30% of EU ads show pay vs 2% in 2022; 7 of 27 countries have it in law; Poland about 5%",
+     "quote": "30% of EU job ads now show a salary range, up from 2% in 2022",
+     "market": "EU"
+    },
+    {
+     "claim": "Purchased hiring AI often not live (iCIMS/Kyle & Co., 500 leaders, vendor research)",
+     "evidence": "about half in production",
+     "quote": "the average organisation puts only about half its purchased AI into production",
+     "market": "global"
+    },
+    {
+     "claim": "Kit one-person team automated role launch",
+     "evidence": "30+ minutes manual per role across Slack, Ashby, Notion",
+     "quote": "30+ minutes of manual work across Slack, Ashby and Notion",
+     "market": "US"
+    }
+   ]
+  },
+  {
+   "path": "RecOps Collective/2026-10-22-week-of-october-19th-2026.md",
+   "newsletter": "RecOps Collective",
+   "title": "Week of October 19th, 2026",
+   "date": "2026-10-22",
+   "thread_id": "1a165e90c7d1f3ad",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a165e90c7d1f3ad",
+   "public_url": "https://recops.substack.com/p/week-of-october-19th-2026",
+   "sponsor_flag": "none (newsletter says sponsor-free)",
+   "points": [
+    {
+     "claim": "Newsletter is sponsor-free",
+     "evidence": "stated disclaimer",
+     "quote": "We are sponsor-free.",
+     "market": "global"
+    },
+    {
+     "claim": "Ashby shipped data retention, notetaker and audit log updates",
+     "evidence": "Audit logs for Enterprise",
+     "quote": "Audit logs for Enterprise",
+     "market": "global"
+    },
+    {
+     "claim": "Findem launched ReadySlate",
+     "evidence": "pay only for candidates you choose to meet",
+     "quote": "pay only for the people you choose to meet",
+     "market": "global"
+    },
+    {
+     "claim": "TeamTailor announced ISO 42001 certification",
+     "evidence": "ISO 42001",
+     "quote": "ISO 42001 certified",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "RecOps Collective/2026-10-29-week-of-october-26th-2026.md",
+   "newsletter": "RecOps Collective",
+   "title": "Week of October 26th, 2026",
+   "date": "2026-10-29",
+   "thread_id": "1a189ec4f89fdc7f",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a189ec4f89fdc7f",
+   "public_url": "https://recops.substack.com/p/week-of-october-26th-2026",
+   "sponsor_flag": "vendor-featured event (Sync2Hire) despite sponsor-free claim",
+   "points": [
+    {
+     "claim": "Sync2Hire is a hiring collaboration layer alongside the ATS",
+     "evidence": "integrates with iCIMS, Greenhouse, SuccessFactors, SmartRecruiters, Ashby",
+     "quote": "a collaboration layer that runs alongside your ATS",
+     "market": "global"
+    },
+    {
+     "claim": "Live vendor burn down event scheduled",
+     "evidence": "Tuesday 17 November, 1PM-2PM Eastern",
+     "quote": "Tuesday, November 17th",
+     "market": "US"
+    },
+    {
+     "claim": "Sync2Hire is early-stage and seeking design partners",
+     "evidence": "free product in exchange for feedback",
+     "quote": "they’re actively seeking design partners",
+     "market": "global"
+    },
+    {
+     "claim": "Ashby scheduling updates",
+     "evidence": "cancel and request a reschedule without rebuilding the interview",
+     "quote": "Cancel scheduling requests and request a reschedule in Ashby without deleting and rebuilding the interview",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "TA Unboxed/2026-10-23-how-to-see-what-s-going-wrong-with-your-hiring-funnel.md",
+   "newsletter": "TA Unboxed",
+   "title": "How to see what's going wrong with your hiring funnel",
+   "date": "2026-10-23",
+   "thread_id": "1a1679f06614dc55",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1679f06614dc55",
+   "public_url": "https://taunboxed.substack.com/p/how-to-see-whats-going-wrong-with",
+   "sponsor_flag": "Metaview fillmore (sponsored; named early users are vendor claims)",
+   "points": [
+    {
+     "claim": "Fluid Clock pilot should start small",
+     "evidence": "five to ten roles in one team",
+     "quote": "five to ten roles in one team",
+     "market": "global"
+    },
+    {
+     "claim": "Author's unverified estimate of requirement changes",
+     "evidence": "around 20% of roles",
+     "quote": "around 20% of roles see changes to requirements, skills, banding or even location",
+     "market": "global"
+    },
+    {
+     "claim": "Hiring manager feedback target example",
+     "evidence": "three working days",
+     "quote": "For similar roles, feedback has taken about three working days.",
+     "market": "global"
+    },
+    {
+     "claim": "Paused roles need both elapsed and active time",
+     "evidence": "record who authorised and why",
+     "quote": "A manager's slow response isn't a pause",
+     "market": "global"
+    }
+   ]
+  },
+  {
+   "path": "TA Unboxed/2026-10-27-candidate-fraud-i-think-we-re-looking-at-it-the-wrong-way.md",
+   "newsletter": "TA Unboxed",
+   "title": "Candidate fraud: I think we're looking at it the wrong way.",
+   "date": "2026-10-27",
+   "thread_id": "1a17c6e062bebfe0",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a17c6e062bebfe0",
+   "public_url": "https://taunboxed.substack.com/p/candidate-fraud-i-think-were-looking",
+   "sponsor_flag": "Pinpoint (sponsored)",
+   "points": [
+    {
+     "claim": "Three-category candidate fraud model",
+     "evidence": "Presentation, Misrepresentation, Fraud & Exploitation = Authenticity, Capability, Intent",
+     "quote": "Presentation. Misrepresentation. Fraud & Exploitation.",
+     "market": "global"
+    },
+    {
+     "claim": "Detecting deception does not prove intent",
+     "evidence": "author's argument",
+     "quote": "Detecting deception isn't the same as establishing malicious intent.",
+     "market": "global"
+    },
+    {
+     "claim": "Automated applications not necessarily fraud",
+     "evidence": "author's view",
+     "quote": "Someone applying to 100 jobs using automation isn’t necessarily being dishonest.",
+     "market": "global"
+    },
+    {
+     "claim": "OpenAI boardroom recording device case cited without source",
+     "evidence": "single unsourced reference",
+     "quote": "where a recording device was placed in the Exec boardroom",
+     "market": "US"
+    }
+   ]
+  },
+  {
+   "path": "TA Unboxed/2026-10-30-how-good-are-your-recruiters-at-spotting-talent.md",
+   "newsletter": "TA Unboxed",
+   "title": "How good are your recruiters at spotting talent?",
+   "date": "2026-10-30",
+   "thread_id": "1a18be13c49262ee",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a18be13c49262ee",
+   "public_url": "https://taunboxed.substack.com/p/how-good-are-your-recruiters-at-spotting",
+   "sponsor_flag": "Metaview fillmore (sponsored)",
+   "points": [
+    {
+     "claim": "Proposed Talent Recognition Rate metric (illustrative numbers, not real data)",
+     "evidence": "28 of 40 flagged before first interview = 70%",
+     "quote": "Their Early Talent Recognition Rate would be 70%.",
+     "market": "global"
+    },
+    {
+     "claim": "Hypothetical James vs Sarah comparison (illustrative)",
+     "evidence": "80 vs 40 Standout flags, both 75%",
+     "quote": "Sarah reached that result with half as many Standout flags",
+     "market": "global"
+    },
+    {
+     "claim": "Field renamed to Standout after team vote",
+     "evidence": "Endorsed to Standout, in Avature implementation",
+     "quote": "We landed on Standout.",
+     "market": "global"
+    },
+    {
+     "claim": "Date-stamp flags to prevent retrospective claims",
+     "evidence": "record date and stage",
+     "quote": "retrospectively claim they knew the candidate was brilliant from the beginning",
+     "market": "global"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Remade.md: Gmail search from remadebyleandro@substack.com after 2026/10/08 returned no threads; no new issue (last saved 2026-09-18).",
+  "Ashby Community: job listings section (12 roles) omitted from saved file; partner integrations condensed to one line each.",
+  "RecOps Collective 2026-10-22: lead content was an image (not in text body); link titles only, link targets stripped.",
+  "Full Stack Recruiter 2026-10-24: paywalled bonus section is only partly visible in email; saved condensed.",
+  "Data Driven Recruiter: two consecutive issues both numbered 84 (2026-10-28 and 2026-11-04); saved as received.",
+  "Gmail search results carry no dates; dates taken from get_thread date field (UTC).",
+  "Welcome/confirmation emails: none seen in results."
+ ]
+}

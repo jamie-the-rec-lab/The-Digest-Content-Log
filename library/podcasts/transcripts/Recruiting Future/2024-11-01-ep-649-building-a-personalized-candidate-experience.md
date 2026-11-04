@@ -1,0 +1,155 @@
+# Ep 649: Building A Personalized Candidate Experience
+
+- **Podcast:** Recruiting Future
+- **Channel:** Matt Alder
+- **Date:** 2024-11-01
+- **Duration:** 29:06
+- **URL:** https://www.youtube.com/watch?v=-9BqUK1JpHA
+- **Fetched:** 2026-08-07
+
+## Episode description
+
+Improving the candidate experience has been a perpetual goal in recruiting. Despite the best intentions, the improvement process's effectiveness still ebbs and flows with the changes in supply and demand in the labor market. However, are things finally about to change?
+
+
+
+
+
+
+Ever since the exponential acceleration in the development of AI, I've been excited about the possibility of technology delivering a genuinely personalized candidate experience at scale.
+
+
+
+
+
+
+So, what does this vision look like? Which elements are already possible, and what do TA leaders need to do to make it a reality?
+
+
+
+
+
+
+My guest this week is Don Tomlinson (https://www.linkedin.com/in/dontomlinson/) , CTO at Daxtra (https://www.daxtra.com) . In our conversation, Don gives us a refreshingly pragmatic view of the AI use cases that can combine to build a personalized candidate experience and highlights pitfalls and dangers to be aware of.
+
+
+
+
+
+
+In the interview, we discuss:
+
+
+
+
+
+  •  Using AI to diversify talent pools
+
+
+
+
+  •  Taking out the background noise
+
+
+
+
+  •  Personalizing the candidate's experience in real-time
+
+
+
+
+  •  Bespoke communication at scale
+
+
+
+
+  •  Automatically tailoring the hiring process to individual circumstances.
+
+
+
+
+  •  Transparency
+
+
+
+
+  •  The dangers of losing the human touch
+
+
+
+
+  •  Efficiencies, investment, and ROI
+
+
+
+
+  •  Build vs Buy, Core Vs Complementary
+
+
+
+
+  •  AI self-auditing to improve strategy and process
+
+
+
+
+  •  What will the future look like?
+
+
+
+
+
+
+
+
+
+Fol
+
+## Transcript
+
+Each paragraph starts with a timecode linking to that moment on YouTube.
+
+**[0:00](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=0s)** support for this podcast comes from Smart recruiters smart recruiters is your all-in-one platform for faster smarter hiring making recruiting easy and effortless smart recruiters are making some big changes revamping their user experience adding AI features and refreshing the UI I know from experience that they truly are a company that really values the recruiter and the practitioner they understand the intricacies of the recruiting business and this has always been reflected in their functionality and customer support so it's exciting to hear that they're making a bunch of updates if you're ready to be part of the future of talent acquisition head over to smartrecruiters.com and find out what they're up to trust me your team and your future hires will thank you there's been more of scientific discovery more of te technical advancement and material progress in your lifetime and mine and in all the ages of History hi there welcome to episode 648 of recruiting future with me Matt aler over the last few weeks many established software vendors have launched AI augmented products helping us move past the hype and get a much more Hands-On view of what AI means for T acquisition there is still a massive amount of
+
+**[1:33](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=93s)** unknowns but it is evident that AI is a chief Catalyst in what is now an Unstoppable transformation of ta and the broader Talent function Ai and automation fundamentally alter the speed and scale at which ta can operate constantly pushing the boundaries of what's possible so what does this mean for ta leaders and practitioners right now how prepared are organization for this level of transformation and how can ta raise its game to drive more value for the organization this week my guests are Dr sthy palis mundum Enterprise business architector Bosch and Nim unlu Global people and organizational lead at narus both interviews were recorded at smart recruiters hiring success event in Amsterdam in September sfy and Naim share insights that reveal why the transformation of talent acquisition is truly Unstoppable and how ta leaders can harness this momentum to not only keep Pace but to lead the way hi swy and welcome to the podcast thank you so much Matt for having me here it's an absolute pleasure to have you on the show please could you just introduce yourself and tell everyone what you do um so I am Dr STI Pala samudram and I work as an Enterprise business architect at Bosch and my responsibility is basically it
+
+**[2:57](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=177s)** strategy in nature and I get to work on a lot of cool topics so be it AI or be it gen AI or be it process automation or digitalization and stuff like that and I have around 10 plus years of experience um 12 to be really very very precise and 10 years of experience in HR domain and I have worked across the entire hrit uh landscape let's put it that way I started my journey with talent management and then I slowly moved on to Talent acquisition skills and being a business architect and uh yeah off lately I have the role of an Enterprise business architect so lots of stuff and as you say right across the the whole kind of HR function there how do you see Talent acquisition how how do you kind of break Talent acquisition down and see what it function is within within that sort of hole for me Talent acquisition is very very close to my heart why because I kind of uh set up the recruiting ecosystem at Bosch so I was part of the team that introduced our applicant tracking system so that is smart recruiters and then I bought on the candidate relationship management uh solution and then we also implemented AI for screening and sorting that is high at score one of the vendors that smart recruiters very closely is associated
+
+**[4:13](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=253s)** with so I am within my hire to retire journey I have a very uh soft spot for talent acquisition but I guess keeping uh my personal bias um aside what's very interesting is you need to have the right kind kind of people in the organization to be able to take the organization forward and for that uh I'm very much aware of the discussions that we are having in regards to uh process automation or AI or how it could be a game Cher but at the same time there is some kind of human element that is involved uh you cannot replace all of the jobs by AI so uh we need to have the right kind of people and for me these are the people that is going to define the strength of the organization that is going to help the organization realize its Mission or vision statement so they are very very instrumental uh and yeah it's the key for the Sexes both ways you know so I being part of the organization I also get to learn a lot uh and organization as well leverages on my skill set and what I bring to the table the human aspect is kind of really important I think we'll sort Circle back and and talk about that a little bit later but let's drill into that the AI part of it how is AI currently being used in tal acquisition what are you
+
+**[5:29](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=329s)** saying is use cases at the moment I actually did a very interesting exercise a couple of weeks ago where I wrote down on a piece of paper the end to endend hiring process and I said okay uh this is Step where we could automate this is the step where we could a introduce AI so this is an activity I did and after that I kind of resonated it with Business Leaders as well as stakeholders within the organization and somehow 90% of what I had written down is what the business is also asking so we can start with screening as well as sorting you know depending on uh the volume of candidates that you're kind of processing so uh organizations as well as recruiters will be very very happy to leverage on an AI solution to be able to sort that entire bunch of candidates that they get and once the algorithm is able to tell this is your top five or top six then comes a human element of wanting to interact with the person and trying to fit if this person matches what we are looking at from an organization perspective yeah so I guess we are not yet there uh within the talent acquisition space where we can leverage on large language models for you to mimic a human screening and then probably once we start working in this
+
+**[6:46](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=406s)** area it would be very interesting to compare the results of how a gen AI is kind of uh screening a profile versus how I as a recruiter would do it and then that's a different discussion altogether but since we are not there so I would say at least at the first step it's very interesting to let AI do it and then comes the human element of me wanting to talk to the candidate and trying to understand if he's a benit or not in your presentation earlier you're distinguishing between Automation and AI because um and you weren't the only person who pointed out this that that this morning that particularly in this sector they tend to just kind of mold into one and people talk about um talk about automation very often with technologies that have been around for five or 10 five or 10 years but tell us more about your sort of perspective on that there are a lot of um how do I say service providers and there is also technology that is in and around the area of automation but for me when I'm talking about automation I'm actually looking at more inbuilt features and functionalities within the system so here it's more in system intelligence and this can work on um venue leverage on the data that is already existing in
+
+**[7:52](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=472s)** the system yeah and this for me is actually a GameChanger because vendors are actually having solutions to support a particular problem proc and there is a lot of process related data that goes actually untapped you have candidate data you have job data but then there is process related data that's resulting of an interaction between the job and the candidate that could be as simple as you know the responses that the candidate gave in an interview or the feedback that the hiring team gave for a particular candidate or the questions that were asked from the interview and there is so much of analysis that you could do and you could feedback the loop to did you write your job description properly did you ask the right questions in an interview was did you evaluate so for me all of this is where you can leverage on you know AI to be able to give you the results and then automate certain processes in regards to Next Step or even Automation in regards to give insights to the hiring team so this is why I said in my presentation earlier as well that we interchangeably use process automation as well as Ai and then we have to make up our mind where are we going to use process Automation and where is AI you also talked about
+
+**[8:59](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=539s)** um Readiness in terms of where people are on this kind of on this kind of Journey and you did something I've not seen anyone do before which just kind of split that down geographically um just give us the some of the highlights of that about what some of the the sort of the key differences is are across different continents or how that works this was a very interesting slide and I guess I was discussing with a colleague of mine before I came down to the conference and I was asking uh that person what would be interesting for him to understand if somebody's talking about AI in Talent acquisition and it was basically his idea where he said it would be so interesting if he could have uh an overview of the Readiness from the world uh if they ready to leverage on AI or not and this was the initial discussion for me to put this thought up and then I did a lot of research and I did talk to a lot of customers that we are working with as well and it was very very clear that North America or the Americas is more open in regards to Advanced AI integration and here when we are talking about Advanced AI integration it's actually more on data because they have a very good recruiting ecosystem and they are able to connect
+
+**[10:05](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=605s)** the data create intelligence out of it and this is somehow baked into their processes as well as their Solutions this is what I actually mean by Advanced AI integration and the second point is also that they focus a lot on keywords like uh inclusion as well as diversity and so on and so forth sometimes when you as a recruiter is writing up a job description not necessarily that you know you have the right choice of words by which you would like to add and so on and so forth but then leveraging on AI and then saying that you know please make this job at description such a way that it uh talks to inclusion talks to the diverse Community then it picks up really good keywords to be very honest and this for me is very very evident in the Americas and then when you come to uh Europe we are still very very uh toying with the idea of whether we would like to have ai within our processes and it's more in the regards of being compl client you know being ethical and then we would like to look at the very obvious things of yes uh there is a match between the skills no there is no match between the skills and so on and so forth and then when you look at the Asia Pacific it's a total Game Changer
+
+**[11:13](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=673s)** because you have so many candidates that apply to the jobs and then in this regard they're okay that the machine takes over the basic screening they're okay that the machine is moving a candidate from status X to Y you know and when you look at uh news Zealand and Australia they also would like to play safe within the uh within the uh areas of compliance as well as ethical and they are having a dirth of skills so they're okay to have remote hiring and for that they need information in regards to with skill is available where and all of this is where they leverage either on AI or process automation or the different insights that are available in the market as such I find that fascinating in terms of just the the context that's kind of just setting that so as you say Asia just you know far too many applications to deal with um Europe very much about regulation so it's it's interesting that it's not kind of being applied as consistently as perhaps we think it is because of particularly things around the different candidate behaviors as well I think is really interesting I think let's talk a little bit more about um the the candidate side of things because you were kind of flagging up the the
+
+**[12:20](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=740s)** opportunity to give personalized candidate experiences which I think which is a a topic dear to my dear to my heart how do you see that working what is that I put this I put those topics uh on the agenda on purpose why because uh I just wanted to give to the audience of feeling that just because we talking about Ai and personalized uh sorry process automation doesn't mean that you remove uh the human as well as a personal experience of candidates you know and then two or three examples that I was thinking about was um I need to be able to write a motivation in regards to why I'm applying for this job and even if you look at smart recruiters the e- recruiting process yes when I'm applying for a job as an applicant towards the end I need to write a note to the hiring manager in regards to why I'm suitable for this job yeah so this was one interesting idea that when I was going through end to endend the process I was like oh how cool it would be that I as a candidate you know can get a proposal and for me this is the machine occum menting my um process or my abilities to be able to provide a proposal because at the end of the day it is me and as a candidate who's going to take a decision
+
+**[13:31](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=811s)** if I am going to keep the proposal for the system or I'm going to just override it yeah and the other personalized uh use case that I was thinking about was rejections yeah so every one of us have standard templates that you send irrespective of whether you're hiring a junior position middle management position or even a senior management position thank you so much for the interest and blah blah blah but then uh you actually have the data in the system like exactly in which Step he was rejected you know was it in review was it after an interview you know and all of this information is so useful that you can ask an AI to review this information and come up with a very personalized rejection email so I you know I'm always thinking I as a candidate when I know why I was rejected and give me some more insights into it it's so helpful for me the next time and all of these are the human elements you see it's always a combination of using the machine to be able to do something for you but at the end of the day it's the human touch that we are able to get and this is a very interesting thought which I don't think most of us are thinking in this direction it also kind of illustrates the uh you know the the
+
+**[14:38](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=878s)** kind of the journey that we're on and um how far a lot of organizations have have got to go to even be thinking in the right way to to deal with what's going on so I I suppose then as a as a kind of a final question what would your advice be to a talent acquisition leader who's looking at all of this and you know kind of wants to make these sort of changes um you know what what should they be focusing on to to to kind of make this happen and really get the full benefits of um the AI can bring yeah so first they have to invest in the right kind of infrastructure because it is money and the business should be ready to invest in it because when you have the right kind of infrastructure then you can realize your goals sooner than faster and you need to be able to see if you have the right people working on these tools to be able to get the intended results you know and sometimes these are some tough decisions that the talent acquisition leaders have to make so uh and they must be ready to make thank you so much for talking to me thank you Matt for the opportunity I really appreciate it hi nazim and welcome to the podcast hello hi Matt it's an absolute pleasure to have you on the show please could you
+
+**[15:47](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=947s)** introduce yourself and tell everyone what you do my name is Bim I work for nost Global in the HR role where that I'm leading the R&D Global accounts and supporting the Char transformation and as well as that I had like a 15 plus years of experience in the HR field which I did have work in the different part of the world and support in and out different part of the businesses uh so that the currently that I'm also like a focusing on that how to even prepare the HR function for the future and the implications of the AI and technology and of course that which is critical as well that how the employe experience look like for the future of course you were talking on stage at the hiring success event about this and about the sort of the questions that people need to ask around ta and HR transformation what do you think the the biggest challenges are when it comes to TA HR transformation at the moment when I started my HR career which was the roles were pretty H Char generalist type of rules that you were doing and you were following the policies and procedures and the client groups also expect you to follow the procedures and do the administration thing but now the currently how that whole function
+
+**[17:16](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=1036s)** Evol uh it is in a very interesting place if I must say because uh the value proposition unique selling proposition is not super clear um there's a big impact and there's a big disruption already happened by the technology in the meantime that if you think about all the business in globally how it's also disrupt with the technology uh it should also that need to balance and adjust with the current situation but uh however in the meantime uh HR colleagues are or ta colleagues which is in the same game having a super Fe of that how to adapt to technology how can get the support of Technology turned to be a muscle or critical capability that they can use for and it's not easy honestly when I met and chat with several Human Resources professionals all around the world everybody has this this questions about that okay what will the future look like how can we prepare ourselves technology is here but we even didn't realize yet that how that our rules going to change so it's not easy in terms of like that especially when you're are inside of the game and you know better than me about teolog and I met I think it is not like a super simple structure tell us more about what you think the potential that AI has for
+
+**[18:49](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=1129s)** for for ta and HR my experience and even that my even that research and discussion as well with the whole the tech providers I think there is a huge a big first of all opportunity is in the hands of HR and the TA function uh what is this it is the really that a clear administrative and data management perspective speed and if you think about any HR department and HR departments are heavily in the under corporate functions or general Administration where that Workforce or any kind of head count is always limited right because you're not generating money and you don't get enough any kind of resources but now that within the power of the AI and Technology we do have chance to even uh to get a support especially with the repetitive tasks and administrative tasks that we are really spending a lot of time and so again the question is that for $1 million level so what will you do when you have EX time so that you will create a real business value I think that's a good question that even that we need to we must ask ourselves on the HR function but what I believe which is also close to my heart and I did speak several times in many different platforms as well I like the democracy and which is a
+
+**[20:20](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=1220s)** interesting part of the humanistic style as well how can AI support the process of the human resources and that human resources can be more democratic and egal this is really that very critical where that we can I believe that to create the most uh significant value that nobody can replace uh because if you think about any TA process or any HR process let's talk about the promotion or that applying any role in outside there are tons of bias is over there right and the role of the TA leader is very critical that how can you really set the process super clean Democratic agal and also accessible and inclusive for everybody this is amazing role but when it comes to reality there always somebody can intervene with the networking references somebody's friend so what you had the value that you create as a a solution or an and an end results is not really really that to sound super satisfactory for all parties so what I believe the power of the usage of data AI technology with the right of course tools uh can make HR and ta function more human than ever and what I believe which is we never discussed this the power of ta tent acquisition function going to be really Incas with the power of the data uh heavily that
+
+**[22:02](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=1322s)** the companies are focusing on the talent management which is makes sense because the cost perspective if you invest more in talent management and promotion internally it increase the culture engagement and of course that you doesn't you don't need to have any kind of like extra cost for the uh head hunting or any kind of role finding but what is missing the real Market data and the ra the proposition of the real candidate can find a way even that they before joining the company which is again any strategic Future Part of UTA in my view going to be expand by the power of data uh which is connect with the skills because if you think about the skills management we discussing about the future skills but the skills are changing super rapid and very high in demand so you never even that being sure that what skills needed during even that you start the one tell acquisition process in three months it's changing as well very very hard so in this context how can you create a robust strong bridge between ta which is very good with the external Focus can feed the internal tum management by hiring the right fit candidate which can be again you know this te sh profiles right which is like interesting discussion uh
+
+**[23:33](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=1413s)** so that the TA value create a a strong robust uh a good efficiency in the whole Human Resources function I do believe that we going to be need to be focused more on the TA and hopefully that uh the ta uh leaders ta professionals has now more more strategic time for themselves uh and they will they are they use their real power which is empathy intuition and finding the right people for the right roles uh I'm very optimistic and I'm very positive about that uh and I'm thinking about as well that how can we will be even more more disruptive on the TA part so that it can change the value proposition uh unfortunately it is a bit like not the right value that even that on companies so far and and that's what I really loved about your presentation it was that optimistic sense that actually AI gives the opportunity for ta to prove its value and to give it that visibility in the business and be really really successful at delivering that kind of critical Talent strategy role so um yeah know 100% it was great to hear people talking like that as a kind of a final question there were there were lots of sort of takeaways from from your from your presentation and the in the interaction with the with the audience
+
+**[25:01](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=1501s)** what would be your sort of top takeaways what's the best advice you can give to teer leaders right now who are sort of starting to go through what's going to be a very disruptive transformational process for me really that the critical part is that learning continuously is pretty pretty critical for everybody by the way not only TA or HR or business uh that the the speed of the transformation because of the technology is really Unstoppable stoppable so you can't have a chance to organize a a slide deck and share with your clients that this is my change management strategy you need to rapidly pivot in terms of like that what is needs to be which is automatically coming in another discussion I think Jor bur is saying this very clearly HR ta needs to focus on that other than the solutions they need to focus on the problems to be solved in the business then there will be like a really proposition comes to be reality for the HR uh so for that learning continuously and asking the right questions is very critical um data literacy I'm sharing this every time in HR we are a bit like shy and have a fears where it comes to data and and in this context with the data AI our role in ta and HR is really
+
+**[26:34](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=1594s)** evolving like a a think about a orchestrator collaborator who can read the right data ins sites and create actionable results for the business so for this you need to not shy away to understand the HR analytics people analytics so please try to learn this um other part is that more being really uh embracing the change and of course that not forgetting about advocating for the people right during the my uh presentation I did ask questions which is one questions was like that what aspects of your job do you believe that AI cannot replace and and that was a super clear moment that all the da leaders they got this super clearly empathy human much emotions this is the real T and HR capabilities really that the AI and Tech cannot replace so which means that we need to be more more ever humanistic human Orient oriented uh for being that even being the more creative yeah these are like more takeaways I'm again as we discuss I'm very optimistic and I believe that if you have the right arguments uh in the right moment technology will really support the whole T andhr function possibly nazim thank you very much for talking to me my thanks to sfy and nazim you can follow this podcast on Apple podcasts on Spotify or wherever you get
+
+**[28:17](https://www.youtube.com/watch?v=-9BqUK1JpHA&t=1697s)** your podcasts you can search all the past episodes at recruiting future.com on that site you can also subscribe to our Weekly Newsletter recruiting future feast and get the inside track about everything that's coming up on the show thanks very much for listening I'll be back next time and I hope you'll join me this is my show a
+

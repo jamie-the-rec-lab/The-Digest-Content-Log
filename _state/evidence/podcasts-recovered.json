@@ -1,0 +1,126 @@
+[
+  {
+    "path": "library/podcasts/transcripts/Recruiting Future/2026-09-02-ep-822-how-to-win-investment-for-employer-branding.md",
+    "title": "Ep 822: How To Win Investment For Employer Branding",
+    "date": "2026-09-02",
+    "guest": "Stephen Quinn, CEO of Atomic (an insight-led agency working with employer brand leaders)",
+    "vendor_flag": "Guest is the CEO of the agency (Atomic) whose own diagnostic tool and client roster are discussed at length in the interview; treat metrics framework as vendor-sourced, not independently verified.",
+    "market": "not stated",
+    "angle": "Gives TA leaders sitting in employer brand a concrete stakeholder-metrics list (cost per qualified lead, decline reduction, referral rate, ROI) to take into a budget conversation.",
+    "points": [
+      {
+        "claim": "Stop reporting vanity content metrics to the CFO; they land badly and don't justify budget.",
+        "evidence": "example figures: 'X thousand likes and 4,000 views'",
+        "quote": "my LinkedIn campaign or my YouTube campaign delivered X thousand likes and 4,000 views",
+        "timecode": "11:12"
+      },
+      {
+        "claim": "Track five specific employer-brand metrics that actually resonate with finance: cost per qualified lead, time to hire, decline reduction, referral rates, and ROI of program investments.",
+        "evidence": "Atomic Diagnostic framework; named metrics: cost per qualified lead, time to hire, reduction in declines, referral rates, ROI of program investments",
+        "quote": "cost per qualified lead will be a classic one... Time to hire is fairly standard... reduction in declines",
+        "timecode": "12:18"
+      },
+      {
+        "claim": "Benchmark employer brand health against a structured scorecard before building a roadmap, not just launching campaigns.",
+        "evidence": "32 measures used in Atomic's client diagnostic, self-scored plus external analysis",
+        "quote": "we have 32 measures that we can score against",
+        "timecode": "14:59"
+      },
+      {
+        "claim": "Match the format of your business case to the audience: spreadsheets for finance, not slide decks.",
+        "evidence": "named functions: HR vs finance reporting preference",
+        "quote": "HR thinks in PowerPoints and finance think in spreadsheets",
+        "timecode": "14:59"
+      },
+      {
+        "claim": "Reduced employer-brand headcount is a widespread pattern worth naming to stakeholders when arguing for resource.",
+        "evidence": "described drop from five-to-seven person teams down to two",
+        "quote": "maybe there was five, six, seven people in a team, maybe they're down to two",
+        "timecode": "4:31"
+      }
+    ]
+  },
+  {
+    "path": "library/podcasts/transcripts/Building the Talent Machine/2026-09-01-episoe-046-the-ai-reckoning-in-hr-tech-w-george-larocque-brandon-jeffs.md",
+    "title": "Episoe 046: The AI Reckoning in HR Tech w/ George LaRocque & Brandon Jeffs",
+    "date": "2026-09-01",
+    "guest": "George LaRocque, founder and principal analyst of WorkTech (an HR tech advisory and market intelligence firm)",
+    "vendor_flag": "Guest is an independent analyst, not a vendor for a product being demoed; no product pitch present, but he does reference his own firm's research/pitchfest involvement, worth noting as a light bias.",
+    "market": "not stated",
+    "angle": "Warns TA leaders buying or piloting AI tools that pilot pricing is often subsidized and real costs could rise sharply, and flags the compliance risk of DIY vibe-coded HR tools at scale.",
+    "points": [
+      {
+        "claim": "Treat cheap AI tool pilots with caution: token costs for HR tech are currently subsidized by AI labs and may rise sharply once vendors need to recoup real costs.",
+        "evidence": "comparison: sales/go-to-market AI infrastructure can cost up to 10 times more than recruiting tech's historic cost base",
+        "quote": "built on the same infrastructure as say sales and go to market tech, which can be up to 10 times more expensive",
+        "timecode": "18:15"
+      },
+      {
+        "claim": "Building your own recruiting tools in Claude or similar can work for a solo recruiter or small team, but becomes risky once you operate across multiple locations or as a government contractor.",
+        "evidence": "named tools: Claude, Lovable",
+        "quote": "you can build something really cool in Claude or Lovable or what have you and get 80%",
+        "timecode": "23:02"
+      },
+      {
+        "claim": "Before buying a new point-solution AI tool, check your existing ATS or CRM roadmap first, since many gaps will be filled natively within a quarter or two.",
+        "evidence": "recommendation to check vendor roadmap timing: 'next quarter or two'",
+        "quote": "I would really listen to them about where they're headed in the next quarter or two",
+        "timecode": "25:04"
+      },
+      {
+        "claim": "The ATS market is expected to roughly double to two-and-a-half times in market cap within the next several years, meaning more vendor investment and choice is coming.",
+        "evidence": "figure: ATS market poised to grow about 2 to 2.5x in market cap in next 4 to 6 years",
+        "quote": "The ATS market is poised to grow about 2 to 2.5x in market cap in the next 4 to 6 years",
+        "timecode": "4:49"
+      },
+      {
+        "claim": "When picking new recruiting tech, talk to your peer network before buying, since referrals carry more real signal than vendor hype on LinkedIn.",
+        "evidence": "named channel: LinkedIn vendor commentary contrasted with peer referrals",
+        "quote": "talking to their network, talking who's doing what, what's working, what isn't",
+        "timecode": "33:58"
+      }
+    ]
+  },
+  {
+    "path": "library/podcasts/transcripts/Brainfood/2026-08-28-brainfood-live-on-air-ep404-in-conversation-with-john-vlastelica.md",
+    "title": "Brainfood Live On Air - Ep404 - In Conversation with John Vlastelica",
+    "date": "2026-08-28",
+    "guest": "John Vlastelica, founder of Recruiting Toolbox (recruiting consulting and training firm); former head of tech recruiting at Amazon and head of recruiting at Expedia",
+    "vendor_flag": "Not a product demo. Guest runs a consulting/training firm (Recruiting Toolbox) but is not selling a specific tool here; his frameworks (e.g. the five-level talent advisor model) are his own IP, promoted partly to drive attendance at a paid conference (Recfest Nashville) where he says the full framework will be shared.",
+    "market": "not stated",
+    "angle": "Gives TA leaders a concrete self-assessment ladder (level 1 to 5 talent advisor) and a language for defending headcount and inefficiency to finance during budget season, both usable this week.",
+    "points": [
+      {
+        "claim": "Use the five-level talent-advisor framework to place yourself and your recruiters and plan what to level up next, from basic intake-taking to shaping org strategy.",
+        "evidence": "named levels 1 through 5, with level 5 estimated at fewer than 1 in 50 recruiters",
+        "quote": "I would bet less than one in 50 recruiters will ever get to this point",
+        "timecode": "13:16"
+      },
+      {
+        "claim": "Roughly a quarter of corporate recruiters currently operate as true talent advisors, so most TA teams have real room to grow into the role.",
+        "evidence": "guest's own estimate: 25%",
+        "quote": "maybe 25% of corporate recruiters are operating as talent advisors",
+        "timecode": "30:30",
+        "note": "guest caveats this as a rough, possibly generous estimate, not a survey figure"
+      },
+      {
+        "claim": "Going into budget season, be ready to argue that AI doubling recruiter productivity does not simply mean halving the team, because high-touch inefficient work for hard-to-fill roles is a feature, not a bug.",
+        "evidence": "direct guidance for budget season conversations with finance",
+        "quote": "we have to be able to explain inefficiency as a feature not a bug",
+        "timecode": "52:02"
+      },
+      {
+        "claim": "One client's in-house TA function has been cut through 14 waves of layoffs, from 700 people down to a skeleton team, illustrating how far TA headcount has fallen at some large companies.",
+        "evidence": "figures: 700 people down to roughly two, across 14 waves of layoffs",
+        "quote": "one client who had 700 people in their corporate TA function that is down to two something right now",
+        "timecode": "33:30"
+      },
+      {
+        "claim": "Interviewing 10 candidates to fill a $60,000-a-year role is a concrete, quotable example of funnel waste to bring to hiring managers as a business case for change.",
+        "evidence": "figures: 10 candidate interviews, $60,000 salary role",
+        "quote": "someone had to interview 10 candidates to fill a $60,000 a year job",
+        "timecode": "25:00"
+      }
+    ]
+  }
+]

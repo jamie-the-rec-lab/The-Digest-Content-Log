@@ -1,0 +1,69 @@
+{"at": "2026-11-04T18:56:09", "kind": "fetch", "source": "Brainfood", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:56:29", "kind": "fetch", "source": "10x Recruiting", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:56:33", "kind": "fetch", "source": "Brainfood", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:56:36", "kind": "fetch", "source": "Building the Talent Machine", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:56:39", "kind": "fetch", "source": "Offer Accepted", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:56:43", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/PromptMates/2026-11-02-how-to-automate-hiring-launches-claude-slack.md"}
+{"at": "2026-11-04T18:56:45", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/PromptMates/2026-10-29-build-an-ai-chief-of-staff-with-claude-and-obsidian.md"}
+{"at": "2026-11-04T18:56:46", "kind": "fetch", "source": "PromptMates", "outcome": "ok", "saved": 2, "skipped": 8, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:56:51", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/PromptMates/2026-10-29-ai-for-people-operations.md"}
+{"at": "2026-11-04T18:56:55", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/PromptMates/2026-10-21-talent-engineering-sourcing-frameworks.md"}
+{"at": "2026-11-04T18:56:59", "kind": "transcript_failed", "source": "PromptMates", "title": "Grok Bot for Recruiters", "id": "UyOLQ6KKXs4", "detail": "no_captions: No transcript available for video UyOLQ6KKXs4", "permanent": false}
+{"at": "2026-11-04T18:56:59", "kind": "fetch", "source": "PromptMates", "outcome": "ok", "saved": 2, "skipped": 5, "failed": 1, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:57:07", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Recruiting Future/2026-10-26-ep-833-deciding-what-not-to-automate-in-hiring.md"}
+{"at": "2026-11-04T18:57:10", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Recruiting Future/2026-10-22-round-up-september-2026.md"}
+{"at": "2026-11-04T18:57:15", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Recruiting Future/2026-10-14-recruiting-future-round-up-live.md"}
+{"at": "2026-11-04T18:57:16", "kind": "fetch", "source": "Recruiting Future", "outcome": "ok", "saved": 3, "skipped": 7, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:57:20", "kind": "fetch", "source": "Recruiting Roadshow", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:57:23", "kind": "fetch", "source": "The Debrief", "outcome": "ok", "saved": 0, "skipped": 9, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:57:30", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI & I/2026-11-04-the-inside-story-of-the-50-who-built-modern-ai-with-kevin-roose.md"}
+{"at": "2026-11-04T18:57:32", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI & I/2026-10-29-can-you-use-ai-to-make-good-art-with-fred-graver.md"}
+{"at": "2026-11-04T18:57:35", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI & I/2026-10-21-how-to-actually-keep-your-company-ahead-of-ai.md"}
+{"at": "2026-11-04T18:57:36", "kind": "fetch", "source": "AI & I", "outcome": "ok", "saved": 3, "skipped": 7, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:57:40", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-11-02-the-ai-chief-of-staff-that-this-figma-pm-uses-all-day.md"}
+{"at": "2026-11-04T18:57:43", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-10-28-i-tested-4-ai-agents-on-9-real-tasks-heres-who-won.md"}
+{"at": "2026-11-04T18:57:45", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-10-26-how-reddits-designers-build-ultra-realistic-prototypes-with-figma-cursor.md"}
+{"at": "2026-11-04T18:57:47", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-10-21-i-tested-claude-duet-is-it-worth-switching-from-grok-bot.md"}
+{"at": "2026-11-04T18:57:49", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-10-19-claude-code-for-creators-ai-editing-is-here.md"}
+{"at": "2026-11-04T18:57:50", "kind": "fetch", "source": "How I AI", "outcome": "ok", "saved": 5, "skipped": 5, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:57:54", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/Lenny's Podcast/2026-11-01-a-ugc-masterclass-from-the-22-year-old-who-built-wispr-flows-growth-machine-hect.md"}
+{"at": "2026-11-04T18:57:56", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/Lenny's Podcast/2026-10-25-an-86-minute-guide-to-finding-pmf-rob-snyder-author-the-power-of-pull.md"}
+{"at": "2026-11-04T18:57:58", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/Lenny's Podcast/2026-10-18-inside-the-black-box-of-ai-how-ai-models-actually-think-emmanuel-ameisen-anthrop.md"}
+{"at": "2026-11-04T18:58:00", "kind": "fetch", "source": "Lenny's Podcast", "outcome": "ok", "saved": 3, "skipped": 7, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:58:06", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI For Humans/2026-10-30-ai-is-moving-too-fast-two-new-models-in-two-weeks.md"}
+{"at": "2026-11-04T18:58:09", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI For Humans/2026-10-23-ai-just-broke-the-internet-for-real-this-time.md"}
+{"at": "2026-11-04T18:58:11", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI For Humans/2026-10-20-ai-fact-checks-elons-flying-roadster.md"}
+{"at": "2026-11-04T18:58:13", "kind": "fetch", "source": "AI For Humans", "outcome": "ok", "saved": 3, "skipped": 6, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-04T18:58:33", "kind": "index", "collection": "reports", "items": 84, "missing": 0, "blocks": 2, "warnings": []}
+{"at": "2026-11-04T18:58:48", "kind": "index", "collection": "reports", "items": 84, "missing": 0, "blocks": 2, "warnings": []}
+{"at": "2026-11-04T19:00:25", "kind": "index", "collection": "newsletters", "items": 79, "missing": 0, "blocks": 0, "warnings": ["unknown tag 'intake' in 2 file(s), e.g. Data Driven Recruiter/2026-10-21-ddr83-are-recruiters-ruining-forward-deployed-engineering.md"]}
+{"at": "2026-11-04T19:00:29", "kind": "index", "collection": "newsletters", "items": 79, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:00:36", "kind": "index", "collection": "news", "items": 12, "missing": 0, "blocks": 1, "warnings": []}
+{"at": "2026-11-04T19:01:39", "kind": "index", "collection": "newsletters", "items": 79, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:07:37", "kind": "index", "collection": "podcasts", "items": 753, "missing": 15, "blocks": 150, "warnings": []}
+{"at": "2026-11-04T19:07:37", "kind": "index", "collection": "tech", "items": 244, "missing": 14, "blocks": 70, "warnings": []}
+{"at": "2026-11-04T19:12:37", "kind": "index", "collection": "podcasts", "items": 753, "missing": 0, "blocks": 165, "warnings": []}
+{"at": "2026-11-04T19:12:37", "kind": "index", "collection": "tech", "items": 244, "missing": 0, "blocks": 84, "warnings": []}
+{"at": "2026-11-04T19:13:16", "kind": "index", "collection": "newsletters", "items": 79, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:13:16", "kind": "index", "collection": "reports", "items": 84, "missing": 0, "blocks": 2, "warnings": []}
+{"at": "2026-11-04T19:13:16", "kind": "index", "collection": "news", "items": 12, "missing": 0, "blocks": 1, "warnings": []}
+{"at": "2026-11-04T19:13:16", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:19:19", "kind": "index", "collection": "podcasts", "items": 753, "missing": 0, "blocks": 165, "warnings": []}
+{"at": "2026-11-04T19:19:20", "kind": "index", "collection": "tech", "items": 244, "missing": 0, "blocks": 84, "warnings": []}
+{"at": "2026-11-04T19:19:20", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:19:20", "kind": "index", "collection": "newsletters", "items": 79, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:19:20", "kind": "index", "collection": "reports", "items": 84, "missing": 0, "blocks": 2, "warnings": []}
+{"at": "2026-11-04T19:19:20", "kind": "index", "collection": "news", "items": 12, "missing": 0, "blocks": 1, "warnings": []}
+{"at": "2026-11-04T19:19:42", "kind": "index", "collection": "podcasts", "items": 753, "missing": 0, "blocks": 165, "warnings": []}
+{"at": "2026-11-04T19:19:42", "kind": "index", "collection": "tech", "items": 244, "missing": 0, "blocks": 84, "warnings": []}
+{"at": "2026-11-04T19:19:42", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:19:42", "kind": "index", "collection": "newsletters", "items": 79, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:19:42", "kind": "index", "collection": "reports", "items": 84, "missing": 0, "blocks": 2, "warnings": []}
+{"at": "2026-11-04T19:19:42", "kind": "index", "collection": "news", "items": 12, "missing": 0, "blocks": 1, "warnings": []}
+{"at": "2026-11-04T19:24:57", "kind": "index", "collection": "podcasts", "items": 753, "missing": 0, "blocks": 165, "warnings": []}
+{"at": "2026-11-04T19:28:07", "kind": "index", "collection": "podcasts", "items": 753, "missing": 0, "blocks": 165, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "tech", "items": 244, "missing": 0, "blocks": 84, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "newsletters", "items": 79, "missing": 0, "blocks": 0, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "reports", "items": 84, "missing": 0, "blocks": 2, "warnings": []}
+{"at": "2026-11-04T19:28:08", "kind": "index", "collection": "news", "items": 12, "missing": 0, "blocks": 1, "warnings": []}

@@ -1,0 +1,150 @@
+{
+ "run_date": "2026-11-04",
+ "items": [
+  {
+   "path": "library/podcasts/transcripts/Recruiting Future/2026-10-26-ep-833-deciding-what-not-to-automate-in-hiring.md",
+   "show": "Recruiting Future",
+   "title": "Deciding What Not To Automate In Hiring",
+   "date": "2026-10-26",
+   "url": "https://www.youtube.com/watch?v=XOoGEMQHDCQ",
+   "guest_line": "Rob Devlin · Founder and Principal @ Devlin Talent",
+   "vendor_flag": "Guest is a TA transformation consultant (sells advice, not a product). The Maki sponsor read in the intro is unrelated to the guest. His six-lens framework is self-described as one he is 'starting to develop'.",
+   "reader_fit": "Yes for a UK in-house TA lead or agency owner: a six-question checklist for deciding where AI belongs, plus the intake-call automation as a safe first project. Light on numbers.",
+   "points": [
+    {
+     "claim": "Interrogate and simplify the process before buying AI, because AI will not fix a broken one.",
+     "evidence": "Devlin wrote an article on the theme; says AI needs written down, well-defined processes",
+     "quote": "AI works best when you've got a really good set of processes that are written down, well-defined",
+     "timecode": "5:51"
+    },
+    {
+     "claim": "Intake call is a low-risk first AI use case: record, transcribe, prompt-check the notes, push structured notes into the ATS.",
+     "evidence": "Scheduling automated from the ATS workflow; transcript run through a prompt to check coverage and flag things that should not have been said",
+     "quote": "you can often take the notes from that transcript and run it through a prompt to help identify did we discuss everything we need to discuss?",
+     "timecode": "8:11"
+    },
+    {
+     "claim": "Human in the loop can still be dehumanising if the recruiter only validates; human agency means applying judgment and context.",
+     "evidence": "Example: AI picks the candidate who most resembles historical success, a human asks whether that is what is needed",
+     "quote": "an organization could technically have a human approve every AI recommendation and still have a really dehumanizing system",
+     "timecode": "10:06"
+    },
+    {
+     "claim": "Six lenses for each automation decision: humane, efficacious, distributed (who gets the value), viable (is the organisation ready), adaptive, steerable.",
+     "evidence": "Hypothetical used to illustrate 'distributed': a 30% productivity gain, who gets the 30%? Not a measured result.",
+     "quote": "if the AI generates a 30% productivity improvement, who gets the 30%?",
+     "timecode": "13:40"
+    },
+    {
+     "claim": "Map the most valuable human conversation in each of the four stages (intake, sourcing and application, assessment, offer and onboarding) and ask recruiters where they can differentiate.",
+     "evidence": "Four signature processes named by Devlin; recruiters 'have the answer'",
+     "quote": "where are the most valuable human conversations in each of those four stages?",
+     "timecode": "18:16"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md",
+   "show": "Recruiting Future",
+   "title": "Six Predictions For AI In HR",
+   "date": "2026-10-30",
+   "url": "https://www.youtube.com/watch?v=B17AWzJYUW0",
+   "guest_line": "Vik Kohli · Head of AI Transformation and People Strategy, and Chief of Staff to the Chief People Officer @ Cloudflare",
+   "vendor_flag": "No vendor conflict: Kohli is an in-house practitioner at Cloudflare (an AI infrastructure and cybersecurity company), not selling HR tech. The six items are his own 2027 predictions and he says himself 'let's see by this time next year if I'm right'. Maki sponsor read is unrelated.",
+   "reader_fit": "Partly. Useful for a TA leader being asked about AI business cases, headcount planning and assessment design; the build-your-own and agent-ownership points matter more to larger in-house teams than to small agencies.",
+   "points": [
+    {
+     "claim": "HR teams now own agents built by people who have left, so they need an owner and a lifecycle for each one.",
+     "evidence": "Kohli's example from Cloudflare; basis for predicting a VP of internal AI and product development in HR",
+     "quote": "We are now working and managing agents of people who are no longer at our company.",
+     "timecode": "8:51"
+    },
+    {
+     "claim": "Judge AI on more than time saved: efficiency, scale, quality, experience, risk mitigation, then translate any of them to financial impact.",
+     "evidence": "Compares with HRIS spend, where nobody asks the ROI of Workday",
+     "quote": "there are six or seven different dimensions of value that I always talk about. One is efficiency, which is just time.",
+     "timecode": "11:51"
+    },
+    {
+     "claim": "If AI makes people faster they get more work, so staff may hide their AI use; measure attention load, not only output.",
+     "evidence": "Kohli calls this his most controversial prediction",
+     "quote": "If you can do more work with AI, then you will get more work to do.",
+     "timecode": "15:12"
+    },
+    {
+     "claim": "Start from the work to be done, not the headcount; agents still need a person to build and maintain them.",
+     "evidence": "Agents treated as products with a limit on how many one person can manage",
+     "quote": "Even if an agent can do the work, somebody needs to be responsible or somebody needs to build the agent, maintain the agent that does that work. That's still headcount",
+     "timecode": "18:13"
+    },
+    {
+     "claim": "Assess judgment with a small live project because candidate and employer AI are talking to each other.",
+     "evidence": "Kohli concedes it may not be the best option",
+     "quote": "Give them a project in the moment. The project is small, but at least finding ways to assess capabilities live will be a natural default.",
+     "timecode": "20:48"
+    },
+    {
+     "claim": "Three skills to become an internal product leader: distil process into documentation, know what AI is good for, and product judgement.",
+     "evidence": "Assistant, automation and agent among the types of AI he separates; a third category is garbled in the captions",
+     "quote": "the first thing is helping people to distill process, right, into documentation.",
+     "timecode": "22:31"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/Recruiting Future/2026-11-03-ep-835-how-ai-is-reshaping-work-and-hiring.md",
+   "show": "Recruiting Future",
+   "title": "How AI Is Reshaping Work And Hiring",
+   "date": "2026-11-03",
+   "url": "https://www.youtube.com/watch?v=ho8pVkZJA24",
+   "guest_line": "none (four Unleash Paris interviews: Mervyn Dinnin, analyst; a SmartRecruiters executive whose name is unclear in the captions; Ronni Zahavi, Co-founder and CEO @ Hibob; Dilek Brosh, Co-founder and CEO @ Glimpse)",
+   "vendor_flag": "Three of the four interviewees sell HR technology (SmartRecruiters, Hibob, Glimpse), which the host notes: 'they obviously also have a stake in the future they're describing'. Glimpse's results are the company's own, with no named client or independent validation. Salesforce 10% figure is the Hibob CEO's hypothetical.",
+   "reader_fit": "Limited. Useful as a sense of vendor narrative at Unleash and one assessment-design idea; most claims are opinion from people with a product to sell, so treat as signal about where vendors are pitching rather than evidence.",
+   "points": [
+    {
+     "claim": "A SmartRecruiters executive predicts an independent TA organisation becomes less viable as talent supply merges internal mobility, external hiring and agents.",
+     "evidence": "Self-labelled 'non-sanctioned', her own opinion, not company position",
+     "quote": "I think that we are entering a phase where the idea of an independent talent acquisition organization starts to become less and less viable.",
+     "timecode": "5:19"
+    },
+    {
+     "claim": "Same guest: hires will be brought into the company for a series of projects rather than into a single role.",
+     "evidence": "Stated with hedged timing ('probably not 18 months. Maybe it's or maybe it will be, who knows')",
+     "quote": "I'm not bringing them into a role so much anymore in the future.",
+     "timecode": "8:07"
+    },
+    {
+     "claim": "Hibob's CEO says new agents are given human names and appear on org charts, creating a need to onboard, govern and review them.",
+     "evidence": "Observation from Hibob's customer base; first agents were named after trees",
+     "quote": "they all get human names",
+     "timecode": "20:30"
+    },
+    {
+     "claim": "Hibob's CEO hypothesises a rebuilt Salesforce would need a tenth of its people.",
+     "evidence": "Stated as a hypothetical; 75,000 employees quoted by him, not verified",
+     "quote": "most likely they would need 10% of of the amount of people",
+     "timecode": "21:32"
+    },
+    {
+     "claim": "Glimpse assesses via a 45-minute set of short online games that add frustration or load and measure changes, placed near the top of the funnel.",
+     "evidence": "Vendor claim: one client splits candidates into six categories by likelihood of completing a 3-year programme; another sees a group that learns five times as fast. No client named.",
+     "quote": "we basically have a 45-minute set of very short online games, tasks we call them",
+     "timecode": "25:26"
+    },
+    {
+     "claim": "Mervyn Dinnin says the what's-human-what's-AI debate is not being had properly at the event.",
+     "evidence": "Opinion from an analyst, not a measured finding",
+     "quote": "we're not properly having the what's human, what's AI debate.",
+     "timecode": "2:42"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Ep835: SmartRecruiters interviewee's name is garbled in the captions (rendered as Bailey, Alin, Lynn, Elaine); surname and title not established, so left unnamed.",
+  "Ep835: guest spellings (Mervyn Dinnin, Ronni Zahavi, Dilek Brosh) come from the host's spoken introduction in the captions; the episode description is blank so they could not be cross-checked.",
+  "Ep834: one of the four AI types Kohli lists is garbled in the captions; recorded as applications only tentatively in the summary text.",
+  "Ep835: Salesforce 75,000 headcount, SAP/TechWolf acquisition and Glimpse client results are guest statements, not verified.",
+  "Ep833/834/835: transcripts contain a Maki sponsor read in the intro; excluded from key points."
+ ]
+}

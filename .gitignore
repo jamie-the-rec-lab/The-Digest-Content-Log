@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.pyc
+# Scratch space a run may use; never part of the record
+_state/tmp/
+# Laptop-era holding pen; git history replaces it
+_to_delete/
+# Local secrets, should never exist here
+.env
+.env.*
