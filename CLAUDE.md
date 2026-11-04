@@ -51,8 +51,10 @@ transcripts. The fact-check runs on the strongest model available.
   and never merge, close or replace a review pull request without his say-so.
 - **The weekly run never touches Resend and never emails anyone but Jamie.**
   Sending the newsletter is a separate step that only happens in a session
-  Jamie starts and approves (see "Sending the newsletter" below). The scheduled
-  task has no Resend connector, so the weekly run cannot send even by mistake.
+  Jamie starts and approves (see "Sending the newsletter" below). The Resend
+  connector may be attached to the scheduled task: being able to send is not
+  permission to send. The weekly run never calls any Resend tool, for any
+  reason, including to "check" or "draft" something.
 - **Never invent a number, title, date, guest or company.** A recorded gap is fine.
 - **Nothing is proposed with an unresolved fact-check mismatch.**
 - **Never use a browser.** Fetching pages and feeds is fine and expected; driving
