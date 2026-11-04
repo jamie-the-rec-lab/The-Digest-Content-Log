@@ -107,9 +107,9 @@ In order:
 6. **Propose.** Swap the newsletter links to public ones, push to the site's
    `digest-review` branch and open a pull request. Vercel builds a preview in a
    couple of minutes; Jamie's merge puts it live. The edition line on the page reads
-   `Version <N> (<Wednesday date>)`, using the Wednesday the job runs, written out
-   in full, e.g. `26th August 2026`. The 8 week freshness window and the date in
-   the page title both end on that same Wednesday.
+   `Version <N> (<Monday date>)`, using the Monday after the Sunday run, written
+   out in full, e.g. `16th November 2026`. The page title uses the same Monday.
+   The 8 week freshness window ends on the run date itself, not the Monday.
 7. **Record it.** Bump the edition number, log every item featured so it never
    appears again, save a permanent copy of exactly what was proposed. Next week's
    run checks whether it was merged and undoes the record if not (`PUBLISH.md`

@@ -11,9 +11,17 @@ the run state (`_state/`). The website lives in a second repo,
 ## The weekly run
 
 **Run day: Sunday afternoon** (since November 2026; it used to be Wednesday).
-Wherever the documents say "the Wednesday the job runs" or "this Wednesday",
-read it as **the date of this run**: the edition line, the page title date and
-the end of the 8 week window all use today's date.
+Two dates, and they are different on purpose (Jamie's call, November 2026):
+
+- **The edition date is the Monday after the run.** The edition line reads
+  `Version <N> (<Monday date>)`, e.g. `Version 9 (16th November 2026)` for a run
+  on Sunday 15 November, and the page title uses the same Monday. Readers get it
+  in the new week, so it is dated for the new week.
+- **The 8 week freshness window ends on the run date itself**, never the Monday:
+  nothing can be selected from a day that has not happened yet.
+
+Wherever the documents say "the Wednesday the job runs", read the edition date
+as the Monday after the run and the window end as the run date.
 
 Start with `docs/RUN.md`, the map of the whole job, then follow it, reading the
 document each phase points you at when you reach it. Read `docs/TOKEN_RULES.md`

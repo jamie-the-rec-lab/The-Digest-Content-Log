@@ -102,10 +102,11 @@ Version 3 (26th August 2026)
 ```
 
 The number is the last edition plus one, read from `digest/version.txt`. If
-that file is missing, treat the last edition as 0. The date is the Wednesday
-this run happens, written with an ordinal and the full month.
+that file is missing, treat the last edition as 0. The date is **the Monday
+after the run** (the run is on Sunday), written with an ordinal and the full
+month. Note this is not the run date: see `CLAUDE.md`.
 
-Also replace the date in the page title, same Wednesday.
+Also replace the date in the page title, same Monday.
 
 **The standouts block.** Write the "This week in the world of recruiting" preview, or delete both its
 lines on a thin week. Keep the heading exactly as it ships. Then fill the rows

@@ -11,6 +11,7 @@ Format: date, what changed, why.
 
 ## 2026-11-04
 
+- 2026-11-04, edition date is now the Monday after the Sunday run (Jamie's call), in the edition line and page title. The 8 week window still ends on the run date. Changed in `CLAUDE.md`, `PUBLISH.md` step 3 and `RUN.md`. Not applied to Version 8 (PR #6, dated 4th November).
 - 2026-11-04, run day moved to Sunday 14:20 UK (Jamie's call). `CLAUDE.md` says to read every "Wednesday" in the docs as the run date; `config.yaml` records the day and time.
 - 2026-11-04, fixes from the first cloud dry run: `health_report.py` now speaks the review flow (preview link, pull request link, "ready for review, not live", last week's edition still waiting, DRY RUN labels) instead of "live for your review" and Cowork chat. `PUBLISH.md` step 7 checks the review branch really changes `digest/index.html` before and after pushing, because the dry run's first push went up identical to `main`. Offer Accepted's undated Loop Earplugs episode dated 3 Nov 2026 from the show's official feed and renamed, so selection can see it.
 - 2026-11-04, `config/sources.yaml`: added Gem Newsletter (Jamie's call), with a new optional `search` line so only issues sent as "Gem Newsletter" are collected, not Gem's webinar and promo emails from the same address. `REFRESH.md` reads the `search` line. Its "View in browser" link is a personal tracking link and is never published.
