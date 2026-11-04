@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "path": "library/newsletters/transcripts/Ashby Community/2026-08-27-your-talent-insights-from-ashby-this-month.md",
+      "title": "Your Talent Insights from Ashby This Month",
+      "date": "2026-08-27",
+      "public_url": "not found",
+      "sponsor_flag": "Yes - the headline report ('Recruiter Productivity 2026') is Ashby's own product/dataset, and the newsletter is Ashby's own community newsletter promoting its product updates. Treat the applications-per-hire and offer-conversion figures as Ashby's own data, not independent research.",
+      "points": [
+        {
+          "claim": "Applications per hire have nearly tripled since 2021, and interview rates have roughly halved, which recruiters can cite when justifying screening headcount or AI-assisted triage to stakeholders.",
+          "evidence": "Applications per hire rose from 100 (2021) to 291 (2026); interview rate fell ~50%",
+          "quote": "applications per hire increased from 100 in 2021 to an average of 291 today, the share of candidates receiving an interview fell by about 50%",
+          "market": "not stated",
+          "paywall": "no - full report free to read on Ashby's site (per newsletter); not independently verified here"
+        },
+        {
+          "claim": "Offer conversion rates recruiters could benchmark against: business roles convert nearly 50% better than technical roles.",
+          "evidence": "Q1 2026 offer conversion: 10.4% business roles, 7.3% technical roles",
+          "quote": "offer conversion reached 10.4% for business roles and 7.3% for technical roles",
+          "market": "not stated",
+          "paywall": "no"
+        },
+        {
+          "claim": "AI use is already bleeding across job functions at HR-specific rates recruiters could quote when discussing AI adoption internally.",
+          "evidence": "OpenAI report: 43.5% of occupation-specific ChatGPT use crosses into other jobs' tasks, rising to 69% for HR",
+          "quote": "43.5% of occupation-specific ChatGPT use crosses into tasks associated with other jobs, rising to 69% for HR",
+          "market": "global",
+          "paywall": "not stated (OpenAI report link not given in file)"
+        },
+        {
+          "claim": "A recruiting leader argues take-home assessments should now test how candidates use AI, not whether they can avoid it - a reframe TA could apply to their own assessment design this week.",
+          "evidence": "Chris Abbass, CEO of Talentful",
+          "quote": "assessments should focus on how candidates use AI - framing problems, challenging outputs, catching mistakes, explaining decisions",
+          "market": "not stated",
+          "paywall": "not stated"
+        }
+      ]
+    },
+    {
+      "path": "library/newsletters/transcripts/Full Stack Recruiter/2026-08-27-the-future-of-recruiting-talent-advisor-vs-talent-engineer.md",
+      "title": "The Future of Recruiting: Talent Advisor vs. Talent Engineer",
+      "date": "2026-08-27",
+      "public_url": "https://newsletter.fullstackrecruiter.net/p/future-of-recruiting-talent-advisor-vs-talent-engineer",
+      "sponsor_flag": "No sponsor slot noted; figures are cited from third-party academic/field studies (Microsoft, MIT researchers, BCG), not the newsletter's own product.",
+      "points": [
+        {
+          "claim": "AI tools cut individual admin work (email) but do not yet reduce meeting time, useful for setting realistic expectations with stakeholders about where AI actually saves hours.",
+          "evidence": "Microsoft study of 6,000 knowledge workers, 6-month randomized field experiment",
+          "quote": "spent 3 fewer hours on email each week, while meeting time did not change in a meaningful way",
+          "market": "not stated",
+          "paywall": "not stated"
+        },
+        {
+          "claim": "AI tools disproportionately help less-skilled workers, a number recruiters could use to justify rolling out AI tools team-wide rather than only to senior staff.",
+          "evidence": "Study of 5,179 customer support agents (Brynjolfsson, Li, Raymond)",
+          "quote": "Productivity rose 14% on average, while productivity among novice and lower-skilled workers improved by 34%",
+          "market": "not stated",
+          "paywall": "not stated"
+        },
+        {
+          "claim": "AI speeds up in-scope tasks dramatically but actively hurts accuracy on out-of-scope tasks - a caution for recruiters trusting AI outputs blindly.",
+          "evidence": "Field experiment, 758 Boston Consulting Group consultants, 18 tasks",
+          "quote": "completed 12.2% more tasks and worked 25.1% faster, with quality scores more than 40% higher",
+          "market": "not stated",
+          "paywall": "not stated"
+        },
+        {
+          "claim": "Confidence in AI without confidence in yourself dulls critical thinking - a one-line prompt for recruiters to self-check before accepting an AI recommendation on a candidate.",
+          "evidence": "Microsoft/Carnegie Mellon survey of 319 knowledge workers, 936 examples of GenAI use",
+          "quote": "Higher confidence in AI was associated with less critical thinking",
+          "market": "not stated",
+          "paywall": "not stated"
+        }
+      ]
+    },
+    {
+      "path": "library/newsletters/transcripts/PromptMates Newsletter/2026-09-01-who-gets-to-win-the-ai-talent-boom.md",
+      "title": "Who Gets to Win the AI Talent Boom?",
+      "date": "2026-09-01",
+      "public_url": "https://promptmates.beehiiv.com/p/who-gets-to-win-the-ai-talent-boom",
+      "sponsor_flag": "No sponsor slot flagged in the file. The 'Build of the Week' profiles a named individual's independent project (not the newsletter's own product); figures in the Big Idea section attributed to LinkedIn research, treat as third-party.",
+      "points": [
+        {
+          "claim": "A recruiter with no engineering background built a working recruiting intelligence platform using off-the-shelf AI tools, a concrete template TA readers could follow one step further than a simple automation.",
+          "evidence": "Michael Brinn built Insyt using Claude (spec), Lovable (prototype), Supabase (database), then Claude Code for the real build",
+          "quote": "used Claude to define Insyt's three user views, scoring model, and permissions before building a single screen",
+          "market": "not stated",
+          "paywall": "no - Medium article linked"
+        },
+        {
+          "claim": "New H-1B extension fees landing in September will raise the cost of sponsoring US visa holders, relevant for any TA team hiring internationally into the US.",
+          "evidence": "$4,000 additional fee on certain H-1B extensions from September 9; $4,500 extra on some L-1 extensions",
+          "quote": "Employers filing certain H-1B extensions face an additional $4,000 fee starting September 9",
+          "market": "US",
+          "paywall": "no - SHRM article linked"
+        },
+        {
+          "claim": "AI leadership roles remain heavily male-skewed globally, a stat TA leaders working on DEI in AI hiring could quote.",
+          "evidence": "LinkedIn research: women 26% of US AI hires in 2025; 13% of C-suite AI leadership roles across 27 countries",
+          "quote": "Women accounted for just 26% of US AI hires in 2025, and hold only 13% of C-suite AI leadership roles at AI companies across 27 countries",
+          "market": "US and global (27 countries)",
+          "paywall": "not stated"
+        },
+        {
+          "claim": "AI job postings and pay have surged, giving TA a current benchmark figure for AI-role salary conversations.",
+          "evidence": "AI job postings roughly doubled since 2023; typical advertised salary ~$177,000",
+          "quote": "AI job postings in the US have roughly doubled since 2023, typical advertised salary around $177,000",
+          "market": "US",
+          "paywall": "not stated"
+        }
+      ]
+    },
+    {
+      "path": "library/newsletters/transcripts/RecOps Collective/2026-08-14-week-of-august-10th-2026.md",
+      "title": "Week of August 10th, 2026",
+      "date": "2026-08-14",
+      "public_url": "https://recops.substack.com/p/week-of-august-10th-2026",
+      "sponsor_flag": "Newsletter states it is sponsor-free ('We are sponsor-free. No company below has paid us to advertise their products'); vendor product updates are unpaid community-submitted mentions, not sponsor slots or the newsletter's own product.",
+      "gap_note": "This issue is a link/roundup digest (community advice column plus a curated list of articles, vendor updates, events and job postings) with almost no standalone figures or verbatim data points to extract - most items are just names/titles pointing to other people's content, not quotable claims in themselves.",
+      "points": [
+        {
+          "claim": "A RecOps community voice argues leaders should deliberately pull ops-track hires out of candidate-experience work to force new skill growth, a tactic a TA leader restructuring a coordinator's role could apply this week.",
+          "evidence": "Advice column by Jeremy Lyons, RecOps Collective",
+          "quote": "I would try to steer completely out of candidate experience",
+          "market": "not stated",
+          "paywall": "no - free Substack newsletter"
+        },
+        {
+          "claim": "Metaview acquired Reval to accelerate its Fillmore product, a named M&A move relevant to TA teams evaluating agentic hiring platforms.",
+          "evidence": "Metaview (Agentic AI Hiring Platform) acquisition of Reval",
+          "quote": "Acquired Reval to accelerate Fillmore",
+          "market": "not stated",
+          "paywall": "not stated"
+        },
+        {
+          "claim": "GoodTime's new scheduling agent 'Cori' takes voice or text scheduling instructions and acts with approval, a concrete off-the-shelf tool a TA reader could trial for interview scheduling.",
+          "evidence": "GoodTime (Scheduling) product release: Cori",
+          "quote": "give scheduling instructions by voice or text, let Cori gather the missing details, confirm the plan, and take action with your approval",
+          "market": "not stated",
+          "paywall": "not stated"
+        },
+        {
+          "claim": "Ashby added the ability to view and save candidate email attachments directly from the candidate profile, a small but usable workflow tweak for teams already on Ashby.",
+          "evidence": "Ashby (AiO) product release",
+          "quote": "View and save candidate email attachments from the candidate profile",
+          "market": "not stated",
+          "paywall": "not stated"
+        }
+      ]
+    },
+    {
+      "path": "library/newsletters/transcripts/TA Unboxed/2026-08-28-hiring-is-a-team-sport-your-ats-should-be-too.md",
+      "title": "Hiring is a team sport. Your ATS should be too.",
+      "date": "2026-08-28",
+      "public_url": "https://taunboxed.substack.com/p/hiring-is-a-team-sport-your-ats-should",
+      "sponsor_flag": "Yes - the 92% figure is an explicit sponsor mention for Metaview's Application Review agent, not independent research or the newsletter's own data.",
+      "points": [
+        {
+          "claim": "A sponsor-claimed AI screening agent reportedly cuts inbound-screening time dramatically, a number to treat with caution as a vendor claim when pitching similar tools internally.",
+          "evidence": "Metaview's Application Review agent - sponsor claim",
+          "quote": "Teams using it are seeing up to 92% less time spent on inbound screening",
+          "market": "not stated",
+          "paywall": "no - free Substack newsletter",
+          "sponsor_flag_item": "sponsor claim (Metaview)"
+        },
+        {
+          "claim": "The article argues ATS systems only formally recognise Recruiter and Hiring Manager roles, missing referrers and panel members who also handle candidate data - useful framing for a TA reader auditing who touches candidate data outside the ATS.",
+          "evidence": "Core argument of the piece",
+          "quote": "None of these people is recruiters. None of them appears in the process map. But all of them are recruiting.",
+          "market": "not stated",
+          "paywall": "no"
+        },
+        {
+          "claim": "When the ATS doesn't support a workflow, candidate data leaks into ungoverned email threads - a prompt for TA to check where CVs go once the ATS says no.",
+          "evidence": "Core argument of the piece",
+          "quote": "when the system says no, email says yes",
+          "market": "not stated",
+          "paywall": "no"
+        },
+        {
+          "claim": "A practical five-question checklist a TA reader could literally run against their own ATS setup this week.",
+          "evidence": "Practical checklist offered in the piece",
+          "quote": "Does every requisition have a defined hiring team?",
+          "market": "not stated",
+          "paywall": "no"
+        }
+      ]
+    }
+  ]
+}

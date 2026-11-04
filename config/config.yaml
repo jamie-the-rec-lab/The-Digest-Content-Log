@@ -1,0 +1,26 @@
+# ============================================================================
+# CONFIG: where things get published and who gets told.
+# Separate from sources.yaml because this changes for completely different
+# reasons, and much less often.
+# ============================================================================
+
+site:
+  repo: jamie-the-rec-lab/thereclab-site
+  branch: main
+  page: digest/index.html
+  live_url: https://thereclab.ai/digest
+
+slack:
+  dm: U0B5GMDT8AG
+
+schedule:
+  day: Wednesday
+
+digest:
+  template: digest/template.html
+  template_backup: digest/template.backup.html
+  build_files: digest/builds/
+  published_archive: digest/published/
+  featured_log: digest/featured-log.tsv
+  version_file: digest/version.txt
+  freshness_weeks: 8

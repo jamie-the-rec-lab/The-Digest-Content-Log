@@ -1,0 +1,100 @@
+{
+  "section": "AI & Tech Picks",
+  "files": [
+    {
+      "path": "library/tech/transcripts/AI & I/2026-09-02-how-a-professional-writer-writes-with-ai.md",
+      "qualifies": "yes",
+      "qualifies_reason": "About AI (writing with ChatGPT/Claude/Codex, context engineering, a released AI plugin) throughout the transcript, not just the marketing copy.",
+      "title": "How a Professional Writer Writes With AI",
+      "date": "2026-09-02",
+      "guest": "Katie Parrott, staff writer at Every",
+      "points": [
+        {
+          "claim": "A laid-off writer used a basic consumer ChatGPT subscription as a substitute for a paid career coach.",
+          "evidence": "$20/month ChatGPT Plus vs a career coach she estimated at ~$150/hour",
+          "quote": "I can't afford like $150 an hour... but I can sign up for a $20 a month ChatGPT subscription.",
+          "timecode": "2:56"
+        },
+        {
+          "claim": "She built a reusable 'context project' per client (audience, pain points, differentiators) that made every subsequent AI output faster and more on-brand.",
+          "evidence": "One Claude/ChatGPT project per freelance client and per column",
+          "quote": "I had a project for every freelance client. I had a project for every column that I worked on.",
+          "timecode": "13:16"
+        },
+        {
+          "claim": "She released a free, public writing workflow plugin ('Compound Writing') that codifies brainstorm-draft-edit steps for AI-assisted writing.",
+          "evidence": "Plugin published on Every's GitHub, forked from the 'Compound Engineering' plugin",
+          "quote": "Oh, it's on the GitHub. You can get it now if you're on the ever GitHub.",
+          "timecode": "36:01"
+        },
+        {
+          "claim": "She turned named writers' craft principles (Vonnegut, Hitchcock, Sorkin, Sedaris) into reusable AI editing 'skills' that review a draft from that lens.",
+          "evidence": "Named AI editing skills: Vonnegut, Hitchcock, Sorkin, Sedaris",
+          "quote": "I just turned that into a skill in the plugin.",
+          "timecode": "39:33"
+        },
+        {
+          "claim": "She uses an AI agent (Codex) for admin 'computer errands' outside writing, e.g. finding and booking a doctor's appointment.",
+          "evidence": "Codex used to find and book a primary care physician appointment",
+          "quote": "I could simply tell Codex to go find primary care physicians near me that take my insurance.",
+          "timecode": "23:56"
+        }
+      ],
+      "recruiter_translation": "A recruiter could build one reusable 'context project' in ChatGPT or Claude per client or role (company facts, tone-of-voice notes, past ad examples) and reuse it every time, instead of re-explaining context each session, to draft consistent job ads, LinkedIn posts and outreach faster — the same low-lift setup Katie used for her freelance clients.",
+      "vendor_flag": "no (guest built and gave away a free plugin; not selling a commercial product)",
+      "angle": "Gives a concrete, copyable 'build the context once, reuse it forever' tactic for writing job ads and candidate outreach faster, plus named evidence (cost, tool names) a recruiter could quote to a stakeholder."
+    },
+    {
+      "path": "library/tech/transcripts/How I AI/2026-09-02-7-grok-bot-agents-i-use-every-day.md",
+      "qualifies": "yes",
+      "qualifies_reason": "Entirely about AI agent tools (Grok Bot), how they're set up and what they do day to day.",
+      "title": "7 Grok Bot agents I use every day",
+      "date": "2026-09-02",
+      "guest": "not stated (host of How I AI podcast; name not given in transcript)",
+      "points": [
+        {
+          "claim": "Grok Bot is a no-code multi-agent platform where bots connect to work tools (Gmail, Calendar, Drive, Slack) via a simple OAuth flow, no setup screen needed most of the time.",
+          "evidence": "OAuth-based plugin connectors; multiple accounts per plugin supported",
+          "quote": "you'll rarely have to actually explicitly go into the Grockbot screen and set up plugins... you go through a really easy ooth flow",
+          "timecode": "4:58"
+        },
+        {
+          "claim": "Her 'Chief' bot sweeps six inboxes, calendars and multiple Slack workspaces every hour and only surfaces what actually needs a response.",
+          "evidence": "Hourly sweep of 6 inboxes/calendars/Slacks, running 6am-9pm",
+          "quote": "it's going to ping me and be very high signal about what I need to pay attention to.",
+          "timecode": "8:25"
+        },
+        {
+          "claim": "A support bot ('Holly Helpdesk') handling customer replies produced unprompted five-star reviews from customers who did not know they were talking to a bot.",
+          "evidence": "Multiple unsolicited reviews after moving support bot to Grok Bot",
+          "quote": "I have gotten multiple people asking to leave reviews about our support being so good and I've not heard that before.",
+          "timecode": "23:39"
+        },
+        {
+          "claim": "Bots can be trained to reply in the owner's own voice from past emails, though the host noted the underlying model wrote too clipped at first and had to be corrected.",
+          "evidence": "Voice-matching from historical email samples",
+          "quote": "go through my emails and really pull out my voice",
+          "timecode": "9:50"
+        },
+        {
+          "claim": "Grok Bot lets you share a working bot's instructions and schedule with teammates via a bot-template feature, so a working setup isn't limited to one person.",
+          "evidence": "\"Share a bot template\" feature released the week of recording",
+          "quote": "released a share a bot template feature in the past week where you can share your bot with your team",
+          "timecode": "6:17"
+        }
+      ],
+      "recruiter_translation": "A recruiter could set up a comparable no-code agent (Grok Bot, or a similarly simple assistant connected to Gmail/Calendar) to sweep inboxes hourly and flag only candidate replies or scheduling conflicts, rather than manually checking multiple inboxes all day — the same low-lift setup the host used for her 'Chief' bot, with no coding required.",
+      "vendor_flag": "no (host is an independent user/reviewer of Grok Bot, not its maker)",
+      "angle": "A working, named example of a no-code inbox-triage and support agent with a concrete before/after result (unprompted 5-star reviews) recruiters could point to when pitching automating candidate comms triage."
+    },
+    {
+      "path": "library/tech/transcripts/Lenny's Podcast/2026-08-30-ais-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openais-product-le.md",
+      "qualifies": "no",
+      "qualifies_reason": "Nominally about AI, but the transcript is almost entirely OpenAI product-management philosophy, internal culture and career reflection with no concrete hiring/talent angle and no tactic or number a recruiter could act on or quote; this is the generic AI thought-leadership the reader profile says to skip.",
+      "title": "AI's third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI's product lead)",
+      "date": "2026-08-30",
+      "note": "Not extracted per subject-gate rule (borderline items should be dropped, and this section is a bonus not an obligation). The closest usable content -- named ChatGPT features 'Sites' and '/visualize' -- is a minor aside inside a broader PM-craft conversation and doesn't carry a standalone recruiter tactic worth building a point around.",
+      "points": []
+    }
+  ]
+}

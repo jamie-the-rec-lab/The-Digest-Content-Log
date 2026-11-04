@@ -1,0 +1,266 @@
+# ============================================================================
+# SOURCES: everything the weekly job tracks.
+#
+# All destinations are relative to the library/ folder, so "podcasts/transcripts"
+# means library/podcasts/transcripts.
+#
+# Facts only. No verbs. This file says WHAT we look at, never what to do with
+# it. If a line tells you to do something, it belongs in REFRESH.md,
+# SELECTION.md or STYLE.md instead.
+#
+# TO ADD A PODCAST, copy this and fill it in:
+#   - name: Show Name              # the folder name, and how it is remembered
+#     display: Shown As            # only if readers should see a different name
+#     url: [ 'https://...' ]         # always in square brackets, even if only one
+#     brand: by Someone            # only if produced by a notable brand
+#
+# TO ADD A NEWSLETTER:
+#   - name: Newsletter Name
+#     sender: address@example.com
+#     subscribe: https://...
+#
+# Note on names: a few sources are called one thing in the library and another
+# on the page. The library name is the folder, and it is how an item is
+# remembered so it never repeats. Where they differ, both are written below.
+# ============================================================================
+
+
+# ---------------------------------------------------------------------------
+# RECRUITING PODCASTS
+# ---------------------------------------------------------------------------
+podcasts:
+  destination: podcasts/transcripts
+
+  shows:
+    - name: 10x Recruiting
+      url: [ 'https://www.youtube.com/@10x_Recruiting_pod/videos' ]
+      brand: by Metaview
+
+    - name: Brainfood
+      url: [ 'https://www.youtube.com/channel/UCNJ1ECjprHORfyAbE5qyqcg/videos' ]
+      cutoff: '20240101'
+
+    - name: Building the Talent Machine
+      url: [ 'https://www.youtube.com/@buildingthetalentmachine/videos' ]
+      cutoff: '20240101'
+
+    - name: Offer Accepted
+      url: [ 'https://www.youtube.com/playlist?list=PLrd3ZPgPqLzmHvhgRKY0IH_5-1TuiDLDM' ]
+      brand: by Ashby
+
+    - name: PromptMates
+      display: PromptMates Live
+      url:
+        - https://www.youtube.com/channel/UCBK-L-lWoLkSZw93S3f5VhQ/videos
+        - https://www.youtube.com/channel/UCBK-L-lWoLkSZw93S3f5VhQ/streams
+
+    - name: Recruiting Future
+      url: [ 'https://www.youtube.com/user/mattalder1/videos' ]
+      cutoff: '20240101'
+
+    - name: Recruiting Roadshow
+      url: [ 'https://www.youtube.com/playlist?list=PLGaFEEU4PKYwIQnkoGFLf3goOyeSudypy' ]
+      brand: by Greenhouse
+
+    - name: The Debrief
+      url: [ 'https://www.youtube.com/@thedebriefTApodcast/videos' ]
+      format: panel
+
+
+# ---------------------------------------------------------------------------
+# TECH ARCHIVE
+# Kept separate from the recruiting library.
+# ---------------------------------------------------------------------------
+tech:
+  destination: tech/transcripts
+
+  shows:
+    - name: AI & I
+      url: [ 'https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL' ]
+      brand: by Every
+      host: Dan Shipper
+      cadence: irregular
+      cutoff: '20260101'
+
+    - name: How I AI
+      url: [ 'https://www.youtube.com/@howiaipodcast/videos' ]
+      brand: by Lenny's Podcast
+      host: Claire Vo
+      cutoff: '20260101'
+
+    - name: Lenny's Podcast
+      url: [ 'https://www.youtube.com/@LennysPodcast/videos' ]
+      cutoff: '20260101'
+
+    # Added 4 Sep 2026. A weekly AI news and culture show. Graded as tech, on the
+    # same Section 4 subject gate as the other three, with no extra bar.
+    - name: AI For Humans
+      url: [ 'https://www.youtube.com/@AIForHumansShow/videos' ]
+      cutoff: '20260101'
+
+
+# ---------------------------------------------------------------------------
+# NEWSLETTERS
+# Found in Gmail by sender address.
+# subscribe: the public link used when an issue has no archive URL of its own.
+# ---------------------------------------------------------------------------
+newsletters:
+  destination: newsletters/transcripts
+
+  titles:
+    - name: Ashby Community
+      sender: community@news.ashbyhq.com
+      subscribe: https://try.ashbyhq.com/talent-trends-newsletter/
+      public_archive: none
+
+    - name: Data Driven Recruiter
+      sender: data-driven-recruiter@mail.beehiiv.com
+      subscribe: https://www.lukeeaton.com
+
+    - name: Full Stack Recruiter
+      sender: fullstackrecruiter@substack.com
+      subscribe: https://newsletter.fullstackrecruiter.net/subscribe
+
+    - name: PromptMates Newsletter
+      sender: news@mail.promptmates.ai
+      subscribe: https://promptmates.beehiiv.com/subscribe
+
+    - name: RecOps Collective
+      display: RecOps Roundup
+      sender: recops@substack.com
+      subscribe: https://recopscollective.substack.com/subscribe
+
+    - name: Remade.md
+      sender: remadebyleandro@substack.com
+      subscribe: https://remadebyleandro.substack.com
+
+    - name: TA Unboxed
+      sender: taunboxed@substack.com
+      subscribe: https://taunboxed.substack.com/subscribe
+
+
+# ---------------------------------------------------------------------------
+# PRODUCT LAUNCH VENDORS
+# tier: a is favoured over b. What that means in practice is in SELECTION.md.
+# type: rss is cleaner than page where both exist.
+# search: no usable feed or page, so found by search instead.
+# ---------------------------------------------------------------------------
+launches:
+  destination: news/transcripts
+
+  vendors:
+  - name: Ashby
+    tier: a
+    feed: https://www.ashbyhq.com/product-updates
+    type: page
+
+  - name: Eightfold
+    tier: b
+    feed: https://eightfold.ai/blog/topic/product-updates/feed/
+    type: rss
+
+  - name: First.cx
+    tier: b
+    feed: https://firststage.substack.com/feed
+    type: rss
+    backup: https://firststage.substack.com
+
+  - name: Gem
+    tier: a
+    feed: https://www.gem.com/blog
+    type: page
+
+  - name: Greenhouse
+    tier: a
+    feed: https://support.greenhouse.io/hc/en-us/sections/360000710732-Release-notes
+    type: page
+
+  - name: hackajob
+    tier: b
+    type: search
+    product: Archer
+
+  - name: iCIMS
+    tier: b
+    feed: https://www.icims.com/en-gb/products/whats-new/
+    type: page
+
+  - name: Jack & Jill
+    tier: a
+    feed: https://www.jackandjill.ai/blog
+    type: page
+
+  - name: Juicebox
+    tier: a
+    feed: https://juicebox.ai/blog/product-updates
+    type: page
+
+  - name: Lever
+    tier: b
+    feed: https://help.lever.co/hc/en-us/sections/20087177899549-Product-Release-Notes
+    type: page
+
+  - name: Metaview
+    tier: a
+    feed: https://www.metaview.ai/resources/rss
+    type: rss
+    backup: https://www.metaview.ai/resources/product-updates
+
+  - name: Nova
+    tier: b
+    type: search
+    site: nova.dweet.com
+    note: Nova by Dweet. A different company to Nova Talent.
+
+  - name: Pin
+    tier: a
+    # blog.pin.com 404s and its backup served a stale 2024 cache. Verified
+    # 11 Sep 2026: the live blog is www.pin.com/blog, which has no RSS feed and
+    # is a general content hub, not a product-updates listing. Pointed at the
+    # page that demonstrably works. NEEDS A FIX: find Pin's actual
+    # product-updates section, do not guess a category URL.
+    feed: https://www.pin.com/blog/
+    type: page
+
+  - name: Pinpoint
+    tier: a
+    feed: https://developers.pinpointhq.com/changelog.rss
+    type: rss
+
+  - name: Screenloop
+    tier: b
+    type: search
+
+  - name: SmartRecruiters
+    tier: b
+    feed: https://www.smartrecruiters.com/recruiting-software/whats-new/
+    type: page
+
+  - name: Teamtailor
+    tier: a
+    feed: https://www.teamtailor.com/en/productnews/
+    type: page
+
+  - name: Workable
+    tier: b
+    feed: https://help.workable.com/hc/en-us/articles/360020051553-Workable-updates-and-release-notes
+    type: page
+
+  - name: Workday
+    tier: b
+    type: search
+    scope: recruiting releases only
+
+
+# ---------------------------------------------------------------------------
+# REPORTS
+# Reports need judgement, not just a list, so they keep their own documents.
+# ---------------------------------------------------------------------------
+reports:
+  destination: reports/transcripts
+  sources: library/reports/SOURCES.md
+  watchlist: library/reports/WATCHLIST.md
+  format: library/reports/FORMAT.md
+  taxonomy: library/reports/TAXONOMY.md
+  to_grab: library/reports/_TO_GRAB.md
+  inbox: library/reports/_inbox/

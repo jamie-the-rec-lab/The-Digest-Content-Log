@@ -1,0 +1,235 @@
+{
+ "build_file": "digest/builds/2026-10-17.html",
+ "version": 8,
+ "date": "2026-10-17",
+ "preview": "UK permanent placements rose for a second month, though candidate supply is growing at its weakest rate since September 2023. Clay makes the application itself the assessment for high volume roles, and Data Driven Recruiter asks whether AI in interviews is cheating or fluency. Workday launched a background recruiting agent that needs approval before contacting anyone. And in the world of AI, Google Labs’ Josh Woodward explains how to run an AI frontier team, and Every explains why it moved to one shared company agent.",
+ "standouts": [
+  {
+   "label": "Podcast",
+   "link_title": "PromptMates Live, Recruiting at Clay: Scaling the Personal Touch (Ryan Ellis)",
+   "url": "https://www.youtube.com/watch?v=fPLzPKP75ts",
+   "text": "For a high volume role, make the application the assessment: three work simulations graded by AI against a rubric agreed with hiring managers, with an opt out to standard review. Clay’s recruiting team shows how, using Ashby and Slack."
+  },
+  {
+   "label": "Newsletter",
+   "link_title": "Data Driven Recruiter, Issue 82 - Is Your Candidate Cheating, Or Just Good With AI??",
+   "url": "https://data-driven-recruiter.beehiiv.com/p/issue-82-is-your-candidate-cheating-or-just-good-with-ai",
+   "text": "Tell candidates in the invite which stages allow AI, keep one conversation tools closed, and ask what the AI got wrong. It includes ready to paste invite wording for your next interview round."
+  },
+  {
+   "label": "Report",
+   "link_title": "KPMG and REC, UK Report on Jobs, October 2026",
+   "url": "https://kpmg.com/uk/en/media/press-releases/2026/10/kpmg-and-rec-uk-report-on-jobs-october-2026.html",
+   "text": "UK permanent placements rose for a second month, the strongest in four years, while permanent candidate supply grew at its weakest rate since September 2023. Useful when a UK hiring manager expects a flood of applicants."
+  },
+  {
+   "label": "Launch",
+   "link_title": "Workday, Autopilot Agents with a Talent Acquisition Agent",
+   "url": "https://newsroom.workday.com/2026-10-13-Workday-Launches-Autopilot-Agents-That-Get-Real-Work-Done-Across-HR,-Finance,-and-IT",
+   "text": "A background agent that flags requisitions at risk of missing their fill date and drafts outreach, with recruiter approval before anything is sent. Early adopters only until early 2027, so ask your Workday contact now."
+  },
+  {
+   "label": "AI pick",
+   "link_title": "Lenny’s Podcast, Why every company now needs to think and operate like a lab team (Josh Woodward)",
+   "url": "https://www.youtube.com/watch?v=3I6QYkccd3o",
+   "text": "Woodward screens hires for unlearning rate, how fast someone can learn a thing and then walk away from it. It is a usable interview criterion while AI keeps changing the job."
+  }
+ ],
+ "items": [
+  {
+   "section": "Recruiting Podcasts",
+   "source_label": "Brainfood",
+   "date": "16 Oct 2026",
+   "title": "Sourcing, Dead or Alive? Reviewing SOSU 2026",
+   "url": "https://www.youtube.com/watch?v=IMYZm_tSsi8",
+   "guest_line": null,
+   "bullets": [
+    "ServiceNow’s sourcers now build talent pools ahead of need and use market data to shape location, pay and profile criteria, says its global head of talent sourcing, Chad Horn.",
+    "Sourcing trainer Guillaume says LinkedIn Recruiter shows only 5% of a search with 20K results, so filter based searching misses most of the people it appears to cover.",
+    "Panellist Marcel says many teams jump straight to LinkedIn and forget past candidates who already have phone numbers on file, so search your own ATS before searching outside."
+   ],
+   "library_file": "library/podcasts/transcripts/Brainfood/2026-10-16-brainfood-live-on-air-ep413-sourcing-dead-or-alive-reviewing-sosu-2026.md"
+  },
+  {
+   "section": "Recruiting Podcasts",
+   "source_label": "PromptMates Live",
+   "date": "15 Oct 2026",
+   "title": "Recruiting at Clay: Scaling the Personal Touch",
+   "url": "https://www.youtube.com/watch?v=fPLzPKP75ts",
+   "guest_line": "Ryan Ellis · Recruiting Operations Manager @ Clay",
+   "bullets": [
+    "At Clay, a thesis scorecard submitted in Ashby posts a Notion briefing to Slack with approve, deny and discuss buttons, so a founder need not join interviews.",
+    "For a high volume support role Clay made the application the assessment: three work simulations graded by AI against a rubric agreed with hiring managers. Candidates can opt out to standard resume review.",
+    "A recruiter pastes a late stage candidate’s LinkedIn URL into Slack and gets back current Clay staff who overlapped with them, scored 1 to 10, so a colleague can make contact."
+   ],
+   "library_file": "library/podcasts/transcripts/PromptMates/2026-10-15-recruiting-at-clay-scaling-the-personal-touch.md"
+  },
+  {
+   "section": "Recruiting Podcasts",
+   "source_label": "Recruiting Future",
+   "date": "14 Oct 2026",
+   "title": "The Talent Employers Are Throwing Away",
+   "url": "https://www.youtube.com/watch?v=_9WDe9q8BKM",
+   "guest_line": "JC Townend · President for UK and Ireland @ Adecco Group",
+   "bullets": [
+    "In her business’s own client surveys, Townend says about 20% of companies now cite AI, digital or automation as the reason for redundancies and another 20% cite a skills mismatch.",
+    "She argues skills now change so fast that external hires arrive about 70% to 80% qualified, which shifts the economics towards redeploying existing staff instead of fire and rehire.",
+    "Teams know their own skills well but have almost no view across departments, so a finance person is never considered for a marketing role. She suggests mapping transferable skills across the whole company."
+   ],
+   "library_file": "library/podcasts/transcripts/Recruiting Future/2026-10-14-ep-831-the-talent-employers-are-throwing-away.md",
+   "changed_round2": true
+  },
+  {
+   "section": "Recruiting Newsletters",
+   "source_label": "Data Driven Recruiter",
+   "date": "14 Oct 2026",
+   "title": "Issue 82 - Is Your Candidate Cheating, Or Just Good With AI??",
+   "url": "https://data-driven-recruiter.beehiiv.com/p/issue-82-is-your-candidate-cheating-or-just-good-with-ai",
+   "guest_line": null,
+   "bullets": [
+    "Luke Eaton draws the line at disclosure: AI use that your rules declare or allow is fluency, hidden use is misuse. He calls it an arbitrary line of his own, and gives ready invite wording.",
+    "His AI positive interview tells candidates up front which stages allow AI, keeps one conversation tools closed and one working session AI open, and marks the edit rather than the output.",
+    "92% of employers in the Institute of Student Employers’ Student Recruitment Survey 2026 suspected or caught misconduct, up from 85%. Fabric flagged 38.5% of candidates across 19,368 AI run interviews but sells cheating detection software."
+   ],
+   "library_file": "library/newsletters/transcripts/Data Driven Recruiter/2026-10-14-issue-82-is-your-candidate-cheating-or-just-good-with-ai.md",
+   "changed_round2": true
+  },
+  {
+   "section": "Recruiting Newsletters",
+   "source_label": "PromptMates Newsletter",
+   "date": "13 Oct 2026",
+   "title": "Stop Automating Recruiting Steps That Shouldn’t Exist",
+   "url": "https://promptmates.beehiiv.com/p/stop-automating-recruiting-steps-that-shouldn-t-exist",
+   "guest_line": null,
+   "bullets": [
+    "Before automating a recruiting step, ask what decision it improves and what would happen if you removed it. If nobody can answer clearly, automation may be the wrong next move.",
+    "Luma’s Joshua Gill built a one page candidate closing brief from Metaview transcripts and Ashby scorecards, sent as a Slack message when a candidate reaches the final stages, with likely objections and suggested responses.",
+    "Lovable’s internal org planning app failed at first because people drifted back to spreadsheets. It stuck once it was connected to HiBob and Ashby data and the data had clear owners."
+   ],
+   "library_file": "library/newsletters/transcripts/PromptMates Newsletter/2026-10-13-stop-automating-recruiting-steps-that-shouldn-t-exist.md"
+  },
+  {
+   "section": "Recruiting Newsletters",
+   "source_label": "TA Unboxed",
+   "date": "9 Oct 2026",
+   "title": "How to spot top talent in your ATS",
+   "url": "https://taunboxed.substack.com/p/how-to-spot-top-talent-in-your-ats",
+   "guest_line": null,
+   "bullets": [
+    "Darren Bush adds a “one to watch” field to the recruiter screening form, so a recruiter can record that a candidate stands out while the outcome is still unknown.",
+    "Recruiter and hiring manager flag candidates independently, so a TA director reviewing 20 or 50 live roles can see which ones have no candidate anyone believes could do the job.",
+    "Timestamp every flag with who set it and the stage, and block backdating, or you measure hindsight rather than talent spotting."
+   ],
+   "library_file": "library/newsletters/transcripts/TA Unboxed/2026-10-09-how-to-spot-top-talent-in-your-ats.md"
+  },
+  {
+   "section": "Recruiting Newsletters",
+   "source_label": "RecOps Roundup",
+   "date": "8 Oct 2026",
+   "title": "Week of October 5th, 2026",
+   "url": "https://recops.substack.com/p/week-of-october-5th-2026",
+   "guest_line": null,
+   "bullets": [
+    "Jeremy Lyons’s first tool evaluation question is why the team wants the change, because some changes have no pain point behind them, only a wish to switch to what everyone else uses.",
+    "He asks whether there is time to learn the tool, citing Jason Miller's point that onboarding is getting more complicated, and says a high upfront learning cost belongs in the recommendation.",
+    "Lyons’s last question is whether to buy or build: if the problem is clearly defined, a simpler fix needing no vendor may exist, provided the time and expertise are there."
+   ],
+   "library_file": "library/newsletters/transcripts/RecOps Collective/2026-10-08-week-of-october-5th-2026.md",
+   "changed_round2": true
+  },
+  {
+   "section": "Recruiting reports, product updates, and more",
+   "source_label": "Bullhorn · report",
+   "date": "13 Oct 2026",
+   "title": "Staffing Industry Indicator, week ending 3 October 2026",
+   "url": "https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-october-13-2026",
+   "guest_line": null,
+   "bullets": [
+    "Hours worked by temporary staff at US agencies using Bullhorn were up 11% year on year for the week ending 3 October (index 108), with total, Commercial and Professional hours at year to date highs.",
+    "In the US, Industrial hours rose 17% and IT 8% year on year, while Office/Clerical fell 7%. The latest four weeks of readings are preliminary and can be revised."
+   ],
+   "library_file": "library/reports/transcripts/Bullhorn/2026-10-13-staffing-industry-indicator-week-ending-october-3.md"
+  },
+  {
+   "section": "Recruiting reports, product updates, and more",
+   "source_label": "REC · report",
+   "date": "10 Oct 2026",
+   "title": "UK Report on Jobs, October 2026",
+   "url": "https://kpmg.com/uk/en/media/press-releases/2026/10/kpmg-and-rec-uk-report-on-jobs-october-2026.html",
+   "guest_line": null,
+   "bullets": [
+    "UK permanent placements rose for a second month running in September, marginally but at the strongest rate in four years, in the KPMG and REC survey of about 400 recruitment consultancies.",
+    "UK permanent candidate supply grew at its weakest rate since September 2023, and permanent salary growth slowed for the first time in four months.",
+    "Half of the ten sectors monitored saw higher UK permanent demand, led by IT and Computing and Engineering, while vacancies fell most sharply in Retail and Hotel and Catering."
+   ],
+   "library_file": "library/reports/transcripts/REC/2026-10-10-report-on-jobs-october-2026.md"
+  },
+  {
+   "section": "Recruiting reports, product updates, and more",
+   "source_label": "iCIMS · report",
+   "date": "8 Oct 2026",
+   "title": "Workforce Report, October 2026",
+   "url": "https://www.icims.com/company/newsroom/octoberinsights2026/",
+   "guest_line": null,
+   "bullets": [
+    "In iCIMS’s own platform data, US hiring was 7% below the September 2025 baseline while job openings were 3% above it.",
+    "US frontline applications were 18% below baseline in September with 29 applicants per opening, the lowest of the year. Retail time to fill was 37 days and steady in the mid 30s all year.",
+    "In the US, 18 to 24 year olds made up 40% of retail applicants in September, up from 37% a year earlier."
+   ],
+   "library_file": "library/reports/transcripts/iCIMS/2026-10-08-workforce-report-october-2026.md",
+   "changed_round2": true
+  },
+  {
+   "section": "Recruiting reports, product updates, and more",
+   "source_label": "Workday · launch",
+   "date": "13 Oct 2026",
+   "title": "Autopilot Agents, including a Talent Acquisition Agent",
+   "url": "https://newsroom.workday.com/2026-10-13-Workday-Launches-Autopilot-Agents-That-Get-Real-Work-Done-Across-HR,-Finance,-and-IT",
+   "guest_line": null,
+   "bullets": [
+    "Workday’s Talent Acquisition Agent flags open roles at risk of missing their fill date, and once a job is posted it finds qualified candidates and notes their gaps.",
+    "When a pipeline is thin it alerts recruiters in tools such as Slack and drafts outreach, but a recruiter must approve before anything is sent.",
+    "Only early adopter customers have access now, with general availability planned for early 2027. Descriptions come from Workday, and no customer results were found."
+   ],
+   "library_file": "library/news/transcripts/Workday/2026-10-13-autopilot-agents-talent-acquisition-agent.md",
+   "changed_round2": true
+  },
+  {
+   "section": "AI & Tech Picks",
+   "source_label": "Lenny’s Podcast",
+   "date": "11 Oct 2026",
+   "title": "Why every company now needs to think and operate like a lab team",
+   "url": "https://www.youtube.com/watch?v=3I6QYkccd3o",
+   "guest_line": "Josh Woodward · VP of Google Labs @ Google",
+   "bullets": [
+    "Woodward screens hires for unlearning rate, how fast someone can learn a thing and then walk away from it, plus the ability to build and scale trust while working with AI agents.",
+    "He keeps a written list of what is “almost possible” and starts a team when something crosses over. Google Labs’ list holds 82 predictions, and he expects nine in ten to be wrong.",
+    "He says a team usually knows before its leader that an idea is not working, and he publicly thanked a product manager who recommended not launching a Gemini feature after flat early data."
+   ],
+   "library_file": "library/tech/transcripts/Lenny's Podcast/2026-10-11-why-every-company-now-needs-to-think-and-operate-like-a-lab-team-josh-woodward-v.md"
+  },
+  {
+   "section": "AI & Tech Picks",
+   "source_label": "AI & I by Every",
+   "date": "7 Oct 2026",
+   "title": "OpenAI Dots Took Over Our Company",
+   "url": "https://www.youtube.com/watch?v=_pcy1_jU27k",
+   "guest_line": "Willie Williams · Head of Platform @ Every",
+   "bullets": [
+    "Every moved from everyone running a personal agent to one shared company agent, because Williams says non technical staff hit a wall of setup and security and agents decayed when their owners lost interest.",
+    "One person’s growth agent became the “gravitational center” as colleagues added to it rather than building their own.",
+    "Williams predicts a company agent at work, built up over a year of context, and a personal agent at home. The Every Agent is Every’s own product."
+   ],
+   "library_file": "library/tech/transcripts/AI & I/2026-10-07-openai-dots-took-over-our-company.md"
+  }
+ ],
+ "notes": [
+  "Newsletter links in the build copy are PUBLIC URLs, not Gmail permalinks: Gmail search was denied in this session. Coordinator should swap in Gmail thread links for the build copy if wanted (4 newsletters + DDR standout).",
+  "Bullhorn and iCIMS and REC are partial extractions (public table or press release); bullets use only those free figures. ISE excluded (members-only/paid).",
+  "Check Fabric and ISE figures in the DDR item against the DDR file (they are DDR's citations of other sources, attributed as such).",
+  "Guest line for Clay uses Ryan Ellis, title 'Recruiting Operations Manager' from library summary; the PromptMates newsletter says 'runs Recruiting Operations at Clay'. Verify against episode description if possible, else drop the title.",
+  "Josh Woodward guest line 'VP of Google Labs @ Google' built from episode title '(VP Google Labs)' and summary; verify.",
+  "For URL-only checks: Workday item also corroborated by reworked.co 13 Oct 2026 and borncity.com 14 Oct 2026 (see library file).",
+  "Round 2: 6 mismatches from round 1 fixed in the build; items marked changed_round2 need re-checking."
+ ]
+}

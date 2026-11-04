@@ -1,0 +1,100 @@
+{
+  "section": "Section 3 non-report items (launches, events, essays, AI news/regulation)",
+  "run_date": "2026-09-03",
+  "window": "2026-07-08 to 2026-09-02",
+  "items": [
+    {
+      "type": "launch",
+      "title": "July 2026: instant sourcing, smarter AI, & stronger fraud filters",
+      "url": "https://www.metaview.ai/resources/blog/june-sourcing-ai-fraud-filters",
+      "vendor_or_publisher": "Metaview",
+      "date_published": "2026-07-22",
+      "market": "global",
+      "points": [
+        {
+          "claim": "Candidates now appear immediately once a recruiter approves the ideal candidate profile, instead of waiting for a batch run.",
+          "evidence": "Instant AI Sourcing feature",
+          "quote": "As soon as you approve your ideal candidate profile (ICP), Metaview instantly generates a list"
+        },
+        {
+          "claim": "Fraud detection was strengthened to help teams sift real applicants from fake ones at volume.",
+          "evidence": "Stronger Fraud Detection feature",
+          "quote": "confidently review hundreds of inbound applications, and sort the real from the fake"
+        }
+      ],
+      "paywall": "no",
+      "why_this_reader": "A recruiter drowning in inbound applications could point to this as a concrete reason to trial Metaview's fraud filters and instant sourcing this week.",
+      "vendor_flag": "Vendor's own release notes; feature claims and fraud-detection performance are Metaview's own description, not independently verified."
+    },
+    {
+      "type": "launch",
+      "title": "August 2026: Slack sourcing, automated outreach, & collections",
+      "url": "https://www.metaview.ai/resources/blog/august-slack-sourcing-automated-outreach",
+      "vendor_or_publisher": "Metaview",
+      "date_published": "2026-08-19",
+      "market": "global",
+      "points": [
+        {
+          "claim": "Recruiters can now run a candidate search from inside Slack by mentioning the Metaview bot.",
+          "evidence": "Slack Sourcing feature, @Metaview mention",
+          "quote": "The Sourcing agent searches immediately and posts updates back into the same thread"
+        },
+        {
+          "claim": "Personalised multi-channel outreach across email, LinkedIn, WhatsApp and SMS is claimed to double reply rates versus templated messages.",
+          "evidence": "Automated Outreach feature, claimed doubled response rate",
+          "quote": "double[s] response rates"
+        }
+      ],
+      "paywall": "no",
+      "why_this_reader": "Gives a TA lead a same-week tactic: source directly from a Slack channel instead of switching tools, and a number (claimed 2x reply rate) to test against their own outreach.",
+      "vendor_flag": "Vendor's own release notes; the doubled-response-rate figure is Metaview's own claim, not an independent benchmark."
+    },
+    {
+      "type": "event",
+      "title": "RecFest USA 2026",
+      "url": "https://recfest.com/usa/faq/",
+      "vendor_or_publisher": "RecFest",
+      "date_published": "2026-09-23 to 2026-09-24",
+      "market": "US",
+      "points": [
+        {
+          "claim": "RecFest's US edition runs as a two-day, in-person festival-style TA event in Nashville.",
+          "evidence": "23-24 September 2026, Fair Park / The Fairgrounds, Nashville TN",
+          "quote": "September 23rd-24th 2026, at the Fair Park, The Fairgrounds, Nashville"
+        }
+      ],
+      "paywall": "no",
+      "why_this_reader": "US-based TA readers who want an in-person read on 2026 hiring practice have a concrete, still-upcoming date and venue to plan around; note it is a ticketed event, not free.",
+      "vendor_flag": "Event organiser's own FAQ page; ticket pricing was not stated on the page fetched."
+    },
+    {
+      "type": "essay",
+      "title": "7.4 million jobs are still open. AI drove 33% of July job cuts.",
+      "url": "https://marcussawyerr.substack.com/p/74-million-jobs-are-still-open-ai",
+      "vendor_or_publisher": "Marcus Sawyerr (Substack)",
+      "date_published": "2026-08-10",
+      "market": "US",
+      "points": [
+        {
+          "claim": "The author argues staffing firms' edge is not raw candidate-data volume but data quality and system design, contrary to the industry's usual pitch.",
+          "evidence": "Contrasts growth at Recruit and Adecco with firms banking on database size",
+          "quote": "people in staffing are delusional if they think their data is the savior"
+        },
+        {
+          "claim": "US labour market context: millions of roles open alongside weak hiring and AI-linked cuts.",
+          "evidence": "7.4 million open US jobs; ADP recorded 44,000 private hires; AI cited in 33% of July job cuts",
+          "quote": "7.4 million jobs open...ADP recorded only 44,000 private hires...AI drove 33% of July job cuts"
+        }
+      ],
+      "paywall": "no",
+      "why_this_reader": "A contrarian, quotable line a TA leader could use to push back on colleagues who treat a big candidate database as the AI-era moat.",
+      "vendor_flag": "Independent commentary, not vendor marketing; the 7.4m/44k/33% figures are cited by the author from third-party labour data (ADP, BLS-style reporting) but were not independently re-verified against the primary source in this pass."
+    }
+  ],
+  "notes": {
+    "ai_news_or_regulation": "None found that clears the bar. Checked: EU AI Act delay (already featured, excluded), Colorado AI Act amendment/delay (news is from April-May 2026, outside window), Illinois AI hiring draft notice rules (Ogletree piece dated 2025-12-22, outside window). No genuinely new AI-in-hiring regulation story fell inside 2026-07-08 to 2026-09-02, so this item type is honestly empty this week.",
+    "other_vendor_launch_checks": "Ashby product-updates page showed no entries in window (most recent May 2026). Pinpoint changelog had one in-window entry (1.0.28, US address fields, 2026-08-04) but judged a minor field-level tweak, not material per SELECTION.md launch criteria, so dropped. Teamtailor had three in-window items (WhatsApp messaging, unified applications view, achievement badges) but none felt materially bigger than the Metaview block and Teamtailor is not flagged Tier A ahead of Metaview, so left out to keep launches to one vendor block this week.",
+    "events_checked_and_dropped": "AI Recruiting Summit 2026 (Elite Recruiter Podcast) already ran 13-20 July 2026, before the run date, so not upcoming. IHR Talent Attraction Conference London and IHR Recruitment Leaders Conference London both already occurred (June 2026). Greenhouse's own 'Get to know Greenhouse' webinar (23 Sept 2026) was dropped as vendor product demo rather than an independent event.",
+    "essays_checked_and_dropped": "ERE.net 'Why AI Efficiency Can Lead to Burnout in Recruiting' is a good fit but published 2026-04-22, outside the 8-week window, so dropped."
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "episodes": [
+    {
+      "path": "library/podcasts/transcripts/10x Recruiting/2026-07-30-the-recruiting-playbook-behind-cognitions-growth.md",
+      "title": "The recruiting playbook behind Cognition's growth",
+      "date": "2026-07-30",
+      "guest": "Patrick Circelli (per site description) / Patrick Sarsfield (per audio intro) - Head of Talent at Cognition, formerly at Scale AI. Note: the written episode description names him \"Patrick Circelli\" but the host introduces him on-air as \"Patrick Sarsfield\" - transcript is inconsistent, flag this discrepancy rather than picking one.",
+      "vendor_flag": "Not a vendor pitch. Patrick is an in-house TA leader (Cognition), not selling a tool. Host is from Metaview (a recruiting tool vendor) and the show is branded by Metaview, but the conversation itself does not pitch Metaview's product.",
+      "market": "not stated (US company, Cognition/Scale AI are US-based, but no market figure is explicitly localised)",
+      "angle": "A lean 8-person recruiting team at a hot AI startup hires 10-20 people a week with a 50% referral rate and a 2-day average offer-accept time; the tactics (measuring recruiter influence not sourcing volume, building roles around exceptional people, asking a 'work-life relationship' question instead of a generic culture-fit question) are replicable by any TA leader trying to move faster with a small team.",
+      "points": [
+        {
+          "claim": "Ask candidates 'what do you want your relationship with work and life to be right now' instead of a generic culture-fit question, to surface real intensity fit without dictating it to them.",
+          "evidence": "Question used in Cognition's interview process, described twice in the transcript",
+          "quote": "What do you want your relationship with work and life to be like right now?",
+          "timecode": "0:00 / 11:10"
+        },
+        {
+          "claim": "Stop measuring recruiters on sourcing volume; measure them on speed of influence instead, aiming for offer acceptance within two days of an offer going out.",
+          "evidence": "Cognition's average time-to-close is roughly 2 days versus an industry benchmark the guest cites of 35-43 days",
+          "quote": "average time to hire across... something like 35 to 43 days, right? ... they should beat that time frame out... it should be two days at maximum",
+          "timecode": "22:29 / 23:32"
+        },
+        {
+          "claim": "A referral rate of 50% company-wide is achievable even at 300 people if 'founder-led recruiting' is deliberately scaled into 'company-led recruiting' rather than left to founders alone.",
+          "evidence": "50% referral rate across all 2026 hires at Cognition (300-person company, 8-person recruiting team)",
+          "quote": "today and in 2026 alone, our referral rate is about 50% across the company",
+          "timecode": "19:36"
+        },
+        {
+          "claim": "For a niche or urgent search, deliberately cap the candidate pool at 10-20 people rather than running a broad funnel, to force a tighter and faster process.",
+          "evidence": "Cognition's stated approach for non-evergreen roles",
+          "quote": "we should probably talk to 10 to 20 people at most and and hire one of those because the pool should be that tight",
+          "timecode": "20:24"
+        },
+        {
+          "claim": "Treat operational benefits (commute help, laundry, admin removal) as an underused hiring and retention lever, not an indulgence, because they buy back hours of focused work per week.",
+          "evidence": "Guest's own commute example: driving cut a Bay Area commute from 70-75 minutes each way to 45 minutes, freeing an estimated extra 90 minutes of work per day",
+          "quote": "you probably would have gotten another 90 minutes of solid work out of me if that stuff was taken care of",
+          "timecode": "26:58"
+        }
+      ]
+    },
+    {
+      "path": "library/podcasts/transcripts/Brainfood/2026-08-19-brainfood-live-on-air-ep398-meet-ema-your-ai-employee-for-hr-it-finan.md",
+      "title": "Brainfood Live On Air Ep398 - Meet Ema, Your AI Employee for HR, IT & Finance",
+      "date": "2026-08-19",
+      "guest": "Surojit Chatterjee, CEO and founder of Ema (formerly CPO of Coinbase, senior exec at Google)",
+      "vendor_flag": "YES - clear vendor demo. Episode is explicitly 'supported by our friends at Ema' (sponsored), the guest is Ema's own founder/CEO, and the entire second half is a live product walkthrough of Ema's Recruiter tool. Every figure below comes directly from the vendor's own claims, unverified by any independent source.",
+      "market": "not stated (Ema's case studies reference US enterprise customers - Wipro, Hitachi, NTT Data - but no UK/EU-specific figures given)",
+      "angle": "Useful only as a reality check on vendor claims for an 'AI recruiter' category product (sourcing, ranking, outreach, voice pre-screening) that a TA reader may be pitched by a sales team - shows what the demo script and headline numbers look like so they can push back on them.",
+      "points": [
+        {
+          "claim": "Vendor claims one customer, an executive search firm, saw a 70% cut in time-to-hire and 60% of hiring volume fully automated after adopting Ema - treat as an unverified vendor case study, not an independent benchmark.",
+          "evidence": "Cited case study: Article (exec recruiting firm), CEO named as Mercedes",
+          "quote": "70% saving in time to hire, 60% of their volume completely handled today, 30% less cost for hiring",
+          "timecode": "22:39"
+        },
+        {
+          "claim": "The vendor's sourcing tool claims to search and rank over 1 billion candidate profiles (776,000 for one live search shown) in seconds, including pulling data already sitting in a company's own ATS such as Greenhouse or Ashby.",
+          "evidence": "Live demo search returned 776,000 matching profiles instantly; vendor claims 30+ data providers and 1 billion+ candidates",
+          "quote": "It did you know, 776,000 uh profiles it in within seconds as I was speaking",
+          "timecode": "29:18"
+        },
+        {
+          "claim": "A large enterprise customer reportedly deployed the vendor's HR/IT platform across 30,000-40,000 employees in 8 weeks (versus a typical 9 months-2 years for traditional SaaS), which is the kind of implementation-speed claim worth interrogating before buying.",
+          "evidence": "Hitachi deployment, cited by the vendor's CEO",
+          "quote": "the entire say Hitachi deployment, which is across like uh you know 30,000 employees or 40,000 employees... It was just 8 weeks",
+          "timecode": "19:08",
+          "market": "not stated"
+        },
+        {
+          "claim": "The vendor's voice AI can conduct a full candidate pre-screen call (work authorisation, notice period, behavioural question, comp/logistics Q&A) with no human recruiter present - useful to know this category exists even if you don't buy this vendor.",
+          "evidence": "Live scripted demo of a voice pre-screen call for an Enterprise Account Executive role",
+          "quote": "Hi Matt. Thanks for taking the call. I'm Cassidy from Acme Inc. Calling about the Enterprise Account Executive role you applied for.",
+          "timecode": "46:23"
+        }
+      ]
+    },
+    {
+      "path": "library/podcasts/transcripts/Building the Talent Machine/2026-07-22-episode-041-the-missing-skill-of-recruiting-with-ai-wrebecca-fagan-brandon-jeffs.md",
+      "title": "Episode 041: The Missing Skill of Recruiting with AI w/Rebecca Fagan & Brandon Jeffs",
+      "date": "2026-07-22",
+      "guest": "Rebecca (Becky) Fagan - former Head of global TA and recruiting innovation, Moderna; prior roles at Meta, Wayfair",
+      "vendor_flag": "No - Becky is a TA operations leader speaking generally about change management and tooling ROI, not selling a product. Not a demo episode.",
+      "market": "not stated throughout (all company references are US: Meta, Wayfair, Moderna)",
+      "angle": "Quality note: thin on hard, quotable figures - this is a management/change-leadership conversation, not a numbers-heavy one, so most points below lean on named companies and ratios rather than sharp statistics. Still useful for a TA leader managing pushback on a new AI tool rollout.",
+      "points": [
+        {
+          "claim": "When justifying build-vs-buy or ROI on an internal tool, budget for at least 3-5x cost savings against the tool it replaces, because ongoing engineering/maintenance cost is easy to underestimate.",
+          "evidence": "3 to 5x ROI threshold stated as a rule of thumb",
+          "quote": "you always want to have a 3 to 5x ROI on that cost savings against the tool you're replacing",
+          "timecode": "29:28"
+        },
+        {
+          "claim": "Don't assume inbound applications are your best source of hire - expect roughly a 0.5-1% conversion rate on inbound, so a deliberate outbound/referral strategy matters more.",
+          "evidence": "0.5% to 1% inbound conversion rate cited",
+          "quote": "we're optimizing for a 0.5 maybe 1% conversion rate anyway",
+          "timecode": "41:50"
+        },
+        {
+          "claim": "HR/recruiting software is typically far cheaper than equivalent sales and marketing tooling, so don't assume a 'cheap' price signals a weak tool, or that a costly one is out of reach relative to other departments' budgets.",
+          "evidence": "Sales/marketing tooling cited as costing roughly 10x similar recruiting tooling",
+          "quote": "In sales and marketing, it can often cost 10 times the cost for a very similar product",
+          "timecode": "28:13"
+        },
+        {
+          "claim": "Before investing in any new AI recruiting tool, get a baseline of your current metrics first - teams that skip this end up trying to reverse-engineer ROI a year after rollout instead of proving it upfront.",
+          "evidence": "Discussion is anchored to the guest's own post-implementation ROI reviews at prior employers (Meta, Wayfair, Moderna)",
+          "quote": "before you have any of that in place, I wouldn't make any investment decisions",
+          "timecode": "32:07"
+        }
+      ]
+    },
+    {
+      "path": "library/podcasts/transcripts/Offer Accepted/2026-08-11-the-north-star-metric-every-hiring-team-needs-with-liz-woodfield-sentilink.md",
+      "title": "The North Star Metric Every Hiring Team Needs with Liz Woodfield, SentiLink",
+      "date": "2026-08-11",
+      "guest": "Liz Woodfield, Head of Talent Acquisition at SentiLink (prior roles: Juniper Square, Bread Financial, Goldman Sachs)",
+      "vendor_flag": "Partial - the show is produced and sponsored by Ashby (an ATS/recruiting platform vendor), and the guest explicitly praises Ashby's product by name near the end ('Ashby has been a game changer... by far the very best'). The core story (SentiLink's hiring sprint) is about her own team's process, not an Ashby demo, but the Ashby endorsement should be flagged if quoted.",
+      "market": "not stated (SentiLink is a US company; no UK/EU figures given)",
+      "angle": "A concrete, copyable framework (volume + velocity + calibration, weekly dashboards, sprint/batch hiring) that let a startup TA team increase hires 60% with the same headcount - directly actionable for a time-poor TA leader under a 'do more with less' mandate.",
+      "points": [
+        {
+          "claim": "A single 'north star' hiring goal, broken into weekly team dashboards (screens, outreach, offers), drove a 60% increase in hires with no headcount added.",
+          "evidence": "60% increase in hires versus the same team size the prior year; goal moved from roughly 25 hires to 50 hires in six months",
+          "quote": "We hit our goal this first half of the year, which was really exciting. So that was like a 60% increase from what the team did.",
+          "timecode": "18:30"
+        },
+        {
+          "claim": "Use 'batch hiring' with a working-backwards weekly plan to unstick a role that's been open a long time - one role open over a year was filled within a week of setting a two-month sprint goal.",
+          "evidence": "One engineering role, open over a year, filled within a week of the sprint deadline once a progress-to-plan dashboard was built",
+          "quote": "we hit the goal within a week of that time frame which was pretty incredible",
+          "timecode": "12:34"
+        },
+        {
+          "claim": "Set a 24-hour SLA for recruiter response/velocity as one of three levers (volume, velocity, calibration) that together predict hiring success - track it via ATS dashboards.",
+          "evidence": "24-hour SLA cited as her standard, tracked via ATS (Ashby) dashboards",
+          "quote": "let's look at velocity, 24-hour SLA. And that's something I've done pretty consistently with my teams.",
+          "timecode": "6:27"
+        },
+        {
+          "claim": "Make debriefs mandatory and live rather than written feedback in Slack or a tool - it surfaces bias and details that get lost otherwise, and shapes a stronger first 90-180 days for the hire.",
+          "evidence": "Her stated team policy and rationale",
+          "quote": "debriefs should be mandatory in my book... There's just so much that happens in those conversations that cannot happen in a tool or on Slack.",
+          "timecode": "0:00"
+        },
+        {
+          "claim": "Expect roughly six weeks of lag between filling the top of a hiring funnel and seeing hires actually land, so don't panic or add headcount before that window has passed.",
+          "evidence": "Six-week lag cited specifically for her SentiLink sprint rollout",
+          "quote": "it took six weeksish. We had a company offsite for a week in there. It took six weeksish to start seeing the hires translate",
+          "timecode": "8:29"
+        }
+      ]
+    },
+    {
+      "path": "library/podcasts/transcripts/PromptMates/2026-08-31-claude-greenhouse-mcp-what-can-recruiting-teams-build.md",
+      "title": "Claude + Greenhouse MCP: What Can Recruiting Teams Build?",
+      "date": "2026-08-31",
+      "guest": "Matt Texeira, Senior Director, Global Talent Acquisition at Komodo Health",
+      "vendor_flag": "No direct vendor pitch - Matt is an in-house TA leader demoing tools he built himself, not selling Claude or Greenhouse. Flag for the reader: this is a genuinely advanced/technical build (multi-agent Claude Code workflows scraping 19 signals) that goes beyond what a typical time-poor TA reader could replicate without engineering-style effort; the simpler debrief-prep and TLDR-pipeline 'skills' are the realistic entry point to translate to readers, not the full multi-agent system.",
+      "market": "not stated (Komodo Health is a US company)",
+      "angle": "Shows a concrete, named, off-the-shelf-ish path (Claude Skills connected via Greenhouse's MCP integration) for automating debrief prep and pipeline summaries without writing code - the realistic 'one step ahead' tactic for a reader already using Claude day-to-day, while flagging that the more advanced builds shown are out of reach for most readers.",
+      "points": [
+        {
+          "claim": "Build a reusable 'skill' in Claude connected to your ATS via its MCP connector (e.g. Greenhouse) to auto-generate debrief prep - pulling scorecards, interview themes and cross-round contradictions - instead of reviewing a pipeline cold before a debrief.",
+          "evidence": "Named tools: Claude, Greenhouse MCP; specific outputs described (round-by-round signals, contradictions, rating distribution, discussion prompts)",
+          "quote": "So, I built a skill that calls the specific tools within Greenhouse that I know... it'll show you all the information, all the tools, the candidates, the process conversion rates",
+          "timecode": "1:54"
+        },
+        {
+          "claim": "A simple 'TLDR pipeline' skill can give a one-glance headcount summary before a hiring-manager sync, without needing the full pipeline deep-dive report.",
+          "evidence": "Named tool combination: Claude chat (Sonnet model, not Opus, for cost reasons) plus Greenhouse MCP",
+          "quote": "we built something that is just on counts alone versus the deep dive... just gave me some some quick counts uh as far as what's going on",
+          "timecode": "7:24"
+        },
+        {
+          "claim": "Deliberately block sensitive ATS fields (demographic answers, EEOC data) from being exposed to an AI tool at the admin/connector level, rather than trusting the AI to handle them appropriately.",
+          "evidence": "Explicit example of fields turned off in the Greenhouse MCP connector settings",
+          "quote": "some of the things we choose not to bring into Claude are demographic answers and questions and EOC data... we turn that off and it's not access, it's blocked",
+          "timecode": "0:00"
+        },
+        {
+          "claim": "A daily automated Slack digest can brief interviewers each morning with who they're interviewing, where the candidate is in process, what to probe on, and a bias reminder - reducing the odds interviewers show up unprepared.",
+          "evidence": "Named tools: Greenhouse MCP, Slack; described as an 'easy lift' to build",
+          "quote": "sends a Slack every single day first thing in the morning to the... interviewers of like, here's who you're interviewing... here's some bias reminders",
+          "timecode": "10:04"
+        }
+      ]
+    },
+    {
+      "path": "library/podcasts/transcripts/Recruiting Future/2026-08-21-ep-819-who-gets-the-biggest-job-in-hr.md",
+      "title": "Ep 819: Who Gets The Biggest Job In HR?",
+      "date": "2026-08-21",
+      "guest": "Olivia Sharp, Partner at executive search firm Eton Bridge Partners, leads CPO/HR director and board-level search practice",
+      "vendor_flag": "Partial - the podcast carries an unrelated pre-roll ad for 'Cyber Recruiter' (a cybersecurity-hiring AI tool), not connected to the guest or her data; that ad content should never be attributed to Olivia Sharp or her firm's research. Olivia herself is not selling a product, she is presenting her firm's own research report, so treat her figures as one search firm's proprietary data, not independently verified.",
+      "market": "global and UK-specific figures given explicitly and separately - report is described as covering global hiring trends with UK numbers broken out",
+      "angle": "Hard, named, market-labelled numbers a TA leader could quote to a stakeholder about their own CPO/CHRO career prospects or about the volatility of the top HR job market right now.",
+      "points": [
+        {
+          "claim": "Global CPO/CHRO appointment volumes have dropped roughly 20% in three years, and the UK figure is far steeper.",
+          "evidence": "Global CPO appointments down ~20% over 3 years; UK down 34% over the same period",
+          "quote": "global chief people officer appointments have dropped by 20ish% in the last 3 years. In UK that's 34%.",
+          "timecode": "5:18",
+          "market": "global figure and UK figure both stated separately"
+        },
+        {
+          "claim": "You no longer need to have already held a CPO/CHRO title to get appointed to one - a majority of new CPOs are now first-timers, a sharp reversal from three years ago.",
+          "evidence": "Proportion of new CPO appointments going to previously-experienced CPOs fell from 78% three years ago to 53% in 2025",
+          "quote": "from 78% 3 years ago being uh experienced established chief people officer appointments down to only 53% last year in 2025",
+          "timecode": "6:31",
+          "market": "global (per the firm's global CPO hiring report)"
+        },
+        {
+          "claim": "External hiring for the CPO/CHRO seat has surged - if you're angling for an external move, the odds are now firmly in your favour versus an internal promotion.",
+          "evidence": "External CPO hires rose from about half in 2023, to 62% in 2024, to 71% in 2025",
+          "quote": "external appointments were just about half in 2023, 62% in 24 and 71% in 2025",
+          "timecode": "18:14",
+          "market": "global, with the UK specifically flagged as leading this trend"
+        },
+        {
+          "claim": "TA leaders eyeing a CPO/CHRO move should deliberately seek AI-transformation and restructuring projects now, since boards are rewarding capability and potential over having done the exact job before.",
+          "evidence": "Named advice tied to the drop in required prior CPO experience (78% to 53%)",
+          "quote": "AI is a brilliant opportunity right now facing straight into the talent acquisition function... they should seek out transformation exposure where they can pick up projects",
+          "timecode": "14:41"
+        },
+        {
+          "claim": "If you move externally into a CPO/CHRO role, expect it to be within the same sector 4 times out of 5 - 'fresh' hires are rarely truly outside your industry.",
+          "evidence": "Same-sector share of external CPO hires rose from 74% in 2023 to roughly 80% (four-fifths) in 2025; compares to ~90% same-sector rate that has held steady for CFO hires over three years",
+          "quote": "in 2023, external hires were 74% of them were in the same sector... Last year 4 fifths came from the same sector.",
+          "timecode": "19:15",
+          "market": "global, per the firm's report"
+        }
+      ]
+    },
+    {
+      "path": "library/podcasts/transcripts/Recruiting Roadshow/2026-09-01-information-is-currency-clifton-jadoo-ii-formerly-at-robinhood-the-recruiting-ro.md",
+      "title": "Information Is currency | Clifton Jadoo II, formerly at Robinhood | The Recruiting Roadshow S2E6",
+      "date": "2026-09-01",
+      "guest": "Clifton Jadoo II - formerly Staff Technical Recruiter at Robinhood; prior roles at Plaid, Hinge, Webflow, Foursquare, Compass",
+      "vendor_flag": "Partial - the show is produced by and branded for Greenhouse (an ATS vendor), including outro links to Greenhouse's guidance content, but the conversation itself is not a Greenhouse product demo and Clifton does not work for Greenhouse or pitch its product by name.",
+      "market": "not stated (guest's career history is entirely US companies: Robinhood, Plaid, Hinge, Webflow, Foursquare, Compass)",
+      "angle": "A blunt, quotable stat contrasting inbound versus outbound conversion that a TA leader could use to justify shifting recruiter time away from inbound triage and toward sourcing, plus a concrete personal workflow (a self-built AI 'market research' routine) that is realistically within reach of a non-engineer using an AI chat tool.",
+      "points": [
+        {
+          "claim": "Inbound applications convert at roughly 2.5%, while a good technical recruiter's cold outbound converts at 20-30% - a clear case for shifting recruiter time from screening inbound toward proactive outbound.",
+          "evidence": "Specific conversion percentages given for inbound vs cold outbound",
+          "quote": "Inbound application success rate is probably like 2.5% whereas cold outbound a good tech recruiter might be sitting somewhere between like 20% and 30%",
+          "timecode": "15:27"
+        },
+        {
+          "claim": "Use an AI chat tool to build yourself a simple, reusable 'market research' routine that finds well-funded companies in a target location and turns that into a Boolean search string for LinkedIn, instead of manually trawling articles and spreadsheets.",
+          "evidence": "Guest's own described workflow, self-built without engineering help",
+          "quote": "I'm able to write like a simple quad code skull where it basically does my market research for a location... it basically looks up companies that are wellunded and then I tell it to make me a boolean search",
+          "timecode": "3:55"
+        },
+        {
+          "claim": "A well-written, keyword-optimised resume is no longer a useful signal on its own, because AI can generate one from a job description in seconds - recruiters need to re-index on other signals.",
+          "evidence": "Direct claim about resume signal being devalued by generative AI",
+          "quote": "What used to be signal back then is no longer a signal now. So now we are indexing like what other signals could we find.",
+          "timecode": "4:43"
+        },
+        {
+          "claim": "As companies scale from roughly 100 to 1,000 hires, what breaks first is calibration on 'what good looks like' - fix it with structured interview loops and written rubrics before buying new tooling, since tooling without process just scales the mess faster.",
+          "evidence": "Explicit framing of structure/process before technology at scale",
+          "quote": "if you don't have a good structure and you don't have a good process the technology would just only exacerbate it",
+          "timecode": "10:47"
+        },
+        {
+          "claim": "Two-factor-style identity verification (email confirmation codes, work-email verification) is becoming standard in ATSs to counter mass AI-generated applications flooding inbound pipelines.",
+          "evidence": "Described as an emerging ATS-level feature, industry-wide, not tied to one vendor",
+          "quote": "I think ATS's are they starting to have their own like verification... you would like once you apply you would be sent like a code to your email",
+          "timecode": "17:46"
+        }
+      ]
+    },
+    {
+      "path": "library/podcasts/transcripts/The Debrief/2026-08-06-ai-wont-replace-recruiters-but-ai-native-ta-teams-will-replace-yours-the-debrief.md",
+      "title": "AI Won't Replace Recruiters - But AI-Native TA Teams Will Replace Yours | The Debrief",
+      "date": "2026-08-06",
+      "guest": "Tracy (Saint Deepika), Talent leader at Zapier; Ben Cesar; Chris Abbass - co-hosts of The Debrief. Note: exact titles/companies for Ben and Chris are not fully stated in the transcript beyond a passing reference that Ben's tools include 'Bright Hire'.",
+      "vendor_flag": "Partial - Ben appears to be affiliated with Bright Hire (an interview-intelligence vendor), referenced once in passing ('whether it's implementing the tools that you work for, Zapier, Bright Hire'), so his commentary may carry a vendor lens even though this is a panel discussion, not a demo.",
+      "market": "not stated (Zapier and the general discussion are US-centric with no UK/EU figures)",
+      "angle": "The headline stat (90%+ of orgs have deployed AI in TA, but under 5% report transformational results) is a sharp, quotable gap a reader can use to reassure themselves that most competitors are also stuck at the 'bolt AI onto old process' stage, plus a concrete example of measurable dollar savings from building versus buying a tool.",
+      "points": [
+        {
+          "claim": "Over 90% of organisations have already deployed AI somewhere in talent acquisition, but fewer than 5% describe the outcome as truly transformational - most are just layering AI onto an unchanged process.",
+          "evidence": "90%+ deployment vs <5% transformational-outcomes figures, stated twice in the episode",
+          "quote": "More than 90% of organizations have deployed AI in talent acquisition, but fewer than 5% report transformational outcomes.",
+          "timecode": "0:02"
+        },
+        {
+          "claim": "82% of HR leaders plan to implement agentic AI within the next year, so a TA leader with no agentic AI plan yet is now behind the pack, not ahead of it.",
+          "evidence": "82% figure cited",
+          "quote": "82% of HR leaders plan to implement Aentic AI within the next year",
+          "timecode": "0:02"
+        },
+        {
+          "claim": "Building a small internal tool in-house instead of buying a third-party one produced a concrete, CFO-defensible saving of $30,000 in one case - a workable benchmark for justifying a build-vs-buy pitch.",
+          "evidence": "$30,000 figure cited by a Zapier talent leader for one specific internally-built tool replacing a paid vendor tool",
+          "quote": "we save $30,000 on this because we built it ourselves",
+          "timecode": "13:11",
+          "market": "not stated (US company)"
+        },
+        {
+          "claim": "Self-rate your own team's AI fluency honestly before investing further - even teams considered industry-leading rated themselves mostly as 'beginner' when surveyed live.",
+          "evidence": "Anecdote from the hosts' own live event polling of attendee companies",
+          "quote": "the vast majority... marked themselves as beginner... these were some of the you know best companies in the world",
+          "timecode": "10:07"
+        },
+        {
+          "claim": "A TA leader cannot outsource their own AI fluency to an ops or engineering team - leaders need hands-on experimentation time themselves to be able to set a credible team-wide vision.",
+          "evidence": "Explicit leadership advice from a practising TA leader (Zapier)",
+          "quote": "You cannot outsource your AI fluency to your operating team... If you as the leader of the talent team are not yourself experimenting and trying to build, you don't have to be the best builder... you are doing yourself a disservice",
+          "timecode": "26:49"
+        }
+      ]
+    }
+  ]
+}

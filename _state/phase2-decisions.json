@@ -1,0 +1,72 @@
+[
+ {
+  "phase": 2,
+  "source": "selection",
+  "what": "Podcasts: one per show, newest-first rule applied with reader fit. Chose PromptMates 15 Oct (Clay) over 16 Oct (Luma Claude Code build, needs engineer-level skill); Recruiting Future ep831 (14 Oct) over ep832 (guest sells AI workshops, thinner); Brainfood ep413. Skipped PromptMates 4 Oct hiring-brief clip (not newer than featured 4 Oct), Brainfood ep412, RF 829/830. Older items from these shows are now ineligible under never-go-backwards.",
+  "severity": "decision",
+  "resolved": "yes"
+ },
+ {
+  "phase": 2,
+  "source": "selection",
+  "what": "Newsletters: picked 4. TA Unboxed 9 Oct (one to watch, concrete steps) over 16 Oct Fluid Clock (concept, nothing to act on). RecOps 8 Oct (tool evaluation questions) over 15 Oct (abstract four problem types plus vendor lists). DDR 14 Oct over 8 Oct. PromptMates NL 13 Oct.",
+  "severity": "decision",
+  "resolved": "yes"
+ },
+ {
+  "phase": 2,
+  "source": "selection",
+  "what": "Reports: ISE excluded (members-only/paid, figures only from press), Bullhorn 6 Oct superseded by 13 Oct, kept Bullhorn 13 Oct, REC, iCIMS as partial/free summaries linked to free pages. Bullhorn flagged by check_duplicates as formulaic repeat of weekly series; fine.",
+  "severity": "decision",
+  "resolved": "yes"
+ },
+ {
+  "phase": 2,
+  "source": "selection",
+  "what": "Launches: only Workday Talent Acquisition Agent (tier B, only material release, single article in section 3). Metaview-Workday integration and Juicebox Smarter Sequences left out (integration / no detail). Workday is also the week's AI news item, so it is not duplicated in section 4; section 4 has no news item.",
+  "severity": "decision",
+  "resolved": "yes"
+ },
+ {
+  "phase": 2,
+  "source": "selection",
+  "what": "AI & Tech Picks: Lenny's Woodward (11 Oct) and AI & I Dots (7 Oct; 14 Oct investor episode fails subject gate so fell back to the newer-than-featured 7 Oct item). Dropped How I AI Muse episodes and AI For Humans (general model reviews / entertainment, second-hand claims, little reader use). Standout AI pick: Lenny's.",
+  "severity": "decision",
+  "resolved": "yes"
+ },
+ {
+  "phase": 2,
+  "source": "edition",
+  "what": "Edition line Version 8 (17th October 2026) and title date 17 Oct 2026, run date per coordinator decision. Old build 2026-10-07.html moved to _to_delete/ per PUBLISH step 1; published copy untouched.",
+  "severity": "decision",
+  "resolved": "yes"
+ },
+ {
+  "phase": 2,
+  "source": "links",
+  "what": "Gmail thread links unavailable (Gmail search denied in this session), so newsletter links in the build copy are public archive URLs. Step 6 public swap is then a no-op for these.",
+  "severity": "degraded",
+  "resolved": "no"
+ },
+ {
+  "phase": 2,
+  "source": "standouts",
+  "what": "Standouts: Podcast Clay, Newsletter DDR 82, Report REC, Launch Workday, AI pick Lenny's. Brainfood not used for podcast standout.",
+  "severity": "decision",
+  "resolved": "yes"
+ },
+ {
+  "phase": 2,
+  "source": "checks",
+  "what": "publish_check clean, final_check clean, run_check --pre clean, check_duplicates 5 formulaic-title flags (Bullhorn weekly x3, REC monthly, iCIMS monthly) all reviewed and fine; no dashes in body, no placeholders. Featured log 110 rows with 12 v7 rows intact; version.txt 7; nothing published or logged.",
+  "severity": "decision",
+  "resolved": "yes"
+ },
+ {
+  "phase": 2,
+  "source": "factcheck round 1 fixes",
+  "what": "Fixed 6 mismatches from source: DDR bullet 3 (removed 'UK', named Student Recruitment Survey 2026, Fabric 38.5% of candidates across 19,368 interviews, 'cheating detection software'); Recruiting Future bullet 1 (20% are shares of surveyed clients citing each reason, not UK and Ireland scoped); RecOps bullet 2 (onboarding point credited to Jason Miller); iCIMS bullet 2 (37 days, steady in the mid 30s all year); Workday bullet 3 ('no customer results were found'). Standouts and preview do not repeat these claims. final_check and publish_check clean.",
+  "severity": "decision",
+  "resolved": "yes"
+ }
+]

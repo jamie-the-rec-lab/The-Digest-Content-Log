@@ -1,0 +1,18 @@
+{
+ "date": "2026-10-17",
+ "round": 2,
+ "verdict": "pass",
+ "mismatches": [],
+ "unverifiable": [],
+ "notes": [
+  "Round 2: diffed the visible text of the build against round 1. Only the 5 items marked changed_round2 changed (6 lines fixed). Preview, standouts, labels and guest lines are unchanged.",
+  "Recruiting Future bullet 1 now matches the 6:12 transcript: about 20% of client companies cite AI, digital or automation and 20% cite a skills mismatch, with no UK and Ireland scope.",
+  "DDR bullet 3 now matches the source: names the ISE Student Recruitment Survey 2026, 92% up from 85% (dropping 'last year' is still accurate), Fabric 38.5% of candidates across 19,368 AI run interviews, sells cheating detection software.",
+  "RecOps bullet 2 now credits the onboarding point to Jason Miller, matching the source.",
+  "iCIMS bullet 2 matches the source: 18% below baseline, 29 applicants per opening, lowest of the year, retail time to fill 37 days, steady in the mid 30s all year.",
+  "Workday bullet 3 matches the source: 'no customer results were found'.",
+  "Edition line 'Version 8 (17th October 2026)' and title date '17 Oct 2026' still correct. The only dash is the permitted em dash in the head title. No banned words or tics.",
+  "Cosmetic only, not factual: 'Jason Miller's' uses a straight apostrophe while the rest of the page uses curly ones (’).",
+  "Round 1 verifications still stand (Clay title, Woodward title, Luke Eaton, Brainfood items from the library summary)."
+ ]
+}
