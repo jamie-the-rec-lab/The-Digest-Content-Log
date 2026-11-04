@@ -11,6 +11,7 @@ Format: date, what changed, why.
 
 ## 2026-11-04
 
+- 2026-11-04, `scripts/cloud_setup.sh`: record copy of the cloud environment's setup script (beautifulsoup4 for the email builder; tesseract and poppler for scanned PDFs, optional). The live copy is in the environment settings; change both together.
 - 2026-11-04, `scripts/fetch_transcripts.py` rewritten for the cloud: episode lists from each show's official YouTube RSS feed (Videos or Live tab only, so no Shorts), transcripts from TranscriptAPI, a new paragraph at each change of speaker. Same arguments and log events, so nothing else changed. New outcomes: `upcoming` (live stream not aired), `pending` (released under 12 hours ago, captions not ready, Jamie's call), `failed`/`gone`. `health_report.py` reports failed and pending episodes. `sources.yaml` uses channel ids, since an @handle has no feed. Why: YouTube bot-checks cloud machines, and the job does not get round bot checks.
 - 2026-11-04, library: renamed `Lenny_s Podcast` back to `Lenny's Podcast`. Why: the Drive zip download swapped the apostrophe for an underscore, which broke every featured-log path and made the fetcher treat all 57 episodes as new.
 - 2026-11-04, moved from Cowork on the laptop to a Claude Code cloud session. New `CLAUDE.md` holds the standing rules (replaces `SCHEDULE_PROMPT.md`, kept for history). Why: the laptop run stopped for weeks; the cloud runs without it.
