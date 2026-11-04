@@ -2,7 +2,7 @@
  "date": "2026-11-04",
  "dry_run": true,
  "version": 8,
- "edition_date": "4th November 2026",
+ "edition_date": "5th November 2026",
  "url": "https://thereclab-site-git-digest-review-the-rec-lab-s-projects.vercel.app/digest",
  "review_url": "https://thereclab-site-git-digest-review-the-rec-lab-s-projects.vercel.app/digest",
  "pr_number": 6,
@@ -41,5 +41,9 @@
    "severity": "degraded",
    "resolved": "no"
   }
- ]
+ ],
+ "merged": true,
+ "live": true,
+ "merged_by": "Jamie, via a Claude session",
+ "merge_commit": "12363f8"
 }
