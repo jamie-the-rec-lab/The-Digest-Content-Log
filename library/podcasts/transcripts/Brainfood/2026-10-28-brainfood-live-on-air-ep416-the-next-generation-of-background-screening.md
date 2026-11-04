@@ -1,3 +1,33 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Ben Mones, founder and CEO of Fama, an online behaviour screening company he has run for 11 years. He is on the show to launch his own product, Fama Lens, so every outcome figure below is a vendor claim  ·  **Show:** Brainfood Live On Air (host Hung Lee), 28 Oct 2026 (Ep 416)
+**Tags:** rec tech, ai agents, ai governance, ai bias, deepfake candidates, candidate fraud, reference checks, talent market data
+
+**When to use this:** you are reviewing which checks sit in your background screening package, or questioning a vendor that says its screening is AI-driven.
+
+**Big idea:** Mones argues screening should start from the employer's written policy on the behaviours it cares about, with agents applying it and a human tuning them, rather than from generic flags the employer has to interpret, and that identity checking now belongs at the top of the funnel.
+
+**Frameworks & plays:**
+- Mones describes onboarding as a 75 minute policy workshop, transcribed with a tool such as Granola or Whisper, turned into a draft by a policy-building agent and corrected by a human, taking two to four weeks. The useful part for a buyer is the questions: when you say "intolerance", do you mean behaviour towards colleagues, comments about public figures, or illegal drug use? Mones says many employer policies are "very intentionally vague" to limit liability.
+- Worked example from Mones: a brand selling to under-21s needed zero alcohol references. Lens flagged an influencer's ice cream cake that looked like a false positive until the agent log showed the recipe contained rum. Ask any AI screening vendor to show the log behind a flag.
+- Mones advises buyers to ask how much human involvement sits behind an "AI agent" product. His reasoning is that if the margin is software-like, it is just a feature that should not cost extra.
+- Mones says some customers are removing education and employment verification from their package and replacing it with identity or social media checks, and that drug testing is mostly kept for construction, manufacturing and oil. He recalls a retail executive worried about teams using a clear background check as a proxy for quality of hire.
+- Hung says identity should be verified continuously, not once, because of bait and switch candidates between interview stages.
+- Mones draws a line on AI use. He would not look at a candidate's private AI chats, but could imagine reviewing public GitHub commits to show AI skill. Hung would want the "how" (did they test the first answer) without the content.
+
+**Data & benchmarks:**
+- Mones claims Lens gives a 98% reduction in review time, average decisional rates falling from 14% to 1.5%, and one customer screening almost 10,000 people a year saving $450,000 on labour. These are his figures for one unnamed customer, not independently reported.
+- Mones puts Lens at 50 to 60% gross margin against 80 to low 90% for typical software, sold as a small extra fee per check on a product where about 90% of revenue is usage based. General release is 15 November.
+- Hung's informal poll of about 100 people on how they run checks gave 39% point solution, a quarter no checks at all and 13% ATS native, with the remainder manual.
+- Mones says 50% of the workforce is Gen Z and millennial, rising to 70% by 2028, without citing a source.
+
+**Tools & prompts:**
+- Fama Lens, described as a multi-agent consensus architecture with logs for each decision. Mones notes that screening firms bundle checks bought from other suppliers, such as social media screening from Fama and drug tests from a lab.
+
+**Steal this (do tomorrow):**
+- List every check in your current package and write the specific risk each one covers. Drop or replace any you cannot tie to a risk.
+- Before your next screening demo, ask three things: can you see the log behind a flag, how much human tuning is in the loop, and what are the consent and candidate-notification steps under the law that applies to you. Mones cites US law (FCRA) and GDPR, so check UK specifics separately.
+<!--/SUMMARY-->
 # Brainfood Live On Air  - Ep416 - The Next Generation of Background Screening
 
 - **Podcast:** Brainfood

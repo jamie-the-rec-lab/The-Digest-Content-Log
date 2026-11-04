@@ -1,0 +1,166 @@
+{
+ "run_date": "2026-11-04",
+ "items": [
+  {
+   "path": "library/podcasts/transcripts/Offer Accepted/0000-hiring-for-ai-skills-beyond-prompting-with-maksym-dziarmaga-loop-earplugs.md",
+   "show": "Offer Accepted",
+   "title": "Hiring for AI Skills Beyond Prompting",
+   "date": "",
+   "url": "https://www.youtube.com/watch?v=MyhjE_puI3s",
+   "guest_line": "Maksym Dziarmaga · TA operations and enablement @ Loop Earplugs",
+   "vendor_flag": "No product vendor. Show is sponsored by Ashby, which Loop uses (only mention: a score of 2 displays red in the ATS). The URL is taken from the timecode links in the body because the header URL is blank.",
+   "reader_fit": "Yes for in-house TA: a concrete 3-level AI scale, a three-stage check and a feedback-form gap to copy. Small-company, EU-based, light on candidate-facing question wording.",
+   "points": [
+    {
+     "claim": "AI level is set per role at intake, with questions on where AI will lift quality, growth, impact and speed in 6 to 12 months",
+     "evidence": "6 to 12 months; level chosen above company baseline",
+     "quote": "where AI is going to increase quality growth impact and speed in 6 to 12 months",
+     "timecode": "4:26"
+    },
+    {
+     "claim": "Loop uses Zapier's three-level scale and set the hiring floor at 2 (capable), although the executive team wanted 3",
+     "evidence": "Zapier scale levels 2, 3, 4; floor 2",
+     "quote": "we decided to use the scale created by Zapier and there are three levels two, three and four. Two being capable, three being adaptive",
+     "timecode": "5:43"
+    },
+    {
+     "claim": "Candidates are told to use AI in the 2 hour business case; those who paste output are exposed when probed",
+     "evidence": "2 hour case; AI check at recruiter screen, hiring manager interview, then case",
+     "quote": "we say please use AI if you Because we give you only 2 hours",
+     "timecode": "10:25"
+    },
+    {
+     "claim": "63% of interview feedback forms, mostly from hiring managers, did not mention AI at all (speaker's own figure)",
+     "evidence": "63% of feedback forms",
+     "quote": "63% of feedback forms mostly from hiring managers",
+     "timecode": "22:51"
+    },
+    {
+     "claim": "Hiring managers should be accountable for quality of hire in performance reviews (speaker's opinion)",
+     "evidence": "opinion; no figure",
+     "quote": "hiring managers should be held accountable a lot more for quality of hire during their performance review",
+     "timecode": "31:03"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/Offer Accepted/2026-10-20-halving-attrition-with-a-connected-career-framework-with-nic-weatherhead-the-ste.md",
+   "show": "Offer Accepted",
+   "title": "Halving Attrition With a Connected Career Framework",
+   "date": "2026-10-20",
+   "url": "https://www.youtube.com/watch?v=N500zEoKH7M",
+   "guest_line": "Nic Weatherhead · Global Vice President of People @ The Stepstone Group",
+   "vendor_flag": "Guest's employer, Stepstone, is a recruitment-tech company, but no product is promoted. Show is sponsored by Ashby (ad read only). The attrition result is self-reported, multi-causal and has no baseline figure.",
+   "reader_fit": "Partly. Useful method for TA leaders or HRBPs defining levels and linking hiring to retention, and the EU pay transparency point matters to UK firms hiring in the EU; light on numbers and templates.",
+   "points": [
+    {
+     "claim": "Mapping roles and levels first, then people; no compensation change for people in mismatched roles, a pathway instead",
+     "evidence": "policy: no compensation change; pathway to right level",
+     "quote": "we wouldn't change compensation that we would build a pathway for team members in terms of getting to to the right level for them",
+     "timecode": "17:22"
+    },
+    {
+     "claim": "Framework dimensions were scope, knowledge, autonomy and complexity, piloted on the recruitment team first",
+     "evidence": "four dimensions; dog fooded in recruitment",
+     "quote": "we looked at um scope, we looked at knowledge, we looked at autonomy, complexity",
+     "timecode": "7:34"
+    },
+    {
+     "claim": "AI agents change the meaning of scope (not direct reports) and autonomy (verification rather than supervision)",
+     "evidence": "super IC roles running agents; autonomy is about verification",
+     "quote": "a lot about verification. It's a lot about thinking differently about how you're not supervising so much. You're verifying information",
+     "timecode": "21:12"
+    },
+    {
+     "claim": "Attrition more than halved in one area, with several causes including the changed recruitment process",
+     "evidence": "attrition rates more than halved; no baseline given",
+     "quote": "We actually more than haveved the attrition rates.",
+     "timecode": "22:51"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/PromptMates/2026-10-21-talent-engineering-sourcing-frameworks.md",
+   "show": "PromptMates",
+   "title": "Talent Engineering: Sourcing Frameworks",
+   "date": "2026-10-21",
+   "url": "https://www.youtube.com/watch?v=U2uF9S58uFM",
+   "guest_line": "Bence Gedai · Talent Engineer @ ElevenLabs; Bryan Hong · Chief Systems Officer @ Wizard",
+   "vendor_flag": "Session sponsor Stitch (AI headhunter) gets roughly the first 12 minutes: its CEO Alex Wilson's claims (six times as many interviews booked weekly since July, 200,000 candidates narrowed to 500) are vendor claims and are not in the summary. Hong presents his own Talent One plugin, with no independent evidence. Gedai's employer ElevenLabs sells the voice agents he uses in outreach. The hosts promote their own AI Native Recruiter cohort.",
+   "reader_fit": "Yes for sourcers and TA ops with some technical appetite: concrete pipeline, build-versus-buy test and prompts. Examples are US/Poland-based design and engineering hiring; a UK recruiter can reuse the method and the Google Sheets level.",
+   "points": [
+    {
+     "claim": "Design team grew from 8 to 35 in a year, 60% sourced, after 30,000 inbound applications yielded one hire",
+     "evidence": "8 to 35 designers; 60% sourced; 30,000 inbound, 1 hire",
+     "quote": "we scaled the team from eight designers to 35. 60% of those people are sourced candidates.",
+     "timecode": "19:58"
+    },
+    {
+     "claim": "Build rather than buy when the bar is very high or niche, because off-the-shelf tools map only part of the pool",
+     "evidence": "roughly 60% of target pool mapped by existing tools; three build cases",
+     "quote": "you have a really high talent bar or a very niche position",
+     "timecode": "22:26"
+    },
+    {
+     "claim": "Evaluation ladder: decision tree in Google Sheets, then online signals, then a machine learning model needing thousands of candidates; >30,000 followers was a bad signal for designers",
+     "evidence": "at least thousands of candidates; 30,000 followers threshold",
+     "quote": "have more than let's say 30,000 followers, honestly that's a bad signal.",
+     "timecode": "37:55"
+    },
+    {
+     "claim": "Saved talent pool of about 300 designers was messaged for 17 new openings; 25 interviews booked, 5 to 7 hires expected",
+     "evidence": "300 designers; 17 openings; 25 interviews; 8 hours",
+     "quote": "We already have something like 25 interviews booked, and I would argue that we will hire five to seven of them.",
+     "timecode": "41:44"
+    },
+    {
+     "claim": "Hong's Talent One runs specialist assets in parallel as a DAG, cutting a sequential run from about 60 minutes to about 15",
+     "evidence": "60 minutes to about 15 minutes; about 11 agents, eight docs",
+     "quote": "this allows it to drop from like a 60-minute run time to like, I don't know, could be like 15 minutes",
+     "timecode": "50:42"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/PromptMates/2026-10-29-ai-for-people-operations.md",
+   "show": "PromptMates",
+   "title": "AI for People Operations",
+   "date": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=NoPWOBVtFZA",
+   "guest_line": "Jessica Zwaan · VP People Strategy & Operations @ Leapsome",
+   "vendor_flag": "Guest is a Leapsome executive and demos Leapsome's own HRIS features (vibe-coded dashboards, MCP) and a Leapsome ATS launch; praise of the product is vendor-sourced. Juicebox sponsor demo (about 11 minutes in the opening) contains vendor claims. Hosts promote their own HR cohort. Captions render the guest as 'Jesse Swan' and the case tool as 'Meritar/Maritana'; name taken from the episode description.",
+   "reader_fit": "Moderately. The AI-fluency case study and the process-change-then-analyse approach are reusable by UK in-house TA/HR; the dashboard demos need an HRIS with built-in vibe coding or an MCP, and the company is New York/Berlin hybrid.",
+   "points": [
+    {
+     "claim": "Opening 360 feedback to anyone raised cross-team links from 28% to almost 40% and doubled active links (guest's own measure at her employer)",
+     "evidence": "28% to almost 40% cross-team links; feedback volume doubled",
+     "quote": "So before I think we had 28% cross team links and now almost 40% of the team is um giving feedback on people that are in different teams.",
+     "timecode": "18:35"
+    },
+    {
+     "claim": "Connect HRIS data to Lovable or Claude through an MCP to build a simple competency-framework tool",
+     "evidence": "MCP; Lovable; competency framework plus PDF'd Notion notes",
+     "quote": "we can connect through to lovable or Claude or whatever um LLM you want to build on, and you can build artifacts or tools um on top",
+     "timecode": "28:37"
+    },
+    {
+     "claim": "AI fluency is assessed through a case study tool that logs the candidate's AI chat, capped at 50 messages, scored on four competencies by a human",
+     "evidence": "50 message cap; experimentation, judgment, craft, ownership; seeded errors",
+     "quote": "You have 50 messages back and forth. The reason we've capped it is most of our um case studies don't need more than 50.",
+     "timecode": "36:29"
+    },
+    {
+     "claim": "Wireframe to use with candidates in about 3 months, with an engineer's help",
+     "evidence": "about 3 months",
+     "quote": "from wireframe to in front of candidates being used in interviews, Maritana, I think in 3 months",
+     "timecode": "44:52"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Offer Accepted/0000-hiring-for-ai-skills-beyond-prompting-with-maksym-dziarmaga-loop-earplugs.md: Date, channel, duration and URL headers are blank and nothing in the body states a release date, so the date is a gap and the 0000- filename is left unchanged. Only the video id (MyhjE_puI3s) is recoverable from timecode links.",
+  "Offer Accepted Loop episode: guest surname comes from the filename/title (Maksym Dziarmaga); captions say 'Maxim'. Percentages (63%, 46%, 43%, 94%) are the speaker's recollection ('I believe') and the EU AI Act effective date is garbled in the captions ('as from 27'), so it is omitted.",
+  "PromptMates AI for People Operations: captions garble the guest name ('Jesse Swan') and tool name ('Meritar'/'Maritana'); the cross-department constructive-feedback figure at 25:10 is ambiguous ('50% 57%') and is omitted."
+ ]
+}

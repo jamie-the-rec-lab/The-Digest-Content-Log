@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Dan McCarthy, Senior Talent Engineer at Zapier, previously at Shopify where he taught himself to code at 40 and built tools for the recruiting team before generative AI  ·  **Show:** Building the Talent Machine (host Brandon Jeffs), 29 Oct 2026 (Ep 47)
+**Tags:** recruiting operations, building ai tools, rec tech, recruiter career growth, ai upskilling, ta leadership, recruiter productivity, human-ai collaboration
+
+**When to use this:** you are deciding whether to hire a talent engineer, or whether your team should build or buy a recruiting tool.
+
+**Big idea:** McCarthy argues the most valuable talent engineering skill is judging when not to build, because for most needs buying enterprise software beats maintaining your own, and automation should give recruiters more candidate time, not more time to build automations.
+
+**Frameworks & plays:**
+- Two JD shapes, per McCarthy. One is a rec ops person who handles admin, builds automations and rethinks workflows. The other is a greenfield role working directly with the head of talent. For the second, ask for proofs of concept, a recommended tech stack and a view on whether to run tools locally, on a host such as Vercel, or on the existing codebase.
+- Build or buy rule: do not rebuild what enterprise tools already do. He names Juicebox, Metaview and Pin and says he will not build a better one. Building small, specific tools is fine, for example a sourcing tool for a single conference with 10,000 attendees.
+- Before any build, ask who the stakeholders are, what the requirements and timeline are, who will maintain it and what the security risks are. His warning is that a tool can work on your laptop and be unusable by anyone else.
+- Guard against the time trap. McCarthy says the goal is to spend the saved time with candidates, for example 90 minutes with every candidate before offer instead of 30, not to use it to build more automation.
+- Assess candidates for discernment on build versus buy, and for learning speed and openness over a specific language. He says tools change week to week, so the soft skills bar rises.
+- A talent engineer should not hold reqs or run interviews. McCarthy suggests taking a few roles early on to learn the process, then staying in ops.
+- A speculative org idea from McCarthy: borrow the solutions engineer to account executive ratio from sales, so one talent engineer builds for a small niche group of recruiters. He says he may be wrong.
+
+**Data & benchmarks:**
+- McCarthy says a recruiting app took him about six months to build at Shopify before AI and would now take about six minutes. This is his own estimate.
+- He says engineers moving into talent engineering would take a pay cut, with no figures given.
+
+**Tools & prompts:**
+- Claude agents and MCP servers, which he says he was already using two years ago at Shopify. Juicebox, Metaview, Pin and LinkedIn Recruiter are the tools he says not to rebuild.
+
+**Contrarian take:**
+- McCarthy disagrees with the "just build" enthusiasm and says "the answer is usually not build".
+
+**Steal this (do tomorrow):**
+- Before approving the next internal tool request, answer in writing who maintains it in a year and what data it touches. If you cannot, buy.
+<!--/SUMMARY-->
 # Episode 047: Talent Engineering Hard Truths w/ Brandon Jeffs & Dan McCarthy
 
 - **Podcast:** Building the Talent Machine

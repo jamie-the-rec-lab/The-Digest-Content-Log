@@ -1,3 +1,36 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Adriano Herdman (co-founder of Move, an embedded talent consultancy for technology businesses; the host also says "Adriana") and Alla Pavlov (hands-on recruiter in Amsterdam who trains teams on AI). Herdman promotes his own skills pack, noted below  ·  **Show:** Brainfood Live On Air (host Hung Lee), 30 Oct 2026 (Ep 415)
+**Tags:** claude code, context engineering, recruiter workflow, hiring manager alignment, building ai tools, ai upskilling, ai agents, outbound sourcing
+
+**When to use this:** you repeat the same prompt chain every week, such as after an intake call, and want to package it, or you want a quick read on where your team sits on AI adoption.
+
+**Big idea:** The payoff from Claude in talent acquisition comes from packaging repeated tasks as reusable skills and sharing them, while the real gap in most teams is shared practice and measurement, not access to tools.
+
+**Frameworks & plays:**
+- Herdman's calibration play: after the intake call, upload the transcript and job spec, connect Clay (a free account gives about 200 credits a month, he says) and have Claude return six profiles across three tiers with the reason each was picked. Sent to the hiring manager, he says time to alignment fell from about 24 hours to as little as 10 minutes. It is for internal calibration only, with no outreach.
+- A skill stores a repeated process. Herdman's intake skill bundles three or four prompts that you would otherwise run in sequence. Pavlov's rule is "one skill, one job", and skills can call other skills, for example a tone-of-voice skill that includes a "delete AI words" skill.
+- Pavlov suggests building a skill by recording your screen as you do a repetitive task and letting Claude build it. Give it a dedicated folder, not your whole computer.
+- Pavlov's sourcing demo: add the Exa connector, paste the job description, and ask for candidates in one country with title, location, why they fit, gaps against the spec and draft outreach. She says the free tier covers roughly 50 to 100 profiles a day. She warns about GDPR, would not use LLMs for LinkedIn-related sourcing, and says always tell candidates how you found them.
+- Herdman's agent point: sourcing tools surface the same high-signal profiles everyone is messaging. Teach the agent what a good recruiter does, such as pinging colleagues of a target who never update their own profile.
+- Pavlov runs a Claude scheduled task that drafts three LinkedIn post ideas a day in her voice, which she reviews before posting.
+- Pavlov's safety advice is to install skills only from sources you trust and says thumbs-up or thumbs-down feedback sends the whole chat to the vendor's team.
+
+**Data & benchmarks:**
+- Herdman's self-reported LinkedIn survey of 162 in-house respondents, mostly heads of TA, used his own four levels (ad hoc, experimenting, operationalised, orchestrated). 89% were at level one or two, and few had thought about how to measure AI impact.
+- Hung's live poll on what people want Claude to do: sourcing about 40%, reports and intelligence about 30%, assessing about 13%, admin about 8%. It is a self-selected live audience.
+- Hung says Google AI summaries appeared on about 30% of queries six months ago and now about 80%, without a source.
+
+**Tools & prompts:**
+- Claude skills, projects, connectors, scheduled tasks and Claude Design; Clay for profile data; Exa and Parallel Search for web search.
+
+**Contrarian take:**
+- Hung argues recruiting should move toward local or on-premise AI because of IP leakage to competitors, undisclosed model re-routing and guardrail refusals. He offers no evidence for the re-routing claim beyond saying it exists.
+
+**Steal this (do tomorrow):**
+- Pick the one prompt chain you run after every intake call and write it as a single skill, then share it in a team folder.
+- Place your team on Herdman's four levels and name one metric you will use to judge AI impact.
+<!--/SUMMARY-->
 # Brainfood Live On Air   Ep415   How to Use Claude for Talent Acquisition
 
 - **Podcast:** Brainfood

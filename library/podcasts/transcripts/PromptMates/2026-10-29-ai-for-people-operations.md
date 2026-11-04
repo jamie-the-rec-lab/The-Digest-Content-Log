@@ -1,3 +1,33 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Jessica Zwaan, VP People Strategy and Operations at Leapsome (an HRIS vendor) and author of two books on treating people operations like a product.  ·  **Show:** PromptMates, 29 Oct 2026
+**Tags:** building ai tools, ai upskilling, take-home assessments, interview design, recruiting operations, talent density, recruiting enablement, ai sourcing
+
+**When to use this:** your people or TA team wants to build its own AI tools, or you need a way to assess AI fluency without adding another interview.
+
+**Big idea:** Change the process first, then use AI to analyse the larger data set it creates, and build small tools on top of the HR system before commissioning engineering.
+
+**Frameworks & plays:**
+- Zwaan opened 360 feedback to anyone in the company, anonymous to the giver, instead of letting people nominate reviewers. She then built an organisational network analysis dashboard by prompting inside her HRIS. She reports cross-team feedback links rose from 28% to almost 40% and the volume of feedback roughly doubled. This is one company and her own measure.
+- Use AI to test a hypothesis on historical data. She says she can rerun the same analysis on performance reviews from 3 years ago instead of running a year-long A/B test, and she checked the worry that heavy peer feedback skews manager scores.
+- Where the HRIS cannot be vibe coded, connect an MCP to a builder such as Lovable or Claude. She fed in her competency framework data plus a PDF of her notes on promotions and merit, and got a simple tool with an individual and manager toggle. It replaces a large competency spreadsheet for promotion conversations.
+- Assess AI fluency without another interview. Her team built a case study tool where candidates work with an AI assistant capped at 50 messages. The transcript is scored on experimentation, judgement, craft and ownership, candidates must catch seeded errors, and a human (not the AI) marks it. An hour-long call then walks the candidate through their choices.
+- Her process is talent screening, a bar-raising interview plus this case, a founder and leaders interview, then an offer.
+- Run a weekly "block and tackle": 30 minutes where the team lists fiddly admin problems, one person screen-shares and the group solves one, then shares the fix.
+
+**Data & benchmarks:**
+- She says wireframe to live use with candidates took about 3 months, versus a quarter or longer to test a wireframe before, with an engineer on the team.
+- On talent density she cites SaaS ARR per head of 300,000 to 400,000 dollars as historically healthy and some firms now at 6 to 7 million dollars. She gave no source.
+- Juicebox (the session sponsor) says its demo found a pool of about 1,700 profiles with an estimated 450 to 850 above the bar. That is a vendor demo, not a result.
+
+**Tools & prompts:**
+- Leapsome dashboards and MCP, Lovable, Claude artifacts, Netlify, Juicebox, and Whisper Flow dictation for notes.
+
+**Steal this (do tomorrow):**
+- Pick one process worth measuring, change it first, and only then ask an AI to analyse the new data.
+- Replace a proposed extra "AI interview" with a candidate task that records how they worked with the AI.
+- Start a 30 minute weekly problem-solving slot for your team's admin pain points.
+<!--/SUMMARY-->
 # AI for People Operations
 
 - **Podcast:** PromptMates

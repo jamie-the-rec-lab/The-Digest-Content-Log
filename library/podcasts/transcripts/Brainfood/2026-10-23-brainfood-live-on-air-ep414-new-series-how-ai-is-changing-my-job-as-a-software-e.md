@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Andrew Lawson (engineering director, Monzo), Josh (fractional CTO, ten years at Red Hat; his surname is given inconsistently in the transcript) and Simon Hammond (data science background, joining Azuna), three practitioners describing how AI changed their daily engineering work, hosted by Hung Lee  ·  **Show:** Brainfood Live On Air, 23 Oct 2026 (Ep 414)
+**Tags:** engineering hiring, ai coding tools, human-ai collaboration, early career talent, ai upskilling, talent market data, skills-based hiring
+
+**When to use this:** you are writing or rewriting an engineering job spec or interview loop and need to know what the work now actually consists of.
+
+**Big idea:** Engineering has shifted from typing code to specifying, breaking down and judging what agents produce, so the scarce skill is knowing which decisions matter and why, not knowing syntax.
+
+**Frameworks & plays:**
+- Josh says agent output is only as consistent as your specification. Any design choice you leave open is a coin flip the agent re-flips every time, so strong engineers state opinions on the choices that matter. He also says asking the same agent to double-check best practices and review at expert level gives a better result than a generic prompt such as "create a login page and add two-factor".
+- Josh separates "syntax engineers", who know a language and ship small tasks reliably, from engineers who understand the impact of what they build. He argues the second group gets far more from AI because the quality of the prompt comes from judgement. In a screen, ask which parts of a system a candidate would pin down (scale, modularity, interfaces) and which they would let the agent decide.
+- Josh asks teams to decide what level they delegate at. Many work one level down: they set the goal, split it into components, write the tickets and have agents build each component, which gives more control than prompting for a whole product. Ask candidates which level they work at.
+- Opening code contribution to the whole company failed in one organisation Josh consulted for. Everyone could auto-generate a merge request and engineering, as gatekeeper to production, was swamped. His fix is rules of engagement for how a change is proposed and evaluated. Andrew's complement is for engineers to help lawyers, finance and sales automate their own work safely rather than act as "helicopter parents".
+- Andrew says Monzo's product managers and designers already write code to prototype, and expects most people to become "technical" with different leanings. Simon describes his own path from autocomplete, to Cursor, to approving everything, to acting as a technical product manager who writes the spec.
+- On juniors, Andrew suggests raising expectations of AI-fluent entrants rather than giving them the boring tasks AI now does.
+- To guard against skills fade, Josh deliberately reads the man page before asking Claude. Hung cites John Vlastelica's phrase "intentional inefficiency" for doing the step-by-step version first.
+
+**Data & benchmarks:**
+- Hung says junior engineering vacancies are down "10 15% 20%". He gives no source and says it is what people are talking about.
+- Andrew dates the step change to Claude Code arriving, which he places in spring of the previous year. Hung dates GitHub Copilot to mid-2021 and ChatGPT to November 2022, from memory.
+
+**Tools & prompts:**
+- Claude Code is described by Josh as an agent that takes a project or blueprint and iterates until the goal is met, unlike earlier autocomplete tools such as Copilot.
+
+**Contrarian take:**
+- Josh argues that most code on GitHub was written by people who barely know what they are doing, so a generic prompt returns mediocre output and you must ask explicitly for expert-level review.
+
+**Steal this (do tomorrow):**
+- In your next engineering brief, replace the language and framework list with one question: describe a time you gave an AI agent a task, which decisions you pinned down, which you left to it, and how you checked the result.
+<!--/SUMMARY-->
 # Brainfood Live On Air   Ep414   New Series  How AI is Changing My Job  as A Software Engineer
 
 - **Podcast:** Brainfood

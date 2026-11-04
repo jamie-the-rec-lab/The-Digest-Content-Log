@@ -1,3 +1,33 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Nic Weatherhead, Global Vice President of People at The Stepstone Group and formerly a long-time talent leader at Google, who rebuilt a 32-country group's recruitment process and career framework together.  ·  **Show:** Offer Accepted, 20 Oct 2026
+**Tags:** retention, internal mobility, quality of hire, human-ai collaboration, ta leadership, stakeholder management, interview design, onboarding
+
+**When to use this:** hires keep leaving because nobody defined what success looks like, or you are being asked to redesign levels and job families while AI changes the roles.
+
+**Big idea:** Attrition is partly a hiring problem, so define each role and level first, then connect hiring, onboarding, performance and progression to that one definition.
+
+**Frameworks & plays:**
+- Start by writing down what good looks like in the role. Weatherhead's team realised that a world-class recruitment process still fails if nobody can describe what success looks like once the hire joins.
+- Build the framework from roles and levels only, then map people onto it afterwards. Most people fell close to the right level. Where someone sat in a bigger or smaller role than expected, the stated policy was that compensation would not change, and a pathway to the right level would be built instead.
+- Structure the framework on scope, knowledge, autonomy and complexity, then decide what each means for your own organisation. Separate core business skills from domain-specific skills, and keep the list short, because the team kept wanting to add items.
+- Pilot it on the recruitment team first ("dog fooding"). The team asked how to move from mid-level to senior, which made them willing participants, and it surfaced how to support managers through the change before rollout.
+- Sit down with each business leader and ask what the organisation needs to look like in 12 months and 18 months, and what skills that implies against today's. Weatherhead called this the most valuable part of the project.
+- Use recruiting as an early signal of changing roles. What recruiters see in the market on skills can tell leaders where roles are shifting before internal data does.
+- Redefine the framework dimensions for AI. Scope should not rest on direct reports when people run agents. Autonomy becomes more about verification than supervision. Complexity becomes whether a problem is brand new, or has missing information, rather than how big it is.
+
+**Data & benchmarks:**
+- Weatherhead says attrition in one critical business area "more than halved". She is clear that several changes contributed, including the new recruitment process and changed sales skills, and gave no baseline figure. Treat it as a single self-reported result.
+- The group grew by acquisition across 32 countries and was "hiring in 32 different ways".
+- The EU Pay Transparency Directive (she calls it the EU pay transparency act) pushed the total rewards team to get clarity across levels and roles.
+
+**Contrarian take:**
+- Weatherhead says interviews are broken and should be rethought, not tweaked, with live collaboration on a novel problem instead of "tell me about a time when". She admits she has no full answer, and the host notes work trials are hard for candidates who hold jobs.
+
+**Steal this (do tomorrow):**
+- Pick one team you own and write the role and level definitions for it before you map any individual, as a pilot.
+- Book 30 minutes with one business leader and ask the 12 month and 18 month skills question.
+<!--/SUMMARY-->
 # Halving Attrition With a Connected Career Framework with Nic Weatherhead, The Stepstone Group
 
 - **Podcast:** Offer Accepted

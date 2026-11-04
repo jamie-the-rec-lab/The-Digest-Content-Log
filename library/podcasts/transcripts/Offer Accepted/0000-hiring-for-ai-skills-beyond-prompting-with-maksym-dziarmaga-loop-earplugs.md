@@ -1,3 +1,36 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Maksym Dziarmaga, who runs TA operations and enablement and still recruits at Loop Earplugs (the transcript spells his first name "Maxim"), and who has built AI capability checks into a startup's whole hiring funnel.  ·  **Show:** Offer Accepted, date not stated in the source
+**Tags:** ai upskilling, interview design, skills-based hiring, hiring manager alignment, candidate calibration, ai governance, quality of hire, recruiting enablement
+
+**When to use this:** you have been told to hire for AI fluency but have no scale, no agreed interview question and no way to keep interviewers consistent.
+
+**Big idea:** Set the required AI level at intake, check it at three stages, and treat judgement and critical thinking as the real signal, because anyone can show prompting skill.
+
+**Frameworks & plays:**
+- At intake, the hiring manager and their people business partner decide how much AI matters for the role above the company baseline. The intake questions ask where AI helps the role now, where it will lift quality, growth, impact and speed in 6 to 12 months, and what level the person needs.
+- Use a three-level scale borrowed from Zapier: 2 is capable, 3 is adaptive and 4 is transformative. Loop set the hiring floor at 2. The executive team wanted 3, but the TA team argued that nobody would pass, that some existing staff sit at 2, and that a role may not need more.
+- Check AI at three points: an AI question at the recruiter screen as a first gate, a hiring manager interview, then a business case. The case is a normal role task with a 2 hour limit, and candidates are told to use AI. Anyone who pastes output cannot answer probing follow-ups, so you see the prompting but not the thinking.
+- Ask one deliberately broad STAR question about using AI, then probe for the point where the candidate applied critical thinking. Dziarmaga says this is where people fail most often, by shipping what the AI produced.
+- Tell candidates why you are asking before you ask. A good signal is a candidate who names a tool you have not heard of and explains what it does, even if their employer would not pay for it.
+- Alongside hiring, Loop runs AI stewards (curious colleagues from each department, explicitly not experts) and an AI governance committee that vets tools before anyone uses them openly.
+
+**Data & benchmarks:**
+- Dziarmaga says 63% of interview feedback forms, mostly from hiring managers, did not mention AI at all, although his own digging showed the topic was often covered.
+- He says about 46% of candidates were rated at the same level by different interviewers and about 43% differed by one level (2 versus 3, or 3 versus 4). He puts agreement on capable versus not capable at about 94%. He gave these from memory ("I believe").
+- Loop grew from 30 people to 360 over four years, per Dziarmaga.
+
+**Tools & prompts:**
+- Ashby, the ATS, shows a score of 2 in red. Loop had to run change management to explain that 2 means capable and is not a fail.
+
+**Contrarian take:**
+- Dziarmaga argues hiring managers should be held accountable for quality of hire in their own performance reviews, because they take decisions lightly and nobody checks the team a year later. The host replied that most firms treat quality of hire as information rather than accountability for now.
+
+**Steal this (do tomorrow):**
+- Add a required AI level (2, 3 or 4) and the question "where will AI improve this role in 6 to 12 months" to your next intake form.
+- Add an AI rating line to your interview feedback form, since most of his forms left it blank.
+- Tell candidates to use AI on your next take-home, then spend the interview probing the choices they made.
+<!--/SUMMARY-->
 # Hiring for AI Skills Beyond Prompting with Maksym Dziarmaga, Loop Earplugs
 
 - **Podcast:** Offer Accepted

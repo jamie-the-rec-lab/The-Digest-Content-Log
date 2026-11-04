@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Bence Gedai, Talent Engineer leading growth recruiting at ElevenLabs, and Bryan Hong, Chief Systems Officer at Wizard, one an engineer turned recruiter and the other a recruiter turned engineer.  ·  **Show:** PromptMates, 21 Oct 2026
+**Tags:** ai sourcing, building ai tools, claude code, talent pools, outbound sourcing, talent mapping, recruiter workflow, rec tech
+
+**When to use this:** you need to source a niche or high-bar role, or build a repeatable AI sourcing workflow, and are deciding whether to build it yourself or buy a tool.
+
+**Big idea:** Sourcing automation works as a flywheel of signals, enrichment, classification, evaluation and a saved talent pool, built in small pieces by the recruiter who has the context.
+
+**Frameworks & plays:**
+- Gedai's loop is signals, then enrichment, then classification, then automated evaluation, then human review, then a talent pool that feeds back into better signals. He says the end goal is a flywheel where each sourced person makes the next search easier.
+- Signals he names: look-alike searches from a list of people you like ("Find me similar people"), network discovery ("great people know other great people") by finding accounts followed or engaged with by 50 known strong people, and conference speakers, newsletters and portfolio credits. A simple look-alike prompt on 50 people returned another 50, of which 10 to 15 were strong.
+- Classify with a plain-language definition. His designer filter states who counts as relevant and who does not (for example developer advocates), plus a seniority check and a check that the profile is an individual.
+- Evaluate in levels. Level one is a decision tree you can run in Google Sheets. Level two adds online signals. Level three is a machine learning model, which he says needs at least thousands of candidates. His model found that a designer with over 30,000 followers was a bad signal.
+- Build, do not buy, in three cases: a very high talent bar or niche role, volume hiring such as 5 to 15 engineering roles a quarter, or where the candidates you surface face less competition. He says off-the-shelf tools covered roughly 60% of his target pool.
+- Aim for 20 to 50 high-signal candidates, not 10,000 profiles. Keep automations lean, keep one source of truth, and build for yourself first because rolling out to a team takes at least 3 times longer.
+- Hong's Talent One plugin for Claude Cowork runs eight specialist assets in parallel as a directed acyclic graph with a final QA and alignment step. He says this cut a 60 minute sequential run to about 15 minutes, and changing one input, such as salary, updates only the affected assets.
+
+**Data & benchmarks:**
+- Gedai says ElevenLabs grew its design team from 8 to 35 in a year, 60% sourced, and that he went through 30,000 inbound applications and hired one.
+- He quotes about a 20% talent pass rate, then about 20% at hiring manager review, which he put at roughly 4% overall conversion for his very high bar.
+- He reached a pool of about 300 designers in about 8 hours for 17 new openings, with about 25 interviews booked and 5 to 7 hires expected. These are his projections, not results.
+
+**Tools & prompts:**
+- n8n, Retool, Claude Code and Cowork are named, with Apollo for work history, Clay for enrichment and the X API for signals. On n8n, both guests say the hard part is security and API key rollout across a team.
+
+**Steal this (do tomorrow):**
+- Take your 20 best past hires, ask an LLM for look-alikes and review the first 20 by hand.
+- Save every strong candidate you find into one pool, and contact the pool again every 3 to 6 months.
+- Write a three-line definition of who is relevant and who is not before you automate any filter.
+<!--/SUMMARY-->
 # Talent Engineering: Sourcing Frameworks
 
 - **Podcast:** PromptMates

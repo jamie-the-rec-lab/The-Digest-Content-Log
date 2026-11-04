@@ -1,0 +1,222 @@
+{
+ "run_date": "2026-11-04",
+ "items": [
+  {
+   "path": "library/podcasts/transcripts/Brainfood/2026-10-23-brainfood-live-on-air-ep414-new-series-how-ai-is-changing-my-job-as-a-software-e.md",
+   "show": "Brainfood",
+   "title": "Brainfood Live On Air: New Series, How AI Is Changing My Job as a Software Engineer",
+   "date": "2026-10-23",
+   "url": "https://www.youtube.com/watch?v=GgQJ1ZwITfA",
+   "guest_line": "Andrew Lawson \u00b7 Engineering Director @ Monzo; Josh (surname inconsistent in transcript) \u00b7 Fractional CTO; Simon Hammond \u00b7 data science background, joining Azuna",
+   "vendor_flag": "No vendor behind a product. Show sponsor Greenhouse gets a read at 3:24 (AI voice interviewer); not part of the discussion.",
+   "reader_fit": "Moderate: a UK in-house or agency tech recruiter gets a practical view of how the engineering role and its junior pipeline are changing, but the content is opinion from three engineers, with few figures.",
+   "points": [
+    {
+     "claim": "Unspecified design choices become coin flips the agent re-flips each time, so strong engineers state opinions on the choices that matter",
+     "evidence": "Josh, no figure",
+     "quote": "anything you don't specify, you're asking the agent to flip the coin for you",
+     "timecode": "27:59"
+    },
+    {
+     "claim": "Engineers who understand impact beyond syntax get more from AI, which is a screening signal",
+     "evidence": "Josh, 'syntax engineers'",
+     "quote": "that person can excel with AI in a way that those who were kind of just knowing the syntax aren't",
+     "timecode": "51:25"
+    },
+    {
+     "claim": "Letting everyone submit auto-generated code swamped the engineering gatekeepers in one consulted organisation",
+     "evidence": "Josh, one unnamed organisation",
+     "quote": "the whole rest of the organization drowned them in submissions and ideas and contributions",
+     "timecode": "43:49"
+    },
+    {
+     "claim": "Junior engineering vacancies are said to have fallen sharply, unsourced",
+     "evidence": "Host Hung Lee: 10 to 20% decline, no source given",
+     "quote": "People are talking about 10 15% 20% decline of vacancy.",
+     "timecode": "53:58"
+    },
+    {
+     "claim": "Raise expectations of AI-fluent juniors instead of giving them boring tasks",
+     "evidence": "Andrew Lawson",
+     "quote": "change the expectations that we have of junior engineers and actually expect much more of them",
+     "timecode": "59:05"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/Brainfood/2026-10-28-brainfood-live-on-air-ep416-the-next-generation-of-background-screening.md",
+   "show": "Brainfood",
+   "title": "Brainfood Live On Air: The Next Generation of Background Screening",
+   "date": "2026-10-28",
+   "url": "https://www.youtube.com/watch?v=azW3Oa6smDo",
+   "guest_line": "Ben Mones \u00b7 Founder and CEO @ Fama",
+   "vendor_flag": "YES. Guest is CEO of Fama and is launching Fama Lens (GA 15 Nov). All outcome figures (98% review time, 14% to 1.5% decisional rate, $450,000 saved) are his own claims about unnamed customers.",
+   "reader_fit": "Moderate: practical questions to ask a screening vendor and a view on package mix, but examples and law cited are US (FCRA); only GDPR is mentioned for Europe and nothing UK-specific beyond a cannabis aside.",
+   "points": [
+    {
+     "claim": "Lens is onboarded through a 75 minute policy workshop and a human-corrected policy agent, taking two to four weeks",
+     "evidence": "Mones, vendor description",
+     "quote": "a 75minute policy workshop",
+     "timecode": "22:32"
+    },
+    {
+     "claim": "Vendor claims on Lens outcomes",
+     "evidence": "Mones: 98% reduction in review time, decisional rates 14% to 1.5%, one customer saved $450,000 on labour (vendor claim, unnamed customer)",
+     "quote": "98% reduction in review time. Average decisional rates dropped from 14 to one and a half percent.",
+     "timecode": "20:14"
+    },
+    {
+     "claim": "Employer policies are often deliberately vague, so discovery questions are needed",
+     "evidence": "Mones",
+     "quote": "a lot of companies policies are like very intentionally general, very intentionally vague",
+     "timecode": "21:35"
+    },
+    {
+     "claim": "Agent log revealed the rum recipe behind an apparent false positive on an alcohol-free brand policy",
+     "evidence": "Mones worked example",
+     "quote": "In the freaking recipe for the ice cream cake was rum.",
+     "timecode": "24:49"
+    },
+    {
+     "claim": "Ask AI product vendors how much human involvement sits behind it",
+     "evidence": "Mones; Lens line at 50 to 60% gross margin",
+     "quote": "ask about the level of human co-pilot that's associated with it",
+     "timecode": "27:17"
+    },
+    {
+     "claim": "Hung's informal poll of how teams run checks",
+     "evidence": "About 100 votes: 39% point solution, a quarter no checks, 13% ATS",
+     "quote": "Point solution. We have 39%.",
+     "timecode": "34:04"
+    },
+    {
+     "claim": "Would not look at candidates' private AI chats",
+     "evidence": "Mones",
+     "quote": "as far as like looking at what they're saying to AI, hell no.",
+     "timecode": "51:40"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/Brainfood/2026-10-30-brainfood-live-on-air-ep415-how-to-use-claude-for-talent-acquisition.md",
+   "show": "Brainfood",
+   "title": "Brainfood Live On Air: How to Use Claude for Talent Acquisition",
+   "date": "2026-10-30",
+   "url": "https://www.youtube.com/watch?v=l7ulRFqNU3U",
+   "guest_line": "Adriano Herdman (host also says Adriana) \u00b7 Co-founder @ Move; Alla Pavlov \u00b7 hands-on recruiter and AI trainer, Amsterdam",
+   "vendor_flag": "Partly. Herdman co-founded Move and promotes his own 24-skill plugin pack (email-gated, 10:40 to 21:05). Greenhouse sponsor read at 38:18. Both guests are Claude advocates who train or sell AI enablement.",
+   "reader_fit": "High: a UK recruiter can copy the intake calibration play, the skill-building steps and the Exa sourcing connector setup today, with GDPR caution flagged by Pavlov.",
+   "points": [
+    {
+     "claim": "Intake calibration play: transcript plus spec through Clay gives six profiles across three tiers",
+     "evidence": "Herdman: time to alignment from 24 hours to 10 minutes (self-reported)",
+     "quote": "pull together six profiles across three tiers in 2 minutes",
+     "timecode": "18:14"
+    },
+    {
+     "claim": "Time to alignment fell with the skill",
+     "evidence": "Herdman, self-reported",
+     "quote": "can be 10 minutes. It used to be 24 hours.",
+     "timecode": "18:59"
+    },
+    {
+     "claim": "Skill design rule",
+     "evidence": "Pavlov",
+     "quote": "one important thing one skill one job",
+     "timecode": "26:50"
+    },
+    {
+     "claim": "Build a skill by recording a repetitive task",
+     "evidence": "Pavlov",
+     "quote": "Claude building the skill out of it and test it",
+     "timecode": "29:17"
+    },
+    {
+     "claim": "Exa free tier covers modest sourcing volume",
+     "evidence": "Pavlov: about 50 to 100 profiles a day on the free plan",
+     "quote": "free plan is enough to source maybe let's say up to 50 100 profiles a day",
+     "timecode": "33:36"
+    },
+    {
+     "claim": "Always tell candidates how you found them",
+     "evidence": "Pavlov, GDPR caution",
+     "quote": "always mention how did you find the profiles",
+     "timecode": "32:25"
+    },
+    {
+     "claim": "Teach agents what good recruiters know beyond obvious profile matches",
+     "evidence": "Herdman",
+     "quote": "they work with another 10 people in that business that haven't updated their profile ever",
+     "timecode": "54:24"
+    },
+    {
+     "claim": "Adoption survey: most at ad hoc or experimenting",
+     "evidence": "Herdman self-reported LinkedIn survey, 162 in-house respondents",
+     "quote": "89% were at level one or two",
+     "timecode": "41:47"
+    },
+    {
+     "claim": "Live poll on wanted Claude use",
+     "evidence": "Hung Lee: sourcing about 40%",
+     "quote": "about 40% of people who voted saying sourcing is number one",
+     "timecode": "22:59"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/Building the Talent Machine/2026-10-29-episode-047-talent-engineering-hard-truths-w-brandon-jeffs-dan-mccarthy.md",
+   "show": "Building the Talent Machine",
+   "title": "Talent Engineering Hard Truths",
+   "date": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=xY2OLbPRskw",
+   "guest_line": "Dan McCarthy \u00b7 Senior Talent Engineer @ Zapier",
+   "vendor_flag": "No product praised. Zapier is an automation vendor but McCarthy pitches none of its products.",
+   "reader_fit": "High for TA ops and leaders: build-versus-buy rules and pre-build checks apply to UK teams; speaker is US-based and pay comments are not UK-specific.",
+   "points": [
+    {
+     "claim": "The key skill is knowing what not to build",
+     "evidence": "McCarthy",
+     "quote": "it's about building, but it's also about knowing when to tell you what not to build.",
+     "timecode": "15:26"
+    },
+    {
+     "claim": "Do not rebuild enterprise tools",
+     "evidence": "McCarthy, names Juicebox, Metaview, Pin",
+     "quote": "I'm not going to rebuild enterprise software because I'm not going to build it better.",
+     "timecode": "16:20"
+    },
+    {
+     "claim": "Maintenance burden is the reason to buy",
+     "evidence": "McCarthy",
+     "quote": "most software engineers at most companies are not building new features, they're maintaining current ones",
+     "timecode": "17:24"
+    },
+    {
+     "claim": "Reinvest saved time in candidates: 90 minutes versus 30 before offer",
+     "evidence": "McCarthy, stated as a goal not a result",
+     "quote": "now instead of spending 30 minutes before offer, I get to spend 90 minutes with every candidate before offer.",
+     "timecode": "29:14"
+    },
+    {
+     "claim": "Local-only builds cannot be used by others",
+     "evidence": "McCarthy",
+     "quote": "works on your computer but guess what no one else can use it",
+     "timecode": "38:40"
+    },
+    {
+     "claim": "Engineers moving into talent engineering take lower pay",
+     "evidence": "McCarthy, no figures",
+     "quote": "I don't get paid the way a software engineer gets paid.",
+     "timecode": "32:49"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Brainfood Ep 414: panellist Josh's surname is given as Hoffman and Gordon by the host; left as 'Josh'.",
+  "Brainfood Ep 415: guest first name appears as Adriano (guest speech) and Adriana (host); surname Herdman taken from host. Alla Pavlov also appears as Pavlova.",
+  "Brainfood Ep 416: company appears as FMA/Farmer/Fama in the auto transcript; spelling Fama taken from the episode description. Identity vendor names garbled in transcript, not recorded. The 69% figure in Ep 415 is cut off and not used.",
+  "Building the Talent Machine Ep 47: ATS name garbled ('Ashb'), not recorded.",
+  "No dates missing; all four dates from file headers."
+ ]
+}
