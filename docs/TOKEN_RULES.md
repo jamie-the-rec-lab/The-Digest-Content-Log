@@ -104,7 +104,13 @@ comes back.
 
 ## 6. Match the model to the job
 
-**Sonnet for everything that reads a source.** Pulling facts out of a transcript,
+**Since November 2026 everything runs on Opus 5.5** (Jamie's call), so the
+reasoning below is now a floor, not the setting: nothing that reads a source or
+writes copy may run on less than Sonnet, and by default all of it runs on Opus
+5.5. If usage becomes a problem, the transcript readers are the first thing to
+move back to Sonnet, and never the fact-check.
+
+**At least Sonnet for everything that reads a source.** Pulling facts out of a transcript,
 writing the library summaries, tagging, returning key points. This was tested on
 27 August 2026: a smaller model got the figures right but missed the judgement
 that makes an archive worth having. It did not flag that a guest was the vendor
@@ -114,7 +120,7 @@ and it labelled a comfortable prediction as a contrarian take.
 None of those are accuracy failures. They are the difference between evidence
 you can take to a client and marketing you have accidentally repeated.
 
-**Sonnet or better for the writing.** The bullets, the "This week in the world of recruiting" preview
+**At least Sonnet for the writing** (Opus 5.5 by default). The bullets, the "This week in the world of recruiting" preview
 and the standouts are the product. The main job writes these itself.
 
 **Strongest available for the fact-check.** Never anything less, under any
