@@ -19,7 +19,8 @@ slack:
   dm: U0B5GMDT8AG
 
 schedule:
-  day: Wednesday
+  day: Sunday          # since Nov 2026; was Wednesday
+  time: "14:20"        # UK time
 
 digest:
   template: digest/template.html

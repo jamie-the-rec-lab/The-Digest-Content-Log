@@ -10,6 +10,11 @@ the run state (`_state/`). The website lives in a second repo,
 
 ## The weekly run
 
+**Run day: Sunday afternoon** (since November 2026; it used to be Wednesday).
+Wherever the documents say "the Wednesday the job runs" or "this Wednesday",
+read it as **the date of this run**: the edition line, the page title date and
+the end of the 8 week window all use today's date.
+
 Start with `docs/RUN.md`, the map of the whole job, then follow it, reading the
 document each phase points you at when you reach it. Read `docs/TOKEN_RULES.md`
 before you start. It governs every phase.
