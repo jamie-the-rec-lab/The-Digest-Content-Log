@@ -1,3 +1,33 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Vik Kohli, head of AI transformation and people strategy at Cloudflare and chief of staff to the chief people officer; an in-house practitioner (previously on the show in 2022 about people analytics) rather than a vendor  ·  **Show:** Recruiting Future, Ep834, 30 Oct 2026
+**Tags:** building ai tools, ai governance, ai strategy, headcount planning, capacity planning, recruiting metrics, work trials, skills-based hiring, ta leadership, human-ai collaboration
+
+**When to use this:** you are asked to build an AI business case, plan headcount in an agent era, or rethink how you assess candidates when applications are AI-written.
+
+**Big idea:** As AI becomes embedded in HR, the work shifts to owning, governing and valuing the agents and tools, so people teams need product management skills; these are Kohli's own predictions for 2027, not findings.
+
+**Frameworks & plays:**
+- Treat internal AI as products with an owner. Kohli says Cloudflare now manages agents built by people who have since left, so he expects HR to need a leader for internal AI and product development who understands evaluation, product judgement and how to codify process logic from people's heads.
+- Value AI on six dimensions, not only time saved: efficiency, scale, quality, experience, risk mitigation, and then financial impact. He compares it to HRIS spend, where nobody asks for the ROI of the platform.
+- Expect hidden AI use. His reasoning is that more output earns more work, so staff may not disclose what AI does for them. He suggests measuring attention load as well as output load.
+- Plan work before headcount. Describe the job to be done, then decide between people and agents, remembering that an agent still needs someone to build and maintain it.
+- Assess judgment live. Give candidates a small project in the moment, because candidate AI and employer AI are now talking to each other. He admits he does not know it is the best option.
+- Build the three skills to become an internal product leader: distil process into documentation (the happy path and the exceptions), know what assistants, automations and agents are each good for, and develop product judgement about user experience and where data lives.
+
+**Data & benchmarks:**
+- He states no measured data. The predictions are his, and the line "let's see by this time next year if I'm right" shows he treats them as hypotheses.
+
+**Tools & prompts:**
+- He lists four types of AI to distinguish: an assistant that chats back, an automation that moves data from A to B, applications, and an agent. The third category is garbled in the captions.
+
+**Contrarian take:**
+- Kohli calls hidden AI use his "most controversial" prediction, arguing the reward for good work is more work, so staff will conceal their methods.
+
+**Steal this (do tomorrow):**
+- Score your current AI pilots against the six value dimensions and write down which dimension each really serves.
+- Add a small live exercise to one stage of your interview process and compare it with your normal assessment.
+<!--/SUMMARY-->
 # Ep 834: Six Predictions For AI In HR
 
 - **Podcast:** Recruiting Future

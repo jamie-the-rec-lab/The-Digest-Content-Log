@@ -1,3 +1,32 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Rob Devlin, founder and principal of Devlin Talent, a TA transformation consultancy that works with several employers at different AI maturity levels; he sells consulting rather than a product  ·  **Show:** Recruiting Future, Ep833, 26 Oct 2026
+**Tags:** human-ai collaboration, ai governance, recruiting operations, hiring manager alignment, candidate experience, candidate communication, ta leadership, recruiter productivity, building ai tools
+
+**When to use this:** you are told to "free up recruiter time with AI" and need a way to decide which parts of hiring should stay human, and what recruiters actually do with the time.
+
+**Big idea:** Human in the loop can leave a recruiter as a mere validator, so employers should decide deliberately where human agency (judgment, context, business knowledge) adds value and keep those steps human, starting from a single problem rather than a product.
+
+**Frameworks & plays:**
+- Interrogate the process before adding AI. Devlin says AI works best on written down, well-defined processes, so ask how each step feels to the recruiter, the hiring manager and the candidate and simplify first.
+- Use the intake call as a low-risk first project. Schedule it from the ATS workflow, record and transcribe the call, run the transcript through a prompt that checks whether everything was covered and flags anything that should not have been said, then push structured notes into the ATS.
+- Test every automation against his six lenses: is it humane, is it efficacious, is it distributed (who gets the value), is it viable (is the organisation ready), is it adaptive, and is it steerable. He described this as a framework he is still developing.
+- Ask who gets the gain. His example is a hypothetical 30% productivity improvement: if the answer is only headcount savings, he does not think that is the right route, and a vendor pitch that ignores what to do with the hours back is short-sighted.
+- Name the human moments in each of four stages: intake, sourcing and application, assessment, and offer and onboarding. Examples he gave were a good-luck call before an interview, a feedback call afterwards, and getting arms around a candidate before day one.
+- Do not leave "be more human" vague. He warns that recruiters may just be handed more requisitions, so say what the conversation is and how you will know it happens, and ask your recruiters where they can differentiate, because "the recruiters they have the answer".
+- Consider building small solutions yourself within your own IT infrastructure with IT and security involved, rather than spending hundreds of thousands of dollars on new technology.
+
+**Data & benchmarks:**
+- The only figures are unsourced predictions or hypotheticals: Devlin expects AI to be able to automate 90% of recruiting activity, "probably more", by 2030, and the 30% productivity gain is an illustration, not a result.
+
+**Contrarian take:**
+- Devlin says candidates adopting AI should not be confused with candidates preferring it to a human conversation, so a human touchpoint can win the candidate.
+- On cheating, he argues a good recruiter asking three or four open questions on each answer can tell quite reliably whether a candidate is honest. This is his view, not tested evidence.
+
+**Steal this (do tomorrow):**
+- List your four stages and mark one human conversation in each that must not be automated, then agree with the team how it is measured.
+- Pick one recurring problem this quarter and write it as a one-sentence problem statement before looking at any tool.
+<!--/SUMMARY-->
 # Ep 833: Deciding What Not To Automate In Hiring
 
 - **Podcast:** Recruiting Future

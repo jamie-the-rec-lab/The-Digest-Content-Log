@@ -1,3 +1,32 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Matt Alder, Recruiting Future, with four recorded interviews from Unleash Paris: analyst Mervyn Dinnin, a SmartRecruiters executive (name unclear in the captions), Ronni Zahavi (co-founder and CEO of Hibob) and Dilek Brosh (co-founder and CEO of Glimpse). Three of the four sell HR technology  ·  **Show:** Recruiting Future, Ep835, 3 Nov 2026
+**Tags:** ai strategy, ta leadership, internal mobility, headcount planning, human-ai collaboration, rec tech, skills-based hiring, talent intelligence
+
+**When to use this:** you want a read on where HR tech vendors are pitching the future of work, or you need a language for agents on org charts and role-less hiring.
+
+**Big idea:** The guests argue AI is redesigning work itself, so hiring will shift from filling fixed roles to a workforce supply decision across internal talent, external hires and agents. The host notes the vendors "obviously also have a stake in the future they're describing".
+
+**Frameworks & plays:**
+- The SmartRecruiters executive said a standalone TA function focused on external sourcing becomes less viable, with talent supply decided more holistically across external hires, internal mobility and agents. She labelled this her own "non-sanctioned" opinion.
+- She also predicted people may be brought into a company for a series of projects rather than a single role, though she hedged on timing.
+- Hibob's CEO described four dimensions of change: the tech disruption, the psychological and behavioural change, the way businesses operate, and government guardrails. He said employees may fear they are "cutting the branch" they sit on, so behavioural change is the company's obligation.
+- He said agents are now given human names and appear on org charts, so organisations need ways to onboard, govern and review them and link each to the human who built it.
+- Glimpse describes a 45-minute set of short online games placed near the top of the funnel that measure how people react to added frustration or load, instead of asking them to rate themselves.
+
+**Data & benchmarks:**
+- Glimpse (a vendor, with no client named and no independent validation) said one client sorted candidates into six categories by likelihood of completing a three-year programme, and another saw one group learn five times as fast as another.
+- The Hibob CEO's hypothetical: a Salesforce rebuilt from scratch would need about 10% of its people. He gave the figure of 75,000 employees himself; neither is verified.
+- The SmartRecruiters executive said SAP announced its intent to acquire TechWolf. This is her statement and was not checked.
+
+**Contrarian take:**
+- Mervyn Dinnin said the event was not properly debating what should stay human and what should be AI, and saw protectionism and aggressive sales marketing instead. He predicted the 2027 narrative would be "humanity".
+- The SmartRecruiters executive said the gap between forward-looking and transactional organisations is widening rather than shrinking.
+
+**Steal this (do tomorrow):**
+- Ask any vendor who cites outcomes which client, what size and whether it was independently checked.
+- Draft a one-page list of what in your hiring must stay human, to give your team a position before the vendor pitches arrive.
+<!--/SUMMARY-->
 # Ep 835: How AI Is Reshaping Work And Hiring
 
 - **Podcast:** Recruiting Future
