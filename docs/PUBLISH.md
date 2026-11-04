@@ -26,15 +26,18 @@ rows. Look the pull request up in the site repo:
 - **Merged.** It went live. Keep the version number, the featured rows and its
   file in `digest/published/` exactly as they are. Delete
   `_state/pending-review.json`.
-- **Closed without merging.** Jamie decided against it. Remove its rows from
+- **Closed without merging.** Jamie decided against it (he closed it, or told a
+  session to). Remove its rows from
   `digest/featured-log.tsv` so those items are eligible again, set
   `digest/version.txt` back to the version that is actually live, and move its
   file in `digest/published/` to `digest/published/not-published/`. Log the
   decision. Delete `_state/pending-review.json`.
-- **Still open.** Nobody has looked at it yet. Treat it exactly like "closed
-  without merging", because this week's edition replaces it on the
-  `digest-review` branch, then close the old pull request with a one-line
-  comment saying it was superseded. Log it.
+- **Still open.** Jamie has not decided yet, and that decision is his alone.
+  **Leave it exactly as it is**: do not close it, replace it or push to
+  `digest-review`. Run the refresh as normal so the library keeps growing, but
+  **do not build a new edition this week**. The health report says, near the top,
+  that last week's edition is still waiting for review, with its link. Log it.
+  Keep `_state/pending-review.json` for next week.
 
 If the pull request cannot be found, or its state cannot be read, **stop the
 build** (the featured log may be wrong) and report it. This is one of the three

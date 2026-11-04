@@ -203,7 +203,7 @@ environment's setup script installs the Python packages the scripts need, so
 nothing needs installing by hand. Only what is pushed to GitHub survives the run,
 which is why saving is a phase of its own (`CLAUDE.md`).
 
-**Secrets.** API keys (TranscriptAPI, Gemini) live in the environment's network
+**Secrets.** API keys (TranscriptAPI) live in the environment's network
 secrets. They are added to requests automatically; no script reads or prints
 them.
 
@@ -212,8 +212,8 @@ and GitHub (the site repo) are attached to the scheduled task.
 
 **YouTube.** Never fetch from YouTube's video or caption servers directly: cloud
 addresses are bot-checked. Episode lists come from each channel's public RSS
-feed, transcripts from TranscriptAPI, and Gemini is the fallback. See
-`REFRESH.md`.
+feed, and transcripts from TranscriptAPI. An episode TranscriptAPI cannot
+return is a recorded gap, tried again next week. See `REFRESH.md`.
 
 **Tools that need loading first.** WebSearch and WebFetch are not available until
 they are loaded. Load them before the reports discovery and the AI news scan.

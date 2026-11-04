@@ -31,10 +31,11 @@ transcripts. The fact-check runs on the strongest model available.
 
 ## Non-negotiable
 
-- **Never go live directly.** The run pushes the new edition to the
-  `digest-review` branch of the site repo and opens a pull request. Vercel builds
-  a preview. Jamie merging the pull request is what puts it live. Never push to
-  `main` of the site repo, and never merge anything.
+- **Never go live directly, and never merge.** The run pushes the new edition to
+  the `digest-review` branch of the site repo and opens a pull request. Vercel
+  builds a preview. Only Jamie decides when it goes live: he merges it himself,
+  or explicitly says "merge" in a session. Never push to `main` of the site repo,
+  and never merge, close or replace a review pull request without his say-so.
 - **Never touch Resend, and never send anything to the subscriber list.** The
   newsletter is human-gated and separate (`docs/SEND_NEWSLETTER.md`).
 - **Never invent a number, title, date, guest or company.** A recorded gap is fine.
@@ -42,8 +43,10 @@ transcripts. The fact-check runs on the strongest model available.
 - **Never use a browser.** Fetching pages and feeds is fine and expected; driving
   a browser is not.
 - **Never get round a bot check, rate limit or paywall.** A source that refuses
-  is a recorded gap. YouTube transcripts come from TranscriptAPI, with Gemini as
-  the fallback (`docs/REFRESH.md`); never fetch YouTube captions directly.
+  is a recorded gap. YouTube transcripts come from TranscriptAPI
+  (`docs/REFRESH.md`); never fetch YouTube captions directly. If TranscriptAPI
+  fails on an episode, that episode is a recorded gap and is tried again next
+  week.
 - **Never force-push, never rewrite history, and push only to this repo and to
   the `digest-review` branch of the site repo.**
 - **Secrets live in the environment settings, never in a file.** Never print,

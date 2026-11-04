@@ -13,6 +13,7 @@ Format: date, what changed, why.
 
 - 2026-11-04, moved from Cowork on the laptop to a Claude Code cloud session. New `CLAUDE.md` holds the standing rules (replaces `SCHEDULE_PROMPT.md`, kept for history). Why: the laptop run stopped for weeks; the cloud runs without it.
 - 2026-11-04, `PUBLISH.md`, `RUN.md`, `config/config.yaml`: the job no longer commits to the live site. It pushes to the `digest-review` branch, opens a pull request, and Jamie's merge puts it live; Vercel's preview is the review page. New step 0 reconciles last week's pull request (merged keeps the record, unmerged un-burns the items). Why: on 17 Oct the direct publish was blocked by a safety check as a production deploy, so Version 8 never went live; and Jamie wants to review on his phone before anything goes out.
+- 2026-11-04, review rules, Jamie's call: the job never merges, closes or replaces a review pull request. If last week's is still open, this week refreshes the library but builds no new edition, and the report flags it. No Gemini fallback for transcripts: a TranscriptAPI failure is a recorded gap, retried next week.
 - 2026-11-04, `RUN.md` "Before you start": dropped laptop-only notes (two filesystems, 45-second shell cap, installing yt-dlp each run). `_to_delete/` retired: git history now keeps every old version. Why: none of it applies in the cloud.
 
 ## 2026-10-09
