@@ -39,3 +39,7 @@ line once it has been captured full.
 - REC/2026-09-29-jobsoutlook-september-2026.md - press release only (Onrec republish); full JobsOutlook on rec.uk.com not read.
 - Bullhorn/2026-10-20-staffing-industry-indicator-week-ending-october-10.md - SIA page 403 to bots; search excerpts only, members-only analysis.
 - Indeed Hiring Lab UK snapshot September/October 2026: no October edition found by search; still uncaptured.
+
+## Flagged 2026-11-09
+
+- Bullhorn/2026-11-03-staffing-industry-indicator-week-ending-october-24.md - public SIA news summary only; full report members-only. Week ending 17 Oct edition (published about 27 Oct) not held.

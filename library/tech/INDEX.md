@@ -257,7 +257,10 @@ Company: AI & I
 Tags: ai, ai agents
 File: `transcripts/AI & I/2026-01-07-ai-in-2026-reid-hoffmans-predictions-on-agents-work-and-creation.md`
 
-## AI For Humans (62 episodes)
+## AI For Humans (63 episodes)
+
+### 2026-11-06 — [AI Just Lost The Election. Bigger Models Are Coming Anyway.](https://www.youtube.com/watch?v=4fZApLHnLFU)
+File: `transcripts/AI For Humans/2026-11-06-ai-just-lost-the-election-bigger-models-are-coming-anyway.md`
 
 ### 2026-10-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=6101Q0dQQIk)
 Weekly AI news show covering Google's gated Gemini 4 Carbon preview, Genie 4, OpenAI's cheaper GPT-6.1 Terra and what a cheaper model is good and bad at.
@@ -1113,7 +1116,10 @@ Company: Wade Foster
 Tags: ai, ai agents, startups, founder stories, hiring
 File: `transcripts/How I AI/2026-01-05-zapiers-ceo-shares-his-personal-ai-stack-wade-foster.md`
 
-## Lenny's Podcast (60 episodes)
+## Lenny's Podcast (61 episodes)
+
+### 2026-11-08 — [Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)](https://www.youtube.com/watch?v=qGf2Yvan4Wg)
+File: `transcripts/Lenny's Podcast/2026-11-08-why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini.md`
 
 ### 2026-11-01 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=KzS5Qs7vSMg)
 Wispr Flow's head of content on running a performance-paid creator programme with Tribe, sourcing creators by manual DMs, and hiring young talent for social skills over CV signals.

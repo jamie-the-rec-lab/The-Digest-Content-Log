@@ -42,6 +42,6 @@ library; update it when a newer one is ingested.
 | Mercer | Global Talent Trends | annual | 2026 |
 | ONS | Labour market overview, UK | monthly | 2026-10 (published 2026-10-20) |
 | Indeed Hiring Lab | UK Labour Market Snapshot | monthly | 2026-08 |
-| Bullhorn | Staffing Industry Indicator (SIA) | weekly | 2026-10 (week ending 10 Oct, published 2026-10-20) |
+| Bullhorn | Staffing Industry Indicator (SIA) | weekly | 2026-11 (week ending 24 Oct, published 2026-11-03; w/e 17 Oct not held) |
 
 Add new recurring sources here as they are discovered.

@@ -489,3 +489,4 @@
 2026-11-04	1	PromptMates	1 episode(s) had no transcript from TranscriptAPI, retried next week: Grok Bot for Recruiters	degraded	no
 2026-11-04	3	report	DRY RUN health report sent to Slack DM and to jamie@thereclab.ai via Gmail, with review link and PR #6. Review line patched by hand because health_report.py predates the review-PR flow.	decision	yes
 2026-11-04	0	reconcile	Jamie said merge: site PR #6 merged, Version 8 live, re-dated 5th November 2026 at his request. Featured rows kept; pending-review.json removed as reconciled. The dry run record stands as the real Version 8 record.	decision	yes
+2026-11-09	1	Lenny's Podcast	Fetcher saved a retitled re-listing of Rob Snyder (video 19qrLchbQEc) as a new file; duplicate removed. fetch_transcripts.py dedupes by title rather than video id.	degraded	yes

@@ -111,7 +111,13 @@ Company: Ashby
 Tags: applications per hire, hiring volume, funnel conversion, employer branding, by function, us data, trends / predictions
 File: `transcripts/Ashby/2023-05-30-applications-per-job.md`
 
-## Bullhorn (7 episodes)
+## Bullhorn (8 episodes)
+
+### 2026-11-03 — [Staffing Industry Indicator, week ending October 24, 2026](https://www.staffingindustry.com/news/global-daily-news/us-staffing-hours-further-their-growth-trend-sia-bullhorn-staffing-indicator)
+US staffing hours up 11% YoY for the week ending October 24 (index 108, +1.4% WoW); Industrial +17%, Commercial +12%, Professional +8%, IT +5%, Office/Clerical -7% (partial, public summary only)
+Company: Bullhorn
+Tags: hiring volume, us data, product data study, by industry, trends / predictions
+File: `transcripts/Bullhorn/2026-11-03-staffing-industry-indicator-week-ending-october-24.md`
 
 ### 2026-10-20 — [Staffing Industry Indicator, week ending October 10, 2026](https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-october-20-2026)
 US staffing hours up 11% YoY for the week ending October 10 (index 108, +0.6% WoW); Industrial +17%, Commercial +12%, Professional +9%, IT +6%, Office/Clerical -7%, average weekly hours 35.5 (partial, public excerpts only)

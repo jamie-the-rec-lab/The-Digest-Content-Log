@@ -1,0 +1,82 @@
+{
+ "run_date": "2026-11-09",
+ "items": [
+  {
+   "path": "TA Unboxed/2026-11-06-the-candidate-nobody-saw-coming.md",
+   "newsletter": "TA Unboxed",
+   "title": "The candidate nobody saw coming",
+   "date": "2026-11-06",
+   "thread_id": "1a1afee022c4265b",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1afee022c4265b",
+   "public_url": "https://taunboxed.substack.com/p/the-candidate-nobody-saw-coming",
+   "sponsor_flag": "Metaview (fillmore) sponsor block; vendor self-promotion, flagged",
+   "points": [
+    {
+     "claim": "Hires who were not flagged Standout by recruiter or hiring manager may reveal screening weaknesses",
+     "evidence": "Hypothetical scenario (Candidate D), no data",
+     "quote": "Maybe our original screening criteria were too narrow. Maybe, as we all know, we’re placing too much weight on what’s on the CV/Resume.",
+     "market": "opinion/hypothesis, unattributed 'as we all know'"
+    },
+    {
+     "claim": "Proposes investigating the share of eventual hires never flagged early",
+     "evidence": "Posed as a question, no figure given",
+     "quote": "What if you discover that a meaningful proportion of eventual hires weren’t initially flagged as Standout by either the recruiter or the hiring manager?",
+     "market": "no stat"
+    },
+    {
+     "claim": "Unhired Standout candidates could feed talent rediscovery",
+     "evidence": "Author opinion",
+     "quote": "For me, it’s even better than the current silver medalist model.",
+     "market": "opinion"
+    },
+    {
+     "claim": "Standout sits between finding talent and evidencing ability",
+     "evidence": "Author framing; adoption claim has no number",
+     "quote": "Standout sits between those two things.",
+     "market": "opinion; 'several of you' unquantified"
+    }
+   ]
+  },
+  {
+   "path": "RecOps Collective/2026-11-06-week-of-november-2nd-2026.md",
+   "newsletter": "RecOps Collective",
+   "title": "Week of November 2nd, 2026",
+   "date": "2026-11-06",
+   "thread_id": "1a1ae58c10b5d5c4",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1ae58c10b5d5c4",
+   "public_url": "https://recops.substack.com/p/week-of-november-2nd-2026",
+   "sponsor_flag": "Newsletter states sponsor-free; vendor product updates listed are vendor-authored items",
+   "points": [
+    {
+     "claim": "RecOps community sees intense focus on whether AI time/efficiency gains are real",
+     "evidence": "Editorial observation, no data cited",
+     "quote": "there is also an intense focus on whether time- and efficiency-based metrics and outcomes aided by AI are actually hitting their mark",
+     "market": "opinion, unattributed"
+    },
+    {
+     "claim": "Many teams about two years into full-scale AI transformations",
+     "evidence": "Editorial claim, unquantified",
+     "quote": "Many teams are now 2-ish years into full-scale AI transformations, so there is more reliable data to look at.",
+     "market": "unattributed, vague"
+    },
+    {
+     "claim": "Attention on where recruiters spend time saved by TA/RecOps builds",
+     "evidence": "Editorial observation",
+     "quote": "especially around where recruiters/sourcers are spending the time they got back from builds created by the TA/RecOps or TA Eng teams",
+     "market": "opinion"
+    },
+    {
+     "claim": "Titles on time-to-fill and agentic hiring adoption listed (titles only)",
+     "evidence": "Link list, content not read",
+     "quote": "Vendors bet on agentic hiring while enterprise buyers struggle to scale",
+     "market": "title only; underlying articles not fetched"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "No new Ashby Community, Remade.md issues after 2026-11-02 in Gmail",
+  "Data Driven Recruiter 11-04, Full Stack Recruiter 11-02, PromptMates 11-03 already saved; skipped",
+  "RecOps article titles are links only; linked articles not read"
+ ]
+}

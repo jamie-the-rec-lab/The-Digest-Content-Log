@@ -251,7 +251,13 @@ Company: PromptMates
 Tags: ai agents, building ai tools, claude code, recruiter workflow, ai bias, outbound sourcing, ai screening, context engineering, candidate fraud, deepfake candidates
 File: `transcripts/PromptMates Newsletter/2026-06-16-rebuilding-your-talent-team-around-ai.md`
 
-## RecOps Collective (16 episodes)
+## RecOps Collective (17 episodes)
+
+### 2026-11-06 — [Week of November 2nd, 2026]()
+Lead note that time and efficiency metrics are in focus as AI transformations hit about two years in, plus the weekly list of articles, vendor updates (CoderPad, Dover, Gem, CodeSignal), events and recops jobs.
+Company: RecOps Collective
+Tags: recruiting operations, recruiting metrics, recruiter productivity, ai strategy, rec tech, recruiting enablement, recruiter workflow, ta leadership
+File: `transcripts/RecOps Collective/2026-11-06-week-of-november-2nd-2026.md`
 
 ### 2026-10-29 — [Week of October 26th, 2026]()
 RecOps Roundup for 26 Oct: Jeremy Lyons announces a live vendor burn down of Sync2Hire (17 Nov), a hiring collaboration layer alongside the ATS, plus article links, vendor updates (Ashby, Brighthire, candidate.fyi, GoodTime), events and RecOps jobs.
@@ -363,7 +369,13 @@ Company: Remade.md
 Tags: ai agents, ai sourcing, context engineering, building ai tools, ai upskilling, ai strategy, recruiting operations, talent intelligence, recruiter workflow
 File: `transcripts/Remade.md/2026-07-20-stop-tokenmaxxing-start-roi-maxxing.md`
 
-## TA Unboxed (21 episodes)
+## TA Unboxed (22 episodes)
+
+### 2026-11-06 — [The candidate nobody saw coming]()
+Standout Part 3: study the eventual hire nobody flagged early to find where screening criteria or CV weighting went wrong, and reuse unhired Standout candidates for talent rediscovery beyond the silver medalist model; Metaview fillmore sponsored.
+Company: TA Unboxed
+Tags: candidate calibration, quality of hire, skills-based hiring, recruiting metrics, talent pools, recruiting operations, ai interviewing, hiring manager alignment, ai screening
+File: `transcripts/TA Unboxed/2026-11-06-the-candidate-nobody-saw-coming.md`
 
 ### 2026-10-30 — [How good are your recruiters at spotting talent?]()
 Part 2 of One to Watch: a Standout flag field in the ATS and an Early Talent Recognition Rate (illustrative 28 of 40 = 70%) to measure how early recruiters and hiring managers identify the eventual hire; Metaview fillmore sponsored.

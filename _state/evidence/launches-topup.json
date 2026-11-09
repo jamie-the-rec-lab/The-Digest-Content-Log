@@ -1,0 +1,99 @@
+{
+ "run_date": "2026-11-09",
+ "sweep_ran": true,
+ "vendors_read": [
+  "Ashby",
+  "Gem (blog, undated)",
+  "Greenhouse",
+  "Jack & Jill",
+  "Juicebox",
+  "Pin",
+  "Teamtailor",
+  "Metaview (content.metaview.ai/rss)",
+  "Pinpoint (changelog.rss)"
+ ],
+ "vendors_unreadable": [
+  {
+   "vendor": "Gem",
+   "why": "blog listing carries no dates; no in-window launch can be dated"
+  },
+  {
+   "vendor": "Lever/SmartRecruiters/Workable/Eightfold/First.cx/iCIMS/hackajob/Nova/Screenloop/Workday",
+   "why": "not re-fetched (tier B; 4 Nov sweep found 401/403/JS-empty or nothing). One combined search for Nov 2026 found no dated in-window launch from them; iCIMS re-checked by search only"
+  }
+ ],
+ "launches": [
+  {
+   "vendor": "Jack & Jill",
+   "release": "Company Insights in Jill",
+   "date": "2026-11-04",
+   "url": "https://www.jackandjill.ai/blog/company-insights",
+   "path": null,
+   "line": "Recruiters can click a company in a candidate's profile to see its size, funding and departures during the candidate's tenure, and where its staff come from and go.",
+   "quote": "See how each company in a candidate's history grew, hired and kept people while they were there.",
+   "materiality": "Tier A, dated 4 Nov on blog listing and post. Data-context feature, not a net-new product or agent; borderline-weak. Not saved. Filler only."
+  }
+ ],
+ "rejected": [
+  {
+   "vendor": "Metaview",
+   "release": "November 2026 update (sourcing beyond LinkedIn, Filters mode, prompt outreach)",
+   "why": "Re-checked: post dated 4 Nov but its intro says it covers October updates; no rollout/pricing; extensions of existing Sourcing. Not worth including."
+  },
+  {
+   "vendor": "Metaview",
+   "release": "throxy/fillmore customer story; My first 100 PR day",
+   "why": "6 Nov, not launches."
+  },
+  {
+   "vendor": "iCIMS",
+   "release": "Hiring Agent in Microsoft Teams",
+   "why": "Announced 20 Oct, rollout from 26 Oct; search found no new Nov information or confirmation it shipped. Not net-new this week; stays out."
+  },
+  {
+   "vendor": "Pin",
+   "release": "Blog posts 4-6 Nov",
+   "why": "Data/benchmark content posts, not launches."
+  },
+  {
+   "vendor": "Teamtailor",
+   "release": "Latest entries 28 Oct",
+   "why": "Nothing dated 4-9 Nov."
+  },
+  {
+   "vendor": "Ashby",
+   "release": "(none)",
+   "why": "Latest entry May 2026."
+  },
+  {
+   "vendor": "Greenhouse",
+   "release": "(none)",
+   "why": "No November notes; October is month-only."
+  },
+  {
+   "vendor": "Juicebox",
+   "release": "(none)",
+   "why": "Latest 13 Oct."
+  },
+  {
+   "vendor": "Pinpoint",
+   "release": "(none)",
+   "why": "Latest 4 Aug."
+  },
+  {
+   "vendor": "LinkedIn",
+   "release": "Hiring Assistant 2",
+   "why": "Not a tracked vendor; announced 30 Sep, rollout to existing customers in November (HR Brew, single source)."
+  }
+ ],
+ "ai_news": {
+  "source": "CNBC",
+  "title": "AI is speeding up recruitment, and putting agency fees under pressure",
+  "date": "2026-11-08",
+  "url": "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html",
+  "path": "CNBC/2026-11-08-ai-recruitment-agency-fees.md",
+  "line": "UK recruiters are split on whether AI will push agency fees down; Bullhorn survey: 37% say AI made screening 26-50% faster.",
+  "quote": "AI is making that service increasingly difficult to justify.",
+  "materiality": "UK-focused, directly relevant to agency recruiters. Market news, not regulatory/legal, so single source accepted; partial extraction, survey figures are the article's citations. Not covered by any launch. Searches for regulatory/legal news dated 4-9 Nov found nothing new (EU AI Act omnibus coverage is older)."
+ }
+}

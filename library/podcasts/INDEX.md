@@ -323,7 +323,10 @@ Company: Metaview
 Tags: ta leadership, ai strategy
 File: `transcripts/10x Recruiting/2025-03-06-introducing-the-10x-recruiting-podcast.md`
 
-## Brainfood (160 episodes)
+## Brainfood (161 episodes)
+
+### 2026-11-06 — [Brainfood Live On Air   Ep417   GEO, What Do We Know](https://www.youtube.com/watch?v=q-rytZJNYu8)
+File: `transcripts/Brainfood/2026-11-06-brainfood-live-on-air-ep417-geo-what-do-we-know.md`
 
 ### 2026-10-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=l7ulRFqNU3U)
 Panel on turning repeat recruiter prompts into reusable Claude skills: a Clay-powered intake calibration play, an Exa sourcing connector, scheduled tasks, plus a four-level AI adoption scale and a 162-person survey.
@@ -2123,7 +2126,10 @@ Company: Growth by Design
 Tags: stakeholder management, recruiting metrics, ta leadership, hiring manager alignment, market mapping, talent density
 File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-service-providers-to-trusted-advisors-with-adam.md`
 
-## PromptMates (66 episodes)
+## PromptMates (67 episodes)
+
+### 2026-11-04 — [Grok Bot for Recruiters](https://www.youtube.com/watch?v=UyOLQ6KKXs4)
+File: `transcripts/PromptMates/2026-11-04-grok-bot-for-recruiters.md`
 
 ### 2026-11-02 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=wI-TYLIO9ic)
 A one-person recruiting and people-ops lead built a /newrole Slack command with Claude that creates the Ashby job and opening, names and populates the Slack channel, invites stakeholders and pins hiring manager resources.
@@ -2521,7 +2527,10 @@ Company: SDI Scout
 Tags: building ai tools, custom gpts, ai sourcing, ai market research, sourcing, talent mapping, recruiter workflow, talent intelligence
 File: `transcripts/PromptMates/2025-08-26-finding-hidden-talent-with-sdi-scout.md`
 
-## Recruiting Future (305 episodes)
+## Recruiting Future (306 episodes)
+
+### 2026-11-08 — [Ep 836: Continuous Improvement In TA](https://www.youtube.com/watch?v=AiO_3dvyPtA)
+File: `transcripts/Recruiting Future/2026-11-08-ep-836-continuous-improvement-in-ta.md`
 
 ### 2026-11-03 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=ho8pVkZJA24)
 Four Unleash Paris interviews, mostly from HR tech vendors: a SmartRecruiters executive predicts the standalone TA function dissolves, the Hibob CEO describes agents on org charts, Glimpse pitches game-based assessment, and Mervyn Dinnin says the human versus AI debate is missing.
