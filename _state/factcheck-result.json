@@ -1,70 +1,44 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-09",
   "model": "claude-opus-5-5",
-  "round": 2,
-  "result": "pass",
-  "mismatches": [],
-  "checked": [
-    "Recruiting Future guest line 'Vic Akosile · Head of AI Transformation and People Strategy @ Cloudflare' matches the library description and the live page https://recruitingfuture.com/2026/10/ep-834-six-predictions-for-ai-in-hr/ ('My guest is Vic Akosile, Head of AI Transformation and People Strategy at Cloudflare').",
-    "RF bullet 1 supported at 12:51: 'six or seven different dimensions of value ... efficiency, which is just time ... scale ... quality ... experience ... risk mitigation'.",
-    "RF bullet 2 supported at 15:12 ('my most controversial one ... the reward for work well done is more work') and the description ('Employees who get faster with AI will hide that they are using it').",
-    "RF bullet 3 supported at ~19:23-20:48 ('candidates AI are talking to employers AI ... Give them a project in the moment. The project is small ... a natural default').",
-    "Offer Accepted guest line and bullets 1 and 3 supported (7:34 'scope ... knowledge ... autonomy, complexity'; 8:33 dog fooded in the recruitment team; 21:12 'not supervising so much. You're verifying information'). Bullet 2 now matches ~16:02: smaller role, 'we wouldn't change compensation that we would build a pathway'.",
-    "git diff HEAD~1 HEAD on the page changes only the RF guest line, the RF bullets and OA bullet 2. No 'Kohli' left anywhere on the page; brief, standouts and preview do not mention these guests or claims."
+  "scope": "top-up edit",
+  "round": 1,
+  "result": "mismatches",
+  "mismatches": [
+    {
+      "item": "Recruiting Future: Continuous Improvement In TA",
+      "line": "Before buying a narrow AI tool, explain how its time saving beats the setup and processing time it adds, or de Graaf says it is not time to implement it.",
+      "source_says": "The 'If you can't explain that, then it's not time to actually implement that' test is about cost: 'Does it actually save us that money? Do you actually get that back?' (15:29), after he describes a sourcing tool costing 'a couple hundred a month'. The setup/feeding and list-processing time is a separate point (13:18 to 14:32) about how much time a tool really saves. The bullet merges the two and makes the explain-or-don't-implement test about time versus time.",
+      "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-11-08-ep-836-continuous-improvement-in-ta.md",
+      "fix": "Before buying a narrow AI tool, count the time spent setting it up and processing its output, and if you cannot explain how it earns back its subscription, de Graaf says it is not time to implement it."
+    },
+    {
+      "item": "Lenny's Podcast: Why PMs are suddenly valuable again",
+      "line": "When hiring product managers to work on AI models, Doshi wants people with opinions formed from using models daily, who can build an eval themselves.",
+      "source_says": "'I want PMs who have an opinion um who are playing with these models every day who have their own use cases for how they judge whether a model is really good ... build an eval' (21:24). Having an opinion and playing with models daily are listed side by side; she does not say the opinions are formed from daily use (invented causation).",
+      "source_path_or_url": "library/tech/transcripts/Lenny's Podcast/2026-11-08-why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini.md",
+      "fix": "When hiring product managers to work on AI models, Doshi wants people who have an opinion, play with models every day and can build an eval themselves."
+    },
+    {
+      "item": "CNBC · news: AI is speeding up recruitment, and putting agency fees under pressure",
+      "line": "Matt Collingwood of VIQU Group sees every reason for agency fees to hold firm or even increase, if the value agencies deliver keeps growing.",
+      "source_says": "'I see every reason for our fees to hold firm, or even increase, if the value we deliver continues to grow.' He is speaking of VIQU's own fees and value, not agency fees in general.",
+      "source_path_or_url": "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html",
+      "fix": "Matt Collingwood of VIQU Group sees every reason for VIQU's fees to hold firm or even increase, if the value it delivers keeps growing."
+    }
   ],
-  "round1": {
-    "date": "2026-11-04",
-    "model": "claude-opus-5-5",
-    "round": 1,
-    "result": "mismatches",
-    "mismatches": [
-      {
-        "item": "Recruiting Future, Six Predictions For AI In HR (guest line)",
-        "line": "Vik Kohli · Head of AI Transformation and People Strategy @ Cloudflare",
-        "source_says": "Episode description in the library file: \"My guest is Vic Akosile, Head of AI Transformation and People Strategy at Cloudflare\". The live episode page https://recruitingfuture.com/2026/10/ep-834-six-predictions-for-ai-in-hr/ says the same: \"My guest is Vic Akosile, Head of AI Transformation and People Strategy at Cloudflare\". 'Vik Kohli' appears only in the auto captions (ASR) and the summary built from them.",
-        "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md (Episode description); https://recruitingfuture.com/2026/10/ep-834-six-predictions-for-ai-in-hr/",
-        "fix": "Vic Akosile · Head of AI Transformation and People Strategy @ Cloudflare"
-      },
-      {
-        "item": "Recruiting Future, Six Predictions For AI In HR (bullet 1)",
-        "line": "Vik Kohli judges AI on several dimensions of value, such as scale, quality and risk mitigation, rather than on time saved alone.",
-        "source_says": "Guest name per the episode description and the live episode page is \"Vic Akosile\". The content is supported: \"there are six or seven different dimensions of value ... One is efficiency, which is just time. Two is scale ... Three is quality ... risk mitigation\".",
-        "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md",
-        "fix": "Vic Akosile judges AI on several dimensions of value, such as scale, quality and risk mitigation, rather than on time saved alone."
-      },
-      {
-        "item": "Recruiting Future, Six Predictions For AI In HR (bullet 2)",
-        "line": "Kohli's most controversial prediction is that staff will hide their AI use, because doing more work with AI just earns them more work.",
-        "source_says": "Guest surname per the episode description and the live page is \"Akosile\". The content is supported: \"this is probably my my most controversial one ... sometimes the reward for work well done is more work\".",
-        "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md",
-        "fix": "Akosile's most controversial prediction is that staff will hide their AI use, because doing more work with AI just earns them more work."
-      },
-      {
-        "item": "Recruiting Future, Six Predictions For AI In HR (bullet 3)",
-        "line": "With candidate AI and employer AI now talking to each other, Kohli expects a small live project during the interview to become the default way to assess capability.",
-        "source_says": "Guest surname per the episode description and the live page is \"Akosile\". The content is supported: \"candidates AI are talking to employers AI ... Give them a project in the moment. The project is small, but at least finding ways to assess capabilities live will be a natural default.\"",
-        "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-10-30-ep-834-six-predictions-for-ai-in-hr.md",
-        "fix": "With candidate AI and employer AI now talking to each other, Akosile expects a small live project during the interview to become the default way to assess capability."
-      },
-      {
-        "item": "Offer Accepted, Halving Attrition With a Connected Career Framework (bullet 2)",
-        "line": "Where someone sat in a bigger or smaller role than expected, Stepstone left their pay unchanged and built a pathway to the right level instead.",
-        "source_says": "\"There were a couple of corner cases where we realized that maybe the person was in a bigger role ... and so we could either adjust on that or there were occasions where people were in a role that was maybe smaller than we thought it was. And we had a really clear philosophy that we wouldn't change compensation that we would build a pathway for team members in terms of getting to to the right level for them.\" For people in a bigger role the source says Stepstone 'could adjust', so it does not say their pay was left unchanged. The pay-unchanged-plus-pathway point is tied to the smaller-role case.",
-        "source_path_or_url": "library/podcasts/transcripts/Offer Accepted/2026-10-20-halving-attrition-with-a-connected-career-framework-with-nic-weatherhead-the-ste.md (~16:02)",
-        "fix": "Where someone turned out to be in a smaller role than expected, Stepstone did not change their pay and built them a pathway to the right level instead."
-      }
-    ],
-    "style_flags": [
-      "Brainfood bullet 3 'One panellist says Exa's free plan...': this is close to the vague attribution STYLE.md bans. The speaker is Alla (introduced as 'Alla Pavlov', also called 'Alla Pavlova' in the ASR captions). Consider naming her, e.g. 'Recruiter Alla Pavlov says...', if the spelling is acceptable. Otherwise leave it as it is, since the spelling is uncertain.",
-      "Recruiting Future bullet 1 '... rather than on time saved alone': this leans towards the banned 'not X, but Y' seesaw. It mirrors the source's own framing ('much more than time saved'), so this is a soft flag only.",
-      "AI & I guest line 'Kevin Roose · Co-host @ Machine Gods': STYLE.md says guest lines come from the episode description only. The description calls him 'Tech journalist Kevin Roose' and lists Machine Gods as a link, without giving a role. 'host of Machine Gods with Casey Newton' is supported only by the transcript (0:36). The facts are accurate, but the guest line is not sourced from the description.",
-      "Em dash found only in <title> ('TheRecLab Weekly Digest — 4 Nov 2026'), which STYLE.md permits. No em or en dash in the body. No banned words or tics found. scripts/final_check.py reports clean."
-    ],
-    "unverifiable": [
-      "Brainfood guest names come from the ASR captions only, because the written description names no panellists. 'Adriano' is the guest's own spoken self-introduction and the host also says 'Adriana'. The surname 'Herdman' is heard once ('Adriana Herdman'). The 24 hours to 10 minutes figure is self-reported by the speaker, and the bullet frames it as 'Herdman says'.",
-      "Newsletter links are Gmail permalinks (thread IDs match _state/evidence/newsletters.json for each issue) and could not be opened. The bullets were checked against the saved library files, which are condensed extracts with verbatim quotes.",
-      "Ashby Community has no public archive. Its figures are Ashby customer data from a vendor newsletter, and the bullets attribute them to Ashby customers."
-    ],
-    "checked_ok_notes": "All 17 item dates match their source files and live pages. The ONS, REC, Pin, Teamtailor and Dayforce figures and claims were re-checked against the live URLs: the ONS wording is 'Outside of the coronavirus (COVID-19) pandemic period, the last time there were 691,000 or fewer vacancies was in July to September 2014'; the Dayforce/Ribbon voice and video, around-the-clock and rubric details are confirmed by iTWire. The preview names only topics covered by items. Every item and standout link points at its own source."
-  }
+  "style_flags": [],
+  "unverifiable": [
+    "Bullhorn item title 'Staffing Industry Indicator, week ending 24 October 2026' follows the library naming used for earlier weeks; the linked SIA page names it 'SIA | Bullhorn Staffing Indicator - November 3, 2026' and headlines 'US staffing hours further their growth trend'. Not a fact error, but the phrase 'Staffing Industry Indicator' does not appear on the linked page; consider 'SIA | Bullhorn Staffing Indicator, week ended 24 October 2026'."
+  ],
+  "verified": [
+    "git diff: only title/edition line date (5th to 9th November 2026, Monday after Sunday run), preview, section counts (7/5/5/5, match items) and the 5 added items changed; standouts and other 17 items untouched",
+    "Recruiting Future bullets 1 and 3, guest line (description: Co-Founder of the Recruiting Excellence Foundation), title (Ep 836 stripped), date 8 Nov 2026",
+    "PromptMates Live: all 3 bullets (Atkinson 'facts live in your tools not the bot's memory', Airtable; 'unless I say otherwise don't take action. So check with me first'; Miller 37:46 'president's club or 200% attainment', 'synonyms to overattainment'), no guest line (host show), date 4 Nov 2026",
+    "SIA/Bullhorn: live page read in full (Craig Johnson, 3 Nov 2026): 11% YoY week ended Oct. 24, industrial +17% YoY, office/clerical -7% YoY, 'one, two and three years ago' quote, all US",
+    "Lenny's: bullets 1 and 3 verbatim-backed (23:20 'start with even just five prompts', 'you as the rater'; 40:33 twice rule), guest line from description",
+    "CNBC: live page read via WebFetch (Lindsay Dodgson, Sun 8 Nov 2026): 'nearly 300 recruitment professionals in the U.K. and Ireland by ... Bullhorn', '37% said AI had made candidate screening between 26% and 50% faster'; Berwick 'AI is making that service increasingly difficult to justify'",
+    "Preview: new clause supported by CNBC (Berwick vs Collingwood); trims accurate; all named topics on page",
+    "No em/en dash in body (only the page title); no banned words in additions; all 5 links point at the right sources"
+  ]
 }
