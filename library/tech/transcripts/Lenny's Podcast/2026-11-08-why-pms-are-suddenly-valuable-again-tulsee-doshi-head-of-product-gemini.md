@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Tulsee Doshi, Head of Product for Gemini and Google's frontier models, who explains what product managers actually do inside a frontier AI lab and what she screens for when hiring them  ·  **Show:** Lenny's Podcast, 8 Nov 2026
+**Tags:** ai product, product management, product strategy, leadership, hiring, team building, careers, ai
+
+**When to use this:** You are advising a client on hiring or upskilling product managers for AI-heavy products, or you need a concrete way to start evaluating AI tools.
+
+**Big idea:** Now that anything can be built quickly, Tulsee Doshi argues the scarce skill is taste and judgement about what is worth building, plus the ability to bring order to the chaos that fast building creates.
+
+**Frameworks & plays:**
+- Write a first eval small. Her advice is to "start with even just five prompts", then grow to about 20 prompts that stress test a capability so you can see a difference between model A and model B. Judging the answers yourself first shows you what "good" means before you scale.
+- The 60-20-20 build rule: "build such that like 60% of what you've built works now", with a further slice that works well enough, and the rest aimed at where you see "glimmers of light" that better models may unlock. She adds that "the numbers are probably fungeible".
+- Evaluate the whole chain, not only the model. Judges that score the model need to be good too, and serving, filters and mitigations can change what the end user experiences, especially for audio.
+- Spread skills across the team. PMs who lean into tools build reusable skills and share them, and her team is planning a two-day November workshop pulling all PMs out of their day jobs to build and play.
+- Use the twice rule: "if you have to do something twice, do you need to do it yourself?" Keep strategy writing human.
+- Split documents by role: "what you should be providing is the insight. What the model should be providing is the data."
+
+**Hiring signals she screens PMs for:**
+- Doshi says "I want PMs who have an opinion" and who play with models every day, have their own tests for whether a model is good, can dig into data and build an eval. She also wants people who are agile, since a roadmap written two months ago gets rewritten.
+
+**Data & benchmarks:**
+- She cites 14 products above a billion users at Google, then says "I should check that number". Treat it as unverified.
+
+**Contrarian take:**
+- She says burnout comes from churn and chaos, and from work you do not enjoy, not simply from long hours. Her team is working very long hours and she admits sustainability is unsolved.
+
+**Steal this (do tomorrow):**
+- Ask PM candidates which model they use daily and how they decide it is any good, and ask them to show a five-prompt test of their own.
+- Build a 20-prompt test from a task you care about, such as screening notes, and run two tools through it.
+<!--/SUMMARY-->
+
 # Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)
 
 - **Podcast:** Lenny's Podcast

@@ -1,3 +1,32 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Kevin Pereira and Gavin Purcell, co-hosts of a weekly AI news show, who test new models hands-on and report rumours as rumours  ·  **Show:** AI For Humans, 6 Nov 2026
+**Tags:** ai, ai coding, machine learning, future of work, engineering, general
+
+**When to use this:** You want a quick read on how AI labs are using agent fleets for security work, and on the public backlash against data centres, without reading the news yourself.
+
+**Big idea:** The hosts argue the US local votes against data centres are a rejection of AI being "forced" on people rather than of AI use itself, and that frontier labs will now have to invest in communities and adult education.
+
+**Frameworks & plays:**
+- Split a huge audit into cheap scouts and reviewers. OpenAI's Linux kernel run, described by Kevin, used "tiny little agents go out, find what could be attack surfaces" across roughly 30 million lines of code, then separate agents reviewed the 2,000 plus findings before patches were written. The same two-stage pattern (wide cheap scan, then a review pass) suits screening a large CV or candidate pool.
+- Gavin's three asks of data centre builders: build community benefit around the site, fund AI education, and especially re-education for adults moving out of jobs AI may take, plus a cross-party coalition so legislators understand AI.
+- Treat a new AI-video prompt tip as a reusable template. Gavin relays a tip from a poster called second_bassoon: "Break long lines into shorter ones with intentional pauses. Use bodily actions as punctuation."
+- Kevin's tip for coding tools: update Claude Code now, because sub-agents were optimised so they no longer re-ingest the whole conversation, so "your usage should go much further".
+
+**Data & benchmarks:**
+- OpenAI's autonomous patching pipeline fixed 948 local privilege escalation bugs for about $1.2 million. Kevin says normal bug bounties would have cost $18 to 20 million, an off-the-cuff comparison the hosts did not source.
+- A Fast Company article, as relayed by Gavin, counted 40 plus local data centre ballot measures, with only one winning.
+- A weight space programming paper reportedly had a smart AI rewrite a small model's weights, giving 40 to 50% better scores on certain math benchmarks. The hosts stress it is early and small scale.
+- Realbotix tabletop robot bust: $11,950, 17 degrees of freedom.
+
+**Contrarian take:**
+- Gavin says the data centre losses are "a good thing for AI" and only "a small check on unfettered big tech power". This is a comfortable opinion rather than a counterintuitive finding.
+
+**Steal this (do tomorrow):**
+- If you use agents for sourcing or screening, try a cheap first pass that flags candidates, then a second agent that reviews every flag before a human sees it.
+- Treat the GPT 6.2 Astra and Fable 5.5 talk as rumour: neither had launched at recording.
+<!--/SUMMARY-->
+
 # AI Just Lost The Election. Bigger Models Are Coming Anyway.
 
 - **Podcast:** AI For Humans
