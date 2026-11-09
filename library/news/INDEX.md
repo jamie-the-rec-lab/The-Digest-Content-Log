@@ -11,6 +11,14 @@ Company: Ashby
 Tags: product launch, ai agents, scheduling, integrations, ats, human-ai collaboration
 File: `transcripts/Ashby/2026-09-09-one-london-product-keynote.md`
 
+## CNBC (1 episodes)
+
+### 2026-11-08 — [AI is speeding up recruitment, and putting agency fees under pressure](https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html)
+CNBC reports UK recruiters split on whether AI will cut agency fees: a Bullhorn survey says 37% found AI made screening 26-50% faster, Adecco claims about 15% time saved, and agency heads predict consolidation. Single source, partial extraction; figures are the article's citations.
+Company: Bullhorn
+Tags: market news, uk, automation, ai screening, human-ai collaboration
+File: `transcripts/CNBC/2026-11-08-ai-recruitment-agency-fees.md`
+
 ## Dayforce (1 episodes)
 
 ### 2026-10-23 (BetaKit: agreement announced on a Friday, 23 Oct; the other outlets published 26 Oct) — [Dayforce agrees to acquire Ribbon AI to add voice and video AI interviewing to Agentic Recruiting](https://betakit.com/?p=411302)

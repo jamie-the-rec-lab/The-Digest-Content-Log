@@ -257,7 +257,13 @@ Company: AI & I
 Tags: ai, ai agents
 File: `transcripts/AI & I/2026-01-07-ai-in-2026-reid-hoffmans-predictions-on-agents-work-and-creation.md`
 
-## AI For Humans (62 episodes)
+## AI For Humans (63 episodes)
+
+### 2026-11-06 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=4fZApLHnLFU)
+Weekly AI news: OpenAI agent fleet patching 948 Linux bugs for $1.2 million, the US data centre ballot losses, an early weight-rewriting paper and rumoured GPT 6.2 Astra / Fable 5.5 launches.
+Company: AI news roundup (hosts Kevin Pereira, Gavin Purcell / AI For Humans)
+Tags: ai, ai coding, machine learning, future of work, engineering, general
+File: `transcripts/AI For Humans/2026-11-06-ai-just-lost-the-election-bigger-models-are-coming-anyway.md`
 
 ### 2026-10-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=6101Q0dQQIk)
 Weekly AI news show covering Google's gated Gemini 4 Carbon preview, Genie 4, OpenAI's cheaper GPT-6.1 Terra and what a cheaper model is good and bad at.
@@ -1113,7 +1119,13 @@ Company: Wade Foster
 Tags: ai, ai agents, startups, founder stories, hiring
 File: `transcripts/How I AI/2026-01-05-zapiers-ceo-shares-his-personal-ai-stack-wade-foster.md`
 
-## Lenny's Podcast (60 episodes)
+## Lenny's Podcast (61 episodes)
+
+### 2026-11-08 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=qGf2Yvan4Wg)
+Google's Gemini product head on hiring PMs who stress test models, starting evals with five prompts, the 60-20-20 build rule and sharing AI skills across a team.
+Company: Google (Tulsee Doshi, Head of Product Gemini / Lenny's Podcast)
+Tags: ai product, product management, product strategy, leadership, hiring, team building, careers, ai
+File: `transcripts/Lenny's Podcast/2026-11-08-why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini.md`
 
 ### 2026-11-01 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=KzS5Qs7vSMg)
 Wispr Flow's head of content on running a performance-paid creator programme with Tribe, sourcing creators by manual DMs, and hiring young talent for social skills over CV signals.

@@ -28,8 +28,11 @@ document each phase points you at when you reach it. Read `docs/TOKEN_RULES.md`
 before you start. It governs every phase.
 
 Run the phases in order, each as its own subagent so the heavy reading never
-reaches the main thread. Helpers run on Sonnet, including the ones that read
-transcripts. The fact-check runs on the strongest model available.
+reaches the main thread. **Everything runs on Opus 5.5** (`claude-opus-5-5`):
+the main thread, every helper including the ones that read transcripts, and the
+fact-check (Jamie's call, November 2026: accuracy and judgement over usage). If
+Opus 5.5 is unavailable, use the strongest model available and log it. The
+fact-check never falls below the strongest available.
 
 0. **RECONCILE** last week's review, per `docs/PUBLISH.md` step 0.
 1. **REFRESH**, per `docs/REFRESH.md`. Writes `_state/run-report.json`.

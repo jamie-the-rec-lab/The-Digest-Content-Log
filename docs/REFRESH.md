@@ -35,7 +35,7 @@ what the fact-check said.
 
 ## The rules that apply everywhere
 
-**Every helper that reads a source runs on sonnet.** Not because a smaller model
+**Every helper that reads a source runs on Opus 5.5** (never below Sonnet). Not because a smaller model
 gets figures wrong, but because it misses the judgement: flagging that a guest is
 the vendor behind the product they are praising, attributing a statistic to its
 source, knowing the difference between a contrarian take and a comfortable

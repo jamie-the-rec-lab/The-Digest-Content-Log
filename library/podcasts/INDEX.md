@@ -323,7 +323,13 @@ Company: Metaview
 Tags: ta leadership, ai strategy
 File: `transcripts/10x Recruiting/2025-03-06-introducing-the-10x-recruiting-podcast.md`
 
-## Brainfood (160 episodes)
+## Brainfood (161 episodes)
+
+### 2026-11-06 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=q-rytZJNYu8)
+Hung Lee hosts a Jovio-led panel on GEO: track share of voice and sentiment per AI engine, keep career site, reviews and press consistent, add job posting schema, and fix candidate feedback first.
+Company: Brainfood (Jen Terry Tharp, Jovio; panel Alexander Chukovski, Kareem of Perception X, Devin; host Hung Lee)
+Tags: job advertising, employer branding, recruitment marketing, candidate ai tools, candidate experience, rec tech, talent market data, evp
+File: `transcripts/Brainfood/2026-11-06-brainfood-live-on-air-ep417-geo-what-do-we-know.md`
 
 ### 2026-10-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=l7ulRFqNU3U)
 Panel on turning repeat recruiter prompts into reusable Claude skills: a Clay-powered intake calibration play, an Exa sourcing connector, scheduled tasks, plus a four-level AI adoption scale and a 162-person survey.
@@ -2123,7 +2129,13 @@ Company: Growth by Design
 Tags: stakeholder management, recruiting metrics, ta leadership, hiring manager alignment, market mapping, talent density
 File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-service-providers-to-trusted-advisors-with-adam.md`
 
-## PromptMates (66 episodes)
+## PromptMates (67 episodes)
+
+### 2026-11-04 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=UyOLQ6KKXs4)
+Joe Atkinson and Jason Miller show how to start with Grok Bot personal agents: a chief of staff plus one bot per task, approval-first guardrails, an events agent for open roles, and Metaview via MCP.
+Company: PromptMates (hosts Joe Atkinson and Jason Miller; sponsor Metaview, Elise)
+Tags: ai agents, recruiter workflow, human-ai collaboration, outbound sourcing, ai sourcing, context engineering, ai governance, building ai tools, rec tech, recruiter productivity
+File: `transcripts/PromptMates/2026-11-04-grok-bot-for-recruiters.md`
 
 ### 2026-11-02 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=wI-TYLIO9ic)
 A one-person recruiting and people-ops lead built a /newrole Slack command with Claude that creates the Ashby job and opening, names and populates the Slack channel, invites stakeholders and pins hiring manager resources.
@@ -2521,7 +2533,13 @@ Company: SDI Scout
 Tags: building ai tools, custom gpts, ai sourcing, ai market research, sourcing, talent mapping, recruiter workflow, talent intelligence
 File: `transcripts/PromptMates/2025-08-26-finding-hidden-talent-with-sdi-scout.md`
 
-## Recruiting Future (305 episodes)
+## Recruiting Future (306 episodes)
+
+### 2026-11-08 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=AiO_3dvyPtA)
+Tony de Graaf of the Recruiting Excellence Foundation says high performing TA teams rank every improvement by its effect on delivering the right person on time, treat improvement as continuous, and cost AI tools against time saved.
+Company: Recruiting Excellence Foundation (Tony de Graaf; host Matt Alder)
+Tags: recruiting operations, recruiting metrics, ta leadership, talent market data, rec tech, ai strategy, hiring manager alignment, recruiter career growth, recruiter productivity
+File: `transcripts/Recruiting Future/2026-11-08-ep-836-continuous-improvement-in-ta.md`
 
 ### 2026-11-03 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=ho8pVkZJA24)
 Four Unleash Paris interviews, mostly from HR tech vendors: a SmartRecruiters executive predicts the standalone TA function dissolves, the Hibob CEO describes agents on org charts, Glimpse pitches game-based assessment, and Mervyn Dinnin says the human versus AI debate is missing.

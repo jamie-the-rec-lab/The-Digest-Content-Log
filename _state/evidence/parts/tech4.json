@@ -1,0 +1,90 @@
+{
+ "run_date": "2026-11-09",
+ "items": [
+  {
+   "path": "library/tech/transcripts/AI For Humans/2026-11-06-ai-just-lost-the-election-bigger-models-are-coming-anyway.md",
+   "show": "AI For Humans",
+   "title": "AI Just Lost The Election. Bigger Models Are Coming Anyway.",
+   "date": "2026-11-06",
+   "url": "https://www.youtube.com/watch?v=4fZApLHnLFU",
+   "guest_line": "none",
+   "vendor_flag": "No guest. Hosts are enthusiastic users of OpenAI and Anthropic models; GPT 6.2 Astra and Fable 5.5 are rumours at recording. The $18 to 20 million bounty comparison and the data centre vote count are relayed off the cuff (Fast Company named for the votes) and not verified.",
+   "reader_fit": "Low. Mostly AI news and gadgets; a UK recruiter gets a transferable scout-then-review agent pattern and context on data centre backlash, nothing recruiting-specific.",
+   "points": [
+    {
+     "claim": "OpenAI used a fleet of small agents then reviewer agents to find and patch Linux kernel bugs, at a fraction of bounty cost.",
+     "evidence": "948 local privilege escalation patches, $1.2 million, 2,000 plus findings, about 30 million lines of code",
+     "quote": "They had these tiny little agents go out, find what could be attack surfaces.",
+     "timecode": "17:23"
+    },
+    {
+     "claim": "Local US ballot measures on data centres almost all failed; host reads it as rejection of AI being forced on people.",
+     "evidence": "40 plus data centre votes, only one won (Fast Company, as relayed)",
+     "quote": "only one actually won",
+     "timecode": "21:20"
+    },
+    {
+     "claim": "Host's asks of frontier labs: AI education and re-education for adults, plus a cross-party coalition.",
+     "evidence": "Gavin: three things frontier companies can do",
+     "quote": "it's really time for these companies to get serious about AI education",
+     "timecode": "24:48"
+    },
+    {
+     "claim": "A smart AI rewriting a small AI's weights improved it on benchmarks, early stage only.",
+     "evidence": "40 to 50% better on certain math benchmarks (weight space programming paper)",
+     "quote": "they found that it did like 40 to 50% better on certain math benchmarks",
+     "timecode": "34:59"
+    },
+    {
+     "claim": "Practical AI video dialogue prompt tip relayed from second_bassoon.",
+     "evidence": "Break long lines into shorter ones; use bodily actions as punctuation",
+     "quote": "Break long lines into shorter ones with intentional pauses.",
+     "timecode": "47:32"
+    }
+   ]
+  },
+  {
+   "path": "library/tech/transcripts/Lenny's Podcast/2026-11-08-why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini.md",
+   "show": "Lenny's Podcast",
+   "title": "Why PMs are suddenly valuable again",
+   "date": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=qGf2Yvan4Wg",
+   "guest_line": "Tulsee Doshi · Head of Product, Gemini @ Google",
+   "vendor_flag": "Guest is the vendor behind Gemini and promotes Gemini 4 and Google products; her own '14 products above a billion users' stat is flagged by her as unchecked.",
+   "reader_fit": "Medium. Useful for UK recruiters hiring or advising on PMs and AI product roles: concrete hiring signals and a small-eval starting method.",
+   "points": [
+    {
+     "claim": "Start your first eval tiny, with your own judgement as the rater.",
+     "evidence": "five prompts to start, mini eval of about 20 prompts",
+     "quote": "start with even just five prompts",
+     "timecode": "23:20"
+    },
+    {
+     "claim": "Build roughly 60% that works now and aim the rest at capabilities models are close to unlocking.",
+     "evidence": "60-20-20 rule; she says numbers are fungible",
+     "quote": "build such that like 60% of what you've built works now",
+     "timecode": "33:14"
+    },
+    {
+     "claim": "Hiring signal for research PMs: opinionated daily model users who can build evals and adapt.",
+     "evidence": "PMs who understand model vibes, roll up sleeves, build an eval; roadmap rewritten after two months",
+     "quote": "I want PMs who have an opinion",
+     "timecode": "21:24"
+    },
+    {
+     "claim": "Delegate repeatable work to AI, keep insight human.",
+     "evidence": "twice rule; insight from human, data from model",
+     "quote": "if you have to do something twice, do you need to do it yourself?",
+     "timecode": "40:33"
+    },
+    {
+     "claim": "Her team is running a two-day November workshop for PMs to build with tools.",
+     "evidence": "two-day workshop in November",
+     "quote": "a two-day workshop in November",
+     "timecode": "40:33"
+    }
+   ]
+  }
+ ],
+ "gaps": []
+}

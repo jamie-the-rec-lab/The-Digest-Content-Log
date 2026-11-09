@@ -1,43 +1,56 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-09",
  "phase": 2,
- "dry_run": true,
- "edition": "Version 8 (4th November 2026)",
- "build_file": "digest/builds/2026-11-04.html",
- "counts": {
-  "Recruiting Podcasts": 5,
-  "Recruiting Newsletters": 5,
-  "Recruiting reports, product updates, and more": 4,
-  "AI & Tech Picks": 3
- },
+ "build": "digest/builds/2026-11-04.html",
+ "edition_line": "Version 8 (9th November 2026)",
  "decisions": [
-  "Edition numbered v8 (version.txt says 7; the 17 Oct v8 build never went live). Window 9 Sep to 4 Nov 2026.",
-  "Newer-than-featured rule applied per source against featured-log.tsv (last entries 7 Oct); 17 Oct build items treated as never featured.",
-  "Recruiting Future: skipped Ep 835 (3 Nov, Unleash vendor interviews, reader fit limited) for Ep 834 Six Predictions (30 Oct, Cloudflare practitioner). Ep 835 now cannot run later.",
-  "Recruiting Future 22 Oct 'Round Up September' treated as duplicate of 14 Oct live round-up; neither used (both older than Ep 834).",
-  "Offer Accepted Loop Earplugs episode (0000 file, undated) ineligible; used 20 Oct Stepstone episode.",
-  "PromptMates: newest episode used (2 Nov Kit hiring launches); Chief of Staff (29 Oct) and two others left out, one per show.",
-  "Brainfood: newest (30 Oct Claude for TA) used; not eligible for podcast standout. Guest line omitted (multi-guest, names uncertain in captions).",
-  "RecOps Roundup left out this week: 29 Oct issue is mainly a vendor (Sync2Hire) event write-up and 22 Oct lead story was an image only.",
-  "Data Driven Recruiter: newest issue (4 Nov, talent engineering) used; 'Issue 84 -' prefix stripped (two issues share number 84).",
-  "Bullhorn/SIA indicator (20 Oct) left out: page 403, full analysis members-only, figures from search excerpts with an index conflict (108 vs 100); cannot confirm free access or verify.",
-  "Launches: Pin Autopilot and Teamtailor Smart action (both tier A). iCIMS Hiring Agent (tier B) dropped as two tier A launches fill the two slots; Metaview November update not used (not saved, extension of existing product).",
-  "Dayforce/Ribbon AI placed in AI & Tech Picks as a news item per the run report, but described in the recruiting part of the preview because its subject is recruiting.",
-  "Tech picks: AI & I (Roose, 4 Nov) and How I AI (Figma PM, 2 Nov) used. Lenny's 1 Nov UGC episode dropped at the subject gate (growth/marketing by title, borderline). AI For Humans 30 Oct dropped (general model chatter, low reader fit).",
-  "Standouts: Podcast Building the Talent Machine (McCarthy), Newsletter TA Unboxed, Report ONS, Launch Pin Autopilot, AI pick How I AI.",
-  "No curve-ball reports, events or essays available this week; section 3 is two reports plus two launches.",
-  "check_duplicates flags (Ashby Community monthly title, ONS monthly title) are formulaic recurring titles of new editions, accepted."
+  "Edit of live v8 per PUBLISH.md step 9: same version, re-dated to 9th November 2026 (edition line and page title). All 17 existing items and 5 standouts kept.",
+  "Added Recruiting Future 'Continuous Improvement In TA' (8 Nov) as a second Recruiting Future item: newer than the featured ep834, two-week edition, practical prioritisation test and AI tool ROI check for TA leads. Mild vendor flag (guest sells the benchmark); bullets avoid the pitch.",
+  "Added PromptMates Live 'Grok Bot for Recruiters' (4 Nov) as a second PromptMates item: newer than featured 2 Nov item, concrete agent guardrails a recruiter can copy. Metaview sponsor claims (sub agents, Fillmore, Metaview MCP) left out.",
+  "Dropped Brainfood ep417 GEO (6 Nov): Brainfood already has an item, the panel is mostly people selling GEO services (Jovio, Perception X, a paid Jovio consultant), and the main fixes (job posting schema, server side rendering) are engineering work beyond this reader. Speakers unnamed in captions.",
+  "Dropped TA Unboxed 6 Nov 'The candidate nobody saw coming': a hypothetical follow-up to the 30 Oct issue already featured and standout, no data, would repeat its theme. Metaview sponsor block.",
+  "Dropped RecOps Collective 6 Nov 'Week of November 2nd': editorial observations with no data, linked articles not read; nothing actionable to write three honest bullets from.",
+  "Added Bullhorn Staffing Industry Indicator w/e 24 Oct (published 3 Nov), US, free SIA news summary, newer than last featured Bullhorn edition (w/e 19 Sep). Balances UK-only report data for US agency readers. Partial extraction: bullets use only summary figures. Placed after REC, before launches.",
+  "Added CNBC 8 Nov on AI and UK agency fees to AI & Tech Picks as news (Phase 1 classed it as the AI news pick, as with Dayforce). Conservative: one survey figure plus two named, attributed views; the 'only a third of agencies survive' and '60 to 70% job losses' predictions left out.",
+  "Ordering conflict: SELECTION.md puts news after the episodes in section 4, but publish_check requires freshest first across the whole section. CNBC (8 Nov) sits second, after Lenny's (same date) and before the 4 Nov and 2 Nov episodes, so the mechanical check passes. Flag for Jamie: the two rules disagree whenever a news item is newer than an episode.",
+  "Added Lenny's Podcast 'Why PMs are suddenly valuable again' (8 Nov, Tulsee Doshi, Gemini): passes the AI subject gate, gives a five-prompt starting eval and a hiring signal for AI PM roles. Guest is the vendor behind Gemini; Gemini product claims and her unchecked '14 products' stat left out.",
+  "Dropped AI For Humans 6 Nov: low reader fit, mostly AI news and gadgets, unverified figures relayed off the cuff.",
+  "No launches added: Phase 1 found nothing material (Jack & Jill Company Insights judged too minor).",
+  "Standouts unchanged: no new item clearly beats the existing pick in its slot.",
+  "Preview: added UK agency fees debate (CNBC); kept to 4 sentences, 107 words. US staffing not named to stay within length.",
+  "Run check --pre flags adhoc INDEX.md last written 2026-11-04 (not rebuilt this run). Phase 1/index job, not faked here: rerun 'python3 scripts/build_index.py adhoc' or confirm adhoc needs no rebuild."
  ],
- "checks": {
-  "template_diff": "identical",
-  "quick_checks": "pass",
-  "check_duplicates": "3 formulaic flags, accepted",
-  "final_check": "clean",
-  "run_check_pre": "clean",
-  "publish_check": "clean"
+ "added": {
+  "Recruiting Podcasts": [
+   "Continuous Improvement In TA",
+   "Grok Bot for Recruiters"
+  ],
+  "Recruiting Newsletters": [],
+  "Recruiting reports, product updates, and more": [
+   "Staffing Industry Indicator, week ending 24 October 2026"
+  ],
+  "AI & Tech Picks": [
+   "Why PMs are suddenly valuable again",
+   "AI is speeding up recruitment, and putting agency fees under pressure"
+  ]
  },
- "not_done": [
-  "Fact-check (step 5) pending: input in _state/factcheck-input.json",
-  "Steps 6-8 not run (dry run)"
- ]
+ "featured_log_rows_to_add": [
+  "PromptMates/2026-11-04-grok-bot-for-recruiters.md",
+  "Recruiting Future/2026-11-08-ep-836-continuous-improvement-in-ta.md",
+  "Bullhorn/2026-11-03-staffing-industry-indicator-week-ending-october-24.md",
+  "Lenny's Podcast/2026-11-08-why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini.md",
+  "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html"
+ ],
+ "counts": {
+  "podcasts": 7,
+  "newsletters": 5,
+  "reports_etc": 5,
+  "tech": 5
+ },
+ "checks": {
+  "check_duplicates": "30 flags, all expected: the 17 v8 items themselves, formulaic Bullhorn and Ashby Community series titles",
+  "final_check": "clean",
+  "publish_check": "clean, 22 items across 4 sections",
+  "run_check_pre": "1 flag: adhoc index not rebuilt today"
+ }
 }

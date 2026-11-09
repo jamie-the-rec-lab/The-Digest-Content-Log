@@ -1,247 +1,110 @@
 {
- "date": "2026-11-04",
- "dry_run": true,
+ "date": "2026-11-09",
+ "topup_of": "Version 8 (live, 5th November 2026)",
  "collections": {
   "podcasts": {
-   "Brainfood": 3,
-   "Building the Talent Machine": 1,
-   "Offer Accepted": 2,
-   "PromptMates": 4,
-   "Recruiting Future": 5,
-   "10x Recruiting": 0,
-   "Recruiting Roadshow": 0,
-   "The Debrief": 0
+   "Brainfood": 1,
+   "PromptMates": 1,
+   "Recruiting Future": 1
   },
   "newsletters": {
-   "Ashby Community": 1,
-   "Data Driven Recruiter": 3,
-   "Full Stack Recruiter": 2,
-   "PromptMates Newsletter": 3,
-   "RecOps Collective": 2,
-   "TA Unboxed": 3,
-   "Remade.md": 0
+   "TA Unboxed": 1,
+   "RecOps Collective": 1
   },
   "tech": {
-   "AI & I": 3,
-   "Lenny's Podcast": 3,
-   "How I AI": 5,
-   "AI For Humans": 3
+   "AI For Humans": 1,
+   "Lenny's Podcast": 1
   },
   "reports": {
-   "ONS": 1,
-   "REC": 1,
    "Bullhorn (with SIA)": 1
   },
   "news": {
-   "Dayforce (AI news)": 1,
-   "launch notes": 3
+   "CNBC (AI news)": 1
   }
  },
  "reports": [
   {
-   "name": "ONS: Labour market overview, UK: October 2026",
+   "name": "Bullhorn/SIA Staffing Indicator w/e 24 Oct",
    "extraction": "partial",
-   "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026",
-   "reason": "public summary only"
-  },
-  {
-   "name": "REC: REC JobsOutlook, June to August 2026",
-   "extraction": "partial",
-   "url": "https://www.onrec.com/node/129117",
-   "reason": "public summary only"
-  },
-  {
-   "name": "Bullhorn (with SIA): SIA | Bullhorn Staffing Indicator, week ending October 10, 2026",
-   "extraction": "partial",
-   "url": "https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-october-20-2026",
-   "reason": "public summary only"
+   "url": "see reports-topup.json",
+   "reason": "public SIA news summary only"
   }
  ],
- "to_grab": [
-  {
-   "name": "ONS Labour market overview Oct 2026 (full text)",
-   "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026",
-   "reason": "read via page extract only"
-  },
-  {
-   "name": "REC JobsOutlook full tables",
-   "url": "https://www.rec.uk.com",
-   "reason": "press release republish only"
-  },
-  {
-   "name": "SIA Bullhorn Indicator 20 Oct",
-   "url": "https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-october-20-2026",
-   "reason": "HTTP 403 to bots; members-only analysis"
-  },
-  {
-   "name": "Indeed Hiring Lab UK snapshot Sept/Oct 2026",
-   "url": "https://hiringlab.indeed.com/uk/",
-   "reason": "no Oct edition found; Sept previously failed with redirects"
-  }
- ],
+ "to_grab": [],
  "index": {
+  "newsletters": {
+   "items": 81,
+   "missing": 0,
+   "blocks": 0,
+   "warnings": []
+  },
   "reports": {
-   "items": 84,
+   "items": 85,
    "missing": 0,
    "blocks": 2,
    "warnings": []
   },
-  "newsletters": {
-   "items": 79,
-   "missing": 0,
-   "blocks": 0,
-   "warnings": []
-  },
-  "news": {
-   "items": 12,
-   "missing": 0,
-   "blocks": 1,
-   "warnings": []
-  },
   "podcasts": {
-   "items": 753,
+   "items": 756,
    "missing": 0,
-   "blocks": 165,
+   "blocks": 168,
    "warnings": []
   },
   "tech": {
-   "items": 244,
+   "items": 246,
    "missing": 0,
-   "blocks": 84,
+   "blocks": 86,
    "warnings": []
   },
-  "adhoc": {
-   "items": 2,
+  "news": {
+   "items": 13,
    "missing": 0,
-   "blocks": 0,
+   "blocks": 1,
    "warnings": []
   }
  },
  "zero_returns": [],
  "launch_sweep": {
   "ran": true,
-  "vendors_read": [
-   "Ashby",
-   "Metaview (via content.metaview.ai/rss after redirect)",
-   "Greenhouse",
-   "Teamtailor",
-   "Gem (blog, undated listing)",
-   "Pinpoint",
-   "Juicebox",
-   "Jack & Jill",
-   "Pin",
-   "Eightfold",
-   "First.cx",
-   "iCIMS"
-  ],
-  "vendors_unreadable": [
-   {
-    "vendor": "Lever",
-    "why": "help centre returned HTTP 401; search fallback found nothing dated in window"
-   },
-   {
-    "vendor": "SmartRecruiters",
-    "why": "page returned HTTP 403; search fallback found nothing in window"
-   },
-   {
-    "vendor": "Workable",
-    "why": "release notes page and recent-updates page returned no entries (JavaScript)"
-   },
-   {
-    "vendor": "hackajob",
-    "why": "search only; no in-window result"
-   },
-   {
-    "vendor": "Nova (Dweet)",
-    "why": "search only; launch date not established"
-   },
-   {
-    "vendor": "Screenloop",
-    "why": "search only; no result"
-   },
-   {
-    "vendor": "Workday",
-    "why": "search only; Oct 13 launch already in library"
-   }
-  ],
-  "material": [
-   "Pin: Autopilot",
-   "iCIMS: iCIMS Hiring Agent (2026 Fall Release)",
-   "Teamtailor: Smart action",
-   "Metaview: November 2026 update: Sourcing beyond LinkedIn, Filters mode, prompt-generated outreach"
-  ]
+  "material": [],
+  "note": "Only Jack & Jill Company Insights (4 Nov), judged too minor; Metaview 4 Nov and iCIMS Hiring Agent re-checked and still left out"
  },
- "ai_news": "Dayforce agrees to acquire Ribbon AI, adding voice and video AI interviewing and sourcing to its Agentic Recruiting product",
+ "ai_news": "CNBC, 8 Nov: AI is speeding up recruitment and putting agency fees under pressure",
  "evidence_files": [
-  "_state/evidence/podcasts.json",
-  "_state/evidence/tech.json",
-  "_state/evidence/newsletters.json",
-  "_state/evidence/reports.json",
-  "_state/evidence/launches.json"
+  "_state/evidence/podcasts-topup.json",
+  "_state/evidence/tech-topup.json",
+  "_state/evidence/newsletters-topup.json",
+  "_state/evidence/reports-topup.json",
+  "_state/evidence/launches-topup.json"
  ],
  "problems": [
   {
    "phase": 1,
-   "source": "PromptMates",
-   "what": "Grok Bot for Recruiters (UyOLQ6KKXs4): TranscriptAPI had no captions; recorded gap, retried next week",
+   "source": "Lenny's Podcast",
+   "what": "Retitled re-listing of Rob Snyder saved as a duplicate; removed. Fetcher dedupes by title not video id",
    "severity": "degraded",
-   "resolved": "no"
-  },
-  {
-   "phase": 1,
-   "source": "Offer Accepted",
-   "what": "Hiring for AI Skills Beyond Prompting (Loop Earplugs) still has no date (0000 file from the laptop run); invisible to selection until the date is recovered",
-   "severity": "degraded",
-   "resolved": "no"
-  },
-  {
-   "phase": 1,
-   "source": "Remade.md",
-   "what": "Gmail search returned no issues since 8 Oct",
-   "severity": "noted",
-   "resolved": "no"
+   "resolved": "yes"
   },
   {
    "phase": 1,
    "source": "Reports",
-   "what": "All three new reports partial (ONS page extract, REC press release via Onrec, Bullhorn/SIA 403 so figures from search excerpts); WebSearch is US-centred so UK discovery was thin",
-   "severity": "degraded",
-   "resolved": "yes"
-  },
-  {
-   "phase": 1,
-   "source": "Launch sweep",
-   "what": "Lever 401, SmartRecruiters 403, Workable JS-only; search-only vendors (hackajob, Nova, Screenloop) found nothing dated in window",
-   "severity": "degraded",
-   "resolved": "no"
-  },
-  {
-   "phase": 1,
-   "source": "Launches/news",
-   "what": "Saved launch and news pages are fetch-tool extracts marked partial, not verbatim full text; GlobeNewswire 403",
-   "severity": "degraded",
-   "resolved": "no"
-  },
-  {
-   "phase": 1,
-   "source": "Newsletters",
-   "what": "RecOps 22 Oct lead story was an image, no text captured",
+   "what": "REC/KPMG November Report on Jobs not yet out (expected early Dec); no new CIPD, Indeed UK or ISE",
    "severity": "noted",
    "resolved": "no"
   },
   {
    "phase": 1,
-   "source": "Recruiting Future",
-   "what": "22 Oct 'Round Up September' is a re-recording of the 14 Oct live round-up; treat as one item",
-   "severity": "decision",
-   "resolved": "yes"
+   "source": "Gem",
+   "what": "Blog has no dates, launch sweep gap",
+   "severity": "degraded",
+   "resolved": "no"
   },
   {
    "phase": 1,
-   "source": "Summaries",
-   "what": "Phase 1 helpers wrote TSV lines to per-batch part files; coordinator merged them in one pass to keep one writer per shared TSV",
-   "severity": "decision",
-   "resolved": "yes"
+   "source": "AI news",
+   "what": "CNBC item single source, partial extraction; survey figures are the article's citations",
+   "severity": "degraded",
+   "resolved": "no"
   }
  ]
 }
