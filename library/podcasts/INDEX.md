@@ -325,7 +325,10 @@ File: `transcripts/10x Recruiting/2025-03-06-introducing-the-10x-recruiting-podc
 
 ## Brainfood (161 episodes)
 
-### 2026-11-06 — [Brainfood Live On Air   Ep417   GEO, What Do We Know](https://www.youtube.com/watch?v=q-rytZJNYu8)
+### 2026-11-06 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=q-rytZJNYu8)
+Hung Lee hosts a Jovio-led panel on GEO: track share of voice and sentiment per AI engine, keep career site, reviews and press consistent, add job posting schema, and fix candidate feedback first.
+Company: Brainfood (Jen Terry Tharp, Jovio; panel Alexander Chukovski, Kareem of Perception X, Devin; host Hung Lee)
+Tags: job advertising, employer branding, recruitment marketing, candidate ai tools, candidate experience, rec tech, talent market data, evp
 File: `transcripts/Brainfood/2026-11-06-brainfood-live-on-air-ep417-geo-what-do-we-know.md`
 
 ### 2026-10-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=l7ulRFqNU3U)
@@ -2128,7 +2131,10 @@ File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-se
 
 ## PromptMates (67 episodes)
 
-### 2026-11-04 — [Grok Bot for Recruiters](https://www.youtube.com/watch?v=UyOLQ6KKXs4)
+### 2026-11-04 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=UyOLQ6KKXs4)
+Joe Atkinson and Jason Miller show how to start with Grok Bot personal agents: a chief of staff plus one bot per task, approval-first guardrails, an events agent for open roles, and Metaview via MCP.
+Company: PromptMates (hosts Joe Atkinson and Jason Miller; sponsor Metaview, Elise)
+Tags: ai agents, recruiter workflow, human-ai collaboration, outbound sourcing, ai sourcing, context engineering, ai governance, building ai tools, rec tech, recruiter productivity
 File: `transcripts/PromptMates/2026-11-04-grok-bot-for-recruiters.md`
 
 ### 2026-11-02 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=wI-TYLIO9ic)
@@ -2529,7 +2535,10 @@ File: `transcripts/PromptMates/2025-08-26-finding-hidden-talent-with-sdi-scout.m
 
 ## Recruiting Future (306 episodes)
 
-### 2026-11-08 — [Ep 836: Continuous Improvement In TA](https://www.youtube.com/watch?v=AiO_3dvyPtA)
+### 2026-11-08 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=AiO_3dvyPtA)
+Tony de Graaf of the Recruiting Excellence Foundation says high performing TA teams rank every improvement by its effect on delivering the right person on time, treat improvement as continuous, and cost AI tools against time saved.
+Company: Recruiting Excellence Foundation (Tony de Graaf; host Matt Alder)
+Tags: recruiting operations, recruiting metrics, ta leadership, talent market data, rec tech, ai strategy, hiring manager alignment, recruiter career growth, recruiter productivity
 File: `transcripts/Recruiting Future/2026-11-08-ep-836-continuous-improvement-in-ta.md`
 
 ### 2026-11-03 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=ho8pVkZJA24)

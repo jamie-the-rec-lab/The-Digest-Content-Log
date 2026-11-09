@@ -1,3 +1,35 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Tony de Graaf, co-founder of the Recruiting Excellence Foundation, who runs a global TA maturity benchmark and returned for his fifth appearance  ·  **Show:** Recruiting Future, 08 Nov 2026
+**Tags:** recruiting operations, recruiting metrics, ta leadership, talent market data, rec tech, ai strategy, hiring manager alignment, recruiter career growth, recruiter productivity
+
+**When to use this:** you know your TA function has a long improvement list, or an AI vendor pitch deck, and need a way to decide what to do first.
+
+**Big idea:** High performing TA teams rank every improvement by one test, its effect on consistently delivering the right person exactly on time, and treat improvement as continuous rather than a project.
+
+**Frameworks & plays:**
+- Write your top three to five issues, then keep only the two or three that most improve "my ability to consistently deliver the right person exactly on time", which de Graaf calls the only sentence high performing teams focus on.
+- Park work that is annoying but low impact. His examples are career site tweaks, email templates and candidate experience polish, which he calls important but not urgent.
+- Treat nothing as fixed: "An improvement mindset is continuous", so do not map a process, train everyone and never touch it again.
+- Before buying a narrow AI tool, count the time spent feeding and instructing it plus the time spent processing its list, then compare the saving with the subscription: "If you can't explain that, then it's not time to actually implement that."
+- Call AI vendors for demos without committing to buy, and use what you learn to build the business case of what you gain versus the cost.
+- Cost any personal agent plugins together. de Graaf found a phone scheduling vendor asking $200 a month for the number and technology before usage, and says stacked plugins reach 1,500 a month for one person.
+
+**Data & benchmarks:**
+- The benchmark splits the TA function into 21 components across four maturity levels and covers teams from a 600 person company to one of more than half a million people.
+- The strongest components are the core of the process, namely sourcing, reviewing, interviewing and assessment, while the gaps are workforce planning, metrics reporting and acting as a strategic adviser.
+- Last year's weakest component was the job kickoff meeting or intake, and de Graaf expects it may be weakest again because it is not solved by technology.
+- The assessment takes around 15 to 20 minutes and gives a personalised report instantly, with a mini version under 2 minutes.
+
+**Contrarian take:**
+- de Graaf says the comparisons found differences between regions but none significant enough to call out, so no region is as far behind as it thinks, and the gaps are cultural rather than technological.
+- He also says in his experience 99% of TA leaders already know their top issues, so the hard part is prioritising, not diagnosing.
+
+**Steal this (do tomorrow):**
+- Take your improvement list and score each item against the single delivery question, then drop everything outside the top three.
+- Tally the real monthly cost and net time saving of each AI tool you pay for.
+- Note that the guest runs the benchmark and consulting he recommends, so the survey is a sales funnel as well as research.
+<!--/SUMMARY-->
 # Ep 836: Continuous Improvement In TA
 
 - **Podcast:** Recruiting Future

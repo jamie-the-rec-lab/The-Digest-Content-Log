@@ -1,3 +1,36 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Jen Terry Tharp, VP of enterprise solutions at Jovio and ex head of TA at AT&T for 21 years, with a panel of Alexander Chukovski (job board SEO), Kareem (co-founder, Perception X) and Devin (Pen Pixel Creative, a Jovio consultant)  ·  **Show:** Brainfood, 06 Nov 2026
+**Tags:** job advertising, employer branding, recruitment marketing, candidate ai tools, candidate experience, rec tech, talent market data, evp
+
+**When to use this:** candidates are asking ChatGPT, Gemini or Claude about your company and you do not know what the answer engines say about you or what to fix first.
+
+**Big idea:** Good GEO is mostly good SEO plus consistency, meaning your career site, reviews, social and press must tell the same story, and the loudest dissent in the room is that most paid GEO consulting is repackaged SEO.
+
+**Frameworks & plays:**
+- Build a prompt set that follows the candidate journey, covering jobs and locations, pay and benefits, and comparisons such as "is it good to work at Verizon or AT&T", then track per engine whether you are cited and whether the tone is positive or negative.
+- Measure share of voice, which Tharp defines as how often you are lifted up when a question is relevant to you, alongside sentiment and the sources the engines lean on, such as Glassdoor and Reddit.
+- Optimise for consistency rather than keywords. Kareem's point is that the machine reads a couple of hundred sources, so a career site saying one thing and Glassdoor or Reddit saying another becomes a messy AI answer.
+- Do not rewrite job descriptions for machines. Chukovski says to make sure the job posting schema is on every ad, which a good ATS already does, and to stop hiding pay and other details behind a login.
+- Tharp's alternative is to restructure postings as single specific answers to the questions an LLM would be asked, and Devin expects pay range to be the number one candidate question.
+- Fix candidate feedback first. Kareem finds it has the lowest employer-owned share and the highest negative sentiment, so publish your position on ghosting and your feedback policy and treat the career site as "a prettier knowledge base".
+- Update existing pages instead of publishing more. Devin advises keeping each topic in one content pillar page so an LLM can parse it, and says flooding the site with pages is old black hat SEO.
+- Chukovski's one technical fix is server side rendering or static content, because LLMs are poor at rendering JavaScript sites.
+
+**Data & benchmarks:**
+- Chukovski tracked millions of US queries for clients and puts AI Overviews at about 50% of transactional job searches such as "product manager jobs in New York", appearing within roughly two months.
+- Kareem's measurement since late 2025 shows AI Overviews at almost 100% on the prompts his firm tracks, which raises a zero click problem for traffic.
+- Kareem says the top models still search the web roughly half of the time, with Claude using Brave Search and Gemini using Google.
+- An unnamed panellist cites a study of 300 active job seekers in seven countries where 77% would delegate their entire job search to an AI agent.
+
+**Contrarian take:**
+- Chukovski says he makes no money from GEO consulting and that most GEO consultants are snake oil salesmen selling legacy SEO tactics, while still defending programmatic SEO for job boards.
+
+**Steal this (do tomorrow):**
+- Ask ChatGPT, Gemini and Claude your own candidate questions about pay, benefits and culture, then list where each answer's sources disagree with your career site.
+- Confirm your ATS outputs job posting schema and that pay is visible on every ad.
+- Be aware that Jovio sells the GEO audit shown, so treat its framing as a vendor view.
+<!--/SUMMARY-->
 # Brainfood Live On Air   Ep417   GEO, What Do We Know
 
 - **Podcast:** Brainfood

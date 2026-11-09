@@ -1,0 +1,178 @@
+{
+ "run_date": "2026-11-09",
+ "items": [
+  {
+   "show": "Brainfood",
+   "title": "Brainfood Live On Air: GEO, What Do We Know",
+   "date": "2026-11-06",
+   "url": "https://www.youtube.com/watch?v=q-rytZJNYu8",
+   "guest_line": "Jen Terry Tharp · VP of Enterprise Solutions @ Jovio (panel: Alexander Chukovski, job board SEO; Kareem, co-founder @ Perception X; Devin, Pen Pixel Creative and Jovio consultant)",
+   "vendor_flag": "Yes. Tharp and demoer Raj present Jovio's GEO advisor and AI career site 'fix' button, and Devin is a paid Jovio consultant. Kareem and Devin also sell GEO services. Chukovski says he does not.",
+   "reader_fit": "Moderate to good: a UK in-house or agency recruiter or employer brand lead gets a concrete checklist (prompt set, consistency audit, job posting schema, candidate feedback content), but some figures are US and vendor-sourced.",
+   "path": "library/podcasts/transcripts/Brainfood/2026-11-06-brainfood-live-on-air-ep417-geo-what-do-we-know.md",
+   "points": [
+    {
+     "claim": "Share of voice across competitors, per AI engine and with sentiment and cited sources, is the metric to track for GEO",
+     "evidence": "Jovio dashboard shows ChatGPT, Perplexity, Gemini visibility, sentiment, Glassdoor and Reddit as sources",
+     "quote": "what is my share of voice amongst my competitors in chatbased search?",
+     "timecode": "9:56"
+    },
+    {
+     "claim": "GEO optimises for consistency across career site, social, employees and press, and the SEO playbook still matters",
+     "evidence": "top models search the web roughly half of the time; Claude uses Brave Search, Gemini uses Google",
+     "quote": "with GEO, we're really optimizing for consistency, right?",
+     "timecode": "37:13"
+    },
+    {
+     "claim": "Candidate feedback is the weakest owned theme with the most negative sentiment, so address ghosting and feedback policy on the career site",
+     "evidence": "Kareem (Perception X) data grouped by attribute",
+     "quote": "the attribute with the lowest owned share by a company but also the highest negative sentiment is candidate feedback",
+     "timecode": "46:25"
+    },
+    {
+     "claim": "Add job posting schema rather than rewriting descriptions, and pay range is expected to be the top candidate question",
+     "evidence": "Chukovski on schema; Devin on salary range",
+     "quote": "Just make sure that you have the job posting schema on them.",
+     "timecode": "45:39"
+    },
+    {
+     "claim": "AI Overviews now appear on about half of US transactional job queries",
+     "evidence": "50% stage, millions of queries tracked by Chukovski",
+     "quote": "right now we are at a 50% stage of where an AI overview is going to appear together with Google jobs",
+     "timecode": "25:49"
+    },
+    {
+     "claim": "Most GEO consultants are selling legacy SEO",
+     "evidence": "Chukovski, says he earns nothing from GEO consulting",
+     "quote": "most of the geo consultants are snake oil salesmen from my perspective",
+     "timecode": "24:38"
+    },
+    {
+     "claim": "Server side rendering or static content is the one technical fix",
+     "evidence": "Chukovski, LLMs bad at JavaScript rendering",
+     "quote": "make sure that their website is properly server side rendered or has static content",
+     "timecode": "59:15"
+    },
+    {
+     "claim": "77% of 300 surveyed job seekers would delegate their search to an AI agent",
+     "evidence": "study of 300 active job seekers in seven countries, speaker not identified in captions",
+     "quote": "77% of them said that they they are willing to delegate their their entire job search to an AI agent",
+     "timecode": "57:28"
+    }
+   ]
+  },
+  {
+   "show": "PromptMates",
+   "title": "Grok Bot for Recruiters",
+   "date": "2026-11-04",
+   "url": "https://www.youtube.com/watch?v=UyOLQ6KKXs4",
+   "guest_line": "none (hosts Joe Atkinson and Jason Miller; Elise of Metaview as sponsor guest)",
+   "vendor_flag": "Metaview is the session sponsor and Elise presents its sourcing agent and Fillmore, so those claims are vendor claims. Grok Bot (xAI) is not the hosts' product, though they run a paid community and share starter agents.",
+   "reader_fit": "Good: a UK in-house or agency recruiter gets a concrete starter pattern (guardrails, one events agent, approval-first messaging) but the tool is early and company use needs AI policy sign-off, as the hosts say.",
+   "path": "library/podcasts/transcripts/PromptMates/2026-11-04-grok-bot-for-recruiters.md",
+   "points": [
+    {
+     "claim": "Keep facts in your systems of record, not the agent's memory",
+     "evidence": "Atkinson uses Airtable as database; same for ATS or Metaview transcripts",
+     "quote": "facts live in your tools not the bot's memory",
+     "timecode": "15:15"
+    },
+    {
+     "claim": "Set a default approval guardrail and start with non-sensitive data",
+     "evidence": "Atkinson: avoided PII and candidate data at first",
+     "quote": "unless I say otherwise don't take action. So check with me first.",
+     "timecode": "12:57"
+    },
+    {
+     "claim": "Events agent for open roles grouped by job description, then Notion calendar, Slack DMs and a weekly routine",
+     "evidence": "14 roles put into eight groups for Metaview London",
+     "quote": "there's 14 rolls. It's put them into eight groups.",
+     "timecode": "19:51"
+    },
+    {
+     "claim": "Do not connect the ATS; use a trusted candidate data source when demoing agents",
+     "evidence": "Miller used the Metaview MCP only",
+     "quote": "I did not connect it to my ATS and I used a trusted source for candidate data in Metaview",
+     "timecode": "53:14"
+    },
+    {
+     "claim": "The agent has not replaced existing tools",
+     "evidence": "Atkinson",
+     "quote": "actually hasn't replaced any of my tools",
+     "timecode": "5:35"
+    },
+    {
+     "claim": "Search for sales over achievement using synonyms",
+     "evidence": "Miller: president's club, 200% attainment",
+     "quote": "if you build out enough synonyms to overattainment like you'd be surprised what you'd find",
+     "timecode": "37:46"
+    },
+    {
+     "claim": "Metaview agent runs 50 to 100 research sub agents per candidate",
+     "evidence": "Elise (Metaview, sponsor), vendor claim",
+     "quote": "it is deploying kind of 50 to 100 different agents to go and run research",
+     "timecode": "37:13"
+    }
+   ]
+  },
+  {
+   "show": "Recruiting Future",
+   "title": "Continuous Improvement In TA",
+   "date": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=AiO_3dvyPtA",
+   "guest_line": "Tony de Graaf · Co-Founder @ Recruiting Excellence Foundation",
+   "vendor_flag": "Yes, mildly: de Graaf's foundation sells the benchmark assessment, workshops and consulting, and the episode ends by driving listeners to the survey. Pinpoint and Pebble are ad reads, not content.",
+   "reader_fit": "Good for TA leads: a one-question prioritisation test and an AI tool ROI check are usable at any size of team, though benchmark findings are headline-level with few figures.",
+   "path": "library/podcasts/transcripts/Recruiting Future/2026-11-08-ep-836-continuous-improvement-in-ta.md",
+   "points": [
+    {
+     "claim": "Prioritise improvements by one test: impact on consistently delivering the right person on time",
+     "evidence": "Tony de Graaf, Recruiting Excellence Foundation",
+     "quote": "what has the biggest impact on my ability to consistently deliver the right person exactly on time",
+     "timecode": "22:20"
+    },
+    {
+     "claim": "Improvement is continuous, not a project",
+     "evidence": "de Graaf on high performing TA teams",
+     "quote": "An improvement mindset is continuous.",
+     "timecode": "23:35"
+    },
+    {
+     "claim": "Narrow AI tools cost setup and processing time that can cancel the saving",
+     "evidence": "sourcing tool example, a couple hundred a month",
+     "quote": "If you can't explain that, then it's not time to actually implement that.",
+     "timecode": "15:29"
+    },
+    {
+     "claim": "Agent plugin costs stack up quickly",
+     "evidence": "$200 a month for a phone number and technology; 1,500 a month for one person",
+     "quote": "asking a whooping $200 a month just for the phone number and the technology",
+     "timecode": "19:43"
+    },
+    {
+     "claim": "Almost every TA leader already knows their top issues",
+     "evidence": "99% claim from de Graaf's experience, anecdotal",
+     "quote": "in my experience 99% of every TA leader I ever speak speak to they know what the big topics are",
+     "timecode": "21:02"
+    },
+    {
+     "claim": "No significant differences between regions in the benchmark",
+     "evidence": "21 components compared across regions",
+     "quote": "we ran all the comparisons that we could but we could not identify. There are differences but not significant enough to call them out in the benchmark.",
+     "timecode": "8:43"
+    },
+    {
+     "claim": "Job intake was the weakest component and is not solved by technology",
+     "evidence": "Last year's benchmark, four maturity levels",
+     "quote": "The weakest point last year was indeed the job kickoff meeting or the job intake.",
+     "timecode": "27:48"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Brainfood ep417: captions do not name speakers; the 77% study (57:28) is not attributed to a named speaker, and the guest names are ASR spellings (Chukovski, Kareem, Devin).",
+  "PromptMates: 28:15 to 29:24 (Metaview filtering demo) not quoted; ASR renders company as 'Mediv' and Fillmore as 'Filmore'.",
+  "Recruiting Future: guest surname appears as 'Degraphth' in captions; 'de Graaf' taken from the episode description."
+ ]
+}

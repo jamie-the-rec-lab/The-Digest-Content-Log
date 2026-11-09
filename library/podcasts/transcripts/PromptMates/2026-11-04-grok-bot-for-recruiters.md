@@ -1,3 +1,38 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Joe Atkinson and Jason Miller, co-hosts of PromptMates, who run a community for recruiters using AI and demo Grok Bot live, with Elise of sponsor Metaview showing its relaunched sourcing  ·  **Show:** PromptMates, 04 Nov 2026
+**Tags:** ai agents, recruiter workflow, human-ai collaboration, outbound sourcing, ai sourcing, context engineering, ai governance, building ai tools, rec tech, recruiter productivity
+
+**When to use this:** you want to try a personal autonomous AI agent for recruiting tasks and need guardrails, a first use case and a sense of what it can safely touch.
+
+**Big idea:** A personal agent such as Grok Bot is an interaction layer over the tools you already use, you give it an outcome and access rather than a long prompt, and trust is earned in stages.
+
+**Frameworks & plays:**
+- Start with one chief of staff agent and add sub agents, one bot per task, which Atkinson says is advice from the team behind the product.
+- Atkinson's rules are to start small and check the work, connect only what each task needs, approve actions first, get a second bot to check the work, and keep facts in your tools rather than the bot's memory.
+- Set the default guardrail early with "unless I say otherwise don't take action. So check with me first", and begin with safe public or personal data rather than PII or candidate data.
+- The worked example was an events agent that reads the careers page, finds London events in the next month where candidates for each open role will be, and groups them by job description, which returned 14 roles in eight groups.
+- Stack prompts on the same agent, for example a shared Notion calendar and a Slack DM to each recruiter, then turn the task into a weekly Monday routine once the output is right.
+- Miller's recruiting demo paired a Context, Intel, Comms and Quality mate with the Metaview MCP to find a co-founder to poach and draft an email and Slack message for approval, without connecting his ATS.
+- Give the agent its own Slack login and mailbox, or a plus address, so it never sends messages as you.
+- Elise's sourcing advice is to start with human steered search when requirements keep changing, and with the autonomous agent when the brief is clear and urgent.
+
+**Data & benchmarks:**
+- Miller gave his agent a $300 Visa gift card to hunt a hard to find makeup palette, and it ordered it weeks later.
+- Metaview says its agent deploys 50 to 100 sub agents per candidate to research accomplishments, posts and talks, which is a vendor claim.
+
+**Tools & prompts:**
+- Grok Bot with Notion, Slack, Airtable as the database, and Metaview and Brevo connected.
+- Miller's tip for sales sourcing is to build synonyms for over attainment such as "president's club or 200% attainment".
+
+**Contrarian take:**
+- Atkinson says Grok Bot "hasn't replaced any of my tools" and that you do not need to be a prompt engineer to use it.
+
+**Steal this (do tomorrow):**
+- Pick one low risk recurring task, such as a weekly event or news roundup, run it manually, then turn it into a routine.
+- Write a "do not act without asking" rule before connecting anything.
+- Note Metaview sponsored this episode and its demo is promotional.
+<!--/SUMMARY-->
 # Grok Bot for Recruiters
 
 - **Podcast:** PromptMates
