@@ -150,5 +150,21 @@ session asks for it.
 
 ## The output
 
-The Slack message and the email are the output of the run. There is no need to
-summarise anything back to the terminal.
+The Slack message and the email are the output of the run.
+
+**Finish by handing Jamie the preview link.** Once the edition is proposed and
+the report has gone out, the last message of the session leads with the review
+address and the pull request link from `_state/publish-report.json`, written out
+in full so they can be clicked from the app:
+
+```
+Version <N> (<Monday date>) is ready for your review.
+Preview: <review_url>
+Pull request: <pr_url>
+```
+
+Then two or three lines at most: the fact-check result and anything that needs
+his attention. Put the same two links in the phone notification. If nothing was
+proposed (last week's edition is still waiting, or the run stopped), say that
+first instead, with the link to whatever is waiting. There is no need to
+summarise anything else back to the terminal.
