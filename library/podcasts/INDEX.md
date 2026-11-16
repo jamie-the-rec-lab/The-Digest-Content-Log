@@ -323,7 +323,10 @@ Company: Metaview
 Tags: ta leadership, ai strategy
 File: `transcripts/10x Recruiting/2025-03-06-introducing-the-10x-recruiting-podcast.md`
 
-## Brainfood (161 episodes)
+## Brainfood (162 episodes)
+
+### 2026-11-13 — [Brainfood Live On Air   Ep418   How to Hire in New Zealand in 2026](https://www.youtube.com/watch?v=0Z2_M41FYHw)
+File: `transcripts/Brainfood/2026-11-13-brainfood-live-on-air-ep418-how-to-hire-in-new-zealand-in-2026.md`
 
 ### 2026-11-06 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=q-rytZJNYu8)
 Hung Lee hosts a Jovio-led panel on GEO: track share of voice and sentiment per AI engine, keep career site, reviews and press consistent, add job posting schema, and fix candidate feedback first.
@@ -2129,7 +2132,16 @@ Company: Growth by Design
 Tags: stakeholder management, recruiting metrics, ta leadership, hiring manager alignment, market mapping, talent density
 File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-service-providers-to-trusted-advisors-with-adam.md`
 
-## PromptMates (67 episodes)
+## PromptMates (70 episodes)
+
+### 2026-11-16 — [How ElevenLabs Sources Top Designers with AI](https://www.youtube.com/watch?v=WIwwp06Lejs)
+File: `transcripts/PromptMates/2026-11-16-how-elevenlabs-sources-top-designers-with-ai.md`
+
+### 2026-11-12 — [Hiring Fraud: The $6bn Interview](https://www.youtube.com/watch?v=SBJYxr_k0Oo)
+File: `transcripts/PromptMates/2026-11-12-hiring-fraud-the-6bn-interview.md`
+
+### 2026-11-09 — [How Clay Turned Job Applications Into Projects](https://www.youtube.com/watch?v=BxL-h9Q29YY)
+File: `transcripts/PromptMates/2026-11-09-how-clay-turned-job-applications-into-projects.md`
 
 ### 2026-11-04 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=UyOLQ6KKXs4)
 Joe Atkinson and Jason Miller show how to start with Grok Bot personal agents: a chief of staff plus one bot per task, approval-first guardrails, an events agent for open roles, and Metaview via MCP.
@@ -2533,7 +2545,13 @@ Company: SDI Scout
 Tags: building ai tools, custom gpts, ai sourcing, ai market research, sourcing, talent mapping, recruiter workflow, talent intelligence
 File: `transcripts/PromptMates/2025-08-26-finding-hidden-talent-with-sdi-scout.md`
 
-## Recruiting Future (306 episodes)
+## Recruiting Future (308 episodes)
+
+### 2026-11-16 — [Ep 838: Job Seekers Are Driving Recruiting Innovation](https://www.youtube.com/watch?v=5IIa4MWaE3I)
+File: `transcripts/Recruiting Future/2026-11-16-ep-838-job-seekers-are-driving-recruiting-innovation.md`
+
+### 2026-11-13 — [Ep 837: What Has Changed In Executive Hiring?](https://www.youtube.com/watch?v=nw6fS2Bf_8k)
+File: `transcripts/Recruiting Future/2026-11-13-ep-837-what-has-changed-in-executive-hiring.md`
 
 ### 2026-11-08 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=AiO_3dvyPtA)
 Tony de Graaf of the Recruiting Excellence Foundation says high performing TA teams rank every improvement by its effect on delivering the right person on time, treat improvement as continuous, and cost AI tools against time saved.
@@ -4499,7 +4517,10 @@ Company: Boulevard
 Tags: fractional recruiting, startup hiring, early-stage hiring, outbound sourcing, offer closing, candidate experience, recruiting metrics, gtm hiring
 File: `transcripts/Recruiting Roadshow/2026-04-02-what-great-recruiters-do-differently-alan-leung-boulevard-the-recruiting-roadsho.md`
 
-## The Debrief (9 episodes)
+## The Debrief (10 episodes)
+
+### 2026-11-10 — [The Geography of Tech Hiring:  Where Work Happens, Who's Moving, and Why It Matters | The Debrief](https://www.youtube.com/watch?v=zPGi6tJeiIw)
+File: `transcripts/The Debrief/2026-11-10-the-geography-of-tech-hiring-where-work-happens-whos-moving-and-why-it-matters-t.md`
 
 ### 2026-08-20 — [The Hardest Pitch in TA: Mission-Driven Talent and Playing the Long Game | The Debrief](https://www.youtube.com/watch?v=Ydej7_bf83g)
 Mission-driven recruiting requires leading with impact and purpose over compensation; retention demands ongoing investment in demonstrating impact and supporting staff burnout prevention.

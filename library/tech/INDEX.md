@@ -3,7 +3,10 @@
 Each entry: date, title (links to source), one-line summary, topic tags, and file path.
 Use this to find relevant items before opening the full document.
 
-## AI & I (42 episodes)
+## AI & I (43 episodes)
+
+### 2026-11-11 — [A New Vision for Human Work After Automation](https://www.youtube.com/watch?v=WstNofgQF5Q)
+File: `transcripts/AI & I/2026-11-11-a-new-vision-for-human-work-after-automation.md`
 
 ### 2026-11-04 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=IOp5N4GxE6E)
 Kevin Roose on how he wrote The AGI Chronicles, using a council of Claude agents to review chapters and NotebookLM for research, and sorting tasks into weightlifting and forklifting.
@@ -257,7 +260,10 @@ Company: AI & I
 Tags: ai, ai agents
 File: `transcripts/AI & I/2026-01-07-ai-in-2026-reid-hoffmans-predictions-on-agents-work-and-creation.md`
 
-## AI For Humans (63 episodes)
+## AI For Humans (64 episodes)
+
+### 2026-11-13 — [Claude Just Leveled Up AI Again. Nvidia CEO Jensen Huang Did Not.](https://www.youtube.com/watch?v=sQKvJbzgFRU)
+File: `transcripts/AI For Humans/2026-11-13-claude-just-leveled-up-ai-again-nvidia-ceo-jensen-huang-did-not.md`
 
 ### 2026-11-06 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=4fZApLHnLFU)
 Weekly AI news: OpenAI agent fleet patching 948 Linux bugs for $1.2 million, the US data centre ballot losses, an early weight-rewriting paper and rumoured GPT 6.2 Astra / Fable 5.5 launches.
@@ -637,7 +643,19 @@ Company: AI For Humans
 Tags: ai, ai agents, ai coding
 File: `transcripts/AI For Humans/2026-01-09-the-ai-robot-uprising-has-begun-and-its-weirder-than-you-think.md`
 
-## How I AI (80 episodes)
+## How I AI (84 episodes)
+
+### 2026-11-16 — [How I fight token fraud as an AI founder](https://www.youtube.com/watch?v=ZDpP7JXPlhc)
+File: `transcripts/How I AI/2026-11-16-how-i-fight-token-fraud-as-an-ai-founder.md`
+
+### 2026-11-11 — [Claude Code + Obsidian: My family’s AI brain](https://www.youtube.com/watch?v=wdyOjcCj2hw)
+File: `transcripts/How I AI/2026-11-11-claude-code-obsidian-my-familys-ai-brain.md`
+
+### 2026-11-09 — [I was a Claude hater. Fable 5.2 changed my mind.](https://www.youtube.com/watch?v=1gYQc4CL_oo)
+File: `transcripts/How I AI/2026-11-09-i-was-a-claude-hater-fable-52-changed-my-mind.md`
+
+### 2026-11-09 — [Building a language tutor with Codex (and zero mobile experience)](https://www.youtube.com/watch?v=zBROTIiHusc)
+File: `transcripts/How I AI/2026-11-09-building-a-language-tutor-with-codex-and-zero-mobile-experience.md`
 
 ### 2026-11-02 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=ztt8irafLMQ)
 Figma growth PM Ezra Mechaber shares PM OS, a 31 skill shared repo for roughly 60 to 70 PMs, plus agent bug bashes in Codex and an automated experiment runner with five live tests; no usage data or benchmarks given.
@@ -1119,7 +1137,10 @@ Company: Wade Foster
 Tags: ai, ai agents, startups, founder stories, hiring
 File: `transcripts/How I AI/2026-01-05-zapiers-ceo-shares-his-personal-ai-stack-wade-foster.md`
 
-## Lenny's Podcast (61 episodes)
+## Lenny's Podcast (63 episodes)
+
+### 2026-11-15 — [Meta’s Muse: Inside the launch of the most successful consumer product this year | Mona Sarantakos](https://www.youtube.com/watch?v=WY0cdD4gNoQ)
+File: `transcripts/Lenny's Podcast/2026-11-15-metas-muse-inside-the-launch-of-the-most-successful-consumer-product-this-year-m.md`
 
 ### 2026-11-08 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=qGf2Yvan4Wg)
 Google's Gemini product head on hiring PMs who stress test models, starting evals with five prompts, the 60-20-20 build rule and sharing AI skills across a team.
@@ -1132,6 +1153,9 @@ Wispr Flow's head of content on running a performance-paid creator programme wit
 Company: Wispr Flow (Hector Serrano; Tribe)
 Tags: growth, go-to-market, hiring, team building, startups, careers
 File: `transcripts/Lenny's Podcast/2026-11-01-a-ugc-masterclass-from-the-22-year-old-who-built-wispr-flows-growth-machine-hect.md`
+
+### 2026-10-25 — [How to find product-market fit (but, actually) | Rob Snyder (Author, The Power of Pull)](https://www.youtube.com/watch?v=19qrLchbQEc)
+File: `transcripts/Lenny's Podcast/2026-10-25-how-to-find-product-market-fit-but-actually-rob-snyder-author-the-power-of-pull.md`
 
 ### 2026-10-25 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=19qrLchbQEc)
 Rob Snyder's PULL framework (Project, Unavoidable, List of options, Limitations) for finding product-market fit, plus cold outreach benchmarks, the Hail Mary question and why he avoids design partners.
