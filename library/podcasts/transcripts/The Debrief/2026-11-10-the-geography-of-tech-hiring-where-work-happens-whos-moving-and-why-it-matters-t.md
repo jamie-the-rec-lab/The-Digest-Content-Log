@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** The Debrief panel: Ben Sesser, Chris (surname captioned as "Abass", works with many tech and AI hiring clients, company not named in the transcript) and Tracy (surname captioned as "St. Deek"), who leads global staffing strategy at Zapier  ·  **Show:** The Debrief, 10 Nov 2026
+**Tags:** global hiring, headcount planning, capacity planning, ta leadership, talent market data, gtm hiring, engineering hiring, human-ai collaboration
+
+**When to use this:** your company is deciding where to hire or open an entity, or TA has been left out of a location and operating model decision.
+
+**Big idea:** Location strategy is a trade-off between talent availability, culture and cost, plus the hidden "calories" of running many countries, and TA should lead that decision rather than inherit it.
+
+**Frameworks & plays:**
+- Score locations on a matrix, not salary alone: Tracy's annual audit at Zapier weighs talent density and availability, salary and benefits, infrastructure and natural disaster risk, legal change, language, labour conditions, time zone, local competitors, your value proposition there, graduate flows and visa issues.
+- Count the overhead of each new country: entities, accounts, taxes, employment law, travel, and possibly "an additional accountant", which Chris calls the calories an organisation burns.
+- Treat opening an entity as a hard-to-reverse decision: Zapier has opened entities that "have not hit the projections" and is working out what to do with them.
+- Price AI against headcount: Zapier's people team extrapolated its monthly token usage to a year and found it equal to about one full-time employee.
+- Put TA in the room on the operating model; Tracy says that otherwise "you end up with hiring against a plan that nobody in talent actually shaped".
+
+**Data & benchmarks:** (anecdotal, from the panel's own clients and companies)
+- Zapier is "just under 1,000 people in 42 countries" and plans to "double down in India" on talent quality.
+- Chris says engineering used to be "60% plus" of the roles his team filled; that has flipped, with GTM now the top skill set.
+- Chris describes a client with a 400 person recruiting team including 100 recruiters in India and no India hiring left to do.
+- The host cites Deel data that startups hire internationally but concentrate in high income markets such as the UK, Canada and Germany; no figures given.
+
+**Contrarian take:**
+- Chris says companies now rank "speed, quality, and flexibility cost last", and that offshore hubs cannot be stood up fast enough for roles needed this quarter.
+- Ben and Chris are sceptical of AI trainer roles at firms such as Mercor (captioned "Merkle"), with Ben asking whether the job will exist in 12 to 24 months.
+
+**Steal this (do tomorrow):**
+- Build a one-page location scorecard with Tracy's criteria before the next "should we hire in X" discussion.
+- Work out your team's annual AI token spend as a fraction of one FTE to frame the AI budget conversation.
+<!--/SUMMARY-->
+
 # The Geography of Tech Hiring:  Where Work Happens, Who's Moving, and Why It Matters | The Debrief
 
 - **Podcast:** The Debrief

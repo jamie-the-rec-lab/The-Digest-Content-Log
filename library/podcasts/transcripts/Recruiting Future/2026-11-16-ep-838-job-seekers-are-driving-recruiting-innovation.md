@@ -1,3 +1,31 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Aidan Cramer, co-founder and CEO of AIApply, which sells candidate-side AI job search and application agents, so his data and claims are those of a vendor about his own product  ·  **Show:** Recruiting Future, 16 Nov 2026
+**Tags:** candidate ai tools, ai agents, ai sourcing, interview cheating, ai job descriptions, skills-based hiring, job advertising, candidate fraud
+
+**When to use this:** your inbox is filling with AI-assisted applications and you need to decide how to respond, or you want to understand how candidate-side agents decide where to apply.
+
+**Big idea:** Candidate-side AI ranges from "spray and pray" bulk apply to agents that decide when not to apply, and employers who publish richer, clearer requirements move filtering upstream to the candidate's agent.
+
+**Frameworks & plays:**
+- Write adverts for machines as well as people: Cramer predicts a move "away from human readable job descriptions to machine readable prompts", including the things "a HR manager would tell a recruiter over the phone", so a candidate's agent can rule itself out before applying.
+- Be explicit on salary, must-haves and "what it really takes to succeed in this role"; Cramer argues this upstream clarity is the short-term fix for the downstream flood.
+- Set a written AI fair-use policy for interviews: tell candidates whether each stage is "an open book exam or a closed book exam".
+- Separate fraud from AI assistance: host Matt Alder and Cramer agree fraud is "a different issue with a different solution" and should not be lumped in with assisted applications.
+- Screen for AI fluency: Cramer says testing for a "native understanding of using this new software" will matter from entry level to the most experienced hires.
+
+**Data & benchmarks:** (AIApply's own platform data, no figures given, market unstated)
+- Cramer says AI-assisted applications on his platform get better interview rates than users applying manually, but gives no numbers.
+- He says resume customisation "had absolutely no impact" on interview invitations or job offers in their data, while time to apply, credentials, employers and university mattered more.
+
+**Contrarian take:**
+- Cramer argues the self-apply effort that the industry treated as a quality filter is "much less important" once matching is good, and says ATS and job board providers are open to trusted pipelines from good agents.
+
+**Steal this (do tomorrow):**
+- Add a short block to your next advert with salary, three genuine must-haves and the deal breakers the hiring manager gave you on the intake call.
+- Add one line to interview invites stating which stages allow AI use and which do not.
+<!--/SUMMARY-->
+
 # Ep 838: Job Seekers Are Driving Recruiting Innovation
 
 - **Podcast:** Recruiting Future

@@ -1,3 +1,33 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Simon Mullins, who runs ESIX (the corporate executive recruiting community, spelled "E6" in the captions) and a large-company TA leaders' community, formerly in exec recruiting at Microsoft; his group has benchmarked in-house executive hiring for 30 years  ·  **Show:** Recruiting Future, 13 Nov 2026
+**Tags:** executive search, ta leadership, talent market data, ai job descriptions, ai market research, dei, internal mobility, talent intelligence
+
+**When to use this:** you need benchmark figures on how in-house executive hiring teams use search firms, AI and internal talent, or you are arguing for TA to own succession and org design work.
+
+**Big idea:** In-house executive recruiting is turning into a "holistic talent advisor" role that covers internal and external talent, and AI so far speeds the work up without clearly improving candidate quality.
+
+**Frameworks & plays:**
+- Keep search firms as a small, stable bench rather than a default channel: respondents have "almost halved" their use of search firms for external hires over about 10 years, yet 80% still use them, typically a select list on structured contracts that last many years, boutiques as much as big firms.
+- Take a seat in succession planning: involvement rose from 36% in 2019 to 76% in the latest survey, and about 90% of respondents now work on internal talent as well as external hiring.
+- Bring data before the job description exists: Mullins describes teams where research or talent intelligence brings internal and external data to the hiring manager and HR so they "look at the role look at the org before they even think about writing a job description."
+- Watch named external leaders over time: some teams are building their own tools to monitor external talent and flag when people might be ready to move.
+- Think twice before recording hiring manager intake calls at executive level: Mullins worries a leader will not say "I'm about to retire in 3 or 4 years and I'm looking for my successor" on the record.
+
+**Data & benchmarks:** (ESIX benchmark of roughly 100 organisations, which Mullins says skews towards sophisticated employers; market not stated, Mullins is US based)
+- AI use: job descriptions were the top use case at about 30% in 2024, any AI use was 74% last year and "something like 93 or 95%" this year.
+- AI results: 46% say it reduced cycle time, only 14% say it improved candidate quality, and roughly 60% say the jury is still out.
+- Diversity: 40 or 41% now have no executive-specific diversity tactics (up from 31% the year before), and about 35% still require diverse slates, down from 71%.
+- Diversity as the top stated interest fell from 40% to "something like 2 or 3%" about two years ago.
+
+**Contrarian take:**
+- Mullins says AI scheduling will not work for executive searches any time soon, because coordinating five senior diaries with an external senior candidate is beyond current tools.
+
+**Steal this (do tomorrow):**
+- Split your next AI review into cycle time and candidate quality separately, and quote the 46% versus 14% gap if stakeholders assume one implies the other.
+- Before your next senior brief, pull a short internal and external talent map for the role so the conversation starts with org design, not a job description.
+<!--/SUMMARY-->
+
 # Ep 837: What Has Changed In Executive Hiring?
 
 - **Podcast:** Recruiting Future
