@@ -35,6 +35,14 @@ Company: LinkedIn
 Tags: market news, us, automation, ai screening, candidate experience, human-ai collaboration
 File: `transcripts/Fortune/2026-09-30-linkedin-ceo-30-percent-more-applications.md`
 
+## Greenhouse (1 episodes)
+
+### 2026-10-22 (from the press release) — [Greenhouse launches Greenhouse in Claude, a plugin for running hiring work from inside Claude](https://www.greenhouse.com/newsroom/greenhouse-brings-the-orchestrated-hiring-ecosystem-to-anthropics-claude)
+Greenhouse launched Greenhouse in Claude (22 Oct 2026), an open beta plugin for Core, Plus and Pro customers that gives a daily brief, pipeline review, debrief prep and draft scorecards inside Claude, and can advance candidates and schedule interviews within each user's own permissions; pricing not stated
+Company: Greenhouse
+Tags: product launch, ai agents, ats, integrations, automation, scheduling, human-ai collaboration, global
+File: `transcripts/Greenhouse/2026-10-22-greenhouse-in-claude.md`
+
 ## Jack & Jill (1 episodes)
 
 ### 2026-09-15 — [<!--SUMMARY-->](https://www.jackandjill.ai/blog/series-a)
@@ -80,6 +88,14 @@ Pin launched Autopilot (23 Oct 2026), an AI assistant that takes over once a can
 Company: Pin
 Tags: product launch, ai agents, automation, scheduling, crm, candidate experience, human-ai collaboration
 File: `transcripts/Pin/2026-10-23-autopilot.md`
+
+## Stepstone (1 episodes)
+
+### 2026-11-16 (09:13 CET per the EQS line) — [AI-assisted deception in job applications: four in ten recruiters have detected or suspect its use]()
+Stepstone survey of 1,227 recruiters and 7,652 candidates in Germany (16 Nov 2026): 41% of recruiters identified or suspected AI-assisted deception in the past year, 73% are more sceptical of applications, 8% of those reporting cases met video-interview deepfakes; vendor survey, Germany only
+Company: The Stepstone Group
+Tags: market news, eu, ai screening, ai interviewing, assessment, candidate experience
+File: `transcripts/Stepstone/2026-11-16-ai-assisted-deception-in-job-applications.md`
 
 ## Teamtailor (1 episodes)
 

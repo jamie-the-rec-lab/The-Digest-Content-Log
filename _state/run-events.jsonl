@@ -32,3 +32,5 @@
 {"at": "2026-11-16T19:31:52", "kind": "index", "collection": "newsletters", "items": 87, "missing": 0, "blocks": 0, "warnings": []}
 {"at": "2026-11-16T19:32:38", "kind": "index", "collection": "podcasts", "items": 763, "missing": 0, "blocks": 175, "warnings": []}
 {"at": "2026-11-16T19:32:38", "kind": "index", "collection": "tech", "items": 253, "missing": 0, "blocks": 93, "warnings": []}
+{"at": "2026-11-16T19:34:24", "kind": "index", "collection": "reports", "items": 89, "missing": 0, "blocks": 2, "warnings": []}
+{"at": "2026-11-16T19:34:51", "kind": "index", "collection": "news", "items": 15, "missing": 0, "blocks": 1, "warnings": []}

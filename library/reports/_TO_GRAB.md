@@ -43,3 +43,10 @@ line once it has been captured full.
 ## Flagged 2026-11-09
 
 - Bullhorn/2026-11-03-staffing-industry-indicator-week-ending-october-24.md - public SIA news summary only; full report members-only. Week ending 17 Oct edition (published about 27 Oct) not held.
+
+## Flagged 2026-11-16
+
+- Employ/2026-10-14-recruiter-nation-report-2026.md - Employ 2026 Recruiter Nation Report, "The Recruiter Recalibration: Resetting the Hiring Playbook" (lever.co/resources/2026-recruiter-nation-report). Ingested as partial from the press release and Employ's Jobvite blog; the full report sits behind a free email form. Drop the PDF into _inbox/ to upgrade.
+- REC/2026-11-09-report-on-jobs-november-2026.md - KPMG and REC UK Report on Jobs, November edition (October data). Press release only; index values and full data are subscription-only (permanent gate, as for earlier editions).
+- Resolved: Indeed Hiring Lab UK snapshot. The October 2026 edition (published 2026-10-26) was captured in full via the site's public posts feed (Indeed/2026-10-26-uk-labour-market-snapshot-october-2026.md). The September edition is superseded and will not be chased.
+- Not yet published at run time: ONS Labour market overview November 2026 (scheduled 17 November 2026) and CIPD Labour Market Outlook autumn 2026 (none found; cipd.org returns 403 to fetches). Check next run.

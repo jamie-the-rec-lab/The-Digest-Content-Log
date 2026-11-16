@@ -19,6 +19,7 @@ library; update it when a newer one is ingested.
 | Deloitte | Global Human Capital Trends | annual | 2026-03 |
 | Deloitte | Gen Z and Millennial Survey | annual | 2026-05 |
 | Employ Inc. | Hiring Benchmarks | annual | 2026-01 |
+| Employ Inc. | Recruiter Nation Report | annual (October) | 2026-10 (published 2026-10-14, partial) |
 | iCIMS | Workforce Reports | monthly | 2026-10 |
 | HireVue | Global AI in Hiring | annual | 2026 |
 | NACE | Job Outlook (+ spring update) | annual + spring | 2026 spring |
@@ -31,7 +32,7 @@ library; update it when a newer one is ingested.
 | Talent Board / ERE | CandE Benchmark | annual | 2023 |
 | WEF | Future of Jobs | biennial | 2023 |
 | Deloitte | State of GenAI / adjacent | ad hoc | — |
-| REC / KPMG | UK Report on Jobs | monthly | 2026-10 (September data) |
+| REC / KPMG | UK Report on Jobs | monthly | 2026-11 (October data, published 2026-11-09) |
 | REC | JobsOutlook | quarterly | 2026-09 (published 2026-09-29, 704 employers) |
 | CIPD | Labour Market Outlook | quarterly (Feb/May/Aug/Nov) | 2026-08 |
 | CIPD | Resourcing & Talent Planning Survey | annual | — (2024 public; grab newest) |
@@ -41,7 +42,7 @@ library; update it when a newer one is ingested.
 | APSCo | Technology Sector Report / Recruitment Index | quarterly + monthly | 2026 Q2 |
 | Mercer | Global Talent Trends | annual | 2026 |
 | ONS | Labour market overview, UK | monthly | 2026-10 (published 2026-10-20) |
-| Indeed Hiring Lab | UK Labour Market Snapshot | monthly | 2026-08 |
-| Bullhorn | Staffing Industry Indicator (SIA) | weekly | 2026-11 (week ending 24 Oct, published 2026-11-03; w/e 17 Oct not held) |
+| Indeed Hiring Lab | UK Labour Market Snapshot | monthly | 2026-10 (published 2026-10-26; September edition superseded, not held) |
+| Bullhorn | Staffing Industry Indicator (SIA) | weekly | 2026-11 (week ending 31 Oct, published 2026-11-10; w/e 17 Oct not held; next edition on hold for data review as of 2026-11-16) |
 
 Add new recurring sources here as they are discovered.

@@ -111,7 +111,13 @@ Company: Ashby
 Tags: applications per hire, hiring volume, funnel conversion, employer branding, by function, us data, trends / predictions
 File: `transcripts/Ashby/2023-05-30-applications-per-job.md`
 
-## Bullhorn (8 episodes)
+## Bullhorn (9 episodes)
+
+### 2026-11-10 — [SIA | Bullhorn Staffing Indicator, week ending October 31, 2026](https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-november-10-2026)
+US staffing hours up 12% YoY for the week ending October 31 (index 110, +1.3% WoW), a 2026 high; Commercial +13%, Professional +10% (index 129), IT +7% (strongest YoY gain of the year), Industrial +18%, Office/Clerical -7%; average weekly hours 35.5.
+Company: Bullhorn
+Tags: hiring volume, us data, product data study, by industry, by function, trends / predictions
+File: `transcripts/Bullhorn/2026-11-10-staffing-industry-indicator-week-ending-october-31.md`
 
 ### 2026-11-03 — [Staffing Industry Indicator, week ending October 24, 2026](https://www.staffingindustry.com/news/global-daily-news/us-staffing-hours-further-their-growth-trend-sia-bullhorn-staffing-indicator)
 US staffing hours up 11% YoY for the week ending October 24 (index 108, +1.4% WoW); Industrial +17%, Commercial +12%, Professional +8%, IT +5%, Office/Clerical -7% (partial, public summary only)
@@ -215,7 +221,13 @@ Company: Deloitte
 Tags: workforce planning, human-ai collaboration, attrition & retention, quality of hire, skills-based hiring, global data, survey
 File: `transcripts/Deloitte/2024-02-27-global-human-capital-trends-2024.md`
 
-## Employ (1 episodes)
+## Employ (2 episodes)
+
+### 2026-10-14 — [2026 Recruiter Nation Report: The Recruiter Recalibration, Resetting the Hiring Playbook](https://www.lever.co/resources/2026-recruiter-nation-report)
+Employ's 19th Recruiter Nation survey (1,200+ US recruiters and HR managers, Zogby, Aug 2026): AI-polished resumes are now the top recruiter stressor (33%), confirmed candidate fraud up to 27%, 68% use AI but only 18% have moved over half their time to higher-value work, 47% have formal recruiter AI guidelines, ATS satisfaction down to 69% (partial, press release and publisher blog only).
+Company: Employ
+Tags: candidate fraud, ai adoption, ai governance, recruiter productivity, hiring volume, rec tech, us data, survey, annual benchmark
+File: `transcripts/Employ/2026-10-14-recruiter-nation-report-2026.md`
 
 ### 2026-01-07 — [2026 Employ Hiring Benchmarks Report: Redefining What Good Looks Like](https://www.employinc.com/employ-benchmarks-report/)
 Employ's stage-by-stage 2026 hiring benchmarks from 6,640 customers: applications per job up to 257.5 (from 207.2), time to fill improved to 63.5 days (from 67.7), offer acceptance 83.9%, and first-year turnover halved to 12.1% from 23.7%.
@@ -289,7 +301,13 @@ Company: ISE
 Tags: uk data, early career talent, applications per hire, hiring volume, ai adoption, candidate fraud, survey, annual benchmark
 File: `transcripts/ISE/2025-10-01-student-recruitment-survey-2025.md`
 
-## Indeed (3 episodes)
+## Indeed (4 episodes)
+
+### 2026-10-26 — [UK Labour Market Snapshot, October 2026](https://hiringlab.indeed.com/uk/blog/2026/10/26/uk-labour-market-snapshot-october-2026/)
+UK job postings on Indeed at 69 (31% below pre-pandemic, -7.5% YoY) as of 16 October; only 7 of 49 sectors above baseline; posted wage growth cooled to 3.5%, now only matching inflation; redundancy notifications hit 50,904 in September, highest since 2020; regional and city JPI splits.
+Company: Indeed
+Tags: hiring volume, uk data, compensation benchmarks, by industry, product data study, trends / predictions, workforce planning
+File: `transcripts/Indeed/2026-10-26-uk-labour-market-snapshot-october-2026.md`
 
 ### 2026-08-25 — [UK Labour Market Snapshot — August 2026](https://hiringlab.indeed.com/uk/blog/2026/08/25/uk-labour-market-snapshot-august-2026/)
 UK Job Postings Index at 69, 31% below pre-pandemic baseline; youth unemployment at 16.2% (near 12-year peak); AI mentions in job postings up to 9.4%, AI job titles almost tripling since 2022
@@ -463,7 +481,13 @@ Company: PwC
 Tags: attrition & retention, ai adoption, skills-based hiring, compensation benchmarks, workforce planning, global data, survey
 File: `transcripts/PwC/2024-06-25-global-workforce-hopes-and-fears-2024.md`
 
-## REC (5 episodes)
+## REC (6 episodes)
+
+### 2026-11-09 — [KPMG and REC, UK Report on Jobs November 2026 (October data)](https://kpmg.com/uk/en/media/press-releases/2026/11/kpmg-and-rec-uk-report-on-jobs-november-2026.html)
+KPMG/REC UK Report on Jobs for October data (about 400 agencies, press release only): permanent placements fell for the first time in four months and temp billings fell for the first time since March as employers held back before the Budget; vacancies fell at the softest pace since August 2024; candidate supply rose sharply; IT and Engineering led permanent demand.
+Company: REC
+Tags: hiring volume, uk data, compensation benchmarks, by industry, survey, trends / predictions
+File: `transcripts/REC/2026-11-09-report-on-jobs-november-2026.md`
 
 ### 2026-10-10 — [KPMG and REC, UK Report on Jobs October 2026 (September data)](https://kpmg.com/uk/en/media/press-releases/2026/10/kpmg-and-rec-uk-report-on-jobs-october-2026.html)
 KPMG/REC UK Report on Jobs for September data (about 400 agencies, press release only): permanent placements rose for a second month, strongest in four years, temp billings growth slowest in five months, permanent candidate supply weakest since September 2023.
