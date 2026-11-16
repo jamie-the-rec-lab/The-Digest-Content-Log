@@ -1,0 +1,191 @@
+{
+ "date": "2026-11-16",
+ "collections": {
+  "podcasts": {
+   "10x Recruiting": 0,
+   "Brainfood": 1,
+   "Building the Talent Machine": 0,
+   "Offer Accepted": 0,
+   "PromptMates": 3,
+   "Recruiting Future": 2,
+   "Recruiting Roadshow": 0,
+   "The Debrief": 1
+  },
+  "newsletters": {
+   "PromptMates Newsletter": 2,
+   "TA Unboxed": 2,
+   "RecOps Collective": 1,
+   "Data Driven Recruiter": 1,
+   "Ashby Community": 0,
+   "Full Stack Recruiter": 0,
+   "Gem Newsletter": 0,
+   "Remade.md": 0
+  },
+  "tech": {
+   "AI & I": 1,
+   "How I AI": 4,
+   "Lenny's Podcast": 1,
+   "AI For Humans": 1
+  },
+  "reports": {
+   "REC": 1,
+   "Bullhorn": 1,
+   "Indeed": 1,
+   "Employ": 1
+  },
+  "news": {
+   "Greenhouse": 1,
+   "Stepstone": 1
+  }
+ },
+ "reports": [
+  {
+   "name": "KPMG and REC UK Report on Jobs, November 2026",
+   "extraction": "partial",
+   "url": "https://kpmg.com/uk/en/media/press-releases/2026/11/kpmg-and-rec-uk-report-on-jobs-november-2026.html",
+   "reason": "free press release only; index values need a paid S&P Global subscription"
+  },
+  {
+   "name": "SIA | Bullhorn Staffing Indicator, week ending 31 October",
+   "extraction": "full",
+   "url": "https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-november-10-2026"
+  },
+  {
+   "name": "Indeed Hiring Lab UK Labour Market Snapshot, October 2026",
+   "extraction": "full",
+   "url": "https://hiringlab.indeed.com/uk/blog/2026/10/26/uk-labour-market-snapshot-october-2026/"
+  },
+  {
+   "name": "Employ 2026 Recruiter Nation Report",
+   "extraction": "partial",
+   "url": "https://www.lever.co/resources/2026-recruiter-nation-report",
+   "reason": "full report sits behind a free email form; figures from Employ's press release and blog"
+  }
+ ],
+ "to_grab": [],
+ "index": {
+  "podcasts": {
+   "items": 763,
+   "missing": 0,
+   "blocks": 175,
+   "warnings": []
+  },
+  "tech": {
+   "items": 253,
+   "missing": 0,
+   "blocks": 93,
+   "warnings": []
+  },
+  "newsletters": {
+   "items": 87,
+   "missing": 0,
+   "blocks": 0,
+   "warnings": []
+  },
+  "reports": {
+   "items": 89,
+   "missing": 0,
+   "blocks": 2,
+   "warnings": []
+  },
+  "news": {
+   "items": 15,
+   "missing": 0,
+   "blocks": 1,
+   "warnings": []
+  },
+  "adhoc": {
+   "items": 2,
+   "missing": 0,
+   "blocks": 0,
+   "warnings": []
+  }
+ },
+ "zero_returns": [],
+ "launches_swept": true,
+ "launch_sweep": {
+  "ran": true,
+  "vendors_read": 15,
+  "vendors_unreadable": [
+   "Lever (401)",
+   "SmartRecruiters (403)",
+   "Workable (JavaScript page, no dated entries)",
+   "Screenloop (search found nothing)"
+  ],
+  "material": [
+   "Greenhouse in Claude (22 Oct, open beta)"
+  ],
+  "not_taken": [
+   "Eightfold AI Recruiting Teammate (12 Nov, tier B, product preview only)",
+   "Juicebox for Mobile (12 Nov, new surface for an existing product)"
+  ]
+ },
+ "ai_news": "Stepstone, 16 Nov: four in ten recruiters in Germany have detected or suspect AI-assisted deception in applications",
+ "evidence_files": [
+  "_state/evidence/parts/podA.json",
+  "_state/evidence/parts/podB.json",
+  "_state/evidence/parts/techA.json",
+  "_state/evidence/parts/techB.json",
+  "_state/evidence/newsletters.json",
+  "_state/evidence/reports.json",
+  "_state/evidence/launches.json"
+ ],
+ "problems": [
+  {
+   "phase": 0,
+   "source": "reconcile",
+   "what": "No pending-review.json and no open digest pull request on the site repo (PR #7 merged 10 Nov), so nothing to reconcile.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 0,
+   "source": "edition date",
+   "what": "The scheduled run fired on Monday 16 November (19:25 UTC), not Sunday 15th. Edition dated Version 9 (16th November 2026): that is the Monday CLAUDE.md names for this edition and the week readers get it, rather than the 23rd. Freshness window ends on the run date, 16 November. Check the schedule's day.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 1,
+   "source": "models",
+   "what": "Main thread ran on the session's configured model; every reading helper and the fact-check were launched on Opus.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 1,
+   "source": "Lenny's Podcast",
+   "what": "Fetcher again saved the retitled re-listing of the Rob Snyder episode (video 19qrLchbQEc) as a new file; duplicate removed. Second time: fetch_transcripts.py should dedupe by video id.",
+   "severity": "degraded",
+   "resolved": "yes"
+  },
+  {
+   "phase": 1,
+   "source": "check_summaries",
+   "what": "Two new summaries flagged 'figure not in the transcript' (Brainfood NZ: 13.5, 3.5, 22500; How I AI token fraud: 5.5). Checked by hand: the captions spell them out ('13 and a half', 'Opus 55'), so the figures are right and the flags are false alarms.",
+   "severity": "noted",
+   "resolved": "yes"
+  },
+  {
+   "phase": 1,
+   "source": "launch sweep",
+   "what": "4 of 19 vendors unreadable: Lever (401), SmartRecruiters (403), Workable (JavaScript page), Screenloop (nothing found). Recorded gaps, not worked round.",
+   "severity": "degraded",
+   "resolved": "no"
+  },
+  {
+   "phase": 1,
+   "source": "reports",
+   "what": "ONS November labour market overview is due 17 November, so it missed this run. CIPD returns 403 to fetches. Bullhorn says its next weekly indicator is on hold for a data review.",
+   "severity": "noted",
+   "resolved": "no"
+  },
+  {
+   "phase": 1,
+   "source": "PromptMates Newsletter",
+   "what": "16 Nov issue: one section ('What runs without him') is empty in the plain text, so that part was not saved.",
+   "severity": "noted",
+   "resolved": "no"
+  }
+ ]
+}

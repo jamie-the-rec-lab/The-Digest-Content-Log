@@ -1,84 +1,66 @@
 {
- "date": "2026-11-09",
- "build": "digest/builds/2026-11-04.html",
- "edit_of": "Version 8 (live), PUBLISH.md step 9, same version",
- "edition_line": "Version 8 (9th November 2026)",
- "page_title": "TheRecLab Weekly Digest — 9 Nov 2026",
- "note": "Only items added or text changed. The other 17 items and all 5 standouts are unchanged from the fact-checked v8.",
+ "date": "2026-11-16",
+ "build": "digest/builds/2026-11-16.html",
  "items": [
   {
-   "section": "Recruiting Podcasts",
-   "source": "Recruiting Future",
-   "title": "Continuous Improvement In TA",
-   "url": "https://www.youtube.com/watch?v=AiO_3dvyPtA",
-   "library_path": "library/podcasts/transcripts/Recruiting Future/2026-11-08-ep-836-continuous-improvement-in-ta.md",
-   "date": "8 Nov 2026",
-   "bullets": [
-    "Tony de Graaf ranks every possible TA improvement by one test: what has the biggest impact on consistently delivering the right person exactly on time.",
-    "Before buying a narrow AI tool, explain how its time saving beats the setup and processing time it adds, or de Graaf says it is not time to implement it.",
-    "The job intake meeting was the weakest point in last year's Recruiting Excellence Foundation benchmark, and de Graaf says technology does not fix it."
-   ],
-   "guest_line": "Tony de Graaf · Co-Founder @ Recruiting Excellence Foundation"
+   "title": "How ElevenLabs Sources Top Designers with AI",
+   "source": "library/podcasts/transcripts/PromptMates/2026-11-16-how-elevenlabs-sources-top-designers-with-ai.md"
   },
   {
-   "section": "Recruiting Podcasts",
-   "source": "PromptMates Live",
-   "title": "Grok Bot for Recruiters",
-   "url": "https://www.youtube.com/watch?v=UyOLQ6KKXs4",
-   "library_path": "library/podcasts/transcripts/PromptMates/2026-11-04-grok-bot-for-recruiters.md",
-   "date": "4 Nov 2026",
-   "bullets": [
-    "Joe Atkinson keeps the facts his recruiting agent works from in his own tools, such as Airtable, rather than in the agent's memory.",
-    "Atkinson's standing instruction to his agent is to take no action unless he says otherwise, and to check with him first.",
-    "To find sales overachievers, Jason Miller builds out synonyms for overattainment in his searches, such as president's club or 200% attainment."
-   ]
+   "title": "What Has Changed In Executive Hiring?",
+   "source": "library/podcasts/transcripts/Recruiting Future/2026-11-13-ep-837-what-has-changed-in-executive-hiring.md"
   },
   {
-   "section": "Recruiting reports, product updates, and more",
-   "source": "Bullhorn · report",
-   "title": "Staffing Industry Indicator, week ending 24 October 2026",
-   "url": "https://www.staffingindustry.com/news/global-daily-news/us-staffing-hours-further-their-growth-trend-sia-bullhorn-staffing-indicator",
-   "library_path": "library/reports/transcripts/Bullhorn/2026-11-03-staffing-industry-indicator-week-ending-october-24.md",
-   "date": "3 Nov 2026",
-   "bullets": [
-    "US staffing hours rose 11% year over year in the week ended 24 October 2026, according to the SIA and Bullhorn Staffing Indicator.",
-    "In the week ended 24 October, US industrial staffing hours advanced 17% year over year while US office and clerical hours fell 7%.",
-    "SIA says the US industrial staffing indicator is now higher than it was at this time of year one, two and three years ago."
-   ],
-   "check_note": "Partial extraction: public SIA news summary only. Verify against the URL."
+   "title": "Hiring Fraud: The $6bn Interview",
+   "source": "library/podcasts/transcripts/PromptMates/2026-11-12-hiring-fraud-the-6bn-interview.md"
   },
   {
-   "section": "AI & Tech Picks",
-   "source": "Lenny's Podcast",
-   "title": "Why PMs are suddenly valuable again",
-   "url": "https://www.youtube.com/watch?v=qGf2Yvan4Wg",
-   "library_path": "library/tech/transcripts/Lenny's Podcast/2026-11-08-why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini.md",
-   "date": "8 Nov 2026",
-   "bullets": [
-    "Gemini product head Tulsee Doshi says a first eval, a set of test prompts for checking an AI's answers, can start with just five prompts and your own judgement.",
-    "When hiring product managers to work on AI models, Doshi wants people with opinions formed from using models daily, who can build an eval themselves.",
-    "Doshi's test for handing work to AI: if you have to do something twice, ask whether you need to do it yourself."
-   ],
-   "guest_line": "Tulsee Doshi · Head of Product, Gemini @ Google"
+   "title": "The Geography of Tech Hiring",
+   "source": "library/podcasts/transcripts/The Debrief/2026-11-10-the-geography-of-tech-hiring-where-work-happens-whos-moving-and-why-it-matters-t.md"
   },
   {
-   "section": "AI & Tech Picks",
-   "source": "CNBC · news",
-   "title": "AI is speeding up recruitment, and putting agency fees under pressure",
-   "url": "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html",
-   "library_path": "library/news/transcripts/CNBC/2026-11-08-ai-recruitment-agency-fees.md",
-   "date": "8 Nov 2026",
-   "bullets": [
-    "In a 2026 Bullhorn survey of nearly 300 UK and Irish recruitment professionals, 37% said AI made candidate screening 26% to 50% faster.",
-    "David Berwick of Adria Solutions says AI is making an agency that simply forwards CVs increasingly difficult to justify.",
-    "Matt Collingwood of VIQU Group sees every reason for agency fees to hold firm or even increase, if the value agencies deliver keeps growing."
-   ],
-   "check_note": "Partial extraction via page summariser; wording not guaranteed verbatim. Checker must read the URL itself and confirm the 37% / 26% to 50% / nearly 300 UK and Irish figure, and the Berwick and Collingwood attributions."
+   "title": "Recruiter demand is at a record high",
+   "source": "library/newsletters/transcripts/PromptMates Newsletter/2026-11-16-recruiter-demand-is-at-a-record-high.md"
+  },
+  {
+   "title": "How Do Candidates Know Your Recruiters Are Real?",
+   "source": "library/newsletters/transcripts/TA Unboxed/2026-11-13-how-do-candidates-know-your-recruiters-are-real.md"
+  },
+  {
+   "title": "The Hiring Safety Playbook",
+   "source": "library/newsletters/transcripts/Data Driven Recruiter/2026-11-11-ddr85-the-hiring-safety-playbook.md"
+  },
+  {
+   "title": "SIA | Bullhorn Staffing Indicator, week ending 31 October 2026",
+   "source": "library/reports/transcripts/Bullhorn/2026-11-10-staffing-industry-indicator-week-ending-october-31.md"
+  },
+  {
+   "title": "KPMG and REC UK Report on Jobs, November 2026",
+   "source": "library/reports/transcripts/REC/2026-11-09-report-on-jobs-november-2026.md"
+  },
+  {
+   "title": "UK Labour Market Snapshot, October 2026",
+   "source": "library/reports/transcripts/Indeed/2026-10-26-uk-labour-market-snapshot-october-2026.md"
+  },
+  {
+   "title": "2026 Recruiter Nation Report",
+   "source": "library/reports/transcripts/Employ/2026-10-14-recruiter-nation-report-2026.md"
+  },
+  {
+   "title": "Greenhouse in Claude",
+   "source": "library/news/transcripts/Greenhouse/2026-10-22-greenhouse-in-claude.md"
+  },
+  {
+   "title": "AI-assisted deception in job applications",
+   "source": "library/news/transcripts/Stepstone/2026-11-16-ai-assisted-deception-in-job-applications.md"
+  },
+  {
+   "title": "Meta's Muse",
+   "source": "library/tech/transcripts/Lenny's Podcast/2026-11-15-metas-muse-inside-the-launch-of-the-most-successful-consumer-product-this-year-m.md"
+  },
+  {
+   "title": "A New Vision for Human Work After Automation",
+   "source": "library/tech/transcripts/AI & I/2026-11-11-a-new-vision-for-human-work-after-automation.md"
   }
- ],
- "standouts_changed": [],
- "preview_changed": {
-  "text": "UK vacancies have fallen to their lowest outside the pandemic since 2014, and REC finds UK employers' permanent hiring intentions edging down. Talent engineering is the argument of the week, from a Zapier talent engineer's case for buying over building to Data Driven Recruiter asking whether the job is real. Pin and Teamtailor ship AI that acts on candidates, Dayforce is buying AI interviewing firm Ribbon AI, and UK agency recruiters are split on whether AI will push their fees down. And in the world of AI, a Figma product manager runs his day from shared AI skills, and Kevin Roose had Claude agents review his book.",
-  "what_changed": "Added 'UK agency recruiters are split on whether AI will push their fees down' (CNBC item). Trimmed 'for you' after 'acts on candidates', and 'a council of Claude agents' to 'Claude agents'. Merged the Pin/Teamtailor/Dayforce sentence with the agency-fees clause. All other wording unchanged."
- }
+ ]
 }
