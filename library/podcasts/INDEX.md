@@ -325,7 +325,10 @@ File: `transcripts/10x Recruiting/2025-03-06-introducing-the-10x-recruiting-podc
 
 ## Brainfood (162 episodes)
 
-### 2026-11-13 — [Brainfood Live On Air   Ep418   How to Hire in New Zealand in 2026](https://www.youtube.com/watch?v=0Z2_M41FYHw)
+### 2026-11-13 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=0Z2_M41FYHw)
+Hung Lee and a Kiwi panel on hiring in New Zealand: Australia outbids on pay (senior medical officers 1.5x, 13.5% vs 3.5% super), migration has collapsed, nobody answers the phone, and reputation and referrals rule a two degrees of separation market.
+Company: Brainfood (panel: Dale Cleaver of Accordant, Raj Singh of Health New Zealand, Vanessa Reddicliffe, Ben Tinker of Haynes; host Hung Lee)
+Tags: regional hiring, global hiring, compensation, employer storytelling, candidate communication, outbound sourcing, candidate experience, talent market data, candidate fraud, dei
 File: `transcripts/Brainfood/2026-11-13-brainfood-live-on-air-ep418-how-to-hire-in-new-zealand-in-2026.md`
 
 ### 2026-11-06 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=q-rytZJNYu8)
@@ -2134,13 +2137,22 @@ File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-se
 
 ## PromptMates (70 episodes)
 
-### 2026-11-16 — [How ElevenLabs Sources Top Designers with AI](https://www.youtube.com/watch?v=WIwwp06Lejs)
+### 2026-11-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=WIwwp06Lejs)
+ElevenLabs grew its design team from 8 to 35 (60% sourced) with simple LLM scripts for signals, enrichment, classification and scoring, and a saved pool of about 300 designers that booked about 25 interviews for 17 new openings.
+Company: ElevenLabs (Bence Gedai, Talent Engineer)
+Tags: ai sourcing, building ai tools, talent pools, outbound sourcing, talent mapping, context engineering, ai agents, recruiter productivity
 File: `transcripts/PromptMates/2026-11-16-how-elevenlabs-sources-top-designers-with-ai.md`
 
-### 2026-11-12 — [Hiring Fraud: The $6bn Interview](https://www.youtube.com/watch?v=SBJYxr_k0Oo)
+### 2026-11-12 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=SBJYxr_k0Oo)
+Crypto recruiters Luke Eaton and Evan Palmer on state backed fake candidates and fake recruiters after the $6.3bn Binance hack: publish a never list and your real hiring stack, verify with human questions, sandbox tests; opens with a SCALIS sponsor demo.
+Company: Ava Labs and Harmonic (Luke Eaton, Evan Palmer); sponsor SCALIS
+Tags: candidate fraud, deepfake candidates, take-home assessments, candidate communication, interviewer training, engineering hiring, ai bias, rec tech, talent market data
 File: `transcripts/PromptMates/2026-11-12-hiring-fraud-the-6bn-interview.md`
 
-### 2026-11-09 — [How Clay Turned Job Applications Into Projects](https://www.youtube.com/watch?v=BxL-h9Q29YY)
+### 2026-11-09 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=BxL-h9Q29YY)
+Clay replaced the CV screen for high volume and early career roles with a three part work simulation graded by AI against hiring manager rubrics, scorecards pushed to Ashby, recruiters deciding, and an AI opt out.
+Company: Clay (Jen Ayala, Head of Recruiting; Ryan Ellis, Recruiting Ops Manager; own product used as grading engine)
+Tags: ai screening, building ai tools, work trials, skills-based hiring, high-volume hiring, early career talent, scorecards, inbound recruiting, ai governance
 File: `transcripts/PromptMates/2026-11-09-how-clay-turned-job-applications-into-projects.md`
 
 ### 2026-11-04 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=UyOLQ6KKXs4)
@@ -2547,10 +2559,16 @@ File: `transcripts/PromptMates/2025-08-26-finding-hidden-talent-with-sdi-scout.m
 
 ## Recruiting Future (308 episodes)
 
-### 2026-11-16 — [Ep 838: Job Seekers Are Driving Recruiting Innovation](https://www.youtube.com/watch?v=5IIa4MWaE3I)
+### 2026-11-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=5IIa4MWaE3I)
+AIApply CEO Aidan Cramer argues candidate-side agents beat bulk apply, says resume tailoring made no difference on his data, and urges employers to publish machine-readable, transparent requirements; all data claims are unquantified vendor claims.
+Company: AIApply (Aidan Cramer, co-founder and CEO; vendor discussing own product)
+Tags: candidate ai tools, ai agents, ai sourcing, interview cheating, ai job descriptions, skills-based hiring, job advertising, candidate fraud
 File: `transcripts/Recruiting Future/2026-11-16-ep-838-job-seekers-are-driving-recruiting-innovation.md`
 
-### 2026-11-13 — [Ep 837: What Has Changed In Executive Hiring?](https://www.youtube.com/watch?v=nw6fS2Bf_8k)
+### 2026-11-13 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=nw6fS2Bf_8k)
+Simon Mullins of ESIX shares 30 years of executive hiring benchmark data: search firm use nearly halved, succession planning involvement 36% to 76%, AI use near universal but only 14% see better candidate quality.
+Company: ESIX (Simon Mullins)
+Tags: executive search, ta leadership, talent market data, ai job descriptions, ai market research, dei, internal mobility, talent intelligence
 File: `transcripts/Recruiting Future/2026-11-13-ep-837-what-has-changed-in-executive-hiring.md`
 
 ### 2026-11-08 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=AiO_3dvyPtA)
@@ -4519,7 +4537,10 @@ File: `transcripts/Recruiting Roadshow/2026-04-02-what-great-recruiters-do-diffe
 
 ## The Debrief (10 episodes)
 
-### 2026-11-10 — [The Geography of Tech Hiring:  Where Work Happens, Who's Moving, and Why It Matters | The Debrief](https://www.youtube.com/watch?v=zPGi6tJeiIw)
+### 2026-11-10 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=zPGi6tJeiIw)
+The Debrief panel on where tech companies hire: a location scorecard beyond cost, hidden overhead of entities, token spend equal to one FTE at Zapier, GTM overtaking engineering, and why TA should lead workforce design.
+Company: The Debrief (panel: Ben Sesser, Chris, Tracy of Zapier)
+Tags: global hiring, headcount planning, capacity planning, ta leadership, talent market data, gtm hiring, engineering hiring, human-ai collaboration
 File: `transcripts/The Debrief/2026-11-10-the-geography-of-tech-hiring-where-work-happens-whos-moving-and-why-it-matters-t.md`
 
 ### 2026-08-20 — [The Hardest Pitch in TA: Mission-Driven Talent and Playing the Long Game | The Debrief](https://www.youtube.com/watch?v=Ydej7_bf83g)

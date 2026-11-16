@@ -5,7 +5,10 @@ Use this to find relevant items before opening the full document.
 
 ## AI & I (43 episodes)
 
-### 2026-11-11 — [A New Vision for Human Work After Automation](https://www.youtube.com/watch?v=WstNofgQF5Q)
+### 2026-11-11 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=WstNofgQF5Q)
+Dan Shipper's Thesis keynote: AI makes answers cheap, so value lies in the person who ranks and picks them; share the same data with the whole team, keep humans on ranking, and judge AI on your own work (GDPval: AI beat experts 12.4% in 2024 to about 83% in 2026).
+Company: Every (Dan Shipper, CEO)
+Tags: ai, ai agents, future of work, data and analytics, team building, productivity, leadership
 File: `transcripts/AI & I/2026-11-11-a-new-vision-for-human-work-after-automation.md`
 
 ### 2026-11-04 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=IOp5N4GxE6E)
@@ -262,7 +265,10 @@ File: `transcripts/AI & I/2026-01-07-ai-in-2026-reid-hoffmans-predictions-on-age
 
 ## AI For Humans (64 episodes)
 
-### 2026-11-13 — [Claude Just Leveled Up AI Again. Nvidia CEO Jensen Huang Did Not.](https://www.youtube.com/watch?v=sQKvJbzgFRU)
+### 2026-11-13 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=sQKvJbzgFRU)
+Hosts' hands-on take on Anthropic's Fable 5.2 (looser briefs, personas, fast usage caps on the $200 plan), Claude Sheets, Spawn game maker and unconfirmed reporting on Jensen Huang leaving Nvidia; low recruiting relevance.
+Company: AI For Humans (hosts Kevin Pereira and Gavin Purcell)
+Tags: ai, ai coding, ai agents, ai product, machine learning, productivity, general
 File: `transcripts/AI For Humans/2026-11-13-claude-just-leveled-up-ai-again-nvidia-ceo-jensen-huang-did-not.md`
 
 ### 2026-11-06 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=4fZApLHnLFU)
@@ -645,17 +651,29 @@ File: `transcripts/AI For Humans/2026-01-09-the-ai-robot-uprising-has-begun-and-
 
 ## How I AI (84 episodes)
 
-### 2026-11-16 — [How I fight token fraud as an AI founder](https://www.youtube.com/watch?v=ZDpP7JXPlhc)
+### 2026-11-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=ZDpP7JXPlhc)
+Host-only account of token fraud against ChatPRD: six abuse patterns, why free trials and promo codes were killed, and the business, technical and AI-agent controls used to classify, downgrade or ban abusers.
+Company: ChatPRD (host Claire Vo)
+Tags: ai product, ai agents, pricing, go-to-market, startups, founder stories, engineering, growth
 File: `transcripts/How I AI/2026-11-16-how-i-fight-token-fraud-as-an-ai-founder.md`
 
-### 2026-11-11 — [Claude Code + Obsidian: My family’s AI brain](https://www.youtube.com/watch?v=wdyOjcCj2hw)
+### 2026-11-11 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=wdyOjcCj2hw)
+A maths teacher runs his household from a folder of markdown files that Claude Code reads and writes, viewed in Obsidian, with project checklists, a prioritised to-do file shared with his wife, and a wall display of priorities and recent wins.
+Company: Scott Farrar (sfxmath.com); host Claire Vo
+Tags: ai agents, ai coding, ai, productivity, data and analytics, general
 File: `transcripts/How I AI/2026-11-11-claude-code-obsidian-my-familys-ai-brain.md`
 
-### 2026-11-09 — [I was a Claude hater. Fable 5.2 changed my mind.](https://www.youtube.com/watch?v=1gYQc4CL_oo)
-File: `transcripts/How I AI/2026-11-09-i-was-a-claude-hater-fable-52-changed-my-mind.md`
-
-### 2026-11-09 — [Building a language tutor with Codex (and zero mobile experience)](https://www.youtube.com/watch?v=zBROTIiHusc)
+### 2026-11-09 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=zBROTIiHusc)
+A self-taught non-mobile developer builds a native Norwegian voice tutor with Codex by briefing it like a product manager, then runs his solo-founder business on role-based AI bots, including one that logs, scores and ranks candidates after each call.
+Company: Hackmamba (William Imoh); host Claire Vo
+Tags: ai coding, ai agents, ai product, product design, founder stories, startups, productivity, hiring
 File: `transcripts/How I AI/2026-11-09-building-a-language-tutor-with-codex-and-zero-mobile-experience.md`
+
+### 2026-11-09 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=1gYQc4CL_oo)
+Host-only first impressions of Anthropic's Fable 5.2: fast, creative and strong on video, geometry and long engineering tasks, poor at unguided web design, with Opus 5.5 still the default for daily work.
+Company: How I AI (host Claire Vo); Anthropic Fable 5.2
+Tags: ai coding, ai product, ai, product design, engineering, productivity, go-to-market
+File: `transcripts/How I AI/2026-11-09-i-was-a-claude-hater-fable-52-changed-my-mind.md`
 
 ### 2026-11-02 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=ztt8irafLMQ)
 Figma growth PM Ezra Mechaber shares PM OS, a 31 skill shared repo for roughly 60 to 70 PMs, plus agent bug bashes in Codex and an automated experiment runner with five live tests; no usage data or benchmarks given.
@@ -1137,9 +1155,12 @@ Company: Wade Foster
 Tags: ai, ai agents, startups, founder stories, hiring
 File: `transcripts/How I AI/2026-01-05-zapiers-ceo-shares-his-personal-ai-stack-wade-foster.md`
 
-## Lenny's Podcast (63 episodes)
+## Lenny's Podcast (62 episodes)
 
-### 2026-11-15 — [Meta’s Muse: Inside the launch of the most successful consumer product this year | Mona Sarantakos](https://www.youtube.com/watch?v=WY0cdD4gNoQ)
+### 2026-11-15 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=WY0cdD4gNoQ)
+Meta's Muse product lead on launching a personal AI agent: quality-gated launch, word of mouth and starter prompts as the adoption levers, agent swarms over user feedback, handwritten system prompts, layered evals and a four-PM team.
+Company: Meta (Mona Sarantakos, VP Product, Muse; vendor on own product)
+Tags: ai agents, ai product, product management, product design, growth, user research, data and analytics, hiring, team building
 File: `transcripts/Lenny's Podcast/2026-11-15-metas-muse-inside-the-launch-of-the-most-successful-consumer-product-this-year-m.md`
 
 ### 2026-11-08 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=qGf2Yvan4Wg)
@@ -1153,9 +1174,6 @@ Wispr Flow's head of content on running a performance-paid creator programme wit
 Company: Wispr Flow (Hector Serrano; Tribe)
 Tags: growth, go-to-market, hiring, team building, startups, careers
 File: `transcripts/Lenny's Podcast/2026-11-01-a-ugc-masterclass-from-the-22-year-old-who-built-wispr-flows-growth-machine-hect.md`
-
-### 2026-10-25 — [How to find product-market fit (but, actually) | Rob Snyder (Author, The Power of Pull)](https://www.youtube.com/watch?v=19qrLchbQEc)
-File: `transcripts/Lenny's Podcast/2026-10-25-how-to-find-product-market-fit-but-actually-rob-snyder-author-the-power-of-pull.md`
 
 ### 2026-10-25 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=19qrLchbQEc)
 Rob Snyder's PULL framework (Project, Unavoidable, List of options, Limitations) for finding product-market fit, plus cold outreach benchmarks, the Hail Mary question and why he avoids design partners.
