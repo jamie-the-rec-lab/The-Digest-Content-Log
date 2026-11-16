@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-16",
+  "result": "mismatches",
+  "checked_items": 15,
+  "mismatches": [
+    {
+      "item": "How ElevenLabs Sources Top Designers with AI",
+      "where": "standout row (Podcast)",
+      "digest_line": "30,000 inbound applications produced one design hire, so ElevenLabs sourced 60% of a team that grew from 8 to 35.",
+      "source_says": "Transcript [0:58]: \"in the last year we scaled the team from eight designers to 35. 60% of those people are sourced candidates. The remaining is basically referrals\". Episode description: \"ElevenLabs grew its design team from 8 to 35 in a year, and 60% of those hires were sourced.\" The 60% is of the hires made in the year, not of the 35 person team (which includes the original 8).",
+      "severity": "wrong",
+      "suggested_fix": "30,000 inbound applications produced one design hire, so ElevenLabs went out and found people: its design team grew from 8 to 35 in a year and 60% of those hires were sourced. Try the lookalike search: give an AI model 50 people you rate and ask it for similar ones."
+    },
+    {
+      "item": "How ElevenLabs Sources Top Designers with AI",
+      "where": "brief-text preview",
+      "digest_line": "ElevenLabs explains how it sourced 60% of a design team that grew from 8 to 35",
+      "source_says": "Transcript [0:58]: \"we scaled the team from eight designers to 35. 60% of those people are sourced candidates.\" Description: \"60% of those hires were sourced.\" Same wrong base as the standout: 60% of the hires, not of the team.",
+      "severity": "wrong",
+      "suggested_fix": "ElevenLabs explains how it grew a design team from 8 to 35 with 60% of those hires sourced"
+    },
+    {
+      "item": "How ElevenLabs Sources Top Designers with AI",
+      "where": "bullet 3",
+      "digest_line": "A saved talent pool of about 300 designers gave ElevenLabs around 25 booked interviews when 17 new design roles opened at the start of Q4.",
+      "source_says": "Transcript [20:22]: \"Start of Q4, we have something like 17 new design openings that we're working. First thing that I did, I reached out to all of these 300 people. We already have something like 25 interviews booked\". The 17 is an approximation in the source; the digest hedges 300 and 25 but states 17 as exact.",
+      "severity": "unsupported",
+      "suggested_fix": "A saved talent pool of about 300 designers gave ElevenLabs around 25 booked interviews when about 17 new design roles opened at the start of Q4."
+    },
+    {
+      "item": "Hiring Fraud: The $6bn Interview",
+      "where": "bullet 1",
+      "digest_line": "Ava Labs publishes a 'never list' so candidates can spot impostors: its recruiters will never ask a candidate to install software or to run code on their own computer.",
+      "source_says": "Transcript [52:33] to [53:35], Luke Eaton: \"I can walk you through roughly kind of what we're doing ... on our job board, um, and then we're we're getting the marketing team to sort of make our careers page a bit more focused around it as well\" ... \"So publishing your hiring stack around there. Um, I I call it a never list ... So we will never ask you to install software. We will never ask you to run a repo locally. ... this is something that's you know trained into all of our team\". He describes work in progress and gives it as advice; he never says Ava Labs has published the never list. Borderline, but 'publishes' as a settled fact is not stated.",
+      "severity": "unsupported",
+      "suggested_fix": "Luke Eaton of Ava Labs says to publish a 'never list' so candidates can spot impostors, such as: we will never ask you to install software or to run a code project on your own machine."
+    },
+    {
+      "item": "The Geography of Tech Hiring",
+      "where": "bullet 2",
+      "digest_line": "Zapier is fully remote with just under 1,000 people in 42 countries, yet it no longer hires from anywhere, judging some countries better than others on labour law and tax.",
+      "source_says": "Transcript [14:58] and the paragraph before: \"even at Zapier, we used to say we hire from anywhere, and now as I mentioned before, we're saying, oh, but maybe like these places are better than these places because some of the labor laws or tax requirements or the accommodations that we have to make are actually like so much work\". The source says Zapier has stopped SAYING it hires from anywhere and now weighs countries; it does not state a policy that it no longer hires from anywhere. Borderline tightening.",
+      "severity": "unsupported",
+      "suggested_fix": "Zapier is fully remote with just under 1,000 people in 42 countries, yet it has stopped saying it hires from anywhere and now rates some countries above others on labour law and tax."
+    }
+  ],
+  "notes": [
+    "Independent check; _state/factcheck-result.json was not read.",
+    "All 15 items opened and checked against the source body (podcasts against the transcript, with the episode description used only for guest name/title and framing; SUMMARY blocks ignored).",
+    "Clean with no mismatch: Recruiting Future (46%/14%, almost halved, 80%, 36% to 76%), PromptMates Newsletter, TA Unboxed, Data Driven Recruiter, Bullhorn, REC, Indeed, Employ, Greenhouse, Stepstone, Lenny's Podcast, AI & I. Hiring Fraud bullets 2 and 3 and Debrief bullets 1 and 3 are supported.",
+    "Guest lines verified from episode descriptions/transcripts: Bence Gedai, Talent Engineer at ElevenLabs; Evan Palmer, Founding Talent Lead, Harmonic; Luke Eaton, Director of Recruiting, Ava Labs; Mona Sarantakos, VP of Product at Meta Superintelligence Labs. 'ESIX' and 'Simon Mullins' come from the Recruiting Future description (captions render it 'E6').",
+    "Item dates and titles all match the source file headers.",
+    "Style: no banned words, tics or shapes found in the body; no em or en dash in the body (the only one is the page title in the head, which is allowed).",
+    "AI & I: the caption for the number of answers is garbled (\"400 100 answers\", then \"400 answers\"); the digest's 'hundreds of attempts' is a safe reading.",
+    "Stepstone bullet 2: the 26% and 8% sit on the base of the 505 recruiters who identified or suspected deception; 'Among recruiters in Germany reporting cases' states a sub-sample base correctly.",
+    "Not a fact mismatch, for the builder to confirm: three items are dated 16 Nov 2026 (PromptMates Live ElevenLabs, PromptMates Newsletter, Stepstone), which is the edition Monday. CLAUDE.md says the freshness window ends on the run date; source files show Fetched 2026-11-16, so this holds only if the run itself happened on the 16th.",
+    "Not a fact mismatch: the ElevenLabs video is a 22 minute cut whose description links to a longer 'Full episode' on a different YouTube id; the digest claims are all in the saved transcript.",
+    "Preview names only topics the digest covers (Binance/fake recruiters, the three hiring-safety pieces, ElevenLabs, REC permanent placements, Muse, Dan Shipper)."
+  ]
+}
