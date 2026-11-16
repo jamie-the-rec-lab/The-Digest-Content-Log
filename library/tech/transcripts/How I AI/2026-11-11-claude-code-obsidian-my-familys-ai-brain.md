@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Scott Farrar, maths teacher and parent who runs his household from a set of markdown files managed by Claude Code (captions render the surname inconsistently)  ·  **Show:** How I AI, 11 Nov 2026
+**Tags:** ai agents, ai coding, ai, productivity, data and analytics, general
+
+**When to use this:** Your AI chats drift and forget, and you want an assistant that works from your own documents every time you open a new session.
+
+**Big idea:** Keep your context in plain text files that an AI agent reads and writes, so its memory is visible, editable and the same in every session.
+
+**Frameworks & plays:**
+- Swap the chat window for a desktop agent such as Claude Code that reads and writes markdown files on your computer. A new session picks up the same files, so you can ask a loose question like "what should I do next" and get an answer grounded in your situation.
+- Ask the AI what to collect before you start. When he asked what to gather about his house, Claude told him to "go around and take pictures of of every appliance in your house", which it then summarised into one list.
+- Give each piece of work its own project file with a checklist. The agent names the blocker (for example, the next email to send) and nudges him about anything overdue, such as "you've been waiting since September 24th on this".
+- Brain dump every task with your partner, then have the AI give each one "a priority level" and "a cost estimate". He says the result is he has "run out of of pending fires".
+- Set scope limits up front: "I'm not going to do finances with this. I'm not doing medical information."
+- Write the house rules into the agent's instruction file and add a script that checks files stay short, because verbose agents bloat lists. When it ignored the rule, he asked "why did you think that" to find what it had written.
+- Share it simply. A shared Dropbox folder works if two people rarely edit at the same time. Claude itself flagged sync conflicts and suggested GitHub as the stricter option.
+- Put the important bits where people see them: a script feeds priorities, trips and a "recent wins" section to a Dakboard wall display.
+
+**Tools & prompts:**
+- Claude Code for reading and writing the files, Obsidian for viewing them as a linked graph, Dropbox and GitHub for sharing, Dakboard for the wall screen.
+
+**Contrarian take:**
+- On AI tutoring, Scott Farrar argues for flipping it: the chatbot asks the student to teach it ("help me understand how to solve a linear equation") and acts as a "warm demander" rather than handing over the answer.
+
+**Steal this (do tomorrow):**
+- Create one folder of plain notes per open role and ask your AI assistant what it needs you to collect before it can help.
+- Ask it to turn your scattered to-dos into one list with a priority and a next step for each.
+- Keep a "recent wins" list next to the to-do list.
+<!--/SUMMARY-->
+
 # Claude Code + Obsidian: My family’s AI brain
 
 - **Podcast:** How I AI

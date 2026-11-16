@@ -1,3 +1,41 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** William Imoh (captions render the surname "Emo"; spelling taken from the episode notes), founder of Hackmamba, a developer marketing company, a former product manager who built a native iOS and Android app without ever having written Swift  ·  **Show:** How I AI, 09 Nov 2026
+**Tags:** ai coding, ai agents, ai product, product design, founder stories, startups, productivity, hiring
+
+**When to use this:** You want an AI agent to build something you lack the technical skill for, or you are a stretched team of one trying to hand admin to AI assistants.
+
+**Big idea:** The skill that matters is describing the experience you want in precise product and design language, then giving agents broad access with a few hard limits.
+
+**Frameworks & plays:**
+- Brief a coding agent the way a product manager writes epics and user stories. His opening prompt asked for "an aesthetically pleasing iOS application", told it to follow design best practice "like you were senior designer at Apple", and set the rule that "No element on the screen should exist unless it absolutely has to".
+- Ask the agent to review its own design when it finishes, then correct it in plain words. He rejected the first dark mode version with "Not everything belongs in dark mode" and asked for light warm colours, gradients and "liquid glass".
+- Host Claire Vo's tip for building taste: practise describing in words what makes one website or app better than another, because that vocabulary is what you prompt with.
+- Before handing work to AI, list everything you personally do in one place (he used Notion), then set up one AI project per area, such as operations, growth, sales and the website.
+- Run a weekly routine: every Sunday night an "operator brief" covers what to start, stop and keep doing, plus the three highest impact activities for the week.
+- Give each assistant a role. He created a chief of staff bot first and had it create the others for engineering, marketing, product, accounts, sales and customer success.
+- After a candidate call he tells the assistant "hey I just spoke to this person, get them into three pipes" (his internal people system). It pulls email, calendar and meeting notes, writes a summary, scores the candidate and ranks them against everyone else he has spoken to.
+- When an agent stalls: restart it, then get specific with "do this first, test this first, and also review what you've done", or have a second agent review the first one's output.
+
+**Data & benchmarks:**
+- Running the real-time voice tutor on OpenAI's GPT-Live costs between $3 and $5 per 30 minute session, by the guest's estimate.
+- He put $1,000 on an OpenAI budget for public use of the open source app and about $100 remained.
+- A 1,000 day Duolingo streak still left him unable to hold a Norwegian conversation.
+
+**Tools & prompts:**
+- Codex for complex build work, ChatGPT projects for organising each area of the business, and a role-based bot product whose name the captions garble ("Grockpot", "Grock bot").
+- He connected Google's suite, Linear, Notion, his calendar, Pipedrive and QuickBooks (captions: "pipe drive, quip books"), and enabled computer and browser use as a fallback.
+
+**Contrarian take:**
+- William Imoh gives agents access to everything except write access to the bank and customer data: "For me, I just let all that fly out the window."
+- His real fear is not replacement but dependency: "What if these agents go to zero tomorrow?"
+
+**Steal this (do tomorrow):**
+- Write down the hard limits first (for a recruiter, perhaps offer letters and candidate data exports), then connect your assistant to everything else.
+- Straight after a screening call, ask an assistant with email and calendar access to draft the candidate summary and compare it with the others in the pipeline, then check it yourself.
+- Set a Sunday routine that asks for start, stop, keep and your three highest impact activities for the week.
+<!--/SUMMARY-->
+
 # Building a language tutor with Codex (and zero mobile experience)
 
 - **Podcast:** How I AI

@@ -1,3 +1,33 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Mona Sarantakos, VP of Product at Meta Superintelligence Labs and head of product for Meta's Muse personal AI agent from the start; a 10-year Meta veteran in her first podcast interview  ·  **Show:** Lenny's Podcast, 15 Nov 2026
+**Tags:** ai agents, ai product, product management, product design, growth, user research, data and analytics, hiring, team building
+
+**When to use this:** you are rolling out an AI assistant or agent to recruiters or hiring managers and people sign up but never get past the first prompt.
+
+**Big idea:** for an AI agent that holds personal context, trust decides whether anyone uses it, so gate the launch on quality and drive adoption through relatable peer stories and ready-made starter prompts rather than advertising.
+
+**Frameworks & plays:**
+- Make word of mouth your first adoption lever. Sarantakos says advertising did not land "until they saw somebody else that they related to using it": one power user passed her phone around a group of parents and two of them downloaded it on the spot.
+- Get people past the blank first prompt. She says people freeze and type "what's the weather today? Or hi.", so Muse built an ideas tab of starter packs where the user just says "let's do it" and the agent sets up a reminder, a dashboard or a task.
+- Tier your onboarding by experience. What worked for early adopters, who already knew what an agent was, did not work for later users asking why it is different from the AI they already use, so Muse now serves onboarding variants based on likely prior exposure.
+- Use AI to read feedback at scale and bring back real examples, not just metrics. Her team sends agent "swarms" through conversations and feedback, which return insights such as "10 people have asked" to shop on a site and got blocked, and she makes all her PMs do it to build empathy for users.
+- Keep a human hand on the core instructions. She says Muse's system prompt and behavioural spec must be handwritten, with no part written by AI, and that people must check the data behind every eval.
+- Layer your quality checks: always-on priority evals such as safety and prompt injection that every change must pass, then capability, behaviour (does it ask follow-up questions, does it understand intent) and use-case evals. Rebuild them when real usage surprises you: shopping became a top use case while home automation underperformed.
+
+**Data & benchmarks:**
+- The first Muse team was about 10 people, grew to under 100 across all functions, and four PMs built the product. Host Lenny says it took about seven months from start to launch, versus a couple of months for some rivals.
+
+**Contrarian take:**
+- Sarantakos kept a stuffed-animal avatar instead of a corporate logo because "when you're talking to something that feels so personal the last thing you want to talk to you is a corporate logo."
+- She says product taste is now "the number one thing I look for when I'm interviewing PMs", because engineers can build fast and AI slop is easy to ship.
+
+**Steal this (do tomorrow):**
+- Before your next AI tool rollout, ask two respected recruiters to show their real day-to-day use to the team instead of sending a launch email.
+- Write five starter prompts for the tool that a new user can run by saying "do this", and give later adopters a different, more basic intro than your early enthusiasts.
+- Write your team's core screening or sourcing prompt by hand and have a person review its outputs before trusting it.
+<!--/SUMMARY-->
+
 # Meta’s Muse: Inside the launch of the most successful consumer product this year | Mona Sarantakos
 
 - **Podcast:** Lenny's Podcast

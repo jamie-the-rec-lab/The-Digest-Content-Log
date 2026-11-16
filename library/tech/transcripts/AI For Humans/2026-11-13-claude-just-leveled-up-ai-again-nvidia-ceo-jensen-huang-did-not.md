@@ -1,3 +1,36 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Kevin Pereira and Gavin Purcell (full names from the episode description; the captions only use first names), a weekly AI news and hands-on demo show  ·  **Show:** AI For Humans, 13 Nov 2026
+**Tags:** ai, ai coding, ai agents, ai product, machine learning, productivity, general
+
+**When to use this:** you want a quick, hands-on read of what Anthropic's new Fable 5.2 model and Claude's new Sheets tool are like in daily use, rather than a launch announcement.
+
+**Big idea:** the newest general-purpose models make good creative choices on loose briefs and are swallowing specialist tools, so the useful skill shifts from writing exact instructions to giving the model room and iterating with it.
+
+**Frameworks & plays:**
+- Brief more loosely with the strongest models. Kevin says that with Fable 5.2 he is "not having to get so prescriptive" and now tells it to do whatever it thinks is most interesting, and gets better openings and interfaces back. A viral example came from a basic prompt to make a fun new version of Pong and "go wild".
+- Give the model a persona. Gavin says asking for the basics gets you "a lot of vanilla stuff", and that giving the model personas, or working with one persistent agent over time, produces more distinctive output.
+- Point an agent at a public project and ask it to make something with it. Gavin told his agent to pull a GitHub repo and build something, adding only the words "spaghetti western", and got a finished short story video in the same visual style.
+- Use an AI coding tool for the rough cut and a familiar tool for the finish. Kevin had Claude Code layer, colour correct and assemble a show sizzle reel as an XML file, then polished it in Final Cut Pro.
+
+**Data & benchmarks:**
+- Kevin says Fable 5.2 burned through his $200 Claude plan so fast he spent "48 hours in the penalty box", because of hourly, weekly and model-specific usage caps. Gavin adds that it is more expensive to use than Opus 5.5.
+- Kevin says he built a multiplayer browser game in the Spawn game maker in about an hour and a half of casual chatting.
+
+**Tools & prompts:**
+- Claude Sheets, alongside Claude Whiteboard and Claude Data, lets you build and edit spreadsheets inside Claude instead of exporting to Google Sheets or Excel to finish the job. Kevin says he has been using it.
+- Spawn (spawn.co) is a voice or text driven game builder. Kevin says it is not an ad, but also says Spawn let him into its creator programme with unlimited credits.
+
+**Contrarian take:**
+- Kevin argues that people who condemn AI but cheered Adobe's AI features at Adobe MAX are inconsistent: "It's still an AI tool."
+
+**Caution on the news segment:** the hosts describe Jensen Huang leaving Nvidia as "either resigned or was ousted" and say the reporting about his relationships and a possible Chinese intelligence link "hasn't been confirmed". Several product and person names (the new Gemini models in particular) are garbled in the auto-captions.
+
+**Steal this (do tomorrow):**
+- If you draft tables in Claude and then export them to edit, try building the next pipeline or interview tracker in Claude Sheets instead.
+- Rerun one of your standard prompts, such as a job ad draft, with a looser brief plus a named persona, and compare the result with your usual prescriptive version.
+<!--/SUMMARY-->
+
 # Claude Just Leveled Up AI Again. Nvidia CEO Jensen Huang Did Not.
 
 - **Podcast:** AI For Humans

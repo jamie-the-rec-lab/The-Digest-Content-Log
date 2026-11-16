@@ -1,3 +1,35 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Luke Eaton, Director of Recruiting at Ava Labs, and Evan Palmer, Founding Talent Lead at Harmonic, both with years of crypto recruiting where state backed fake candidates and fake recruiters have been common for longer than elsewhere; hosts Joe Atkinson and Jason Miller, with a sponsor demo from Brandon of SCALIS  ·  **Show:** PromptMates, 12 Nov 2026
+**Tags:** candidate fraud, deepfake candidates, take-home assessments, candidate communication, interviewer training, engineering hiring, ai bias, rec tech, talent market data
+
+**When to use this:** you are seeing suspicious remote applicants, or your company's name could be used in fake job offers, and you need practical checks and a policy.
+
+**Big idea:** Hiring is now an attack surface in both directions, fake workers getting hired and fake recruiters compromising your staff, so recruiters should own the human verification and publish exactly how they really hire.
+
+**Frameworks & plays:**
+- Publish a "never list" on your careers page. Eaton's version: "We will never ask you to install software. We will never ask you to run a repo locally", never ask you to download a file to join an interview, and never ask for money.
+- Publish your hiring stack and people: every real recruiter with photo, LinkedIn profile and email domain, your video platform and your assessment tool, plus whether you use agencies and which ones.
+- Verify with human, local questions. Palmer brings up something only the real person would know, such as an engineering blog post the candidate wrote four years earlier, which one candidate could not discuss before hanging up.
+- Treat signals as cumulative, not binary. Miller's line is that "four signals equal an answer", and Eaton warns that neurodivergent candidates may simply communicate differently.
+- Run technical tests in cloud sandboxes, and dig in if a candidate refuses that environment.
+- Ask finance and people ops to check new hires' bank accounts against US Treasury lists of accounts tied to North Korean schemes.
+- Train finance, DevOps and accounts payable staff, who are the most likely targets of fake recruiter approaches.
+
+**Data & benchmarks:**
+- Eaton says 10% to 20% of everyone his recruiters speak to in a week is a North Korean or state backed actor, and about 35 candidates this month messaged to ask whether a recruiter really worked there.
+- Atkinson, citing reporting, says the Binance theft of $6.3bn began with a fake recruiter, a CEO interview and a task run on a work computer.
+- Atkinson cites CrowdStrike tracking these workers inside more than 320 companies this year, a 220% rise, and an estimated $800m a year taken through salaries.
+
+**Contrarian take:**
+- Eaton argues visual tells such as blurry backgrounds or new LinkedIn profiles cannot be relied on, because the tooling improves too fast; human conversation is the durable check.
+
+**Steal this (do tomorrow):**
+- Add a never list and a list of your named recruiters and email domains to the careers page.
+- Write a short fraud signal checklist for first screens, framed as signals to combine, not a single test.
+- Note the first 15 minutes are a SCALIS sponsor demo with vendor claims.
+<!--/SUMMARY-->
+
 # Hiring Fraud: The $6bn Interview
 
 - **Podcast:** PromptMates

@@ -1,3 +1,36 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Jen Ayala, Head of Recruiting, and Ryan Ellis, Recruiting Ops Manager, both at Clay (names and titles from the episode description), who replaced the CV screen with a graded work simulation for high volume roles  ·  **Show:** PromptMates, 09 Nov 2026
+**Tags:** ai screening, building ai tools, work trials, skills-based hiring, high-volume hiring, early career talent, scorecards, inbound recruiting, ai governance
+
+**When to use this:** a high volume or early career role is drowning in AI-polished applications and the CV no longer tells you who can do the job.
+
+**Big idea:** Make the application the project, so every applicant does a short version of the real work up front, AI grades it against a hiring manager rubric, and a recruiter still makes every decision.
+
+**Frameworks & plays:**
+- Move the work sample to the front. For Clay's product support role the application is three simulations: helping a customer in a ChatGPT environment, building in the product, and replying to a user whose problem may be a bug or user error, which tests whether they can respond without blaming the user.
+- Pilot it on one role first, and keep the easy apply route for roles where you want volume rather than adding a barrier.
+- Build the rubric with the hiring manager, then let AI grade each submission on criteria such as creative reasoning and business context, compress that into a scorecard in the ATS (Ashby here), move the candidate to a "graded" stage and notify the recruiter.
+- Offer an AI opt out. Candidates who do not want AI assessment go to a standard human review bucket instead.
+- Use AI grading to fight reviewer fatigue. the guests' point is that the 100th applicant with the same idea as the first should not be marked down for not being first.
+- Tell candidates your AI policy plainly: "Of course use AI, but consider your audience and make sure it's something that you want to put your name on". Where tool use is being assessed, say whether the built-in assistant is allowed.
+
+**Data & benchmarks:**
+- Applicants per engineering role at Clay rose from 143 to 243 to 389 to 614 over four years, per Ryan Ellis.
+- A software engineering early career opening (Ayala was unsure if it was the full time or internship role) drew about 7,000 applicants in under a week.
+
+**Tools & prompts:**
+- Clay tables run the grading workflow, pull the candidate's ChatGPT conversation transcript, produce a rounded score and feedback summary, and push to Ashby with a human review flag or a "grading incomplete" stage if something fails.
+
+**Contrarian take:**
+- Ayala says they hired people "that I don't know if we would have necessarily said yes to a resume", including applicants from finance and engineering backgrounds.
+
+**Steal this (do tomorrow):**
+- Pick one inbound heavy role and write a 2 or 3 part work simulation with the hiring manager to replace the CV screen.
+- Add an AI assessment opt out and a short candidate AI use policy to the application page.
+- Note the guests are showing their own company's product, Clay, as the grading engine.
+<!--/SUMMARY-->
+
 # How Clay Turned Job Applications Into Projects
 
 - **Podcast:** PromptMates

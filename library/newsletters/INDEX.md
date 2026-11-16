@@ -29,7 +29,13 @@ Company: Ashby
 Tags: rec tech, recruiting operations, ai interviewing, ai interview notes, talent intelligence, talent market data, recruiting metrics, recruiting enablement, ai agents, context engineering
 File: `transcripts/Ashby Community/2026-08-03-your-talent-insights-from-ashby-this-month.md`
 
-## Data Driven Recruiter (9 episodes)
+## Data Driven Recruiter (10 episodes)
+
+### 2026-11-11 — [Issue 85 - The Hiring Safety Playbook]()
+Luke Eaton's full hiring safety playbook after the Binance fake-interview hack: an eight-step candidate trust stack, protecting high-access staff, onboarding on company devices only, fake-candidate checks, copy-and-paste templates and incident response.
+Company: Data Driven Recruiter
+Tags: candidate fraud, deepfake candidates, candidate experience, candidate communication, take-home assessments, onboarding, recruiting operations, employer branding, reference checks
+File: `transcripts/Data Driven Recruiter/2026-11-11-ddr85-the-hiring-safety-playbook.md`
 
 ### 2026-11-04 — [Issue 84 - Is Talent Engineering Bullshit?]()
 Issue 84 (4 Nov): whether Talent Engineer is a real role or a rebrand; Metaview's Partners/Ops/Engineers split, Pave's Hot Jobs Index placing it in the re-designed roles bucket, and a test (own reqs or not) for whether you are still a recruiter.
@@ -123,7 +129,19 @@ Company: Full Stack Recruiter
 Tags: recruitment marketing, employer branding, employer storytelling, recruiter workflow, building ai tools, prompt engineering, recruiter productivity
 File: `transcripts/Full Stack Recruiter/2026-07-14-the-linkedin-posts-you-remember-are-lying-to-you.md`
 
-## PromptMates Newsletter (21 episodes)
+## PromptMates Newsletter (23 episodes)
+
+### 2026-11-16 — [Recruiter demand is at a record high]()
+TrueUp: 2,857 open tech recruiter jobs, up 323% from 676, while US engineering hires sit below half the 2022 peak; JFrog AccuraSoftHire fake employer; UK pay-in-ads pledge (Indeed: 58% of UK postings show pay); OpenAI CPO on recruiters as agent managers; Grok Bot hiring admin (Juicebox sponsored).
+Company: PromptMates Newsletter
+Tags: talent market data, ai agents, candidate fraud, job advertising, compensation, ai interview notes, recruiter workflow, capacity planning, building ai tools
+File: `transcripts/PromptMates Newsletter/2026-11-16-recruiter-demand-is-at-a-record-high.md`
+
+### 2026-11-09 — [The fake recruiter behind a $6.3bn hack]()
+Binance $6.3bn hack began with a fake employer interview and malware take-home; Employ Recruiter Nation: 68% of teams use AI but only 18% shifted over half their time to higher-value work; Arsentev Claude agent hiring funnel: 31% no-shows; LinkedIn Hiring Assistant 2 (Scede sponsored).
+Company: PromptMates Newsletter
+Tags: candidate fraud, ai agents, ai screening, ai bias, early career talent, rec tech, talent market data, candidate experience, work trials
+File: `transcripts/PromptMates Newsletter/2026-11-09-the-fake-recruiter-behind-a-6-3bn-hack.md`
 
 ### 2026-11-03 — [Why an Anthropic hiring leader dropped coding tests]()
 Anthropic's Felix Rieseberg dropped the coding interview (hunger beats tenure); Revelio: 30% of EU job ads show pay vs 2% in 2022; iCIMS: about half of purchased hiring AI reaches production; Kit's one-command Slack to Ashby role launch build (Juicebox sponsored).
@@ -251,7 +269,13 @@ Company: PromptMates
 Tags: ai agents, building ai tools, claude code, recruiter workflow, ai bias, outbound sourcing, ai screening, context engineering, candidate fraud, deepfake candidates
 File: `transcripts/PromptMates Newsletter/2026-06-16-rebuilding-your-talent-team-around-ai.md`
 
-## RecOps Collective (17 episodes)
+## RecOps Collective (18 episodes)
+
+### 2026-11-12 — [Week of November 9th, 2026]()
+ROCA awards voting opens (winners 11 December), plus the weekly list of articles, vendor updates (AssessFirst, Dover, Findem, Kula, Warden AI), events and recops jobs.
+Company: RecOps Collective
+Tags: recruiting operations, rec tech, recruiting enablement, recruiter career growth, ai interview notes, ai bias, headcount planning
+File: `transcripts/RecOps Collective/2026-11-12-week-of-november-9th-2026.md`
 
 ### 2026-11-06 — [Week of November 2nd, 2026]()
 Lead note that time and efficiency metrics are in focus as AI transformations hit about two years in, plus the weekly list of articles, vendor updates (CoderPad, Dover, Gem, CodeSignal), events and recops jobs.
@@ -369,7 +393,19 @@ Company: Remade.md
 Tags: ai agents, ai sourcing, context engineering, building ai tools, ai upskilling, ai strategy, recruiting operations, talent intelligence, recruiter workflow
 File: `transcripts/Remade.md/2026-07-20-stop-tokenmaxxing-start-roi-maxxing.md`
 
-## TA Unboxed (22 episodes)
+## TA Unboxed (24 episodes)
+
+### 2026-11-13 — [How Do Candidates Know Your Recruiters Are Real?]()
+Five design principles for a verifiable hiring process: publish recruiters, domains and platforms, tell candidates what you will never ask, give safe reporting routes, protect employees confidentially, keep checks proportionate; draws on Stacy Zapar, Luke Eaton, Matt Buckland; Metaview fillmore sponsored.
+Company: TA Unboxed
+Tags: candidate fraud, candidate experience, candidate communication, employer branding, recruiting operations, ta leadership, take-home assessments
+File: `transcripts/TA Unboxed/2026-11-13-how-do-candidates-know-your-recruiters-are-real.md`
+
+### 2026-11-10 — [We’re so focused on fake candidates, we’re missing the fake recruiters]()
+Recruitment fraud runs both ways: the Binance timeline shows a fake recruiter and malware take-home as an attack route into a jobseeker's current employer, so TA, Cybersecurity and HR need confidential reporting for staff on private job searches; Metaview Screening sponsored.
+Company: TA Unboxed
+Tags: candidate fraud, candidate experience, take-home assessments, recruiting operations, ta leadership, stakeholder management
+File: `transcripts/TA Unboxed/2026-11-10-were-so-focused-on-fake-candidates-were-missing-the-fake-recruiters.md`
 
 ### 2026-11-06 — [The candidate nobody saw coming]()
 Standout Part 3: study the eventual hire nobody flagged early to find where screening criteria or CV weighting went wrong, and reuse unhired Standout candidates for talent rediscovery beyond the silver medalist model; Metaview fillmore sponsored.

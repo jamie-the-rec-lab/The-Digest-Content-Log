@@ -1,3 +1,39 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Bence Gedai, Talent Engineer at ElevenLabs (title from the episode description; he says he leads the growth recruiting team), a former engineer and McKinsey alumnus who built his own sourcing automations to hire designers  ·  **Show:** PromptMates, 16 Nov 2026
+**Tags:** ai sourcing, building ai tools, talent pools, outbound sourcing, talent mapping, context engineering, ai agents, recruiter productivity
+
+**When to use this:** inbound is huge but almost nobody meets the bar for a niche, high talent bar role, and off the shelf sourcing tools only reach part of the market.
+
+**Big idea:** Sourcing is a five step loop of signals, enrichment, classification, evaluation and a saved talent pool, and the pool is what makes each next hire cheaper.
+
+**Frameworks & plays:**
+- Decide build or buy. Gedai builds only when the bar is very high or the role niche (he estimates existing tools map about 60% of a target pool), when volume is large such as 5 to 15 engineers a quarter, or when less visible candidates will face less competition.
+- Supply the context yourself. An LLM cannot find "amazing engineers" without being told which GitHub repository, conference or newsletter to look at.
+- Find signals by lookalike search from 50 strong profiles, by network discovery (who do your best people follow and engage with), and by scraping studio credits, newsletters and conference speaker lists.
+- Enrich each profile with website, X, LinkedIn, Instagram, Dribbble and Behance links and follower counts, then classify with a plain language LLM prompt: is this an individual, which department, what seniority, and is it relevant.
+- Feed job descriptions into classification so the LLM estimates fit per open role.
+- Keep one source of truth, even a Google Sheet, and build for yourself first: Gedai reckons scaling a tool across a team takes at least 3x the effort.
+- Never run a one off search without saving the strong names, and re-contact the pool every three to six months.
+
+**Data & benchmarks:**
+- ElevenLabs grew from 8 to 35 designers in a year, 60% of them sourced and the rest mostly referrals.
+- 30,000 inbound design applications produced one hire, while automations surfaced about 5,000 sourced candidates.
+- Human review passes about 20% at recruiter stage and 20% at hiring manager stage, roughly 4% overall.
+- With 17 design openings at the start of Q4, about eight hours of outreach to a pool of around 300 booked about 25 interviews; the five to seven hires he mentions are his forecast, not a result.
+
+**Tools & prompts:**
+- Simple scripts written with Claude, run in Node.js, outputting TSV.
+- ElevenLabs links candidates to its own voice AI agent that pitches the role.
+
+**Contrarian take:**
+- For designers, Gedai found more than about 30,000 followers is "a bad signal", because they are more likely influencers than practitioners.
+
+**Steal this (do tomorrow):**
+- List 50 people you would hire tomorrow and ask an LLM to "find me similar people".
+- Start a single talent pool sheet and add every strong profile from today's searches.
+<!--/SUMMARY-->
+
 # How ElevenLabs Sources Top Designers with AI
 
 - **Podcast:** PromptMates

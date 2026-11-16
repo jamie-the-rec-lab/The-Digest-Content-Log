@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Claire Vo, host of How I AI and solo, bootstrapped founder of ChatPRD, an AI tool for product managers (captions garble the name as "Chat Purity", "Chaparral" and "Chat Proxy")  ·  **Show:** How I AI, 16 Nov 2026
+**Tags:** ai product, ai agents, pricing, go-to-market, startups, founder stories, engineering, growth
+
+**When to use this:** You run, buy or roll out an AI product that offers free access, promo codes or an AI support agent, and need to stop people abusing it.
+
+**Big idea:** In the host's words, "if you sell AI, you sell compute", so every free door will be found and used.
+
+**Frameworks & plays:**
+- Know the six abuse patterns she has seen: free trial farming, promo code abuse and resale, bad and prepaid cards, reselling through relays and proxies, custom connectors (MCP servers) run as round the clock workers, and model probing.
+- Business controls, several credited to Gareth at Atlassian: end free trials, drop promo codes, bill up front with "no grace period on failed payments", set hard usage limits per account and organisation, restrict trials to business email domains, keep feature flags to switch trials off fast, and make sure your terms allow bans for suspected abuse.
+- Technical controls: route model calls through an AI gateway with an allow list of models, watch spend "hourly at least or live", use Stripe Radar rules (she has Codex draft them, then reviews and switches them on in Stripe), fingerprint cards to catch one card across many trials, and turn on the auth provider's bot protection, which is often off by default.
+- Use a cheap AI classifier as a triage step. Flagged chats go to an OpenAI decision model (the captions call it "Jev") that sorts them into categories such as real customer, trial abuse, promo abuse, card fraud, resale and agent farming, and then bans them or silently downgrades them to a cheaper model.
+- Run an hourly agent over new sign-ups: high abuse signals mean an automatic ban, otherwise it pings her or the support desk.
+- Give an AI support agent fraud lists, allow lists and playbooks, but never the power to unban, ban or issue promo codes, "because people will try to use your AI support desk as a vector of attack."
+
+**Data & benchmarks:**
+- Token fraud cost ChatPRD "tens of thousands of dollars" over about a year.
+- One card testing attack showed about $200,000 of attempted, failed purchases.
+- Turning off Opus 5.5 in a couple of countries stopped the token theft there.
+- One genuine user was wrongly banned in a large sweep and later reinstated.
+
+**Contrarian take:**
+- Claire Vo: every easy fix for fraud is "the exact things that would be bad for our business", and the AI tool itself gets turned against you: "Fraudsters need PRDs too."
+
+**Steal this (do tomorrow):**
+- If your team runs a candidate-facing chatbot or AI agent, list what it can do and remove any power to grant access, discounts or exceptions.
+- If you buy AI tools on seat pricing, expect free tiers and promo codes to tighten, and plan pilots around paid or sales-led trials.
+<!--/SUMMARY-->
+
 # How I fight token fraud as an AI founder
 
 - **Podcast:** How I AI

@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Hung Lee, Brainfood Live, recorded in Auckland with a New Zealand panel: Dale Cleaver (Programme Director, Accordant, the group behind Absolute IT, Madison and Hobson Leavy), Raj Singh (Talent Sourcing Advisor, Health New Zealand), Vanessa Reddicliffe (Head of People and Culture at a Christchurch startup whose name the captions garble) and Ben Tinker (strategy lead, Haynes, an employer brand, media and recruitment agency). Surname spellings come from auto captions.  ·  **Show:** Brainfood, 13 Nov 2026
+**Tags:** regional hiring, global hiring, compensation, employer storytelling, candidate communication, outbound sourcing, candidate experience, talent market data, candidate fraud, dei
+
+**When to use this:** you are hiring into New Zealand, or recruiting clinicians and specialists who are weighing New Zealand against Australia, and need to know what to pay, how to reach people and how the market behaves.
+
+**Big idea:** New Zealand is a five million person market with two or three degrees of separation, so reputation, referrals and patient relationship building decide outcomes, while Australia outbids it on pay.
+
+**Frameworks & plays:**
+- When you cannot win on salary against a neighbouring market, sell the place: Health New Zealand records unscripted testimonial videos from real clinicians in remote areas, with "no paid actors", and finds they land because candidates hear from "someone of their own tribe".
+- Match the channel to the segment rather than defaulting to phone. Accordant uses SMS for blue collar casual volume, email for executive search, and Health New Zealand opens international clinician outreach by email, then moves to WhatsApp.
+- If you need a phone screen to confirm a candidate is real, say so in the outreach. one panellist's suggestion is "expect a call", because Kiwi tech recruiters have returned to phone screens to check applicants are not bots.
+- Treat every candidate as a future customer or advocate. In a small market a slow or impersonal process is "very memorable" and is not easily forgiven.
+- New arrivals should play the long game: 20 to 30 years of European experience does not open doors, and doing what you said you would do is the reputation.
+
+**Data & benchmarks:**
+- A senior medical officer in New Zealand earns 270k to 350k a year (currency not stated), and Raj Singh says Australia pays about one and a half times that.
+- Minimum employer pension (superannuation) contribution is 3.5% in New Zealand against 13.5% in Australia, and Australia works a 38 hour default week against New Zealand's 40.
+- Tinker cites net inward migration of about 135,000 at the 2023 peak against roughly 22,500 this year.
+- Cleaver says 47 new roles were added to the national occupation list, including Chief of Staff and VR engineer, which matters for accredited employer visa matching.
+- Cleaver rang 12 candidates recently and one answered.
+
+**Contrarian take:**
+- Vanessa Reddicliffe argues the written application and the take-home test are now "useless" because of AI, and that a referral is the one signal that cannot be faked.
+
+**Steal this (do tomorrow):**
+- Film one current employee in a hard to fill location on a phone, unscripted, and use it in outreach.
+- Add "expect a call from this number" to outreach where you rely on a verification call.
+<!--/SUMMARY-->
+
 # Brainfood Live On Air   Ep418   How to Hire in New Zealand in 2026
 
 - **Podcast:** Brainfood

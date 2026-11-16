@@ -1,3 +1,34 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Claire Vo, host of How I AI and founder of ChatPRD, giving a solo first impressions review after a couple of days of hands-on testing  ·  **Show:** How I AI, 09 Nov 2026
+**Tags:** ai coding, ai product, ai, product design, engineering, productivity, go-to-market
+
+**When to use this:** You are deciding which Anthropic model to use for which job, or want ideas for turning written content into video with AI.
+
+**Big idea:** Fable 5.2 is a fast, creative frontier model for big, complex or creative work, while Opus 5.5 stays the default for everyday tasks and for design taste.
+
+**Frameworks & plays:**
+- Route by task size. Anthropic's own guidance, as relayed by the host, is that "most daily coding and knowledge tasks are Opus 55 tasks", and Fable 5.2 is for "scope, complexity, and I would say creativity".
+- Turn a post into a video: she gave Fable 5.2 a single tweet plus her CXO.dev brand guidelines with the instruction "Make this tweet a video", with no storyboard. Earlier attempts with Opus 5.5 and a tool the captions call "hyperframes" looked like animated slides.
+- Always hand it a brand or style guide. Unguided, the host found its taste poor: "left to its own devices, it has incredibly concerning taste."
+- Use photos as the brief: from low resolution floor photos of 25 pieces of wood with Chinese labels and no manual, it produced correct step by step assembly instructions that every other model she tried had failed.
+- Keep your own test set. She added "animate the invader bots" to her personal model benchmark so every new model faces the same task.
+- Pair it with an image model, because it has none of its own. She called on an OpenAI image model (captions: "image gen 25").
+
+**Data & benchmarks:**
+- On her own benchmark, animating the invader bots took 16 minutes and many tasks finished in under a minute.
+- Anthropic states Fable 5.2 solved two open problems in black hole physics (relayed by the host, not tested by her).
+- Mythos 5.2 is the same underlying model, offered for cyber security and life sciences work.
+- Availability given: the API, AWS, Google Cloud, Microsoft Azure, the Claude apps and Claude Code, with a fast mode to come. She promised to cover pricing but never gives a figure.
+
+**Contrarian take:**
+- Claire Vo on the earlier Fable: "intelligence does not make you intelligible." A cleverer model can still be worse to work with.
+
+**Steal this (do tomorrow):**
+- Give a capable model one of your best LinkedIn posts plus your employer brand guidelines and ask for a short animated video.
+- Keep three or four of your own real tasks as a personal benchmark and run each new model against them before switching.
+<!--/SUMMARY-->
+
 # I was a Claude hater. Fable 5.2 changed my mind.
 
 - **Podcast:** How I AI

@@ -1,0 +1,245 @@
+{
+ "run_date": "2026-11-16",
+ "items": [
+  {
+   "path": "library/podcasts/transcripts/Brainfood/2026-11-13-brainfood-live-on-air-ep418-how-to-hire-in-new-zealand-in-2026.md",
+   "show": "Brainfood",
+   "title": "Brainfood Live On Air: How to Hire in New Zealand in 2026",
+   "date": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=0Z2_M41FYHw",
+   "guest_line": "Dale Cleaver · Programme Director @ Accordant; Raj Singh · Talent Sourcing Advisor @ Health New Zealand (Te Whatu Ora); Vanessa Reddicliffe · Head of People and Culture @ a Christchurch startup (company name garbled in captions as Appetize, Advertise and Appetite, not established); Ben Tinker · Strategy lead @ Haynes (captions also spell it Haines); host Hung Lee. Surname spellings are from auto captions and unverified.",
+   "vendor_flag": "No guest is a vendor praising their product. Show sponsor Checkmate (background screening, checkmate.tech) gets a read at 4:58; not part of the discussion. Haynes is an agency and hosted the recording.",
+   "reader_fit": "Niche: useful to UK recruiters hiring into New Zealand or competing with Australia and New Zealand for UK clinicians, with real pay and pension figures; little for a UK-only in-house recruiter beyond channel and testimonial-video tactics.",
+   "points": [
+    {
+     "claim": "A senior medical officer in New Zealand earns 270k to 350k a year and Australia pays about one and a half times that",
+     "evidence": "270k to 350k per annum (currency not stated); 1.5x in Australia",
+     "quote": "Senior senior medical officer here in New Zealand would earn anywhere in the range of 270 to 350 K per annum. And Australia ends up paying you one and a half times.",
+     "timecode": "21:41",
+     "market": "New Zealand vs Australia",
+     "attributed_to": "Raj Singh (Health New Zealand), from his recruiting experience, no published source"
+    },
+    {
+     "claim": "Minimum employer pension (superannuation) contribution is far higher in Australia",
+     "evidence": "3.5% New Zealand vs 13.5% Australia",
+     "quote": "the employer's the minimum contribution for the employer is three and a half percent in New Zealand. In Australia the minimum contribution is um 13 and a half percent.",
+     "timecode": "22:14",
+     "market": "New Zealand vs Australia",
+     "attributed_to": "Panellist (speaker unlabelled in captions), stated as statutory minimums"
+    },
+    {
+     "claim": "Net inward migration has collapsed from the 2023 peak",
+     "evidence": "about 135,000 in 2023 vs about 22,500 this year (both stated loosely: \"ish\", \"something like that\")",
+     "quote": "in 2023 we had um 135,000 ish people coming into this country. That was at that was at the peak",
+     "timecode": "25:13",
+     "market": "New Zealand",
+     "attributed_to": "Ben Tinker (Haynes), no source given"
+    },
+    {
+     "claim": "Unsolicited phone calls go unanswered, so match channel to segment (SMS for blue collar volume, email then WhatsApp for international clinicians)",
+     "evidence": "12 calls, 1 answer",
+     "quote": "I rang 12 people, one person answered.",
+     "timecode": "48:56",
+     "market": "New Zealand",
+     "attributed_to": "Dale Cleaver (Accordant), personal anecdote"
+    },
+    {
+     "claim": "Kiwi tech recruiters are reverting to phone screens to check applicants are not bots; one suggestion is to warn candidates to expect a call",
+     "evidence": "No figure",
+     "quote": "we we need to put that in our outreach saying expect a call. Expect a call because we're going to do it.",
+     "timecode": "53:47",
+     "market": "New Zealand",
+     "attributed_to": "Unlabelled panellist (captions do not show speaker); the phone-screen observation is Vanessa Reddicliffe at 52:50"
+    },
+    {
+     "claim": "Unscripted testimonial videos from real clinicians in remote areas outperform recruiter pitches for overseas candidates",
+     "evidence": "No figure; Health New Zealand practice",
+     "quote": "So there are no paid actors who are doing these testimonials like you know so these are actual people on the ground.",
+     "timecode": "29:31",
+     "market": "New Zealand (international clinician sourcing from UK, Ireland, Australia, South Africa)",
+     "attributed_to": "Raj Singh (Health New Zealand)"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/PromptMates/2026-11-09-how-clay-turned-job-applications-into-projects.md",
+   "show": "PromptMates",
+   "title": "How Clay Turned Job Applications Into Projects",
+   "date": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=BxL-h9Q29YY",
+   "guest_line": "Jen Ayala · Head of Recruiting @ Clay; Ryan Ellis · Recruiting Ops Manager @ Clay. Names and titles are from the episode description only (not spoken in the clip), and Jen's LinkedIn link slug reads \"jenniferecarberry\", so her surname is not confirmed. Host \"Joe\" (PromptMates) is addressed in the clip.",
+   "vendor_flag": "Partly: the guests work at Clay and the grading engine is Clay's own product (Clay tables, Sculpt, Global Agent), so the build doubles as a product showcase. Ashby is named as the ATS. No sponsor read in this 11 minute clip.",
+   "reader_fit": "Strong: a concrete, copyable process for any UK in-house team buried in AI-written applications for high volume or early career roles, including an AI opt out that fits UK fairness expectations; the grading build needs Clay or similar.",
+   "points": [
+    {
+     "claim": "Applicants per engineering role have more than quadrupled in four years",
+     "evidence": "143, 243, 389, then 614 applicants per engineering role over four years",
+     "quote": "We went from on average for engineering, we went from 143 to 243 to 389 to now we're at 614 over the past four years of applicants per engineering",
+     "timecode": "0:05",
+     "market": "Clay (company-specific; US-based company, market unstated)",
+     "attributed_to": "Ryan Ellis (Clay), internal data"
+    },
+    {
+     "claim": "An early career software engineering opening drew a flood of applicants",
+     "evidence": "about 7,000 applicants in under a week (speaker unsure whether full time or internship role)",
+     "quote": "I think we got 7,000 applicants in less than a week.",
+     "timecode": "1:05",
+     "market": "Clay (company-specific; market unstated)",
+     "attributed_to": "Jen Ayala (Clay), internal data, recalled loosely"
+    },
+    {
+     "claim": "The application became a three part work simulation for the product support role",
+     "evidence": "three simulations: ChatGPT customer support, building in Clay, bug vs user error reply",
+     "quote": "So we have three different parts to this process. So there's a customer support simulation.",
+     "timecode": "3:12",
+     "market": "Clay",
+     "attributed_to": "Jen Ayala (Clay)"
+    },
+    {
+     "claim": "AI grades against a hiring manager rubric, writes a scorecard into Ashby and moves the candidate to a graded stage; recruiters make the decision",
+     "evidence": "Clay tables, Ashby",
+     "quote": "That is then compressed into a scorecard that is put into Ashby and moved into a stage of graded within this particular job and the recruiters are notified",
+     "timecode": "5:28",
+     "market": "Clay",
+     "attributed_to": "Ryan Ellis (Clay)"
+    },
+    {
+     "claim": "Candidates can opt out of AI assessment and get a standard human review",
+     "evidence": "AI opt out",
+     "quote": "if someone chooses to hey like you know, I'm not interested in being assessed by AI, it allows them to still apply directly and go into the general application a review bucket",
+     "timecode": "5:28",
+     "market": "Clay",
+     "attributed_to": "Ryan Ellis (Clay)"
+    },
+    {
+     "claim": "Candidate AI use policy: use AI but own the result",
+     "evidence": "Clay AI writing policy",
+     "quote": "Of course use AI, but consider your audience and make sure it's something that you want to put your name on.",
+     "timecode": "8:38",
+     "market": "Clay",
+     "attributed_to": "Jen Ayala (Clay)"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/PromptMates/2026-11-12-hiring-fraud-the-6bn-interview.md",
+   "show": "PromptMates",
+   "title": "Hiring Fraud: The $6bn Interview",
+   "date": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=SBJYxr_k0Oo",
+   "guest_line": "Luke Eaton · Director of Recruiting @ Ava Labs; Evan Palmer · Founding Talent Lead @ Harmonic; sponsor demo by Brandon @ SCALIS (surname not spoken; description link slug reads \"brandonamoroso\"); hosts Joe Atkinson and Jason Miller.",
+   "vendor_flag": "Yes for the first 15 minutes: sponsor SCALIS demos its own ATS with vendor claims (applicants up almost 600%, 900 million profiles, 11 fraud signals, over 90% profile opt in, almost a quarter of hires from its network). Luke Eaton later praises an all-in-one platform he calls \"Scaler\", apparently SCALIS. The guests themselves are not vendors.",
+   "reader_fit": "Strong: fraud is live for UK tech and remote hiring, and the never list, published hiring stack and human verification questions are actions any in-house team can take this week; most figures are US-focused and second-hand.",
+   "points": [
+    {
+     "claim": "Publish a never list so candidates can spot fake recruiters using your name",
+     "evidence": "never install software, never run a repo locally, never download a file to join an interview, never ask for money",
+     "quote": "So we will never ask you to install software. We will never ask you to run a repo locally.",
+     "timecode": "53:35",
+     "market": "Global (Ava Labs practice)",
+     "attributed_to": "Luke Eaton (Ava Labs)"
+    },
+    {
+     "claim": "A large share of candidates his recruiters speak to are state backed actors, and candidates regularly ask if a recruiter is real",
+     "evidence": "10% to 20% of weekly candidate conversations; about 35 candidate checks this month; about six a week to him personally",
+     "quote": "between 10 and 20% of everyone my recruiters speak to in a week is a North Korean or state back actor.",
+     "timecode": "30:50",
+     "market": "Ava Labs, crypto/Web3 (not general market)",
+     "attributed_to": "Luke Eaton (Ava Labs), own estimate"
+    },
+    {
+     "claim": "The Binance theft ran through a fake hiring process ending with a task run on a work computer",
+     "evidence": "$6.3bn drained by 29 October; approach September to October",
+     "quote": "by the 29th of October 6.3 billion had been drained from those uh from those wallets.",
+     "timecode": "24:36",
+     "market": "Global (crypto)",
+     "attributed_to": "Host Joe Atkinson, from news reporting; attribution to North Korea described as alleged"
+    },
+    {
+     "claim": "State backed fake workers are inside hundreds of companies and the salary revenue is rising",
+     "evidence": "more than 320 companies this year, 220% increase; about $800m a year from salaries, up from about $450m",
+     "quote": "CrowdStrike um monitored work workers infiltrating more than 320 companies um in a single year this year so far, which is a 220% um increase year over year.",
+     "timecode": "24:36",
+     "market": "Global, mostly US companies",
+     "attributed_to": "Host Joe Atkinson citing CrowdStrike and US investigators (second-hand)"
+    },
+    {
+     "claim": "Verify with things only the real person would know, such as their own past published work",
+     "evidence": "engineering blog post from four years earlier",
+     "quote": "I found an engineering blog post she did for that company 4 years ago. And I brought it up in the interview and then the candidate could not speak to one word about it",
+     "timecode": "39:54",
+     "market": "US (New York based recruiter)",
+     "attributed_to": "Evan Palmer (Harmonic)"
+    },
+    {
+     "claim": "A share of firms admit to having hired a North Korean IT worker",
+     "evidence": "14% of clients of a firm the captions render as \"Tofu\" (name unclear, not established)",
+     "quote": "Tofu reported uh publicly that 14% of their clients have already hired a North Korean IT worker.",
+     "timecode": "20:03",
+     "market": "Unstated",
+     "attributed_to": "Host Joe Atkinson citing a company whose name is garbled in captions; do not use without verifying the source"
+    }
+   ]
+  },
+  {
+   "path": "library/podcasts/transcripts/PromptMates/2026-11-16-how-elevenlabs-sources-top-designers-with-ai.md",
+   "show": "PromptMates",
+   "title": "How ElevenLabs Sources Top Designers with AI",
+   "date": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=WIwwp06Lejs",
+   "guest_line": "Bence Gedai · Talent Engineer @ ElevenLabs (name and title from the episode description; in the clip he says he leads the growth recruiting team).",
+   "vendor_flag": "No sponsor in this clip. The guest works at ElevenLabs and mentions using ElevenLabs voice AI agents to pitch roles, a light plug for his employer's product. Sourcing tools named in passing (LinkedIn Recruiter, Juicebox, Gem, Metaview) are not endorsed.",
+   "reader_fit": "Strong with a caveat: the framework (signals, enrich, classify, evaluate, talent pool) and the \"find me similar people\" lookalike prompt are usable by a UK in-house sourcer with an LLM and a sheet, but the scripts and ML model step are a builder's level beyond most readers.",
+   "points": [
+    {
+     "claim": "Design team grew from 8 to 35 in a year, mostly through sourcing",
+     "evidence": "8 to 35 designers; 60% sourced, rest mainly referrals",
+     "quote": "in the last year we scaled the team from eight designers to 35. 60% of those people are sourced candidates.",
+     "timecode": "0:58",
+     "market": "ElevenLabs (company-specific; market unstated)",
+     "attributed_to": "Bence Gedai (ElevenLabs), internal data"
+    },
+    {
+     "claim": "Inbound produced almost nothing for a high bar design role",
+     "evidence": "30,000 inbound applications, 1 hire; about 5,000 sourced via automations",
+     "quote": "Literally I went through 30,000 inbound applications and we ended up hiring one single single one of them.",
+     "timecode": "0:58",
+     "market": "ElevenLabs (company-specific)",
+     "attributed_to": "Bence Gedai (ElevenLabs)"
+    },
+    {
+     "claim": "Human review after automated scoring passes about 4% overall",
+     "evidence": "20% recruiter pass, 20% hiring manager pass, about 4%",
+     "quote": "there's like a 20% pass rate through the talent and then another 20% pass through rate with the hiring managers.",
+     "timecode": "18:54",
+     "market": "ElevenLabs (company-specific)",
+     "attributed_to": "Bence Gedai (ElevenLabs)"
+    },
+    {
+     "claim": "A saved talent pool fills new openings quickly",
+     "evidence": "17 Q4 design openings; about 300 in pool; about 25 interviews booked in about eight hours of outreach; 5 to 7 hires is his forecast, not a result",
+     "quote": "Start of Q4, we have something like 17 new design openings that we're working. First thing that I did, I reached out to all of these 300 people. We already have something like 25 interviews booked",
+     "timecode": "20:22",
+     "market": "ElevenLabs (company-specific)",
+     "attributed_to": "Bence Gedai (ElevenLabs)"
+    },
+    {
+     "claim": "Lookalike search from a known strong list works with a simple prompt",
+     "evidence": "50 strong profiles in, about 50 similar out, 10 to 15 very strong",
+     "quote": "let's say you have 50 people that you know that are very strong in the space, even with a very simple script like this, you can just say, hey, I like these people, find me similar people",
+     "timecode": "11:41",
+     "market": "Unstated",
+     "attributed_to": "Bence Gedai (ElevenLabs)"
+    },
+    {
+     "claim": "For designers, very high follower counts are a negative signal",
+     "evidence": "more than about 30,000 followers",
+     "quote": "If they have more than let's say 30,000 followers, honestly that's a bad signal.",
+     "timecode": "16:28",
+     "market": "Unstated",
+     "attributed_to": "Bence Gedai (ElevenLabs), finding from his own model"
+    }
+   ]
+  }
+ ]
+}

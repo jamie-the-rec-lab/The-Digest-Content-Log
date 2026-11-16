@@ -1,0 +1,167 @@
+{
+ "run_date": "2026-11-16",
+ "items": [
+  {
+   "show": "AI & I",
+   "title": "A New Vision for Human Work After Automation",
+   "date": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=WstNofgQF5Q",
+   "guest_line": "Dan Shipper · Co-founder and CEO @ Every (closing keynote from Every's Thesis conference, introduced by host Natalia Cantero)",
+   "vendor_flag": "Partly. Shipper runs Every, which hosts the show and the Thesis conference, and the talk mentions selling Every to teams. He praises Claude but has no stated stake in Anthropic. The episode description lists Lovable and Notion as conference partners; they are not mentioned in the transcript body.",
+   "reader_fit": "Moderate. No recruiting content, but two usable ideas for a TA team: let each person analyse the same data with AI from their own remit, and keep humans on the ranking or shortlisting step. The GDPval figures are a quotable stakeholder number, attributed to OpenAI's benchmark via Shipper.",
+   "path": "library/tech/transcripts/AI & I/2026-11-11-a-new-vision-for-human-work-after-automation.md",
+   "points": [
+    {
+     "claim": "On OpenAI's GDPval benchmark, blind experts preferred AI output over a human expert's work increasingly often year on year.",
+     "figure": "12.4% in 2024 (GPT-4o), 47.6% in 2025, about 83% in 2026 (GPT-5.4)",
+     "quote": "in 2024 with GPT-4o uh experts or or AI won against a human expert 12.4% of the time. In uh 2025 it was 47.6 and uh in 2026 it was it's about 83 %.",
+     "timecode": "3:54",
+     "attribution": "OpenAI's GDPval benchmark, as quoted by Dan Shipper (not independently checked here; he adds he is sure the benchmark is now saturated)"
+    },
+    {
+     "claim": "The same survey analysed with the same AI by different team members produced very different, important findings, because each brought their own remit and perspective.",
+     "figure": "Q4 customer survey; Claude",
+     "quote": "we're using the same survey, we're using the same Claude, but different people on the team found very, very different and important things that they that they emphasized.",
+     "timecode": "12:04",
+     "attribution": "Dan Shipper, describing Every's own team"
+    },
+    {
+     "claim": "Claude could generate Shipper's real Slack reply among a large batch of candidates but could not reliably rank it: generation is cheap, ranking is hard.",
+     "figure": "93% when allowed hundreds of answers; real answer in top 10% only about 60% of the time when ranking. The number of candidate answers is garbled in the captions ('400 100'), so treat it as 'several hundred'.",
+     "quote": "If you uh, if you ask Claude uh, to to rank them, the the thing that I say is only in the top 10% like 60% 60% of the time, so it's like it's kind of a coin flip.",
+     "timecode": "14:20",
+     "attribution": "Internal experiment by Mike Taylor, Every's head of evals, as reported by Dan Shipper"
+    },
+    {
+     "claim": "The default-prompt answer from a model is true but available to everyone, so it carries little value.",
+     "figure": "none",
+     "quote": "But everybody has access to this now, and so it's cheap.",
+     "timecode": "12:46",
+     "attribution": "Dan Shipper (opinion)"
+    },
+    {
+     "claim": "AI should be measured on how well it does your own work from your perspective, not on consensus problems like maths or coding.",
+     "figure": "none",
+     "quote": "what we should be measuring instead is how good is it at doing my work from my perspective.",
+     "timecode": "23:30",
+     "attribution": "Dan Shipper (opinion)"
+    },
+    {
+     "claim": "In one week, using one Claude subscription, Shipper says he did work that would have taken five people in 2020.",
+     "figure": "Five roles: data scientist, game developer, product marketer, engineer, BDR. A cost figure follows but is garbled in the captions ('200 maybe 200 200 k'), so it should not be used.",
+     "quote": "this is in 2020 terms like a data scientist, a game developer, a product marketer, an engineer, a BDR",
+     "timecode": "5:18",
+     "attribution": "Dan Shipper, about his own week"
+    }
+   ]
+  },
+  {
+   "show": "AI For Humans",
+   "title": "Claude Just Leveled Up AI Again. Nvidia CEO Jensen Huang Did Not.",
+   "date": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=sQKvJbzgFRU",
+   "guest_line": "No guest. Hosts Kevin Pereira and Gavin Purcell (surnames from the episode description; the auto-captions only give first names).",
+   "vendor_flag": "No sponsor read in the transcript. Kevin says the Spawn segment is 'not an ad' but also says Spawn admitted him to its creator programme with unlimited credits, so treat his Spawn praise as from a user with free access. Hosts are not vendors of Fable 5.2 or Claude Sheets.",
+   "reader_fit": "Low. Mostly AI news, creative coding demos and games. The only practical bits for a recruiter are the arrival of Claude Sheets, the usage-cap warning on the $200 Claude plan, and the tips to brief strong models more loosely and use personas. The Jensen Huang segment is unconfirmed reporting with no recruiting angle.",
+   "path": "library/tech/transcripts/AI For Humans/2026-11-13-claude-just-leveled-up-ai-again-nvidia-ceo-jensen-huang-did-not.md",
+   "points": [
+    {
+     "claim": "Gavin says Anthropic's new Fable 5.2 is better for him than Opus 5.5, his daily driver for two to three months, though it is more expensive and reception has been mixed.",
+     "figure": "Fable 5.2 vs Opus 5.5",
+     "quote": "I believe that 5.5 is the most or was the most capable model. And Kevin, I am here to say Fable 5.2 is better for me.",
+     "timecode": "2:47",
+     "attribution": "Gavin Purcell (host opinion; speaker inferred because he addresses Kevin)"
+    },
+    {
+     "claim": "Fable 5.2 burns through usage limits fast; Kevin hit the caps on the $200 Claude plan for the first time.",
+     "figure": "$200 Claude plan; 48 hours waiting for a refresh; hourly, weekly and model-specific caps",
+     "quote": "it's the first time on a $200 Claude plan that I have been like, oh man, like hands in the air, 48 hours in the penalty box waiting for a refresh to happen",
+     "timecode": "3:17",
+     "attribution": "Kevin Pereira, own experience"
+    },
+    {
+     "claim": "With Fable 5.2 you can give looser briefs and let the model choose, and it often returns better creative choices.",
+     "figure": "none",
+     "quote": "I find myself with Fable 5.2 not having to get so prescriptive with what I want or my expected behavior",
+     "timecode": "7:07",
+     "attribution": "Kevin Pereira (opinion)"
+    },
+    {
+     "claim": "Giving the model personas gets more distinctive output than asking for the basics.",
+     "figure": "none",
+     "quote": "I think you can get a lot of vanilla stuff from these models if you just ask them the basics",
+     "timecode": "11:31",
+     "attribution": "Gavin Purcell (opinion), citing a creator the captions call Jake Eaten (name unverified)"
+    },
+    {
+     "claim": "Anthropic has released Claude Sheets, plus Claude Whiteboard and Claude Data, so spreadsheet work can stay inside Claude.",
+     "figure": "Claude Whiteboard, Claude Sheets, Claude Data",
+     "quote": "They've got Claude Whiteboard, Claude Sheets, and Claude Data.",
+     "timecode": "50:08",
+     "attribution": "Gavin Purcell (hosts' report; not checked against an Anthropic announcement)"
+    },
+    {
+     "claim": "Jensen Huang has left Nvidia, but the hosts say it is unclear whether he resigned or was pushed and that the reporting behind it is unconfirmed.",
+     "figure": "none",
+     "quote": "Jensen Huang, the CEO of Nvidia, today uh either resigned or was ousted.",
+     "timecode": "22:05",
+     "attribution": "Hosts, citing press reporting they say 'hasn't been confirmed' (23:27); the episode description states it more firmly than the transcript does"
+    }
+   ]
+  },
+  {
+   "show": "Lenny's Podcast",
+   "title": "Meta's Muse: Inside the launch of the most successful consumer product this year",
+   "date": "2026-11-15",
+   "url": "https://www.youtube.com/watch?v=WY0cdD4gNoQ",
+   "guest_line": "Mona Sarantakos · VP of Product, Meta Superintelligence Labs (head of product for Muse) @ Meta",
+   "vendor_flag": "Yes. The guest leads product for Muse, the product praised throughout, and the 'most successful' and 'fastest growing' framing is the host's and Meta's, not independent data. Sponsors read in the episode: WorkOS and DX.",
+   "reader_fit": "Moderate for TA leaders rolling out AI tools: the adoption lessons (peer demos beat ads, starter prompts beat a blank box, tiered onboarding, handwritten core prompts) transfer directly. Low for a day-to-day recruiter. One hiring line: product taste is what she screens PMs for.",
+   "path": "library/tech/transcripts/Lenny's Podcast/2026-11-15-metas-muse-inside-the-launch-of-the-most-successful-consumer-product-this-year-m.md",
+   "points": [
+    {
+     "claim": "The most effective lever for getting people to adopt an AI agent is word of mouth from people they relate to, not advertising.",
+     "figure": "Two parents downloaded it on the spot after a power user passed her phone round",
+     "quote": "So the most effective lever out there is word of mouth.",
+     "timecode": "47:21",
+     "attribution": "Mona Sarantakos, Meta (vendor, own product)"
+    },
+    {
+     "claim": "New users freeze on the first prompt, so Muse built an ideas tab of starter packs a user can launch by saying 'let's do it'.",
+     "figure": "Ideas tab, starter packs",
+     "quote": "Like people freeze on the first prompt.",
+     "timecode": "48:27",
+     "attribution": "Mona Sarantakos"
+    },
+    {
+     "claim": "Muse's system prompt and behavioural spec must be written by hand, with no AI-written parts, and people must review eval data.",
+     "figure": "none",
+     "quote": "our system prompt has to be handwritten. Like it has to be like you cannot use an AI to write a system prompt, any part of it.",
+     "timecode": "44:58",
+     "attribution": "Mona Sarantakos, describing Muse team practice"
+    },
+    {
+     "claim": "Agent 'swarms' that read production conversations and feedback return specific examples, not just metrics, and she makes all her PMs use them.",
+     "figure": "Example insight: 10 people blocked when shopping on one website",
+     "quote": "It's like, you know, 10 people have asked about, you know, to shop on this website and got blocked, right?",
+     "timecode": "41:17",
+     "attribution": "Mona Sarantakos (illustrative example, not a reported statistic)"
+    },
+    {
+     "claim": "Muse was built by a small team: about 10 people at first, under 100 across all functions, with four PMs.",
+     "figure": "about 10; under 100; four PMs",
+     "quote": "there was like four of us really that built the entire thing.",
+     "timecode": "1:16:04",
+     "attribution": "Mona Sarantakos (team sizes at 1:15:08 and 1:15:20)"
+    },
+    {
+     "claim": "Product taste is now the top thing she looks for when hiring PMs.",
+     "figure": "none",
+     "quote": "that's probably the number one thing I look for when I'm interviewing PMs or working with PMs.",
+     "timecode": "1:05:58",
+     "attribution": "Mona Sarantakos"
+    }
+   ]
+  }
+ ]
+}

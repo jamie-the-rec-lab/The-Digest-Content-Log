@@ -1,3 +1,31 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Dan Shipper, co-founder and CEO of Every, giving the closing keynote at Every's Thesis conference; worth hearing because he runs a 30-person team that works with AI daily and tests its claims with its own evals  ·  **Show:** AI & I, 11 Nov 2026
+**Tags:** ai, ai agents, future of work, data and analytics, team building, productivity, leadership
+
+**When to use this:** a stakeholder is arguing from benchmark charts that AI will replace the team, or you want more out of AI than the generic answer everyone else gets from the same tool.
+
+**Big idea:** AI makes generating answers cheap, so the scarce value is the person who decides which answer matters, guided by what they are responsible for and their own non-consensus point of view.
+
+**Frameworks & plays:**
+- Hand the same dataset to everyone on the team and let each person analyse it with AI against their own remit. Every gave its Q4 customer survey to the whole team: the CEO spotted a team-sales opportunity, the go-to-market engineer found that many first-time subscribers churn after the first month because of email volume, and the head of marketing found that readers feel lonely in their enthusiasm for AI. Shipper's point was that it was the same survey and the same Claude, with very different findings.
+- Treat the default-prompt answer as the baseline, not the insight. Shipper showed that Claude's default read of the survey was accurate but available to anyone, "and so it's cheap", and that nobody on his team submitted it as their answer.
+- Keep a person on the ranking step. Every's head of evals, Mike Taylor, found Claude could produce Shipper's real Slack reply somewhere in a very large batch of candidate answers, but when asked to rank them the real answer only made the top 10% about 60% of the time, which Shipper called "kind of a coin flip". Generation is cheap, ranking is hard.
+- Judge AI tools on how well they do your own work from your own perspective, not on consensus benchmarks such as maths or coding problems that anyone can validate.
+- Shipper's "allocation economy" framing: you will be judged less on how much you know and more on how well you allocate work to AI models and check that it gets done well.
+
+**Data & benchmarks:**
+- On OpenAI's GDPval benchmark, where blind experts compare AI output with a human expert's work on real job tasks, Shipper quoted AI winning 12.4% of the time in 2024 (GPT-4o), 47.6% in 2025 and about 83% in 2026 (GPT-5.4).
+- In one week, in the gaps of his calendar, Shipper says he analysed the survey, built a live team quiz game and a custom CRM, and started outreach, work he put at five 2020-era roles (data scientist, game developer, product marketer, engineer and business development rep) on a single Claude subscription.
+
+**Contrarian take:**
+- Shipper argues the "AI versus human" comparison is rigged because it freezes the human in the past. Next year's employee will be using next year's model, so the real choice is a person with a model versus the model's default prompt, and he says "I pick Yosh every day."
+
+**Steal this (do tomorrow):**
+- Give your next candidate survey or hiring-manager feedback export to three colleagues with different remits, ask each to analyse it with AI, and compare what they surface.
+- When AI produces a longlist or shortlist for you, make the ranking a deliberate human step and note why you chose what you chose.
+<!--/SUMMARY-->
+
 # A New Vision for Human Work After Automation
 
 - **Podcast:** AI & I
