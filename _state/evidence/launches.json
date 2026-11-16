@@ -1,244 +1,174 @@
 {
- "run_date": "2026-11-04",
+ "run_date": "2026-11-16",
  "sweep_ran": true,
+ "window": "2026-11-04 to 2026-11-16, plus clearly missed items from 2026-10-20",
  "vendors_read": [
-  "Ashby",
-  "Metaview (via content.metaview.ai/rss after redirect)",
-  "Greenhouse",
-  "Teamtailor",
-  "Gem (blog, undated listing)",
-  "Pinpoint",
+  "Ashby (newest update 7 May 2026, nothing in window)",
+  "Greenhouse (release notes: October 2026 notes, last updated 30 Oct, no November notes yet; product What's new page and newsroom via search)",
+  "Metaview (content.metaview.ai/rss after 308 redirect, truncated; product-updates page)",
+  "Teamtailor (top entries 28 Oct and earlier; nothing in window)",
+  "Gem (blog, undated listing; GeMCP 4 Aug and AI Fraud Detection Agent 21 Apr, both out of window)",
+  "Pinpoint (changelog RSS, newest 4 Aug 2026)",
   "Juicebox",
-  "Jack & Jill",
-  "Pin",
-  "Eightfold",
-  "First.cx",
-  "iCIMS"
+  "Pin (blog, content pieces only; New Navigation 3 Nov is a UI change)",
+  "Jack & Jill (blog; newest product post is Company Insights 4 Nov, previously judged)",
+  "Eightfold (feed returned one post; date read from the post)",
+  "First.cx (feed, newest March 2026)",
+  "iCIMS (Fall Release 2026, unchanged release name, Hiring Agent previously judged)",
+  "Nova by Dweet (changelog, newest 27 Oct 2026: minor sourcing features)",
+  "Workday (search: Talent Acquisition Agent launched 13 Oct, before window; nothing November)",
+  "hackajob (search: no Archer news since February 2026)"
  ],
  "vendors_unreadable": [
   {
    "vendor": "Lever",
-   "why": "help centre returned HTTP 401; search fallback found nothing dated in window"
+   "why": "help centre release notes returned HTTP 401; search found no dated November 2026 release"
   },
   {
    "vendor": "SmartRecruiters",
-   "why": "page returned HTTP 403; search fallback found nothing in window"
+   "why": "what's new page returned HTTP 403; search found no November 2026 release"
   },
   {
    "vendor": "Workable",
-   "why": "release notes page and recent-updates page returned no entries (JavaScript)"
-  },
-  {
-   "vendor": "hackajob",
-   "why": "search only; no in-window result"
-  },
-  {
-   "vendor": "Nova (Dweet)",
-   "why": "search only; launch date not established"
+   "why": "release notes article and workable.com/recent-updates carry no dated entries (JavaScript); search found nothing dated in window"
   },
   {
    "vendor": "Screenloop",
-   "why": "search only; no result"
-  },
-  {
-   "vendor": "Workday",
-   "why": "search only; Oct 13 launch already in library"
+   "why": "search only; no results for the company at all"
   }
  ],
  "launches": [
   {
-   "vendor": "Pin",
-   "release": "Autopilot",
-   "date": "2026-10-23",
-   "url": "https://www.pin.com/blog/autopilot/",
-   "path": "Pin/2026-10-23-autopilot.md",
-   "line": "Pin's AI assistant takes over the conversation once a candidate replies, answers questions, books interviews and updates pipeline stages; teams choose draft-review or autonomous mode.",
-   "quote": "takes over the conversation once a candidate replies",
-   "materiality": "Tier A. Major AI capability: an agent that converses with candidates and books interviews, not a UI tweak. Plan/pricing not stated on page. STRONG CANDIDATE."
-  },
-  {
-   "vendor": "iCIMS",
-   "release": "iCIMS Hiring Agent (2026 Fall Release)",
-   "date": "2026-10-20",
-   "url": "https://www.icims.com/company/newsroom/fallrelease2026/",
-   "path": "iCIMS/2026-10-20-hiring-agent-fall-release.md",
-   "line": "Agentic AI in Microsoft Teams that tracks hiring activity, routes tasks and suggests next-best actions, synced to the ATS; rollout from 26 Oct 2026.",
-   "quote": "The agent prioritizes and prompts, but recruiters and managers always make the call.",
-   "materiality": "Tier B, but a new AI agent product from a large ATS vendor with a dated press release; no tier A launch clearly outweighs it. STRONG CANDIDATE."
-  },
-  {
-   "vendor": "Teamtailor",
-   "release": "Smart action",
-   "date": "2026-09-29",
-   "url": "https://www.teamtailor.com/en/productnews/smart-action-just-tell-ai-what-to-do/",
-   "path": "Teamtailor/2026-09-29-smart-action.md",
-   "line": "New stage trigger: describe a task in plain language and AI adds comments, tags, custom fields or to-dos for every candidate entering the stage; prompt check warns about biased requests; runs are audit-logged.",
-   "quote": "Describe the work in plain language, and AI handles it for every candidate who lands in the stage.",
-   "materiality": "Tier A, never featured. Major AI capability with governance features (audit log, bias warning). Predates the 14 Oct emphasis. STRONG CANDIDATE."
-  },
-  {
-   "vendor": "Metaview",
-   "release": "November 2026 update: Sourcing beyond LinkedIn, Filters mode, prompt-generated outreach",
-   "date": "2026-11-04",
-   "url": "https://content.metaview.ai/november-sourcing-searches-outreach/",
-   "line": "Metaview Sourcing can find candidates without LinkedIn profiles; new Filters mode; outreach sequences generated from a prompt across email, LinkedIn, SMS and WhatsApp.",
-   "quote": "include candidates without LinkedIn profiles and link the evidence for each match",
-   "materiality": "Tier A. Borderline: extensions of an existing product (Sourcing, previously featured 2 Sep). No rollout, pricing or plan detail. Not saved; use only if the week is thin."
-  }
- ],
- "rejected": [
-  {
    "vendor": "Greenhouse",
-   "release": "Release notes: October 2026",
-   "why": "Notetaker consent settings and nine new partner integrations (Anna, Aperture, Town etc). Integrations and settings, not net-new Greenhouse products. Article gives month only; page last updated 30 Oct 2026, so individual dates are a gap."
-  },
-  {
-   "vendor": "Greenhouse",
-   "release": "Release Notes: September 2026",
-   "why": "URL found, article not opened; month-only date. Gap."
-  },
-  {
-   "vendor": "Juicebox",
-   "release": "Smarter Sequences (Composer)",
-   "why": "13 Oct 2026, live for all customers. Enhancement to existing Sequences (chat drafting, sending controls, reporting); not net-new product. Possible filler only."
-  },
-  {
-   "vendor": "Juicebox",
-   "release": "Healthcare Data in Juicebox",
-   "why": "2 Sep 2026, before window."
-  },
-  {
-   "vendor": "Pin",
-   "release": "Talent Preview",
-   "why": "15 Sep 2026, already featured 23 Sep."
-  },
-  {
-   "vendor": "Pin",
-   "release": "New Navigation",
-   "why": "3 Nov 2026, UI change."
-  },
-  {
-   "vendor": "Pin",
-   "release": "Quick note from Steve (CEO)",
-   "why": "12 Sep 2026, not a product release."
-  },
-  {
-   "vendor": "Teamtailor",
-   "release": "Find and reuse talent you already have / Suggested candidates / Meeting insights / Onboarding analytics / other Oct entries",
-   "why": "Dated 9-28 Oct but page gives titles only; descriptions not established. Appear to be feature improvements. Not opened individually."
-  },
-  {
-   "vendor": "Gem",
-   "release": "GeMCP",
-   "why": "Posted 4 Aug (no year shown); already featured 16 Sep."
-  },
-  {
-   "vendor": "Gem",
-   "release": "AI Fraud Detection Agent",
-   "why": "Posted 21 Apr, outside window. Blog index shows no dates; no in-window Gem launch could be established."
-  },
-  {
-   "vendor": "Workday",
-   "release": "Autopilot Agents / Talent Acquisition Agent",
-   "why": "13 Oct 2026. Already in library (Workday/2026-10-13-...) but NOT in featured-log.tsv, which has no entry after 2026-10-07; whether it was featured in the last edition cannot be confirmed from the log. Not resurfaced."
-  },
-  {
-   "vendor": "Ashby",
-   "release": "(none)",
-   "why": "Product updates page latest entry May 2026; search found no Oct 2026 launch. Ashby One London keynote already featured 9 Sep."
+   "tier": "a",
+   "release": "Greenhouse in Claude",
+   "date": "2026-10-22",
+   "url": "https://www.greenhouse.com/newsroom/greenhouse-brings-the-orchestrated-hiring-ecosystem-to-anthropics-claude",
+   "path": "Greenhouse/2026-10-22-greenhouse-in-claude.md",
+   "line": "Greenhouse launched Greenhouse in Claude, an open beta plugin for Greenhouse Recruiting customers on Core, Plus and Pro plans that gives a daily brief, candidate status, pipeline review, debrief prep and draft scorecards inside Claude, and can advance candidates, schedule interviews and create jobs within each user's existing permissions.",
+   "quote": "Greenhouse remains the system of record, and teams can ask questions and take action from Claude.",
+   "materiality": "MATERIAL, saved. Tier A, net-new product with write actions, in a tool this reader already uses (recent featured items on Claude for TA). Missed by the 4 Nov sweep, not in the featured log, inside the 8 week window. Caveats: open beta, not GA; dated 22 Oct so it is 3.5 weeks old; it is built on MCP, so a strict reader of the 'no integrations' rule could call it an integration. My call: it is a product with its own skills and actions, not a data sync."
   },
   {
    "vendor": "Eightfold",
-   "release": "(none)",
-   "why": "Feed showed no dated items in window; search found nothing for Oct 2026."
+   "tier": "b",
+   "release": "AI Recruiting Teammate",
+   "date": "2026-11-12",
+   "url": "https://eightfold.ai/blog/meet-ai-recruiting-teammate/",
+   "path": null,
+   "line": "Eightfold introduced AI Recruiting Teammate, a Talent Agent that takes a hiring goal and coordinates role setup, discovery in the customer's own Eightfold Talent Network, engagement and AI Interviewer interviews, with recruiters keeping control of requirements and approvals. Also a GlobeNewswire release dated 12 Nov 2026.",
+   "quote": "AI Recruiting Teammate is currently in product preview and is not generally available.",
+   "materiality": "Borderline, not saved. Net-new agent product, in window, but tier B, product preview only (small group of design partners from late November 2026, scope and timing may change), no customers or figures. Does not clearly outweigh Greenhouse."
   },
   {
-   "vendor": "First.cx",
-   "release": "(none)",
-   "why": "Latest feed item 26 Mar 2026."
+   "vendor": "Juicebox",
+   "tier": "a",
+   "release": "Juicebox for Mobile (Juicebox Agents on mobile)",
+   "date": "2026-11-12",
+   "url": "https://juicebox.ai/blog/introducing-juicebox-for-mobile",
+   "path": null,
+   "line": "Juicebox put its sourcing Agents on mobile: start an Agent from a typed or dictated brief or pasted JD, review and approve or reject leads, get status updates and recalibrate the Agent in chat from a phone. No pricing or plan details.",
+   "quote": "Juicebox Agents are now live on mobile, so you can keep your search moving, no matter where you are.",
+   "materiality": "Borderline leaning minor, not saved. Tier A and in window, but a new surface for an existing product rather than a new capability."
+  }
+ ],
+ "left_out": [
+  {
+   "vendor": "Greenhouse",
+   "release": "Candidate Insights (product page dated November 2026)",
+   "why": "date is month only, no day, so a gap; also the Candidate Insights Assistant was already featured 16 Sep 2026 in open beta, and this is a status change, not net-new"
   },
   {
-   "vendor": "Pinpoint",
-   "release": "changelog",
-   "why": "Latest item 1.0.28 dated 4 Aug 2026; nothing in window."
+   "vendor": "Greenhouse",
+   "release": "Release notes: October 2026 (last updated 30 Oct)",
+   "why": "Notetaker consent settings and nine new partner integrations: enhancements and integrations, not material"
   },
   {
-   "vendor": "Jack & Jill",
-   "release": "Series A (15 Sep)",
-   "why": "Already featured 30 Sep. 2 Nov blog post is a customer story, not a launch."
+   "vendor": "Teamtailor",
+   "release": "Browse candidates, suggested candidates, onboarding analytics, API keys (27 to 28 Oct)",
+   "why": "UI and workflow improvements; Browse candidates is not described as AI"
   },
   {
-   "vendor": "hackajob",
-   "release": "Archer",
-   "why": "Search only returned Feb 2026 expansion; nothing in window."
+   "vendor": "Metaview",
+   "release": "November 2026 update; Kognitiv Workday case study (12 Nov); Workday Sourcing integration (undated)",
+   "why": "November update previously judged (4 Nov); case study is not a release; integration, and undated"
   },
   {
-   "vendor": "Nova (Dweet)",
-   "release": "AI sourcing agent",
-   "why": "Launch date could not be established from search results. Gap."
+   "vendor": "Pin",
+   "release": "Pin's New Navigation (3 Nov)",
+   "why": "UI change"
   },
   {
-   "vendor": "Screenloop",
-   "release": "(none)",
-   "why": "Search found no 2026 launch."
+   "vendor": "Nova by Dweet",
+   "release": "Candidate Sourcing: Add people you already know (27 Oct)",
+   "why": "minor feature"
   },
   {
-   "vendor": "SmartRecruiters",
-   "release": "(none)",
-   "why": "Page blocked (403); search found no in-window launch. SAP acquisition dates from Sept 2025."
-  },
-  {
-   "vendor": "Lever",
-   "release": "(none)",
-   "why": "Page returned 401; search found no dated release in window."
-  },
-  {
-   "vendor": "Workable",
-   "release": "(none)",
-   "why": "Release notes page empty; recent-updates page JS-built (empty form only). Search fallback not run for Workable; Sept GA of AI agents already featured 23 Sep."
+   "vendor": "Jack & Jill / Metaview / iCIMS",
+   "release": "Company Insights, 4 Nov Metaview update, iCIMS Hiring Agent",
+   "why": "previously judged and left out; nothing new"
   }
  ],
  "ai_news": {
-  "headline": "Dayforce agrees to acquire Ribbon AI, adding voice and video AI interviewing and sourcing to its Agentic Recruiting product",
-  "date": "2026-10-23",
-  "url": "https://betakit.com/?p=411302",
-  "second_source": "https://itwire.com/it-industry-news/deals/dayforce-to-acquire-ribbon-ai-inc-to-advance-agentic-recruiting (also IT Brief UK, 26 Oct 2026)",
-  "path": "Dayforce/2026-10-23-acquires-ribbon-ai.md",
+  "title": "AI-assisted deception in job applications: four in ten recruiters have detected or suspect its use",
+  "source": "The Stepstone Group (press release, Hiring Trends Update, via EQS News)",
+  "date": "2026-11-16",
+  "url": "https://ad-hoc-news.de/boerse/news/corporate-news/ai-assisted-deception-in-job-applications-four-in-ten-recruiters-have-detected-or-suspect-its-use/70519972",
+  "second_source_url": "https://www.onvista.de/news/2026/11-16-ki-taeuschung-bei-bewerbungen-vier-von-zehn-recruitern-berichten-von-taeuschungsversuchen-oder-verdachtsfaellen-0-37-26576691",
+  "second_source_note": "The German-language release as carried by onvista; all figures, sample and fieldwork dates match. It is the same issuer's release, not independent reporting: no independent journalism found on the day. Not regulatory or legal.",
+  "path": "Stepstone/2026-11-16-ai-assisted-deception-in-job-applications.md",
+  "market": "Germany",
+  "why_it_matters": "Candidate fraud and AI-written applications are a live worry for in-house and agency recruiters. This gives quotable, freshly dated numbers from a large recruiter sample (1,227) on how often it is happening and what form it takes, including prompt injections aimed at AI screening and deepfakes in video interviews. Clearly labelled as Germany and as a vendor survey. Nothing regulatory, legal or model-related this week cleared the bar for this reader.",
   "points": [
    {
-    "claim": "Dayforce has agreed to acquire Toronto-based Ribbon AI; price and closing date not disclosed.",
-    "evidence": "BetaKit 23 Oct 2026 and iTWire/IT Brief 26 Oct 2026 both report terms undisclosed",
-    "quote": "Ribbon accelerates our vision for agentic recruiting,"
+    "claim": "Share of recruiters in Germany who identified or suspected AI-assisted deception in the past twelve months",
+    "figure": "41% (13% confirmed, 28% suspected)",
+    "quote": "Four in ten recruiters (41%) in Germany have identified or suspected cases of AI-assisted deception"
    },
    {
-    "claim": "Ribbon's technology will be integrated natively into Dayforce's new Agentic Recruiting experience after completion.",
-    "evidence": "BetaKit, iTWire, IT Brief",
-    "quote": "integrated natively into its new Agentic Recruiting experience following completion of the deal."
+    "claim": "Recruiters more sceptical of applications",
+    "figure": "73%",
+    "quote": "73% of recruiters say they have become more sceptical when assessing job applications"
    },
    {
-    "claim": "Ribbon offers 24/7 conversational voice and video AI interviews, with rubric generation, transcript-based evaluation and integrity checks.",
-    "evidence": "iTWire; BetaKit",
-    "quote": "High-volume hiring shouldn't mean choosing between speed and a strong candidate experience."
+    "claim": "Prompt injections in application documents (base: 505 recruiters reporting identified or suspected cases)",
+    "figure": "26%",
+    "quote": "26% have encountered hidden instructions embedded in application documents"
    },
    {
-    "claim": "Company-reported (unverified): hundreds of customers and more than one million completed interviews.",
-    "evidence": "BetaKit, iTWire, IT Brief (all repeat Dayforce's figures)",
-    "quote": "proven at scale"
+    "claim": "Someone other than the applicant attended the interview (same base)",
+    "figure": "22%",
+    "quote": "over one in five (22%) report cases where someone other than the applicant attended the interview"
    },
    {
-    "claim": "No continuity plan published for Ribbon customers on other ATS platforms (analyst commentary, single source via search snippet, not fetched).",
-    "evidence": "beri.net snippet only",
-    "quote": null
+    "claim": "Deepfakes in video interviews (same base)",
+    "figure": "8%",
+    "quote": "A further 8% have even encountered deepfakes in video interviews"
+   },
+   {
+    "claim": "Candidates who would not apply if AI made the final hiring decision",
+    "figure": "61%",
+    "quote": "61% would not apply for a job if AI made the final hiring decision"
+   },
+   {
+    "claim": "Survey method",
+    "figure": "7,652 candidates and 1,227 recruiters in Germany, fieldwork 24 September to 13 October 2026",
+    "quote": "vom 24. September bis zum 13. Oktober 2026"
    }
   ]
  },
- "notes": {
-  "date_conflict": "Announcement date 23 Oct (BetaKit, 'agreement reached on a Friday') vs 26 Oct publication dates for iTWire/IT Brief/HR Tech Edge. 23 Oct used.",
-  "gaps": [
-   "Recruitics survey (20 Oct, 1 in 4 TA leaders would block AI agents from applying) and Recruitics Agentic AI Foundation group (3 Nov): GlobeNewswire returned 403, not read, no second source; not used.",
-   "LinkedIn Hiring Assistant 2 (30 Sep) predates the news window.",
-   "Saved files are built from fetch-tool summaries, not verbatim full page text; marked partial in each file.",
-   "featured-log.tsv has no entries after 2026-10-07 although the last edition covered to 17 Oct; Workday Autopilot status unconfirmed."
-  ]
- }
+ "ai_news_runner_up": {
+  "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+  "source": "Anthropic",
+  "date": "2026-11-09",
+  "url": "https://www.anthropic.com/news/claude-fable-and-mythos-5-2",
+  "why_not_picked": "A major model release (Fable 5.2 available to all users; outputs up to 30% faster than 5.1, per Anthropic), but aimed at the most ambitious technical work and Anthropic itself recommends Opus 5.5 for most knowledge tasks, so it does not change recruiter work this week. Not saved."
+ },
+ "ai_news_considered_and_rejected": [
+  "Anthropic IPO roadshow (10 Nov) and Fortune on US hiring near 50,000 a month (16 Nov): finance and macro, not recruiter-actionable AI news",
+  "Australia announcing AI safety legislation (10 Nov): outside the reader's markets",
+  "LinkedIn Hiring Assistant 2 rollout starting November: announced earlier (Talent Connect), no dated in-week news",
+  "EU AI Act Digital Omnibus delay to 2 December 2027: adopted July 2026, not this week",
+  "No UK regulatory or ICO action on AI in recruitment found in the week"
+ ]
 }
