@@ -1,0 +1,106 @@
+{
+ "date": "2026-11-16",
+ "version": 9,
+ "edition_date": "16th November 2026",
+ "url": "https://thereclab.ai/digest",
+ "review_url": "https://thereclab-site-git-digest-review-the-rec-lab-s-projects.vercel.app/digest",
+ "pr_number": 8,
+ "pr_url": "https://github.com/jamie-the-rec-lab/thereclab-site/pull/8",
+ "proposed": true,
+ "preview_built": true,
+ "published": false,
+ "dry_run": false,
+ "awaiting_previous": null,
+ "fact_check": "corrected 5",
+ "checks_passed": true,
+ "template_restored": false,
+ "launches": [
+  "Greenhouse"
+ ],
+ "sections": {
+  "Recruiting Podcasts": 4,
+  "Recruiting Newsletters": 3,
+  "Recruiting reports, product updates, and more": 5,
+  "AI & Tech Picks": 3
+ },
+ "archive": "digest/published/2026-11-16-v9.html",
+ "problems": [
+  {
+   "phase": 2,
+   "source": "selection",
+   "what": "Podcasts: two PromptMates Live episodes run (ElevenLabs sourcing 16 Nov, Hiring Fraud 12 Nov) because fraud is the week's main theme and both are practical. The Clay episode (9 Nov) left out: same guest and topic as an Offer Accepted episode already in the library.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "selection",
+   "what": "Recruiting Future: ran ep 837 (ESIX benchmark figures) and left out the newer ep 838 (AIApply CEO, vendor claims with no numbers). Brainfood ep 418 on hiring in New Zealand left out as too niche for this readership.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "selection",
+   "what": "Newsletters: newest issue from PromptMates (16 Nov), TA Unboxed (13 Nov) and Data Driven Recruiter (11 Nov). RecOps 12 Nov left out (link roundup, nothing to act on). The 9 Nov PromptMates and 10 Nov TA Unboxed issues are older than the ones featured, so they will not run.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "selection",
+   "what": "Tech picks: Lenny's (Meta Muse, 15 Nov) and AI & I (Dan Shipper, 11 Nov) in. How I AI (four new, newest is on token fraud for founders) and AI For Humans (13 Nov, includes unconfirmed reporting) left out for low reader fit.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "selection",
+   "what": "Section 3: four reports (Bullhorn/SIA w/e 31 Oct, KPMG/REC November from the free press release only, Indeed UK October, Employ Recruiter Nation) plus one launch, Greenhouse in Claude (22 Oct, open beta, missed by the 4 Nov sweep). Eightfold preview and Juicebox mobile left out.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "ai news",
+   "what": "Stepstone survey of recruiters in Germany (16 Nov) is the AI news item. It is a vendor's own survey and the second source is the same press release in German, so not independent; labelled as Germany and as Stepstone's survey. Nothing regulatory this week.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "standouts",
+   "what": "Podcast: ElevenLabs. Newsletter: Data Driven Recruiter. Report: Indeed UK snapshot. Launch: Greenhouse in Claude. AI pick: AI & I.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "ordering",
+   "what": "Stepstone news item sits first in AI & Tech Picks because publish_check requires freshest first; SELECTION.md says news goes after episodes. Same conflict as last week, still to settle in the docs.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "fact-check",
+   "what": "First pass found 5 lines to fix (4 unsupported, 1 style): Muse bullet, Data Driven Recruiter standout, The Debrief bullet, TA Unboxed bullet, preview. All rewritten from the source; second pass clean.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "Data Driven Recruiter",
+   "what": "Issue 85 is not on the public archive (the saved link returned 404, as does issue 84's), so the public page links to the subscribe page, lukeeaton.com. The helper's saved 'Public' link was a guess and has been corrected in the library file.",
+   "severity": "degraded",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "propose",
+   "what": "Version 9 pushed to digest-review as a fast-forward from main (no force needed), site PR #8 opened, Vercel preview confirmed showing Version 9 (16th November 2026). Version file, 15 featured rows, archive copy and pending-review.json written.",
+   "severity": "decision",
+   "resolved": "yes"
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 - **Source:** Data Driven Recruiter
 - **Date:** 2026-11-11
 - **Fetched:** 2026-11-16
-- **Public:** https://data-driven-recruiter.beehiiv.com/p/ddr85-the-hiring-safety-playbook
+- **Public:** none found (issue not on the public archive on 2026-11-16; subscribe page https://www.lukeeaton.com)
 
 ## Newsletter
 

@@ -1,58 +1,39 @@
 {
   "date": "2026-11-16",
-  "result": "mismatches",
+  "pass_number": 2,
+  "first_pass_mismatches": 5,
+  "result": "pass",
   "checked_items": 15,
-  "mismatches": [
+  "mismatches": [],
+  "first_pass_resolved": [
     {
       "item": "Lenny's Podcast: Meta's Muse",
-      "where": "bullet 3",
-      "digest_line": "The core instructions behind Meta's Muse must be written by hand, with no part drafted by AI, under a rule Mona Sarantakos sets for her team.",
-      "source_says": "Transcript [44:58]: \"there's actually been like this like funny trend recently where like our system prompt has to be handwritten. Like it has to be like you cannot use an AI to write a system prompt, any part of it... The behavioral spec needs to be handwritten.\" She calls it a team trend. She never says she set the rule.",
-      "severity": "unsupported",
-      "suggested_fix": "Meta's Muse team now requires its system prompt and behavioural spec to be handwritten, with no part written by AI, says Mona Sarantakos."
+      "where": "bullet 3"
     },
     {
       "item": "Data Driven Recruiter: The Hiring Safety Playbook",
-      "where": "standout",
-      "digest_line": "Luke Eaton's eight step hiring safety checklist, which he says a small TA team can get through in a week. Start by ending take-home tests that candidates must download and run on their own machine.",
-      "source_says": "The take-home rule is step 7 of 8 (\"7. Make your own process look nothing like a scam: 'No take-homes as zip files or repos that candidates must run locally...'\"). Step 1 is \"Name your recruiters\". The playbook never says to start with take-homes.",
-      "severity": "unsupported",
-      "suggested_fix": "Luke Eaton's eight step hiring safety checklist, which he says a small TA team can get through in a week. One step: no take-home tests that candidates must download and run on their own machine."
+      "where": "standout"
     },
     {
       "item": "The Debrief: The Geography of Tech Hiring",
-      "where": "bullet 2",
-      "digest_line": "Zapier is fully remote with just under 1,000 people in 42 countries, yet it now ranks countries for hiring instead of hiring anywhere.",
-      "source_says": "[13:58-14:58] \"even at Zapier, we used to say we hire from anywhere, and now... we're saying, oh, but maybe like these places are better than these places because some of the labor laws or tax requirements...\"; [26:44] \"Get back to me again in like 3 months and I'll tell you like here's our tiered stack rank of where we want to go into.\" The ranking is still being worked out, not in place.",
-      "severity": "unsupported",
-      "suggested_fix": "Zapier is fully remote with just under 1,000 people in 42 countries, yet it no longer hires from anywhere, judging some countries better than others on labour law and tax."
+      "where": "bullet 2"
     },
     {
       "item": "TA Unboxed: How Do Candidates Know Your Recruiters Are Real?",
-      "where": "bullet 1",
-      "digest_line": "Impostors reuse a genuine recruiter's name, branding and LinkedIn details and change only the contact address, so a polished signature or convincing profile is no proof for a candidate.",
-      "source_says": "\"impostors can reuse a genuine recruiter's name, branding and LinkedIn details while changing the actual contact address.\" The source says \"can\", not that they always do, and does not say \"only\".",
-      "severity": "unsupported",
-      "suggested_fix": "Impostors can reuse a genuine recruiter's name, branding and LinkedIn details while changing the contact address, so a polished signature or convincing profile is no proof for a candidate."
+      "where": "bullet 1"
     },
     {
       "item": "Preview (AI & I: A New Vision for Human Work After Automation)",
-      "where": "preview",
-      "digest_line": "and Dan Shipper shows where Claude struggles to pick its own best answer.",
-      "source_says": "[14:20] \"if Claude can give 400 answers at the same time, one of the things I'm going to say is in there, but it can't rank them... the thing that I say is only in the top 10% like 60% of the time.\" The test was whether Claude could pick out Shipper's real reply, not its \"best\" answer.",
-      "severity": "style",
-      "suggested_fix": "and Dan Shipper shows Claude struggling to pick his real reply out of its own guesses."
+      "where": "preview"
     }
   ],
   "notes": [
-    "All 15 items were checked against their saved source files. Every number, date, title, guest name, job title and company in the bullets, guest lines, dates and titles not listed above is supported by the source text.",
-    "Dashes: the body has no em or en dashes. The only em dash is in the <title> element in <head> ('TheRecLab Weekly Digest — 16 Nov 2026'), which is outside the body and comes from the template.",
-    "Banned words, tics and shapes: none found in the body. 'first', 'biggest' and 'record high' all appear but are quoted from their sources (REC, Employ, Lenny Rachitsky via PromptMates Newsletter).",
-    "ElevenLabs standout: 'so ElevenLabs sourced 60%' was judged supported, because Gedai says the 30,000 inbound applications that produced one hire are why he 'had to build something' (transcript 0:58).",
-    "Hiring Fraud: the speakers were confirmed from context. The 10-20% figure is Luke Eaton's (30:50, introduced as 'Luke, any wild stories'). The blog post anecdote is Evan Palmer's (38:54-39:54, after 'Evan, I'll throw it back to you'). The never list is Luke's/Ava Labs' (51:47-53:35).",
-    "Stepstone: the 26% and 8% figures are based on the 505 recruiters who identified or suspected deception. 'Among recruiters in Germany reporting cases' frames that sub-sample correctly. The figures are Germany only, as the bullets say.",
-    "Greenhouse and Stepstone sources are partial extractions, but every claim used appears in the extracted text. The REC source is the public press release. The Employ source is the press release plus the Jobvite blog. Both support every claim used.",
-    "Preview: Binance is not named in any bullet, but it is in the Hiring Fraud item title ('The $6bn Interview') and its source, so the topic is covered.",
-    "Recruiting Future has no guest line. The source names Simon Mullins of ESIX but gives no job title, so leaving it out is correct."
+    "Second pass: the whole body was re-read and every item was compared with the first-pass read. The only changes are the five corrected lines. No other bullet, standout, guest line, date or title differs.",
+    "Muse bullet 3 now reads 'Meta's Muse team now requires its system prompt and behavioural spec to be written by hand, with no part written by AI, says Mona Sarantakos.' Supported by transcript 44:58.",
+    "Data Driven Recruiter standout now reads 'One step: no take-home tests that candidates must download and run on their own machine.' Supported by playbook step 7.",
+    "Debrief bullet 2 now says Zapier no longer hires from anywhere and judges some countries better than others on labour law and tax. Supported by transcript 13:58-14:58.",
+    "TA Unboxed bullet 1 now reads 'can reuse... while changing the contact address'. Supported by the source wording.",
+    "Preview: 'Meta's Muse team explains how it gets new users past their first prompt' is supported by transcript 47:21-49:06 (people freeze on the first prompt; the ideas tab of starter packs). 'Dan Shipper shows Claude struggling to pick his real reply out of its own guesses' is supported by transcript 14:20. The preview names only topics the digest covers.",
+    "The body has no em or en dashes. No banned words, tics or shapes were found. The em dash in the head <title> comes from the template and is outside the body."
   ]
 }
