@@ -11,7 +11,7 @@
  "published": false,
  "dry_run": false,
  "awaiting_previous": null,
- "fact_check": "corrected 5",
+ "fact_check": "corrected 10",
  "checks_passed": true,
  "template_restored": false,
  "launches": [
@@ -84,7 +84,7 @@
   {
    "phase": 2,
    "source": "fact-check",
-   "what": "First pass found 5 lines to fix (4 unsupported, 1 style): Muse bullet, Data Driven Recruiter standout, The Debrief bullet, TA Unboxed bullet, preview. All rewritten from the source; second pass clean.",
+   "what": "Two independent fact-checks. Opus: 5 lines fixed, then clean. Fable (run after the model rule on main changed): 5 more fixed (ElevenLabs 60% base in the standout and preview, 'about 17' roles, the never list is Luke Eaton's advice not a published Ava Labs list, Zapier wording), then clean. Preview updated with the corrections.",
    "severity": "decision",
    "resolved": "yes"
   },
@@ -99,6 +99,13 @@
    "phase": 2,
    "source": "propose",
    "what": "Version 9 pushed to digest-review as a fast-forward from main (no force needed), site PR #8 opened, Vercel preview confirmed showing Version 9 (16th November 2026). Version file, 15 featured rows, archive copy and pending-review.json written.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "models",
+   "what": "The session's clone predated the change on main that moves everything to Fable 5.2, so the reading helpers and first fact-check ran on Opus (above the Sonnet floor). Found at save time; the fact-check was then repeated on Fable, the strongest available, before reporting.",
    "severity": "decision",
    "resolved": "yes"
   }

@@ -147,13 +147,6 @@
   },
   {
    "phase": 1,
-   "source": "models",
-   "what": "Main thread ran on the session's configured model; every reading helper and the fact-check were launched on Opus.",
-   "severity": "decision",
-   "resolved": "yes"
-  },
-  {
-   "phase": 1,
    "source": "Lenny's Podcast",
    "what": "Fetcher again saved the retitled re-listing of the Rob Snyder episode (video 19qrLchbQEc) as a new file; duplicate removed. Second time: fetch_transcripts.py should dedupe by video id.",
    "severity": "degraded",
