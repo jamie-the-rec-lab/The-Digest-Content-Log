@@ -9,6 +9,10 @@ Format: date, what changed, why.
 
 ---
 
+## 2026-11-16
+
+- `scripts/cloud_setup.sh` (and the live copy in the cloud environment settings): install beautifulsoup4 with `python3 -m pip`. Bare `pip` installed it into a different Python on the cloud image, the import check failed, and the 15 and 16 Nov runs died at setup before the job started.
+
 ## 2026-11-04
 
 - 2026-11-04, models: everything now runs on Opus 5.5, including transcript readers (Jamie's call). Sonnet stays the floor; if usage becomes a problem, transcript readers move back to Sonnet first, never the fact-check. Changed in `CLAUDE.md`, `TOKEN_RULES.md` section 6, `REFRESH.md`.
