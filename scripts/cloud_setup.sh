@@ -14,8 +14,10 @@
 set -u
 
 # Essential: the email builder parses the live page.
-pip install -q --break-system-packages "beautifulsoup4>=4.12" || pip install -q "beautifulsoup4>=4.12"
-python3 -c "import bs4" || { echo "SETUP FAILED: beautifulsoup4 did not install"; exit 1; }
+# python3 -m pip, not bare pip: the image has two Pythons and bare pip can install
+# into the other one (this stopped the 15 and 16 Nov 2026 runs before they began).
+python3 -m pip install -q --break-system-packages "beautifulsoup4>=4.12" || python3 -m pip install -q "beautifulsoup4>=4.12"
+python3 -c "import bs4" || { echo "SETUP FAILED: beautifulsoup4 did not install for $(command -v python3)"; exit 1; }
 
 # Optional: reading scanned report PDFs (pdftoppm, then tesseract). Without
 # these a scanned report is a recorded gap, not a broken run.
