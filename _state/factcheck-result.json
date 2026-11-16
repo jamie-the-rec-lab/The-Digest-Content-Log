@@ -1,62 +1,58 @@
 {
-  "date": "2026-11-09",
-  "model": "claude-opus-5-5",
-  "scope": "top-up edit, round 2 recheck of round 1 fixes",
-  "round": 2,
-  "result": "pass",
-  "mismatches": [],
-  "style_flags": [],
-  "unverifiable": [],
-  "verified": [
-    "Recruiting Future: bullet 1 backed (biggest impact on ability to 'consistently deliver the right person exactly on time'); bullet 2 fixed, now matches 13:18-15:29 (set up, feed, process lists; 'does it actually save us that money... If you can't explain that, then it's not time to actually implement that'); bullet 3 backed ('weakest point last year was... the job intake... not solved by any form of technology')",
-    "Lenny's: bullet 2 fixed, matches 21:24 list ('PMs who have an opinion... playing with these models every day... build an eval'); bullet 1 backed ('start with even just five prompts', 'you as the rater'); bullet 3 backed (40:33 twice rule); guest line from description",
-    "CNBC live page re-read (Lindsay Dodgson, 8 Nov 2026): 2026 Bullhorn survey, nearly 300 UK and Ireland recruitment professionals, 37% screening 26% to 50% faster; Berwick 'simply finding CVs and forwarding them... increasingly difficult to justify'; Collingwood fixed line now matches 'our fees... the value we deliver'",
-    "Bullhorn title 'SIA | Bullhorn Staffing Indicator, week ending 24 October 2026' matches the linked page's indicator name and the week ended Oct. 24; bullets re-confirmed (11% YoY, industrial +17%, office/clerical -7%, one/two/three years ago)",
-    "No em or en dash (characters or entities) in the page body; only in the <title>",
-    "Preview names only covered topics: ONS 2014 vacancies, REC hiring intentions, Zapier/Building the Talent Machine, Data Driven Recruiter, Pin, Teamtailor, Dayforce/Ribbon AI, CNBC agency fees, Figma PM (How I AI), Kevin Roose"
+  "date": "2026-11-16",
+  "result": "mismatches",
+  "checked_items": 15,
+  "mismatches": [
+    {
+      "item": "Lenny's Podcast: Meta's Muse",
+      "where": "bullet 3",
+      "digest_line": "The core instructions behind Meta's Muse must be written by hand, with no part drafted by AI, under a rule Mona Sarantakos sets for her team.",
+      "source_says": "Transcript [44:58]: \"there's actually been like this like funny trend recently where like our system prompt has to be handwritten. Like it has to be like you cannot use an AI to write a system prompt, any part of it... The behavioral spec needs to be handwritten.\" She calls it a team trend. She never says she set the rule.",
+      "severity": "unsupported",
+      "suggested_fix": "Meta's Muse team now requires its system prompt and behavioural spec to be handwritten, with no part written by AI, says Mona Sarantakos."
+    },
+    {
+      "item": "Data Driven Recruiter: The Hiring Safety Playbook",
+      "where": "standout",
+      "digest_line": "Luke Eaton's eight step hiring safety checklist, which he says a small TA team can get through in a week. Start by ending take-home tests that candidates must download and run on their own machine.",
+      "source_says": "The take-home rule is step 7 of 8 (\"7. Make your own process look nothing like a scam: 'No take-homes as zip files or repos that candidates must run locally...'\"). Step 1 is \"Name your recruiters\". The playbook never says to start with take-homes.",
+      "severity": "unsupported",
+      "suggested_fix": "Luke Eaton's eight step hiring safety checklist, which he says a small TA team can get through in a week. One step: no take-home tests that candidates must download and run on their own machine."
+    },
+    {
+      "item": "The Debrief: The Geography of Tech Hiring",
+      "where": "bullet 2",
+      "digest_line": "Zapier is fully remote with just under 1,000 people in 42 countries, yet it now ranks countries for hiring instead of hiring anywhere.",
+      "source_says": "[13:58-14:58] \"even at Zapier, we used to say we hire from anywhere, and now... we're saying, oh, but maybe like these places are better than these places because some of the labor laws or tax requirements...\"; [26:44] \"Get back to me again in like 3 months and I'll tell you like here's our tiered stack rank of where we want to go into.\" The ranking is still being worked out, not in place.",
+      "severity": "unsupported",
+      "suggested_fix": "Zapier is fully remote with just under 1,000 people in 42 countries, yet it no longer hires from anywhere, judging some countries better than others on labour law and tax."
+    },
+    {
+      "item": "TA Unboxed: How Do Candidates Know Your Recruiters Are Real?",
+      "where": "bullet 1",
+      "digest_line": "Impostors reuse a genuine recruiter's name, branding and LinkedIn details and change only the contact address, so a polished signature or convincing profile is no proof for a candidate.",
+      "source_says": "\"impostors can reuse a genuine recruiter's name, branding and LinkedIn details while changing the actual contact address.\" The source says \"can\", not that they always do, and does not say \"only\".",
+      "severity": "unsupported",
+      "suggested_fix": "Impostors can reuse a genuine recruiter's name, branding and LinkedIn details while changing the contact address, so a polished signature or convincing profile is no proof for a candidate."
+    },
+    {
+      "item": "Preview (AI & I: A New Vision for Human Work After Automation)",
+      "where": "preview",
+      "digest_line": "and Dan Shipper shows where Claude struggles to pick its own best answer.",
+      "source_says": "[14:20] \"if Claude can give 400 answers at the same time, one of the things I'm going to say is in there, but it can't rank them... the thing that I say is only in the top 10% like 60% of the time.\" The test was whether Claude could pick out Shipper's real reply, not its \"best\" answer.",
+      "severity": "style",
+      "suggested_fix": "and Dan Shipper shows Claude struggling to pick his real reply out of its own guesses."
+    }
   ],
-  "round1": {
-    "date": "2026-11-09",
-    "model": "claude-opus-5-5",
-    "scope": "top-up edit",
-    "round": 1,
-    "result": "mismatches",
-    "mismatches": [
-      {
-        "item": "Recruiting Future: Continuous Improvement In TA",
-        "line": "Before buying a narrow AI tool, explain how its time saving beats the setup and processing time it adds, or de Graaf says it is not time to implement it.",
-        "source_says": "The 'If you can't explain that, then it's not time to actually implement that' test is about cost: 'Does it actually save us that money? Do you actually get that back?' (15:29), after he describes a sourcing tool costing 'a couple hundred a month'. The setup/feeding and list-processing time is a separate point (13:18 to 14:32) about how much time a tool really saves. The bullet merges the two and makes the explain-or-don't-implement test about time versus time.",
-        "source_path_or_url": "library/podcasts/transcripts/Recruiting Future/2026-11-08-ep-836-continuous-improvement-in-ta.md",
-        "fix": "Before buying a narrow AI tool, count the time spent setting it up and processing its output, and if you cannot explain how it earns back its subscription, de Graaf says it is not time to implement it."
-      },
-      {
-        "item": "Lenny's Podcast: Why PMs are suddenly valuable again",
-        "line": "When hiring product managers to work on AI models, Doshi wants people with opinions formed from using models daily, who can build an eval themselves.",
-        "source_says": "'I want PMs who have an opinion um who are playing with these models every day who have their own use cases for how they judge whether a model is really good ... build an eval' (21:24). Having an opinion and playing with models daily are listed side by side; she does not say the opinions are formed from daily use (invented causation).",
-        "source_path_or_url": "library/tech/transcripts/Lenny's Podcast/2026-11-08-why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini.md",
-        "fix": "When hiring product managers to work on AI models, Doshi wants people who have an opinion, play with models every day and can build an eval themselves."
-      },
-      {
-        "item": "CNBC · news: AI is speeding up recruitment, and putting agency fees under pressure",
-        "line": "Matt Collingwood of VIQU Group sees every reason for agency fees to hold firm or even increase, if the value agencies deliver keeps growing.",
-        "source_says": "'I see every reason for our fees to hold firm, or even increase, if the value we deliver continues to grow.' He is speaking of VIQU's own fees and value, not agency fees in general.",
-        "source_path_or_url": "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html",
-        "fix": "Matt Collingwood of VIQU Group sees every reason for VIQU's fees to hold firm or even increase, if the value it delivers keeps growing."
-      }
-    ],
-    "style_flags": [],
-    "unverifiable": [
-      "Bullhorn item title 'Staffing Industry Indicator, week ending 24 October 2026' follows the library naming used for earlier weeks; the linked SIA page names it 'SIA | Bullhorn Staffing Indicator - November 3, 2026' and headlines 'US staffing hours further their growth trend'. Not a fact error, but the phrase 'Staffing Industry Indicator' does not appear on the linked page; consider 'SIA | Bullhorn Staffing Indicator, week ended 24 October 2026'."
-    ],
-    "verified": [
-      "git diff: only title/edition line date (5th to 9th November 2026, Monday after Sunday run), preview, section counts (7/5/5/5, match items) and the 5 added items changed; standouts and other 17 items untouched",
-      "Recruiting Future bullets 1 and 3, guest line (description: Co-Founder of the Recruiting Excellence Foundation), title (Ep 836 stripped), date 8 Nov 2026",
-      "PromptMates Live: all 3 bullets (Atkinson 'facts live in your tools not the bot's memory', Airtable; 'unless I say otherwise don't take action. So check with me first'; Miller 37:46 'president's club or 200% attainment', 'synonyms to overattainment'), no guest line (host show), date 4 Nov 2026",
-      "SIA/Bullhorn: live page read in full (Craig Johnson, 3 Nov 2026): 11% YoY week ended Oct. 24, industrial +17% YoY, office/clerical -7% YoY, 'one, two and three years ago' quote, all US",
-      "Lenny's: bullets 1 and 3 verbatim-backed (23:20 'start with even just five prompts', 'you as the rater'; 40:33 twice rule), guest line from description",
-      "CNBC: live page read via WebFetch (Lindsay Dodgson, Sun 8 Nov 2026): 'nearly 300 recruitment professionals in the U.K. and Ireland by ... Bullhorn', '37% said AI had made candidate screening between 26% and 50% faster'; Berwick 'AI is making that service increasingly difficult to justify'",
-      "Preview: new clause supported by CNBC (Berwick vs Collingwood); trims accurate; all named topics on page",
-      "No em/en dash in body (only the page title); no banned words in additions; all 5 links point at the right sources"
-    ]
-  }
+  "notes": [
+    "All 15 items were checked against their saved source files. Every number, date, title, guest name, job title and company in the bullets, guest lines, dates and titles not listed above is supported by the source text.",
+    "Dashes: the body has no em or en dashes. The only em dash is in the <title> element in <head> ('TheRecLab Weekly Digest — 16 Nov 2026'), which is outside the body and comes from the template.",
+    "Banned words, tics and shapes: none found in the body. 'first', 'biggest' and 'record high' all appear but are quoted from their sources (REC, Employ, Lenny Rachitsky via PromptMates Newsletter).",
+    "ElevenLabs standout: 'so ElevenLabs sourced 60%' was judged supported, because Gedai says the 30,000 inbound applications that produced one hire are why he 'had to build something' (transcript 0:58).",
+    "Hiring Fraud: the speakers were confirmed from context. The 10-20% figure is Luke Eaton's (30:50, introduced as 'Luke, any wild stories'). The blog post anecdote is Evan Palmer's (38:54-39:54, after 'Evan, I'll throw it back to you'). The never list is Luke's/Ava Labs' (51:47-53:35).",
+    "Stepstone: the 26% and 8% figures are based on the 505 recruiters who identified or suspected deception. 'Among recruiters in Germany reporting cases' frames that sub-sample correctly. The figures are Germany only, as the bullets say.",
+    "Greenhouse and Stepstone sources are partial extractions, but every claim used appears in the extracted text. The REC source is the public press release. The Employ source is the press release plus the Jobvite blog. Both support every claim used.",
+    "Preview: Binance is not named in any bullet, but it is in the Hiring Fraud item title ('The $6bn Interview') and its source, so the topic is covered.",
+    "Recruiting Future has no guest line. The source names Simon Mullins of ESIX but gives no job title, so leaving it out is correct."
+  ]
 }
