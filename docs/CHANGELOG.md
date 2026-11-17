@@ -11,6 +11,7 @@ Format: date, what changed, why.
 
 ## 2026-11-16
 
+- the run's last message: it now leads with the preview link and the pull request link, written out in full, and the phone notification carries both (Jamie's ask, so the review is one click from the session). Changed in `CLAUDE.md`, "The output".
 - models: the default is now Fable 5.2 (`claude-fable-5-2`), matching the model set on the scheduled task (Jamie's call). Floor and fact-check rules unchanged. Changed in `CLAUDE.md`, `TOKEN_RULES.md` section 6, `REFRESH.md`.
 - `scripts/cloud_setup.sh` (and the live copy in the cloud environment settings): install beautifulsoup4 with `python3 -m pip`. Bare `pip` installed it into a different Python on the cloud image, the import check failed, and the 15 and 16 Nov runs died at setup before the job started.
 
