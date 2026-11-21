@@ -35,6 +35,6 @@ digest:
 # law require a postal address in each one; UK rules require the business to be
 # identified). build_email.py reads these. Leave nothing blank before a send.
 business:
-  legal_name: ""        # e.g. "The Rec Lab Ltd" or the sole trader's own name
+  legal_name: "Jamie Jay Lyons, trading as TheRecLab"   # sole trader
   postal_address: ""    # one line; a registered mailbox address is fine
   privacy_url: https://thereclab.ai/privacy
