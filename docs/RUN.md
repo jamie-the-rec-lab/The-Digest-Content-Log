@@ -132,10 +132,15 @@ Gmail, plain text, with the status in the subject line so it can be read from a
 phone without opening it.
 
 Those two use deliberately separate machinery. The subscriber newsletter goes
-through Resend, and **this job never touches Resend**. That keeps "this job
-cannot email the list" a wall rather than a judgement call: a note to Jamie's
-own inbox cannot become a broadcast, because it is not using the thing that
-broadcasts.
+through Resend, and **this job never sends, creates or changes anything in
+Resend**. That keeps "this job cannot email the list" a wall rather than a
+judgement call: a note to Jamie's own inbox cannot become a broadcast, because
+it is not using the thing that broadcasts.
+
+The one thing the job does read from Resend is the email figures: delivered,
+opens and clicks for the last few editions, through three read-only tools named
+in `CLAUDE.md`. They land in `digest/email-metrics.json` and the health report
+prints them. See "Email figures" in `SEND_NEWSLETTER.md`.
 
 Then a nudge: the edition is live for review. Every mechanical check has
 already passed by this point, so the only thing being asked for is judgement.

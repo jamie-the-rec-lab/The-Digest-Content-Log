@@ -144,6 +144,69 @@ def counts_line(counts):
     return line
 
 
+# ---------------------------------------------------------------- email figures
+
+EMAIL_WEEKS = 4          # how many past editions the email line looks back over
+EMAIL_STALE_DAYS = 10    # older than this and the figures are flagged as out of date
+
+def email_lines(project, today):
+    """Opens and clicks for the last few editions, from digest/email-metrics.json.
+
+    That file is filled in from Resend (read-only), by the weekly run or by a send
+    session. This script never talks to Resend itself. A missing or unreadable file
+    is simply no section: the email figures are a nice-to-have, never a blocker."""
+    path = os.path.join(project, "digest", "email-metrics.json")
+    try:
+        data = json.load(open(path, encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+    eds = sorted((e for e in data.get("editions", []) if e.get("version") is not None),
+                 key=lambda e: e["version"])[-EMAIL_WEEKS:]
+    if not eds:
+        return []
+
+    def pct(n, d):
+        return "%d%%" % round(100.0 * n / d) if d else "?"
+
+    def when(iso):
+        try:
+            d = datetime.date.fromisoformat(iso)
+            return "%d %s" % (d.day, d.strftime("%b"))
+        except (TypeError, ValueError):
+            return "date unknown"
+
+    out = ["", "**Email, last %d edition%s** (open rates are rough: Apple Mail counts "
+               "an open whether or not it was read, so trust clicks more)"
+               % (len(eds), "" if len(eds) == 1 else "s")]
+    for e in reversed(eds):
+        d = e.get("delivered")
+        head = "- **Version %s** (sent %s): delivered %s of %s" % (
+            e.get("version"), when(e.get("sent_on")), d if d is not None else "?",
+            e.get("sent", "?"))
+        if e.get("tracked") and e.get("unique_opened") is not None:
+            head += ", opened by %s (%s), clicked by %s (%s)" % (
+                e["unique_opened"], pct(e["unique_opened"], d),
+                e.get("unique_clicked", 0), pct(e.get("unique_clicked") or 0, d))
+        else:
+            head += ", opens and clicks not tracked"
+        if e.get("unsubscribed"):
+            head += ", %s unsubscribed" % e["unsubscribed"]
+        out.append(head)
+    latest = next((e for e in reversed(eds) if e.get("top_links")), None)
+    if latest:
+        out.append("- Most clicked in Version %s: " % latest["version"] + "; ".join(
+            "%s (%s)" % (l.get("label") or l.get("url", "?"), l.get("unique_clicks", "?"))
+            for l in latest["top_links"][:3]))
+    try:
+        age = (today - datetime.date.fromisoformat(data.get("updated", ""))).days
+        if age > EMAIL_STALE_DAYS:
+            out.append("- These figures were last read from Resend %d days ago, so the "
+                       "newest edition may be missing." % age)
+    except ValueError:
+        pass
+    return out
+
+
 # ---------------------------------------------------------------- report
 
 def build(project, today):
@@ -418,6 +481,8 @@ def build(project, today):
         L.append("")
         word = "warning" if warns == 1 else "warnings"
         L.append(f"**Index:** {bits}, " + ("all clean." if not warns else f"{warns} {word}."))
+
+    L += email_lines(project, today)
 
     if decisions:
         L.append("")

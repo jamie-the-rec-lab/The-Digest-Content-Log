@@ -41,7 +41,9 @@ fact-check never falls below the strongest available.
    `docs/PUBLISH.md`. Reads the run report, writes `_state/publish-report.json`.
 3. **SAVE**, per "Saving the run" below. Always, even if an earlier phase stopped.
    It comes before the report so the report can say whether the save worked.
-4. **REPORT**, by running `scripts/health_report.py`. Send the printed message to
+4. **REPORT**. First refresh `digest/email-metrics.json` per "Email figures" in
+   `docs/SEND_NEWSLETTER.md` (read-only, one try, skip if refused) and save it
+   with the run. Then run `scripts/health_report.py`. Send the printed message to
    Slack, then run it again with `--format email` and send that to
    jamie@thereclab.ai via Gmail. Include the review link and the pull request
    link from `_state/publish-report.json`.
@@ -58,9 +60,19 @@ fact-check never falls below the strongest available.
   Jamie starts and approves (see "Sending the newsletter" below). The Resend
   connector may be attached to the scheduled task, and its tools are set to
   need Jamie's approval: being able to send is not permission to send. The
-  weekly run never calls any Resend tool, for any reason, including to "check"
-  or "draft" something. If one is ever waiting for approval during a weekly
-  run, something has gone wrong: log it and say so first in the report.
+  weekly run never calls any Resend tool that sends, creates, changes or deletes
+  anything, for any reason, including to "check" or "draft" something. If one is
+  ever waiting for approval during a weekly run, something has gone wrong: log
+  it and say so first in the report.
+
+  **One read-only exception (Jamie's call, 21 November 2026): the email figures.**
+  To fill in the open and click numbers for the report, the run may call exactly
+  three Resend tools, which only read: `list-broadcasts`, `get-email-metrics` and
+  `list-broadcast-clicked-links`. Nothing else, ever. Never `list-contacts`,
+  `list-broadcast-recipients` or anything that returns who the subscribers are.
+  Try once. If a call is refused, missing or asks for approval, do not wait and
+  do not retry: carry on with the figures already saved and log it. See "Email
+  figures" in `docs/SEND_NEWSLETTER.md`.
 - **Never invent a number, title, date, guest or company.** A recorded gap is fine.
 - **Nothing is proposed with an unresolved fact-check mismatch.**
 - **Never use a browser.** Fetching pages and feeds is fine and expected; driving

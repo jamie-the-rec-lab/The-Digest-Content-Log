@@ -97,6 +97,51 @@ failed gathering phase quietly handing stale material to the next digest. The
 permanent records are elsewhere: `digest/published/` for the page,
 `digest/featured-log.tsv` for what was used, `_state/RUN_LOG.tsv` for what went wrong.
 
+## Email figures (opens and clicks)
+
+**Tracking is on (since 21 November 2026).** Open and click tracking are enabled
+on `news.thereclab.ai` in Resend. Every link in the HTML email is rewritten to
+pass through `links.news.thereclab.ai` on its way to the real page. That address
+is a CNAME to `links2.resend-dns.com`, held in Cloudflare, where thereclab.ai is
+registered and its DNS lives. **The record must stay "DNS only" (grey cloud).**
+With Cloudflare's proxy on, or the record deleted, every link in the email
+breaks. Editions sent before 21 November (Version 9 and earlier) have no open
+or click data.
+
+If links in an email ever fail: switch click tracking off on the domain in
+Resend (`update-domain`, `clickTracking: false`), which stops the rewriting for
+anything sent afterwards, then check the Cloudflare record.
+
+**The figures live in `digest/email-metrics.json`**, one entry per edition:
+version, broadcast id, the date it was sent, sent, delivered, bounced,
+unsubscribed, unique opens, unique clicks, whether it was tracked, and the top
+clicked links. `scripts/health_report.py` reads that file and prints the last
+four editions. The script never talks to Resend itself.
+
+**Filling it in.** Read-only, with exactly these three Resend tools:
+
+1. `list-broadcasts`: find the digest broadcasts and their sent dates.
+2. `get-email-metrics` with the broadcast ids and the `broadcast` dimension, and
+   a start date early enough to cover them: sent, delivered, bounced,
+   unsubscribed, unique_opened, unique_clicked.
+3. `list-broadcast-clicked-links` for the newest tracked edition: keep the top
+   five as `{"label": <item title from that edition>, "url": ..., "unique_clicks": n}`.
+
+Update the last four editions (figures keep moving for a few days after a send),
+set `"updated"` to today, and save it with the run. Use the numbers exactly as
+Resend gives them: never estimate, and leave a figure as `null` if it did not
+come back. Never list contacts or recipients for this; the report needs counts,
+not names.
+
+Who does it: the weekly run, just before the health report (one try, skip if
+refused, see `CLAUDE.md`), and any send session, straight after the broadcast is
+scheduled, so the file is never more than a week behind.
+
+**Open rates are rough.** Apple Mail loads images ahead of time, which counts as
+an open whether or not the email was read, and some clients block the tracking
+image. Read the open rate as a trend across weeks. Clicks are the number to
+trust.
+
 ## Rules
 - **Never broadcast without Jamie's explicit approval of the TEST email.** No
   approval that week = no email that week (the site still updates).
