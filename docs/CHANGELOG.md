@@ -11,6 +11,7 @@ Format: date, what changed, why.
 
 ## 2026-11-21
 
+- privacy: the digest page now carries a consent line with a privacy policy link under both sign-up forms and a privacy link in the footer (template, backup, current build and the Version 9 archive copy all updated so the weekly rebuild keeps them). `build_email.py` adds a privacy link and a "sent by" line with the legal name and postal address from the new `business:` block in `config/config.yaml`, and warns if they are blank. Why: the site had no privacy policy and the emails did not say who sends them.
 - email figures: open and click tracking switched on in Resend (tracking address `links.news.thereclab.ai`, CNAME in Cloudflare, DNS only). New file `digest/email-metrics.json`, and `health_report.py` now prints delivered, opens and clicks for the last four editions (Jamie's ask). The "never touch Resend" rule gains one read-only exception for three named tools. Changed in `CLAUDE.md`, `RUN.md`, `SEND_NEWSLETTER.md`, `scripts/health_report.py`.
 
 ## 2026-11-16

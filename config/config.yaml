@@ -30,3 +30,14 @@ digest:
   featured_log: digest/featured-log.tsv
   version_file: digest/version.txt
   freshness_weeks: 8
+
+# Who sends the newsletter. Shown in the footer of every email (US and Canadian
+# law require a postal address in each one; UK rules require the business to be
+# identified). build_email.py reads these. Leave nothing blank before a send.
+business:
+  legal_name: "Jamie Jay Lyons, trading as TheRecLab"   # sole trader
+  postal_address: "International House, 64 Nile Street, London, N1 7SR"
+  privacy_url: https://thereclab.ai/privacy
+  # A one-off note shown at the top of the next email, above the preview. Use it
+  # to tell subscribers about a change, then set it back to "" after that send.
+  email_notice: "A quick housekeeping note: we now measure opens and link clicks on this email, so we can see what you find useful and choose better items. Our new privacy policy explains how, and how to opt out."
