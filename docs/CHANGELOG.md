@@ -9,6 +9,10 @@ Format: date, what changed, why.
 
 ---
 
+## 2026-11-21
+
+- email figures: open and click tracking switched on in Resend (tracking address `links.news.thereclab.ai`, CNAME in Cloudflare, DNS only). New file `digest/email-metrics.json`, and `health_report.py` now prints delivered, opens and clicks for the last four editions (Jamie's ask). The "never touch Resend" rule gains one read-only exception for three named tools. Changed in `CLAUDE.md`, `RUN.md`, `SEND_NEWSLETTER.md`, `scripts/health_report.py`.
+
 ## 2026-11-16
 
 - the run's last message: it now leads with the preview link and the pull request link, written out in full, and the phone notification carries both (Jamie's ask, so the review is one click from the session). Changed in `CLAUDE.md`, "The output".
