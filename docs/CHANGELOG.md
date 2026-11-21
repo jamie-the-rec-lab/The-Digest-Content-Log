@@ -9,6 +9,10 @@ Format: date, what changed, why.
 
 ---
 
+## 2026-11-22
+
+- sign-up forms and thank-you overlay (template, backup, current build, Version 9 archive): both forms now carry the hidden bot-trap field the server already checked for, and the overlay wording is true for a new, an existing and a returning subscriber, because the site now gives all three the same reply. Why: an independent review found the trap was missing and that the form's different replies revealed who was on the list.
+
 ## 2026-11-21
 
 - privacy: the digest page now carries a consent line with a privacy policy link under both sign-up forms and a privacy link in the footer (template, backup, current build and the Version 9 archive copy all updated so the weekly rebuild keeps them). `build_email.py` adds a privacy link and a "sent by" line with the legal name and postal address from the new `business:` block in `config/config.yaml`, and warns if they are blank. Why: the site had no privacy policy and the emails did not say who sends them.
