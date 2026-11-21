@@ -25,14 +25,14 @@ def business():
     """Sender identity for the footer, read from config/config.yaml (business:).
     A plain line reader, so this script needs no YAML package."""
     import os
-    out={"legal_name":"","postal_address":"","privacy_url":"https://thereclab.ai/privacy"}
+    out={"legal_name":"","postal_address":"","privacy_url":"https://thereclab.ai/privacy","email_notice":""}
     path=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"config","config.yaml")
     try:
         inside=False
         for line in open(path,encoding="utf-8"):
             if re.match(r"^business:\s*$",line): inside=True; continue
             if inside and re.match(r"^\S",line): break
-            m=re.match(r"^\s+(legal_name|postal_address|privacy_url):\s*(.*?)\s*(#.*)?$",line) if inside else None
+            m=re.match(r"^\s+(legal_name|postal_address|privacy_url|email_notice):\s*(.*?)\s*(#.*)?$",line) if inside else None
             if m: out[m.group(1)]=m.group(2).strip().strip('"').strip("'")
     except OSError:
         pass
@@ -42,6 +42,13 @@ def main(src, outp):
     soup=BeautifulSoup(open(src).read(), "html.parser")
     biz=business()
     identity="You are receiving this because you subscribed at thereclab.ai/digest."
+    notice=biz["email_notice"]
+    notice_html=""
+    if notice:
+        notice_html=(f'<p style="margin:0 0 18px;padding:10px 12px;background-color:#f3ede2;font-family:{FONT};font-size:13px;color:{BODY};line-height:1.5;">'
+                     f'{esc(notice)} <a href="{esc(biz["privacy_url"])}" style="color:{COR};">Privacy policy</a></p>')
+        print("NOTE: this email carries the one-off notice from config/config.yaml (business.email_notice). "
+              "Clear it after this send.", file=sys.stderr)
     if biz["legal_name"] and biz["postal_address"]:
         identity=f"TheRecLab Weekly Digest is sent by {biz['legal_name']}, {biz['postal_address']}. "+identity
     else:
@@ -151,6 +158,7 @@ def main(src, outp):
 <p style="margin:14px 0 0;font-family:{FONT};font-size:14px;font-style:italic;color:{MUT};line-height:1.5;">{sub_html}</p>
 </td></tr>
 <tr><td style="padding:22px 20px 8px;">
+{notice_html}
 <p style="margin:0 0 6px;font-family:{FONT};font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:{DARK};">{esc(brief_label)}</p>
 <p style="margin:0 0 18px;font-family:{FONT};font-size:14px;color:{BODY};line-height:1.55;">{esc(theme)}</p>
 <p style="margin:0 0 12px;font-family:{FONT};font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:{COR};">{esc(standout_heading)}</p>
@@ -168,7 +176,7 @@ def main(src, outp):
     # Comma, not a dash. The digest voice bans em and en dashes, and the later
     # safety pass used to swap the dash for a comma while leaving its spaces,
     # producing "TheRecLab Weekly Digest ,  Version 2" in the plain text header.
-    lines=[f"{kicker}, {date}", "", brief_label, theme, "", standout_heading, ""]
+    lines=[f"{kicker}, {date}", ""]+([notice+" Privacy policy: "+biz["privacy_url"], ""] if notice else [])+[brief_label, theme, "", standout_heading, ""]
     for pick, href, atext, why in standouts:
         lines.append(f"{pick.upper()+': ' if pick else ''}{atext}".strip())
         if why: lines.append(why)

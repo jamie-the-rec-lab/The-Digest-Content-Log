@@ -142,6 +142,14 @@ an open whether or not the email was read, and some clients block the tracking
 image. Read the open rate as a trend across weeks. Clicks are the number to
 trust.
 
+## A one-off note to subscribers
+
+`business.email_notice` in `config/config.yaml` puts a short note at the top of
+the next email, above the preview, with a link to the privacy policy. Use it to
+tell subscribers about a change to how their data is used. `build_email.py`
+says so when it builds an email that carries one. **Set it back to `""` once
+that broadcast has gone**, or the same note goes out every week.
+
 ## Rules
 - **Never broadcast without Jamie's explicit approval of the TEST email.** No
   approval that week = no email that week (the site still updates).
