@@ -36,7 +36,7 @@ digest:
 # identified). build_email.py reads these. Leave nothing blank before a send.
 business:
   legal_name: "Jamie Jay Lyons, trading as TheRecLab"   # sole trader
-  postal_address: ""    # one line; a registered mailbox address is fine
+  postal_address: "International House, 64 Nile Street, London, N1 7SR"
   privacy_url: https://thereclab.ai/privacy
   # A one-off note shown at the top of the next email, above the preview. Use it
   # to tell subscribers about a change, then set it back to "" after that send.
