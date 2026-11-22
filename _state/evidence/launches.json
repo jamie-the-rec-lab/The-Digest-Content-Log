@@ -1,0 +1,297 @@
+{
+  "run_date": "2026-11-22",
+  "sweep_ran": true,
+  "window": "2026-11-16 to 2026-11-22, plus anything clearly missed since about 2026-11-01",
+  "vendors_read": [
+    {
+      "name": "Ashby",
+      "tier": "a",
+      "how": "feed page",
+      "newest": "17 Nov 2026: Introducing Ashby AI Interviewer to uncover more qualified candidates (previous: 20 Oct 2026 Audit Logs)"
+    },
+    {
+      "name": "Gem",
+      "tier": "a",
+      "how": "blog page (index shows no dates)",
+      "newest": "Top post 'Introducing GeMCP', whose own page says 'Posted on Aug 4' with no year; nothing datable to the window"
+    },
+    {
+      "name": "Greenhouse",
+      "tier": "a",
+      "how": "release notes page",
+      "newest": "'Release notes: October 2026' (month only); November 2026 notes not yet published"
+    },
+    {
+      "name": "Jack & Jill",
+      "tier": "a",
+      "how": "blog page",
+      "newest": "16 Nov 2026: 'Why your talent pool is smaller than it should be' (an essay, not a release); last product post is Company Insights, 4 Nov 2026, already known"
+    },
+    {
+      "name": "Juicebox",
+      "tier": "a",
+      "how": "feed page",
+      "newest": "19 Nov 2026: Introducing Blends in Juicebox Agents (previous: 12 Nov Juicebox for Mobile, already known)"
+    },
+    {
+      "name": "Metaview",
+      "tier": "a",
+      "how": "RSS (redirects to content.metaview.ai/rss, first 3 items read) plus backup product-updates page",
+      "newest": "RSS: 20 Nov 2026 comparison guides only. Product updates: 'November 2026: Deeper sourcing, better searches, & personalized outreach', dated 4 Nov 2026"
+    },
+    {
+      "name": "Pin",
+      "tier": "a",
+      "how": "blog page",
+      "newest": "20 Nov 2026 data post; newest product update 18 Nov 2026: Meet Pin's Notetaker"
+    },
+    {
+      "name": "Pinpoint",
+      "tier": "a",
+      "how": "RSS (developer changelog)",
+      "newest": "pubDate 19 Nov 2026, entry titled 'November 2027' in the feed (title/year mismatch is the feed's own): API changes, new Reference Checks, Quality of Hire Surveys and Job Postings endpoints"
+    },
+    {
+      "name": "Teamtailor",
+      "tier": "a",
+      "how": "feed page, top dated entries",
+      "newest": "18 Nov 2026: Decide how candidates reschedule their interviews; 16 Nov: Stay on top of your reference checks; 13 Nov x3; 12 Nov. All labelled 'Improvement'"
+    },
+    {
+      "name": "Eightfold",
+      "tier": "b",
+      "how": "RSS",
+      "newest": "Only item: 'Stop Managing AI Agents. Meet AI Recruiting Teammate.' (already known, 12 Nov preview); nothing newer"
+    },
+    {
+      "name": "First.cx",
+      "tier": "b",
+      "how": "RSS",
+      "newest": "26 Mar 2026: Latest Product Updates - March 2026; nothing since"
+    },
+    {
+      "name": "iCIMS",
+      "tier": "b",
+      "how": "feed page",
+      "newest": "Release name still 'Fall Release 2026' (unchanged, already in library 20 Oct); nothing dated November"
+    },
+    {
+      "name": "hackajob",
+      "tier": "b",
+      "how": "search",
+      "newest": "Nothing dated November 2026 found; newest Archer news surfaced is 17 Feb 2026 (expansion to all knowledge-worker roles)"
+    },
+    {
+      "name": "Workday",
+      "tier": "b",
+      "how": "search, recruiting only",
+      "newest": "Nothing dated November 2026 found for recruiting"
+    }
+  ],
+  "vendors_unreadable": [
+    {
+      "name": "Lever",
+      "tier": "b",
+      "why": "HTTP 401 on the release notes page, tried once, not retried (same as last week)"
+    },
+    {
+      "name": "SmartRecruiters",
+      "tier": "b",
+      "why": "HTTP 403 on the what's-new page, tried once, not retried (same as last week)"
+    },
+    {
+      "name": "Workable",
+      "tier": "b",
+      "why": "Help article has no entries and points to workable.com/recent-updates, which is built by JavaScript and returned only a heading and signup form; one search found nothing dated November 2026"
+    },
+    {
+      "name": "Screenloop",
+      "tier": "b",
+      "why": "Search-only vendor; the search returned no Screenloop results at all"
+    },
+    {
+      "name": "Nova",
+      "tier": "b",
+      "why": "Search-only vendor (Nova by Dweet); the search returned only unrelated products called Nova"
+    }
+  ],
+  "material": [
+    {
+      "vendor": "Ashby",
+      "tier": "a",
+      "release": "Ashby AI Interviewer",
+      "date": "2026-11-17",
+      "url": "https://www.ashbyhq.com/product-updates/ai-interviewer",
+      "line": "Ashby released AI Interviewer, generally available on all All-in-One plans (tagged Foundations, Plus, Enterprise; labelled 'Major Release'): candidates complete a structured, job-specific spoken interview in the browser on their own time, and the team reviews transcript, evaluation and evidence in Ashby. 200 interviews are included free per All-in-One customer as a one-time allotment.",
+      "quote": "AI Interviewer conducts structured, job-specific interviews based on requirements your team defines. Candidates complete a conversation in their browser, on their own time. Your team reviews the transcript, evaluation, and supporting evidence directly in Ashby and decides what happens next. Every interview needs human review.",
+      "more_quotes": [
+        "Today, we’re releasing Ashby AI Interviewer, giving recruiting teams a way to uncover more qualified candidates and run more consistent interviews without adding live screens to recruiters’ calendars.",
+        "AI Interviewer is generally available across all Ashby All-in-One plans.",
+        "Each All-In-One customer gets 200 interviews included for free, as a one-time, non-expiring allotment.",
+        "Candidates receive written disclosure during onboarding before recording starts, and are told again out loud when the interview begins that they are interacting with AI. They must affirmatively consent to continue.",
+        "Ashby is designed to flag vague questions, criteria that can’t be evaluated, and potential conflicts with EEOC guidelines.",
+        "Ending the interview does not reject the candidate: your team reviews the assessment and decides what happens next."
+      ],
+      "view": "Clears the bar clearly and is the lead launch: a net-new product and a major AI capability from a tier A ATS, generally available, with concrete terms (200 free interviews) and consent and human-review safeguards worth quoting. Ashby has not been featured as a launch in the log. Price of additional interviews is not stated (gap)."
+    },
+    {
+      "vendor": "Pin",
+      "tier": "a",
+      "release": "Pin's Notetaker",
+      "date": "2026-11-18",
+      "url": "https://www.pin.com/blog/meet-pins-notetaker/",
+      "line": "Pin added a Notetaker that auto-joins candidate meetings on the recruiter's calendar, drafts interview questions the day before, records and transcribes, links notes to the candidate, and lets an intake call with a hiring manager become the starting point for a search instead of a job description.",
+      "quote": "After an intake call with a hiring manager, select that call when you create the job position. Pin starts from what the hiring manager told you, instead of a job description.",
+      "more_quotes": [
+        "Pin joins your calls, takes notes, and turns intake calls into searches.",
+        "Turn on auto-join, and Pin joins the candidate meetings on your calendar.",
+        "The day before, Pin drafts your questions from the job and the candidate’s profile, along with what to listen for and the red flags to watch."
+      ],
+      "view": "Clears the bar, second to Ashby: a net-new product area for Pin (interview notes) with one genuinely distinctive angle, intake call to search. Caveats: the article itself states no pricing or availability; 'Interview and intake notes, free on every plan' appears only in the site navigation, not the post, so treat pricing as a gap unless that is acceptable sourcing. Pin was featured two editions ago (Autopilot, 4 Nov), so the editor may prefer to rest it."
+    },
+    {
+      "vendor": "Juicebox",
+      "tier": "a",
+      "release": "Blends in Juicebox Agents (with ATS Intelligence)",
+      "date": "2026-11-19",
+      "url": "https://juicebox.ai/blog/introducing-blends-in-juicebox-agents",
+      "line": "Juicebox launched Blends, one-click actions inside its Agents (Talent Mapping and Pipeline Health first), plus ATS Intelligence, which gives the Agent access to Ashby or Greenhouse funnel, feedback and scorecard data and feeds it back into sourcing; ATS Intelligence is on the Business plan only.",
+      "quote": "Today we're introducing Blends, one-click actions in every Juicebox Agent that help you run a more informed search across the whole recruiting lifecycle.",
+      "more_quotes": [
+        "New ATS Intelligence gives your Agent full access to your Ashby or Greenhouse data.",
+        "Feed it all back into sourcing so new profiles look like the candidates who advance, not the ones who fall off.",
+        "ATS Intelligence is available on the Business plan for Ashby and Greenhouse.",
+        "Blends are live today."
+      ],
+      "view": "Borderline, third choice. Blends on its own is a packaged shortcut inside an existing product; ATS Intelligence (interview outcomes feeding back into sourcing) is the part that approaches a major AI capability. With a two-block cap, Ashby and Pin outrank it; take it only if Pin is rested. No figures or pricing in the post."
+    }
+  ],
+  "not_taken": [
+    {
+      "vendor": "Metaview",
+      "release": "November 2026 update: sourcing candidates without LinkedIn profiles, Filters sourcing mode, prompt-generated outreach sequences",
+      "date": "2026-11-04",
+      "url": "https://www.metaview.ai/resources/blog/november-sourcing-searches-outreach",
+      "why": "Monthly round-up of incremental upgrades to the existing Metaview Sourcing product, outside this week's window; no net-new product. Sourcing people with no LinkedIn profile is the most interesting line if a thin week ever needs it."
+    },
+    {
+      "vendor": "Gem",
+      "release": "GeMCP (Gem's MCP connection to Claude, ChatGPT and other AI tools)",
+      "date": null,
+      "url": "https://www.gem.com/blog/introducing-gem-mcp",
+      "why": "Date gap: the page says only 'Posted on Aug 4' with no year, and the blog index shows no dates. On its face it is months outside the window, and it is an integration. Left out."
+    },
+    {
+      "vendor": "Teamtailor",
+      "release": "Six 'Improvement' entries, 12 to 18 Nov 2026 (interview rescheduling control, reference check notifications, time zones, sidebar resize, employee search, PDFs in offer templates)",
+      "date": "2026-11-18",
+      "url": "https://www.teamtailor.com/en/productnews/",
+      "why": "All minor tweaks and UI changes, labelled 'Improvement' by Teamtailor itself."
+    },
+    {
+      "vendor": "Pinpoint",
+      "release": "Developer API changelog entry",
+      "date": "2026-11-19",
+      "url": "https://developers.pinpointhq.com/changelog/1029",
+      "why": "API endpoint changes for developers, not a product launch a recruiter would act on; the feed titles the entry 'November 2027' against a 2026 pubDate."
+    },
+    {
+      "vendor": "Jack & Jill",
+      "release": "Blog essay 'Why your talent pool is smaller than it should be'",
+      "date": "2026-11-16",
+      "url": "https://www.jackandjill.ai/blog/passive-candidates",
+      "why": "An essay, not a release."
+    },
+    {
+      "vendor": "Greenhouse",
+      "release": "Release notes: October 2026",
+      "date": null,
+      "url": "https://support.greenhouse.io/hc/en-us/articles/57772545835675-Release-notes-October-2026",
+      "why": "October notes, month only; Greenhouse in Claude already featured on 16 Nov. November notes not out."
+    },
+    {
+      "vendor": "Eightfold",
+      "release": "AI Recruiting Teammate preview",
+      "date": "2026-11-12",
+      "url": "https://eightfold.ai/blog/meet-ai-recruiting-teammate/",
+      "why": "Known from last week, not taken then; nothing newer in the feed."
+    },
+    {
+      "vendor": "iCIMS",
+      "release": "Fall Release 2026",
+      "date": null,
+      "url": "https://www.icims.com/en-gb/products/whats-new/",
+      "why": "Release name unchanged since the 20 Oct item already in the library."
+    }
+  ],
+  "ai_news": {
+    "picked": true,
+    "source": "EDPB",
+    "title": "EDPB selects automated decision-making in recruitment, including AI candidate screening, as the topic of its 2027 coordinated enforcement action",
+    "date": "2026-11-11",
+    "url": "https://www.edpb.europa.eu/news/edpb-adopts-statement-on-review-of-the-republic-of-korea-adequacy-processor-bcr_en",
+    "second_source_url": "https://www.handleygill.co.uk/handley-gill-blog/data-protection-edpb-coordinated-enforcement-framework-action-2027-automated-decision-making-adm-recruitment",
+    "second_source_date": "2026-11-19",
+    "path": "library/news/transcripts/EDPB/2026-11-11-coordinated-enforcement-2027-automated-decision-making-in-recruitment.md",
+    "tsv_part": "_state/evidence/parts/newsitem.tsv",
+    "market": "EU/EEA. The UK's ICO is not an EDPB member and is not part of this action.",
+    "date_note": "The announcement is dated 11 November, five days before the 16 to 22 November scan week, and was not picked up by last week's scan. It surfaced this week through the 19 November Handley Gill analysis. Picked anyway because it is regulation whose subject is recruitment itself and it is inside the 8 week window. If the editor wants strictly in-week, the fallback is the Littler survey in ai_news_considered (not saved to the library).",
+    "why": "The EU's national data protection regulators have named AI candidate screening as their joint enforcement target for 2027. For anyone hiring in the EU with automated screening or rejection, this is a dated, official signal to check the tools now: is any candidate rejected with no human involved, and can you tell a candidate what the tool did. It is about hiring specifically, not generic AI news, and no launch or report this week covers it. Because the subject is recruitment, it could sit in Section 3 rather than Section 4.",
+    "points": [
+      {
+        "claim": "The EDPB chose automated decision-making in recruitment, including AI-driven, as the topic of its sixth coordinated enforcement action.",
+        "figure": "sixth coordinated enforcement action",
+        "quote": "The EDPB picked the topic for its sixth coordinated enforcement action, which will concern automated decision-making (ADM), including AI-driven ADM, in recruitment."
+      },
+      {
+        "claim": "The focus is two GDPR rights as they apply to candidate screening tools: not being subject to solely automated decisions, and the right of access.",
+        "figure": null,
+        "quote": "More specifically, the coordinated action will focus on the enforcement of the right not to be subject to decisions based solely on automated processing and the related right of access, in the context of the use of automated candidate screening tools, including AI-driven ones."
+      },
+      {
+        "claim": "National authorities opt in over the coming weeks and the action starts during 2027; no start date or list of countries is given.",
+        "figure": "2027",
+        "quote": "DPAs will join this action on a voluntary basis in the coming weeks, and the action itself will be launched in the course of 2027."
+      },
+      {
+        "claim": "Second source (Handley Gill, 19 Nov 2026) confirms the date and scope and advises auditing AI use in recruitment now; this is the consultancy's advice, not the regulator's.",
+        "figure": "11 November 2026",
+        "quote": "Organisations shouldn’t wait until they are contacted by their supervisory authority as part of the Coordinated Enforcement Action to investigate and, if necessary, remediate their use of AI in recruitment."
+      }
+    ],
+    "gaps": [
+      "No start date beyond 'in the course of 2027'",
+      "Participating national authorities not yet named",
+      "No fines, findings or numbers in the announcement",
+      "Handley Gill article only partly read (opening and closing sections)"
+    ]
+  },
+  "ai_news_considered": [
+    {
+      "title": "Littler 2026 European Employer Survey: AI-linked workforce reductions and reduced hiring",
+      "source": "Littler (employment law firm)",
+      "date": "2026-11-18",
+      "url": "https://www.littler.com/press/press-release/european-employers-face-uncertain-outlook-amid-accelerating-ai-adoption-and",
+      "second_url": "https://www.littler.com/news-analysis/littler-report/littler-european-employer-survey-2026",
+      "why_not": "Strong runner-up and the best strictly in-week item, but it is a survey report rather than news, and both URLs are Littler's own, so there is no independent second source. Figures as relayed by the fetch tool from the press release, not yet checked against a saved page: nearly 500 respondents across Europe, fieldwork August and September 2026; workforce reductions due to actual or anticipated AI use 'to 28% from 13%'; reduced hiring 'to 32% from 13%'; 94% use AI in HR or employment law functions. Not saved to the library. Worth considering as a wider-net report next week or as a swap; the PDF appears free."
+    },
+    {
+      "title": "EU AI Act high-risk (employment) obligations delayed to December 2027",
+      "source": "various commentary",
+      "date": null,
+      "url": "https://www.technology.org/2026/10/13/eu-ai-act-deadlines-after-the-digital-omnibus-what-applies-from-december-2026-to-august-2028/",
+      "why_not": "Not this week's news: the delay took effect in the summer per the search results, and this week's coverage is commentary from low-quality sources."
+    },
+    {
+      "title": "UK: ICO recruitment and automated decision-making guidance",
+      "source": "various commentary",
+      "date": null,
+      "url": "https://recruitly.io/resources/ai-act-for-recruiters-uk",
+      "why_not": "No new UK development found for 16 to 22 November; the guidance is reported as still in draft, and the sources are vendor blogs."
+    }
+  ],
+  "searches_run": {
+    "launch_fallback": 5,
+    "ai_news": 2
+  }
+}

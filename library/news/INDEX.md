@@ -27,6 +27,14 @@ Company: Dayforce
 Tags: acquisition, ai interviewing, ai agents, ai sourcing, ai screening, market news, global
 File: `transcripts/Dayforce/2026-10-23-acquires-ribbon-ai.md`
 
+## EDPB (1 episodes)
+
+### 2026-11-11 ("Brussels, 11 November") — [EDPB selects automated decision-making in recruitment as the topic of its 2027 coordinated enforcement action]()
+The EU's data protection regulators (EDPB) chose automated decision-making in recruitment, including AI candidate screening tools, as the topic of their 2027 coordinated enforcement action (announced 11 Nov 2026), focused on the GDPR right not to face solely automated decisions and the right of access; no start date beyond 2027 and participating authorities not yet named
+Company: European Data Protection Board
+Tags: regulation, legal, ai screening, ai governance, ai transparency, eu
+File: `transcripts/EDPB/2026-11-11-coordinated-enforcement-2027-automated-decision-making-in-recruitment.md`
+
 ## Fortune (1 episodes)
 
 ### 2026-09-30 — [LinkedIn CEO says job seekers are sending 30% more applications than pre-pandemic, and it is harder to "know who can actually do the job"](https://fortune.com/2026/09/30/linkedin-ceo-dan-shapero-says-job-seekers-sending-out-30-more-applications-pre-pandemic-harder-know-who-can-do-job)
