@@ -1,3 +1,38 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Hung Lee, host of Brainfood Live On Air, with a panel of Adam (Director of Talent Science at CodeSignal, the episode sponsor), Daniel Chait (CEO and co-founder of Greenhouse), Kat Kibben (Three Ears Media) and Rachel Gully (recruiting operations)  ·  **Show:** Brainfood, 20 Nov 2026
+**Tags:** skills-based hiring, ai interviewing, interview cheating, candidate experience, candidate communication, talent market data, ai job descriptions, talent intelligence, rec tech, human-ai collaboration
+
+**When to use this:** You are deciding whether to add skills tests or AI interviews because CVs no longer tell you anything, and you need figures and candidate experience rules to back the change.
+
+**Big idea:** AI generated applications have pushed employers into skills testing, yet most still screen on career history, so the gap between what employers say they value and what they do is the real state of skills-based hiring in 2026.
+
+**Frameworks & plays:**
+- Define what you are assessing before choosing an assessment. Kibben says teams hit a wall because "they never do a great job of defining what they were looking for in the first place".
+- Tell candidates why the assessment exists, what good looks like and how long it takes. Kibben argues "it's not actually the assessment that's usually the problem", it is the lack of communication around it.
+- Scale the assessment to mutual investment, so the longest tasks sit in the final round when the employer is also putting hours in.
+- Keep one process for sourced and applied candidates, but change the opening message for people you approached. Gully suggests a conversation with someone who knows the work before any test.
+- Decide per role how close to today's tasks to assess. Gully's test is how fast the work is changing and how much is riding on it now.
+- Give candidates the AI tools they would use in the job and police only unauthorised ones. CodeSignal says it moved from a defensive stance to this over two years.
+- Publish what earns the top of a salary range, because Kibben notes ranges are listed without the behaviours or experience that qualify for the top.
+
+**Data & benchmarks:**
+- Chait, citing Greenhouse's 2026 future of hiring survey, says 86% of employers changed their hiring process because of fake or AI generated applications, and 48% of those added a live skills test or work sample.
+- In the same survey 60% of employers ranked job skills and 51% ranked ability to learn as most important, yet career history was the top factor in who advances.
+- Chait says 96% of US job seekers and 97% of Australian job seekers wish they could show employers something their application does not include.
+- Chait says 90% of candidates offered an AI led interview rated it an excellent experience. He did not name the source, and Greenhouse sells a voice AI product.
+
+**Tools & prompts:**
+- CodeSignal described a new product that scores real work artefacts from Zoom, GitHub and Gong against rubrics, and can backfill six months of records to show skills by job. This is a vendor's description of its own product.
+
+**Contrarian take:**
+- Chait predicts people will announce the death of the CV in 2027 and be wrong, because it will be supplemented and not replaced.
+- Adam says personality and cognitive tests "were proxies for skills. They weren't skills."
+
+**Steal this (do tomorrow):**
+- Add three lines to every assessment invitation covering why it is used, what good looks like and how long it takes.
+- Tell every candidate whether they are moving forward, which Chait calls "the easiest thing in the world to do".
+<!--/SUMMARY-->
 # Brainfood Live on Air   Ep419   Skill Based Hiring   Where Are We At in 2026?
 
 - **Podcast:** Brainfood

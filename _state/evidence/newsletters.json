@@ -1,0 +1,144 @@
+{
+  "run_date": "2026-11-22",
+  "searched": {
+    "Ashby Community": 0,
+    "Data Driven Recruiter": 1,
+    "Full Stack Recruiter": 0,
+    "Gem Newsletter": 0,
+    "PromptMates Newsletter": 2,
+    "RecOps Collective": 2,
+    "Remade.md": 0,
+    "TA Unboxed": 3
+  },
+  "already_saved": [
+    {
+      "newsletter": "Data Driven Recruiter",
+      "subject": "DDR85 - The Hiring Safety Playbook",
+      "thread_id": "1a1ca80c107a1800",
+      "file": "Data Driven Recruiter/2026-11-11-ddr85-the-hiring-safety-playbook.md"
+    },
+    {
+      "newsletter": "PromptMates Newsletter",
+      "subject": "The fake recruiter behind a $6.3bn hack",
+      "thread_id": "1a1c0d4d080d5123",
+      "file": "PromptMates Newsletter/2026-11-09-the-fake-recruiter-behind-a-6-3bn-hack.md"
+    },
+    {
+      "newsletter": "PromptMates Newsletter",
+      "subject": "Recruiter demand is at a record high",
+      "thread_id": "1a1e4e265e593299",
+      "file": "PromptMates Newsletter/2026-11-16-recruiter-demand-is-at-a-record-high.md"
+    },
+    {
+      "newsletter": "RecOps Collective",
+      "subject": "Week of November 9th, 2026",
+      "thread_id": "1a1d214b005b9284",
+      "file": "RecOps Collective/2026-11-12-week-of-november-9th-2026.md"
+    },
+    {
+      "newsletter": "TA Unboxed",
+      "subject": "We're so focused on fake candidates, we're missing the fake recruiters",
+      "thread_id": "1a1c48b8a0865d46",
+      "file": "TA Unboxed/2026-11-10-were-so-focused-on-fake-candidates-were-missing-the-fake-recruiters.md"
+    },
+    {
+      "newsletter": "TA Unboxed",
+      "subject": "How Do Candidates Know Your Recruiters Are Real?",
+      "thread_id": "1a1d3fa3c8527066",
+      "file": "TA Unboxed/2026-11-13-how-do-candidates-know-your-recruiters-are-real.md"
+    }
+  ],
+  "items": [
+    {
+      "path": "TA Unboxed/2026-11-20-is-sourcing-about-to-make-a-big-comeback.md",
+      "newsletter": "TA Unboxed",
+      "title": "Is sourcing about to make a big comeback?",
+      "date": "2026-11-20",
+      "thread_id": "1a1f806c3fe7ae7b",
+      "public_url": "https://taunboxed.substack.com/p/is-sourcing-about-to-make-a-big-comeback",
+      "sponsor_flag": "Sponsored by Metaview (fillmore). Opening sponsor block and the in-body line 'Tools such as Metaview’s fillmore can help with candidate discovery and outreach' are sponsor content; not used as evidence.",
+      "reader_fit": "Practical, vendor-neutral sourcing argument for in-house TA leads and agency recruiters: a budget experiment, a pre-advert sourcing sequence and a referral technique they can try this week.",
+      "points": [
+        {
+          "claim": "Darren Bush says the highest application count he has read about for one role is 18,000, and the team reportedly still sourced candidates directly. The employer and the original source are not named in the issue.",
+          "figure": "18,000 applications for a single role (unnamed employer; 'the highest I’ve read about')",
+          "quote": "The highest I’ve read about is a role receiving 18,000 applications. Despite that volume, the team reportedly sourced candidates directly."
+        },
+        {
+          "claim": "He cites a post about a four-person team at an unnamed venture firm that helped make more than 250 hires in three and a half years, mainly through networks and outbound sourcing, and cut its LinkedIn Recruiter spend.",
+          "figure": "four-person team; more than 250 hires; three and a half years (unnamed venture firm, seen in a post)",
+          "quote": "I recently saw a team post how a four-person team at a venture firm had helped make more than 250 hires in three and a half years, mainly through networks and outbound sourcing."
+        },
+        {
+          "claim": "His suggestion is to ring-fence 20% of sourcing technology budget or capacity to test alternatives to LinkedIn Recruiter, comparing candidates discovered, shortlist quality, response rates, recruiter hours and hiring outcomes. He says it is a challenge, not a benchmark.",
+          "figure": "20% of sourcing technology budget or capacity",
+          "quote": "What if we set aside 20% of our sourcing technology budget or capacity to test alternatives? Not a universal benchmark, just a practical challenge."
+        },
+        {
+          "claim": "He proposes sourcing before the job is advertised (map the market, rediscover ATS and CRM candidates, ask networks, start conversations early) so the intelligence shapes the brief at kickoff.",
+          "figure": "ATS and CRM rediscovery; hiring kickoff",
+          "quote": "That intelligence could shape the brief before we spend money advertising it."
+        },
+        {
+          "claim": "He revives Glen Cathey's 'meta-sourcing': asking people who are not interested or available who else they rate, and tracking introductions as a team measure.",
+          "figure": "meta-sourcing (Glen Cathey's term)",
+          "quote": "Glen Cathey calls it meta-sourcing: sourcing people through the people you’ve already sourced."
+        }
+      ]
+    },
+    {
+      "path": "RecOps Collective/2026-11-20-week-of-november-16th-2026.md",
+      "newsletter": "RecOps Collective",
+      "title": "Week of November 16th, 2026",
+      "date": "2026-11-20",
+      "thread_id": "1a1f6948d689016f",
+      "public_url": "https://recops.substack.com/p/week-of-november-16th-2026",
+      "sponsor_flag": "Newsletter states it is sponsor-free. The vendor product-update list (Atlas, Brighthire, Dover, Draup, Greenhouse, Juicebox, Metaview, Pin, Pinpoint, Screenloop, SmartRecruiters and others) is vendor content, titles only, not used as evidence of what the products do.",
+      "reader_fit": "Lead piece is a short think-piece on how compensation teams price offers; US-framed (FP&A, HRBPs, Radford) but the idea transfers to UK in-house teams. The rest is a links roundup, useful mainly as a pointer to this week's vendor launches.",
+      "points": [
+        {
+          "claim": "The lead piece (no byline in the email) says that in many non-startups FP&A approves the posted range and HRBPs argue internal equity, but Compensation makes the salary recommendation.",
+          "figure": "FP&A, HRBPs, Compensation",
+          "quote": "For many non-startups, FP&A approves the range that gets posted and HRBPs fight for internal equity, but Compensation ultimately gives the salary recommendation."
+        },
+        {
+          "claim": "Compensation teams benchmark externally (the piece names Radford Job Codes) and also run a confidential internal study valuing particular skills or qualifications, which TA does not get to see.",
+          "figure": "Radford Job Codes",
+          "quote": "BUT they also do their own internal study to determine the value of a particular skill or qualification that adds more to the offer."
+        },
+        {
+          "claim": "Sharing that skills pricing would be more precise than telling candidates the company aims for the middle of the range.",
+          "figure": "middle 50% of the range",
+          "quote": "Could they? 100%, and it would actually provide more precise pricing than just telling a candidate that we aim for the middle 50% of the range."
+        },
+        {
+          "claim": "The 'dynamic pricing' idea: a candidate-facing calculator showing the likely offer, with the number rising or staying flat as interviews uncover skills. The author says most companies are not built for it.",
+          "figure": "candidate-facing calculator",
+          "quote": "As they interviewed, that salary number could go up or stay flat based on new information uncovered during the interview process (e.g., maybe they didn’t list a skill on a resume, but it comes up repeatedly in the interview process and is a needed target skill)."
+        },
+        {
+          "claim": "Awards nominations close on Friday 4 December. Vendor updates listed this week (titles only) include Brighthire's three additions to candidate fraud detection, Dover fraud detection and Draup for Talent as a connector in Claude.",
+          "figure": "Friday, December 4th",
+          "quote": "Nominations close on Friday, December 4th."
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "newsletter": "RecOps Collective",
+      "path": "RecOps Collective/2026-11-20-week-of-november-16th-2026.md",
+      "gap": "The 'Survey' heading in the lead piece is empty in the plain text body (embedded survey did not come through). Not reconstructed."
+    },
+    {
+      "newsletter": "TA Unboxed",
+      "path": "TA Unboxed/2026-11-20-is-sourcing-about-to-make-a-big-comeback.md",
+      "gap": "The 18,000-application role and the four-person venture firm team are unnamed and unsourced in the issue; original sources cannot be attributed."
+    }
+  ],
+  "notes": [
+    "Gem Newsletter: search 'from:hello@gem.com from:\"Gem Newsletter\" newer_than:14d' returned nothing; no library folder exists yet.",
+    "Both new issues carry a real 'View this post on the web' URL in the email; public_url taken from there, not guessed.",
+    "RecOps date is the email's received date (2026-11-20T01:31Z); earlier files may have used the US-evening date."
+  ]
+}

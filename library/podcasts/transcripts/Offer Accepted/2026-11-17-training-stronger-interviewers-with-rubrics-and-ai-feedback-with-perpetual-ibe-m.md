@@ -1,3 +1,38 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Perpetual Ibe, Head of Talent Acquisition at Moniepoint, who joined as a lead technical recruiter and is piloting an AI agent that scores interviewers after every call  ·  **Show:** Offer Accepted, 17 Nov 2026
+**Tags:** interviewer training, ai interview notes, ai agents, scorecards, structured interviewing, candidate experience, hiring manager alignment, stakeholder management, human-ai collaboration, building ai tools
+
+**When to use this:** You grew fast, first-time managers are interviewing without ever being shown how, and one-off interviewer training has not stuck.
+
+**Big idea:** Interviewing is a skill that needs feedback after every interview, and an agent can deliver that privately as long as rubrics and training were put in place first.
+
+**Frameworks & plays:**
+- Do the groundwork before the agent. The team first defined rubrics for each job family, then launched a "license to hire" training programme, and only then added the agent "to make sure that this work we've done, we're getting results from it".
+- Score each interview on four dimensions. These are question quality including follow-up questions, talk time ratio, candidate experience including whether the interviewer set out the structure, and coverage of the skills in the rubric.
+- Deliver a score out of 10 per dimension with a reason and an improvement tip. Ibe's example is "candidate experience you scored eight over 10 because you were warm" and "talk time ratio you scored two over 10".
+- Send it only to the interviewer in Slack. Ibe says people "might become defensive and close down" when a person gives the same feedback.
+- Tell interviewers the agent can be wrong. Her examples are an agent flagging a missing follow-up question where none was needed, and an AI culture assessment tool that marked a candidate weak when the recruiter had seen the opposite. The recruiter advanced the candidate, who was successful.
+- Get the CEO to tie interviewing quality to company goals. Ibe says initiatives seen as "just a TA initiative" get ignored.
+
+**Data & benchmarks:**
+- Before training, some interviewers were speaking 70% of the time. The target is for the candidate to speak 60% of the time.
+- Moniepoint grew from about 200 employees to 4,500 between 2021 and now, which is why interviewer skills lagged.
+- The agent is still a pilot. Ibe says "we might not have like numbers to attach the impact right now". The change seen so far is interviewers reading the kit and CV before the call.
+
+**Tools & prompts:**
+- Metaview provides the transcripts and Slack delivers the feedback.
+- Before the agent existed, Ibe asked Claude to evaluate her own interviews, including "Did I ask the right questions?"
+- A colleague built an executive hiring tracker that became "like another ATS on top of our ATS", and the CEO uses it.
+
+**Contrarian take:**
+- Ibe says TA should not treat hiring managers as customers. "They are not our customers. They should be our partners."
+
+**Steal this (do tomorrow):**
+- Check talk time on your last five recorded interviews and aim for the candidate speaking 60% of the time.
+- Paste one of your own interview transcripts into an AI assistant and ask whether you asked the right questions and where you should have followed up.
+- Read the CV and interview kit before the call, not during it.
+<!--/SUMMARY-->
 # Training Stronger Interviewers With Rubrics and AI Feedback with Perpetual Ibe, Moniepoint Inc.
 
 - **Podcast:** Offer Accepted

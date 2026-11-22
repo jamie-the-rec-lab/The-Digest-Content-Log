@@ -1,3 +1,40 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Chloe Seeley, VP and Global Head of Talent at Moniepoint, previously at Checkout.com and Amazon, whose TA team built its own interviewer coaching agent without engineers  ·  **Show:** 10x Recruiting, 19 Nov 2026
+**Tags:** ai interview notes, ai agents, building ai tools, interviewer training, scorecards, structured interviewing, values interviews, quality of hire, ai upskilling, recruiting operations
+
+**When to use this:** Your interviewer training is not changing how people actually interview, and you cannot sit in on enough interviews to coach them yourself.
+
+**Big idea:** An AI agent can coach every interviewer after every interview, but only when a written rubric for each job family and stage tells it what the interview was supposed to find out.
+
+**Frameworks & plays:**
+- Diagnose before you build. Seeley looked at attrition six and 12 months after hire, found the first six months "much higher than I expected them to be", and read that as a fault in the hiring process.
+- Use interview recordings as evidence for a stakeholder roadshow. Her findings were that interviewers dominated the conversation, the same questions came up at every stage, and interviews covered technical skills with little on values.
+- Write a rubric for every job family at every stage that says why the stage exists and what evidence the interviewer should collect. The agent is then updated by editing the rubric.
+- Have the agent review four areas after each interview. These are conversational metrics such as talk time and interruptions, question quality and probing, coverage of the rubric, and candidate experience.
+- Send the feedback privately in Slack within 5 minutes. It always starts with what went well and gives an example of the probe the interviewer could have used.
+- When an interviewer misses part of the rubric, have the automation tell the next interviewer what to cover and suggest a question.
+- Feed every result into a dashboard. Seeley says that if "eight out of 10 interviewers" do the same thing, "it probably means our rubrics is not quite right".
+- Add a second "devil's advocate agent" that challenges the first before anything reaches the interviewer.
+
+**Data & benchmarks:**
+- The build took "about two months" from idea to live, pilot included, and was done by an executive recruiter rather than an engineer. Maintenance is now part of her role.
+- Seeley joined in January and had Metaview live by March.
+- No outcome figures were given for attrition or quality of hire since the agent launched.
+
+**Tools & prompts:**
+- Metaview supplies the interview record and Slack delivers the coaching. The captions also name "anti-gravity" and "NAT" as tools the team can use, which are probably garbled product names.
+- The first AI session for the people team used Gemini and Gems to build presentations in Google Sites, chosen to show that AI is simple.
+
+**Contrarian take:**
+- Seeley is "not a huge fan of just having a standalone values interview" and puts values questions into every stage instead.
+- Her planned bar raiser agent will score the candidate against the rubric at each stage, but she says the "human always stays in the loop". It is not built yet.
+
+**Steal this (do tomorrow):**
+- Pick one job family and write down, for each interview stage, the evidence the interviewer must come away with.
+- Run one of your own interview transcripts against that rubric in an AI tool and ask for what went well, one missed probe and an example question.
+- Give the person who wants to build this protected time, because Seeley credits "time and space and empowerment" for the result.
+<!--/SUMMARY-->
 # AI in Recruiting: How Moniepoint Raises the Hiring Bar with Chloe Seeley
 
 - **Podcast:** 10x Recruiting
