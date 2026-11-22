@@ -1,0 +1,215 @@
+{
+ "date": "2026-11-22",
+ "collections": {
+  "podcasts": {
+   "10x Recruiting": 1,
+   "Brainfood": 1,
+   "Building the Talent Machine": 0,
+   "Offer Accepted": 1,
+   "PromptMates": 1,
+   "Recruiting Future": 3,
+   "Recruiting Roadshow": 0,
+   "The Debrief": 0
+  },
+  "newsletters": {
+   "PromptMates Newsletter": 0,
+   "TA Unboxed": 1,
+   "RecOps Collective": 1,
+   "Data Driven Recruiter": 0,
+   "Ashby Community": 0,
+   "Full Stack Recruiter": 0,
+   "Gem Newsletter": 0,
+   "Remade.md": 0
+  },
+  "tech": {
+   "AI & I": 1,
+   "How I AI": 0,
+   "Lenny's Podcast": 0,
+   "AI For Humans": 1
+  },
+  "reports": {
+   "ONS": 1,
+   "CIPD": 1,
+   "Korn Ferry": 1,
+   "iCIMS": 1,
+   "Bullhorn": 1,
+   "TestGorilla": 1,
+   "Hays": 1,
+   "NACE": 1
+  },
+  "news": {
+   "EDPB": 1
+  }
+ },
+ "reports": [
+  {
+   "name": "ONS Labour market overview, UK: November 2026",
+   "extraction": "full",
+   "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026"
+  },
+  {
+   "name": "CIPD Labour Market Outlook: Autumn 2026",
+   "extraction": "full",
+   "url": "https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/reports/2026-pdfs/9270-lmo-autumn-2026-report_final.pdf"
+  },
+  {
+   "name": "Korn Ferry Talent Trends 2027",
+   "extraction": "full",
+   "url": "https://www.kornferry.com/insights/featured-topics/future-of-work-articles/talent-trends"
+  },
+  {
+   "name": "iCIMS November 2026 Workforce Report",
+   "extraction": "full",
+   "url": "https://77600727.flowpaper.com/ICIMSMonthlyInsightsNov2026FINAL/"
+  },
+  {
+   "name": "SIA | Bullhorn Staffing Indicator, week ending 7 November",
+   "extraction": "full",
+   "url": "https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-november-17-2026"
+  },
+  {
+   "name": "TestGorilla Recruiting in the AI Era (2026 Report)",
+   "extraction": "full",
+   "url": "https://www.testgorilla.com/reports/recruiting-ai-era/"
+  },
+  {
+   "name": "Hays UK Workforce Trends & Salary Guide 2027",
+   "extraction": "partial",
+   "url": "https://www.hays.co.uk/salary-guide",
+   "reason": "the guide and salary tables sit behind a free email form; figures from the landing page and launch press release"
+  },
+  {
+   "name": "NACE Job Outlook 2027",
+   "extraction": "partial",
+   "url": "https://www.naceweb.org/research/reports/job-outlook/2027/",
+   "reason": "full report behind a form; figures from NACE's own findings article"
+  }
+ ],
+ "to_grab": [
+  "Robert Walters Salary Survey UK 2027 (gated, nothing readable)",
+  "iCIMS and Kyle & Co. 2026 Talent Transformation Yearbook (no public page found)"
+ ],
+ "index": {
+  "podcasts": {
+   "items": 770,
+   "missing": 0,
+   "blocks": 182,
+   "warnings": []
+  },
+  "tech": {
+   "items": 255,
+   "missing": 0,
+   "blocks": 95,
+   "warnings": []
+  },
+  "newsletters": {
+   "items": 89,
+   "missing": 0,
+   "blocks": 0,
+   "warnings": []
+  },
+  "reports": {
+   "items": 97,
+   "missing": 0,
+   "blocks": 2,
+   "warnings": []
+  },
+  "news": {
+   "items": 16,
+   "missing": 0,
+   "blocks": 1,
+   "warnings": []
+  },
+  "adhoc": {
+   "items": 2,
+   "missing": 0,
+   "blocks": 0,
+   "warnings": []
+  }
+ },
+ "zero_returns": [],
+ "launches_swept": true,
+ "launch_sweep": {
+  "ran": true,
+  "vendors_read": 14,
+  "vendors_unreadable": [
+   "Lever (401)",
+   "SmartRecruiters (403)",
+   "Workable (JavaScript page)",
+   "Screenloop (search found nothing)",
+   "Nova (search found nothing)"
+  ],
+  "material": [
+   "Ashby AI Interviewer (17 Nov, generally available)",
+   "Pin's Notetaker (18 Nov)",
+   "Juicebox Blends with ATS Intelligence (19 Nov, borderline)"
+  ],
+  "not_taken": [
+   "Metaview November update",
+   "Gem GeMCP (no year on the date)",
+   "Teamtailor minor improvements",
+   "Pinpoint API changelog"
+  ]
+ },
+ "ai_news": "EDPB, 11 Nov: EU data protection regulators chose automated decision-making in recruitment, including AI candidate screening, as their 2027 coordinated enforcement topic (second source: Handley Gill, 19 Nov)",
+ "evidence_files": [
+  "_state/evidence/parts/pod1.json",
+  "_state/evidence/parts/pod2.json",
+  "_state/evidence/parts/pod3.json",
+  "_state/evidence/parts/tech1.json",
+  "_state/evidence/newsletters.json",
+  "_state/evidence/reports.json",
+  "_state/evidence/launches.json"
+ ],
+ "problems": [
+  {
+   "phase": 0,
+   "source": "reconcile",
+   "what": "No pending-review.json: Version 9 was merged and reconciled on 17 November, so nothing to reconcile.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 1,
+   "source": "fetch_transcripts",
+   "what": "The fetcher again saved retitled re-listings as new files (Lenny's Rob Snyder episode, video 19qrLchbQEc, third time; How I AI token fraud, video ZDpP7JXPlhc). Both duplicates removed. fetch_transcripts.py should dedupe by video id.",
+   "severity": "degraded",
+   "resolved": "yes"
+  },
+  {
+   "phase": 1,
+   "source": "Offer Accepted",
+   "what": "First transcript request timed out (408); saved on the end-of-fetch retry.",
+   "severity": "noted",
+   "resolved": "yes"
+  },
+  {
+   "phase": 1,
+   "source": "launch sweep",
+   "what": "5 of 19 vendors unreadable: Lever (401), SmartRecruiters (403), Workable (JavaScript page), Screenloop and Nova (searches found nothing). Recorded gaps, not worked round.",
+   "severity": "degraded",
+   "resolved": "no"
+  },
+  {
+   "phase": 1,
+   "source": "reports",
+   "what": "Hays and NACE held as partial (full reports behind a form). Robert Walters Salary Survey blocked. CIPD and iCIMS carry no publication day, so both are dated to the month. Bullhorn's page prints Office/Clerical as 63 and -8% in the table but 64 and -7% in the text.",
+   "severity": "noted",
+   "resolved": "no"
+  },
+  {
+   "phase": 1,
+   "source": "AI news",
+   "what": "EDPB item is dated 11 November, before this week's scan window, but last week's scan missed it and it is regulation about recruitment itself. Picked over the in-week Littler survey, which has no independent second source.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 1,
+   "source": "captions",
+   "what": "Several names are garbled in auto captions (Brainfood panellists, the PromptMates acquired company, the 10x co-host). Anything not confirmed by the episode description is left out of the digest.",
+   "severity": "noted",
+   "resolved": "yes"
+  }
+ ]
+}

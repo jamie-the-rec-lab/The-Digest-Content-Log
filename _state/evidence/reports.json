@@ -1,0 +1,512 @@
+{
+ "run_date": "2026-11-22",
+ "window": "2026-09-27 to 2026-11-22",
+ "inbox": "library/reports/_inbox/ does not exist this week (nothing to ingest)",
+ "tsv_part": "_state/evidence/parts/reports1.tsv (8 lines)",
+ "checked": [
+  {
+   "source": "ONS Labour market overview",
+   "outcome": "taken: November 2026 edition (published 2026-11-17), complete"
+  },
+  {
+   "source": "CIPD Labour Market Outlook",
+   "outcome": "taken: autumn 2026, complete. The PDF downloaded directly (found by search); the CIPD landing page returned 403 on the single try and was not retried, so the exact release day is unconfirmed"
+  },
+  {
+   "source": "CIPD Resourcing and Talent Planning Survey",
+   "outcome": "nothing new found"
+  },
+  {
+   "source": "SIA | Bullhorn Staffing Indicator",
+   "outcome": "taken: edition dated 2026-11-17 (week ending 7 Nov), complete. Bullhorn's page still shows a data-review hold banner; source inconsistencies recorded in the file"
+  },
+  {
+   "source": "Bullhorn GRID Talent Trends",
+   "outcome": "not taken: a search result puts the 2026 GRID Talent Trends Report (candidate survey) at 24 September 2026, three days outside the window; date not verified at source"
+  },
+  {
+   "source": "Indeed Hiring Lab UK",
+   "outcome": "nothing new: no November UK Labour Market Snapshot yet (October edition held). A 17 November post, 'UK Employment Figures, November 2026: Stable, But Still Not Hiring', is commentary on the ONS release and was not taken"
+  },
+  {
+   "source": "REC / KPMG Report on Jobs",
+   "outcome": "nothing new: November edition already held; next due early December"
+  },
+  {
+   "source": "REC JobsOutlook",
+   "outcome": "nothing new found since the September 2026 edition"
+  },
+  {
+   "source": "iCIMS Workforce Reports",
+   "outcome": "taken: November 2026 report, complete (full PDF via the public flipbook on the iCIMS research page)"
+  },
+  {
+   "source": "Korn Ferry",
+   "outcome": "taken: Talent Trends 2027 (2026-10-22), complete"
+  },
+  {
+   "source": "NACE Job Outlook",
+   "outcome": "taken: Job Outlook 2027 (November 2026), partial"
+  },
+  {
+   "source": "Hays UK salary guide",
+   "outcome": "taken: UK Workforce Trends & Salary Guide 2027 (2026-11-18), partial"
+  },
+  {
+   "source": "Robert Walters UK Salary Survey",
+   "outcome": "2027 page live but gated, undated and without readable figures: flagged in _TO_GRAB.md, nothing stored"
+  },
+  {
+   "source": "Reed salary guides",
+   "outcome": "nothing new: page still shows the 2026 guide"
+  },
+  {
+   "source": "Employ / Lever resources",
+   "outcome": "nothing new: Recruiter Nation 2026 already held (employinc.com/resources returned 404; lever.co/resources read)"
+  },
+  {
+   "source": "Ashby talent trends",
+   "outcome": "nothing new in window"
+  },
+  {
+   "source": "Gem resource library",
+   "outcome": "page returned 404; search showed nothing new in window"
+  },
+  {
+   "source": "LinkedIn talent solutions resources",
+   "outcome": "nothing new in window"
+  },
+  {
+   "source": "Greenhouse guidance",
+   "outcome": "nothing new in window"
+  },
+  {
+   "source": "SHRM research",
+   "outcome": "nothing new in window (Finding Talent report dates from April 2026)"
+  },
+  {
+   "source": "Josh Bersin research",
+   "outcome": "nothing new in window"
+  },
+  {
+   "source": "Beamery resources",
+   "outcome": "nothing new in window"
+  },
+  {
+   "source": "HireVue resources",
+   "outcome": "nothing new in window (Early Careers Hiring Global Benchmark Report 2026 dates from April 2026)"
+  },
+  {
+   "source": "Metaview resources",
+   "outcome": "nothing new in window (product updates and listicles only)"
+  },
+  {
+   "source": "Phenom resources",
+   "outcome": "nothing new in window"
+  },
+  {
+   "source": "ISE research",
+   "outcome": "nothing new: Student Recruitment Report 2026 already held"
+  },
+  {
+   "source": "ManpowerGroup",
+   "outcome": "nothing new: Q4 2026 MEOS already held; Q1 2027 not out"
+  },
+  {
+   "source": "GBD Talent, Lighthouse, APSCo",
+   "outcome": "target pages returned 404; not retried; search showed nothing new"
+  },
+  {
+   "source": "Workday, Deloitte, Mercer, Talent Board, WEF",
+   "outcome": "not fetched directly; discovery searches surfaced nothing new in window"
+  },
+  {
+   "source": "Discovery searches (11 run: benchmark, TA trends, state of recruiting/hiring, candidate experience, recruiter survey, UK hiring, publisher-specific)",
+   "outcome": "surfaced TestGorilla (taken) and the iCIMS / Kyle & Co. Yearbook (flagged); everything else was outside the window or already held"
+  }
+ ],
+ "items": [
+  {
+   "path": "library/reports/transcripts/ONS/2026-11-17-labour-market-overview-uk-november-2026.md",
+   "publisher": "ONS",
+   "title": "Labour market overview, UK: November 2026",
+   "publish_date": "2026-11-17",
+   "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026",
+   "extraction": "complete",
+   "reason": "Watchlist monthly edition, due last week. Public bulletin page read in full; the interactive at-a-glance chart and linked datasets are not captured.",
+   "method_and_sample": "Official statistics: Labour Force Survey (dataset of 80,271 individuals in July to September 2026), HMRC PAYE Real Time Information (whole payrolled population), ONS Vacancy Survey, Monthly Wages and Salaries Survey. ONS warns the quarterly employment and unemployment moves partly reflect LFS sample rotation.",
+   "reader_fit": "The official UK read on vacancies, payrolls and pay: vacancies at 690,000 and the smallest firms at a 14-year low outside the pandemic is the market every UK recruiter is selling into.",
+   "points": [
+    {
+     "claim": "UK vacancies fell again to 690,000 in August to October 2026, the largest quarterly fall since mid-2025.",
+     "figure": "690,000 vacancies; down 22,000 (3.0%) on the quarter; down 37,000 (5.0%) on the year",
+     "quote": "Early estimates for August to October 2026 suggest a decrease of 22,000 (3.0%) to 690,000, compared with May to July 2026."
+    },
+    {
+     "claim": "The fall is concentrated in the smallest businesses, where vacancies are at their lowest outside the pandemic since 2012.",
+     "figure": "1 to 9 employees: down 22,000 to 73,000 vacancies",
+     "quote": "The largest quarterly decrease was in businesses with 1 to 9 employees, down by 22,000 to 73,000 vacancies."
+    },
+    {
+     "claim": "Payrolled employees fell again in the October flash estimate.",
+     "figure": "down 95,000 (0.3%) on the year; down 34,000 (0.1%) on the month; 30.2 million",
+     "quote": "The early estimate of payrolled employees for October 2026 decreased by 95,000 (0.3%) on the year, and decreased by 34,000 (0.1%) between September and October 2026, to 30.2 million."
+    },
+    {
+     "claim": "Unemployment fell to 4.6%, though ONS says the move partly reflects survey sample rotation.",
+     "figure": "4.6% unemployment, July to September 2026; down 0.3 percentage points on the year and the quarter",
+     "quote": "The UK unemployment rate for people aged 16 years and over was estimated at 4.6% in July to September 2026."
+    },
+    {
+     "claim": "Regular pay growth slowed to 3.5%; total pay growth is at its lowest since 2020.",
+     "figure": "3.5% regular pay growth (from 3.7%); 3.6% total pay growth (from 3.8%)",
+     "quote": "Annual growth in employees' average regular earnings (excluding bonuses) was 3.5% in July to September 2026, a slight decrease on the previous three-month period, when it was 3.7%."
+    },
+    {
+     "claim": "Small firms say costs are stopping them hiring.",
+     "figure": "no figure",
+     "quote": "Feedback from our Vacancy Survey suggests that smaller firms may not be recruiting because of labour costs and other economic conditions."
+    }
+   ]
+  },
+  {
+   "path": "library/reports/transcripts/CIPD/2026-11-12-labour-market-outlook-autumn-2026.md",
+   "publisher": "CIPD",
+   "title": "Labour Market Outlook: Autumn 2026",
+   "publish_date": "2026-11-12 (PDF creation date; the report itself says only \"Issued: November 2026\" and the exact public release day could not be confirmed because the CIPD landing page returned 403)",
+   "url": "https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/reports/2026-pdfs/9270-lmo-autumn-2026-report_final.pdf",
+   "extraction": "complete",
+   "reason": "Watchlist quarterly edition. The 24-page PDF downloaded directly without a gate and was parsed in full; chart-only data points are not captured.",
+   "method_and_sample": "YouGov online survey of 2,051 senior HR professionals and decision-makers in the UK, fieldwork 17 September to 11 October 2026, weighted to be representative of UK employment by organisation size, sector and industry. Authors: Cockett and Ghazaryan.",
+   "reader_fit": "The most cited UK employer hiring-intentions survey, and this quarter it adds hard numbers on AI adoption and AI-driven headcount plans from 2,051 UK employers.",
+   "points": [
+    {
+     "claim": "UK hiring intentions stay near record lows for the seventh quarter running.",
+     "figure": "net employment balance +10 (+9 autumn 2025, +21 autumn 2024)",
+     "quote": "is +10, remaining subdued for the seventh consecutive quarter."
+    },
+    {
+     "claim": "Only 62% of employers plan to recruit in the next three months, 58% in the private sector.",
+     "figure": "62% of employers; 58% private sector",
+     "quote": "Overall, 62% of employers are planning to recruit employees in the next three months, near to historical lows."
+    },
+    {
+     "claim": "Three in ten employers still have hard-to-fill vacancies despite the weak market.",
+     "figure": "30% of employers",
+     "quote": "Three in 10 (30%) employers currently report having them (see Figure 6)."
+    },
+    {
+     "claim": "A quarter of AI-using employers now expect AI to cut headcount in the next year, up from 21%.",
+     "figure": "25% expect a reduction (21% last year); 5% expect an increase (8% last year); 59% no impact",
+     "quote": "A quarter (25%) now expect AI to reduce their headcount in the next year, up from 21% last year."
+    },
+    {
+     "claim": "83% of UK employers have adopted AI, but most are only experimenting.",
+     "figure": "83% adopted; 40% ad hoc; 35% integrated into specific functions; 8% deeply integrated; 14% no AI use",
+     "quote": "Among 8% of UK employers, AI is deeply integrated into operations and strategy."
+    },
+    {
+     "claim": "Expected pay awards are stuck at 3%, and 27% of workplaces do not advertise salaries and have no plans to.",
+     "figure": "median 3% for 10 consecutive quarters; 62% always include salary in job adverts; 27% do not and have no plans to",
+     "quote": "Our survey finds that 62% of employers always include salary data in their job adverts."
+    }
+   ]
+  },
+  {
+   "path": "library/reports/transcripts/Korn Ferry/2026-10-22-talent-trends-2027-skills-shifting.md",
+   "publisher": "Korn Ferry",
+   "title": "Talent Trends 2027: Skills-Shifting",
+   "publish_date": "2026-10-22",
+   "url": "https://www.kornferry.com/insights/featured-topics/future-of-work-articles/talent-trends",
+   "extraction": "complete",
+   "reason": "Watchlist annual report (13th annual Talent Trends survey; no separate \"TA Trends 2027\" was found, so this appears to be this year's edition of the series held as TA Trends 2026). Public web report and the 22 October press release read in full; no gated PDF found.",
+   "method_and_sample": "Survey of \"more than 1,300 talent and senior leaders\" in \"more than 75 countries\" (talent teams, CHROs, CEOs, board members). No exact n, fieldwork dates or regional split published, so treat as directional.",
+   "reader_fit": "The annual predictions piece TA leaders get asked about: entry-level roles redesigned rather than cut, adaptability as the top skill, and TA merging with L&D and workforce planning.",
+   "points": [
+    {
+     "claim": "Most employers say they will redesign entry-level roles around higher-value work rather than cut them.",
+     "figure": "40% holding volumes but redesigning; 21% reducing entry-level hiring; 19% cutting and leaning on AI",
+     "quote": "Holding volumes but redesigning entry level around higher-value work: 40%, rebuild and redesign"
+    },
+    {
+     "claim": "Almost no one thinks senior leaders are ready to lead AI-driven change.",
+     "figure": "6% of respondents",
+     "quote": "Just 6% of respondents believe their senior leaders are fully prepared to guide their organizations through AI-driven transformation."
+    },
+    {
+     "claim": "Leaders expect capability gaps, not talent shortages, to be the bigger problem in 2027.",
+     "figure": "77% of leaders; 78% say too few people are prepared for how work will be done",
+     "quote": "More than three-quarters (77%) of leaders surveyed say capability gaps will be a greater challenge than talent shortages, while 78% say too few people are prepared for how work will be done in the future."
+    },
+    {
+     "claim": "Adaptability is ranked the most-wanted skill for 2027, ahead of critical thinking and collaboration.",
+     "figure": "rank 1 of 7",
+     "quote": "The year's most-wanted skill will be adaptability—the ability to keep learning and shifting to whatever the job needs next."
+    },
+    {
+     "claim": "Seven in ten expect HR, TA, L&D and workforce planning to become one function.",
+     "figure": "69% agree",
+     "quote": "HR, TA, L&D, and workforce planning will become one integrated function."
+    },
+    {
+     "claim": "Two thirds expect growing shortages of skilled manual and technical labour.",
+     "figure": "65% anticipate shortages; 64% expect AI to disrupt knowledge work more than frontline work",
+     "quote": "Sixty-five percent anticipate shortages of skilled manual and technical labor, while 64% expect AI to cause more disruption in knowledge work than in frontline work."
+    }
+   ]
+  },
+  {
+   "path": "library/reports/transcripts/iCIMS/2026-11-10-workforce-report-november-2026.md",
+   "publisher": "iCIMS",
+   "title": "November 2026 Workforce Report: Spotlight on the year of talent transformation",
+   "publish_date": "2026-11-10 (PDF creation date; the report carries no publication day and no November press release was found on the iCIMS newsroom)",
+   "url": "https://77600727.flowpaper.com/ICIMSMonthlyInsightsNov2026FINAL/",
+   "extraction": "complete",
+   "reason": "Watchlist monthly edition. Full 15-page PDF read from the public flipbook linked on the iCIMS research page; line-chart values are not captured.",
+   "method_and_sample": "iCIMS platform data indexed to an October 2025 baseline (3.1M+ platform users, 691M+ candidate profiles, about 243M applications, 5M+ hires), plus two surveys with Kyle & Co. for the 2026 Talent Transformation Yearbook: 1,000 U.S. job seekers and 500 HR and talent leaders (employer survey September 2026).",
+   "reader_fit": "Platform data with an EMEA cut (applications up, hires 18% down) plus candidate-side numbers on AI-led hiring and employer-side numbers on how much bought AI is actually in use.",
+   "points": [
+    {
+     "claim": "In EMEA, applications and openings are up on last year but hires are 18% down.",
+     "figure": "applications +9%, job openings +2%, hires -18% versus October 2025",
+     "quote": "job applications rose 9% above last October and job openings 2%"
+    },
+    {
+     "claim": "US hires dipped below last year for the first time since February while openings held 7% up.",
+     "figure": "hires -1%; job openings +7%; applications -3% versus October 2025",
+     "quote": "Job openings sat 7% above last October for the fourth straight"
+    },
+    {
+     "claim": "Half of job seekers went through a multistep AI-led process with little or no human contact.",
+     "figure": "51% of job seekers (n=718)",
+     "quote": "More than half of job seekers (51%) went through a"
+    },
+    {
+     "claim": "Only a third of candidates who think AI evaluated them were told so.",
+     "figure": "32% say clearly disclosed; 41% suspected AI and heard nothing",
+     "quote": "AI evaluated their application, only 32% say the"
+    },
+    {
+     "claim": "The average company uses about half of the AI it bought.",
+     "figure": "52% of the AI bought; 45% of 500 HR and talent leaders call their AI a clear success",
+     "quote": "average company uses only 52% of the AI it"
+    },
+    {
+     "claim": "Groundwork predicts AI success: 65% with three or more steps done call it highly successful, against 25% with one or none.",
+     "figure": "25% (none or one step), 44% (two steps), 65% (three or more)",
+     "quote": "steps it is 44%, and at three or more it is 65%."
+    }
+   ]
+  },
+  {
+   "path": "library/reports/transcripts/Bullhorn/2026-11-17-staffing-industry-indicator-week-ending-november-7.md",
+   "publisher": "Bullhorn",
+   "title": "SIA | Bullhorn Staffing Indicator, week ending November 7, 2026",
+   "publish_date": "2026-11-17",
+   "url": "https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-november-17-2026",
+   "extraction": "complete",
+   "reason": "Watchlist weekly edition; last week it was on hold for a data review. Report text and both tables read on the SIA page. The Bullhorn page still shows the hold banner above this edition. Source inconsistency recorded, not resolved: Office/Clerical is 63 and -8% in the table, 64 and down 7% in the text; and the US index is 109 here against 110 in the prior edition with a +0.1% weekly change.",
+   "method_and_sample": "Weekly hours worked by temporary workers across a sample of US staffing firms using Bullhorn technology, weighted and benchmarked against US Bureau of Labor Statistics data, indexed to the week ending 13 January 2019. No count of firms published. US only.",
+   "reader_fit": "US-only temp staffing pulse; useful to agency readers as a leading indicator, with IT staffing hours softening before Thanksgiving while industrial runs 18% up.",
+   "points": [
+    {
+     "claim": "US staffing hours are 11% up on a year ago and flat on the week.",
+     "figure": "index 109; +11% year over year; +0.1% week over week",
+     "quote": "US Staffing hours were up 11% compared to a year ago and stable (0.1%) on a week-over-week sequential basis."
+    },
+    {
+     "claim": "Industrial staffing is the strongest segment, up 18% on the year.",
+     "figure": "index 100; +18% year over year; +0.4% week over week",
+     "quote": "The Industrial staffing indexed value was 100 for the same week, up 18% compared to a year ago and up 0.4% on a week-over-week sequential basis."
+    },
+    {
+     "claim": "IT staffing hours slipped on the week but remain up on the year.",
+     "figure": "index 118; +4% year over year; -1.2% week over week",
+     "quote": "The IT staffing indexed value was 118 for the week ending November 7th, up 4% compared to a year ago and down -1.2% on a week-over-week sequential basis"
+    },
+    {
+     "claim": "Professional staffing is up 9% on the year.",
+     "figure": "index 128; +9% year over year; -0.2% week over week",
+     "quote": "The Professional Staffing indexed value was 128 for the same week."
+    },
+    {
+     "claim": "SIA attributes IT demand to digital transformation and AI projects.",
+     "figure": "no figure",
+     "quote": "Demand for IT staffing remains solid as clients across many industries move forward on projects related to digital transformation and AI."
+    }
+   ]
+  },
+  {
+   "path": "library/reports/transcripts/TestGorilla/2026-09-30-recruiting-in-the-ai-era-2026.md",
+   "publisher": "TestGorilla",
+   "title": "Recruiting in the AI Era (2026 Report)",
+   "publish_date": "2026-09-30 (the page's stated publish date; the page was later refreshed with the UK survey, which was in the field until 7 October 2026, and the refresh date is not stated)",
+   "url": "https://www.testgorilla.com/reports/recruiting-ai-era/",
+   "extraction": "complete",
+   "reason": "Found by discovery search; new publisher for the library. Clears the bar: vendor primary research with stated samples, fieldwork dates and weighting, and a like-for-like UK sample. Public web report read in full. Vendor interest noted in the file: TestGorilla sells skills tests and a sourcing tool, and the later sections argue for its approach. One mislabelled row on the source page (31% US / 28% UK) is flagged and not used.",
+   "method_and_sample": "1,428 US talent professionals fielded August 2026 (drawn from 2,205 completes) and 483 UK talent professionals fielded 10 September to 7 October 2026; same questionnaire, exclusions and weighting (55% talent acquisition, 25% external recruiter, 20% HR leader). Self-reported; countries reported separately.",
+   "reader_fit": "Rare UK-versus-US recruiter data on AI sourcing: UK recruiters report less speed gain, less confidence, and three in four think AI wrote at least half the CVs they see.",
+   "points": [
+    {
+     "claim": "AI sped up sourcing for fewer UK recruiters than US ones, and slowed down more than one in five.",
+     "figure": "faster: 58% UK, 72% US; slowed down: 22% UK, 13% US",
+     "quote": "58% (vs 72% in the US) say AI made finding candidates faster, four in ten (41%) say it gave them no speed gain at all, and more than one in five (22%) say it slowed them down."
+    },
+    {
+     "claim": "Three in four UK recruiters think AI wrote at least half the CVs they see.",
+     "figure": "75% UK, 73% US; all or most: 44% UK, 53% US",
+     "quote": "Three in four British recruiters think AI wrote at least half of the CVs they see."
+    },
+    {
+     "claim": "Verifying that CV skills are real is the top sourcing challenge in both countries.",
+     "figure": "49% UK, 57% US name it a top-three challenge",
+     "quote": "UK recruiters put it first too, at 49%, ahead of a shortage of skilled candidates at 43%."
+    },
+    {
+     "claim": "Seven in ten recruiters still review 26 or more profiles to find one worth contacting.",
+     "figure": "69% in both the US and the UK",
+     "quote": "Almost seven in ten, 69% in the US and in the UK, said that finding one person worth contacting still means working through 26 or more profiles."
+    },
+    {
+     "claim": "Nearly three in four UK recruiters spend an hour or more checking a single candidate.",
+     "figure": "73% UK, 67% US spend an hour or more; 30% UK, 29% US two hours or more",
+     "quote": "Two in three US recruiters (67%) spend an hour or more of their own time on a single candidate before they trust that person can do the job. In the UK, it's nearly three in four (73%)."
+    },
+    {
+     "claim": "Claimed AI skills often turn out weaker than the profile suggests.",
+     "figure": "often or almost always: 54% US, 45% UK; at least sometimes: 90% US, 87% UK",
+     "quote": "Nearly nine in ten say it happens at least “sometimes” in both countries: 90% in the US and 87% in the UK."
+    }
+   ]
+  },
+  {
+   "path": "library/reports/transcripts/Hays/2026-11-18-uk-workforce-trends-salary-guide-2027.md",
+   "publisher": "Hays",
+   "title": "Hays UK Workforce Trends & Salary Guide 2027",
+   "publish_date": "2026-11-18 (from the launch press release as republished by Onrec on 18 November 2026, \"Published today\"; the Hays landing page itself carries no date)",
+   "url": "https://www.hays.co.uk/salary-guide",
+   "extraction": "partial",
+   "reason": "Watchlist annual edition. The guide itself (specialist reports with salary tables) is behind an email form and was not read; this record is the public landing page plus the launch press release via Onrec. No salary benchmarks captured. Added to _TO_GRAB.md. Landing page says 86% had skills shortages, the press release says \"more than 85%\".",
+   "method_and_sample": "Survey of \"more than 11,200 professionals and employers across the UK\", captured 22 July to 11 September 2026; 3,281 respondents involved in recruiting and 1,345 C-suite/senior directors. Recruiter-run survey, not weighted to be representative as far as the public material says.",
+   "reader_fit": "The biggest UK salary and hiring survey of the year: 39% of employers plan to hire more in 2027, but mid-level skills gaps and rising salary expectations are the constraint.",
+   "points": [
+    {
+     "claim": "Four in ten UK employers report critical skills gaps at mid-level.",
+     "figure": "40% of UK employers; 27% report leadership capability shortages",
+     "quote": "Four in ten (40%) UK employers are facing critical skills gaps in mid-level professionals"
+    },
+    {
+     "claim": "More employers plan to invest in AI than to add permanent headcount.",
+     "figure": "39% plan to increase hiring; 48% plan to invest in AI and automation; 24% plan to increase permanent headcount",
+     "quote": "While 39% plan to increase hiring next year, almost half (48%) plan to invest in AI and automation over the next 12 months to achieve their top organisational goal, compared with 24% planning to increase permanent headcount."
+    },
+    {
+     "claim": "Attracting the right permanent talent is the top workforce challenge.",
+     "figure": "35%; budget pressures versus market expectations 25%",
+     "quote": "businesses identified attracting the right permanent talent as their biggest workforce challenge (35%), followed by budget pressures versus market expectations (25%)."
+    },
+    {
+     "claim": "Candidate salary expectations have risen for most employers.",
+     "figure": "70% of employers",
+     "quote": "Candidate salary expectations have risen for 70% of employers, increasing pressure on attraction, retention and reward decisions."
+    },
+    {
+     "claim": "Most organisations are still early in AI adoption.",
+     "figure": "69% early or moderate stages; 20% broad or advanced",
+     "quote": "69% remain in the early or moderate stages of AI adoption, with only 20% at a broad or advanced stage."
+    },
+    {
+     "claim": "In HR, a quarter of employers name HR technology and systems as their biggest capability gap.",
+     "figure": "26% of HR employers; 47% of technology employers name AI, machine learning and data science as hardest to hire",
+     "quote": "In HR, 26% of employers point to HR technology and systems capability as their greatest capability gap."
+    }
+   ]
+  },
+  {
+   "path": "library/reports/transcripts/NACE/2026-11-18-job-outlook-2027.md",
+   "publisher": "NACE",
+   "title": "Job Outlook 2027",
+   "publish_date": "2026-11-18 (date of NACE's own findings article; the report landing page says only \"Published November 2026\")",
+   "url": "https://www.naceweb.org/research/reports/job-outlook/2027/",
+   "extraction": "partial",
+   "reason": "Watchlist annual edition. Full report is behind a form and was not read; this record is the public landing page plus NACE's findings article, which carries the method. Industry and employer-size breakdowns not captured. Added to _TO_GRAB.md.",
+   "method_and_sample": "311 US employer respondents, data collected 6 August to 11 September 2026 (133 NACE employer members, 17 nonmembers, 161 employer partners of college members). The hiring projection is based on members and nonmembers only; other findings on all 311. Sponsored by Jobscan. US only, small sample.",
+   "reader_fit": "US graduate hiring only, but the AI-and-entry-level finding travels: just 1% of employers are now considering replacing entry-level workers with AI, down from 11% a year ago.",
+   "points": [
+    {
+     "claim": "US employers project a 14% median rise in graduate hiring for the Class of 2027.",
+     "figure": "median +14%",
+     "quote": "Employers project a median 14% increase in hiring for the Class of 2027 compared with the Class of 2026."
+    },
+    {
+     "claim": "Most employers will hold graduate hiring flat; a third will increase it.",
+     "figure": "56% maintain; 34% increase; 10% decrease",
+     "quote": "the majority (56%) expect to maintain hiring at last year's levels. Another 34% plan to increase hiring, while 10% anticipate a decrease."
+    },
+    {
+     "claim": "Almost no employers are now considering replacing entry-level workers with AI.",
+     "figure": "1%, down from 11% last year",
+     "quote": "just 1% of employers are now considering replacing entry-level workers with AI, down from 11% last year"
+    },
+    {
+     "claim": "Employers value judgement about when to use AI over tool skills.",
+     "figure": "79% of employers",
+     "quote": "Knowing when AI should and shouldn't be used, cited by 79% of employers."
+    },
+    {
+     "claim": "Graduate starting salaries are expected to rise 4.2%.",
+     "figure": "4.2%",
+     "quote": "Employers also plan to increase salaries by 4.2% for graduates in the Class of 2027 from the average for their Class of 2026 counterparts."
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "title": "Robert Walters Salary Survey UK 2027",
+   "url": "https://www.robertwalters.co.uk/our-services/salary-survey.html",
+   "why": "Guide is behind a form; the public page has no publish date, no stated sample and its headline figures load only as animated counters. Nothing stored; added to _TO_GRAB.md."
+  },
+  {
+   "title": "iCIMS and Kyle & Co., 2026 Talent Transformation Yearbook",
+   "url": "not found (referenced inside the iCIMS November 2026 Workforce Report)",
+   "why": "No public report page or release date found. Headline findings are held second-hand in the iCIMS November file; added to _TO_GRAB.md."
+  }
+ ],
+ "not_taken": [
+  {
+   "title": "Indeed Hiring Lab UK, 'UK Employment Figures, November 2026: Stable, But Still Not Hiring' (2026-11-17)",
+   "why": "Commentary on the ONS release, which is held at source; not the watchlist snapshot."
+  },
+  {
+   "title": "Bullhorn 2026 GRID Talent Trends Report",
+   "why": "Search result dates it 24 September 2026, outside the 8 week window; date not verified at source."
+  },
+  {
+   "title": "SHRM, Finding Talent: Rethinking Recruitment for Today's Dynamic Labor Market",
+   "why": "Press release dated 28 April 2026, outside the window."
+  },
+  {
+   "title": "HireVue, The Early Careers Hiring Global Benchmark Report 2026",
+   "why": "HireVue's blog on it is dated 23 April 2026, outside the window."
+  },
+  {
+   "title": "Robert Half and Michael Page UK salary guides 2027",
+   "why": "Seen in search only; not on the source list, no dates or method checked. Hays covers the UK salary guide slot this week."
+  },
+  {
+   "title": "Onrec, UK Recruitment Market Snapshot, November 2026",
+   "why": "Trade-press roundup of other publishers' numbers, not primary research."
+  },
+  {
+   "title": "Criteria 2026 Candidate Experience Report, PeopleScout Inside the Candidate Experience 2026, Employ 2026 Job Seeker Nation",
+   "why": "Surfaced by search with no evidence of publication inside the window."
+  }
+ ],
+ "notes": [
+  "Publish dates not fully established at source: CIPD (report says only 'Issued: November 2026'; 2026-11-12 is the PDF creation date) and iCIMS (no date in the report; 2026-11-10 is the PDF creation date). TestGorilla's page is dated 2026-09-30 but was refreshed with UK data after 7 October 2026.",
+  "Eight reports is more than a normal week because five watchlist editions landed together (ONS, CIPD, iCIMS, Hays, NACE) alongside Korn Ferry's annual report and the Bullhorn weekly.",
+  "CIPD's vacancy section quotes the ONS October figure (691,000, July to September); the ONS November file has the newer one (690,000, August to October).",
+  "WATCHLIST.md last-seen dates updated for ONS, CIPD, iCIMS, Bullhorn indicator, Korn Ferry, NACE, Hays and Robert Walters. _TO_GRAB.md has a new 'Flagged 2026-11-22' section."
+ ]
+}

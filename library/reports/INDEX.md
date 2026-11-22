@@ -111,7 +111,13 @@ Company: Ashby
 Tags: applications per hire, hiring volume, funnel conversion, employer branding, by function, us data, trends / predictions
 File: `transcripts/Ashby/2023-05-30-applications-per-job.md`
 
-## Bullhorn (9 episodes)
+## Bullhorn (10 episodes)
+
+### 2026-11-17 — [SIA | Bullhorn Staffing Indicator, week ending November 7, 2026](https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-november-17-2026)
+US staffing hours up 11% YoY and flat on the week for the week ending November 7 (index 109); Commercial +13%, Professional +9% (index 128), Industrial +18%, IT +4% YoY but down 1.2% on the week, Office/Clerical about -8%; average weekly hours 35.5.
+Company: Bullhorn
+Tags: hiring volume, us data, product data study, by industry, by function, trends / predictions
+File: `transcripts/Bullhorn/2026-11-17-staffing-industry-indicator-week-ending-november-7.md`
 
 ### 2026-11-10 — [SIA | Bullhorn Staffing Indicator, week ending October 31, 2026](https://www.staffingindustry.com/research/research-reports/americas/sia-bullhorn-staffing-indicator-november-10-2026)
 US staffing hours up 12% YoY for the week ending October 31 (index 110, +1.3% WoW), a 2026 high; Commercial +13%, Professional +10% (index 129), IT +7% (strongest YoY gain of the year), Industrial +18%, Office/Clerical -7%; average weekly hours 35.5.
@@ -167,7 +173,13 @@ Company: Bullhorn
 Tags: candidate experience, ai interviewing, candidate ghosting, sourcing channels, employer branding, global data, survey
 File: `transcripts/Bullhorn/2025-09-01-grid-2025-talent-trends-report.md`
 
-## CIPD (2 episodes)
+## CIPD (3 episodes)
+
+### 2026-11-12 — [Labour Market Outlook: Autumn 2026](https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/reports/2026-pdfs/9270-lmo-autumn-2026-report_final.pdf)
+CIPD Labour Market Outlook autumn 2026 (YouGov, 2,051 UK employers): net employment balance +10, subdued for a seventh quarter; 62% plan to recruit (58% private sector); 30% have hard-to-fill vacancies; expected pay awards 3%; 83% have adopted AI but only 8% deeply; 25% of AI-using employers expect AI to cut headcount in the next year, up from 21%.
+Company: CIPD
+Tags: hiring volume, uk data, compensation benchmarks, ai adoption, by industry, by company size, workforce planning, survey, trends / predictions
+File: `transcripts/CIPD/2026-11-12-labour-market-outlook-autumn-2026.md`
 
 ### 2026-08-16 — [CIPD Labour Market Outlook — Summer 2026](https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/reports/2026-pdfs/9217-lmo-summer-2026-report-web.pdf)
 CIPD survey of 2,017 UK HR decision-makers (fieldwork 24 June-24 July 2026): net employment balance holds at a low +9, private-sector recruitment intentions fall to a series-low 57%, 21% plan redundancies by September, median pay award expectations stay at 3% for a second year, and 31% still have hard-to-fill vacancies.
@@ -257,7 +269,13 @@ Company: Greenhouse
 Tags: applications per hire, recruiter capacity, recruiter productivity, time to fill, source of hire, funnel conversion, hiring volume, ai screening, candidate fraud, annual benchmark
 File: `transcripts/Greenhouse/2026-03-01-the-hire-standard.md`
 
-## Hays (1 episodes)
+## Hays (2 episodes)
+
+### 2026-11-18 — [Hays UK Workforce Trends & Salary Guide 2027](https://www.hays.co.uk/salary-guide)
+Hays UK Workforce Trends & Salary Guide 2027 (11,200+ UK employers and professionals; partial, landing page and press release only, no salary tables): 40% of employers have critical mid-level skills gaps and over 85% had a skills shortage; 39% plan to hire more but 48% will invest in AI against 24% adding permanent headcount; salary expectations up for 70% of employers; 82% of professionals rank flexible working among top benefits.
+Company: Hays
+Tags: compensation benchmarks, uk data, hiring volume, ai adoption, attrition & retention, internal mobility, workforce planning, by function, survey, annual benchmark
+File: `transcripts/Hays/2026-11-18-uk-workforce-trends-salary-guide-2027.md`
 
 ### 2026-01-01 — [Hays UK Salary Guide 2026](https://www.hays.co.uk/salary-guide)
 Hays' UK guide from 5,100+ responses across 15 industries: salaries rose 2.2% on average (legal +4.6% highest), 93% of employers struggled to hire the right skills, 80% plan further pay rises, pay dissatisfaction climbed to 40%, and 92% are likelier to apply when salary is listed.
@@ -343,7 +361,13 @@ Company: Josh Bersin
 Tags: ai screening, ai sourcing, ai governance, candidate experience, recruiter productivity, rec tech, talent intelligence, funnel conversion, trends / predictions, global data
 File: `transcripts/Josh Bersin/2025-09-16-talent-acquisition-revolution.md`
 
-## Korn Ferry (1 episodes)
+## Korn Ferry (2 episodes)
+
+### 2026-10-22 — [Talent Trends 2027: Skills-Shifting](https://www.kornferry.com/insights/featured-topics/future-of-work-articles/talent-trends)
+Korn Ferry's 13th annual Talent Trends report (1,300+ talent and senior leaders, 75+ countries): 77% say capability gaps will outweigh talent shortages in 2027; adaptability ranked the top skill; 40% will hold entry-level volumes but redesign the roles while 19% cut and lean on AI; only 6% think senior leaders are ready for AI change; 69% expect HR, TA, L&D and workforce planning to merge.
+Company: Korn Ferry
+Tags: skills-based hiring, early career talent, ai adoption, human-ai collaboration, internal mobility, workforce planning, global data, survey, trends / predictions
+File: `transcripts/Korn Ferry/2026-10-22-talent-trends-2027-skills-shifting.md`
 
 ### 2025-10-28 — [Talent Acquisition Trends 2026: Human-AI Power Couple](https://www.kornferry.com/insights/featured-topics/talent-recruitment-articles/ai-in-recruitment-trends)
 Korn Ferry's six 2026 TA trends from 1,600 talent leaders: 84% plan to use AI and 52% to add AI agents, yet 73% say critical thinking is the top skill needed (AI ranks fifth), only 22% think leaders can manage human-AI teams, and 59% of TA still feel shut out of strategy.
@@ -435,7 +459,13 @@ Company: Metaview
 Tags: human-ai collaboration, structured interviewing, talent intelligence, candidate experience, workforce planning, funnel conversion, survey, global data
 File: `transcripts/Metaview/2026-ai-hiring-alignment-report.md`
 
-## NACE (1 episodes)
+## NACE (2 episodes)
+
+### 2026-11-18 — [Job Outlook 2027](https://www.naceweb.org/research/reports/job-outlook/2027/)
+NACE Job Outlook 2027 (311 US employers; partial, public highlights only): employers project a median 14% rise in graduate hiring for the Class of 2027; 56% will maintain, 34% increase and 10% cut; only 1% are considering replacing entry-level workers with AI, down from 11%; starting salaries expected up 4.2%; 79% most value knowing when AI should and should not be used.
+Company: NACE
+Tags: early career talent, hiring volume, compensation benchmarks, ai adoption, skills-based hiring, by company size, us data, survey, annual benchmark
+File: `transcripts/NACE/2026-11-18-job-outlook-2027.md`
 
 ### 2026-04-27 — [NACE Job Outlook 2026 Spring Update](https://www.naceweb.org/research/reports/2026/job-outlook/spring-update/)
 NACE's spring update: employers project 5.6% more Class-of-2026 hiring, AI-skill demand for entry-level roles more than doubled in six months and 35% of entry-level jobs now require AI skills, yet AI skills rank lowest in importance (2.8/5) and 43% have detected AI-generated applications.
@@ -443,7 +473,13 @@ Company: NACE
 Tags: early career talent, ai adoption, skills-based hiring, hiring volume, candidate fraud, quality of hire, survey, us data, trends / predictions
 File: `transcripts/NACE/2026-04-27-job-outlook-2026-spring-update.md`
 
-## ONS (2 episodes)
+## ONS (3 episodes)
+
+### 2026-11-17 — [Labour market overview, UK: November 2026](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026)
+ONS UK labour market overview, November 2026: vacancies down 22,000 to 690,000 (Aug to Oct), with the smallest firms at 73,000, their lowest outside the pandemic since 2012; payrolled employees down 95,000 on the year in the October flash; unemployment 4.6% and employment 75.4% (partly a survey rotation effect); regular pay growth slowed to 3.5%.
+Company: ONS
+Tags: hiring volume, uk data, compensation benchmarks, by industry, by company size, workforce planning, trends / predictions
+File: `transcripts/ONS/2026-11-17-labour-market-overview-uk-november-2026.md`
 
 ### 2026-10-20 — [Labour market overview, UK: October 2026](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2026)
 UK vacancies fall to 691,000 (July-September, lowest outside the pandemic since 2014), unemployment 4.7%, employment rate 75.3%, regular pay growth 3.7%, payrolled employees down 111,000 YoY (partial, headline sections)
@@ -557,6 +593,14 @@ Company: Talent Board
 Tags: candidate experience, candidate ghosting, structured interviewing, employer branding, referral hiring, ai adoption, survey, global data, annual benchmark
 File: `transcripts/Talent Board/2023-11-01-cande-candidate-experience-benchmark-2023.md`
 
+## TestGorilla (1 episodes)
+
+### 2026-09-30 — [Recruiting in the AI Era (2026 Report)](https://www.testgorilla.com/reports/recruiting-ai-era/)
+TestGorilla survey of 1,428 US and 483 UK talent professionals: AI made sourcing faster for 72% US but only 58% UK, and surer for 59% US and 48% UK; 75% of UK recruiters think AI wrote at least half the CVs they see; verifying CV skills is the top sourcing challenge (57% US, 49% UK); 69% still review 26+ profiles per contact; 73% UK spend an hour or more checking one candidate.
+Company: TestGorilla
+Tags: ai sourcing, candidate fraud, skills-based hiring, recruiter productivity, quality of hire, rec tech, uk data, us data, survey
+File: `transcripts/TestGorilla/2026-09-30-recruiting-in-the-ai-era-2026.md`
+
 ## WEF (1 episodes)
 
 ### 2023-04-30 — [The Future of Jobs Report 2023](https://www.weforum.org/publications/the-future-of-jobs-report-2023/)
@@ -565,7 +609,13 @@ Company: WEF
 Tags: workforce planning, ai adoption, skills-based hiring, hiring volume, attrition & retention, global data, trends / predictions
 File: `transcripts/WEF/2023-04-30-future-of-jobs-report-2023.md`
 
-## iCIMS (7 episodes)
+## iCIMS (8 episodes)
+
+### 2026-11-10 — [iCIMS November 2026 Workforce Report: Spotlight on the year of talent transformation](https://77600727.flowpaper.com/ICIMSMonthlyInsightsNov2026FINAL/)
+iCIMS November 2026 Workforce Report: US hires 1% below last October while openings sit 7% above; EMEA applications up 9% and openings up 2% but hires 18% down; time to fill near 39 days; 51% of 1,000 US job seekers met a multistep AI-led process with little human contact and only 32% were told AI was used; 500 HR leaders use on average 52% of the AI they bought.
+Company: iCIMS
+Tags: hiring volume, time to fill, applications per hire, candidate experience, ai adoption, ai governance, us data, emea data, product data study, survey
+File: `transcripts/iCIMS/2026-11-10-workforce-report-november-2026.md`
 
 ### 2026-10-08 — [iCIMS October 2026 Workforce Report: Holiday Hiring Cooldown](https://www.icims.com/company/newsroom/octoberinsights2026/)
 iCIMS October 2026 Workforce Report (3.1M users, 691M profiles, press release only): US hiring 7% below the September 2025 baseline, frontline applications 18% below baseline at 29 applicants per opening, retail time to fill 37 days, 18 to 24 year olds 40% of retail applicants.
