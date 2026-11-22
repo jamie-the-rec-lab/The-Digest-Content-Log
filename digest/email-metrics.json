@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "note": "Email figures per edition, read from Resend. Written by a session or run, read by scripts/health_report.py. Open and click tracking was switched on 21 November 2026; editions sent before then have no open or click data.",
  "editions": [
   {
