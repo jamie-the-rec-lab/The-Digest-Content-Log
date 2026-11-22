@@ -219,8 +219,9 @@ def main(src, outp):
     # Web Analytics, nothing per person) and forwards to the real page. Only links
     # in digest/go/v<N>.json are rewritten, the same file the site forwards from;
     # anything else stays a direct link. No file, no rewriting, with a warning.
-    email, text, n_go = go_rewrite(soup, email, text)
-    print(f"click counting: {n_go} links point through thereclab.ai/go/", file=sys.stderr)
+    # Click counting through thereclab.ai/go/ was tried on 22 November 2026 and
+    # dropped the same night (Jamie's call): the email carries direct links and
+    # nothing in it is tracked. go_rewrite() is kept below, unused, in case.
     open(outp+".html","w").write(email)
     open(outp+".txt","w").write(text)
     print("wrote",outp+".html",len(email),"bytes;",outp+".txt",len(text),"bytes")

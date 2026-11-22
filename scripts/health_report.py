@@ -175,8 +175,8 @@ def email_lines(project, today):
         except (TypeError, ValueError):
             return "date unknown"
 
-    out = ["", "**Email, last %d edition%s** (from Version 10, clicks are counted in total "
-               "through thereclab.ai/go/ and opens are not measured)"
+    out = ["", "**Email, last %d edition%s** (the email tracks no opens or clicks, "
+               "so these are delivery figures)"
                % (len(eds), "" if len(eds) == 1 else "s")]
     for e in reversed(eds):
         d = e.get("delivered")

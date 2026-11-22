@@ -68,8 +68,8 @@ fact-check never falls below the strongest available.
   **One read-only exception (Jamie's call, 21 November 2026, updated 22
   November): the email figures.** To fill in the delivery numbers for the
   report, the run may call exactly two Resend tools, which only read:
-  `list-broadcasts` and `get-email-metrics`. Nothing else, ever. Click totals
-  come from Vercel's `get_web_analytics` (read-only), not from Resend. Never `list-contacts`,
+  `list-broadcasts` and `get-email-metrics`. Nothing else, ever. The email
+  tracks no opens or clicks (Jamie's call, 22 November 2026). Never `list-contacts`,
   `list-broadcast-recipients` or anything that returns who the subscribers are.
   Try once. If a call is refused, missing or asks for approval, do not wait and
   do not retry: carry on with the figures already saved and log it. See "Email

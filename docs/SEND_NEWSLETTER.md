@@ -97,54 +97,30 @@ failed gathering phase quietly handing stale material to the next digest. The
 permanent records are elsewhere: `digest/published/` for the page,
 `digest/featured-log.tsv` for what was used, `_state/RUN_LOG.tsv` for what went wrong.
 
-## Email figures (clicks, counted in total)
+## Email figures (delivery only)
 
-**Since 22 November 2026, clicks are counted in total and opens are not measured
-(Jamie's call).** Open and click tracking are OFF on `news.thereclab.ai` in
-Resend, so Resend no longer knows who opened or clicked. Instead every outside
-link in the email points at `https://thereclab.ai/go/v<N>/<n>`. That page
-records an anonymous page view in Vercel Web Analytics (no cookies, nothing per
-person) and forwards to link `<n>` of `/go/v<N>.json` on the site.
+**Since 22 November 2026 the email tracks nothing (Jamie's call).** Open and
+click tracking are OFF on `news.thereclab.ai` in Resend, and links in the email
+go straight to the page. Nobody's opens or clicks are recorded, in total or per
+person. The sign-up small print and the privacy policy say so, so keep it that
+way unless Jamie decides otherwise and both are updated first.
 
-- `scripts/go_links.py` numbers an edition's links and writes `/go/v<N>.json`
-  into the site repo (it goes live with the edition) and `digest/go/v<N>.json`
-  here. See step 4 in `PUBLISH.md`.
-- `scripts/build_email.py` rewrites only the links listed in
-  `digest/go/v<N>.json`; anything else stays direct. If the file is missing it
-  warns and every link stays direct (nothing counted, nothing broken).
-- **Before a send, check the counter works:** open `https://thereclab.ai/go/v<N>/1`
-  and confirm it lands on link 1 of the edition. If `/go/v<N>.json` is not live
-  yet, do not send: merge the edition first.
 - Leave the `links.news.thereclab.ai` CNAME in Cloudflare ("DNS only") in place.
-  Editions 10 and earlier sent through Resend's tracking still route their links
-  through it, and deleting it would break them.
+  It costs nothing, and removing it could break a link if any email ever went
+  out with Resend tracking on.
+- The site's `/go/` page and `scripts/go_links.py` are left from a one-night
+  click-counting trial. Nothing uses them; do not wire them back in.
 
 **The figures live in `digest/email-metrics.json`**, one entry per edition:
-version, broadcast id, sent date, sent, delivered, bounced, unsubscribed, and
-from Version 10 `clicks` (total) and `top_links` as
-`{"label": <item title>, "url": ..., "clicks": n}`. `scripts/health_report.py`
-reads that file and prints the last four editions. It never calls a service.
+version, broadcast id, sent date, sent, delivered, bounced, unsubscribed.
+`scripts/health_report.py` reads that file and prints the last four editions.
 
-**Filling it in.** Read-only:
-
-1. Resend `list-broadcasts` and `get-email-metrics` (the `broadcast` dimension):
-   sent, delivered, bounced, unsubscribed. Opens and clicks from Resend are no
-   longer collected.
-2. Vercel `get_web_analytics` for project `thereclab-site`, aggregated by
-   `requestPath`, filtered to paths starting `/go/v<N>/`, from the send date:
-   the page views per link. Sum them for `clicks`; map the top five back to
-   titles with `digest/go/v<N>.json` for `top_links`.
-
-Update the last four editions, set `"updated"` to today, and save it with the
-run. Use the numbers exactly as returned: never estimate, and leave a figure as
-`null` if it did not come back. Never list contacts or recipients for this.
-
-Who does it: the weekly run, just before the health report (one try, skip if
-refused, see `CLAUDE.md`), and any send session after the broadcast.
-
-**Counts are a floor.** Some ad blockers stop the analytics script, and a reader
-who clicks the same link twice counts twice. Read them as which items land
-best, week on week.
+**Filling it in.** Read-only, with Resend `list-broadcasts` and
+`get-email-metrics` (the `broadcast` dimension). Use the numbers exactly as
+returned: never estimate, and leave a figure as `null` if it did not come back.
+Never list contacts or recipients. Who does it: the weekly run, just before the
+health report (one try, skip if refused, see `CLAUDE.md`), and any send session
+after the broadcast.
 
 ## A one-off note to subscribers
 

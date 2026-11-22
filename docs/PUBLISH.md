@@ -365,12 +365,6 @@ live, and step 0 next week corrects it if Jamie did not merge.
    always the library folder name. See `SELECTION.md`.
 3. **Archive the exact public bytes** to
    `digest/published/<YYYY-MM-DD>-v<N>.html`.
-4. **Number the links for click counting:** run
-   `python3 scripts/go_links.py <the page> <site repo checkout>`. It writes
-   `go/v<N>.json` into the site repo (commit it to `digest-review` with the
-   page, so it goes live when Jamie merges) and `digest/go/v<N>.json` here.
-   Without it the email's links stay direct and no clicks are counted. See
-   "Email figures" in `SEND_NEWSLETTER.md`.
 
 Nothing in `digest/published/` is ever deleted or overwritten. Every edition
 survives in two forms: the build copy in `digest/builds/` with Gmail links, and
