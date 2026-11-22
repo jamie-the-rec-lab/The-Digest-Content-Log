@@ -175,15 +175,19 @@ def email_lines(project, today):
         except (TypeError, ValueError):
             return "date unknown"
 
-    out = ["", "**Email, last %d edition%s** (open rates are rough: Apple Mail counts "
-               "an open whether or not it was read, so trust clicks more)"
+    out = ["", "**Email, last %d edition%s** (from Version 10, clicks are counted in total "
+               "through thereclab.ai/go/ and opens are not measured)"
                % (len(eds), "" if len(eds) == 1 else "s")]
     for e in reversed(eds):
         d = e.get("delivered")
         head = "- **Version %s** (sent %s): delivered %s of %s" % (
             e.get("version"), when(e.get("sent_on")), d if d is not None else "?",
             e.get("sent", "?"))
-        if e.get("tracked") and e.get("unique_opened") is not None:
+        if e.get("clicks") is not None:
+            # since 22 Nov 2026: clicks counted in total through thereclab.ai/go/
+            # (Vercel Web Analytics), no opens, nothing per person
+            head += ", links clicked %s times in total (not per person)" % e["clicks"]
+        elif e.get("tracked") and e.get("unique_opened") is not None:
             head += ", opened by %s (%s), clicked by %s (%s)" % (
                 e["unique_opened"], pct(e["unique_opened"], d),
                 e.get("unique_clicked", 0), pct(e.get("unique_clicked") or 0, d))
@@ -195,12 +199,12 @@ def email_lines(project, today):
     latest = next((e for e in reversed(eds) if e.get("top_links")), None)
     if latest:
         out.append("- Most clicked in Version %s: " % latest["version"] + "; ".join(
-            "%s (%s)" % (l.get("label") or l.get("url", "?"), l.get("unique_clicks", "?"))
+            "%s (%s)" % (l.get("label") or l.get("url", "?"), l.get("clicks", l.get("unique_clicks", "?")))
             for l in latest["top_links"][:3]))
     try:
         age = (today - datetime.date.fromisoformat(data.get("updated", ""))).days
         if age > EMAIL_STALE_DAYS:
-            out.append("- These figures were last read from Resend %d days ago, so the "
+            out.append("- These figures were last read %d days ago, so the "
                        "newest edition may be missing." % age)
     except ValueError:
         pass

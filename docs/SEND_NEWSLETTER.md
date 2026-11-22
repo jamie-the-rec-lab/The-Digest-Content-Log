@@ -97,50 +97,54 @@ failed gathering phase quietly handing stale material to the next digest. The
 permanent records are elsewhere: `digest/published/` for the page,
 `digest/featured-log.tsv` for what was used, `_state/RUN_LOG.tsv` for what went wrong.
 
-## Email figures (opens and clicks)
+## Email figures (clicks, counted in total)
 
-**Tracking is on (since 21 November 2026).** Open and click tracking are enabled
-on `news.thereclab.ai` in Resend. Every link in the HTML email is rewritten to
-pass through `links.news.thereclab.ai` on its way to the real page. That address
-is a CNAME to `links2.resend-dns.com`, held in Cloudflare, where thereclab.ai is
-registered and its DNS lives. **The record must stay "DNS only" (grey cloud).**
-With Cloudflare's proxy on, or the record deleted, every link in the email
-breaks. Editions sent before 21 November (Version 9 and earlier) have no open
-or click data.
+**Since 22 November 2026, clicks are counted in total and opens are not measured
+(Jamie's call).** Open and click tracking are OFF on `news.thereclab.ai` in
+Resend, so Resend no longer knows who opened or clicked. Instead every outside
+link in the email points at `https://thereclab.ai/go/v<N>/<n>`. That page
+records an anonymous page view in Vercel Web Analytics (no cookies, nothing per
+person) and forwards to link `<n>` of `/go/v<N>.json` on the site.
 
-If links in an email ever fail: switch click tracking off on the domain in
-Resend (`update-domain`, `clickTracking: false`), which stops the rewriting for
-anything sent afterwards, then check the Cloudflare record.
+- `scripts/go_links.py` numbers an edition's links and writes `/go/v<N>.json`
+  into the site repo (it goes live with the edition) and `digest/go/v<N>.json`
+  here. See step 4 in `PUBLISH.md`.
+- `scripts/build_email.py` rewrites only the links listed in
+  `digest/go/v<N>.json`; anything else stays direct. If the file is missing it
+  warns and every link stays direct (nothing counted, nothing broken).
+- **Before a send, check the counter works:** open `https://thereclab.ai/go/v<N>/1`
+  and confirm it lands on link 1 of the edition. If `/go/v<N>.json` is not live
+  yet, do not send: merge the edition first.
+- Leave the `links.news.thereclab.ai` CNAME in Cloudflare ("DNS only") in place.
+  Editions 10 and earlier sent through Resend's tracking still route their links
+  through it, and deleting it would break them.
 
 **The figures live in `digest/email-metrics.json`**, one entry per edition:
-version, broadcast id, the date it was sent, sent, delivered, bounced,
-unsubscribed, unique opens, unique clicks, whether it was tracked, and the top
-clicked links. `scripts/health_report.py` reads that file and prints the last
-four editions. The script never talks to Resend itself.
+version, broadcast id, sent date, sent, delivered, bounced, unsubscribed, and
+from Version 10 `clicks` (total) and `top_links` as
+`{"label": <item title>, "url": ..., "clicks": n}`. `scripts/health_report.py`
+reads that file and prints the last four editions. It never calls a service.
 
-**Filling it in.** Read-only, with exactly these three Resend tools:
+**Filling it in.** Read-only:
 
-1. `list-broadcasts`: find the digest broadcasts and their sent dates.
-2. `get-email-metrics` with the broadcast ids and the `broadcast` dimension, and
-   a start date early enough to cover them: sent, delivered, bounced,
-   unsubscribed, unique_opened, unique_clicked.
-3. `list-broadcast-clicked-links` for the newest tracked edition: keep the top
-   five as `{"label": <item title from that edition>, "url": ..., "unique_clicks": n}`.
+1. Resend `list-broadcasts` and `get-email-metrics` (the `broadcast` dimension):
+   sent, delivered, bounced, unsubscribed. Opens and clicks from Resend are no
+   longer collected.
+2. Vercel `get_web_analytics` for project `thereclab-site`, aggregated by
+   `requestPath`, filtered to paths starting `/go/v<N>/`, from the send date:
+   the page views per link. Sum them for `clicks`; map the top five back to
+   titles with `digest/go/v<N>.json` for `top_links`.
 
-Update the last four editions (figures keep moving for a few days after a send),
-set `"updated"` to today, and save it with the run. Use the numbers exactly as
-Resend gives them: never estimate, and leave a figure as `null` if it did not
-come back. Never list contacts or recipients for this; the report needs counts,
-not names.
+Update the last four editions, set `"updated"` to today, and save it with the
+run. Use the numbers exactly as returned: never estimate, and leave a figure as
+`null` if it did not come back. Never list contacts or recipients for this.
 
 Who does it: the weekly run, just before the health report (one try, skip if
-refused, see `CLAUDE.md`), and any send session, straight after the broadcast is
-scheduled, so the file is never more than a week behind.
+refused, see `CLAUDE.md`), and any send session after the broadcast.
 
-**Open rates are rough.** Apple Mail loads images ahead of time, which counts as
-an open whether or not the email was read, and some clients block the tracking
-image. Read the open rate as a trend across weeks. Clicks are the number to
-trust.
+**Counts are a floor.** Some ad blockers stop the analytics script, and a reader
+who clicks the same link twice counts twice. Read them as which items land
+best, week on week.
 
 ## A one-off note to subscribers
 
