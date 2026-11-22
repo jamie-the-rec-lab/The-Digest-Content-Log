@@ -1,0 +1,99 @@
+{
+ "date": "2026-11-22",
+ "version": 10,
+ "edition_date": "23rd November 2026",
+ "url": "https://thereclab.ai/digest",
+ "review_url": "https://thereclab-site-git-digest-review-the-rec-lab-s-projects.vercel.app/digest",
+ "pr_number": 15,
+ "pr_url": "https://github.com/jamie-the-rec-lab/thereclab-site/pull/15",
+ "proposed": true,
+ "preview_built": true,
+ "published": false,
+ "dry_run": false,
+ "awaiting_previous": null,
+ "fact_check": "corrected 9",
+ "checks_passed": true,
+ "template_restored": false,
+ "launches": [
+  "Ashby"
+ ],
+ "sections": {
+  "Recruiting Podcasts": 5,
+  "Recruiting Newsletters": 2,
+  "Recruiting reports, product updates, and more": 6,
+  "AI & Tech Picks": 3
+ },
+ "archive": "digest/published/2026-11-23-v10.html",
+ "problems": [
+  {
+   "phase": 2,
+   "source": "selection",
+   "what": "Podcasts: two Recruiting Future episodes run (841 on a real deepfake interview, 840 on telling candidates how AI is used) because both are practical and the older one could never run later. Ep 839 left out: nearly every figure is research the guest cites from memory without naming it. Offer Accepted (17 Nov) left out: it describes the same Moniepoint interviewer agent as the 10x Recruiting episode two days later, and calls it a pilot with no numbers.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "selection",
+   "what": "Newsletters: TA Unboxed and RecOps Roundup (both 20 Nov) are the only new issues this fortnight. RecOps runs on the strength of its lead piece on how compensation teams price skills; the rest of it is a links roundup.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "selection",
+   "what": "Section 3: five reports (Hays, ONS, CIPD, iCIMS, TestGorilla) and one launch, Ashby AI Interviewer. Held back and still eligible: Korn Ferry Talent Trends 2027, NACE Job Outlook 2027 and the Bullhorn weekly indicator. Pin's Notetaker and Juicebox Blends not taken, to keep launches to one on a strong reports week. Hays links to its free landing page; the full guide needs a free email form.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "selection",
+   "what": "Tech picks: AI For Humans (20 Nov) and AI & I (18 Nov) in; nothing new from Lenny's or How I AI. AI For Humans bullets use only what the hosts tested or said themselves; its unconfirmed items (Anthropic IPO, Nvidia, outages) are left out.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "EDPB title",
+   "what": "The EDPB page headline covers three unrelated topics, so the item uses a factual descriptive title taken from its final clause. The item is dated 11 November and sits in AI & Tech Picks as a news item.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "guest line",
+   "what": "Chloe Seeley's job title comes from the host's spoken introduction because the saved episode description is cut off. Brainfood panellists are not named in the description and captions garble them, so only Daniel Chait (who introduces himself) is named.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "dates",
+   "what": "CIPD and iCIMS show 'Nov 2026' because neither source states a publication day. TestGorilla shows its stated publish date, 30 Sep 2026, though the page was later refreshed with UK data.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "fact-check",
+   "what": "Two independent passes on Fable 5.2. First pass: 9 mismatches (the 20 minute detail and an invented link in the fraud episode, 'six' touch points nobody counted, the preview filing Article under fraud, and five smaller tightenings). All corrected from the source. Second pass: clean.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "propose",
+   "what": "Version 10 pushed to digest-review as a fast-forward from main (no force needed) and site PR #15 opened. Version file, 16 featured rows, archive copy and pending-review.json written.",
+   "severity": "decision",
+   "resolved": "yes"
+  },
+  {
+   "phase": 2,
+   "source": "featured log",
+   "what": "Featured rows are dated the run date (22 November), not the edition's Monday, because run_check and the health report look for rows dated today. The documents do not say which date to use now the two differ.",
+   "severity": "decision",
+   "resolved": "yes"
+  }
+ ]
+}

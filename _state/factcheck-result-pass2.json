@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-22",
+  "model": "claude-fable-5-2",
+  "verdict": "pass",
+  "resolved": [
+    "Recruiting Future ep 841, bullet 1 and Podcast standout: now say the interviewer messaged Swift / raised the alarm about 20 minutes in, and that the candidate refused the background and hand requests. Matches 'about 20 minutes later, he sends me a screenshot from the video', 'asked him to put his hand across in front of his face and the guy refused' and (25:14) 'Greg asked him to take the background when he refused to'. Standout no longer says the phone number was on the CV or that the checks exposed him: 'the checks that followed, starting with searching the phone number he gave' matches 'The phone number that he provides. Did a quick search on that', which Swift describes first, after the call ended.",
+    "Recruiting Future ep 841, bullet 3: the tailored-CV point is now tied to the stack and the plan, not to exact versions. Matches 'We had given away so much information about our our setup. The like the stack was there the plan of what we were moving to was there. So for someone to create the perfect tailored CV and LinkedIn profile isn't difficult.'",
+    "Recruiting Future ep 840, bullet 2: the unsupported 'six points' is gone. 'multiple touch points' is Clark's own phrase; job postings, confirmation email and rejection are all named and 'all these things link back to this page ... a single source of truth'.",
+    "Preview, Article line: no longer filed under candidate fraud and no longer says 'exactly where a human makes the call'. 'tells candidates at every stage how it uses AI and that a human makes each decision' is supported by the touch points list, the career page that 'says the tools we use', and the rejection wording 'this was made by a human'.",
+    "Preview, EDPB line: now 'automated candidate screening, AI included', matching 'automated candidate screening tools, including AI-driven ones'.",
+    "CIPD bullet 3: now 'no immediate plans to', matching '27% of workplaces currently do not advertise job roles with any salary information and have no immediate plans to do so'. 62% always include salary is supported.",
+    "AI & I bullet 1: now 'which he personally would not recommend building', matching 'I personally don't recommend that but you should be able to if you want to'.",
+    "Brainfood bullet 3: 'rarely' and 'drop-off' are gone. 'the cause is usually poor communication' matches 'it's not actually the assessment that's usually the problem. It's a lack of communication around the assessment in the first place'; the four things to tell candidates are all in the passage.",
+    "iCIMS bullet 1: 'rose' is gone. 'were 9% above last October and job openings 2% above, while hires were 18% below' matches the report's EMEA October figures and no longer implies a month-on-month rise."
+  ],
+  "mismatches": [],
+  "notes": [
+    "Recruiting Future ep 841 bullet 2 (rewritten) checked: phone number traced to a site 'where people can basically get fake phone numbers'; the university 'based in Ireland' and 'the degree course doesn't exist in the format that he spoke about. He had it listed'. Supported.",
+    "PromptMates bullet 3: only 'resume' became 'CV'. Encz: 'We already looked at your resume. We already think you could be a fit ... you also follow up with these folks. You give them feedback'. Nothing else moved.",
+    "Hays bullet 1: now carries the 'to achieve their top goal' qualifier. Matches 'While 39% plan to increase hiring next year, almost half (48%) plan to invest in AI and automation over the next 12 months to achieve their top organisational goal, compared with 24% planning to increase permanent headcount'.",
+    "AI For Humans bullet 1: 'GPT-6.2 Astra' now matches the episode description's spelling. Shipper is named among early testers who 'said this model is not great'. The relayed response matches 'OpenAI says the models that we are talking about right now ... are not the same ones that they were tested two weeks ago or three weeks ago'. The claim is attributed to the hosts relaying OpenAI, which is accurate.",
+    "AI For Humans bullet 3: 'the same 3D build' is a fair description of a third party's test recreating one reference image in Blender with both models; 'the Astra build was about $3' and 'the Fable build was almost 20 bucks'.",
+    "AI & I standout row: 'just because you can doesn't mean you should' is verbatim; three buckets covers the modify-yourself, someone-should-craft-it and enterprise-security categories. Zhao opens by calling them axes and then uses 'bucket' himself. Row is under 50 words.",
+    "Preview, other specifics: 690,000 and 'fell again' (ONS: 'Vacancies also fell further'); CIPD quarter of AI-using employers expecting reduced headcount (25%); Ashby AI Interviewer launch; TA Unboxed source-before-the-advert; 'rough first week' (description: 'why the early reviews were so brutal', models launched 'this week'); Notion's founder on what to build yourself. All supported.",
+    "Residual wording observation, not a mismatch: CIPD says '27% of workplaces'; the digest says 'UK employers', as it does for the other CIPD figures.",
+    "The three deliberate calls (EDPB descriptive title, Chloe Seeley title from the spoken intro, TestGorilla publish date) were not re-flagged, as instructed.",
+    "No em or en dashes in the page body. Unchanged lines were re-read against the first pass and not re-verified from source."
+  ]
+}

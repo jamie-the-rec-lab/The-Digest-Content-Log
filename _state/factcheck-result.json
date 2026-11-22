@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-22",
+  "model": "claude-fable-5-2",
+  "verdict": "mismatches",
+  "checked_items": 16,
+  "mismatches": [
+    {
+      "item": "Recruiting Future, What Candidate Fraud Looks Like In Practice (bullet 1 and Podcast standout)",
+      "severity": "medium",
+      "digest_line": "Cyberr's interviewer broke a deepfake about 20 minutes into a video interview by asking the candidate to switch off his background and pass a hand in front of his face. The candidate refused. / Standout: A deepfake candidate was caught about 20 minutes into a real interview when he refused to pass a hand across his face. Swift shares the checks that exposed him, starting with searching the phone number on the CV.",
+      "source_says": "\"He had to jump off because he was doing an interview for this role and about 20 minutes later, he sends me a screenshot from the video ... saying that this basically this person clearly wasn't who they said they were\" and \"he spots pretty much straight away that something isn't right\". The 20 minutes is when the interviewer messaged Swift, not when the hand test happened. The filter was never broken: \"he also then asked him to put his hand across in front of his face and the guy refused. The call is ended.\" The phone number is \"The phone number that he provides\" (not stated to be on the CV), and the phone and degree checks came after he was already caught.",
+      "suggested_fix": "Bullet: \"About 20 minutes into the interview, Cyberr's interviewer messaged Swift that the candidate was not who he claimed to be. Asked to switch off his background and pass a hand in front of his face, the candidate refused.\" Standout: \"Cyberr's interviewer raised the alarm about 20 minutes into a real interview, and the candidate refused to pass a hand across his face. Swift shares the checks that followed, starting with searching the phone number he gave.\""
+    },
+    {
+      "item": "Recruiting Future, What Candidate Fraud Looks Like In Practice (bullet 3)",
+      "severity": "medium",
+      "digest_line": "Job adverts that spell out the exact versions of the software a company runs make a perfectly tailored fake CV easy, so Swift advises naming the skills and leaving the versions out.",
+      "source_says": "Two separate points joined into one cause. Tailored CV: \"We had given away so much information about our our setup. The like the stack was there the plan of what we were moving to was there. So for someone to create the perfect tailored CV and LinkedIn profile isn't difficult.\" Versions: \"I wouldn't go right down into talking about exact versions of things that you're running, for example, because that really does tell somebody where you're vulnerable.\" Swift never says exact versions are what make a tailored CV easy.",
+      "suggested_fix": "\"Cyberr's own job advert gave away its technology stack and migration plan, which made a perfectly tailored fake CV easy. Swift advises naming the skills you need and leaving out exact software versions, which show where you are vulnerable.\""
+    },
+    {
+      "item": "Recruiting Future, Restoring Trust In Hiring (bullet 2)",
+      "severity": "low",
+      "digest_line": "Clark tells candidates how AI is used at six points, from the career site and job postings to the rejection email, and each one links back to a single career site page.",
+      "source_says": "The number six is not stated. Clark says \"it needs to be multiple touch points during that journey\" and lists the career site, job postings, an application question, the confirmation email, each interview stage and the rejection email; \"all these things link back to this page\". Six is the digest's own count of his list (the career site is itself the page being linked to, and the application question asks how the candidate used AI).",
+      "suggested_fix": "\"Clark tells candidates how AI is used at every stage, from the job posting and confirmation email to the rejection email, and each one links back to a single career site page.\""
+    },
+    {
+      "item": "Preview paragraph (Recruiting Future, Restoring Trust In Hiring)",
+      "severity": "medium",
+      "digest_line": "Candidate fraud gets practical, with a deepfake caught mid-interview and a furniture brand telling candidates exactly where a human makes the call.",
+      "source_says": "The Article episode is about trust and AI transparency, not candidate fraud. Clark: \"There's tons of hype on candidate fraud, which I know is real, but I don't think it's real to the extent that the HR tech companies are trying to pump it up to.\" Article tells candidates how it uses AI and that \"this decision was made by a human\"; he does not describe saying \"exactly where\" a human decides, since a human makes every hiring decision.",
+      "suggested_fix": "\"Candidate fraud gets practical with a deepfake caught mid-interview, and a furniture brand tells candidates at every stage how it uses AI and that a human makes each decision.\""
+    },
+    {
+      "item": "Preview paragraph (EDPB)",
+      "severity": "low",
+      "digest_line": "EU regulators name AI candidate screening as their 2027 enforcement topic",
+      "source_says": "\"automated decision-making (ADM), including AI-driven ADM, in recruitment ... in the context of the use of automated candidate screening tools, including AI-driven ones.\" The topic is automated decision-making in recruitment; AI is a subset, not the whole of it. (The item's own bullets get this right.)",
+      "suggested_fix": "\"EU regulators name automated candidate screening, AI included, as their 2027 enforcement topic\""
+    },
+    {
+      "item": "CIPD, Labour Market Outlook: Autumn 2026 (bullet 3)",
+      "severity": "low",
+      "digest_line": "27% of UK employers do not include salary in their job adverts and have no plans to, while 62% always include it.",
+      "source_says": "\"27% of workplaces currently do not advertise job roles with any salary information and have no immediate plans to do so.\"",
+      "suggested_fix": "\"...and have no immediate plans to, while 62% always include it.\""
+    },
+    {
+      "item": "AI & I, Notion's Founder on the One Thing Your AI Is Missing (bullet 1)",
+      "severity": "low",
+      "digest_line": "...and enterprise software you rely on for security and should not build.",
+      "source_says": "\"The last bucket are more like enterprise software that you depends on for security. You don't want to maintain it ... I personally don't recommend that but you should be able to if you want to you should go for it.\" A personal recommendation with an explicit let-out, stated by the digest as a flat rule.",
+      "suggested_fix": "\"...and enterprise software you rely on for security, which he personally would not recommend building.\""
+    },
+    {
+      "item": "Brainfood, Skill Based Hiring: Where Are We At in 2026? (bullet 3)",
+      "severity": "low",
+      "digest_line": "Assessment drop-off is rarely caused by the assessment, argues the panel's job post specialist: ...",
+      "source_says": "\"it's not actually the assessment that's usually the problem. It's a lack of communication around the assessment in the first place.\" \"Not usually\" has been tightened to \"rarely\", and \"drop-off\" is not said: the host's question was about assessment load that \"deters ... certain categories of candidates\". The four things to tell candidates are supported.",
+      "suggested_fix": "\"When assessments put candidates off, the cause is usually poor communication, argues the panel's job post specialist: tell candidates why it is used, that every candidate does it, what good looks like and how long it takes.\""
+    },
+    {
+      "item": "iCIMS, November 2026 Workforce Report (bullet 1)",
+      "severity": "low",
+      "digest_line": "In EMEA, job applications on the iCIMS platform rose 9% above last October and job openings 2%, while hires were down 18%.",
+      "source_says": "Market update: \"job applications rose 9% above last October and job openings 2% above, while hires sat 18% below.\" But the same report's top findings say \"EMEA applications dropped to 9% above the baseline\" (September was 14% above). The levels are right; \"rose\" reads as a month-on-month rise that the report contradicts.",
+      "suggested_fix": "\"In EMEA, job applications on the iCIMS platform were 9% above last October and job openings 2% above, while hires were 18% below.\""
+    }
+  ],
+  "style_flags": [
+    "PromptMates bullet 3: 'shortlist on the resume first' uses the American 'resume' in our own prose; the rest of the page says CV. Change to 'shortlist on the CV first'.",
+    "AI pick standout row runs to about 53 words; STYLE.md section 4 caps a row at 50. Trim (for example cut 'a useful test before your next home-made automation' to 'useful before your next home-made automation').",
+    "EDPB item title is not the source's own title. The EDPB page is headed 'EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action'; the digest shows a headline the library record wrote. STYLE.md says 'Never invent a title'. Defensible because the original covers three topics, but it needs a conscious call, and the title also repeats the source name.",
+    "Product name: the page writes 'GPT 6.2 Astra' (preview and AI For Humans bullet 1); the episode description writes 'GPT-6.2 Astra'. Hyphen, not a dash, so restoring it does not break the dash rule.",
+    "AI For Humans bullet 3: 'the same Blender build' assumes the reader knows Blender (3D modelling software). Explain in a clause or say 'the same 3D model build'. 'vibe code' in AI & I bullet 2 is borderline but is the source's own term and the subject of the episode.",
+    "10x Recruiting guest line: the title 'VP and Global Head of Talent' is not in the episode description as stored (which only names Chloe Seeley and Moniepoint and is cut off); it comes from the host's spoken intro in the captions ('VP and global head of talents at Moneypoint'). STYLE.md says guest lines come from the description only.",
+    "No em or en dashes, no banned words or tics, no 'not X but Y' seesaw found in the body. All bullets are 19 to 35 words; the preview is 100 words."
+  ],
+  "notes": [
+    "All other numbers, dates, names, markets and claims were checked against the transcript bodies or report text and are supported: Brainfood 86% / 48% / 60% / 51% (Chait, Greenhouse 2026 future of hiring report); Moniepoint five minutes, four areas, private Slack message, about two months, next-interviewer automation; PromptMates 10 to 100 runs, 30 for 30, $4 v $41 per 1,000 runs, Encz on AI interviews; Article 20,000 to 25,000 applications and the one-warning rule; TA Unboxed 20% and meta-sourcing; RecOps lead piece; Hays 39% / 24% / 48% / 40% / 27% / 70% / 11,200; ONS all figures; CIPD 62% / 2,051 / 25% from 21% / 5% / 62%; iCIMS 32% / 41% / 52% / 45% / 500; TestGorilla 75% / 73% / 58% / 72% / 22% / 69%; AI For Humans Shipper, Claude pick, $3 v almost $20; AI & I timeline and data-and-context point; EDPB all three bullets.",
+    "Ashby page fetched live (https://www.ashbyhq.com/product-updates/ai-interviewer, dated November 17, 2026). All three bullets and the Launch standout are supported: browser, own time, structured and job-specific; team reviews 'the transcript, evaluation, and supporting evidence directly in Ashby' and 'decides what happens next'; written disclosure before recording, told again out loud, 'must affirmatively consent'; 'Every interview needs human review'; 'generally available across all Ashby All-in-One plans'; '200 interviews included for free, as a one-time, non-expiring allotment'. Page headline is 'Introducing Ashby AI Interviewer to uncover more qualified candidates'; the digest trims it to 'AI Interviewer'.",
+    "Hays bullet 1: the press release reads '48% plan to invest in AI and automation over the next 12 months to achieve their top organisational goal, compared with 24% planning to increase permanent headcount'. The 24% may be the share choosing permanent headcount as the way to reach their top goal, not all employers planning any increase. The digest's wording matches the source's literal words, so not counted as a mismatch, but the qualifier is dropped.",
+    "CIPD bullet 2 and standout: the 25% v 21% comparison carries a source caveat the digest omits: 'the routing to the questions changed between surveys, which may slightly affect comparability'. The headline figures are as CIPD states them.",
+    "AI For Humans bullet 1: 'OpenAI changed the model within days of release' follows the hosts' wording ('made sweeping changes to both models ... within days of it actually being released'). It is an OpenAI staffer's claim relayed by the hosts, it covers both Astra and Sol, and in context it reads as changes made between early testing and launch. Supported as written, but ambiguous.",
+    "TestGorilla date: 30 Sep 2026 is the page's own publish date, but all three bullets are UK figures from a survey fielded 10 September to 7 October 2026, so the page was refreshed after the shown date. The refresh date is not stated at source.",
+    "Names not confirmed by an episode description (captions only): Daniel Chait (the Brainfood description as stored is cut off and names no panellist; captions spell it consistently and he introduces himself as 'CEO and co-founder at Greenhouse'). Dan Shipper is not in the AI For Humans description but is confirmed as 'Every's Dan Shipper' in the AI & I description. Samantha Swift / Cyberr, Bradley Clark / Article, Chloe Seeley / Moniepoint, Benji Encz, Dan McCarthy and Ivan Zhao are all confirmed by their descriptions. The digest sensibly leaves the Brainfood job post specialist unnamed (captions give 'Cat Kibbon').",
+    "Dates: all 16 item dates match the source record. CIPD and iCIMS show 'Nov 2026' as intended. EDPB sits in AI & Tech Picks, which is correct under STYLE.md section 6.",
+    "PromptMates bullet 2: the $4 and $41 figures are McCarthy's corrected figures from a live demo on fake data, not Zapier's own costs. The digest says 'live demo', which is enough."
+  ]
+}
