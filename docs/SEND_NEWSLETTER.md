@@ -108,6 +108,10 @@ way unless Jamie decides otherwise and both are updated first.
 - Leave the `links.news.thereclab.ai` CNAME in Cloudflare ("DNS only") in place.
   It costs nothing, and removing it could break a link if any email ever went
   out with Resend tracking on.
+- The email's "View this edition on the web" link points at
+  `thereclab.ai/digest/subscriber`, the same page under its own address, so the
+  site's Web Analytics can show visits that came from the email apart from
+  everyone else, in total. Keep it that way (`build_email.py`).
 - The site's `/go/` page and `scripts/go_links.py` are left from a one-night
   click-counting trial. Nothing uses them; do not wire them back in.
 
