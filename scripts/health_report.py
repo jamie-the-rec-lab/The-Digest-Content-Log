@@ -150,10 +150,11 @@ EMAIL_WEEKS = 4          # how many past editions the email line looks back over
 EMAIL_STALE_DAYS = 10    # older than this and the figures are flagged as out of date
 
 def email_lines(project, today):
-    """Opens and clicks for the last few editions, from digest/email-metrics.json.
+    """Delivery figures for the last few editions, from digest/email-metrics.json.
 
-    That file is filled in from Resend (read-only), by the weekly run or by a send
-    session. This script never talks to Resend itself. A missing or unreadable file
+    The email tracks no opens or clicks (Jamie's call, 22 November 2026); older
+    entries may still carry open fields from before. The file is filled in from
+    Resend (read-only), by the weekly run or by a send session. This script never talks to Resend itself. A missing or unreadable file
     is simply no section: the email figures are a nice-to-have, never a blocker."""
     path = os.path.join(project, "digest", "email-metrics.json")
     try:
@@ -183,23 +184,17 @@ def email_lines(project, today):
         head = "- **Version %s** (sent %s): delivered %s of %s" % (
             e.get("version"), when(e.get("sent_on")), d if d is not None else "?",
             e.get("sent", "?"))
-        if e.get("clicks") is not None:
-            # since 22 Nov 2026: clicks counted in total through thereclab.ai/go/
-            # (Vercel Web Analytics), no opens, nothing per person
-            head += ", links clicked %s times in total (not per person)" % e["clicks"]
-        elif e.get("tracked") and e.get("unique_opened") is not None:
+        if e.get("tracked") and e.get("unique_opened") is not None:
             head += ", opened by %s (%s), clicked by %s (%s)" % (
                 e["unique_opened"], pct(e["unique_opened"], d),
                 e.get("unique_clicked", 0), pct(e.get("unique_clicked") or 0, d))
-        else:
-            head += ", opens and clicks not tracked"
         if e.get("unsubscribed"):
             head += ", %s unsubscribed" % e["unsubscribed"]
         out.append(head)
     latest = next((e for e in reversed(eds) if e.get("top_links")), None)
     if latest:
         out.append("- Most clicked in Version %s: " % latest["version"] + "; ".join(
-            "%s (%s)" % (l.get("label") or l.get("url", "?"), l.get("clicks", l.get("unique_clicks", "?")))
+            "%s (%s)" % (l.get("label") or l.get("url", "?"), l.get("unique_clicks", "?"))
             for l in latest["top_links"][:3]))
     try:
         age = (today - datetime.date.fromisoformat(data.get("updated", ""))).days

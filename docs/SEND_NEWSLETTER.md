@@ -112,8 +112,9 @@ way unless Jamie decides otherwise and both are updated first.
   `thereclab.ai/digest/subscriber`, the same page under its own address, so the
   site's Web Analytics can show visits that came from the email apart from
   everyone else, in total. Keep it that way (`build_email.py`).
-- The site's `/go/` page and `scripts/go_links.py` are left from a one-night
-  click-counting trial. Nothing uses them; do not wire them back in.
+- A one-night trial of counting clicks in total (a `/go/` page on the site and
+  link rewriting here) was removed the same night. No email ever used it. Do
+  not bring it back unless Jamie asks.
 
 **The figures live in `digest/email-metrics.json`**, one entry per edition:
 version, broadcast id, sent date, sent, delivered, bounced, unsubscribed.

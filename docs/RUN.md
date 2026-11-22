@@ -137,9 +137,9 @@ Resend**. That keeps "this job cannot email the list" a wall rather than a
 judgement call: a note to Jamie's own inbox cannot become a broadcast, because
 it is not using the thing that broadcasts.
 
-The one thing the job does read from Resend is the email figures: delivered,
-opens and clicks for the last few editions, through three read-only tools named
-in `CLAUDE.md`. They land in `digest/email-metrics.json` and the health report
+The one thing the job does read from Resend is the email figures: sent,
+delivered, bounced and unsubscribed for the last few editions, through two
+read-only tools named in `CLAUDE.md`. The email tracks no opens or clicks. They land in `digest/email-metrics.json` and the health report
 prints them. See "Email figures" in `SEND_NEWSLETTER.md`.
 
 Then a nudge: the edition is live for review. Every mechanical check has
