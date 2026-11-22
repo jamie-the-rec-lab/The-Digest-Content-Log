@@ -1,3 +1,39 @@
+<!--SUMMARY-->
+## Actionable summary
+**Host:** Kevin Pereira and Gavin Purcell, hosts of the weekly AI news show AI For Humans, who test each new model hands-on  ·  **Show:** AI For Humans, 20 Nov 2026
+**Tags:** ai, ai agents, ai coding, ai product, machine learning, future of work, pricing
+
+**When to use this:** A new flagship model has launched and you need to decide whether to move your team onto it, or which single AI subscription is worth paying for.
+
+**Big idea:** The newest model is not automatically the best one for everyday work, so test it on your own tasks, especially plain writing and open-ended briefs, before moving a team onto it.
+
+**Frameworks & plays:**
+- Do not roll out a model on launch week reviews. Early testers including Dan Shipper, Theo of T3 Chat and Matt Shumer said GPT 6.2 Astra was "not great" at writing and explaining its reasoning. An OpenAI staffer then said both models were changed within days of release, so the reviews and the shipped model differ.
+- Match the model to the type of task. Astra did well on tightly specified jobs such as learning a codebase or a computer use site audit. On a taste-led brief Kevin "had to unwind the changes that it made three different times and ended up going back to Fable 52".
+- Check the cost per job as well as the quality. In one Blender comparison they cite, "the Astra build was about $3" while "the Fable build was almost 20 bucks", and Kevin would take the cheaper build.
+- Sanity check important work across two vendors. Kevin says that when he checks one model family's work in another, "I get slightly better results".
+- Keep a small personal test you rerun on every release. Gavin's is "please create 10 funny Pac-Man puns". Gemini 4 Neon was "the first model where all 10 of them I bought into", against "five or six" for Fable 5.2.
+
+**Data & benchmarks:**
+- If you only pay for one, both hosts pick Anthropic. Kevin calls Opus 5.5 "a solid daily driver", and notes that its voice mode trails ChatGPT's and it has no built-in image model.
+- Kevin's budget for serious users is "a $100 anthropic plan or a $200 plan if you can swing it and then put 50 bucks" into a multi-model service such as OpenRouter.
+- Gemini 4 Neon is available on the $20 a month Gemini Pro subscription, according to Gavin.
+- The hosts put Anthropic's IPO at $1.5 trillion, but they contradict themselves on whether it had actually listed yet.
+
+**Tools & prompts:**
+- ChatGPT Wallet lets an agent buy things for you with a disposable payment token through American Express, Visa and Mastercard, so the agent never sees the card number. Kevin had not used it yet.
+- Kevin Rose released an open source DocuSign alternative, whose name is garbled in the captions. The hosts caution that you still have to host and support it yourself.
+
+**Contrarian take:**
+- An unnamed Anthropic engineer is played saying "Pretty much all humans on Earth will become permanently unemployable". Kevin disagrees: "I just don't see the world where all human employment goes away".
+- The hosts' theories about what caused recent Outlook, airport and bank website outages are speculation, and Gavin concedes such takes are "something that isn't proven at all".
+
+**Steal this (do tomorrow):**
+- Write three test prompts from your real work and run them on any new model before switching.
+- Run one important piece of AI output through a second vendor's model.
+- Compare what a task costs on two models before defaulting to the newest.
+<!--/SUMMARY-->
+
 # OpenAI’s New Astra Is Messy But Gemini Neon Is... Good?
 
 - **Podcast:** AI For Humans

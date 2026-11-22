@@ -1,3 +1,39 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Andrew Marritt, economist, writer of the Working Ideas Substack and author of Bayesian Thinking for People Analytics, who ran one of the first people analytics firms in Europe after years in recruitment roles  ·  **Show:** Recruiting Future, 18 Nov 2026
+**Tags:** recruiting metrics, structured interviewing, ai interviewing, employer branding, job advertising, retention, quality of hire, hiring manager alignment, ai bias, candidate ai tools
+
+**When to use this:** A finance director wants the recruiting budget cut, hiring managers keep overruling the process, or every application looks the same and you need to know which signals still mean anything.
+
+**Big idea:** Most recruiting problems are "individually rational and collectively daft", and the fix is to manage hiring on value and on signals that are costly to fake, and not on cost per hire.
+
+**Frameworks & plays:**
+- Argue the budget on value and not on cost per hire. Cost per hire is an average that ignores what the hire is worth and how often the seat is refilled, so a seat replaced "many times" a year actually pushes the average down.
+- Agree a range of costs and returns with finance instead of a single figure, because Marritt says everyone discounts single numbers as "wishful".
+- Model what each proposed cut destroys. In his worked example, swapping structured interviews for untrained, unstructured manager interviews loses about £48 of value for every £1 saved.
+- Treat tenure as a budget lever. In the same example, raising average tenure from four years to five gives a 20% cost saving while value goes up, yet cost per hire cannot see it. Selection can only move tenure by about 15%, and screening for tenure shuts out early career hires.
+- Allow hiring managers to override the process, but record every override so the outcomes can be checked later.
+- Put weight on signals that are costly and checkable, which he lists as work samples, structured interviews and "verified work histories".
+- Ask AI vendors what data the tool was trained on, whose hiring history it is, whether it explores beyond past patterns, and how they define fairness.
+
+**Data & benchmarks:**
+- After a freelance marketplace added one-click proposals, the link between a tailored proposal and getting a reply fell 51%. A paper he cites found the top fifth of workers were hired 19% less and the bottom fifth 14% more.
+- A recent paper he cites suggests up to 21% of job postings might be ghost jobs.
+- Across 136 experiments, formulas were about 10% more accurate than expert judgement. Firms that followed test results saw about 15% better tenure, and he says an override produces a worse result about 90% of the time.
+- A study of over 70,000 candidates found AI interviews produced 12% more offers and more people still employed at 30 days, and four out of five candidates preferred the AI. One automated stage halved completion rates, and the strongest candidates and women dropped out.
+- Moving one statement to near the headline of a job advert raised entry-level applicants 44%.
+- He puts the accuracy of selection methods at around 0.5, possibly less.
+
+**Contrarian take:**
+- Marritt says the "safe hire" is overrated. A trading desk head told him of an uncertain candidate, "if they're rubbish, we can get rid of them". Marritt adds that a probation period people really use is one of the most important things for raising hiring quality.
+- He argues only the CHRO can own the recruiting budget, because nobody else holds recruiting cost, replacement cost and performance together.
+
+**Steal this (do tomorrow):**
+- Start a log of every hiring manager override and review it against later performance and tenure.
+- Put pay bands, median tenure and alumni destinations into your employer brand copy, because they are hard to fake.
+- Move the single most important statement in your next job advert up to the headline.
+<!--/SUMMARY-->
+
 # Ep 839: Recruiting From First Principles
 
 - **Podcast:** Recruiting Future

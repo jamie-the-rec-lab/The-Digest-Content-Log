@@ -1,0 +1,131 @@
+{
+ "run_date": "2026-11-22",
+ "items": [
+  {
+   "show": "AI & I",
+   "title": "Notion's Founder on the One Thing Your AI Is Missing",
+   "date": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=PGWvMrF4XIA",
+   "guest_line": "Ivan Zhao, cofounder and CEO, Notion (role from the episode description; the transcript confirms 'Ivan', that he makes Notion and its 13-year anniversary). Host Dan Shipper, Every. Recorded live at Every's Thesis event with audience questions.",
+   "vendor_flag": true,
+   "vendor_note": "Yes. Zhao is selling the thing he praises: he calls Notion 'one of the best knowledge context system in the world', Notion sponsored the event he is speaking at, and he says himself 'of course I talk this way because that's our business model'. The 50 person company offer and the token savings are his goals, not results.",
+   "reader_fit": "Medium. No recruiting content, but a clear non-technical frame for a talent leader deciding which home-made AI tools to build versus buy, and why the team's own knowledge and context is the asset worth organising for agents.",
+   "path": "AI & I/2026-11-18-notions-founder-on-the-one-thing-your-ai-is-missing.md",
+   "points": [
+    {
+     "claim": "Zhao sorts software into three buckets for the vibe coding era: tools you want the power to modify yourself, everyday tools such as a calendar that someone else should craft for you, and enterprise software you rely on for security, which he does not recommend building yourself because of the cost of fighting off vulnerabilities.",
+     "figure": "Three buckets; example given is Notion Calendar, whose second mobile version he says launched that day",
+     "quote": "just because you can doesn't mean you should",
+     "timecode": "6:38"
+    },
+    {
+     "claim": "The 'software is dead' mood lasted about three months before people found home-built tools need maintaining.",
+     "figure": "a year ago / 9 months ago",
+     "quote": "a year ago people say software is dead vibe code everything. Then 9 months ago people realized you need to maintain them.",
+     "timecode": "1:21"
+    },
+    {
+     "claim": "Because agents can now write both workflow logic and the interface, Zhao says the durable thing a business owns is its data and context, and Notion sees its job as keeper of that context for different agents, with guard rails so a team of humans can collaborate on it.",
+     "figure": "Notion (vendor claim about its own positioning)",
+     "quote": "that's a lot more durable than the procedural logic and then the UI",
+     "timecode": "10:12"
+    },
+    {
+     "claim": "GOAL, NOT A RESULT: Notion aims to offer a 50 person company all its context and know-how in one place out of the box, onboarded by an agent, within the next quarter or two. Zhao floats, as a possibility only, that this could cut token spend by 20 to 40 percent.",
+     "figure": "50 people company; next quarter, 'less than two hopefully'; 20%, 30%, 40% of tokens 'might be possible'",
+     "quote": "our goal for the next quarter less than two hopefully is that solution for 50 people company having all the context and knowledge knowh how together out of the box",
+     "timecode": "27:49 (token savings line at 28:31: 'can they save 20% 30% 40% of tokens might be possible')"
+    },
+    {
+     "claim": "Zhao warns against handing over understanding to agents: a team on a medium-sized codebase stops understanding it after a week. Notion's fix was to stop each person talking to a private coding agent and put agent work on a shared board in Notion so everyone can see it.",
+     "figure": "'after a week'; the board is said as 'notion camp' in the captions, probably kanban (he compares it to Jira)",
+     "quote": "I don't think we should surrender our understanding definitely not without putting up a fight",
+     "timecode": "20:58 (board example at 22:01)"
+    },
+    {
+     "claim": "Notion's internal planning assumption is that most new 'knowledge workers' will be AI agents, so its customers are increasingly agents as well as people. This is an assumption, not a measurement.",
+     "figure": "next billion knowledge workers",
+     "quote": "we assume for the next billion knowledge worker coming online vast majority will be agents",
+     "timecode": "29:44"
+    }
+   ],
+   "gaps": [
+    "Captions carry no speaker names; speakers assigned from context (host asks, Zhao answers, three audience questions from 23:06).",
+    "13:14 to 13:17: tool names garbled. 'I'm a clock guy for writing' is almost certainly Claude, 'image models only on CHBT' almost certainly ChatGPT. The coding line is cut off ('most notion runs on ch'), so which coding model Notion runs on is NOT readable. Do not state it.",
+    "22:01: 'we set up notion camp' is unclear, probably 'Notion kanban'. Treat the exact name as unconfirmed.",
+    "25:33: a 'notion pattern libraries' release opened to agents is mentioned ('I think it's become public now'); Zhao says it is not open source yet. Exact product name unconfirmed.",
+    "14:26: 'a couple weeks before tragic D happened' is a garble, presumably ChatGPT's launch; not used.",
+    "3:59 to 5:04 is a Lovable sponsor read, ignored."
+   ]
+  },
+  {
+   "show": "AI For Humans",
+   "title": "OpenAI's New Astra Is Messy But Gemini Neon Is... Good?",
+   "date": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=NfpqdDnK_kQ",
+   "guest_line": "No guest. Hosts Kevin Pereira and Gavin Purcell (names as spelled in the episode description; the captions garble them as 'Kevin Praer' and 'Gav PCE').",
+   "vendor_flag": false,
+   "vendor_note": "No guest and nobody selling. The hosts pay for the subscriptions they discuss and say themselves they may sound like 'anthropic shills'. Much of the episode is opinion, rumour and jokes; see rumour_flags.",
+   "reader_fit": "Medium to high for the first half hour: plain-English guidance on not adopting a new model on launch hype, which single AI subscription to pay for, and checking cost per task. The second half (Nvidia, games, music tools) is of little use to a recruiter.",
+   "path": "AI For Humans/2026-11-20-openais-new-astra-is-messy-but-gemini-neon-is-good.md",
+   "points": [
+    {
+     "claim": "Early testers panned OpenAI's new GPT 6.2 Astra, mainly for poor writing and explaining, and OpenAI then said it changed both new models within days of release, so the early reviews were of a different version. Lesson: launch week verdicts are unreliable in both directions. The OpenAI statement is the hosts' paraphrase, not a quote from OpenAI.",
+     "figure": "GPT 6.2 Astra and its sibling, heard as 'Soul' or 'Saul' in captions and spelled 'Sol' in the description; testers named: Dan Shipper (Every), Theo (T3 Chat), Matt Shumer",
+     "quote": "All three of those people came out of their early testing and said this model is not great.",
+     "timecode": "4:51 (OpenAI changes at 6:13: 'they made sweeping changes is to both models')"
+    },
+    {
+     "claim": "In Kevin's own test in Codex, Astra was quick and accurate at understanding an unfamiliar project, but on its highest setting with a creative brief it made changes nobody asked for and produced placeholder design. He went back to Anthropic's Fable 5.2.",
+     "figure": "Changes undone three times; tools named: Codex, Astra, Fable 5.2 (said as 'Fable 52')",
+     "quote": "I had to unwind the changes that it made three different times and ended up going back to Fable 52",
+     "timecode": "8:37"
+    },
+    {
+     "claim": "Astra's weak spot for non-engineers is plain-English writing: asked to rewrite a report plainly it kept hedging and sounding like an engineer, although the same model did a computer use website audit well with only a login and a terms prompt needed from him.",
+     "figure": "Astra in Codex; computer use task",
+     "quote": "it was screaming AI writing and engineer focused this that the other and a lot of hedging",
+     "timecode": "14:54"
+    },
+    {
+     "claim": "Cost per task can differ several times over between top models. In a third-party Blender test the hosts cite, the same reference image cost about $3 to build with Astra and almost $20 with Fable 5.2, and Kevin would take the cheaper one. This is one person's test seen on screen, not a benchmark.",
+     "figure": "about $3 versus almost $20 (the description says $19); credited to a name the captions give as 'Amir Musich or Musich', spelling unconfirmed",
+     "quote": "the Astra build was about $3 where uh the Fable build was almost 20 bucks",
+     "timecode": "17:42"
+    },
+    {
+     "claim": "Google's new Gemini 4 Neon impressed the hosts for creative writing and is on the standard paid plan. It was the first model to pass Gavin's long-running joke test in full, where Fable 5.2 got about half. One informal test, by his own description 'a weird benchmark'.",
+     "figure": "Gemini 4 Neon, released 'just yesterday, I think'; 10 of 10 puns versus 'five or six' for Fable 5.2; rolled out to all Gemini Pro subscribers, $20 a month",
+     "quote": "this was the first model where all 10 of them I bought into",
+     "timecode": "24:54 (rollout at 22:37, $20 plan at 26:45)"
+    },
+    {
+     "claim": "Asked which one AI to pay for, both hosts choose Anthropic's Claude products, with Opus 5.5 for daily use and Fable 5.2 for bigger jobs, noting the voice mode is weaker than ChatGPT's and there is no built-in image model. Kevin also checks work across vendors because he gets better results that way.",
+     "figure": "Opus 5.5 (said 'Opus 55'), Fable 5.2; suggested budget: a $100 or $200 Anthropic plan plus $50 on a multi-model service such as OpenRouter",
+     "quote": "Opus 55 is just a solid daily driver. Fable 5.2 is incredible to use and again collaborate with. So that's where my money goes.",
+     "timecode": "29:12 (budget at 29:59; cross-checking at 27:55: 'I get slightly better results')"
+    }
+   ],
+   "rumour_flags": [
+    "Anthropic IPO: the hosts call it the largest ever at 'roughly a trillion half dollars' / '$ 1.5 trillion' and say at 18:33 'Anthropic went public', but at 0:00 say it 'has just filed' and at 10:29 that it is 'not out as of this time I don't think'. Status and size are the hosts' loose statements and are internally inconsistent. Verify before use.",
+    "'Permanently unemployable' prediction (0:40 and 20:14) is a played clip of ONE unnamed Anthropic engineer from an AI safety video series, not a company position. Kevin disagrees on air.",
+    "GPT 6.1 Astra delay: 'The rumors were that maybe it wasn't safety aligned' (3:22). Rumour.",
+    "The 'Skull Island' deal between Sam Altman and Dario Amodei (4:24, 42:12) is an explicit joke, not a claim.",
+    "Jensen Huang: the hosts treat it as known that he was removed from Nvidia and is trying to return; the reasons listed at 33:09 (foreign nations, a spy) are presented by them as competing rumours. Unconfirmed.",
+    "Superintelligence within a year, and 'the AI might overthrow the government in 12 months' (38:56) is the headline of a Dwarkesh Patel interview with Paul Christiano as relayed by Gavin. Prediction, not fact. Gavin describes Christiano as an 'open AI board member'; treat that description as unverified.",
+    "Outages (Microsoft Outlook, FAA or airports, bank websites, 41:01): causes unknown. Both the hacking theory and Gavin's theory that companies are proactively hardening systems are speculation; he says such takes are 'something that isn't proven at all'.",
+    "Anthropic's 'main prompts' making vague requests specific (12:57) is hearsay: 'somebody had mentioned this idea'.",
+    "DocuSign having 7,000 employees with half in sales (53:38) is Gavin's recollection of something the CEO 'once said'. Unverified. Rockstar's 4,500 staff and GTA 6 taking 13 years (43:04) are likewise the host's figures."
+   ],
+   "gaps": [
+    "Captions carry no speaker names; Kevin and Gavin assigned from context and are occasionally hard to separate.",
+    "Model name: captions give 'Soul', 'Saul' and 'Astro' for what the description spells 'Sol' and 'Astra'. 'Fable 52', 'Fable 2' and 'Opus 55' are Fable 5.2 and Opus 5.5.",
+    "Google model names at 22:37 are muddled: the host is unsure whether 'hydrogen or carbon' is the most recent, calls the new one 'Google Neon' then 'Gemini 4 Neon', and a tweet read at 27:13 praises 'Gemini Carbon' in a passage about Neon. Which model that tweet (by 'Patrick Tulum', spelling unconfirmed) refers to is unclear. 'Gem Genie 4' also garbled.",
+    "OpenAI staffer at 6:13 is heard as 'TBO' / 'Tibo'; full name not given. 'Nome Brown' at 8:49 is presumably Noam Brown.",
+    "36:06: a sentence is broken mid-thought ('And if super at large to have access to it at the other hand'); the argument there is not recoverable.",
+    "51:15: tool names garbled ('Foul', 'Idle Max', 'Miniax H3 Max'); not used. 52:11: 'Muse' and 'Instinct' are mentioned as agentic shopping products without saying who makes them. 53:38: Kevin Rose's open source DocuSign alternative is heard as 'sign do'; real name unconfirmed.",
+    "57:23 onwards: 'Clattish', 'Xi Xcar', 'Morris creme' and similar names are caption garbles; not used."
+   ]
+  }
+ ]
+}

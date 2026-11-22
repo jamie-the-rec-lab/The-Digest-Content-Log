@@ -1,0 +1,103 @@
+{
+ "run_date": "2026-11-22",
+ "items": [
+  {
+   "show": "PromptMates",
+   "title": "Inside the Hiring Stack: Live from San Francisco",
+   "date": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=ldRyBCD6Ius",
+   "guest_line": "Benji Encz (Co-Founder and CEO, Ashby), Ishan Gupta (Co-Founder and CTO, Juicebox) and Dan McCarthy (Senior Talent Engineer, Zapier), with hosts Jason Miller and Joe Atkinson. Names and roles as given in the episode description; the transcript confirms 'co-founder and CTO of Juicebox' and 'co-founder and CEO of Ashby' on air.",
+   "vendor_flag": "Yes for two of the three guests. Juicebox and Ashby are the session sponsors, the show was recorded in the Juicebox office, and both founders are describing their own products. The 30% response rate figure is Juicebox's own internal data and the 92.9% candidate figure is Ashby's own early access data; neither is independent. Dan McCarthy is a practitioner at Zapier and is not selling anything, though his team uses Claude exclusively and his demo only compared Anthropic models.",
+   "reader_fit": "High for in-house talent leaders and anyone building with AI: a copyable way to test which model a recruiting task needs, and concrete rollout rules for AI interviews (opt in, second look, never every applicant). US tech examples, but nothing in it is country specific.",
+   "path": "library/podcasts/transcripts/PromptMates/2026-11-19-inside-the-hiring-stack-live-from-san-francisco.md",
+   "points": [
+    {
+     "claim": "Juicebox's own internal data shows leads sourced by its agent get higher reply rates than leads sourced by humans, with the same outreach sequence, company and talent brand. Said by Ishan Gupta (Juicebox CTO) about Juicebox's own data, pulled 'a few months back'. He adds that companies using agents contact fewer people to fill the same role.",
+     "figure": "30% higher response rates, agent sourced against human sourced (vendor's own internal figure, no sample size given)",
+     "quote": "for the exact same sequence, exact same company, exact same exact same talent brand, we see 30% higher response rates coming from lead sourced by an agent than lead sourced by humans",
+     "timecode": "33:05"
+    },
+    {
+     "claim": "Dan McCarthy (Zapier) benchmarks Claude models on recruiting tasks before choosing one. Live demo: Haiku, Sonnet and Opus each given the same messy pipeline CSV of 60 fake candidates, three questions, a fixed answer key, 10 runs per model in fresh contexts, scored on accuracy, speed and cost. All three scored 30 out of 30, so the cheapest model wins. The data was made up for the show, not Zapier data.",
+     "figure": "Haiku about 10% of the cost of Sonnet: $4 against $41 per 1,000 runs, a 90% saving, in his demo. He corrected himself on air: at 50:35 he first said Haiku was 'almost half the price of Opus'.",
+     "quote": "Haiku is actually 10% the cost of Sonnet. So per 1,000 runs it would cost $4 with Haiku, $41 with Sonnet.",
+     "timecode": "55:14 (method set out at 39:51)"
+    },
+    {
+     "claim": "At Zapier, more than half of the recruiting team's Claude skills run as accurately on the cheapest model, and none of his five benchmarks shows Opus beating Sonnet. For each new skill he builds an answer key and runs it 10 to 100 times per model. Dan McCarthy, about Zapier's own setup; he hedges the counts with 'I think'.",
+     "figure": "More than half of at least 10 skills run as accurately on Haiku; five benchmarks; 10 to 100 runs per model; nothing needs Opus",
+     "quote": "I think there's at least 10 skills now that we have total. More than half of those run as accurately with Haiku as they would with anything else.",
+     "timecode": "56:40 (Opus remark at 53:42: 'nothing that needs Opus at all')"
+    },
+    {
+     "claim": "Ashby launched its own AI interviewer the day before the show, rebuilt over nine or ten months from an acquired product and tested with 20 or 30 design partner companies. Benji Encz (Ashby CEO) says candidates rated it positively, and credits that to making it opt in and explaining to candidates why it is used and what happens next. Ashby's own figure from its early access programme.",
+     "figure": "92.9% positive candidate responses (Ashby's own early access data, hedged 'I think'); 20 or 30 design partner companies",
+     "quote": "I think yesterday we said 92.9% positive responses and I think that's, you know, across all these early access things",
+     "timecode": "1:03:32"
+    },
+    {
+     "claim": "Ashby uses the AI interview as a 'second look' on its own hiring: the best looking resumes go straight to a human as before, and promising runners up there is no calendar time for are offered an AI screen instead. It also went back to people it had no capacity to interview a year ago. Both routes produced hires. Benji Encz on Ashby's own recruiting; the hire counts are hedged.",
+     "figure": "'I think five hires in one case and six in another' from the two initiatives; 'another couple hires' from the previously rejected pool",
+     "quote": "hey, you didn't make the first cut, but if you're really excited about Ashby you can take this AI screen and you can make your way into the funnel that way",
+     "timecode": "1:04:44 (hire counts at 1:04:07)"
+    },
+    {
+     "claim": "Benji Encz warns against sending every inbound applicant to an AI interview: the candidate knows the odds and has a bad experience. Shortlist on the resume first, invite only people who could be a fit, then follow up with feedback. He also says interview length did not hurt candidate experience in Ashby's data.",
+     "figure": "1,000 applicants for one hire is a 0.1% chance each; AI interview lengths of 10 to 40 minutes with no negative effect on candidate experience (Ashby's own data, at 1:08:47)",
+     "quote": "if you're going to have like a thousand people do an AI interview and they know their chance of getting hired is like um what is the math that is 0.1% I think. Um then I think they'll have a bad experience.",
+     "timecode": "1:08:00"
+    }
+   ],
+   "gaps": "Auto captions with no speaker labels, so speakers were identified from context (who is introduced, who is asked, what they say about their own company). Garbled names: Ishan Gupta appears as 'Shan', 'Sean', 'John' and 'Isham'; Juicebox as 'Jukebox' and 'G Spud's office'; Ashby as 'H P' and 'HP' in places; PromptMates as 'Promates', 'Prommates' and 'prom mates'; Claude Code as 'Cloud Code'. The company Ashby acquired is captioned 'Talent Lama' and I could not confirm the spelling. 'we did a lot of emails on the quality of the conversation' (1:02:41) is probably 'evals'. Personal agent products are captioned 'Rockbot', 'Grokbot' and 'Muse'; not verified. Jason's employer is captioned 'Terror' (31:05) and is unreadable. Juicebox's launch 'Blends' (31:40) is as captioned, spelling unverified. The predictions segment (1:29:18 onward) is opinion with no data, apart from Joe Atkinson's remark that top AE quota has gone from '200 300k' to 'like four million', which he himself calls 'basic maths not exactly right'."
+  },
+  {
+   "show": "Recruiting Future",
+   "title": "Recruiting From First Principles",
+   "date": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=25Bbq7EYPPU",
+   "guest_line": "Andrew Marritt, economist, writer of the Working Ideas Substack and author of the textbook Bayesian Thinking for People Analytics; teaches masters-level data science and analytics at a hospitality school in Switzerland and advises HR teams; previously ran one of the first people analytics firms in Europe for 12 to 13 years, after 14 to 15 years in recruitment roles including at UBS and JPMorgan (his own introduction at 2:42). Host Matt Alder.",
+   "vendor_flag": "No product is being sold or praised. Marritt is promoting his own Substack and book, and says he advises HR teams and recruiting technology companies, so he has a consulting interest in the ideas, but he names no tool. The show itself is sponsored by Ashby (read at 0:00); Ashby is not discussed in the interview.",
+   "reader_fit": "High for talent leaders defending a budget or a structured process: gives a finance-ready argument against cost per hire in pounds, evidence on manager overrides and AI interviews, and a UK and Swiss perspective. Less directly useful to agency recruiters. Almost every statistic is a secondhand citation of research he does not fully name, so each needs checking against the paper or his essays before it is quoted as fact.",
+   "path": "library/podcasts/transcripts/Recruiting Future/2026-11-18-ep-839-recruiting-from-first-principles.md",
+   "points": [
+    {
+     "claim": "Generative AI has made a polished application nearly free, so tailoring no longer signals quality. Marritt cites a natural experiment at a freelance marketplace that added one-click proposals, and a paper on the same event showing hiring shifted from the best workers to the weakest. This is research he is citing, not his own data.",
+     "figure": "Link between a tailored proposal and getting a reply fell 51%; top fifth of workers hired 19% less, bottom fifth up 14%. Captions give the platform as 'freelance.com' (probably Freelancer.com, unconfirmed) and the paper's authors as 'Goldin and Stewart' (spelling unverified).",
+     "quote": "they added one-click proposals. And the link between how tailored a proposal was and getting a reply fell 51%",
+     "timecode": "8:10"
+    },
+    {
+     "claim": "Employers have the same signal problem in reverse: posting a job costs almost nothing, so they post more, candidates discount every advert, and the employers with real vacancies pay the price. Marritt citing an unnamed 'recent paper'.",
+     "figure": "Up to 21% of job postings might be ghost jobs (unnamed recent paper, cited by Marritt)",
+     "quote": "a recent paper um suggested that up to 21% of of job postings might be ghost jobs",
+     "timecode": "9:10"
+    },
+    {
+     "claim": "Cost per hire rewards cuts that destroy value. In the worked example from Marritt's own article, replacing structured interviews with untrained, unstructured manager interviews loses far more than it saves, while raising average tenure cuts cost and raises value but is invisible to cost per hire. These are numbers he 'plugged in' to a utility model, not measured results. He adds that selection can only move tenure by about 15%, and that screening for tenure shuts out early career hires.",
+     "figure": "About £48 of value lost for every £1 saved by dropping structured interviews; raising average tenure from four years to five gives a 20% cost saving (both from his own modelled example)",
+     "quote": "if you got rid of that and just let managers have unstructured non-trained interviews you lose about £48 of value for every £1 saved",
+     "timecode": "15:27 (tenure figure at 16:28)"
+    },
+    {
+     "claim": "When hiring managers overrule a test or a process they usually do worse, because the override is mostly bias and not extra information. Marritt cites a review of 136 experiments and a study from 'four, five years ago' of firms where managers overrode test results. His advice: allow overrides but record every one. All cited research, sources not named on air.",
+     "figure": "136 experiments, formulas about 10% more accurate than experts; firms that followed the results had about 15% better tenure; an override gives a worse result about 90% of the time",
+     "quote": "it's about 90% of the time the override will be produced less good results",
+     "timecode": "24:49 (136 experiments and 10% at 23:45; 'you should allow overrides, but you should record them' at 31:37)"
+    },
+    {
+     "claim": "A study of AI-led selection interviews found better hiring outcomes and that candidates preferred the AI, but Marritt flags a catch: one automated stage halved completion rates, and the people dropping out were the strongest candidates and women. Cited research, paper not named; he says it was published 'I think it was earlier this year'.",
+     "figure": "Over 70,000 candidates; 12% more offers; about 18% more employed at 30 days (captions garble this as 'eight more than 18% more', so the exact figure is unconfirmed); four out of five candidates preferred the AI; one automated stage halved completion rates",
+     "quote": "over 70,000 plus candidates they looked at 12% more offers and eight more than 18% more were employed at 30 days",
+     "timecode": "27:52 (the catch at 29:09: 'One automated um stage halved completion rates')"
+    },
+    {
+     "claim": "How a claim is placed in a job advert matters as much as the claim. Marritt cites a paper in which one statement was moved up to near the headline, with nothing else changed, and applications from entry-level candidates rose sharply. For employer brand he recommends hard-to-fake facts: pay bands, median tenure and alumni destinations.",
+     "figure": "Entry-level applicants rose 44% (paper by 'a guy Fox and his colleagues' per captions, author name unverified)",
+     "quote": "they just moved one statement in the advert to the headline to near the headline. And entry-level applicants rose 44% right? And nothing else changed.",
+     "timecode": "33:26"
+    }
+   ],
+   "gaps": "Auto captions with no speaker labels; two speakers, easy to tell apart. Garbled or unverifiable: 'you dropping test stages loses about 440 £4 40 per every stage' (16:28) is unreadable as a figure and was left out. 'eight more than 18% more were employed at 30 days' (27:52) is garbled. 'Who's the causes a positions' (17:25) is probably a reference to Huselid's 'A positions'. 'a Harvey found the same result with Peacocks in 1975' (5:21) is probably Zahavi; 'right back 70 years with mail' (23:45) is probably Meehl; 'bar raise at Amazon' is the Bar Raiser programme. Paper authors 'Goldin and Stewart' and 'Fox' are as captioned and unverified. The guest's surname is spelled Marritt in the description and intro but the captions give his web addresses as 'andrewmerritt'; neither address was checked. The replacement cost threshold is captioned 'about 20 21% of salary' (18:30), exact figure unclear. Nearly every statistic is the guest citing research from memory without naming the source."
+  }
+ ]
+}

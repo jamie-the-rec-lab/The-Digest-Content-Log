@@ -1,3 +1,42 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Ishan Gupta, Co-Founder and CTO, Juicebox; Dan McCarthy, Senior Talent Engineer, Zapier; Benji Encz, Co-Founder and CEO, Ashby. Two vendor founders whose companies sponsored the session, plus a practitioner who benchmarks AI models for a recruiting team  ·  **Show:** PromptMates, 19 Nov 2026
+**Tags:** ai sourcing, ai agents, ai interviewing, building ai tools, claude code, outbound sourcing, inbound recruiting, candidate experience, rec tech, candidate ai tools
+
+**When to use this:** You are choosing which AI model to run recruiting workflows on, planning how to introduce an AI interviewer without damaging candidate experience, or deciding whether sourcing agents should mean more outreach or less.
+
+**Big idea:** The gain from AI in hiring comes from moving effort to the front of the process, with agents researching fit before any outreach and teams testing which model a task really needs, and not from sending more volume.
+
+**Frameworks & plays:**
+- Benchmark models on your own recruiting tasks before picking one. Dan McCarthy gave Haiku, Sonnet and Opus the same messy pipeline CSV of 60 fake candidates, asked three questions against a fixed answer key, ran each model 10 times in fresh contexts, and scored accuracy, speed and cost.
+- Choose the cheapest model that still matches the answer key. In the live demo all three models scored "30 for 30", so he would build that skill on Haiku.
+- Repeat the test for every new skill by building an answer key and running it 10 to 100 times per model. Retest only when a new model is released.
+- Expect judgement tasks such as interview plans to take far longer to benchmark, because a person has to write out what a good answer looks like first.
+- Offer the AI interview as an opt in or a "second look". Ashby sends the strongest resumes straight to a human, then tells promising runners up they "didn't make the first cut" but can take an AI screen to get into the funnel.
+- Reopen old rejections. Ashby invited the most promising people it had no capacity to interview a year earlier to an AI interview and made further hires.
+- Do not put every inbound applicant through an AI interview. Benji Encz says a thousand applicants for one hire gives each a 0.1% chance, which is what creates a bad experience.
+- If interrupting feels rude, say at the start of the interview that you will interrupt at times to make the most of the candidate's time.
+
+**Data & benchmarks:**
+- Juicebox's own internal data shows 30% higher response rates from leads sourced by an agent than by a human, for the same sequence and company.
+- Ashby reported 92.9% positive candidate responses to its AI interviewer across early access, with 20 or 30 design partner companies. Interview length from 10 to 40 minutes did not hurt candidate experience.
+- In the demo, 1,000 runs cost $4 with Haiku and $41 with Sonnet, which Dan McCarthy called a 90% saving. This was demo data, not Zapier's.
+- At Zapier more than half of at least 10 team skills run as accurately on Haiku, and nothing needs Opus.
+
+**Tools & prompts:**
+- Dan McCarthy runs benchmarks through the Claude API to keep them bare, then again in Cowork, where the recruiters will actually use the skill.
+- Ashby's AI interviewer has a slider with three levels of probing.
+
+**Contrarian take:**
+- Ishan Gupta says companies using agents reach out to fewer people to fill the same role, because the agent spends its effort on working out who fits.
+- Dan McCarthy says AI is not levelling the playing field but widening the gap, and that one talent engineer for every 10 or 20 recruiters is enough.
+
+**Steal this (do tomorrow):**
+- Take one repeated AI task, write an answer key, and run it 10 times on a cheaper model before paying for the larger one.
+- Offer an AI screen to the runners up you have no calendar time for, and tell them plainly why.
+- Replace your weekly outreach count target with hires per person contacted.
+<!--/SUMMARY-->
+
 # Inside the Hiring Stack: Live from San Francisco
 
 - **Podcast:** PromptMates

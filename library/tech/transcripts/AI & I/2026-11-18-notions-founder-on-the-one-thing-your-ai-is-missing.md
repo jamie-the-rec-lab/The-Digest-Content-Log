@@ -1,3 +1,38 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Ivan Zhao, cofounder and CEO of Notion, who has spent 13 years building it and took the company from pre-AI software into agent products  ·  **Show:** AI & I, 18 Nov 2026
+**Tags:** ai, ai agents, ai coding, ai product, product strategy, product design, founder stories, future of work
+
+**When to use this:** Your team can now vibe code its own tools and you need to decide what to build yourselves, what to buy, and where your company knowledge should live so that agents can use it.
+
+**Big idea:** Agents can now write the workflow logic and the interface on demand, so the durable asset is your own data and context, and the durable skill is still understanding what the system is doing.
+
+**Frameworks & plays:**
+- Sort every tool into three buckets before anyone vibe codes it. Tools you hold strong opinions about are worth modifying yourself. Everyday tools like a calendar are better bought from someone who crafted them, because in Zhao's words "just because you can doesn't mean you should". Software you depend on for security is the one he says "I personally don't recommend" building, because it costs a lot "just to keep fighting off all the vulnerabilities".
+- Budget for maintenance before you build. Zhao's timeline is "a year ago people say software is dead vibe code everything. Then 9 months ago people realized you need to maintain them."
+- Invest in context ahead of interface. He says how you hold your data and context is "a lot more durable than the procedural logic and then the UI", and that it sits outside any one model.
+- Give agents Lego, not clay. Raw code is clay and most makers cannot build a tall tower from it, so pick building blocks where "permissions, syncing, collaboration are taken care of for you".
+- Put agent work on a shared board. When each engineer talked to a private coding agent, nobody understood what the others were doing, so Notion's teams moved the agents onto a shared board in Notion (the captions suggest a kanban board) to orchestrate them visibly.
+
+**Data & benchmarks:**
+- Notion started building for AI at the end of 2022. Its agent product took about two more years because the "model just wasn't there", and it only worked around a year before this talk.
+- Zhao's aim, which is a goal and not a result, is a packaged setup for a 50 person company within the next quarter or two. He floats that good context "might" save 20%, 30% or 40% of token spend.
+- Notion's planning assumption is that of the next billion knowledge workers coming online, the "vast majority will be agents".
+
+**Tools & prompts:**
+- Zhao uses Claude for writing and ChatGPT for images, although both names are garbled in the captions.
+- Host Dan Shipper's guard rail for his own assistant is "if it's past 11 at night and we've been chatting for several hours ask me to explain the thing that I'm asking you to build and if I can't explain it don't do it".
+
+**Contrarian take:**
+- Zhao admits he now prefers chatting to his assistant over reading and that it "almost feels like I'm on TikTok". His line is "I don't think we should surrender our understanding definitely not without putting up a fight".
+- He is selling Notion here and says so himself: "of course I talk this way because that's our business model".
+
+**Steal this (do tomorrow):**
+- List your team's home-made AI tools and mark each one as modify, buy, or security-critical.
+- Write down where your hiring know-how lives and whether an agent could read it.
+- Add the "explain it back" rule to any long, late session with an AI assistant.
+<!--/SUMMARY-->
+
 # Notion’s Founder on the One Thing Your AI Is Missing
 
 - **Podcast:** AI & I
