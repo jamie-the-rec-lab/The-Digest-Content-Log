@@ -5,7 +5,10 @@ Use this to find relevant items before opening the full document.
 
 ## AI & I (44 episodes)
 
-### 2026-11-18 — [Notion’s Founder on the One Thing Your AI Is Missing](https://www.youtube.com/watch?v=PGWvMrF4XIA)
+### 2026-11-18 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=PGWvMrF4XIA)
+Notion's CEO on what to vibe code and what to buy: sort tools into modify, buy and security-critical, treat your data and context as more durable than workflow logic or UI, keep agent work on a shared board so people still understand it, and his goal of an out-of-the-box context setup for a 50 person company.
+Company: Ivan Zhao (Notion); host Dan Shipper (Every)
+Tags: ai, ai agents, ai coding, ai product, product strategy, product design, founder stories, future of work
 File: `transcripts/AI & I/2026-11-18-notions-founder-on-the-one-thing-your-ai-is-missing.md`
 
 ### 2026-11-11 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=WstNofgQF5Q)
@@ -268,7 +271,10 @@ File: `transcripts/AI & I/2026-01-07-ai-in-2026-reid-hoffmans-predictions-on-age
 
 ## AI For Humans (65 episodes)
 
-### 2026-11-20 — [OpenAI’s New Astra Is Messy But Gemini Neon Is... Good?](https://www.youtube.com/watch?v=NfpqdDnK_kQ)
+### 2026-11-20 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=NfpqdDnK_kQ)
+Host-only news roundup: hands-on tests find OpenAI's GPT 6.2 Astra strong on tightly specified and computer use tasks but weak at writing and open briefs, Gemini 4 Neon surprisingly good at creative work, a $3 versus almost $20 cost gap against Fable 5.2 on one build, and both hosts still pick Anthropic if you pay for one.
+Company: AI For Humans (hosts Kevin Pereira and Gavin Purcell)
+Tags: ai, ai agents, ai coding, ai product, machine learning, future of work, pricing
 File: `transcripts/AI For Humans/2026-11-20-openais-new-astra-is-messy-but-gemini-neon-is-good.md`
 
 ### 2026-11-13 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=sQKvJbzgFRU)
