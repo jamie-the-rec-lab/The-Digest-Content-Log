@@ -11,6 +11,7 @@ Format: date, what changed, why.
 
 ## 2026-11-22
 
+- digest subtitle reworded to "A weekly digest of high quality recruiting content, built so you can quickly skim what's been going on in recruiting, while making it easy to double click on the content that resonates each week. The sources carefully selected by Jamie Jay Lyons" (template, backup, live page, Version 10 build and archive). The Version 10 build and archive were also synced to the live page, which went out with the two-paragraph brief and the footer change. Why: Jamie's wording.
 - the brief's "And in the world of AI" sentence is now its own paragraph, a second `<p class="brief-text">` (template, backup, `STYLE.md`). `build_email.py` now carries every brief paragraph into the email, where it used to read only the first (the AI sentence would have vanished). `final_check.py` reads all brief paragraphs and flags the AI sentence if it is merged into the first. Why: Jamie's call, it reads better on its own.
 - digest footer: the Privacy policy and Terms links are gone from the footer line (template and backup). Both sign-up forms keep their own consent line with the privacy link, and the bottom form's line now also links to Terms. Why: Jamie's call; the footer links duplicated the ones by the forms, and the line by each form is what has to stay.
 
