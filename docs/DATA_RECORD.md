@@ -26,7 +26,7 @@ about me?". It holds no personal data itself.
 | Contact details, notes, invoices | Clients and workshop attendees | Deliver the work, get paid, keep accounts | Contract; legal obligation for accounts | Google Workspace, accounting records | About six years (tax rules) |
 | Name, role, employer, photo, quote | People giving testimonials | Show on the home page | Their permission | The website repo and live site | Until they ask for a change or removal |
 | Name, role, employer, what they said in public | People named in the digest and its sources | Report what is said in public about recruiting | Legitimate interests | This repo (`library/`, `digest/`) on GitHub, and the live digest page | Kept as an archive; corrected or removed from the site and future editions on request |
-| Name and company typed by players, score | CV Invaders players | Public leaderboard | Their choice to submit | Supabase; Vercel analytics counts visits | Until removal is requested |
+| Name and company typed by players, score, time of the game | CV Invaders players (thereclab.ai/cv-invaders since 22 Nov 2026) | Public leaderboard | Their choice to submit | One private file in Vercel Blob, London (`cv-invaders/production/scores.json`); visits counted by Web Analytics | Until removal is requested (edit the file in Vercel, Storage) |
 
 Not held anywhere: subscriber addresses in either repo, payment card details,
 passwords or logins for the public, special category data.
@@ -36,12 +36,12 @@ passwords or logins for the public, special category data.
 | Company | What for | Agreement |
 |---|---|---|
 | Resend (Plus Five Five, Inc., US) | Subscriber list, sending (open and click tracking off) | Processor terms accepted with its terms of service |
-| Vercel (US), Pro plan | Website hosting, the sign-up function, Web Analytics (page visit totals) | Processor terms apply on Pro |
+| Vercel (US), Pro plan | Website hosting, the sign-up function, Web Analytics (page visit totals), the CV Invaders game and its leaderboard (Blob, London) | Processor terms apply on Pro |
 | Cloudflare (US) | Domain, DNS, routing traffic | Processor terms in its self-serve agreement |
 | Google (Workspace) | Mailbox and calendar | Processor terms in the Workspace agreement |
 | Anthropic (Claude, personal Max plan) | AI tools that build the digest; they can read the mailbox and the Resend account | **No processor agreement on a personal plan.** Model training and location metadata switched off in settings, 21 Nov 2026. A Team, Enterprise or API account would add one |
 | GitHub | Private storage of this repo and the website |
-| Supabase (data stored in the EU, Frankfurt) | The CV Invaders leaderboard | Standard terms. The project is paused as of 22 Nov 2026, so the leaderboard may not be saving | Standard terms; keep subscriber data out of the repos |
+| Supabase (EU) | **Being retired.** Held the CV Invaders leaderboard until 22 Nov 2026; scores moved to Vercel Blob. Delete the project and account once the move is live | Standard terms | Standard terms; keep subscriber data out of the repos |
 | Registered Address Ltd | The published postal address; scans post | Their terms; renews 21 Nov 2027 |
 
 Data leaves the UK for the US with each of the US companies above. Safeguards:
@@ -102,6 +102,5 @@ be; an email goes to the wrong list.
 Two-step sign-in on every account that can reach this data: Google (both the
 thereclab.ai and personal Gmail accounts), Resend, Vercel, Cloudflare, GitHub
 and Claude, all checked or switched on 22 Nov 2026, with backup codes saved.
-Registered Address offers no two-step, so it has a unique generated password.
-Supabase not yet checked. A password manager.
+Registered Address offers no two-step, so it has a unique generated password. A password manager.
 API keys with the least access they need, and never in a file.
