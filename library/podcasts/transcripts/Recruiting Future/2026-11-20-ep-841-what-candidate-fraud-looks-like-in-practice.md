@@ -1,3 +1,40 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Samantha Swift, Chief Marketing Officer at Cyberr, with 27 years in cyber security including incident response, describing a deepfake candidate her own company caught  ·  **Show:** Recruiting Future, 20 Nov 2026
+**Tags:** deepfake candidates, candidate fraud, interview cheating, engineering hiring, job advertising, reference checks, onboarding, recruiting operations
+
+**When to use this:** You hire remote engineers or other roles with system access and need to know what a fake candidate looks like and where to put checks.
+
+**Big idea:** A fake candidate may be after your systems rather than a salary, the risk starts with what your job advert gives away, and no single tell catches them, so checks have to run from the advert to the laptop handover.
+
+**Frameworks & plays:**
+- Watch for the cluster of tells from the Cyberr interview for a backend engineer. The candidate had a perfect CV and LinkedIn profile, emailed the CEO directly, paused or answered questions with questions, had speech out of sync with video, and showed a gritty edge between himself and a fake background.
+- Ask the candidate to turn the virtual background off, raise a hand, and pass it in front of their face. Swift says "AI is not great at hands", and this candidate refused. A genuine candidate "will happily do it for you".
+- Test something unprepared. The candidate claimed to be Romanian, the interviewer happened to speak Romanian and suggested switching language, and the candidate stuttered.
+- Search the phone number and check the degree. This number traced to a site selling temporary numbers (Swift thought it was "sm24.me"), and the Irish university did not offer the degree in the form listed.
+- Trim job adverts. Cyberr's advert gave away the stack and the migration plan. Name the skills needed, but "I wouldn't go right down into talking about exact versions of things that you're running". Swift says red team testers use job descriptions and vendor case studies to map a target's technology.
+- Run the first conversation on video, not by phone, and brief recruiters with the security team on how much to reveal, because fake candidates fish for information on early calls.
+- Match checks to the access a role has, repeat the ID check when the laptop is handed over, and monitor new starters for behaviour outside their role.
+
+**Data & benchmarks:**
+- The interviewer raised the alarm about 20 minutes into the call.
+- The call transcription "picked up eight different voices on that call when there were two".
+- An investigative journalist told Swift the CV matched the format North Korean operators use, but she said he could not confirm it 100%.
+
+**Tools & prompts:**
+- Swift thinks Zoom has added a feature that says it can help detect deepfakes on calls. She was not certain.
+- Use verified certifications as an advert filter and check ID early through a third party.
+
+**Contrarian take:**
+- Swift, a marketer, warns that customer case studies announce which products a company runs.
+- She says reception is a high risk role because receptionists hear everything and have wide access.
+
+**Steal this (do tomorrow):**
+- Move every first screening call to video and treat pushback on video as an alarm.
+- Search the phone number of each shortlisted candidate before the interview.
+- Compare notes between interviewers. Swift heard of a hire where it took a week for interviewers to realise the starter was not the person they had interviewed.
+<!--/SUMMARY-->
+
 # Ep 841: What Candidate Fraud Looks Like In Practice
 
 - **Podcast:** Recruiting Future

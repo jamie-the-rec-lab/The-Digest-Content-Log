@@ -1,3 +1,40 @@
+<!--SUMMARY-->
+## Actionable summary
+**Guest:** Bradley Clark, Head of Talent Acquisition at Article, a direct to consumer furniture brand hiring in the US, Canada, Mexico and Vietnam, who has built AI transparency into every stage of his hiring process  ·  **Show:** Recruiting Future, 19 Nov 2026
+**Tags:** ai governance, interview cheating, candidate ai tools, candidate experience, candidate communication, rejections, ai bias, rec tech, work trials
+
+**When to use this:** Candidates are accusing you of rejecting them by AI, or you need a written position on how candidates may use AI in your process.
+
+**Big idea:** Trust is broken in both directions, and the fix is to decide that a human makes every hiring decision and then say so, alongside your own AI use and your expectations of candidates, at every stage rather than once.
+
+**Frameworks & plays:**
+- Clark's maturity scale starts with "level zero is not saying anything", which is where he puts most companies. A single career site line saying "we use AI to help us hire" is the next step and he says it is not enough, because candidates applying to hundreds of jobs through job boards never see it.
+- Build one page as the "single source of truth" that lists what you expect from candidates and which AI tools you use. Link to it from the job posting, an application question, the confirmation email, the instructions for each interview stage and the rejection email. He says a Google Doc or SharePoint link will do if you do not control your career site.
+- Add a multiple choice application question asking whether and how the candidate used AI, worded so that using it is acceptable.
+- Publish the interview rule in advance. At Article a candidate suspected of using an LLM in an interview is warned once, and "if we have to say it again the interview's over". Anything on the CV must be defensible in conversation.
+- Tell rejected candidates that the decision "was made by a human" and link back to the same page.
+- For compliance across countries and states, his rule is "I find the hardest place and I make that my baseline". He applies the same test to vendors by preferring tools that are GDPR compliant.
+- Keep the page alive with version control, and brief hiring managers on what to do when they catch someone cheating.
+
+**Data & benchmarks:**
+- Article handles roughly 20 to 25,000 applications a year, and about 40% of its target applicants overlap with its customers, which is why Clark treats candidate trust as a revenue issue.
+- Clark says candidates now have to apply to four times as many jobs to get a response. He gave no source for that.
+- He cites a Gartner forecast (captions say "Gardner") that a quarter of applications will be fake, and says fraud is real but not to the extent HR tech companies claim.
+
+**Tools & prompts:**
+- In technical interviews Article encourages candidates to use the AI coding tools its engineers use (captions say "cloud code", probably Claude Code) and asks them to explain how they used them.
+- His team asks an LLM, posing as a candidate, what it can surface about the company, so they know what candidates researching them will see.
+
+**Contrarian take:**
+- Clark argues there is "a bigger threat to not saying something" about AI than to saying it, and that you cannot outsource the audit of a vendor's tool: "I need to own the auditing."
+- He quotes a 1979 IBM memo: "a computer can never be held accountable. Therefore a computer can never make a management decision."
+
+**Steal this (do tomorrow):**
+- Write the one page on your AI use and candidate rules, then map every candidate touch point and add the link to each.
+- Add the sentence that a human made the decision to your rejection template, if that is true.
+- Replace one question and answer interview with a working session where the candidate demonstrates the work.
+<!--/SUMMARY-->
+
 # Ep 840: Restoring Trust In Hiring
 
 - **Podcast:** Recruiting Future

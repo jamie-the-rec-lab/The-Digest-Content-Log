@@ -1,0 +1,105 @@
+{
+ "run_date": "2026-11-22",
+ "items": [
+  {
+   "show": "Recruiting Future",
+   "title": "Restoring Trust In Hiring",
+   "date": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=usGjFN1ncgc",
+   "guest_line": "Bradley Clark, Head of Talent Acquisition, Article (a direct to consumer furniture brand selling in North America, hiring in the US, Canada, Mexico and Vietnam). Host: Matt Alder.",
+   "vendor_flag": "No. Clark is an in-house practitioner describing his own process and is critical of HR tech vendors. He mentions he co-founded an HR tech startup (captions spell it 'Kiora') in an advisory role, but does not pitch or praise it. Sponsor reads for Pinpoint and Pebble are adverts, not used.",
+   "reader_fit": "High for in-house TA leaders: a concrete, copyable AI transparency process with exact touch points and an interview rule. North American employer, but he explicitly uses GDPR and the strictest jurisdiction as his baseline, so it transfers to the UK. Less direct for agencies.",
+   "path": "library/podcasts/transcripts/Recruiting Future/2026-11-19-ep-840-restoring-trust-in-hiring.md",
+   "points": [
+    {
+     "claim": "Article began seeing a rising volume of candidate survey comments accusing it of AI rejection even though humans make every decision; Clark treats it as a brand and revenue problem because applicants overlap with customers.",
+     "figure": "About 20 to 25,000 applications a year (captions read '20 25,000'); about 40% overlap between target applicants and customers. Clark's own company figures.",
+     "quote": "we handle about 20 25,000 applications a year",
+     "timecode": "4:17"
+    },
+    {
+     "claim": "His starting line is that AI can assist but a human decides every hiring decision, and the employer must say so clearly. He anchors it in a 1979 IBM memo.",
+     "figure": "IBM memo, 1979 (Clark's citation, not checked here)",
+     "quote": "a computer can never be held accountable. Therefore a computer can never make a management decision",
+     "timecode": "7:44"
+    },
+    {
+     "claim": "Disclosure has to happen at multiple touch points, all linking to one career site page as the single source of truth: career site, job postings, a multiple choice application question on AI use, the confirmation email, each interview stage, and the rejection email stating a human made the decision. He says most companies are at 'level zero', saying nothing.",
+     "figure": "Six touch points named; maturity 'level zero' = saying nothing",
+     "quote": "So all these things link back to this page and that becomes a single source of truth.",
+     "timecode": "10:16"
+    },
+    {
+     "claim": "Candidates are told the interview rule in advance: one warning for suspected LLM use, then the interview ends; anything on the CV must be defensible. In technical interviews candidates are encouraged to use AI coding tools and explain how.",
+     "figure": "One warning. Tool named in captions as 'cloud code' (almost certainly Claude Code, garbled).",
+     "quote": "if we suspect or catch you using an LLM during interview process we're going to warn you once if we have to say it again the interview's over",
+     "timecode": "10:16"
+    },
+    {
+     "claim": "For compliance across countries and states he takes the strictest jurisdiction as the baseline everywhere. He says AI hiring laws are converging on disclosure, a human in the loop, auditability (captions: 'audibility') and offering candidates an alternative non-AI route.",
+     "figure": "Four converging legal requirements; no specific law named in this passage",
+     "quote": "I find the hardest place and I make that my baseline",
+     "timecode": "15:11"
+    },
+    {
+     "claim": "Employers cannot outsource the audit of AI hiring tools to the vendor; vendors are often vague about models and subprocessors and many tools are wrappers over LLMs. He prefers GDPR compliant tools as a higher bar and cites the Mobley v Workday case (captions: 'Moy versus Workday') as the open question on where liability sits.",
+     "figure": "GDPR as the bar; Workday case named (garbled in captions)",
+     "quote": "But I need to own the auditing. I need to test these tools and make sure they work",
+     "timecode": "18:23"
+    }
+   ],
+   "notes": "Also said: Gartner (captions 'Gardner') forecast that a quarter of applications will be fake, which Clark thinks vendors overhype (5:02); candidates must apply to 'four times as many applications to get a response' (6:02, number spelled out, no source given); advice to shift interviews 'away from question answers into working sessions' (22:52); a Google Doc or SharePoint link can serve as the single page (22:06).",
+   "gaps": "Auto captions, no speaker labels. Garbled names: 'Darren Bush' (author of a post on fraud data, name not verifiable), 'Kyl and Co human centric AI council', 'Kiora', 'jack and jail' (likely Jack and Jill), 'BDAI bond' (likely 'beat the AI bot'). A passage at about 19:36 on SOC 2 and a recent security event ('look at that PHP, its should like a week ago') is unreadable and was not used. The episode description is cut off mid-sentence in the file."
+  },
+  {
+   "show": "Recruiting Future",
+   "title": "What Candidate Fraud Looks Like In Practice",
+   "date": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=i5XeamN7IZ8",
+   "guest_line": "Samantha Swift, Chief Marketing Officer, Cyberr; 27 years in cyber security including McAfee, Rapid7 and Exabeam (captions: 'Exob beam'). Host: Matt Alder. The host's spoken intro is captioned as 'Sam Smith ... at Cyber'; she introduces herself as Samantha Swift and spells the company 'Cyber with two Rs'.",
+   "vendor_flag": "Partly. Cyberr sells a recruitment platform for cyber security with what she calls 'a trusted layer', so the company has a commercial interest in fraud awareness. She says 'I don't want to do a full sales pitch' and the advice given (video calls, hand check, phone and degree checks, trimming job adverts) is general and not product praise. The North Korea link is her and a journalist's suspicion, not confirmed.",
+   "reader_fit": "High for any UK recruiter or TA lead hiring remote technical roles: a first-hand case with specific tells and cheap checks that can be run tomorrow, plus a point about job adverts leaking the tech stack that few recruiters will have considered. UK-voiced guest.",
+   "path": "library/podcasts/transcripts/Recruiting Future/2026-11-20-ep-841-what-candidate-fraud-looks-like-in-practice.md",
+   "points": [
+    {
+     "claim": "In a video interview for a backend engineer role at Cyberr, the interviewer (their chief product officer) broke the deepfake by asking the candidate to turn the background off, raise a hand and pass it in front of his face; the candidate refused and the call was ended. Swift says a genuine candidate will happily do it.",
+     "figure": "Alarm raised about 20 minutes into the interview; role: backend engineer",
+     "quote": "he also then asked him to put his hand across in front of his face and the guy refused",
+     "timecode": "7:20"
+    },
+    {
+     "claim": "An unprepared-for test exposed him: he claimed to be Romanian, the interviewer speaks Romanian and suggested doing the interview in it, and the candidate stuttered. Swift says this, not the hand check, is what really threw him.",
+     "figure": "Claimed nationality: Romanian",
+     "quote": "The thing that really threw him out though was the Romanian moment because that was not planned for.",
+     "timecode": "25:14"
+    },
+    {
+     "claim": "Basic desk checks after the call found the phone number came from a site selling temporary numbers and the degree did not exist in the form listed at the Irish university named. Her general advice: 'Google the phone number is a good start'.",
+     "figure": "Site named as 'sm24.me' (Swift hedged: 'I think it's'; caption spelling not verified); university in Ireland, not named",
+     "quote": "It turns out it's from a a website called I think it's sm24.me me where people can basically get fake phone numbers.",
+     "timecode": "8:14"
+    },
+    {
+     "claim": "The North Korea link is a suspicion, not a finding: an investigative journalist (captions: 'Jeff White', probably Geoff White) told Swift the CV matched the format North Korean operators use, but could not confirm it.",
+     "figure": "Unconfirmed attribution; journalist's opinion relayed by Swift",
+     "quote": "I can't confirm 100% but it this is the format that they use",
+     "timecode": "9:22"
+    },
+    {
+     "claim": "The risk starts with the job advert: Cyberr's LinkedIn job spec gave away its stack and migration plan, making a perfectly tailored CV easy. Swift says red team testers mine job descriptions and vendor case studies the same way. Advice: name the skills, leave out exact versions, filter on verified certifications.",
+     "figure": "No number; advert posted on LinkedIn",
+     "quote": "I wouldn't go right down into talking about exact versions of things that you're running",
+     "timecode": "19:30"
+    },
+    {
+     "claim": "Her one piece of advice is to stop phone-only first calls and use video from the first conversation onward, treating pushback on video as an alarm. A side detail from the case: the call's transcription tool detected far more voices than participants.",
+     "figure": "Eight voices detected on a two-person call (number spelled out in captions: 'eight')",
+     "quote": "Please get on the video call for that first call and every single call after that.",
+     "timecode": "32:07"
+    }
+   ],
+   "notes": "Also said: 'even the transcription afterwards picked up eight different voices on that call when there were two' (27:00); repeat the ID check at laptop handover, 'You would want another ID check there' (30:04); the KnowBe4 case (captions: 'No Before') where a North Korean hire started work and was caught by monitoring (30:04 to 31:12); a hire where interviewers took a week to realise the starter was not the person interviewed, told second hand (28:02); Jake Moore's Infosecurity Europe talk in June, in which he used deepfake tools to get 'hired' at two companies for sales roles (16:37); Swift 'thinks' Zoom has added deepfake detection (27:00), unverified.",
+   "gaps": "Auto captions, no speaker labels. Names garbled or unverified: host intro says 'Sam Smith' and 'Cyber' for Samantha Swift and Cyberr; 'Jeff White'; 'No Before' (KnowBe4); 'Healer ... H E L R' (a sister company, spelling unclear); the fake candidate's alias is captioned 'Andre Moldovven'; the interviewer is 'Craig' and once 'Greg', surname not given. Swift promised a public video of the interview; no link is in the file. No part of the body was unreadable."
+  }
+ ]
+}
