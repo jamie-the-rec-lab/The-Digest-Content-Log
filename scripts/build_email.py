@@ -214,11 +214,43 @@ def main(src, outp):
         email=email.replace(ch, ", ")
         text=text.replace(ch, ", ")
     email=email.replace("&mdash;", ", ").replace("&ndash;", ", ")
+    # AGGREGATE CLICK COUNTING (since 22 November 2026). Point each outside link
+    # at https://thereclab.ai/go/v<N>/<n>, which counts the click in total (Vercel
+    # Web Analytics, nothing per person) and forwards to the real page. Only links
+    # in digest/go/v<N>.json are rewritten, the same file the site forwards from;
+    # anything else stays a direct link. No file, no rewriting, with a warning.
+    email, text, n_go = go_rewrite(soup, email, text)
+    print(f"click counting: {n_go} links point through thereclab.ai/go/", file=sys.stderr)
     open(outp+".html","w").write(email)
     open(outp+".txt","w").write(text)
     print("wrote",outp+".html",len(email),"bytes;",outp+".txt",len(text),"bytes")
     print("sections:",[(BeautifulSoup(l,'html.parser').get_text(),len(i)) for l,i in sections])
     print("standouts:",len(standouts))
+
+
+def go_rewrite(soup, email, text):
+    import json, os
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from go_links import edition_version, go_url
+    version = edition_version(soup)
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "digest", "go", version + ".json")
+    if not os.path.exists(path):
+        print(f"WARNING: {path} is missing, so the email uses direct links and no "
+              "clicks will be counted. Run scripts/go_links.py on the live page first.",
+              file=sys.stderr)
+        return email, text, 0
+    by_url = {u: go_url(version, n) for n, u in json.load(open(path)).items()}
+    used = set()
+    def sub(m):
+        u = html.unescape(m.group(1))
+        if u in by_url:
+            used.add(u)
+            return 'href="' + by_url[u] + '"'
+        return m.group(0)
+    email = re.sub(r'href="([^"]+)"', sub, email)
+    text = "\n".join(by_url.get(line.strip(), line) for line in text.split("\n"))
+    return email, text, len(used)
 
 if __name__=="__main__":
     main(sys.argv[1], sys.argv[2])
