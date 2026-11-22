@@ -1,70 +1,29 @@
-{"at": "2026-11-16T19:25:44", "kind": "fetch", "source": "10x Recruiting", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:25:52", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Brainfood/2026-11-13-brainfood-live-on-air-ep418-how-to-hire-in-new-zealand-in-2026.md"}
-{"at": "2026-11-16T19:25:54", "kind": "fetch", "source": "Brainfood", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:26:10", "kind": "fetch", "source": "Building the Talent Machine", "outcome": "ok", "saved": 0, "skipped": 8, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:26:14", "kind": "fetch", "source": "Offer Accepted", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:26:33", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/PromptMates/2026-11-16-how-elevenlabs-sources-top-designers-with-ai.md"}
-{"at": "2026-11-16T19:26:38", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/PromptMates/2026-11-09-how-clay-turned-job-applications-into-projects.md"}
-{"at": "2026-11-16T19:26:40", "kind": "fetch", "source": "PromptMates", "outcome": "ok", "saved": 2, "skipped": 8, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:26:46", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/PromptMates/2026-11-12-hiring-fraud-the-6bn-interview.md"}
-{"at": "2026-11-16T19:27:00", "kind": "fetch", "source": "PromptMates", "outcome": "ok", "saved": 1, "skipped": 5, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:27:05", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Recruiting Future/2026-11-16-ep-838-job-seekers-are-driving-recruiting-innovation.md"}
-{"at": "2026-11-16T19:27:07", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Recruiting Future/2026-11-13-ep-837-what-has-changed-in-executive-hiring.md"}
-{"at": "2026-11-16T19:27:08", "kind": "fetch", "source": "Recruiting Future", "outcome": "ok", "saved": 2, "skipped": 8, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:27:13", "kind": "fetch", "source": "Recruiting Roadshow", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:27:22", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/The Debrief/2026-11-10-the-geography-of-tech-hiring-where-work-happens-whos-moving-and-why-it-matters-t.md"}
-{"at": "2026-11-16T19:27:23", "kind": "fetch", "source": "The Debrief", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:27:28", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI & I/2026-11-11-a-new-vision-for-human-work-after-automation.md"}
-{"at": "2026-11-16T19:27:30", "kind": "fetch", "source": "AI & I", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:27:34", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-11-16-how-i-fight-token-fraud-as-an-ai-founder.md"}
-{"at": "2026-11-16T19:27:36", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-11-11-claude-code-obsidian-my-familys-ai-brain.md"}
-{"at": "2026-11-16T19:27:38", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-11-09-i-was-a-claude-hater-fable-52-changed-my-mind.md"}
-{"at": "2026-11-16T19:27:40", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-11-09-building-a-language-tutor-with-codex-and-zero-mobile-experience.md"}
-{"at": "2026-11-16T19:27:41", "kind": "fetch", "source": "How I AI", "outcome": "ok", "saved": 4, "skipped": 6, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:27:46", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/Lenny's Podcast/2026-11-15-metas-muse-inside-the-launch-of-the-most-successful-consumer-product-this-year-m.md"}
-{"at": "2026-11-16T19:27:48", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/Lenny's Podcast/2026-10-25-how-to-find-product-market-fit-but-actually-rob-snyder-author-the-power-of-pull.md"}
-{"at": "2026-11-16T19:27:50", "kind": "fetch", "source": "Lenny's Podcast", "outcome": "ok", "saved": 2, "skipped": 8, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:27:55", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI For Humans/2026-11-13-claude-just-leveled-up-ai-again-nvidia-ceo-jensen-huang-did-not.md"}
-{"at": "2026-11-16T19:27:56", "kind": "fetch", "source": "AI For Humans", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
-{"at": "2026-11-16T19:28:10", "kind": "index", "collection": "podcasts", "items": 763, "missing": 7, "blocks": 168, "warnings": []}
-{"at": "2026-11-16T19:28:10", "kind": "index", "collection": "tech", "items": 254, "missing": 8, "blocks": 86, "warnings": []}
-{"at": "2026-11-16T19:28:10", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:31:52", "kind": "index", "collection": "newsletters", "items": 87, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:32:38", "kind": "index", "collection": "podcasts", "items": 763, "missing": 0, "blocks": 175, "warnings": []}
-{"at": "2026-11-16T19:32:38", "kind": "index", "collection": "tech", "items": 253, "missing": 0, "blocks": 93, "warnings": []}
-{"at": "2026-11-16T19:34:24", "kind": "index", "collection": "reports", "items": 89, "missing": 0, "blocks": 2, "warnings": []}
-{"at": "2026-11-16T19:34:51", "kind": "index", "collection": "news", "items": 15, "missing": 0, "blocks": 1, "warnings": []}
-{"at": "2026-11-16T19:36:09", "kind": "index", "collection": "newsletters", "items": 87, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:36:09", "kind": "index", "collection": "reports", "items": 89, "missing": 0, "blocks": 2, "warnings": []}
-{"at": "2026-11-16T19:36:09", "kind": "index", "collection": "news", "items": 15, "missing": 0, "blocks": 1, "warnings": []}
-{"at": "2026-11-16T19:36:09", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:40:56", "kind": "index", "collection": "podcasts", "items": 763, "missing": 0, "blocks": 175, "warnings": []}
-{"at": "2026-11-16T19:40:56", "kind": "index", "collection": "tech", "items": 253, "missing": 0, "blocks": 93, "warnings": []}
-{"at": "2026-11-16T19:40:56", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:40:56", "kind": "index", "collection": "newsletters", "items": 87, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:40:56", "kind": "index", "collection": "reports", "items": 89, "missing": 0, "blocks": 2, "warnings": []}
-{"at": "2026-11-16T19:40:56", "kind": "index", "collection": "news", "items": 15, "missing": 0, "blocks": 1, "warnings": []}
-{"at": "2026-11-16T19:42:19", "kind": "index", "collection": "podcasts", "items": 763, "missing": 0, "blocks": 175, "warnings": []}
-{"at": "2026-11-16T19:42:19", "kind": "index", "collection": "tech", "items": 253, "missing": 0, "blocks": 93, "warnings": []}
-{"at": "2026-11-16T19:42:19", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:42:19", "kind": "index", "collection": "newsletters", "items": 87, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:42:19", "kind": "index", "collection": "reports", "items": 89, "missing": 0, "blocks": 2, "warnings": []}
-{"at": "2026-11-16T19:42:19", "kind": "index", "collection": "news", "items": 15, "missing": 0, "blocks": 1, "warnings": []}
-{"at": "2026-11-16T19:44:33", "kind": "index", "collection": "podcasts", "items": 763, "missing": 0, "blocks": 175, "warnings": []}
-{"at": "2026-11-16T19:44:33", "kind": "index", "collection": "tech", "items": 253, "missing": 0, "blocks": 93, "warnings": []}
-{"at": "2026-11-16T19:44:33", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:44:33", "kind": "index", "collection": "newsletters", "items": 87, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:44:33", "kind": "index", "collection": "reports", "items": 89, "missing": 0, "blocks": 2, "warnings": []}
-{"at": "2026-11-16T19:44:33", "kind": "index", "collection": "news", "items": 15, "missing": 0, "blocks": 1, "warnings": []}
-{"at": "2026-11-16T19:49:05", "kind": "index", "collection": "podcasts", "items": 763, "missing": 0, "blocks": 175, "warnings": []}
-{"at": "2026-11-16T19:49:05", "kind": "index", "collection": "tech", "items": 253, "missing": 0, "blocks": 93, "warnings": []}
-{"at": "2026-11-16T19:49:05", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:49:05", "kind": "index", "collection": "newsletters", "items": 87, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-16T19:49:05", "kind": "index", "collection": "reports", "items": 89, "missing": 0, "blocks": 2, "warnings": []}
-{"at": "2026-11-16T19:49:05", "kind": "index", "collection": "news", "items": 15, "missing": 0, "blocks": 1, "warnings": []}
-{"at": "2026-11-21T19:07:08", "kind": "index", "collection": "podcasts", "items": 763, "missing": 0, "blocks": 175, "warnings": []}
-{"at": "2026-11-21T19:07:09", "kind": "index", "collection": "tech", "items": 253, "missing": 0, "blocks": 93, "warnings": []}
-{"at": "2026-11-21T19:07:09", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-21T19:07:09", "kind": "index", "collection": "newsletters", "items": 87, "missing": 0, "blocks": 0, "warnings": []}
-{"at": "2026-11-21T19:07:09", "kind": "index", "collection": "reports", "items": 89, "missing": 0, "blocks": 2, "warnings": []}
-{"at": "2026-11-21T19:07:09", "kind": "index", "collection": "news", "items": 15, "missing": 0, "blocks": 1, "warnings": []}
+{"at": "2026-11-22T10:21:35", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/10x Recruiting/2026-11-19-ai-in-recruiting-how-moniepoint-raises-the-hiring-bar-with-chloe-seeley.md"}
+{"at": "2026-11-22T10:21:36", "kind": "fetch", "source": "10x Recruiting", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:21:41", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Brainfood/2026-11-20-brainfood-live-on-air-ep419-skill-based-hiring-where-are-we-at-in-2026.md"}
+{"at": "2026-11-22T10:21:43", "kind": "fetch", "source": "Brainfood", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:21:47", "kind": "fetch", "source": "Building the Talent Machine", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:21:55", "kind": "transcript_failed", "source": "Offer Accepted", "title": "Training Stronger Interviewers With Rubrics and AI Feedback with Perpetual Ibe, ", "id": "RJYJriNIuZs", "detail": "http_408: Request failed, please retry", "permanent": false}
+{"at": "2026-11-22T10:21:55", "kind": "fetch", "source": "Offer Accepted", "outcome": "ok", "saved": 0, "skipped": 9, "failed": 1, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:22:00", "kind": "fetch", "source": "PromptMates", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:22:08", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/PromptMates/2026-11-19-inside-the-hiring-stack-live-from-san-francisco.md"}
+{"at": "2026-11-22T10:22:16", "kind": "fetch", "source": "PromptMates", "outcome": "ok", "saved": 1, "skipped": 6, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:22:20", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Recruiting Future/2026-11-20-ep-841-what-candidate-fraud-looks-like-in-practice.md"}
+{"at": "2026-11-22T10:22:23", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Recruiting Future/2026-11-19-ep-840-restoring-trust-in-hiring.md"}
+{"at": "2026-11-22T10:22:26", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Recruiting Future/2026-11-18-ep-839-recruiting-from-first-principles.md"}
+{"at": "2026-11-22T10:22:28", "kind": "fetch", "source": "Recruiting Future", "outcome": "ok", "saved": 3, "skipped": 7, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:22:32", "kind": "fetch", "source": "Recruiting Roadshow", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:22:37", "kind": "fetch", "source": "The Debrief", "outcome": "ok", "saved": 0, "skipped": 10, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:22:42", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI & I/2026-11-18-notions-founder-on-the-one-thing-your-ai-is-missing.md"}
+{"at": "2026-11-22T10:22:44", "kind": "fetch", "source": "AI & I", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:22:49", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/How I AI/2026-11-16-token-fraud-is-here-and-its-bad-heres-what-you-need-to-know.md"}
+{"at": "2026-11-22T10:22:51", "kind": "fetch", "source": "How I AI", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:22:56", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/Lenny's Podcast/2026-10-25-how-to-find-product-market-fit-but-actually-rob-snyder-author-the-power-of-pull.md"}
+{"at": "2026-11-22T10:22:58", "kind": "fetch", "source": "Lenny's Podcast", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:23:03", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/tech/transcripts/AI For Humans/2026-11-20-openais-new-astra-is-messy-but-gemini-neon-is-good.md"}
+{"at": "2026-11-22T10:23:04", "kind": "fetch", "source": "AI For Humans", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "tech/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:23:36", "kind": "saved", "path": "/home/user/The-Digest-Content-Log/library/podcasts/transcripts/Offer Accepted/2026-11-17-training-stronger-interviewers-with-rubrics-and-ai-feedback-with-perpetual-ibe-m.md"}
+{"at": "2026-11-22T10:23:37", "kind": "fetch", "source": "Offer Accepted", "outcome": "ok", "saved": 1, "skipped": 9, "failed": 0, "pending": 0, "destination": "podcasts/transcripts", "scan_limit": 10, "backfill": false, "clamped": false, "more_beyond_limit": false, "hit_limit": false}
+{"at": "2026-11-22T10:23:42", "kind": "index", "collection": "podcasts", "items": 770, "missing": 7, "blocks": 175, "warnings": []}
+{"at": "2026-11-22T10:23:42", "kind": "index", "collection": "tech", "items": 255, "missing": 2, "blocks": 93, "warnings": []}
+{"at": "2026-11-22T10:23:42", "kind": "index", "collection": "adhoc", "items": 2, "missing": 0, "blocks": 0, "warnings": []}

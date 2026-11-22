@@ -3,7 +3,10 @@
 Each entry: date, title (links to source), one-line summary, topic tags, and file path.
 Use this to find relevant items before opening the full document.
 
-## 10x Recruiting (53 episodes)
+## 10x Recruiting (54 episodes)
+
+### 2026-11-19 — [AI in Recruiting: How Moniepoint Raises the Hiring Bar with Chloe Seeley](https://www.youtube.com/watch?v=WFVhef_26sM)
+File: `transcripts/10x Recruiting/2026-11-19-ai-in-recruiting-how-moniepoint-raises-the-hiring-bar-with-chloe-seeley.md`
 
 ### 2026-09-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=YSUjLACVfek)
 Vendor-produced episode: Metaview CEO Siadhal Magos discusses his own company's $60M raise led by Insight Partners ($110M total) and its connected-agents platform thesis; all traction claims are self-reported and unverified.
@@ -323,7 +326,10 @@ Company: Metaview
 Tags: ta leadership, ai strategy
 File: `transcripts/10x Recruiting/2025-03-06-introducing-the-10x-recruiting-podcast.md`
 
-## Brainfood (162 episodes)
+## Brainfood (163 episodes)
+
+### 2026-11-20 — [Brainfood Live on Air   Ep419   Skill Based Hiring   Where Are We At in 2026?](https://www.youtube.com/watch?v=XEu7UCjq-Wg)
+File: `transcripts/Brainfood/2026-11-20-brainfood-live-on-air-ep419-skill-based-hiring-where-are-we-at-in-2026.md`
 
 ### 2026-11-13 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=0Z2_M41FYHw)
 Hung Lee and a Kiwi panel on hiring in New Zealand: Australia outbids on pay (senior medical officers 1.5x, 13.5% vs 3.5% super), migration has collapsed, nobody answers the phone, and reputation and referrals rule a two degrees of separation market.
@@ -1611,7 +1617,10 @@ Company: Eric Friedman
 Tags: startup hiring, executive search, reference checks, quality of hire, ta leadership, employer storytelling, rec tech, ai strategy
 File: `transcripts/Building the Talent Machine/2025-08-08-pilot-building-the-talent-machine-w-eric-friedman.md`
 
-## Offer Accepted (87 episodes)
+## Offer Accepted (88 episodes)
+
+### 2026-11-17 — [Training Stronger Interviewers With Rubrics and AI Feedback with Perpetual Ibe, Moniepoint Inc.](https://www.youtube.com/watch?v=RJYJriNIuZs)
+File: `transcripts/Offer Accepted/2026-11-17-training-stronger-interviewers-with-rubrics-and-ai-feedback-with-perpetual-ibe-m.md`
 
 ### 2026-11-03 — [<!--SUMMARY-->]()
 Loop Earplugs sets a required AI level (Zapier's 2 capable, 3 adaptive, 4 transformative) at intake, checks it at screen, hiring manager interview and an AI-permitted business case, and finds 63% of feedback forms never mention AI.
@@ -2135,7 +2144,10 @@ Company: Growth by Design
 Tags: stakeholder management, recruiting metrics, ta leadership, hiring manager alignment, market mapping, talent density
 File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-service-providers-to-trusted-advisors-with-adam.md`
 
-## PromptMates (70 episodes)
+## PromptMates (71 episodes)
+
+### 2026-11-19 — [Inside the Hiring Stack: Live from San Francisco](https://www.youtube.com/watch?v=ldRyBCD6Ius)
+File: `transcripts/PromptMates/2026-11-19-inside-the-hiring-stack-live-from-san-francisco.md`
 
 ### 2026-11-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=WIwwp06Lejs)
 ElevenLabs grew its design team from 8 to 35 (60% sourced) with simple LLM scripts for signals, enrichment, classification and scoring, and a saved pool of about 300 designers that booked about 25 interviews for 17 new openings.
@@ -2557,7 +2569,16 @@ Company: SDI Scout
 Tags: building ai tools, custom gpts, ai sourcing, ai market research, sourcing, talent mapping, recruiter workflow, talent intelligence
 File: `transcripts/PromptMates/2025-08-26-finding-hidden-talent-with-sdi-scout.md`
 
-## Recruiting Future (308 episodes)
+## Recruiting Future (311 episodes)
+
+### 2026-11-20 — [Ep 841: What Candidate Fraud Looks Like In Practice](https://www.youtube.com/watch?v=i5XeamN7IZ8)
+File: `transcripts/Recruiting Future/2026-11-20-ep-841-what-candidate-fraud-looks-like-in-practice.md`
+
+### 2026-11-19 — [Ep 840: Restoring Trust In Hiring](https://www.youtube.com/watch?v=usGjFN1ncgc)
+File: `transcripts/Recruiting Future/2026-11-19-ep-840-restoring-trust-in-hiring.md`
+
+### 2026-11-18 — [Ep 839: Recruiting From First Principles](https://www.youtube.com/watch?v=25Bbq7EYPPU)
+File: `transcripts/Recruiting Future/2026-11-18-ep-839-recruiting-from-first-principles.md`
 
 ### 2026-11-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=5IIa4MWaE3I)
 AIApply CEO Aidan Cramer argues candidate-side agents beat bulk apply, says resume tailoring made no difference on his data, and urges employers to publish machine-readable, transparent requirements; all data claims are unquantified vendor claims.

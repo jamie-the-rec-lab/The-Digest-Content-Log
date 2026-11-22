@@ -1,0 +1,202 @@
+# Notion’s Founder on the One Thing Your AI Is Missing
+
+- **Podcast:** AI & I
+- **Channel:** Every
+- **Date:** 2026-11-18
+- **Duration:** 31:01
+- **URL:** https://www.youtube.com/watch?v=PGWvMrF4XIA
+- **Fetched:** 2026-11-22
+- **Source:** YouTube captions via TranscriptAPI (en)
+
+## Episode description
+
+Lovable is the fastest way to turn ideas into software people love: https://lovable.dev/grow?utm_source=every&utm_medium=podcast&utm_campaign=2026-11-flagship-sponsorship&utm_content=primary
+
+Now that AI enables anyone to build their own software, should you build everything yourself? At Thesis, Notion cofounder and CEO Ivan Zhao joins Every’s Dan Shipper to discuss which tools should and should not be vibe coded—and why you should understand how your systems work, even as agents do the building.
+
+Subscribe to Every (free for 14 days): https://every.to/youtube-every-offer?utm_source=youtube&utm_campaign=thesis2027&utm_content=thesistalktoolsforthought
+
+Links to resources mentioned in the episode:
+Ivan Zhao: https://x.com/ivanhzhao
+Ivan’s post on his 13th year at Notion, “The Next Era of Notion”: https://www.notion.com/blog/the-next-era-of-notion
+Notion Calendar: https://www.notion.com/product/calendar
+The IBM System/360, the room-sized computer Ivan references: https://www.ibm.com/history/system-360
+Claude Code: https://claude.com/product/claude-code
+Claude: https://claude.ai
+ChatGPT: https://chatgpt.com
+Andrew Ambrosino, who leads the Codex app at OpenAI: https://ambrosino.io
+
+Timestamps:
+0:00 Introduction 
+1:18 Why vibe coding revives the 1960s vision of software
+4:40 When people should build their own tools—and when they shouldn't 
+7:47 Why data and context outlast UI and procedural logic 
+9:46 The history game Ivan is vibe coding with his wife 
+12:23 Bringing a 13-year-ol
+
+## Transcript
+
+Each paragraph starts with a timecode linking to that moment on YouTube. A new paragraph marks a change of speaker where the captions show one (speaker names are not available).
+
+**[0:00](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=0s)** Welcome. I'm really excited to have you here.
+
+**[0:02](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=2s)** Good to be here.
+
+**[0:02](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=2s)** And thank you for uh for for for sponsoring this, for making this event possible.
+
+**[0:07](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=7s)** I didn't know until I got here.
+
+**[0:10](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=10s)** Yeah. I he I asked me backstage. He was like, "How much was this?" And I was like, "I don't know, but next time we'll make it bigger if you want to pay a little more."
+
+**[0:19](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=19s)** It's big enough.
+
+**[0:21](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=21s)** Good love. Like great. Nice to be here. Um, so in addition to sponsoring this conference, you make notion and uh I think of you as uh you know we were talking about this a little bit backstage. I think there is a a spiritual similarity between the way that notion and every think about work and I think and I think that comes from you specifically. um uh you think a lot about the craft of work and thinking well with software and I think when we are uh uh like in AI there seems like there's this bifurcation between people who think it's all slop and people who think that uh you can actually do good work with it and I I'm curious like how you're thinking about this um as you're bringing notion into this era in your and in your own We're probably in the one year after the vibe coding phase at this point.
+
+**[1:21](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=81s)** For most  people probably in this room like um a year ago people say software is dead vibe code everything. Then 9 months ago people realized you need to maintain them. Um I'm actually indifferent to different directions. I love the spirit of vibe coding. Actually, if anything, VIP coding the spirit is the spirit that why notion was started in the first place.
+
+**[1:44](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=104s)** Oh, I think so. Right.
+
+**[1:45](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=105s)** Yeah. Um, if I share this uh with you all, it's um
+
+**[1:50](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=110s)** when I was in school last year, college, I was inspired by early days of computing, people in the 60s and 70s or even 50s. Their idea of a software, it's a medium. It's very much like reading and writing. Like everybody should be able to read and write. But if you think about it, this actually really unnatural. We all go through six years of school to learn how to read and write. But now we can do this. We can write pros. We can write business report. We can write poetries. That's not the case for computing. That's not the case for software. So the early days 60s7s people thought about okay why don't we back then machines computer were like roomsiz machine in the basement. Imagine like Mattman the TV show. You go to the basement, you see your IBM 360 and they think, oh, why don't we, and they didn't even have monitor displays. They thought about, okay, why don't we bring the radar display or TV display and connect with those kind of roomsiz calculators.
+
+**[2:47](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=167s)** Now you can create interactive mediums which is called software and such medium shall be used by everybody shall be read and shall be written and uh and read and write by everyone just like we can all read and write software read and write English or French or whatever language you're speaking and unfortunately that never happened. history sort of made an interesting turn in the late 70s early 80s the computing that we had was the the Steve Jobs and Bill Gates generation of computing which is frozen into applications there's then there's a separation of software application makers versus application users then until two years ago right until cloud co era everybody can start making their own software now in some sense the original vision of the ' 60s '7s hippie generation of computing come to life and that's actually why notion was started notion was about how do we bring this computing power to as many people as possible without forcing them to learn how to code and so I'm a big fan of this
+
+**[3:59](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=239s)** everyone's talking about vibe coding but anyone who's built something can tell you making the demo is just the beginning you have to actually get your product in front of people and turn them into happy customers that stick around And Lovable is the only software creation platform that covers the full loop from brainstorming an idea to building production grade software to now finding your users through automated ad generation and search ranking. Through Lovable, you can launch ads on Google, YouTube, Facebook, and Instagram, and get found through search and even create all of the marketing assets you need just by asking. Lovable will also tell you what's working and what's not and help you find your next best marketing move. So, if you want to get beyond building and move into actually building a business, you have to get lovable now. Build your idea and set a goal like get my first 100 signups and Lovable will make a plan to get you there. Visit lovable.dev/grow to get started. That's lovable.dev/grow.
+
+**[5:04](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=304s)** And now back to the episode. Yeah. And I I think that that is an underappreciated thing. Like there's this uh in the way that notion is built, you can tell that you know you have these underlying primitives, these blocks, and you can combine the blocks. And if and if you're a programmer, you recognize that as as the way that you make software and the way that notion is built uh uh is the way that you could make software or code without having to code prel. Um, so now that we're in now that we're in that era, how does that change how you think what  should be built or or how to make that vision come alive in in this new way?
+
+**[5:45](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=345s)** I think we should separate this into multiple axis. One axis is should people have the power if they want to to modify the tools they use. To me, it's hell yes. Definitely. That's the freas sense of freedom with the medium we use every day. Vibe coding AI coding agent give people that power better than any other medium. So I'm fully supportive. Um then there is what about the thing that you use every day that you don't have a strong opinion about you just want someone taking care of you. Um a lot of problem we face every day a chair for example a car a door you might not be an expert of those tools. You just want someone to figure out what's the best form factor of a chair and and door is and just do a good job, right?
+
+**[6:38](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=398s)** You might not want to vibe coding a bridge or a building. So that part I don't think just because you can doesn't mean you should. So certain category of software I will actually put under this bucket. So for example, calendar app. Uh actually today we we launched our second version of the calendar app on mobile. It's completely built from scratch. Um thank you uh native um and in my consideration well-crafted piece software one of the better crafted piece of notion product out there and calendar most people have very detailed way of using calendar but overall you want someone dictate roughly how you should see your time on the grid right and to me this kind of category it's like someone should craft a well thoughtout solution offer to the market and people can use it and The last bucket are more like enterprise software that you depends on for security. You don't want to maintain it and like actually keep takes cost a lot of money just to keep fighting off all the vulnerabilities. Um I personally don't recommend that but you should be able to if you want to you should go for it. So those are different axis when I consider this. Mhm.
+
+**[7:48](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=468s)** And how do you think about what you make and where it fits in on that axis?
+
+**[7:53](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=473s)** Where who?
+
+**[7:54](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=474s)** Not sure.
+
+**[7:55](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=475s)** Um, our business model largely for business and teams. If you want to host everything yourself, by all mean do like we recommend people to use local first products live everything yourself. you want to um but if you're running a business with dozens of people someone else I recommend someone else does it for you in this case we offer as a service so that's our business model and of course I talk this way because that's our business model um and the second axis is the calendar one I mentioned certain things we thought a lot of put a lot of craft into it we thought a lot of ways like hey when you touch this button you want to feel that way it's almost like experience right yes you can cook itself but often time you like to go to restaurant as well. We like to think about many of our product are feels like going to a good restaurant cost effective restaurant but give you a good experience. So, one of the things that I was talking to Andrew Embersino from the OpenAI team about uh in terms of product is especially in the way that OpenAI has to build products, the models change so fast that it feels like every 3 months you have to like throw out what you made and there's this
+
+**[9:09](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=549s)** um that's a real tension between putting your soul into something to make something like think about how does this button feel and and think about all the little details knowing that maybe the thing that you're making probably might not be relevant in three 3 months or 6 months. Do you think about that? Do your teams think about that and how do you deal with it? I think the value of what AI agent really fundamentally changed is if you think about the value of software for the past 15 years is usually a team of people or a company defines the one of the best way to follow this workflow and create a UI and the buttons to do those workflows and AI agent open up both of them. The AI agent can write the procedural code to do any kind of workflow you want. you can vibe code a UI whatever you want them to do right so in some sense um we are not married to that notion actually start to design allow you to create your own UI even before AI
+
+**[10:12](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=612s)** but what's really important is the data how do you hold your data how do you hold your context your semantics what's important to you to your business to us that's a lot more durable than the procedural logic and then the UI So we see our job more and more to be the keeper of your data to open up to different agents in the world in the fancy term called context and allow different agent to work with this context and provide a guard rail allow a team of human to collaborate on this context to me that's more durable and that's outside model that's you define that for your business.
+
+**[10:51](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=651s)** How are you playing with these tools yourself? We were talking a little bit about about vibe coding. Are you are you do you do you have your hands in in them? And and what are you doing? What are you building?
+
+**[11:00](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=660s)** Making games. Uh
+
+**[11:02](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=662s)** what kind of games?
+
+**[11:04](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=664s)** The last one I made during the break was a game about history.
+
+**[11:07](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=667s)** Cool.
+
+**[11:08](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=668s)** Um cuz if you read books, it's kind of like there's a fixed narrative you sort of have to follow. And game is open narrative and you just sort of like if you have a sense of immersion, you you don't follow the narrative, right? Um what's in between? So um I'm creating the game in the sense that you pick any era in the world. Um you let's say I want to learn about Vienna 1900 and the game will suggest you should learn about those five person from this era and they give you 10 ideas. You learn about those ideas and the game set up a world that you can talk to those people which language model is excellent at. That's really
+
+**[11:50](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=710s)** from conversation you collect those 10 concepts then there's a central person in the game usually it's like a teacher or journalist and quizzes you like whether you get those 10 concept or not then you learn so it's not linear but also historical based and is engaging the gossip brain which we like to chat with other people to force myself to learn
+
+**[12:12](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=732s)** and this is like a text game is it like on on your phone is it a website how
+
+**[12:17](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=737s)** it's on the phone on on on computer. Uh um it's it's a graphic looks like PlayStation 2. Uh uh
+
+**[12:26](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=746s)** that's actually pretty good.
+
+**[12:27](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=747s)** I like the like if it's too 3D, too polished, it feels fake versus more pixelated. It feels like approachable and it's easy to tweak. And uh
+
+**[12:37](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=757s)** um
+
+**[12:38](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=758s)** what and what models what models what harness are you using to make this?
+
+**[12:42](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=762s)** The the point I'm making this game is I want to try everything out there.
+
+**[12:45](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=765s)** Okay. So I play with everything. In the earlier version, we really didn't get um my wife and I were building this game together. Actually, we even get um get voice model in to talk back to you live and feels too creepy.
+
+**[12:58](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=778s)** It's better just like um um you have multiple choice. You have a choose the the next venture type of language uh word you want to use. Uh it's a lot easier that way.
+
+**[13:10](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=790s)** But but like come on like are you claim guy? Argon like
+
+**[13:14](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=794s)** I'm a clock guy for writing.
+
+**[13:16](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=796s)** Okay.
+
+**[13:17](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=797s)** I'm uh well image models only on CHBT. Um uh coding. Yeah. We're most most notion runs on ch
+
+**[13:28](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=808s)** and um you you posted this week that I think this is your you're at your your 13-year anniversary of notion which is which is amazing. It's it's like truly it's crazy to to work on. This is year seven of every for me. So you're you're you're double uh you're double mind. Um I'm curious a to to hear how that feels and b to um hear how the way that you've built how you build and run the company has changed in this new era. And I think in particular like a lot of people uh here are probably thinking about if you built a company that works and worked before AI uh what are the ways to bring the team along and the product along as you're transitioning into this new world and I I think um you know based on some of the things I've seen you do uh you you guys have some interesting best practices for uh how to how to how to sort of transition.
+
+**[14:26](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=866s)** Yeah, it's really difficult. It's one of the most difficult thing I have done building notion is transition from pre to post AI. Um maybe break down this 13 years into different chapters. Right? The first five six year uh five years is kind of like meander in the dark. The vision I described in the beginning of the talk is very open-ended. Took a long time. Had some product market fit during COVID time. It's a really gross start to take off. That's largely building a system for humans and we started AI building for AI end of 2022. So we're living in San Francisco. Our friends work in the lab got early access to GPT4 class model. You realize the world will be very different. It's no longer like GPD3 class just marketing copies. You can do work and do thinking with this thing. So um I just got very AI pill back then. Uh my co-founder and I just lock oursel in the hotel room building the first prototype. Um and we actually launched the first product a couple weeks before tragic D happened because we had so much conviction but it was not easy to bring the rest the company along in end of 2022 people start
+
+**[15:36](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=936s)** what was the roadblock like at that point like when you tried what happened
+
+**[15:41](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=941s)** uh the people from people thought it's kind of like a fad it's like crypto right remember nothing to do I don't disrespect crypto but uh people thought because AI wave came and go through so many waves in the past 20 years uh It's very natural to think that way but but once you play with GPD4 class you know it will be different even though the capability freeze at that time there's a lot you can build with it um so that's kind of like the first year first 6 month building a writing product got some traction popular then we've been trying to build an Asian product for the next two years very difficult model just wasn't there so that's a grind and Asian product finally to work last year this time and then the thing is wow everybody's building agent that's not unique to us what's unique to our value what's unique to our capability going back again to people to UI to context to data notion is one of the best knowledge context system in the world so so much our focus right now is what is as this intersection of agent which we spent three years four year building we have some of the best applied AI team in the industry and what is this human part building a context and knowledge system for team of human
+
+**[17:02](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1022s)** bring them together and that's our place in the market
+
+**[17:06](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1026s)** one of the things that um I know you care a lot about and notion is we we sort of talked about this already notion is founded on the idea of using software as a tool for thought
+
+**[17:15](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1035s)** and you've shared uh you have this feeling vibe coding like the the game that you're making there's this almost tick-tockification, even though it's like a powerful tool for thought, there's also this Tik Tokification of I'm just going to do it's like one more prompt, bro. Just like one more prompt. Um, and I I'm really curious how how you think about that and and yeah,
+
+**[17:42](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1062s)** it's a really deep question because like I think we're all technologists in this room. We're all tinker. We're all builders and usually tinker builder want to look into the future just let's go right then whatever happened happens we usually don't think too much about the second order is effect and third order effect I think it's really difficult to think that um but technology especially the one that we've been touching on with AI you before that has a tremendous effect in the world around us it's like if we all we all have a phone in our pocket And I think this is the 15th year of Steve Jobs death or 16th years. If he wakes up from death again and see how people use their phone today, how teenager use their phone today. Do you think he will be 100% proud of it? I'm not sure. Right. I think there will be degrees of doubt. Degrees of doubt of whether we bring the best thing into the world in the best way possible. At least pay some effort to that. You can argue medium before that TV change how the nucleus family function right printing in general probably positive right but every technology has such second order third order effect is really hard to predict I think we're in the beginningish of what this language model
+
+**[19:06](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1146s)** technology can can bring to the world and see some of its second order effect um it's like I've noticed myself like to chat with this thing more than I like to read. I love to read on my Kindle on my phone, but I like to chat with my claw more. I notice that pattern. Sometimes I don't like that pattern, right? Sometimes it feels like, okay, it's almost feels like I'm on TikTok. You're on Tik Tok after 10 minutes, you get grossed out. I I got grossed out, right? It feels like that a little bit. M so it feels like yes there's a tremendous amount of productivity gain from agents from AI but what are the second order effects can we at least think about a little bit while we're building more to it how would you think about it so for example one one of the things that I've toyed with is I could probably tell my cloud or my chat um if it's past 11 at night and we've been chatting for several hours ask me to explain the thing that I'm asking you to build and if I can't explain it don't do it you know something like that and I kind of also know that I would get annoyed at that so yeah what are the what are the ways for builders to think about okay we know that we made this thing that makes it really easy to build
+
+**[20:29](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1229s)** stuff  and that's awesome and we know that when it's 11 at night you can probably just use it to like rip tokens that mean nothing and you're just like sucked into your phone. H how do you think about how to deal with those second order effects depends on whatever you're building a chat product maybe just bake this into your system I think that's too superficial level
+
+**[20:58](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1258s)** the deeper level is like does the human have the understanding like do you understand what's going on like if you usually building a system um or if a team of human medium plus size codebase after a week you sort of don't understand what's going on right I don't think we should surrender our understanding definitely not without putting up a fight if anything we should try to figure out how to create better abstractions better tools and better visualization to understand things that's entirely the purpose of science math create better shorthand to understand the world around us. Agent can do a lot for us but you cannot have understanding. It's difficult right? Um I think more software AI toolmakers should think about how do you help people to gain the understanding of what those system are doing for us.
+
+**[22:01](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1321s)** Have you found anything that works for you to make sure that you're you're locked into understanding how it works? I  can share some tips our our our teams are using. It's almost ironic, right? So like um think about the wave of coding agent clock u become really popular. Everybody talking to their own little black box to build things and using GitHub as a way to merge things. Then you realize holy we don't understand what each others are doing. Then it's better to have a team-based coding thing. Now instead of human talking to their own coding agent, we set up notion camp. So almost going back to the thing like can Jira everybody hate but turns out it's actually a pretty good visual metaphor to orchestrate bunch of agents work right that's what I mean a concrete example of visualization you visualize the thing to the best of ability and you you hope you can absorb it
+
+**[22:56](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1376s)** so we have time for a few questions so if you have a question raise your hand and uh right in the back over there
+
+**[23:06](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1386s)** hey uh thank Thank you. I wanted to talk about and and ask a question about structure versus unstructure because the tradition that you're talking about I think of it as being about comparing uh or joining composability like I love notion's logo because it embodies that founding idea of building blocks pairing that with ergonomics so that the average person to your point can participate in the creation of software today. It feels like AI has moved us into an environment where we've moved from building blocks into tokens which are much more granular. It's like moving from objects to like a liquid. And so I'm curious how you now think about moving from a world of structure building blocks to something that doesn't have as much opinionatedness uh baked into it. Uh maybe an open question, but I'd love to hear your thoughts on that.
+
+**[23:56](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1436s)** Yeah, that is such a good question. Sorry.
+
+**[23:59](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1439s)** Oh,  I'm not going to answer. I just think it's a great question.
+
+**[24:02](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1442s)** I think it's a great question, too. Um, so Notion logo is a is a cube, right? It's a toy. Kids can build up a cube. Um, actually, Lego is even better example. There's a difference between Lego pieces versus a clay. Clay is kind of like a mud. It's very hard for a kid or even adult to build up tall clay. Things just fall apart. Lego easier to pick up your hand has inherit structure. It's not as unstructured. It's not as fine grain as a clay but give you that structure power have some opinion injected. I think vibe coding or coding agent is more give you the clay give you the JavaScript give you the the fine grain thing but you often time the maker doesn't have the opinion or expertise to structure tall tower out of it. I think there is a sweet spot. I think the industry is merging towards what are the legos of pipe coding. So the fundamental permissions, syncing, collaboration are taken care of for you. Yes, you can still express your business logic and intent, but the pieces are there. In fact, that's what we're doing. And what is what does that mean? like what are what would be an example of a vibe coding building block that uh it's not necessarily clay but it's uh it's maybe more manipulable than a Lego a Lego
+
+**[25:30](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1530s)** brick because you have an agent to help you do it
+
+**[25:33](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1533s)** well the basic is you get agent to help you set up your notion or the more powerful version of this we actually released this I think it's become public now um uh notion pattern libraries open up to all the agents and can read from notion databases guard against by the notion system permissions. So it still look and feel like notion but the UI is a lot more free because based on the UI pattern library versus what we give you from the from the product
+
+**[26:01](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1561s)** and the pattern library is like it's an open source library so agents can implement it in your own apps.
+
+**[26:06](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1566s)** Yeah. Well, we haven't open source yet but imagine that
+
+**[26:09](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1569s)** you heard it here first folks. We haven't.
+
+**[26:12](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1572s)** Okay.
+
+**[26:14](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1574s)** Uh Okay, let's let's take another question. Uh in the front, you're you're in the orange.
+
+**[26:26](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1586s)** Thank you. Uh excited about the calendar announcement today.
+
+**[26:30](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1590s)** I'll try it. It's It's
+
+**[26:31](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1591s)** Yeah,
+
+**[26:32](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1592s)** this is like a wellcrafted things that I think people feel. We hope people feel. So my question follows that and and I've seen what  notion has announced that you want to be the portable contacts layer for businesses and we want to help you organize and transport keep keep your data safe. Bring it to your agents in one place that is well thought out and trusted. Uh I work with a lot of small and mediumsiz businesses who haven't figured that out yet. They're just starting this idea of, oh, I can train AI to speak like I speak or write like I write. Wouldn't it be great if we had a a second brain for our business? And the idea of notion to do that right now, I think to do that is um there's a lot of a lot of people who built that, but they've had to peiemeal a lot of different systems. And so I'm curious on notion's road map, if you're allowed to share, how close do you think we are to a 50 person company being able to implement this themselves?
+
+**[27:38](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1658s)** Like we we heard lovable share earlier and making AI insanely and undeniably approachable is I think key to their success. And I'm curious how you guys at Notion think about that.
+
+**[27:49](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1669s)** Yeah, we have the Lego pieces. Many of them we don't offer them with the box today. So our goal for the next quarter less than two hopefully is that solution for 50 people company having all the context and knowledge knowh how together out of the box on board through agent um and this is very important for business uh if you think about it like if everything holds true in the next year couple years there probably will be hundreds of billions dollars spent through tokens right intelligent flow through the system what is opposite of tokens in some sense it's context it's compressed tokens
+
+**[28:31](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1711s)** it's your knowhow your knowledge right so in if we do our job right your 50 people start up can they save 20% 30% 40% of tokens might be possible can they actually have true AI transformation that not just garbage in garbage out but actually have their data and knowhow flow through the system with their whatever token choice they have that's our We got time for one more question.
+
+**[29:01](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1741s)** You want to You want to pick someone?
+
+**[29:02](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1742s)** Dealer's choice.
+
+**[29:03](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1743s)** That's on you.
+
+**[29:04](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1744s)** Okay. Right over there.
+
+**[29:08](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1748s)** Thanks for being here. Um I'm curious the something that was brought up to me once several months ago was don't use apps anymore. Let the AI use the apps. So that now it's like you just have one gateway. So everybody uses chat GBT for everything. And I'm curious because from a media agency standpoint, we're also thinking about this from websites and media. But from your perspective as a developer, how are you approaching that? Like how do we continue to engage the consumer and keep them wanting to use Notion instead of just having their agents?
+
+**[29:44](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1784s)** Yeah, it's a really good question. It's not as black and white as that. Um one assumption we hold true inside a companies is we assume for the next billion knowledge worker coming online vast majority will be agents. So our customer is no longer just only humans but a lot more agents right and those are the key agent the claw the chats of the world that's one second we also believe that human camaraderie and human collaboration matters we don't want to live in the world that you chat with your little chat box and become like Tik Tok Instagram effect your knowledge whether that's good or bad business we put it aside we don't want to live in that world so the thing we care about is that the sheer canvas is the team of human work with the team of Asian the can boards of the world and and for that that's closer to where the context is or closer to notion is right so for us is it's not a black and white yes a lot more agent coming online but there's also part that you want to preserve which is closer to um headless product no UI at all
+
+**[30:54](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1854s)** awesome that's all the time we have folks Ivan thank you so much it was a pleasure
+
+**[30:58](https://www.youtube.com/watch?v=PGWvMrF4XIA&t=1858s)** thank
+

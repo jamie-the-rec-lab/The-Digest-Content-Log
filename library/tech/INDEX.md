@@ -3,7 +3,10 @@
 Each entry: date, title (links to source), one-line summary, topic tags, and file path.
 Use this to find relevant items before opening the full document.
 
-## AI & I (43 episodes)
+## AI & I (44 episodes)
+
+### 2026-11-18 — [Notion’s Founder on the One Thing Your AI Is Missing](https://www.youtube.com/watch?v=PGWvMrF4XIA)
+File: `transcripts/AI & I/2026-11-18-notions-founder-on-the-one-thing-your-ai-is-missing.md`
 
 ### 2026-11-11 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=WstNofgQF5Q)
 Dan Shipper's Thesis keynote: AI makes answers cheap, so value lies in the person who ranks and picks them; share the same data with the whole team, keep humans on ranking, and judge AI on your own work (GDPval: AI beat experts 12.4% in 2024 to about 83% in 2026).
@@ -263,7 +266,10 @@ Company: AI & I
 Tags: ai, ai agents
 File: `transcripts/AI & I/2026-01-07-ai-in-2026-reid-hoffmans-predictions-on-agents-work-and-creation.md`
 
-## AI For Humans (64 episodes)
+## AI For Humans (65 episodes)
+
+### 2026-11-20 — [OpenAI’s New Astra Is Messy But Gemini Neon Is... Good?](https://www.youtube.com/watch?v=NfpqdDnK_kQ)
+File: `transcripts/AI For Humans/2026-11-20-openais-new-astra-is-messy-but-gemini-neon-is-good.md`
 
 ### 2026-11-13 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=sQKvJbzgFRU)
 Hosts' hands-on take on Anthropic's Fable 5.2 (looser briefs, personas, fast usage caps on the $200 plan), Claude Sheets, Spawn game maker and unconfirmed reporting on Jensen Huang leaving Nvidia; low recruiting relevance.
