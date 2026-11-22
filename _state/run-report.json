@@ -86,8 +86,18 @@
   }
  ],
  "to_grab": [
-  "Robert Walters Salary Survey UK 2027 (gated, nothing readable)",
-  "iCIMS and Kyle & Co. 2026 Talent Transformation Yearbook (no public page found)"
+  {
+   "name": "Robert Walters Salary Survey UK 2027",
+   "url": "https://www.robertwalters.co.uk/our-services/salary-survey.html",
+   "extraction": "blocked",
+   "reason": "gated, nothing readable"
+  },
+  {
+   "name": "iCIMS and Kyle & Co. 2026 Talent Transformation Yearbook",
+   "url": "",
+   "extraction": "blocked",
+   "reason": "no public report page found"
+  }
  ],
  "index": {
   "podcasts": {
