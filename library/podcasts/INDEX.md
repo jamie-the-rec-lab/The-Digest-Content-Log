@@ -5,7 +5,10 @@ Use this to find relevant items before opening the full document.
 
 ## 10x Recruiting (54 episodes)
 
-### 2026-11-19 — [AI in Recruiting: How Moniepoint Raises the Hiring Bar with Chloe Seeley](https://www.youtube.com/watch?v=WFVhef_26sM)
+### 2026-11-19 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=WFVhef_26sM)
+Moniepoint's Chloe Seeley on an interviewer coaching agent built by an exec recruiter in about two months: it checks each Metaview-recorded interview against the stage rubric, sends private Slack feedback within five minutes, flags missed rubric areas to the next interviewer, and is checked by a second devil's advocate agent.
+Company: Moniepoint (Chloe Seeley, VP and Global Head of Talent; show is produced by Metaview, whose product she uses)
+Tags: ai interview notes, ai agents, building ai tools, interviewer training, scorecards, structured interviewing, values interviews, quality of hire, ai upskilling, recruiting operations
 File: `transcripts/10x Recruiting/2026-11-19-ai-in-recruiting-how-moniepoint-raises-the-hiring-bar-with-chloe-seeley.md`
 
 ### 2026-09-30 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=YSUjLACVfek)
@@ -328,7 +331,10 @@ File: `transcripts/10x Recruiting/2025-03-06-introducing-the-10x-recruiting-podc
 
 ## Brainfood (163 episodes)
 
-### 2026-11-20 — [Brainfood Live on Air   Ep419   Skill Based Hiring   Where Are We At in 2026?](https://www.youtube.com/watch?v=XEu7UCjq-Wg)
+### 2026-11-20 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=XEu7UCjq-Wg)
+Brainfood panel on skills-based hiring in 2026: Greenhouse survey says 86% of employers changed hiring because of fake or AI applications and 48% of those added a live skills test, yet career history still decides who advances; CodeSignal on letting candidates use AI in assessments and scoring real work artefacts.
+Company: Brainfood (panel: Adam of CodeSignal, episode sponsor; Daniel Chait of Greenhouse; Kat Kibben of Three Ears Media; Rachel Gully)
+Tags: skills-based hiring, ai interviewing, interview cheating, candidate experience, candidate communication, talent market data, ai job descriptions, talent intelligence, rec tech, human-ai collaboration
 File: `transcripts/Brainfood/2026-11-20-brainfood-live-on-air-ep419-skill-based-hiring-where-are-we-at-in-2026.md`
 
 ### 2026-11-13 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=0Z2_M41FYHw)
@@ -1619,7 +1625,10 @@ File: `transcripts/Building the Talent Machine/2025-08-08-pilot-building-the-tal
 
 ## Offer Accepted (88 episodes)
 
-### 2026-11-17 — [Training Stronger Interviewers With Rubrics and AI Feedback with Perpetual Ibe, Moniepoint Inc.](https://www.youtube.com/watch?v=RJYJriNIuZs)
+### 2026-11-17 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=RJYJriNIuZs)
+Moniepoint's Perpetual Ibe on piloting an interviewer quality agent after building rubrics and a license to hire programme: it scores question quality, talk time, candidate experience and skill coverage out of 10 and sends it privately in Slack; some interviewers talked 70% of the time against a target of the candidate talking 60%; no impact numbers yet.
+Company: Moniepoint (Perpetual Ibe, Head of Talent Acquisition)
+Tags: interviewer training, ai interview notes, ai agents, scorecards, structured interviewing, candidate experience, hiring manager alignment, stakeholder management, human-ai collaboration, building ai tools
 File: `transcripts/Offer Accepted/2026-11-17-training-stronger-interviewers-with-rubrics-and-ai-feedback-with-perpetual-ibe-m.md`
 
 ### 2026-11-03 — [<!--SUMMARY-->]()
@@ -2146,7 +2155,10 @@ File: `transcripts/Offer Accepted/2023-06-12-taking-recruiting-functions-from-se
 
 ## PromptMates (71 episodes)
 
-### 2026-11-19 — [Inside the Hiring Stack: Live from San Francisco](https://www.youtube.com/watch?v=ldRyBCD6Ius)
+### 2026-11-19 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=ldRyBCD6Ius)
+Live two hour special: Juicebox's CTO says agent sourced leads get 30% higher response rates, Zapier's Dan McCarthy benchmarks Haiku, Sonnet and Opus on a recruiting task ($4 against $41 per 1,000 runs), and Ashby's CEO explains its opt in AI interviewer with 92.9% positive candidate responses.
+Company: Juicebox, Zapier and Ashby (Ishan Gupta, Dan McCarthy, Benji Encz; Juicebox and Ashby are session sponsors discussing own products)
+Tags: ai sourcing, ai agents, ai interviewing, building ai tools, claude code, outbound sourcing, inbound recruiting, candidate experience, rec tech, candidate ai tools
 File: `transcripts/PromptMates/2026-11-19-inside-the-hiring-stack-live-from-san-francisco.md`
 
 ### 2026-11-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=WIwwp06Lejs)
@@ -2571,13 +2583,22 @@ File: `transcripts/PromptMates/2025-08-26-finding-hidden-talent-with-sdi-scout.m
 
 ## Recruiting Future (311 episodes)
 
-### 2026-11-20 — [Ep 841: What Candidate Fraud Looks Like In Practice](https://www.youtube.com/watch?v=i5XeamN7IZ8)
+### 2026-11-20 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=i5XeamN7IZ8)
+Cyberr CMO Samantha Swift walks through a deepfake candidate with suspected North Korea links caught in a backend engineer interview: the tells, the fake phone number and degree, how job adverts leak the tech stack, and why first calls should be on video.
+Company: Cyberr (Samantha Swift, Chief Marketing Officer)
+Tags: deepfake candidates, candidate fraud, interview cheating, engineering hiring, job advertising, reference checks, onboarding, recruiting operations
 File: `transcripts/Recruiting Future/2026-11-20-ep-841-what-candidate-fraud-looks-like-in-practice.md`
 
-### 2026-11-19 — [Ep 840: Restoring Trust In Hiring](https://www.youtube.com/watch?v=usGjFN1ncgc)
+### 2026-11-19 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=usGjFN1ncgc)
+Article's head of TA Bradley Clark on rebuilding candidate trust: one page on AI use linked from every stage, a warn-once rule for LLM use in interviews, human-made rejections stated in writing, and the strictest jurisdiction as the compliance baseline.
+Company: Article (Bradley Clark, Head of Talent Acquisition)
+Tags: ai governance, interview cheating, candidate ai tools, candidate experience, candidate communication, rejections, ai bias, rec tech, work trials
 File: `transcripts/Recruiting Future/2026-11-19-ep-840-restoring-trust-in-hiring.md`
 
-### 2026-11-18 — [Ep 839: Recruiting From First Principles](https://www.youtube.com/watch?v=25Bbq7EYPPU)
+### 2026-11-18 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=25Bbq7EYPPU)
+Economist Andrew Marritt on why AI collapsed the signal in applications, why cost per hire drives the wrong budget cuts (dropping structured interviews loses about £48 of value per £1 saved in his model), why manager overrides usually do worse, and what the evidence says on AI interviews.
+Company: Working Ideas (Andrew Marritt, economist; host Matt Alder)
+Tags: recruiting metrics, structured interviewing, ai interviewing, employer branding, job advertising, retention, quality of hire, hiring manager alignment, ai bias, candidate ai tools
 File: `transcripts/Recruiting Future/2026-11-18-ep-839-recruiting-from-first-principles.md`
 
 ### 2026-11-16 — [<!--SUMMARY-->](https://www.youtube.com/watch?v=5IIa4MWaE3I)

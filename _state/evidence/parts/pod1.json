@@ -1,0 +1,155 @@
+{
+  "run_date": "2026-11-22",
+  "items": [
+    {
+      "show": "10x Recruiting",
+      "title": "AI in Recruiting: How Moniepoint Raises the Hiring Bar with Chloe Seeley",
+      "date": "2026-11-19",
+      "url": "https://www.youtube.com/watch?v=WFVhef_26sM",
+      "guest_line": "Chloe Seeley, VP and Global Head of Talent at Moniepoint, previously at Checkout.com and Amazon (role as introduced in the transcript at 0:27; name and company spelling from the episode title and description). Host Nolan Church (named in the description only).",
+      "vendor_flag": "Partly. The guest is not selling anything: she is an in-house talent leader describing an agent her own team built. But the show is produced by Metaview ('a podcast from Metaview'), the co-host in the intro works at Metaview, and the agent runs on Metaview's interview records, so the praise for Metaview is on Metaview's own channel from a Metaview customer.",
+      "reader_fit": "High for in-house talent leaders: a concrete, copyable design for coaching interviewers at scale (rubric per stage, feedback in Slack within five minutes, built by a recruiter, not engineers). Less direct for agency recruiters. Moniepoint is an African fintech; Seeley's wider team context is not UK-specific. Same agent is described by a second Moniepoint guest in the Offer Accepted episode of 2026-11-17, who calls it a pilot.",
+      "path": "library/podcasts/transcripts/10x Recruiting/2026-11-19-ai-in-recruiting-how-moniepoint-raises-the-hiring-bar-with-chloe-seeley.md",
+      "points": [
+        {
+          "claim": "After every interview the agent reads the Metaview record and sends the interviewer a private Slack message within five minutes, covering four areas (conversational metrics, question quality and probing, rubric coverage, candidate experience) and always opening with positive feedback.",
+          "figure": "Within five minutes (guest spells it out; host says '5 minutes' at 2:03); four areas; tools: Metaview, Slack",
+          "quote": "Within five minutes of conducting the interview, an interviewer gets a Slack message and it comes back and it breaks down those four areas for them and it always starts with positive feedback.",
+          "timecode": "13:19"
+        },
+        {
+          "claim": "The agent was built by an executive recruiter on the TA team, not an engineer, in about two months from idea to live including the pilot. She now owns its maintenance as part of her role.",
+          "figure": "About two months (spelled out in captions)",
+          "quote": "It took about two months, I would say, in total.",
+          "timecode": "17:36"
+        },
+        {
+          "claim": "If an interviewer misses a section of the rubric, a Slack automation tells the next interviewer to cover it and suggests a question, so gaps are caught before the debrief.",
+          "figure": "Tool: Slack automation; no number given",
+          "quote": "It can go to the next interviewer and say, \"This interviewer didn't cover this on the rubrics. Please include it in your interview, and here's some suggested question for you.\"",
+          "timecode": "24:40"
+        },
+        {
+          "claim": "All results feed a dashboard used to spot interviewers who need intervention, to report to job families on their interviewer pool, and to test the rubrics themselves: when most interviewers make the same mistake, the rubric is the suspect. Seeley's 'eight out of 10' is an illustrative rule of thumb, not a measured result.",
+          "figure": "Eight out of 10 interviewers (illustrative; captions write 'eight out of 10')",
+          "quote": "because if eight out of 10 interviewers are doing something the same in each interview it probably means our rubrics is not quite right.",
+          "timecode": "22:09"
+        },
+        {
+          "claim": "A second 'devil's advocate' agent challenges the first agent's output before the feedback reaches the interviewer.",
+          "figure": "Two agents; named 'devil's advocate agent'",
+          "quote": "there's a second agent and it's a devil's advocate agent and that agent challenges the first agent to make sure that it's it's not doing anything it shouldn't be doing.",
+          "timecode": "25:23"
+        },
+        {
+          "claim": "Next, planned and not yet built: a bar raiser agent that puts the candidate's evidence against the rubric at each stage, with a human still deciding and a human bar raiser still in the debrief. Seeley joined in January and had Metaview live by March; the agent came after.",
+          "figure": "Future plan ('we are now going to build'); joined January, Metaview live by March",
+          "quote": "we are now going to build a bar raising agent and that agent is going to do something very similar to the interviewing agent but it's going to look at the candidate.",
+          "timecode": "26:04"
+        }
+      ],
+      "notes": "Seeley said first-six-month attrition was 'much higher than I expected them to be' (6:51) but gave no figure. No outcome numbers (attrition, quality of hire) were given for after the agent launched. The description says an exec recruiter built it 'in about 2 months, with no engineers involved'; the transcript supports two months and that the recruiter built it herself, but the words 'no engineers' are not said in the body.",
+      "gaps": "Captions are auto-generated with no speaker labels. Names are garbled throughout: guest appears as 'Khloe Cely', company as 'Moneypoint' / 'Money Point', Metaview as 'MeteView' / 'MetaBue' / 'Best View'. The co-host in the intro is rendered only as 'Sle' / 'S' and is not named in the description, so he is left unnamed. Two tools are rendered as 'anti-gravity' and 'NAT' (15:36); the real product names cannot be confirmed from the file. The description is cut off at 'To learn more about'."
+    },
+    {
+      "show": "Brainfood",
+      "title": "Skill Based Hiring: Where Are We At in 2026?",
+      "date": "2026-11-20",
+      "url": "https://www.youtube.com/watch?v=XEu7UCjq-Wg",
+      "guest_line": "Host Hung Lee (channel name). Panel, as self-introduced in the transcript: Adam, Director of Talent Science at CodeSignal for the past three years, industrial organisational psychologist (surname rendered 'Vasa' in captions); Daniel Chait, CEO and co-founder of Greenhouse; 'Cat Kibbon' in captions (host also says 'Katrina'), who runs Three Ears Media, a job post writing expert and recruiting consultant; Rachel Gully, who runs a company the captions render as 'Real R E L' and works with job seekers, background in recruiting operations. The description names none of the panel.",
+      "vendor_flag": "Yes. CodeSignal sponsors the episode (host says so at 1:58) and its Director of Talent Science spends the opening describing and praising CodeSignal's own new product. Daniel Chait's statistics come from Greenhouse's own survey, and his point that candidates rate AI interviews highly sits beside a mention of Greenhouse's own voice AI product. Kibben and Gully are independent consultants.",
+      "reader_fit": "Medium to high: the Greenhouse survey figures on fake applications and skills testing are quotable for any talent leader making the case for assessments, and the candidate communication rules apply to in-house and agency alike. Data is US and Australia; no UK figures were given. Much of the first 14 minutes is sponsor product pitch.",
+      "path": "library/podcasts/transcripts/Brainfood/2026-11-20-brainfood-live-on-air-ep419-skill-based-hiring-where-are-we-at-in-2026.md",
+      "points": [
+        {
+          "claim": "Daniel Chait, citing Greenhouse's own '2026 future of hiring report' survey of employers: 86% have changed their hiring process because of fake or AI-generated applications, and 48% of those added a live skills test or work sample.",
+          "figure": "86% of employers surveyed; 48% of those (Greenhouse 2026 future of hiring report, as stated by Chait; captions show the digits)",
+          "quote": "86% of the employers that we surveyed have changed their hiring process because of kind of fake or AI generated applications.",
+          "timecode": "22:28"
+        },
+        {
+          "claim": "Same Greenhouse survey, per Chait: employers say skills matter most but still advance people on career history. 60% ranked job skills and 51% ability to learn as the most important qualities, yet the top factor in who advances is career history.",
+          "figure": "60% job skills; 51% ability to learn; top factor in advancing: career history (Greenhouse survey, stated by Chait)",
+          "quote": "60% of employers ranked job skills and and 51% said ability to learn are the most important qualities. And yet the top factor in actually looking who advances career history.",
+          "timecode": "23:57"
+        },
+        {
+          "claim": "Chait, from Greenhouse's job seeker survey: 96% of US job seekers and 97% of Australian job seekers wish they could show employers something their application does not include. No UK figure was given.",
+          "figure": "96% US job seekers; 97% Australian job seekers (Greenhouse survey, stated by Chait)",
+          "quote": "96% of the job seekers in the US, and since you're in Australia, I'll give you some Australian data. 97% of Australian job seekers said that they wish they could show employers something that their application doesn't include",
+          "timecode": "24:50"
+        },
+        {
+          "claim": "Chait says candidates offered an AI-led interview, instead of waiting behind thousands of applicants, overwhelmingly prefer it, with 90% rating it an excellent experience. He does not say whose data this is; it follows a reference to Greenhouse's own voice AI, so treat it as an unsourced vendor claim.",
+          "figure": "90% rated it an excellent experience; 'behind 2,000 applicants' is illustrative (source not stated)",
+          "quote": "if you give them the opportunity to take an AIEL interview as opposed to waiting in the back of the queue behind 2,000 applicants and they do it, what you find is that overwhelmingly they prefer it. That 90% of them rated an excellent experience",
+          "timecode": "36:22"
+        },
+        {
+          "claim": "CodeSignal's Adam says assessment has moved over two years from purely defensive anti-cheating (proctoring, suspicion scores, copy-paste detection) to giving every candidate the same AI tool inside the assessment and policing only unauthorised tools, because engineers no longer work without AI.",
+          "figure": "Shift 'over the past two years'; tool: CodeSignal (vendor describing its own product)",
+          "quote": "We can no longer just administer a pure coding assessment stop them from using AI and read the code that they submit. Um that's not how software engineers do their job anymore.",
+          "timecode": "30:00"
+        },
+        {
+          "claim": "Kat Kibben's rule for assessment drop-off: the assessment itself is rarely the problem; say why it is used, that every candidate does it, what good means and how long it takes, and scale the ask to how much the employer is also investing at that stage.",
+          "figure": "No number; a four-part communication checklist",
+          "quote": "And it's not actually the assessment that's usually the problem.",
+          "timecode": "32:19"
+        }
+      ],
+      "notes": "CodeSignal's new 'agentic skills intelligence' product was described as scoring real work artefacts (Zoom, GitHub, Gong) against rubrics and backfilling 'like six months' of records (53:38); Adam said its Beyond conference had 'over 200 customers or interested prospects' (4:43). These are the vendor's claims about its own product and event, with no validation evidence offered. The description says the session is 'ahead of' the Beyond conference, but in the transcript the host says it was held 'a couple of weeks ago'.",
+      "gaps": "Auto captions, no speaker labels; speakers were identified from the host naming them before each turn, so a few short interjections cannot be attributed with certainty (for example the salary range point at 33:06 is attributed to Kibben from context). Garbled names: 'Adam Vasa', 'Cat Kibbon' / 'Katrina Kevin', 'Hong' / 'Hungi' for Hung Lee, 'Josh person' for Josh Bersin, 'Jerry Chrisman', 'AIEL interview' for AI-led interview, 'gone calls' for Gong, 'cloud co-work'. The library summary and TSV use the spelling 'Kat Kibben', which is not confirmed by the file: check the surname before publishing. Rachel Gully's company name is unclear ('Real R E L uh like the fishing'). Two host asides should not be used as facts: Hung Lee's recollection that Anthropic staff spend 'something like' 25% of their time reading Claude output (59:39, hedged with 'I think'), and his remark that the Riemann hypothesis was 'being proven today' by Claude (56:34). The description is cut off mid-sentence."
+    },
+    {
+      "show": "Offer Accepted",
+      "title": "Training Stronger Interviewers With Rubrics and AI Feedback with Perpetual Ibe, Moniepoint Inc.",
+      "date": "2026-11-17",
+      "url": "https://www.youtube.com/watch?v=RJYJriNIuZs",
+      "guest_line": "Perpetual Ibe, Head of Talent Acquisition at Moniepoint (title from the description; the host says 'head of talent' at 0:18). About five years at the company, started as a lead technical recruiter, previously at a company the captions render as 'Rome Africa'. Host Shannon Ogborn; show produced by Ashby.",
+      "vendor_flag": "No. The guest is an in-house talent leader describing her own team's pilot and sells nothing. The show is produced and sponsored by Ashby, but Ashby's product is not the thing being praised; the tools she names are Metaview, Slack and Claude.",
+      "reader_fit": "High for in-house talent leaders and useful for anyone training interviewers: a clear talk-time benchmark, a four-part scoring scheme and an honest account that it is still a pilot with no impact numbers. Pairs with the 10x Recruiting episode of 2026-11-19, where Moniepoint's Chloe Seeley describes the same agent. Not UK-specific (Moniepoint is an African fintech, fully remote).",
+      "path": "library/podcasts/transcripts/Offer Accepted/2026-11-17-training-stronger-interviewers-with-rubrics-and-ai-feedback-with-perpetual-ibe-m.md",
+      "points": [
+        {
+          "claim": "Before training, some Moniepoint interviewers were talking 70% of the time. The stated ideal is the candidate speaking 60% of the time, and talk time ratio is one of the four dimensions the agent checks (with question quality, candidate experience and skill coverage).",
+          "figure": "Interviewer talking 70% of the time (observed cases); target: candidate speaks 60% of the time; four dimensions",
+          "quote": "Ideally, you should allow the candidate to speak for 60% of the time because you want to actively listen to them and then ask follow-up questions if needed.",
+          "timecode": "7:53"
+        },
+        {
+          "claim": "Feedback arrives privately in the interviewer's Slack as a score out of 10 per dimension with the reason and an improvement tip. The scores she quotes are examples of the format ('for instance'), not real results.",
+          "figure": "Scores out of 10, e.g. eight over 10 for candidate experience, two over 10 for talk time (illustrative; captions write 'eight over 10', 'two over 10'); tool: Slack",
+          "quote": "Talk time ratio you scored two over 10 for instance because you were talking 70% of the time.",
+          "timecode": "9:11"
+        },
+        {
+          "claim": "The agent sits on top of two earlier pieces of groundwork: rubrics defined for each job family, then a 'license to hire' training programme for interviewers. The agent exists so the training is not done once and forgotten.",
+          "figure": "Named programme: 'license to hire'; rubrics by job family",
+          "quote": "we also launched like a license to hire program and training for interviewers.",
+          "timecode": "6:05"
+        },
+        {
+          "claim": "It is still a pilot with no impact numbers. The behaviour change seen so far is preparation: interviewers reading the kit and CV before the call. Quality of hire and candidate experience measurement is planned for next year.",
+          "figure": "No numbers yet (stated by the guest); status: pilot",
+          "quote": "we're still piloting this, so we might not have like numbers to attach the impact right now.",
+          "timecode": "17:46"
+        },
+        {
+          "claim": "Human judgement stays with the interviewer, backed by a real case: an AI cultural assessment tool run on a transcript rated a candidate differently from the recruiter who had been on the call; he advanced the candidate anyway and the candidate was successful in the process.",
+          "figure": "One named case; tool: internal AI cultural assessment tool, Metaview for transcripts",
+          "quote": "He was able to make his own decision to advance the candidate based on the experience he had with the candidate during the call. And of course, the candidate was successful in the process.",
+          "timecode": "14:20"
+        },
+        {
+          "claim": "Before the agent existed, Ibe ran her own interviews past Claude to get feedback on herself as an interviewer, a version anyone can copy without building anything.",
+          "figure": "Tool: Claude ('we use Claude')",
+          "quote": "I would still like ask one of those the LLM like we use Claude and I'll ask Claude to evaluate me as an interviewer. Did I ask the right questions?",
+          "timecode": "22:02"
+        }
+      ],
+      "notes": "Company growth as stated by Ibe at 2:01: 'I think I was employee 200' and 'right now we are company size of 4,500 people', 'between 2021 and now' (the first figure is hedged with 'I think'). CEO and CTO backing was credited for adoption (11:33). Next planned step is a bar raiser agent (24:38), matching the 10x Recruiting episode. Status differs between the two Moniepoint episodes: Ibe calls the interviewer agent a pilot with no numbers; Seeley describes it as built and in use. Neither gives outcome data.",
+      "gaps": "Auto captions, no speaker labels. Garbled names: guest appears as 'Perp EB' / 'Perpetual eBay', company as 'Money Point', host as 'Shannon O'gborn', previous employer as 'Rome Africa' (not confirmed), 'New Bank' for the company of a past guest called Vanessa (20:50, likely Nubank, unconfirmed). The agent's name is rendered variously as 'interviewer quality agent', 'interviewer, high quality agent' and 'interviewer calling agents'; 'interviewer quality agent' matches the description. The description's '60%' takeaway is supported by the body. The description is cut off mid-sentence in the timestamps list."
+    }
+  ]
+}

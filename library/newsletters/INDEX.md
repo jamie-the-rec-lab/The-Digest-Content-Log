@@ -269,7 +269,13 @@ Company: PromptMates
 Tags: ai agents, building ai tools, claude code, recruiter workflow, ai bias, outbound sourcing, ai screening, context engineering, candidate fraud, deepfake candidates
 File: `transcripts/PromptMates Newsletter/2026-06-16-rebuilding-your-talent-team-around-ai.md`
 
-## RecOps Collective (18 episodes)
+## RecOps Collective (19 episodes)
+
+### 2026-11-20 — [Week of November 16th, 2026]()
+Lead piece on how Compensation prices skills in a confidential internal study and what a candidate-facing "dynamic pricing" offer calculator could do; plus awards nominations (close 4 December) and the weekly list of articles, vendor updates (Brighthire, Dover, Draup, Greenhouse, Juicebox, Metaview), events and recops jobs.
+Company: RecOps Collective
+Tags: compensation, offer closing, candidate experience, recruiting operations, rec tech, candidate fraud, skills-based hiring, headcount planning
+File: `transcripts/RecOps Collective/2026-11-20-week-of-november-16th-2026.md`
 
 ### 2026-11-12 — [Week of November 9th, 2026]()
 ROCA awards voting opens (winners 11 December), plus the weekly list of articles, vendor updates (AssessFirst, Dover, Findem, Kula, Warden AI), events and recops jobs.
@@ -393,7 +399,13 @@ Company: Remade.md
 Tags: ai agents, ai sourcing, context engineering, building ai tools, ai upskilling, ai strategy, recruiting operations, talent intelligence, recruiter workflow
 File: `transcripts/Remade.md/2026-07-20-stop-tokenmaxxing-start-roi-maxxing.md`
 
-## TA Unboxed (24 episodes)
+## TA Unboxed (25 episodes)
+
+### 2026-11-20 — [Is sourcing about to make a big comeback?]()
+Darren Bush argues AI-inflated application volume is bringing sourcing back: test 20% of sourcing tech budget on alternatives to LinkedIn Recruiter, source before the advert (market map, ATS rediscovery, networks), and revive Glen Cathey's meta-sourcing; Metaview fillmore sponsored.
+Company: TA Unboxed
+Tags: sourcing, outbound sourcing, ai sourcing, market mapping, talent pools, high-volume hiring, hiring manager alignment, rec tech, recruiter productivity
+File: `transcripts/TA Unboxed/2026-11-20-is-sourcing-about-to-make-a-big-comeback.md`
 
 ### 2026-11-13 — [How Do Candidates Know Your Recruiters Are Real?]()
 Five design principles for a verifiable hiring process: publish recruiters, domains and platforms, tell candidates what you will never ask, give safe reporting routes, protect employees confidentially, keep checks proportionate; draws on Stacy Zapar, Luke Eaton, Matt Buckland; Metaview fillmore sponsored.

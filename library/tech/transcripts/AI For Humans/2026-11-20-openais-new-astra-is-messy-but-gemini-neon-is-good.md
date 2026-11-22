@@ -25,7 +25,7 @@
 - Kevin Rose released an open source DocuSign alternative, whose name is garbled in the captions. The hosts caution that you still have to host and support it yourself.
 
 **Contrarian take:**
-- An unnamed Anthropic engineer is played saying "Pretty much all humans on Earth will become permanently unemployable". Kevin disagrees: "I just don't see the world where all human employment goes away".
+- An unnamed Anthropic engineer is played saying "Pretty much all humans on Earth will become permanently unemployable". Kevin disagrees: "I don't see the world where all human employment goes away".
 - The hosts' theories about what caused recent Outlook, airport and bank website outages are speculation, and Gavin concedes such takes are "something that isn't proven at all".
 
 **Steal this (do tomorrow):**

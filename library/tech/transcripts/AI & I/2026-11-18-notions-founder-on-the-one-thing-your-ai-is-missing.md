@@ -30,7 +30,7 @@
 **Steal this (do tomorrow):**
 - List your team's home-made AI tools and mark each one as modify, buy, or security-critical.
 - Write down where your hiring know-how lives and whether an agent could read it.
-- Add the "explain it back" rule to any long, late session with an AI assistant.
+- Add the explain it back rule to any long, late session with an AI assistant.
 <!--/SUMMARY-->
 
 # Notion’s Founder on the One Thing Your AI Is Missing
