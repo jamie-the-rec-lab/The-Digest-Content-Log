@@ -20,6 +20,7 @@
 <meta property="og:title" content="TheRecLab Weekly Digest">
 <meta property="og:description" content="I got sick of hunting for all my fav recruiting content, so I built a bunch of agents that find it all for me and save it into my 'recruiting brain'. Check out this week's version to stay up to date with the latest.">
 <meta property="og:type" content="website">
+<link rel="canonical" href="https://www.thereclab.ai/digest">
 <meta property="og:url" content="https://www.thereclab.ai/digest">
 <meta property="og:image" content="https://www.thereclab.ai/assets/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -107,6 +108,8 @@
   .topsub button:hover{background:#93341a}
   .topsub button:disabled{opacity:.6;cursor:default}
   .topsub .msg{flex-basis:100%;font-size:12.5px;margin:2px 0 0;min-height:0}
+  .topsub .msg:empty,.signup .msg:empty{display:none}
+  .topsub .fine{margin-top:0}
   .topsub .msg.ok{color:#3f7d3f}
   .topsub .msg.err{color:#b3411f}
   .foot .sources-link{color:#b3411f;font-weight:600;cursor:pointer;text-decoration:none}
@@ -152,7 +155,7 @@
       <h1 class="kicker">TheRecLab Weekly Digest</h1>
       <div class="date">Version {{VERSION}} ({{MONDAY DATE}})</div>
     </div>
-    <p class="subtitle">A weekly digest of high quality recruiting content, built so you can quickly skim what's been going on in recruiting, while making it easy to double click on the content that resonates each week. The sources carefully selected by <a href="https://www.linkedin.com/in/jamiejaylyons/" target="_blank" rel="noopener">Jamie Jay Lyons</a></p>
+    <p class="subtitle">A weekly digest of high quality recruiting content, built so you can quickly skim what's been going on in recruiting, then making it easy to double click on the content that resonates each week. The sources carefully selected by <a href="https://www.linkedin.com/in/jamiejaylyons/" target="_blank" rel="noopener">Jamie Jay Lyons</a></p>
     <!-- TOP SIGNUP: keep this block as-is on every weekly rebuild. Shares /api/subscribe (Resend). -->
     <div class="topsub">
       <form class="subform" novalidate>
@@ -161,7 +164,7 @@
         <button type="submit">Subscribe</button>
       </form>
       <p class="msg" role="status" aria-live="polite"></p>
-      <p class="fine">By subscribing you agree to receive the weekly digest by email from TheRecLab. We count link clicks in total, never per person, to improve it. Unsubscribe any time. <a href="/privacy">Privacy policy</a></p>
+      <p class="fine">By subscribing you agree to receive the weekly digest by email from TheRecLab. Unsubscribe any time. <a href="/privacy">Privacy policy</a></p>
     </div>
   </header>
 
@@ -260,7 +263,7 @@
       <button type="submit" id="signup-btn">Subscribe</button>
     </form>
     <p class="msg" id="signup-msg" role="status" aria-live="polite"></p>
-    <p class="fine">By subscribing you agree to receive the weekly digest by email from TheRecLab. We count link clicks in total, never per person, to improve it. Unsubscribe any time. <a href="/privacy">Privacy policy</a> &middot; <a href="/terms">Terms</a></p>
+    <p class="fine">By subscribing you agree to receive the weekly digest by email from TheRecLab. Unsubscribe any time. <a href="/privacy">Privacy policy</a> &middot; <a href="/terms">Terms</a></p>
   </div>
 </div>
   <!-- SOURCES OVERLAY: keep this block and its wiring as-is on every weekly rebuild. -->

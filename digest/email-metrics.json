@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-22",
- "note": "Email figures per edition, read from Resend. Written by a session or run, read by scripts/health_report.py. Open and click tracking was switched on 21 November 2026; editions sent before then have no open or click data.",
+ "note": "Email delivery figures per edition, read from Resend. Written by a session or run, read by scripts/health_report.py. The email tracks no opens or clicks (Jamie's call, 22 November 2026): open and click tracking is off in Resend. Open fields on older entries stay null.",
  "editions": [
   {
    "version": 8,

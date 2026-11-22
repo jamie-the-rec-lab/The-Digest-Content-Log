@@ -9,7 +9,7 @@ about me?". It holds no personal data itself.
 - **Public notice:** https://thereclab.ai/privacy (keep the two in step: if this
   page changes, check whether the privacy policy must change too, and the other
   way round)
-- **Last reviewed:** 21 November 2026. Review once a year, and whenever a tool
+- **Last reviewed:** 22 November 2026. Review once a year, and whenever a tool
   that touches personal data is added, changed or dropped.
 
 ## What is held
@@ -17,8 +17,9 @@ about me?". It holds no personal data itself.
 | What | Whose | Why | Legal basis | Where it lives | How long |
 |---|---|---|---|---|---|
 | Email address, sign-up date, subscribed or unsubscribed | Digest subscribers | Send the weekly digest and welcome email | Consent, given at the sign-up form | Resend (stored in the US) | Until they unsubscribe; then kept as "unsubscribed" so they are not emailed again; deleted on request |
-| Delivery, bounce, open and click records (clicks include IP address and browser) | Digest subscribers | Keep the list working; see which editions and items are read | Legitimate interests. Open and click tracking is on at Jamie's decision (see below) | Resend | About 30 days in Resend's logs; edition totals only in `digest/email-metrics.json` |
+| Delivery and bounce records | Digest subscribers | Keep the list working | Legitimate interests | Resend | About 30 days in Resend's logs; edition totals only in `digest/email-metrics.json` |
 | Email address in a signed confirmation link | People who unsubscribed and are entered in the form again | Let them confirm before being re-subscribed | Legitimate interests | In the link itself and Resend's send log; nothing stored by the site | Link works for 48 hours |
+| Page visit counts: page, referring site, country, device type, browser (no cookies; a daily visitor code thrown away after 24 hours) | Website visitors | See which pages are read, including visits from the email's web link (`/digest/subscriber`) | Legitimate interests | Vercel Web Analytics | Totals only; Vercel keeps 12 months of reports on Pro |
 | IP address, browser details | Website visitors | Deliver the pages, keep the site secure | Legitimate interests | Vercel and Cloudflare logs | About a day in the logs we can see; the hosts keep their own for their own periods |
 | Emails people send | Anyone who writes in | Reply and deal with the request | Legitimate interests | Google Workspace mailbox | As long as needed for the request |
 | Name and email when booking a call | People who book | Arrange and hold the meeting | Legitimate interests | Google Calendar | With the calendar entry |
@@ -34,12 +35,13 @@ passwords or logins for the public, special category data.
 
 | Company | What for | Agreement |
 |---|---|---|
-| Resend (Plus Five Five, Inc., US) | Subscriber list, sending, open and click tracking | Processor terms accepted with its terms of service |
-| Vercel (US), Pro plan | Website hosting, the sign-up function | Processor terms apply on Pro |
+| Resend (Plus Five Five, Inc., US) | Subscriber list, sending (open and click tracking off) | Processor terms accepted with its terms of service |
+| Vercel (US), Pro plan | Website hosting, the sign-up function, Web Analytics (page visit totals) | Processor terms apply on Pro |
 | Cloudflare (US) | Domain, DNS, routing traffic | Processor terms in its self-serve agreement |
 | Google (Workspace) | Mailbox and calendar | Processor terms in the Workspace agreement |
 | Anthropic (Claude, personal Max plan) | AI tools that build the digest; they can read the mailbox and the Resend account | **No processor agreement on a personal plan.** Model training and location metadata switched off in settings, 21 Nov 2026. A Team, Enterprise or API account would add one |
-| GitHub | Private storage of this repo and the website | Standard terms; keep subscriber data out of the repos |
+| GitHub | Private storage of this repo and the website |
+| Supabase (data stored in the EU, Frankfurt) | The CV Invaders leaderboard | Standard terms. The project is paused as of 22 Nov 2026, so the leaderboard may not be saving | Standard terms; keep subscriber data out of the repos |
 | Registered Address Ltd | The published postal address; scans post | Their terms; renews 21 Nov 2027 |
 
 Data leaves the UK for the US with each of the US companies above. Safeguards:
@@ -48,13 +50,21 @@ clauses in the processor terms.
 
 ## Decisions on record
 
-- **Open and click tracking stays on** (Jamie, 21 Nov 2026), disclosed at the
-  sign-up form, in the privacy policy, in the welcome email and in a one-off note
-  to existing subscribers. UK and EU regulators' guidance is that per-person open
-  tracking needs consent first, so this is a known, accepted gap.
-- **ICO data protection fee: not registered** (Jamie, 21 Nov 2026). The
-  exemption is arguable, not confirmed. Revisit if the list grows, a paid product
-  starts, or a complaint arrives.
+- **The email tracks nothing** (Jamie, 22 Nov 2026). Open and click tracking
+  is off in Resend and links go straight to each page. This replaced the 21 Nov
+  decision to track opens and clicks per person, which regulators' guidance says
+  needs consent. The sign-up small print, the privacy policy and the welcome
+  email no longer mention tracking. A same-night trial of counting clicks in
+  total was dropped. If tracking ever comes back, update all three first.
+- **Website page visits are counted** with Vercel Web Analytics (Jamie, 22 Nov
+  2026): no cookies, totals only, described in the privacy policy. The email's
+  "View this edition on the web" link uses `/digest/subscriber` so email visits
+  show separately, in total.
+- **ICO data protection fee: registered** (Jamie, 22 Nov 2026). The ICO's own
+  self-assessment said a fee is due (consultancy work rules out the
+  exemptions): Tier 1, paid by card, application number C2094241. It does not
+  renew itself, so renew each November. When the registration number (ZA...)
+  arrives, add it here and to "Who we are" on the privacy page.
 - **Single opt-in for new sign-ups.** Returning unsubscribers must confirm by
   email. Revisit double opt-in for everyone if junk sign-ups appear.
 - **No EU representative, no formal impact assessment.** Judged out of
@@ -89,6 +99,9 @@ be; an email goes to the wrong list.
 
 ## Keeping accounts safe
 
-Two-step sign-in on every account that can reach this data: Google, Resend,
-Vercel, Cloudflare, GitHub, Registered Address and Claude. A password manager.
+Two-step sign-in on every account that can reach this data: Google (both the
+thereclab.ai and personal Gmail accounts), Resend, Vercel, Cloudflare, GitHub
+and Claude, all checked or switched on 22 Nov 2026, with backup codes saved.
+Registered Address offers no two-step, so it has a unique generated password.
+Supabase not yet checked. A password manager.
 API keys with the least access they need, and never in a file.

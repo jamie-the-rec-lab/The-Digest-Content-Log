@@ -8,6 +8,7 @@
 <meta property="og:title" content="TheRecLab Weekly Digest">
 <meta property="og:description" content="I got sick of hunting for all my fav recruiting content, so I built a bunch of agents that find it all for me and save it into my 'recruiting brain'. Check out this week's version to stay up to date with the latest.">
 <meta property="og:type" content="website">
+<link rel="canonical" href="https://www.thereclab.ai/digest">
 <meta property="og:url" content="https://www.thereclab.ai/digest">
 <meta property="og:image" content="https://www.thereclab.ai/assets/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -95,6 +96,8 @@
   .topsub button:hover{background:#93341a}
   .topsub button:disabled{opacity:.6;cursor:default}
   .topsub .msg{flex-basis:100%;font-size:12.5px;margin:2px 0 0;min-height:0}
+  .topsub .msg:empty,.signup .msg:empty{display:none}
+  .topsub .fine{margin-top:0}
   .topsub .msg.ok{color:#3f7d3f}
   .topsub .msg.err{color:#b3411f}
   .foot .sources-link{color:#b3411f;font-weight:600;cursor:pointer;text-decoration:none}
@@ -127,6 +130,9 @@
   @media(max-width:1340px){.page{padding-top:0}.backlink{position:static;transform:none;margin:32px 0 12px 6px}}
   @media(max-width:600px){.summary li{flex-direction:column;gap:3px;align-items:flex-start}.summary .pick{flex-basis:auto}.htop{flex-direction:column;align-items:flex-start;gap:8px}body{background:#fbfaf7}.digest{background:none;box-shadow:none;border-radius:0;padding:36px 20px 30px;margin:0}.kicker{font-size:23px}header{padding-bottom:12px;margin-bottom:20px}.date{font-size:11px}.backlink{margin:16px 0 6px 20px}a.ttl{font-size:17px}.cdate{font-size:11px}.signup{border-radius:0;border-left:none;border-right:none;margin:0}}
 </style>
+<!-- Vercel Web Analytics: cookieless page view counts, nothing stored per person. See the privacy page. -->
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <div class="page">
@@ -137,7 +143,7 @@
       <h1 class="kicker">TheRecLab Weekly Digest</h1>
       <div class="date">Version 10 (23rd November 2026)</div>
     </div>
-    <p class="subtitle">A weekly digest of high quality recruiting content, built so you can quickly skim what's been going on in recruiting, while making it easy to double click on the content that resonates each week. The sources carefully selected by <a href="https://www.linkedin.com/in/jamiejaylyons/" target="_blank" rel="noopener">Jamie Jay Lyons</a></p>
+    <p class="subtitle">A weekly digest of high quality recruiting content, built so you can quickly skim what's been going on in recruiting, then making it easy to double click on the content that resonates each week. The sources carefully selected by <a href="https://www.linkedin.com/in/jamiejaylyons/" target="_blank" rel="noopener">Jamie Jay Lyons</a></p>
     <!-- TOP SIGNUP: keep this block as-is on every weekly rebuild. Shares /api/subscribe (Resend). -->
     <div class="topsub">
       <form class="subform" novalidate>
@@ -146,7 +152,7 @@
         <button type="submit">Subscribe</button>
       </form>
       <p class="msg" role="status" aria-live="polite"></p>
-      <p class="fine">By subscribing you agree to receive the weekly digest by email from TheRecLab. We measure opens and link clicks to improve it. Unsubscribe any time. <a href="/privacy">Privacy policy</a></p>
+      <p class="fine">By subscribing you agree to receive the weekly digest by email from TheRecLab. Unsubscribe any time. <a href="/privacy">Privacy policy</a></p>
     </div>
   </header>
 
@@ -297,7 +303,7 @@
       <button type="submit" id="signup-btn">Subscribe</button>
     </form>
     <p class="msg" id="signup-msg" role="status" aria-live="polite"></p>
-    <p class="fine">By subscribing you agree to receive the weekly digest by email from TheRecLab. We measure opens and link clicks to improve it. Unsubscribe any time. <a href="/privacy">Privacy policy</a> &middot; <a href="/terms">Terms</a></p>
+    <p class="fine">By subscribing you agree to receive the weekly digest by email from TheRecLab. Unsubscribe any time. <a href="/privacy">Privacy policy</a> &middot; <a href="/terms">Terms</a></p>
   </div>
 </div>
   <!-- SOURCES OVERLAY: keep this block and its wiring as-is on every weekly rebuild. -->

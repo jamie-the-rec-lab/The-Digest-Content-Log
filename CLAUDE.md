@@ -48,6 +48,38 @@ fact-check never falls below the strongest available.
    jamie@thereclab.ai via Gmail. Include the review link and the pull request
    link from `_state/publish-report.json`.
 
+## Standing decisions (Jamie's calls, November 2026). Do not undo them.
+
+These hold for every run and every session. The templates, checks and email
+builder already follow them; this list is here so nobody "fixes" them back.
+
+- **The weekly brief is two paragraphs.** The recruiting news, then a separate
+  `<p class="brief-text">` that opens "And in the world of AI," (drop it in a
+  week with no general AI item). `STYLE.md`, the template and `final_check.py`.
+- **The header subtitle is fixed wording** (in the template; never rewrite it):
+  "A weekly digest of high quality recruiting content, built so you can quickly
+  skim what's been going on in recruiting, then making it easy to double click on
+  the content that resonates each week. The sources carefully selected by Jamie
+  Jay Lyons".
+- **Privacy and Terms links sit only by the sign-up forms**, not in the footer
+  line. The top form's small print links to the privacy policy; the bottom
+  form's to the privacy policy and Terms. Both read exactly: "By subscribing you
+  agree to receive the weekly digest by email from TheRecLab. Unsubscribe any
+  time."
+- **The email tracks nothing.** Open and click tracking stay off in Resend, links
+  go straight to each page, no tracking parameters, no tracking image, no click
+  counting. The sign-up small print, the privacy policy and the welcome email all
+  say or assume this, so tracking cannot come back without Jamie changing all
+  three first.
+- **Every page loads Vercel Web Analytics** (cookieless page visit totals) from
+  the template's `<head>`, and the digest page carries a canonical tag pointing
+  at `/digest`. The email's "View this edition on the web" link goes to
+  `https://thereclab.ai/digest/subscriber`, the same page under its own address,
+  so email visits show separately, in total.
+- **The record of processing is `docs/DATA_RECORD.md`.** Any change to what
+  personal data is collected, by which tool, means updating it and the privacy
+  page (`/privacy` on the site) together.
+
 ## Non-negotiable
 
 - **Never go live directly, and never merge.** The run pushes the new edition to
@@ -68,8 +100,8 @@ fact-check never falls below the strongest available.
   **One read-only exception (Jamie's call, 21 November 2026, updated 22
   November): the email figures.** To fill in the delivery numbers for the
   report, the run may call exactly two Resend tools, which only read:
-  `list-broadcasts` and `get-email-metrics`. Nothing else, ever. Click totals
-  come from Vercel's `get_web_analytics` (read-only), not from Resend. Never `list-contacts`,
+  `list-broadcasts` and `get-email-metrics`. Nothing else, ever. The email
+  tracks no opens or clicks (Jamie's call, 22 November 2026). Never `list-contacts`,
   `list-broadcast-recipients` or anything that returns who the subscribers are.
   Try once. If a call is refused, missing or asks for approval, do not wait and
   do not retry: carry on with the figures already saved and log it. See "Email
