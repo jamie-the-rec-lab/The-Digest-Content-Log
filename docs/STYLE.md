@@ -276,6 +276,12 @@ Then ONE closing sentence for the AI that has NO recruiting angle at all,
 opening "And in the world of AI, ". General model releases, how other companies
 are building with AI, the tech shows' non-hiring material.
 
+**The AI sentence is its own paragraph** (Jamie's call, 22 November 2026). On the
+page it is a second `<p class="brief-text">` straight after the recruiting
+paragraph, never the tail of the first one. The template shows the two lines,
+`scripts/final_check.py` flags it if they are merged, and `build_email.py` carries
+both paragraphs into the email.
+
 **The split is by SUBJECT, not by section.** This is the part that is easy to get
 wrong. An item can sit in Section 4 and still belong in the recruiting sentences,
 because the sections sort content by type and the preview sorts it by what the
@@ -289,8 +295,9 @@ drop it.
 > hiring bars are jumping a step, now junior staff must judge AI output the way a
 > manager once judged a task, and a polished CV stops proving much once every
 > application is AI-assisted. Camunda's five minute recruiting kickoff and
-> SpaceX's always-on sourcing agent show what real workflow builds look like. And
-> in the world of AI, OpenAI's new GPT-6 Astra can now fill in forms and update
+> SpaceX's always-on sourcing agent show what real workflow builds look like.
+>
+> And in the world of AI, OpenAI's new GPT-6 Astra can now fill in forms and update
 > records for you, while Stripe runs an in-house AI assistant for 10,000 staff a
 > week on a team of under ten.
 

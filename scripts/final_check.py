@@ -61,9 +61,14 @@ def real_commas(p):
     return max(n, 0)
 
 
+def brief_paras(s):
+    s = re.sub(r"<!--.*?-->", "", s, flags=re.S)  # the template's own notes mention the tag
+    return [text(x) for x in re.findall(r'<p class="brief-text">(.*?)</p>', s, re.S)]
+
+
 def brief(s):
-    m = re.search(r'<p class="brief-text">(.*?)</p>', s, re.S)
-    return text(m.group(1)) if m else ""
+    # all brief paragraphs read as one passage for the sentence and word checks
+    return " ".join(brief_paras(s))
 
 
 if __name__ == "__main__":
@@ -139,6 +144,18 @@ if __name__ == "__main__":
             issues.append(("brief: last sentence should open 'And in the world of AI' "
                            "(drop it entirely if there is no general AI item this week)",
                            sentences[-1][:110]))
+        # Since 22 Nov 2026 the AI sentence is its own paragraph (Jamie's call).
+        paras = brief_paras(s)
+        if len(paras) > 2:
+            issues.append(("brief: %d paragraphs, spec says the recruiting news then "
+                           "at most one AI paragraph" % len(paras), paras[2][:80]))
+        if len(paras) >= 1 and "And in the world of AI" in paras[0]:
+            issues.append(("brief: 'And in the world of AI' must start its own "
+                           "<p class=\"brief-text\">, not sit inside the first paragraph",
+                           paras[0][:80]))
+        if len(paras) >= 2 and not paras[1].lstrip().startswith("And in the world of AI"):
+            issues.append(("brief: the second paragraph should open 'And in the world of AI'",
+                           paras[1][:80]))
         for sen in sentences:
             n = len(sen.split())
             if n > 32:

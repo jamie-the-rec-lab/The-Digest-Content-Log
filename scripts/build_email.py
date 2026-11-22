@@ -61,9 +61,12 @@ def main(src, outp):
 
     # week in brief: brief-label + brief-text pair, then the standouts heading
     bl=soup.select_one(".summary .brief-label")
-    bt=soup.select_one(".summary .brief-text")
+    # The brief is up to two paragraphs: the recruiting news, then a separate
+    # paragraph opening "And in the world of AI,". Keep every one, in order.
+    brief_paras=[b.get_text(" ", strip=True) for b in soup.select(".summary .brief-text")]
+    brief_paras=[b for b in brief_paras if b]
     brief_label=bl.get_text(strip=True) if bl else ""
-    theme=bt.get_text(" ", strip=True) if bt else ""
+    theme="\n\n".join(brief_paras)
     sh=soup.select_one(".summary h2.sh")
     standout_heading=sh.get_text(" ", strip=True) if sh else "Standout content from this week"
     standouts=[]
@@ -146,6 +149,10 @@ def main(src, outp):
 
     sect_html="".join(bar(lbl)+"".join(item_html(*it) for it in items) for lbl,items in sections)
 
+    # one <p> per brief paragraph; the last keeps the wider gap before the standouts
+    brief_html="\n".join(
+        f'<p style="margin:0 0 {18 if i==len(brief_paras)-1 else 10}px;font-family:{FONT};font-size:14px;color:{BODY};line-height:1.55;">{esc(b)}</p>'
+        for i,b in enumerate(brief_paras))
     email=f'''<!DOCTYPE html>
 <html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>{esc(kicker)}</title></head>
 <body style="margin:0;padding:0;background-color:#efe9df;">
@@ -160,7 +167,7 @@ def main(src, outp):
 <tr><td style="padding:22px 20px 8px;">
 {notice_html}
 <p style="margin:0 0 6px;font-family:{FONT};font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:{DARK};">{esc(brief_label)}</p>
-<p style="margin:0 0 18px;font-family:{FONT};font-size:14px;color:{BODY};line-height:1.55;">{esc(theme)}</p>
+{brief_html}
 <p style="margin:0 0 12px;font-family:{FONT};font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:{COR};">{esc(standout_heading)}</p>
 {so_html}
 </td></tr>
