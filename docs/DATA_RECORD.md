@@ -36,12 +36,12 @@ passwords or logins for the public, special category data.
 | Company | What for | Agreement |
 |---|---|---|
 | Resend (Plus Five Five, Inc., US) | Subscriber list, sending (open and click tracking off) | Processor terms accepted with its terms of service |
-| Vercel (US), Pro plan | Website hosting, the sign-up function, Web Analytics (page visit totals), the CV Invaders game and its leaderboard (Blob, London) | Processor terms apply on Pro |
+| Vercel (US), Pro plan | Website hosting, the sign-up function, Web Analytics (page visit totals), the CV Invaders game and its leaderboard (Blob, London), and the First Founding Engineer pack at /packs/founding-engineer (its own Vercel project; collects nothing, embeds YouTube in its no-cookie mode) | Processor terms apply on Pro |
 | Cloudflare (US) | Domain, DNS, routing traffic | Processor terms in its self-serve agreement |
 | Google (Workspace) | Mailbox and calendar | Processor terms in the Workspace agreement |
 | Anthropic (Claude, personal Max plan) | AI tools that build the digest; they can read the mailbox and the Resend account | **No processor agreement on a personal plan.** Model training and location metadata switched off in settings, 21 Nov 2026. A Team, Enterprise or API account would add one |
 | GitHub | Private storage of this repo and the website |
-| Supabase (EU) | **Being retired.** Held the CV Invaders leaderboard until 22 Nov 2026; scores moved to Vercel Blob. Delete the project and account once the move is live | Standard terms | Standard terms; keep subscriber data out of the repos |
+| Supabase (EU) | **Retired 23 Nov 2026.** Held the CV Invaders leaderboard until 22 Nov 2026; scores moved to Vercel Blob, then both Supabase projects were deleted. Jamie keeps one database backup privately (it holds players' names and companies); delete it once it is no longer needed | None now | None now |
 | Registered Address Ltd | The published postal address; scans post | Their terms; renews 21 Nov 2027 |
 
 Data leaves the UK for the US with each of the US companies above. Safeguards:
