@@ -9,6 +9,10 @@ Format: date, what changed, why.
 
 ---
 
+## 2026-11-23
+
+- DATA_RECORD: Supabase marked retired (both projects deleted, backup kept privately); Vercel row now includes the Founding Engineer pack at /packs/founding-engineer. Why: the CV Invaders move is finished and the pack moved onto thereclab.ai.
+
 ## 2026-11-22
 
 - `DATA_RECORD.md`: CV Invaders moved onto thereclab.ai and its leaderboard from Supabase to a private Vercel Blob file in London; Supabase marked for deletion. Why: one host and one fewer supplier holding personal data.
