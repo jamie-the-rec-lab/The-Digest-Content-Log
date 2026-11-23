@@ -63,8 +63,9 @@ clauses in the processor terms.
 - **ICO data protection fee: registered** (Jamie, 22 Nov 2026). The ICO's own
   self-assessment said a fee is due (consultancy work rules out the
   exemptions): Tier 1, paid by card, application number C2094241. It does not
-  renew itself, so renew each November. When the registration number (ZA...)
-  arrives, add it here and to "Who we are" on the privacy page.
+  renew itself, so renew each November. Registration number **ZC309650**
+  (confirmed 23 Nov 2026), shown on the privacy page; the certificate is on the
+  public register at https://ico.org.uk/register (search by the number).
 - **Single opt-in for new sign-ups.** Returning unsubscribers must confirm by
   email. Revisit double opt-in for everyone if junk sign-ups appear.
 - **No EU representative, no formal impact assessment.** Judged out of
