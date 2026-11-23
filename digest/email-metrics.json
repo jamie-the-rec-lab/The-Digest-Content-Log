@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "note": "Email delivery figures per edition, read from Resend. Written by a session or run, read by scripts/health_report.py. The email tracks no opens or clicks (Jamie's call, 22 November 2026): open and click tracking is off in Resend. Open fields on older entries stay null.",
  "editions": [
   {
@@ -26,6 +26,20 @@
    "delivered": 137,
    "bounced": 4,
    "unsubscribed": 1,
+   "unique_opened": null,
+   "unique_clicked": null,
+   "top_links": []
+  },
+  {
+   "version": 10,
+   "edition_date": "23rd November 2026",
+   "broadcast_id": "e9bcf254-44d5-476f-9c5d-a9f1bcfc78a0",
+   "sent_on": "2026-11-24",
+   "tracked": false,
+   "sent": null,
+   "delivered": null,
+   "bounced": null,
+   "unsubscribed": null,
    "unique_opened": null,
    "unique_clicked": null,
    "top_links": []
